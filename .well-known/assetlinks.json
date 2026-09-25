@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.zeliny0109.gendu",
+    "sha256_cert_fingerprints": ["84:80:04:C4:B4:CA:01:6A:E4:33:2D:4D:EC:1F:AF:CE:C8:C9:9C:A6:16:E3:CD:9D:F9:82:18:A0:33:24:16:35"]
+  }
+}]
