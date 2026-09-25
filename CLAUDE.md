@@ -15,3 +15,4 @@
 - 部署：推送 main 分支即自动部署到 GitHub Pages https://zeliny0109.github.io/gendu/ （.github/workflows/pages.yml），必须是 https 才能在手机上用麦克风
 - PWA：manifest.webmanifest + sw.js（离线缓存）+ 图标；改了 index.html 记得把 sw.js 的 VERSION 加一
 - 修改时保持无构建工具（主逻辑仍在单个 index.html 里）；麦克风相关代码需在 https 或 localhost 下测试
+- Android：android/ 目录用 Bubblewrap 打成 TWA，APK 发布为仓库根目录 gendu.apk；签名密钥在 android/gendu.keystore（不入库），细节见 android/README.md

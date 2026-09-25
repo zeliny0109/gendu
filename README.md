@@ -22,6 +22,14 @@ python3 -m http.server 8000
 - 手机浏览器打开后，可"添加到主屏幕"（iPhone 用 Safari 分享菜单；Android 用 Chrome 菜单里的"安装应用"），之后像普通 App 一样点图标打开，离线也能用。
 - 代码放在 https://github.com/zeliny0109/gendu ，推送到 main 分支后 GitHub Actions 会自动把内容同步到 gh-pages 分支并重新发布（见 .github/workflows/pages.yml）。
 
+### Android 安装包
+
+不想用浏览器安装的话，可以直接装 APK（约 1.2 MB，需要手机上有 Chrome）：
+
+**https://zeliny0109.github.io/gendu/gendu.apk**
+
+手机浏览器打开这个链接下载，安装时允许"来自此来源的应用"。装好后是独立的"跟读练习"应用，页面内容仍来自上面的网址，网页更新后应用自动跟着更新，不用重新安装。打包方法见 android/README.md。
+
 ### 更新方法
 
 ```bash
