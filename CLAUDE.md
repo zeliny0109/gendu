@@ -14,6 +14,12 @@
 - 示范录音存储：IndexedDB（`idb`），自定义句子存 localStorage
 - 播放增益：`wire()` 把 Audio 元素接到 GainNode → DynamicsCompressor；`normGain(peak)` 峰值归一，`GAIN` 用户增益（localStorage `gd:gain`）；`playMine()` 按 `c.t0/t1` 掐掉录音前后空白
 
+## 时态语态（grammar/index.html）
+- 独立的第二个单文件应用，线上 /gendu/grammar/，主应用列表上方有入口链接；与主应用共用 sw.js（SHELL 里含 grammar/，改了也要把 VERSION 加一）
+- 按课本九上语法编排：U1 现在完成时(Ⅰ)、U2 被动语态(Ⅰ)、U3 现在完成时(Ⅱ)、U4 被动语态(Ⅱ)，外加综合、不规则动词三态
+- `/*__ENGINE_END__*/` 之前是不碰 DOM 的数据与引擎（`build()` 按 场景×时态×语态×句型 造句并标注词的角色，`makeQ(spec)` 由可序列化的 spec 出题），可以截出来用 node 测；`MCQ` 是手写选择题库（正确答案写在第一个）
+- 存储：localStorage `gm:best`（各专题最高分）、`gm:wrong`（错题 spec）
+
 ## 常用任务
 - 本地运行：`python3 -m http.server 8000`，打开 http://localhost:8000
 - 部署：推送 main 分支即自动部署到 GitHub Pages https://zeliny0109.github.io/gendu/ （.github/workflows/pages.yml），必须是 https 才能在手机上用麦克风

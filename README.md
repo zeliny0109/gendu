@@ -22,6 +22,12 @@ python3 -m http.server 8000
 - 手机浏览器打开后，可"添加到主屏幕"（iPhone 用 Safari 分享菜单；Android 用 Chrome 菜单里的"安装应用"），之后像普通 App 一样点图标打开，离线也能用。
 - 代码放在 https://github.com/zeliny0109/gendu ，推送到 main 分支后 GitHub Actions 会自动把内容同步到 gh-pages 分支并重新发布（见 .github/workflows/pages.yml）。
 
+### 时态语态练习
+
+**https://zeliny0109.github.io/gendu/grammar/** （跟读页面的句子列表上方也有入口）
+
+按九上课本编排的现在完成时、被动语态讲解，加一个“变形器”（同一句话切换时态/句型，主动被动对照着看），以及选择、填空、连词成句、不规则动词练习和错题本。
+
 ### Android 安装包
 
 不想用浏览器安装的话，可以直接装 APK（约 1.2 MB，需要手机上有 Chrome）：
