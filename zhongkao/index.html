@@ -119,6 +119,9 @@ textarea{width:100%;font:inherit;border:1.5px solid var(--line);border-radius:12
 .kpchips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .kpchips a{font-size:.8rem;border:1px solid var(--line);border-radius:999px;padding:1px 10px;text-decoration:none;color:var(--ink)}
 .note{font-size:.8rem;color:var(--mid)}
+.audio{padding:10px 12px} .audio audio{width:100%;display:block;margin-bottom:4px}
+.fillin{font:inherit;font-size:1.05rem;border:1.5px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--card);color:var(--ink);width:100%;margin:8px 0}
+.fillin.ok{border-color:var(--ok);background:var(--ok-soft)} .fillin.bad{border-color:var(--bad);background:var(--bad-soft)}
 .pbar{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin-bottom:12px}
 .pbar i{display:block;height:100%;background:var(--pri)}
 .foot{font-size:.75rem;color:var(--muted);text-align:center;margin-top:28px}
@@ -187,6 +190,11 @@ async function loadPapers(id) {
     const mats = {}; (p.materials || []).forEach(m => mats[m.id] = m);
     p.questions.forEach(q => S.qMap[q.id] = { ...q, year: p.year, subject: id, mat: q.material ? mats[q.material] : null });
   }));
+  // 英语听力原文与合成音频：clip[qid] = 这道题对应的那段录音
+  if (S.meta.listening && !S.clip) {
+    S.clip = {};
+    await Promise.all(S.meta.listening.map(y => getJSON(`data/${id}/listening/${y}.json`).then(L => L.clips.forEach(c => c.qs.forEach(q => S.clip[q] = c))).catch(() => {})));
+  }
   return S;
 }
 async function loadLessons(id) {
@@ -296,7 +304,7 @@ async function home() {
   const due = Object.entries(store.get('zk:srs', {})).filter(([, v]) => v.due <= today()).length;
   // 今日任务：全科按“价值 × 薄弱程度”排序，每科最多 2 个，已学过的才排
   const all = [];
-  ready.forEach(s => { const S = SUBJ[s.id]; Object.values(S.kpMap).forEach(k => { if (k.st.qs.length && learned(k) && !/听力/.test(k.module)) all.push({ S, k, p: priority(S, k) }); }); });
+  ready.forEach(s => { const S = SUBJ[s.id]; Object.values(S.kpMap).forEach(k => { if (k.st.qs.length && learned(k) && ((S.meta.listening || []).length || !/听力/.test(k.module))) all.push({ S, k, p: priority(S, k) }); }); });
   all.sort((a, b) => b.p - a.p);
   const per = {}, tasks = [];
   for (const t of all) { if ((per[t.S.meta.id] || 0) >= 2) continue; per[t.S.meta.id] = (per[t.S.meta.id] || 0) + 1; tasks.push(t); if (tasks.length >= 5) break; }
@@ -359,7 +367,8 @@ async function subjectPage(id, tab) {
     }
   } else {
     body = S.meta.years.slice().reverse().map(y => `<a class="task card" style="display:flex" href="#/practice/paper/${id}/${y.year}"><span class="tag">${String(y.year).slice(2)}</span>
-      <span class="tt"><b>${y.year} 年福建中考${S.meta.name}</b><span>${y.n} 题${y.total ? ' · ' + y.total + ' 分' : ''}${y.minutes ? ' · ' + y.minutes + ' 分钟' : ''}</span></span>›</a>`).join('');
+      <span class="tt"><b>${y.year} 年福建中考${S.meta.name}</b><span>${y.n} 题${y.total ? ' · ' + y.total + ' 分' : ''}${y.minutes ? ' · ' + y.minutes + ' 分钟' : ''}</span></span>›</a>
+      ${(S.meta.listening || []).includes(y.year) ? `<a class="btn sm" style="margin:-6px 0 14px" href="#/practice/listen/${id}/${y.year}">🎧 只做这一年的听力（20 题）</a>` : ''}`).join('');
   }
   view.innerHTML = tabs + body;
   $('#tabs').onclick = e => { const b = e.target.closest('button'); if (b) location.replace(`#/s/${id}/${b.dataset.t}`); };
@@ -401,11 +410,13 @@ async function practice(mode, a, b) {
     qids = k.st.qs.slice().sort((x, y) => (lastRes(x) ?? -1) - (lastRes(y) ?? -1)); title = k.name;
   } else if (mode === 'paper') {
     const S = await loadPapers(a); qids = S.papers[b].questions.map(q => q.id); title = `${b} ${S.meta.name}`;
+  } else if (mode === 'listen') {
+    const S = await loadPapers(a); qids = S.papers[b].questions.filter(q => q.type === 'listening').map(q => q.id); title = `${b} 英语听力`;
   } else if (mode === 'diag') {
     const S = await loadPapers(a); title = S.meta.name + ' 摸底';
     // 每个模块挑分值最高的 2 个考点，各取最近一年的一道题（优先客观题）
     const pickQ = k => {
-      const qs = k.st.qs.map(q => S.qMap[q]).filter(q => q && q.type !== 'listening').sort((x, y) => (['choice', 'blank'].includes(y.type) - ['choice', 'blank'].includes(x.type)) || y.year - x.year);
+      const qs = k.st.qs.map(q => S.qMap[q]).filter(q => q && (q.type !== 'listening' || (S.clip && S.clip[q.id]))).sort((x, y) => (['choice', 'blank'].includes(y.type) - ['choice', 'blank'].includes(x.type)) || y.year - x.year);
       return qs[0] && qs[0].id;
     };
     S.kp.modules.forEach(m => m.kps.map(k => S.kpMap[k.id]).filter(k => k.st.qs.length && learned(k)).sort((x, y) => y.st.score - x.st.score).slice(0, 2)
@@ -432,17 +443,23 @@ function renderQ() {
   if (P.i >= P.qids.length) return practiceDone();
   const qid = P.qids[P.i], id = subjOfQ(qid), S = SUBJ[id], q = S.qMap[qid], base = `data/${id}/`;
   if (!q) { P.i++; return renderQ(); }
-  const auto = q.type === 'choice' && /^[A-D]$/.test((q.answer || '').trim());
+  const letter = /^[A-D]$/.test((q.answer || '').trim());
+  const auto = (q.type === 'choice' || q.type === 'listening') && letter;
+  // 听力看图题没有文字选项，给 A/B/C 按钮；听力填空题直接输入判分
+  const opts = q.options || (q.type === 'listening' && letter ? ['A', 'B', 'C'] : null);
+  const fillAuto = q.type === 'listening' && !letter && q.answer;
+  const clip = S.clip && S.clip[qid];
   view.innerHTML = `
     <div class="pbar"><i style="width:${P.i / P.qids.length * 100}%"></i></div>
     <div class="qhead"><span>${P.mode === 'srs' ? S.meta.name + ' · ' : ''}${qLabel(q)} · ${esc(q.section)} · ${q.score} 分</span><span>${P.i + 1}/${P.qids.length}</span></div>
+    ${clip && clip.audio ? `<div class="card audio"><audio controls preload="none" src="${base}${clip.audio}"></audio><div class="tiny muted">合成语音朗读（非考场原声）· 这段读 ${clip.repeat || 2} 遍</div></div>` : q.type === 'listening' ? '<p class="note">这道听力题暂时没有音频。</p>' : ''}
     ${q.mat ? `<div class="mat md" id="mat">${md(q.mat.text, base)}${figs(q.mat.figures, base)}</div>` : ''}
     <div class="card"><div class="stem md">${md(q.stem, base)}${figs(q.figures, base)}</div>
-      ${q.options ? `<div class="opts">${q.options.map(o => `<button class="opt" data-k="${esc(o.trim().charAt(0))}"><span class="md">${md(o, base)}</span></button>`).join('')}</div>` : ''}
-      ${!auto ? `<textarea id="myAns" placeholder="先自己写/算，再看答案（可以不写）"></textarea>` : ''}
+      ${opts ? `<div class="opts">${opts.map(o => `<button class="opt" data-k="${esc(o.trim().charAt(0))}"><span class="md">${md(o, base)}</span></button>`).join('')}</div>` : ''}
+      ${fillAuto ? `<input id="fillAns" class="fillin" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="填一个词">` : !auto ? `<textarea id="myAns" placeholder="先自己写/算，再看答案（可以不写）"></textarea>` : ''}
       ${q.note ? `<p class="note">转录说明：${esc(q.note)}</p>` : ''}
       <div id="fb"></div>
-      ${!auto ? `<button class="btn pri" id="show">看答案</button>` : ''}
+      ${fillAuto ? `<button class="btn pri" id="chk">检查</button>` : !auto ? `<button class="btn pri" id="show">看答案</button>` : ''}
     </div>`;
   typeset(view, id);
   const mat = $('#mat');
@@ -452,7 +469,8 @@ function renderQ() {
   }
   const kpChips = `<div class="kpchips">${(q.kp || []).map(k => S.kpMap[k] ? `<a href="#/k/${k}">${esc(S.kpMap[k].name)}</a>` : '').join('')}</div>`;
   const ansBox = cls => `<div class="ans ${cls}"><b>参考答案</b><div class="md">${q.answer ? md(q.answer, base) : '<span class="muted">这一年没有官方答案</span>'}${figs(q.answer_figures, base)}</div>
-    ${q.rubric ? `<div class="md small muted" style="margin-top:6px">${md(q.rubric, base)}</div>` : ''}${kpChips}</div>`;
+    ${q.rubric ? `<div class="md small muted" style="margin-top:6px">${md(q.rubric, base)}</div>` : ''}
+    ${clip ? `<details class="small" style="margin-top:8px"><summary>听力原文</summary>${clip.lines.map(l => `<div>${l.v === 'm' ? 'M' : 'W'}: ${esc(l.t)}</div>`).join('')}</details>` : ''}${kpChips}</div>`;
   const next = () => `<button class="btn pri" id="next">${P.i + 1 < P.qids.length ? '下一题 ›' : '看结果'}</button>`;
   if (auto) {
     view.querySelectorAll('.opt').forEach(b => b.onclick = () => {
@@ -463,6 +481,17 @@ function renderQ() {
       done(ok ? 1 : 0);
       $('#fb').innerHTML = ansBox(ok ? 'ok' : 'bad') + next(); typeset($('#fb'), id); $('#next').onclick = go;
     });
+  } else if (fillAuto) {
+    const inp = $('#fillAns');
+    inp.onkeydown = e => { if (e.key === 'Enter') $('#chk').click(); };
+    $('#chk').onclick = () => {
+      if (P.answered) return; P.answered = true;
+      const n = t => t.toLowerCase().replace(/[.,!?'’\s]+/g, ' ').trim();
+      const ok = q.answer.split(/[\/／]|或/).some(a => n(a) === n(inp.value));
+      inp.readOnly = true; inp.classList.add(ok ? 'ok' : 'bad'); $('#chk').hidden = true;
+      done(ok ? 1 : 0);
+      $('#fb').innerHTML = ansBox(ok ? 'ok' : 'bad') + next(); $('#next').onclick = go;
+    };
   } else {
     view.querySelectorAll('.opt').forEach(b => b.onclick = () => { view.querySelectorAll('.opt').forEach(x => x.classList.remove('sel')); b.classList.add('sel'); });
     $('#show').onclick = () => {

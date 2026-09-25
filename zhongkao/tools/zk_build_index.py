@@ -21,6 +21,7 @@ for sid, name, weight in META:
     kp = json.load(open(os.path.join(base, 'kp.json'), encoding='utf-8'))
     subs.append({'id': sid, 'name': name, 'weight': weight, 'ready': bool(years), 'years': years, 'questions': nq,
                  'kps': sum(len(m['kps']) for m in kp['modules']),
-                 'lessons': os.path.exists(os.path.join(base, 'lessons.json'))})
+                 'lessons': os.path.exists(os.path.join(base, 'lessons.json')),
+                 'listening': sorted(int(os.path.basename(f)[:4]) for f in glob.glob(os.path.join(base, 'listening', '*.json')))})
 json.dump({'subjects': subs}, open(os.path.join(DATA, 'index.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 for s in subs: print(s['name'], '就绪' if s['ready'] else '未就绪', s.get('questions', 0), '题', s.get('kps', 0), '考点')

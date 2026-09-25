@@ -57,7 +57,8 @@
    ],
    "questions": 221,
    "kps": 75,
-   "lessons": true
+   "lessons": true,
+   "listening": []
   },
   {
    "id": "shuxue",
@@ -116,7 +117,8 @@
    ],
    "questions": 267,
    "kps": 75,
-   "lessons": true
+   "lessons": true,
+   "listening": []
   },
   {
    "id": "yingyu",
@@ -175,7 +177,10 @@
    ],
    "questions": 728,
    "kps": 103,
-   "lessons": true
+   "lessons": true,
+   "listening": [
+    2025
+   ]
   },
   {
    "id": "wuli",
@@ -228,7 +233,8 @@
    ],
    "questions": 357,
    "kps": 109,
-   "lessons": true
+   "lessons": true,
+   "listening": []
   },
   {
    "id": "huaxue",
@@ -281,7 +287,8 @@
    ],
    "questions": 274,
    "kps": 67,
-   "lessons": true
+   "lessons": true,
+   "listening": []
   },
   {
    "id": "daofa",
@@ -340,7 +347,8 @@
    ],
    "questions": 286,
    "kps": 94,
-   "lessons": true
+   "lessons": true,
+   "listening": []
   },
   {
    "id": "lishi",
@@ -393,7 +401,8 @@
    ],
    "questions": 259,
    "kps": 111,
-   "lessons": true
+   "lessons": true,
+   "listening": []
   }
  ]
 }
