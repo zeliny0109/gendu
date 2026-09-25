@@ -7,7 +7,8 @@
 - 相似度：`similarity()`，两条曲线时间归一化后的皮尔逊相关
 - 结尾语调判断：`tailDelta()` / `judgeTone()`，比较句末最后约 18% 与中后段的平均音高
 - 按停顿切句：`split()`（课文音频模式）
-- 句子库：`PRESET`
+- 句子库：`PRESET`，每句可带 `audio` 字段指向 audio/ 下的内置示范 mp3；`ensureModel()` 优先用老师录音（IndexedDB），其次内置音频，都没有才走 speechSynthesis
+- 生成内置音频：`pip install edge-tts`，对 `plain(t)` 后的句子用 `en-US-JennyNeural`、rate -10% 生成到 audio/<id>.mp3，并把文件加进 sw.js 的 SHELL
 - 示范录音存储：IndexedDB（`idb`），自定义句子存 localStorage
 
 ## 常用任务

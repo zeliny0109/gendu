@@ -256,16 +256,16 @@ function split(x,sr,gapMs,k){
 
 /* ---------- 句子库（原创练习句，按 Unit 1 话题） ---------- */
 const PRESET=[
-  {id:'p1',t:'My hometown has *changed*‿a *lot*.',tone:'down',type:'陈述句'},
-  {id:'p2',t:'Is‿it‿an *old* photo?',tone:'up',type:'一般疑问句'},
-  {id:'p3',t:'Have you *finished*‿it *yet*?',tone:'up',type:'一般疑问句'},
-  {id:'p4',t:'What‿is *different* in your *town*?',tone:'down',type:'特殊疑问句',tip:'特殊疑问句用降调，最常见的错误是读成升调'},
-  {id:'p5',t:'What‿a *big* *change*‿it‿is!',tone:'down',type:'感叹句'},
-  {id:'p6',t:'Take‿a *look*‿at these *old* *pictures*.',tone:'down',type:'祈使句'},
-  {id:'p7',t:'Do you like the *city*↗ or the *countryside*↘?',tone:'updown',type:'选择疑问句',tip:'or 前面升，or 后面降'},
-  {id:'p8',t:'It has *changed*‿a lot, *hasn\'t*‿it?',tone:'down',type:'反意疑问句',tip:'有把握时降调；真心想确认时用升调'},
-  {id:'p9',t:'I *haven\'t* *seen* him for‿a *long* time.',tone:'down',type:'陈述句（否定）'},
-  {id:'p10',t:'Where have you *been*?',tone:'down',type:'特殊疑问句'}
+  {id:'p1',audio:'audio/p1.mp3',t:'My hometown has *changed*‿a *lot*.',tone:'down',type:'陈述句'},
+  {id:'p2',audio:'audio/p2.mp3',t:'Is‿it‿an *old* photo?',tone:'up',type:'一般疑问句'},
+  {id:'p3',audio:'audio/p3.mp3',t:'Have you *finished*‿it *yet*?',tone:'up',type:'一般疑问句'},
+  {id:'p4',audio:'audio/p4.mp3',t:'What‿is *different* in your *town*?',tone:'down',type:'特殊疑问句',tip:'特殊疑问句用降调，最常见的错误是读成升调'},
+  {id:'p5',audio:'audio/p5.mp3',t:'What‿a *big* *change*‿it‿is!',tone:'down',type:'感叹句'},
+  {id:'p6',audio:'audio/p6.mp3',t:'Take‿a *look*‿at these *old* *pictures*.',tone:'down',type:'祈使句'},
+  {id:'p7',audio:'audio/p7.mp3',t:'Do you like the *city*↗ or the *countryside*↘?',tone:'updown',type:'选择疑问句',tip:'or 前面升，or 后面降'},
+  {id:'p8',audio:'audio/p8.mp3',t:'It has *changed*‿a lot, *hasn\'t*‿it?',tone:'down',type:'反意疑问句',tip:'有把握时降调；真心想确认时用升调'},
+  {id:'p9',audio:'audio/p9.mp3',t:'I *haven\'t* *seen* him for‿a *long* time.',tone:'down',type:'陈述句（否定）'},
+  {id:'p10',audio:'audio/p10.mp3',t:'Where have you *been*?',tone:'down',type:'特殊疑问句'}
 ];
 const TONE={up:'结尾升调 ↗',down:'结尾降调 ↘',updown:'先升后降 ↗↘'};
 const ARROW={up:'↗',down:'↘',updown:'↗↘'};
@@ -363,15 +363,16 @@ function playRange(el,s,e,rate,onT){
     requestAnimationFrame(tick);
   });
 }
+const NO_TTS='这台设备没有可用的英语朗读引擎。内置句子已带真人示范；自己添加的句子请老师点「老师录示范」录一条。';
 function speak(text){
   return new Promise(res=>{
     stopAll();
-    if(!('speechSynthesis' in window)){ msg('这个浏览器不支持机器朗读，请老师先录一条示范。'); res(); return; }
+    if(!('speechSynthesis' in window)){ msg(NO_TTS); res(); return; }
     const u=new SpeechSynthesisUtterance(text); u.lang='en-US'; u.rate=0.9*speed;
     const vs=speechSynthesis.getVoices(); const v=vs.find(v=>/^en[-_]US/i.test(v.lang))||vs.find(v=>/^en/i.test(v.lang)); if(v) u.voice=v;
     let done=false; const fin=()=>{ if(done) return; done=true; clearTimeout(to); stopPlay=null; res(); };
     const to=setTimeout(fin,2000+text.length*110/speed);
-    u.onend=fin; u.onerror=fin; stopPlay=()=>{ speechSynthesis.cancel(); fin(); };
+    u.onend=fin; u.onerror=()=>{ msg(NO_TTS); fin(); }; stopPlay=()=>{ speechSynthesis.cancel(); fin(); };
     speechSynthesis.cancel(); speechSynthesis.speak(u);
   });
 }
@@ -439,14 +440,16 @@ function showResult(){
 
 /* ---------- 老师录示范 ---------- */
 async function ensureModel(S){
-  if(S.model!==undefined) return; S.model=null;
-  const rec=await idb.get(S.id); if(!rec) return;
-  try{ const r=await analyze(rec); S.model={url:URL.createObjectURL(rec),dur:r.dur}; S.orig=r.c; rescore(S); }catch(e){}
+  if(S.model!==undefined) return; S.model=null; S.builtin=false;
+  let rec=await idb.get(S.id);
+  if(!rec&&S.audio){ try{ const r=await fetch(S.audio); if(r.ok){ rec=await r.blob(); S.builtin=true; } }catch(e){} }
+  if(!rec) return;
+  try{ const r=await analyze(rec); S.model={url:URL.createObjectURL(rec),dur:r.dur}; S.orig=r.c; rescore(S); }catch(e){ S.model=null; S.builtin=false; }
 }
 function teachUI(){
   if(mode!=='sent') return; const S=seg(); const has=S&&S.model;
-  $('teachTxt').textContent=has?'这句用的是老师录的示范。':'这句还没有真人示范，现在是机器朗读。';
-  $('bTeachDel').hidden=!has; $('origLbl').textContent=has?'听示范':'机器朗读'; $('kOrig').textContent=has?'示范':'示范（未录）';
+  $('teachTxt').textContent=S&&S.builtin?'这句用的是内置的真人语音示范，老师也可以录自己的。':has?'这句用的是老师录的示范。':'这句还没有真人示范，现在是机器朗读。';
+  $('bTeachDel').hidden=!(has&&!S.builtin); $('origLbl').textContent=has?'听示范':'机器朗读'; $('kOrig').textContent=has?'示范':'示范（未录）';
 }
 $('bTeach').onclick=async()=>{
   const b=$('bTeach'); if(recStop){ recStop(); return; }
@@ -457,11 +460,11 @@ $('bTeach').onclick=async()=>{
   try{
     const r=await analyze(blob); if(!r.c){ msg('没录到清楚的声音，再录一次。'); return; }
     if(S.model) URL.revokeObjectURL(S.model.url);
-    S.model={url:URL.createObjectURL(blob),dur:r.dur}; S.orig=r.c; idb.set(S.id,blob); rescore(S); msg('');
+    S.model={url:URL.createObjectURL(blob),dur:r.dur}; S.builtin=false; S.orig=r.c; idb.set(S.id,blob); rescore(S); msg('');
   }catch(e){ msg('示范录音解析失败，再试一次。'); }
   teachUI(); showResult(); renderList(); draw();
 };
-$('bTeachDel').onclick=()=>{ const S=seg(); if(!S||!S.model) return; URL.revokeObjectURL(S.model.url); S.model=null; S.orig=undefined; idb.del(S.id); rescore(S); teachUI(); showResult(); renderList(); draw(); };
+$('bTeachDel').onclick=async()=>{ const S=seg(); if(!S||!S.model) return; URL.revokeObjectURL(S.model.url); S.model=undefined; S.orig=undefined; idb.del(S.id); await ensureModel(S); rescore(S); teachUI(); showResult(); renderList(); draw(); };
 
 /* ---------- 课文音频模式 ---------- */
 async function loadSource(blob,name){
