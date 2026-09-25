@@ -4,12 +4,14 @@
 
 ## 功能结构（index.html 内 <script> 部分，按注释分块）
 - 音高追踪（YIN）：`track()`，输出以半音为单位、按说话人中位数归一化的语调曲线
-- 相似度：`similarity()`，两条曲线时间归一化后的皮尔逊相关
+- 时间对齐 + 相似度：`align()`（DTW，把学生曲线对齐到示范时间轴，返回 warped 曲线、播放头映射 map、相关系数），`pearson()`
+- 打分：`scoreAttempt()`（别名 `rescore`），总分 = 语调 55% + 结尾语调 30% + 节奏 15%；最高分存 localStorage `gd:best`；`grade()` 给星级
 - 结尾语调判断：`tailDelta()` / `judgeTone()`，比较句末最后约 18% 与中后段的平均音高
 - 按停顿切句：`split()`（课文音频模式）
-- 句子库：`PRESET`，每句可带 `audio` 字段指向 audio/ 下的内置示范 mp3；`ensureModel()` 优先用老师录音（IndexedDB），其次内置音频，都没有才走 speechSynthesis
+- 句子库：`book.json`（按 units 组织，`loadBook()` 读入后展平为 `PRESET`，每句带 `unit`），`unit` 变量控制当前单元过滤（`list()`），`zh` 字段是中文意思；每句可带 `audio` 字段指向 audio/ 下的内置示范 mp3；`ensureModel()` 优先用老师录音（IndexedDB），其次内置音频，都没有才走 speechSynthesis
 - 生成内置音频：`pip install edge-tts`，对 `plain(t)` 后的句子用 `en-US-JennyNeural`、rate -10% 生成到 audio/<id>.mp3，并把文件加进 sw.js 的 SHELL
 - 示范录音存储：IndexedDB（`idb`），自定义句子存 localStorage
+- 播放增益：`wire()` 把 Audio 元素接到 GainNode → DynamicsCompressor；`normGain(peak)` 峰值归一，`GAIN` 用户增益（localStorage `gd:gain`）；`playMine()` 按 `c.t0/t1` 掐掉录音前后空白
 
 ## 常用任务
 - 本地运行：`python3 -m http.server 8000`，打开 http://localhost:8000

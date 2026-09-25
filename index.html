@@ -117,6 +117,13 @@ output{color:var(--muted)}
 .add select{font:inherit;font-size:.88rem;padding:7px 8px;border-radius:10px;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
 .add p{font-size:.78rem;color:var(--muted);margin:0 0 12px}
 body.m-sent .only-file, body.m-file .only-sent{display:none !important}
+.zh{font-size:.95rem;color:var(--muted);margin:-2px 2px 6px;min-height:1.4em}
+.detail{display:flex;gap:10px;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin:2px 2px 0}
+.stars{color:#F5A623;letter-spacing:1px}
+.listhead{display:flex;align-items:center;gap:10px;margin:16px 2px 8px;flex-wrap:wrap}
+.listhead h2{margin:0}
+.listhead select{font:inherit;font-size:.85rem;padding:5px 8px;border-radius:10px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);max-width:55%}
+.prog{margin-left:auto;font-size:.8rem;color:var(--muted)}
 [hidden]{display:none !important}
 body.nosrc .needs-src{opacity:.35;pointer-events:none}
 </style>
@@ -131,11 +138,13 @@ body.nosrc .needs-src{opacity:.35;pointer-events:none}
   <section class="stage">
     <div class="only-sent">
       <div class="sent" id="sent"></div>
+      <div class="zh" id="zh"></div>
       <div class="meta" id="meta"></div>
     </div>
     <div class="legend"><span class="k orig" id="kOrig">示范</span><span class="k mine">我的</span><span class="score" id="score"></span></div>
     <canvas id="cv" aria-label="语调曲线"></canvas>
     <div class="fb" id="fb" role="status"></div>
+    <div class="detail" id="detail"></div>
     <p class="hint">曲线越高声调越高。<span class="only-sent">虚线箭头是这句结尾该走的方向。</span></p>
     <div class="text only-file" id="sentText" contenteditable="true" data-ph="点这里写下这句话（可选）"></div>
     <div class="empty only-file" id="empty">
@@ -162,6 +171,7 @@ body.nosrc .needs-src{opacity:.35;pointer-events:none}
   <section class="opts needs-src">
     <div class="speed" id="speed"><button data-sp="0.75">0.75×</button><button data-sp="1" class="on">1×</button></div>
     <label class="chk"><input type="checkbox" id="auto" checked>先听示范再录</label>
+    <label class="chk only-sent"><input type="checkbox" id="showZh" checked>显示中文</label>
   </section>
 
   <div class="teach only-sent" id="teach">
@@ -172,17 +182,23 @@ body.nosrc .needs-src{opacity:.35;pointer-events:none}
 
   <p class="msg" id="msg" role="status"></p>
 
-  <h2>句子</h2>
+  <div class="listhead"><h2>句子</h2><select id="unitSel" class="only-sent" aria-label="选择单元"></select><span class="prog" id="prog"></span></div>
   <ol id="list"></ol>
 
   <details class="only-sent add">
     <summary>添加自己的句子</summary>
     <div class="tune-row">
       <input type="text" id="addTxt" placeholder="例如 Have_you *finished*_it yet?">
+      <input type="text" id="addZh" placeholder="中文意思（可选）">
       <select id="addTone"><option value="down">结尾降调 ↘</option><option value="up">结尾升调 ↗</option><option value="updown">先升后降 ↗↘</option></select>
       <button class="btn" id="addBtn">添加</button>
     </div>
     <p>用 _ 标连读，用 *单词* 标重读，都可以不写。</p>
+  </details>
+
+  <details class="add">
+    <summary>播放音量</summary>
+    <label>播放增益（声音小就调高） <output id="gainV">1.6×</output><input type="range" id="gain" min="10" max="30" step="1" value="16"></label>
   </details>
 
   <details class="only-file">
@@ -231,15 +247,56 @@ function track(x,sr){
   const semi=medFilt(vals.map(v=>{ if(!v) return null; const s=12*Math.log2(v/med); return Math.abs(s)>12?null:s; }));
   return {st:semi,t0:fr[st].i/sr,t1:(fr[en].i+W)/sr};
 }
-function similarity(a,b){
-  const N=80,pa=[],pb=[];
-  for(let k=0;k<N;k++){ const t=k/(N-1), va=a.st[Math.round(t*(a.st.length-1))], vb=b.st[Math.round(t*(b.st.length-1))];
-    if(va!=null&&vb!=null){pa.push(va);pb.push(vb);} }
+function pearson(pa,pb){
   if(pa.length<12) return null;
   const m=v=>v.reduce((s,q)=>s+q,0)/v.length, ma=m(pa), mb=m(pb);
   let sab=0,saa=0,sbb=0; for(let i=0;i<pa.length;i++){const x=pa[i]-ma,y=pb[i]-mb; sab+=x*y; saa+=x*x; sbb+=y*y;}
   if(saa<1e-6||sbb<1e-6) return null;
-  return Math.round(Math.max(0,sab/Math.sqrt(saa*sbb))*100);
+  return sab/Math.sqrt(saa*sbb);
+}
+const resample=(st,N)=>Array.from({length:N},(_,k)=>st[Math.round(k/(N-1)*(st.length-1))]);
+/* 动态时间规整：把“我的”曲线在时间上对齐到示范曲线，读得快慢、停顿位置不同都不再影响对比 */
+function align(ref,usr){
+  const N=100, a=resample(ref.st,N), b=resample(usr.st,N), band=15, INF=1e9;
+  const D=new Float64Array((N+1)*(N+1)).fill(INF), P=new Int8Array((N+1)*(N+1)), ix=(i,j)=>i*(N+1)+j;
+  const cost=(x,y)=>x!=null&&y!=null?Math.abs(x-y):(x==null&&y==null?0:3);
+  D[0]=0;
+  for(let i=1;i<=N;i++){ const j0=Math.max(1,i-band), j1=Math.min(N,i+band);
+    for(let j=j0;j<=j1;j++){ let best=D[ix(i-1,j-1)],p=0; const up=D[ix(i-1,j)]+1.0, lf=D[ix(i,j-1)]+1.0;
+      if(up<best){best=up;p=1;} if(lf<best){best=lf;p=2;} D[ix(i,j)]=best+cost(a[i-1],b[j-1]); P[ix(i,j)]=p; } }
+  const sumW=new Float64Array(N), cntW=new Float64Array(N), map=new Float64Array(N).fill(-1);
+  let i=N,j=N;
+  while(i>0&&j>0){ const v=b[j-1]; if(v!=null){ sumW[i-1]+=v; cntW[i-1]++; } if(map[j-1]<0) map[j-1]=(i-1)/(N-1);
+    const p=P[ix(i,j)]; if(p===0){i--;j--;} else if(p===1) i--; else j--; }
+  for(let k=1;k<N;k++) if(map[k]<0) map[k]=map[k-1]; if(map[0]<0) map[0]=0;
+  const warped=Array.from({length:N},(_,k)=>cntW[k]?sumW[k]/cntW[k]:null);
+  const pa=[],pb=[]; for(let k=0;k<N;k++) if(a[k]!=null&&warped[k]!=null){ pa.push(a[k]); pb.push(warped[k]); }
+  let corr=pearson(pa,pb);
+  if(corr!=null){ const mad=pa.reduce((s,v,k)=>s+Math.abs(v-pb[k]),0)/pa.length; corr=Math.max(0,corr)*Math.max(0.5,Math.min(1,1-(mad-1.5)/8)); }
+  return {warped,map:Array.from(map),corr};
+}
+
+/* ---------- 打分 ---------- */
+let best={}; try{ best=JSON.parse(localStorage.getItem('gd:best')||'{}'); }catch(e){}
+function saveBest(id,sc){ const b=best[id]||{s:0,n:0}; b.n++; if(sc>b.s) b.s=sc; best[id]=b; try{localStorage.setItem('gd:best',JSON.stringify(best));}catch(e){} }
+const grade=sc=>sc>=90?{stars:'★★★',txt:'优秀'}:sc>=75?{stars:'★★☆',txt:'良好'}:sc>=60?{stars:'★☆☆',txt:'及格'}:{stars:'☆☆☆',txt:'再练练'};
+function scoreAttempt(S){
+  const c=S.user&&S.user.c; S.align=null; S.parts=null; S.score=null;
+  S.toneRes=(mode==='sent'&&c)?judgeTone(S.tone,c):null;
+  if(!c) return;
+  const parts={};
+  if(S.orig){
+    const al=align(S.orig,c); S.align=al; parts.int=al.corr==null?null:Math.round(al.corr*100);
+    const du=c.t1-c.t0, d0=(S.orig.t1-S.orig.t0)/speed;
+    if(du>0&&d0>0){ const r=Math.abs(Math.log(du/d0))/Math.log(2); parts.rhy=Math.round(100*Math.max(0,1-r)); }
+  }
+  if(S.toneRes) parts.tone=S.toneRes.ok==null?null:(S.toneRes.ok?100:0);
+  S.parts=parts;
+  if(parts.int==null) return; // 没有示范曲线就不给总分，只给结尾语调反馈
+  const w={int:.55,tone:.3,rhy:.15}; let sw=0,sum=0;
+  for(const k in parts) if(parts[k]!=null){ sw+=w[k]; sum+=w[k]*parts[k]; }
+  S.score=Math.round(sum/sw);
+  if(mode==='sent') saveBest(S.id,S.score);
 }
 
 /* ---------- 按停顿切句 ---------- */
@@ -254,24 +311,19 @@ function split(x,sr,gapMs,k){
   return segs.filter(([a,b])=>b-a>=25).map(([a,b])=>({s:Math.max(0,a*0.01-0.12),e:Math.min(dur,(b+2)*0.01+0.15)}));
 }
 
-/* ---------- 句子库（原创练习句，按 Unit 1 话题） ---------- */
-const PRESET=[
-  {id:'p1',audio:'audio/p1.mp3',t:'My hometown has *changed*‿a *lot*.',tone:'down',type:'陈述句'},
-  {id:'p2',audio:'audio/p2.mp3',t:'Is‿it‿an *old* photo?',tone:'up',type:'一般疑问句'},
-  {id:'p3',audio:'audio/p3.mp3',t:'Have you *finished*‿it *yet*?',tone:'up',type:'一般疑问句'},
-  {id:'p4',audio:'audio/p4.mp3',t:'What‿is *different* in your *town*?',tone:'down',type:'特殊疑问句',tip:'特殊疑问句用降调，最常见的错误是读成升调'},
-  {id:'p5',audio:'audio/p5.mp3',t:'What‿a *big* *change*‿it‿is!',tone:'down',type:'感叹句'},
-  {id:'p6',audio:'audio/p6.mp3',t:'Take‿a *look*‿at these *old* *pictures*.',tone:'down',type:'祈使句'},
-  {id:'p7',audio:'audio/p7.mp3',t:'Do you like the *city*↗ or the *countryside*↘?',tone:'updown',type:'选择疑问句',tip:'or 前面升，or 后面降'},
-  {id:'p8',audio:'audio/p8.mp3',t:'It has *changed*‿a lot, *hasn\'t*‿it?',tone:'down',type:'反意疑问句',tip:'有把握时降调；真心想确认时用升调'},
-  {id:'p9',audio:'audio/p9.mp3',t:'I *haven\'t* *seen* him for‿a *long* time.',tone:'down',type:'陈述句（否定）'},
-  {id:'p10',audio:'audio/p10.mp3',t:'Where have you *been*?',tone:'down',type:'特殊疑问句'}
-];
+/* ---------- 句子库（book.json，按单元组织） ---------- */
+let BOOK={title:'',units:[]}, PRESET=[];
+async function loadBook(){
+  try{ const r=await fetch('book.json'); if(r.ok) BOOK=await r.json(); }catch(e){}
+  if(!Array.isArray(BOOK.units)) BOOK.units=[];
+  PRESET=[]; BOOK.units.forEach(u=>(u.sentences||[]).forEach(x=>PRESET.push({...x,unit:u.id})));
+}
 const TONE={up:'结尾升调 ↗',down:'结尾降调 ↘',updown:'先升后降 ↗↘'};
 const ARROW={up:'↗',down:'↘',updown:'↗↘'};
 function loadCustom(){ try{return JSON.parse(localStorage.getItem('gd:custom')||'[]');}catch(e){return [];} }
-function saveCustom(){ try{localStorage.setItem('gd:custom',JSON.stringify(sents.filter(s=>s.custom).map(({id,t,tone})=>({id,t,tone}))));}catch(e){} }
-let sents=[...PRESET.map(p=>({...p})),...loadCustom().map(c=>({...c,custom:true,type:'自己添加'}))];
+function saveCustom(){ try{localStorage.setItem('gd:custom',JSON.stringify(sents.filter(s=>s.custom).map(({id,t,zh,tone})=>({id,t,zh,tone}))));}catch(e){} }
+let sents=[];
+function buildSents(){ sents=[...PRESET.map(p=>({...p})),...loadCustom().map(c=>({...c,custom:true,unit:'custom',type:'自己添加'}))]; }
 const plain=t=>t.replace(/[*↗↘]/g,'').replace(/‿/g,' ').replace(/\s+/g,' ').trim();
 const esc=t=>t.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const rich=t=>esc(t).replace(/\*([^*]+)\*/g,'<b>$1</b>').replace(/‿/g,'<span class="lk">‿</span>');
@@ -305,10 +357,11 @@ function judgeTone(tone,c){
 
 /* ---------- 状态 ---------- */
 let mode='sent', src=null, fileSegs=[], curI={sent:0,file:0}, speed=1;
+let unit=localStorage.getItem('gd:unit')||'', GAIN=+(localStorage.getItem('gd:gain')||1.6);
 let recStop=null, stopPlay=null, busy=false, cancelFlow=false, head=null;
 const aOrig=new Audio(), aModel=new Audio(), aMine=new Audio();
 [aOrig,aModel,aMine].forEach(a=>{a.preservesPitch=true; a.webkitPreservesPitch=true; a.mozPreservesPitch=true;});
-const list=()=>mode==='sent'?sents:fileSegs;
+const list=()=>mode==='sent'?(unit==='all'?sents:sents.filter(x=>x.unit===unit)):fileSegs;
 const seg=()=>list()[curI[mode]];
 function msg(t){ $('msg').textContent=t||''; }
 const fmt=t=>Math.floor(t/60)+':'+String(Math.floor(t%60)).padStart(2,'0');
@@ -316,6 +369,7 @@ const noteKey=s=>'gd:'+(src?src.name:'')+':'+s.s.toFixed(1);
 function getNote(s){ try{return localStorage.getItem(noteKey(s))||'';}catch(e){return '';} }
 function setNote(s,v){ try{ v?localStorage.setItem(noteKey(s),v):localStorage.removeItem(noteKey(s)); }catch(e){} }
 const frac=(t,o)=>Math.max(0,Math.min(1,(t-o.t0)/(o.t1-o.t0)));
+function mineFrac(S,t){ const f=frac(t,S.user.c); const m=S.align&&S.align.map; return m?m[Math.round(f*(m.length-1))]:f; }
 
 /* ---------- 画图 ---------- */
 const cv=$('cv'); let g=null, W=0, H=0;
@@ -342,7 +396,7 @@ function draw(){
     for(let i=0;i<n;i++){ const v=c.st[i]; if(v==null){pen=false;continue;} const px=x(n>1?i/(n-1):0), py=y(Math.max(-R,Math.min(R,v)));
       pen?g.lineTo(px,py):g.moveTo(px,py); pen=true; } g.stroke(); };
   plot(S.orig,col('--orig'),4.5);
-  if(S.user) plot(S.user.c,col('--mine'),3);
+  if(S.user) plot(S.align?{st:S.align.warped}:S.user.c,col('--mine'),3);
   g.fillStyle=col('--muted'); g.font='14px Lexend, sans-serif'; g.textAlign='center';
   if(mode==='file'&&S.orig===null) g.fillText('这句没提取到语调（可能是噪音或太短）',W/2,H/2-8);
   if(mode==='sent'&&!S.orig&&!S.user) g.fillText('点「跟读」读一遍，看看你的语调',(W-right)/2,H/2-8);
@@ -353,10 +407,20 @@ window.addEventListener('resize',size);
 matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change',draw);
 
 /* ---------- 播放 ---------- */
+/* 播放增益：所有播放走 Web Audio，增益后经限幅器输出，避免破音 */
+let master=null; const gains=new Map();
+function wire(el){
+  if(gains.has(el)) return gains.get(el);
+  try{ const ctx=ac();
+    if(!master){ master=ctx.createDynamicsCompressor(); master.threshold.value=-10; master.knee.value=8; master.ratio.value=12; master.attack.value=0.002; master.release.value=0.2; master.connect(ctx.destination); }
+    const g=ctx.createGain(); ctx.createMediaElementSource(el).connect(g); g.connect(master); gains.set(el,g); return g;
+  }catch(e){ gains.set(el,null); return null; }
+}
+const normGain=peak=>peak>0.02?Math.min(4,0.9/peak):1;
 function stopAll(){ if(stopPlay) stopPlay(); }
 function playRange(el,s,e,rate,onT){
   return new Promise(res=>{
-    stopAll(); el.playbackRate=rate; el.currentTime=s; const p=el.play(); if(p) p.catch(()=>{});
+    stopAll(); const g=wire(el); if(g) g.gain.value=GAIN*(el._norm||1); el.playbackRate=rate; el.currentTime=s; const p=el.play(); if(p) p.catch(()=>{});
     let done=false; const fin=()=>{ if(done) return; done=true; el.pause(); stopPlay=null; head=null; draw(); res(); };
     stopPlay=fin;
     const tick=()=>{ if(done) return; if(el.currentTime>=e||el.ended){fin();return;} onT&&onT(el.currentTime); draw(); requestAnimationFrame(tick); };
@@ -378,14 +442,15 @@ function speak(text){
 }
 function playOrig(){
   const S=seg(); if(!S) return Promise.resolve();
-  if(mode==='file'){ const o=S.orig; return playRange(aOrig,S.s,S.e,speed,t=>{ head=o?{who:'orig',f:frac(t-S.s,o)}:null; }); }
-  if(S.model){ const o=S.orig; if(aModel.src!==S.model.url) aModel.src=S.model.url;
+  if(mode==='file'){ const o=S.orig; aOrig._norm=src?normGain(src.peak):1; return playRange(aOrig,S.s,S.e,speed,t=>{ head=o?{who:'orig',f:frac(t-S.s,o)}:null; }); }
+  if(S.model){ const o=S.orig; if(aModel.src!==S.model.url) aModel.src=S.model.url; aModel._norm=normGain(S.model.peak);
     return playRange(aModel,0,S.model.dur,speed,t=>{ head=o?{who:'orig',f:frac(t,o)}:null; }); }
   return speak(plain(S.t));
 }
 function playMine(){ const S=seg(); if(!S||!S.user){ msg('这句你还没录。'); return Promise.resolve(); }
-  const c=S.user.c; if(aMine.src!==S.user.url) aMine.src=S.user.url;
-  return playRange(aMine,0,S.user.dur,1,t=>{ head=c?{who:'mine',f:frac(t,c)}:null; }); }
+  const c=S.user.c; if(aMine.src!==S.user.url) aMine.src=S.user.url; aMine._norm=normGain(S.user.peak);
+  const s0=c?Math.max(0,c.t0-0.15):0, e0=c?Math.min(S.user.dur,c.t1+0.25):S.user.dur; // 掐掉录音前后的空白，和示范同时开口
+  return playRange(aMine,s0,e0,1,t=>{ head=c?{who:'mine',f:mineFrac(S,t)}:null; }); }
 
 /* ---------- 录音 ---------- */
 let stream=null;
@@ -403,7 +468,8 @@ function record(maxSec,onSec){
     mr.start();
   });
 }
-async function analyze(blob){ const buf=await decode(await blob.arrayBuffer()); const ds=down(mono(buf),buf.sampleRate); return {c:track(ds.x,ds.sr),dur:buf.duration}; }
+const peakOf=x=>{ let p=0; for(let i=0;i<x.length;i++){ const v=Math.abs(x[i]); if(v>p) p=v; } return p; };
+async function analyze(blob){ const buf=await decode(await blob.arrayBuffer()); const ds=down(mono(buf),buf.sampleRate); return {c:track(ds.x,ds.sr),dur:buf.duration,peak:peakOf(ds.x)}; }
 function recUI(state,sec){ const b=$('bRec'); b.classList.toggle('live',state==='live'); b.classList.toggle('wait',state==='wait');
   $('recLbl').textContent= state==='live'?('停止 '+(sec||0).toFixed(0)+'s'): state==='wait'?'先听示范…':'跟读'; }
 function maxDur(S){ if(mode==='file') return (S.e-S.s)/speed*1.6+1.5; if(S.model) return S.model.dur/speed*1.6+1.5; return plain(S.t).split(' ').length*0.55/speed+3; }
@@ -421,21 +487,29 @@ async function doRec(){
   try{
     const r=await analyze(blob);
     if(S.user) URL.revokeObjectURL(S.user.url);
-    S.user={url:URL.createObjectURL(blob),c:r.c,dur:r.dur};
+    S.user={url:URL.createObjectURL(blob),c:r.c,dur:r.dur,peak:r.peak};
     rescore(S);
     if(!r.c) msg('没听清你的声音，离麦克风近一点再读一遍。');
   }catch(e){ msg('录音解析失败，再试一次。'); }
   showResult(); renderList(); draw();
 }
-function rescore(S){
-  const c=S.user&&S.user.c;
-  S.score=(c&&S.orig)?similarity(S.orig,c):null;
-  S.toneRes=(mode==='sent'&&c)?judgeTone(S.tone,c):null;
-}
+const rescore=scoreAttempt;
 function showResult(){
-  const S=seg(); $('score').innerHTML=(S&&S.score!=null)?'相似度 <b>'+S.score+'</b>':'';
+  const S=seg(); const g=S&&S.score!=null?grade(S.score):null;
+  $('score').innerHTML=g?`总分 <b>${S.score}</b> <span class="stars">${g.stars}</span>`:'';
   const fb=$('fb'); const r=S&&S.toneRes; fb.className='fb'+(r&&r.ok===true?' ok':r&&r.ok===false?' bad':'');
   fb.textContent=r?r.txt:'';
+  const d=[]; const pt=S&&S.parts;
+  if(pt){ if(g) d.push(g.txt); if(pt.int!=null) d.push('语调相似 '+pt.int); if(pt.rhy!=null) d.push('节奏 '+pt.rhy); if(pt.tone!=null) d.push('结尾语调 '+(pt.tone?'✓':'✗')); }
+  const b=S&&mode==='sent'&&best[S.id]; if(b) d.push('最高 '+b.s+' 分 · 练了 '+b.n+' 次');
+  $('detail').textContent=d.join(' · ');
+  prog();
+}
+function prog(){
+  const el=$('prog'); if(mode!=='sent'){ el.textContent=''; return; }
+  const L=list(); const done=L.filter(x=>best[x.id]); if(!L.length){ el.textContent=''; return; }
+  const avg=done.length?Math.round(done.reduce((a,x)=>a+best[x.id].s,0)/done.length):null;
+  el.textContent='已练 '+done.length+'/'+L.length+' 句'+(avg!=null?' · 平均 '+avg+' 分':'');
 }
 
 /* ---------- 老师录示范 ---------- */
@@ -444,7 +518,7 @@ async function ensureModel(S){
   let rec=await idb.get(S.id);
   if(!rec&&S.audio){ try{ const r=await fetch(S.audio); if(r.ok){ rec=await r.blob(); S.builtin=true; } }catch(e){} }
   if(!rec) return;
-  try{ const r=await analyze(rec); S.model={url:URL.createObjectURL(rec),dur:r.dur}; S.orig=r.c; rescore(S); }catch(e){ S.model=null; S.builtin=false; }
+  try{ const r=await analyze(rec); S.model={url:URL.createObjectURL(rec),dur:r.dur,peak:r.peak}; S.orig=r.c; rescore(S); }catch(e){ S.model=null; S.builtin=false; }
 }
 function teachUI(){
   if(mode!=='sent') return; const S=seg(); const has=S&&S.model;
@@ -460,7 +534,7 @@ $('bTeach').onclick=async()=>{
   try{
     const r=await analyze(blob); if(!r.c){ msg('没录到清楚的声音，再录一次。'); return; }
     if(S.model) URL.revokeObjectURL(S.model.url);
-    S.model={url:URL.createObjectURL(blob),dur:r.dur}; S.builtin=false; S.orig=r.c; idb.set(S.id,blob); rescore(S); msg('');
+    S.model={url:URL.createObjectURL(blob),dur:r.dur,peak:r.peak}; S.builtin=false; S.orig=r.c; idb.set(S.id,blob); rescore(S); msg('');
   }catch(e){ msg('示范录音解析失败，再试一次。'); }
   teachUI(); showResult(); renderList(); draw();
 };
@@ -470,7 +544,7 @@ $('bTeachDel').onclick=async()=>{ const S=seg(); if(!S||!S.model) return; URL.re
 async function loadSource(blob,name){
   stopAll(); msg('正在读取音频…');
   let buf; try{ buf=await decode(await blob.arrayBuffer()); }catch(e){ msg('这个文件打不开，换成 mp3 或 m4a 再试。'); return; }
-  src={name,ds:down(mono(buf),buf.sampleRate),dur:buf.duration};
+  const ds=down(mono(buf),buf.sampleRate); src={name,ds,dur:buf.duration,peak:peakOf(ds.x)};
   if(aOrig.src) URL.revokeObjectURL(aOrig.src);
   aOrig.src=URL.createObjectURL(blob); aOrig.load();
   $('empty').hidden=true; resplit(); applyMode(); msg('');
@@ -491,7 +565,7 @@ async function select(i){
     if(S.orig===undefined){ const sr=src.ds.sr; S.orig=track(src.ds.x.subarray(Math.floor(S.s*sr),Math.ceil(S.e*sr)),sr); }
     $('sentText').textContent=getNote(S);
   }else{
-    $('sent').innerHTML=rich(S.t);
+    $('sent').innerHTML=rich(S.t); $('zh').textContent=S.zh||''; $('zh').hidden=!$('showZh').checked;
     $('meta').innerHTML=`<span class="pill">${esc(S.type||'')}</span><span class="pill tone">${TONE[S.tone]}</span>`+(S.tip?`<span>${esc(S.tip)}</span>`:'');
   }
   $('segLabel').textContent='第 '+(curI[mode]+1)+' / '+L.length+' 句';
@@ -502,7 +576,16 @@ async function select(i){
 }
 function badge(S){
   let h=''; if(S.toneRes&&S.toneRes.ok!=null) h+=`<span class="badge ${S.toneRes.ok?'good':''}">${S.toneRes.ok?'语调 ✓':'语调 ✗'}</span>`;
-  if(S.score!=null) h+=`<span class="badge ${S.score>=75?'good':''}">${S.score}</span>`; return h;
+  const b=mode==='sent'&&best[S.id]; const sc=S.score!=null?S.score:(b?b.s:null);
+  if(sc!=null) h+=`<span class="badge ${sc>=75?'good':''}"><span class="stars">${grade(sc).stars}</span> ${sc}</span>`; return h;
+}
+function buildUnitSel(){
+  const sel=$('unitSel'); sel.innerHTML='';
+  const opts=[...BOOK.units.map(u=>[u.id,u.name]),['custom','自己添加'],['all','全部']];
+  opts.forEach(([v,n])=>{ const o=document.createElement('option'); o.value=v; o.textContent=n; sel.appendChild(o); });
+  if(!opts.some(([v])=>v===unit)) unit=BOOK.units.length?BOOK.units[0].id:'all';
+  sel.value=unit;
+  sel.onchange=()=>{ stopAll(); unit=sel.value; try{localStorage.setItem('gd:unit',unit);}catch(e){} curI.sent=0; renderList(); select(0); };
 }
 function renderList(){
   const ol=$('list'); ol.innerHTML='';
@@ -512,14 +595,14 @@ function renderList(){
     else { b.innerHTML=`<span class="n">${i+1}</span><span class="tm">${fmt(S.s)}</span><span class="pv"></span>${badge(S)}`; b.querySelector('.pv').textContent=getNote(S); }
     b.onclick=()=>select(i); li.appendChild(b);
     if(mode==='sent'&&S.custom){ const x=document.createElement('button'); x.className='x'; x.textContent='✕'; x.setAttribute('aria-label','删除这句');
-      x.onclick=()=>{ sents.splice(i,1); idb.del(S.id); saveCustom(); if(curI.sent>=sents.length) curI.sent=sents.length-1; renderList(); select(curI.sent); }; li.appendChild(x); }
+      x.onclick=()=>{ sents.splice(sents.indexOf(S),1); idb.del(S.id); saveCustom(); const n=list().length; if(curI.sent>=n) curI.sent=Math.max(0,n-1); renderList(); select(curI.sent); }; li.appendChild(x); }
     ol.appendChild(li); });
 }
 function applyMode(){
   document.body.className='m-'+mode+((mode==='file'&&!src)?' nosrc':'');
   document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.dataset.m===mode));
   $('kOrig').textContent=mode==='file'?'原音':$('kOrig').textContent; if(mode==='file') $('origLbl').textContent='听原音';
-  $('fb').textContent=''; $('score').textContent='';
+  $('fb').textContent=''; $('score').textContent=''; $('detail').textContent='';
   requestAnimationFrame(size); renderList(); if(list().length) select(curI[mode]); else { $('segLabel').textContent=''; draw(); }
 }
 
@@ -539,12 +622,16 @@ $('sentText').oninput=()=>{ const S=seg(); if(!S||mode!=='file') return; const v
 $('gap').oninput=()=>$('gapV').textContent=(+$('gap').value/1000).toFixed(2)+' 秒';
 $('thr').oninput=()=>$('thrV').textContent=$('thr').value;
 $('resplit').onclick=resplit;
+$('gain').value=Math.round(GAIN*10); $('gainV').textContent=GAIN.toFixed(1)+'×';
+$('gain').oninput=()=>{ GAIN=+$('gain').value/10; $('gainV').textContent=GAIN.toFixed(1)+'×'; try{localStorage.setItem('gd:gain',GAIN);}catch(e){} gains.forEach((g,el)=>{ if(g) g.gain.value=GAIN*(el._norm||1); }); };
+$('showZh').checked=localStorage.getItem('gd:zh')!=='0';
+$('showZh').onchange=()=>{ try{localStorage.setItem('gd:zh',$('showZh').checked?'1':'0');}catch(e){} const S=seg(); if(S&&mode==='sent') $('zh').hidden=!$('showZh').checked; };
 $('addBtn').onclick=()=>{
   let t=$('addTxt').value.trim(); if(!t){ msg('先输入一句英文。'); return; }
   t=t.replace(/\s*_\s*/g,'‿');
-  const s={id:'c'+Date.now(),t,tone:$('addTone').value,custom:true,type:'自己添加'};
-  sents.push(s); saveCustom(); $('addTxt').value=''; msg('');
-  if(mode==='sent'){ renderList(); select(sents.length-1); }
+  const s={id:'c'+Date.now(),t,zh:$('addZh').value.trim(),tone:$('addTone').value,custom:true,unit:'custom',type:'自己添加'};
+  sents.push(s); saveCustom(); $('addTxt').value=''; $('addZh').value=''; msg('');
+  if(mode==='sent'){ if(unit!=='all'){ unit='custom'; $('unitSel').value=unit; } renderList(); select(list().length-1); }
 };
 document.addEventListener('keydown',e=>{
   if(e.target.isContentEditable||['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)) return;
@@ -556,7 +643,7 @@ document.addEventListener('keydown',e=>{
   else if(e.key==='ArrowLeft') select(curI[mode]-1);
 });
 if('speechSynthesis' in window){ speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged=()=>speechSynthesis.getVoices(); }
-applyMode();
+loadBook().then(()=>{ buildSents(); buildUnitSel(); applyMode(); });
 
 /* ---------- PWA：注册 Service Worker，支持“添加到主屏幕”与离线使用 ---------- */
 if('serviceWorker' in navigator && location.protocol==='https:'){

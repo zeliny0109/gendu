@@ -1,6 +1,6 @@
 /* 跟读练习 Service Worker：让页面可安装、离线可用 */
-const VERSION = 'gendu-v2';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png', './apple-touch-icon.png',
+const VERSION = 'gendu-v3';
+const SHELL = ['./', './index.html', './manifest.webmanifest', './book.json', './icon.svg', './icon-192.png', './icon-512.png', './apple-touch-icon.png',
   ...Array.from({length:10},(_,i)=>`./audio/p${i+1}.mp3`)];
 
 self.addEventListener('install', e => {

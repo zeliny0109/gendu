@@ -56,15 +56,29 @@ tailscale serve --bg 8000        # 输出形如 https://zelin.tailc23635.ts.net/
 - 老师录的示范：存在浏览器 IndexedDB（按设备、按浏览器分别保存），优先于内置音频
 - 自己添加的句子、课文音频的句子备注：存在 localStorage
 
-## 修改句子库
+## 修改句子库（整本书）
 
-在 index.html 里搜索 `const PRESET=`。每句格式：
+句子放在 `book.json`，按单元组织：
 
-```js
-{id:'p1', t:'My hometown has *changed*‿a *lot*.', tone:'down', type:'陈述句', tip:'可选提示'}
+```json
+{ "id": "u1", "name": "Unit 1", "sentences": [
+  { "id": "p1", "t": "My hometown has *changed*‿a *lot*.", "zh": "我的家乡变化很大。", "tone": "down", "type": "陈述句", "tip": "可选提示", "audio": "audio/p1.mp3" }
+]}
 ```
 
-- `*单词*` 标重读，`‿` 标连读
+- `*单词*` 标重读，`‿` 标连读；`zh` 是中文意思
 - `tone`：`up` 结尾升调，`down` 结尾降调，`updown` 先升后降（选择疑问句）
-- `id` 要唯一，老师示范录音按 id 保存
-- `audio:'audio/p1.mp3'` 是内置示范音频；新加的句子没有这个字段就会用手机的机器朗读（很多安卓机没有英语朗读引擎，会提示不可用）
+- `id` 全书唯一，老师示范录音和最高分都按 id 保存
+- 加完句子运行 `python3 tools/gen_audio.py`，会给没有音频的句子生成示范 mp3（需要 `pip install edge-tts` 和 ffmpeg）并写回 `audio` 字段
+- 改完把 `sw.js` 里的 `VERSION` 加一
+
+## 打分
+
+- 总分 = 语调相似 55% + 结尾语调 30% + 节奏 15%，90 分优秀（★★★）、75 良好、60 及格
+- 语调相似：先用动态时间规整（DTW）把学生曲线在时间上对齐到示范，再算相关系数，所以读得快慢、停顿位置不同不影响分数；画出来的"我的"曲线也是对齐后的
+- 节奏：学生有声段时长与示范时长的比值，相差一倍记 0 分
+- 每句的最高分和练习次数存在 localStorage（`gd:best`），列表里显示星级，单元顶部显示进度
+
+## 播放
+
+所有播放经 Web Audio 增益 + 限幅器输出。每段音频先按峰值归一，再乘"播放音量"里的增益（默认 1.6×，可调 1–3×）。播放"我的"录音时自动掐掉前后空白。

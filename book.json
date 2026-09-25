@@ -1,0 +1,95 @@
+{
+  "title": "跟读练习",
+  "book": "",
+  "units": [
+    {
+      "id": "u1",
+      "name": "Unit 1",
+      "sentences": [
+        {
+          "id": "p1",
+          "t": "My hometown has *changed*‿a *lot*.",
+          "zh": "我的家乡变化很大。",
+          "tone": "down",
+          "type": "陈述句",
+          "audio": "audio/p1.mp3"
+        },
+        {
+          "id": "p2",
+          "t": "Is‿it‿an *old* photo?",
+          "zh": "这是一张旧照片吗？",
+          "tone": "up",
+          "type": "一般疑问句",
+          "audio": "audio/p2.mp3"
+        },
+        {
+          "id": "p3",
+          "t": "Have you *finished*‿it *yet*?",
+          "zh": "你已经做完了吗？",
+          "tone": "up",
+          "type": "一般疑问句",
+          "audio": "audio/p3.mp3"
+        },
+        {
+          "id": "p4",
+          "t": "What‿is *different* in your *town*?",
+          "zh": "你们镇上有什么不同了？",
+          "tone": "down",
+          "type": "特殊疑问句",
+          "tip": "特殊疑问句用降调，最常见的错误是读成升调",
+          "audio": "audio/p4.mp3"
+        },
+        {
+          "id": "p5",
+          "t": "What‿a *big* *change*‿it‿is!",
+          "zh": "变化真大啊！",
+          "tone": "down",
+          "type": "感叹句",
+          "audio": "audio/p5.mp3"
+        },
+        {
+          "id": "p6",
+          "t": "Take‿a *look*‿at these *old* *pictures*.",
+          "zh": "看看这些老照片。",
+          "tone": "down",
+          "type": "祈使句",
+          "audio": "audio/p6.mp3"
+        },
+        {
+          "id": "p7",
+          "t": "Do you like the *city*↗ or the *countryside*↘?",
+          "zh": "你喜欢城市还是乡村？",
+          "tone": "updown",
+          "type": "选择疑问句",
+          "tip": "or 前面升，or 后面降",
+          "audio": "audio/p7.mp3"
+        },
+        {
+          "id": "p8",
+          "t": "It has *changed*‿a lot, *hasn't*‿it?",
+          "zh": "它变化很大，不是吗？",
+          "tone": "down",
+          "type": "反意疑问句",
+          "tip": "有把握时降调；真心想确认时用升调",
+          "audio": "audio/p8.mp3"
+        },
+        {
+          "id": "p9",
+          "t": "I *haven't* *seen* him for‿a *long* time.",
+          "zh": "我很久没见到他了。",
+          "tone": "down",
+          "type": "陈述句（否定）",
+          "audio": "audio/p9.mp3"
+        },
+        {
+          "id": "p10",
+          "t": "Where have you *been*?",
+          "zh": "你去哪儿了？",
+          "tone": "down",
+          "type": "特殊疑问句",
+          "audio": "audio/p10.mp3"
+        }
+      ]
+    }
+  ]
+}
