@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>时态语态</title>
+<title>九上语法</title>
 <meta name="theme-color" content="#2F6FDE" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1C2436" media="(prefers-color-scheme: dark)">
-<meta name="description" content="仁爱科普版九年级上册：现在完成时、被动语态 讲解与练习">
+<meta name="description" content="仁爱科普版九年级上册语法：现在完成时、被动语态、定语从句、构词法、不定代词 讲解与练习">
 <link rel="icon" type="image/svg+xml" href="../icon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap" rel="stylesheet">
@@ -97,6 +97,8 @@ svg.tl .dash{stroke:var(--ink);stroke-dasharray:3 3} svg.tl .br{stroke:var(--ink
 .r-v{color:var(--v);font-weight:600}
 .r-adv{color:var(--adv);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
 .r-by{font-style:italic}
+.r-n{font-weight:600;border-bottom:2px dotted currentColor}
+.cl{color:var(--adv)} .cl .r-aux{color:var(--aux)}
 .legend{display:flex;flex-wrap:wrap;gap:10px;font-size:.78rem;margin:4px 0}
 .legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;background:currentColor;vertical-align:-1px}
 
@@ -151,7 +153,7 @@ input.blank.bad{border-color:var(--bad);background:var(--bad-soft)}
 <body>
 <main class="app">
   <header class="top">
-    <h1>时态语态</h1>
+    <h1>九上语法</h1>
     <div class="tabs" id="tabs"><button data-v="learn" class="on">学</button><button data-v="machine">变形器</button><button data-v="practice">练</button></div>
   </header>
 
@@ -205,8 +207,8 @@ const TENSES = {
   pres:{ name:'一般现在时', act:'动词原形 / 三单 -s', pass:'am / is / are + 过去分词' },
   past:{ name:'一般过去时', act:'动词过去式', pass:'was / were + 过去分词' },
   fut:{ name:'一般将来时', act:'will + 动词原形', pass:'will be + 过去分词' },
-  prog:{ name:'现在进行时', act:'am / is / are + 现在分词(-ing)', pass:'am / is / are being + 过去分词', ext:1 },
-  pastprog:{ name:'过去进行时', act:'was / were + 现在分词(-ing)', pass:'was / were being + 过去分词', ext:1 },
+  prog:{ name:'现在进行时', act:'am / is / are + 现在分词(-ing)', pass:'am / is / are being + 过去分词' },
+  pastprog:{ name:'过去进行时', act:'was / were + 现在分词(-ing)', pass:'was / were being + 过去分词' },
   perf:{ name:'现在完成时', act:'have / has + 过去分词', pass:'have / has been + 过去分词' },
   modal:{ name:'含情态动词', act:'should / can / must + 动词原形', pass:'should / can / must + be + 过去分词' },
 };
@@ -395,6 +397,226 @@ const FOR_SINCE = [
   ['ten minutes','for'],['this morning','since'],['many years','for'],['three weeks ago','since'],
 ];
 
+
+// 追加选择题（按课本附录补充）
+MCQ.pv1.push(
+  ["The airplane ___ by the Wright brothers in 1903.", ["was invented","were invented","invented","is invented"], "课本练习。airplane 单数，1903 年 → was invented。"],
+  ["Potato chips ___ by George Crum in 1853.", ["were invented","was invented","invented","are invented"], "课本练习。potato chips 是复数 → <b>were</b> invented。"],
+  ["Now, post-it notes ___ all over the world.", ["are used","is used","use","were used"], "课本练习。Now → 一般现在时；notes 复数 → are used。"],
+  ["In 1977, post-it notes first ___ on the market.", ["appeared","were appeared","are appeared","was appeared"], "课本练习。<b>appear</b>（出现）是不及物动词，没有被动。"],
+  ["I am so ___ by this new movie.", ["moved","moving","move","moves"], "课本附录。am + 过去分词 → 我被感动了。"],
+  ["This old bridge is seldom ___.", ["used","use","using","uses"], "课本附录。is + 过去分词 → 很少被使用。"],
+  ["—What ___ by the students in Class 2? —Many trees.", ["are planted","do plant","planted","are plant"], "课本附录：特殊疑问词作主语时，<b>疑问词 + be + 过去分词</b>？"]
+);
+MCQ.pv2.push(
+  ["Two robots are going to ___ in the show.", ["be displayed","display","displayed","be display"], "课本附录：将来时的被动也可以用 <b>be going to + be + 过去分词</b>。"],
+  ["When can his homework ___?", ["be finished","finish","finished","is finished"], "课本附录：特殊疑问句 = 疑问词 + 情态动词 + 主语 + be + 过去分词？"],
+  ["These shoes ___ twice.", ["needn't be washed","needn't wash","don't need washed","needn't washed"], "课本附录：needn't 也是情态动词 → needn't + be + 过去分词。"],
+  ["They heard a girl sing in the next room. → A girl was heard ___ in the next room.", ["to sing","sing","sang","sung"], "课本附录：make / see / hear / feel / notice sb. <b>do</b> 变被动时，要加 <b>to</b>：be heard <b>to</b> do。"],
+  ["His mother made him clean his room. → He was made ___ his room.", ["to clean","clean","cleaning","cleaned"], "make sb. do 变被动 → be made <b>to</b> do。"],
+  ["My father bought me a cellphone. → A cellphone was bought ___ me by my father.", ["for","to","with","of"], "课本附录：双宾语变被动。把“物”作主语时，“人”前面要加介词：buy sth. <b>for</b> sb.，give sth. to sb.。"],
+  ["What must ___ to raise enough money?", ["be done","do","done","doing"], "课本附录：What 作主语 + 情态动词 + be + 过去分词？"]
+);
+MCQ.mix.push(
+  ["This problem ___ now.", ["is being discussed","is discussing","discusses","was discussed"], "课本附录：现在进行时的被动 = am/is/are + <b>being</b> + 过去分词。"],
+  ["A new idea ___.", ["has been suggested","has suggested","suggested","is suggesting"], "课本附录：现在完成时的被动 = have/has + <b>been</b> + 过去分词。"],
+  ["These old clothes ___ by some women at that time.", ["were being sorted","were sorting","are being sorted","sorted"], "课本附录：过去进行时的被动 = was/were + being + 过去分词。"],
+  ["She ___ here since 2000. She still lives here now.", ["has lived","lived","lives","is living"], "课本附录：since 2000 → 现在完成时，她现在还住在这里。"],
+  ["She ___ here in 2000. Now she lives in Beijing.", ["lived","has lived","lives","has been"], "课本附录：in 2000 是过去具体时间 → 一般过去时，她已经不住这里了。"]
+);
+MCQ.pp2.push(
+  ["They ___ for ten years.", ["have been married","have married","married","have got married"], "课本附录：marry 是瞬间动作 → <b>be married</b>。"],
+  ["He ___ for two days.", ["has been ill","has fallen ill","fell ill","is ill"], "课本附录：fall ill 是瞬间动作 → <b>be ill</b>。"],
+  ["I ___ him for a long time.", ["haven't seen","didn't see","don't see","won't see"], "课本附录：瞬间动词的<b>否定</b>形式可以和一段时间连用：I haven't seen him for a long time."]
+);
+
+MCQ.attr1 = [
+  ["This is the machine ___ Jack invented.", ["which","who","whom","whose"], "课本练习。先行词 machine 是物，关系词在从句里作 invented 的宾语 → which / that。"],
+  ["William Monroe is a man ___ made America's first wood pencil in 1812.", ["that","which","whom","whose"], "课本练习。先行词是人，关系词在从句中作主语 → that / who；which 只能指物。"],
+  ["It is the latest high-speed train ___ runs between Shanghai and Beijing.", ["that","who","where","what"], "课本原句。先行词 train 是物，从句缺主语 → that / which。what 不能引导定语从句。"],
+  ["Is it the fastest train ___ you have ever taken?", ["that","which","who","what"], "先行词被<b>最高级</b>修饰，关系代词只用 that。"],
+  ["Robots can do almost any activity ___ humans can do.", ["that","which","who","what"], "课本原句。先行词被 <b>any</b> 修饰，只用 that。"],
+  ["Virtual reality is a technology that ___ a copy of the real world.", ["creates","create","creating","are created"], "课本原句。从句的谓语要和先行词一致：technology 是单数 → creates。"],
+  ["There are some TV programs that ___ good for children.", ["are","is","be","was"], "课本附录。先行词 programs 是复数 → that <b>are</b>。"],
+  ["I know the girl who ___ well.", ["draws","draw","drawing","are drawing"], "课本附录。先行词 girl 是单数 → who <b>draws</b>。"],
+  ["The book ___ I bought yesterday is very interesting.", ["which","who","whose","what"], "先行词 book 是物，关系词作 bought 的宾语 → which / that（也可省略）。"],
+  ["In which sentence can \"that\" be left out (省略)?", ["This is the book that I borrowed.","This is the book that tells about China.","The man that lives here is kind.","The dog that is running is mine."], "关系代词在从句里作<b>宾语</b>时可以省略（I borrowed <u>the book</u>）；作主语时不能省。"],
+  ["That's all ___ I could do at that time.", ["that","which","what","who"], "课本附录。先行词是 <b>all</b> 这类不定代词，只用 that。"],
+  ["Li Hong took photos of the people and things ___ she was interested in.", ["that","which","who","whom"], "课本附录。先行词既有人又有物，只用 that。"],
+  ["The first one ___ comes to school will be praised.", ["that","which","what","whose"], "课本附录。先行词被<b>序数词</b>（the first）修饰，常用 that。"],
+  ["Do you remember everything ___ I told you?", ["that","which","what","who"], "课本附录。先行词是 everything，只用 that。"],
+  ["Mount Tai ___ lies in Shandong Province is well known to the world.", ["that","who","where","what"], "课本附录。从句缺主语（___ lies in…），先行词是物 → that / which；where 不能作主语。"],
+  ["This is the very thing ___ she wants to have.", ["that","which","who","what"], "课本附录。先行词前有 <b>the very / the only / the last / the same</b>，只用 that。"],
+  ["The laptop ___ I use to learn English was bought last month.", ["that","who","it","what"], "课本练习。先行词 laptop 是物，作 use 的宾语 → that / which / 省略。"],
+];
+MCQ.attr2 = [
+  ["Marie Curie is a scientist ___ won two Nobel prizes.", ["who","whom","which","whose"], "课本原句。先行词是人，在从句中作<b>主语</b> → who。"],
+  ["Yuan Longping is a great agriculture scientist of ___ we are proud.", ["whom","who","that","which"], "课本原句。<b>介词后面</b>指人只能用 whom，不能用 who / that。"],
+  ["He was really a great man from ___ we can learn a lot.", ["whom","who","that","which"], "课本原句。from 后面指人 → whom。"],
+  ["That's the girl ___ I met at the party yesterday.", ["whom","which","whose","where"], "课本附录。先行词是人，在从句中作 met 的<b>宾语</b> → whom（也可用 who / that，或省略）。"],
+  ["Is this the boy ___ parents went to Canada last year?", ["whose","who","whom","that"], "课本附录。“这个男孩<b>的</b>父母” → whose + 名词。"],
+  ["He is the owner of the house ___ roof is being repaired.", ["whose","which","that","where"], "课本附录。“房子<b>的</b>屋顶” → whose 也可以指物。"],
+  ["I remember the day ___ I met her.", ["when","where","which","why"], "课本附录。先行词是时间，从句不缺成分（I met her 完整）→ when。"],
+  ["I know that school ___ a famous person gave a speech.", ["where","which","when","who"], "课本附录。先行词是地点，从句不缺成分 → where。"],
+  ["I don't know the reason ___ she cried so sadly.", ["why","which","when","where"], "课本附录。先行词是 reason → why。"],
+  ["This museum is the place ___ we visited last Sunday.", ["which","where","when","what"], "课本附录。visited 后面<b>缺宾语</b> → 用关系代词 which / that，不用 where！"],
+  ["This museum is the place ___ he works.", ["where","which","that","when"], "课本附录。work 是不及物动词，从句不缺成分 → 用关系副词 where。"],
+  ["The house in ___ Lu Xun once lived is now the Lu Xun Museum.", ["which","that","where","who"], "课本附录。介词 in 后面指物只能用 <b>which</b>，不能用 that。"],
+  ["The person ___ you just talked to is my Chinese teacher.", ["who","which","whose","where"], "课本附录。先行词是人，作 talked to 的宾语 → who / whom / that。"],
+  ["I will never forget the time ___ we studied in the junior high school.", ["when","which","where","what"], "课本附录。从句 we studied in the junior high school 不缺成分，先行词是时间 → when。"],
+  ["There are very few young people ___ are interested in it.", ["who","whom","which","whose"], "课本练习。先行词是人，作主语 → who / that。"],
+  ["Lin Qiaozhi was a doctor ___ studied women's diseases.", ["who","whom","which","where"], "课本原句。先行词 doctor，作主语 → who。"],
+  ["He was a great thinker who ___ many wise ideas about how to behave well.", ["had","have","has","having"], "课本原句。who 指代 thinker，全句过去时 → had。"],
+];
+MCQ.pron = [
+  ["I saw ___ in the room, but I didn't know who it was.", ["someone","anyone","no one","everyone"], "课本附录：肯定句用 some- 开头的词。"],
+  ["Would you like ___ to drink?", ["something","anything","nothing","everything"], "课本附录：<b>表示请求、希望对方说“好”</b>的疑问句，用 some-。"],
+  ["She didn't say ___.", ["anything","something","nothing","everything"], "课本附录：否定句用 any-。didn't 已经是否定，不能再用 nothing。"],
+  ["Everyone in our class ___ sports.", ["likes","like","are liking","have liked"], "课本附录：不定代词作主语，谓语用<b>单数</b>。"],
+  ["I have ___ to tell you.", ["something important","important something","anything important","important anything"], "课本附录：形容词修饰不定代词，要放在<b>后面</b>。"],
+  ["Somebody ___ turned off the light.", ["has","have","are","were"], "课本附录：somebody 作主语 → 单数 has。"],
+  ["There is ___ milk in the bottle. Let's buy some.", ["little","few","a few","many"], "milk 不可数 → little / a little；“要去买” → 几乎没有 → <b>little</b>。"],
+  ["He has ___ friends here, so he often feels lonely.", ["few","a few","little","a little"], "friends 可数；“所以很孤独” → 几乎没有 → <b>few</b>。"],
+  ["We still have ___ time. Don't worry.", ["a little","little","a few","few"], "time 不可数；“别着急” → 还有一些 → <b>a little</b>。"],
+  ["—Which of the two T-shirts will you buy? —___. They are both too expensive.", ["Neither","Both","Either","None"], "两者都不 → <b>neither</b>；三者以上都不 → none。"],
+  ["___ of my parents are teachers.", ["Both","All","Either","Neither"], "两者都 → both，谓语用复数 are。三者以上都 → all。"],
+  ["There are many trees on ___ side of the road.", ["each","both","all","none"], "路有两边，“每一边” → each side（both 后面要用复数 sides）。"],
+  ["I have two pens. One is red, and ___ is blue.", ["the other","another","other","others"], "两者中的“另一个” → <b>the other</b>。"],
+  ["This T-shirt is too small. Please show me ___.", ["another","the other","other","others"], "三者以上的“另一个” → <b>another</b>。"],
+  ["—How many students are in the classroom? —___. They've all gone to the playground.", ["None","No one","Nothing","Nobody"], "问 How many（多少）→ 答 <b>none</b>；问 Who → 答 no one / nobody。"],
+  ["He did everything ___ to make her happy.", ["possible","possibly","impossible","possibility"], "课本附录：everything possible —— 形容词放在不定代词后面。"],
+  ["There is ___ wrong with my bike. It doesn't work.", ["something","anything","nothing","everything"], "肯定句，“有点毛病” → something wrong。"],
+  ["We don't have ___ time. Let's hurry.", ["much","many","few","a few"], "time 不可数 → much。"],
+];
+
+// 课本式填空：{答案} 是空，多个可接受答案用 | 分隔；第二项是括号提示
+const HFILL = {
+  pp1: [
+    ["Many people {have} already {moved} into their new houses.", "move", "课本练习。already 放在 have 和过去分词中间。"],
+    ["Our school {has} just {built} a new gym.", "build", "课本练习。school 单数 → has；build-built-built。"],
+    ["They {haven't finished|have not finished} building the road in the park yet.", "not finish", "课本练习。yet 在否定句末 → haven't + 过去分词。"],
+    ["—{Has} Bill {been} to his hometown recently? —No, he {hasn't|has not}.", "be", "课本练习。“去过……吗” → Has … been to …？"],
+    ["He {has gone} to London for his summer vacation.", "go", "课本练习。去了伦敦，人还不在这里 → has gone to。"],
+    ["After ten years, I returned home, and everything {has changed}.", "change", "课本练习。变化的结果留到现在 → 现在完成时。"],
+    ["I {have seen} the world and {have faced} challenges.", "see, face", "课本练习。see-saw-<b>seen</b>。"],
+    ["I {have never forgotten} my hometown.", "never forget", "课本练习。never 放在 have 后面；forget-forgot-<b>forgotten</b>。"],
+    ["I started my life from this very place, and now, I {have come} back.", "come", "课本练习。come-came-<b>come</b>。"],
+  ],
+  pp2: [
+    ["We haven't seen any waste in the river {for} several months.", "for / since", "课本练习。several months 是一段时间 → for。"],
+    ["—How long has your city sorted the waste? —{Since} 2020.", "for / since", "课本练习。2020 是时间点 → since。"],
+    ["I have been in an environmental group {since} the new term began.", "for / since", "课本练习。since + 一般过去时的句子。"],
+    ["The film {has been on} for half an hour.", "begin", "课本附录。begin → be on。"],
+    ["The store {has been closed} since last month.", "close", "课本附录。close → be closed。"],
+    ["They {have been married} for ten years.", "marry", "课本附录。marry → be married。"],
+    ["My grandpa {has been dead} for five years.", "die", "die → be dead。"],
+    ["I {have had} this bike for two years.", "buy", "buy → have，过去分词 had。"],
+    ["He {has kept} the book for two weeks.", "borrow", "borrow → keep，过去分词 kept。"],
+    ["Mr. Li {has been away} from Beijing for three days.", "leave", "leave → be away (from)。"],
+  ],
+  pv1: [
+    ["Many art works {are created} by young people today.", "create", "课本练习。today 说的是现在 → are + 过去分词。"],
+    ["The airplane {was invented} by the Wright brothers in 1903.", "invent", "课本练习。in 1903 → was invented。"],
+    ["Post-it notes {were invented} in 1968 by Dr. Spencer Silver.", "invent", "课本练习。notes 复数，in 1968 → were invented。"],
+    ["While people were singing, the post-it notes {were used} to keep the pages from falling out.", "use", "课本练习。过去，notes 复数 → were used。"],
+    ["In 1977, post-it notes first {appeared} on the market.", "appear", "课本练习。appear 不及物，没有被动 → appeared。"],
+    ["Now, post-it notes {are used} all over the world.", "use", "课本练习。Now → are used。"],
+    ["Tiantian's schoolbag {was bought} in Hong Kong.", "buy", "课本附录。buy-bought-<b>bought</b>。"],
+  ],
+  pv2: [
+    ["Chinese {will be used} more widely in the future.", "use", "课本练习。in the future → will be + 过去分词。"],
+    ["Li Xiang hopes that Chinese culture {will be spread} across the world.", "spread", "课本练习。spread-spread-spread。"],
+    ["People believe that Chinese calligraphy {will be learned|will be learnt} by more students.", "learn", "课本练习。"],
+    ["The speech topic {will be chosen} next week.", "choose", "课本练习。choose-chose-<b>chosen</b>。"],
+    ["A notice of the contest {will be sent} to all classes.", "send", "课本练习。send-sent-<b>sent</b>。"],
+    ["Guests and judges {will be invited} to the contest.", "invite", "课本练习。"],
+    ["A new satellite {will be sent} into space in Hainan.", "send", "课本附录。"],
+    ["This little boy {should be sent} to his mother at once.", "should, send", "课本附录。should + be + 过去分词。"],
+    ["The internet {can be used} in many ways.", "can, use", "课本附录。can + be + 过去分词。"],
+  ],
+  attr1: [
+    ["William Monroe is a man {that|who} made America's first wood pencil in 1812.", "关系词", "课本练习。指人，作主语 → that / who。"],
+    ["This is the machine {which|that} Jack invented.", "关系词", "课本练习。指物，作宾语 → which / that。"],
+    ["Robots can do almost any activity {that} humans can do.", "关系词", "课本原句。先行词有 any → 只用 that。"],
+    ["There are some TV programs that {are} good for children.", "be", "课本附录。programs 复数 → are。"],
+    ["Mount Tai is a mountain that {lies} in Shandong Province.", "lie", "从句谓语与先行词 mountain（单数）一致 → lies。"],
+  ],
+  attr2: [
+    ["The masters of Laizhou Brush are the people {who|that} made the brush all their lives.", "who / whom", "课本练习。作主语 → who。"],
+    ["Without the masters, there could be no art of Laizhou Brush. → They are the people without {whom} there could be no art of Laizhou Brush.", "who / whom", "课本练习。介词 without 后面 → whom。"],
+    ["Nowadays, there are very few young people {who|that} are interested in it.", "who / whom", "课本练习。作主语 → who。"],
+    ["Laizhou Brush is loved by people {who|that} try to spread Chinese culture.", "who / whom", "课本练习。作主语 → who。"],
+    ["Yuan Longping is a great agriculture scientist of {whom} we are proud.", "who / whom", "课本练习。介词 of 后面 → whom。"],
+    ["Is this the boy {whose} parents went to Canada last year?", "关系词", "“男孩的父母” → whose。"],
+    ["Keep your things in a place {where} you can find them easily.", "关系词", "课本附录。地点，从句不缺成分 → where。"],
+    ["There was a time {when} girls were not allowed to go to school.", "关系词", "课本附录。时间，从句不缺成分 → when。"],
+    ["You'd better find out the reason {why} this machine makes such a noise.", "关系词", "课本附录。reason → why。"],
+  ],
+  affix: [
+    ["The community reached an {agreement} to make the place a comfortable home for everyone.", "agree", "课本 U1：动词 + <b>-ment</b> → 名词。agree → agreement。"],
+    ["There is no {argument} about building a sports center in the small town.", "argue", "课本 U1：argue 去掉 e 再加 -ment → argument（特殊）。"],
+    ["After the {movement} of shutting down polluting factories, my hometown has changed a lot.", "move", "课本 U1：move → movement。"],
+    ["With the internet, people can make {payments|payment} faster and easier.", "pay", "课本 U1：pay → payment。"],
+    ["The laughter, the {excitement} and the {enjoyment} of those days filled my mind.", "excite, enjoy", "课本 U1：excite → excitement，enjoy → enjoyment。"],
+    ["There have been great {developments|development} in my hometown.", "develop", "课本 U1：develop → development。"],
+    ["With the {improvement} of the environment, people now have led a better life.", "improve", "课本 U1：improve → improvement。"],
+    ["At first, Chinese people used {wooden} boards to print books.", "wood", "课本 U2：名词 + <b>-en</b> → 形容词（“……做的”）：wood → wooden。"],
+    ["Movable type printing could greatly {shorten} the printing time.", "short", "课本 U2：形容词 + <b>-en</b> → 动词（“使变得……”）：short → shorten。"],
+    ["If you want to invent something, you need to {widen|broaden} your knowledge.", "wide", "课本 U2：wide → widen（以 e 结尾直接加 n）。"],
+    ["When the sky began to {darken}, sailors had to depend on stars to find the right direction.", "dark", "课本 U2：dark → darken。"],
+    ["Pencils can be {sharpened} by using a small tool.", "sharp", "课本 U2：sharp → sharpen，被动用过去分词 sharpened。"],
+    ["Around 2000 BCE, {woolen|woollen} clothing appeared in China.", "wool", "课本 U2：wool → woolen。"],
+    ["We will {revisit} the insect museum to learn more about ants.", "visit", "课本 U3：<b>re-</b> = 再、重新。visit → revisit。"],
+    ["After the earthquake, people {rebuilt} the city with the help from all over the world.", "build", "课本 U3：rebuild 的过去式 rebuilt。"],
+    ["We can help {rewrite} the world history by saving every drop of water.", "write", "课本 U3：write → rewrite。"],
+    ["It's a good idea to {reuse} plastic bags as waste bags.", "use", "课本 U3：use → reuse（再次使用）。"],
+    ["Perhaps, we should {rethink} about this and find a better way to use them.", "think", "课本 U3：think → rethink。"],
+    ["Though he speaks English with an accent, he is still {understandable}.", "understand", "课本 U4：动词 + <b>-able</b> → 形容词（“能被……的”）。"],
+    ["The weather here is so {changeable} that we have to check the weather forecast every day.", "change", "课本 U4：change → changeable（保留 e）。"],
+    ["{Countable} nouns can be counted, for example, a pie and two pears.", "count", "课本 U4：count → countable。"],
+    ["Some online information is not {suitable} for teenage children.", "suit", "课本 U4：suit → suitable。"],
+    ["Sue spent an {enjoyable} afternoon with her friends learning Chinese.", "enjoy", "课本 U4：enjoy → enjoyable。"],
+    ["This 5-year-old girl can speak more than 8 languages. It's really {unbelievable}.", "believe", "课本 U4：un- + believe + -able，去 e 加 able。"],
+    ["If you use these tools often, you will find many mistakes are actually {avoidable}.", "avoid", "课本 U4：avoid → avoidable。"],
+    ["The government made sure of people's {safety} during the snowstorm.", "safe", "课本 U5：形容词 + <b>-ty / -ity</b> → 名词。safe → safety。"],
+    ["{Honesty} is a very important quality of people.", "honest", "课本 U5：honest → honesty。"],
+    ["There is a {possibility} that one day robots will be able to do all the things as a human does.", "possible", "课本 U5：-ble 结尾变 -bility：possible → possibility。"],
+    ["Scientists share some common traits, such as {curiosity} and {creativity}.", "curious, creative", "课本 U5：curious → curiosity（去 u），creative → creativity（去 e）。"],
+    ["They have the {ability} to solve problems and turn dreams into {reality}.", "able, real", "课本 U5：able → ability，real → reality。"],
+    ["My grandfather needs a tool to help him {enlarge} the words in the newspaper.", "large", "课本 U6：<b>en-</b> + 形容词/名词 → 动词（“使……”）。large → enlarge。"],
+    ["Her hard work {enabled} her to realize her dream of becoming a doctor.", "able", "课本 U6：able → enable，这里用过去式。"],
+    ["She always {encouraged} women to keep learning.", "courage", "课本 U6：courage → encourage，过去式 encouraged。"],
+    ["Dickens' novels have {enriched} English literature.", "rich", "课本 U6：rich → enrich，现在完成时用过去分词。"],
+    ["The hero was ready to do everything for the people, even if his own life was {endangered}.", "danger", "课本 U6：danger → endanger，被动 was endangered。"],
+  ],
+};
+
+// 合并句子（定语从句）：数组里的字符串是一个词块；{or:[…]} 表示几种都对，'' 表示可以省略
+const HCHIP = {
+  attr1: [
+    [["I use the laptop to learn English.", "The laptop was bought last month."], ["The laptop", {or:["that","which",""]}, "I use", "to learn English", "was bought", "last month"], ".", ["who","it"], "laptop 是物，在从句里作 use 的宾语 → that / which，也可以省略。注意从句里不能再有 it。"],
+    [["The car is charging in the parking lot.", "It is a new energy one."], ["The car", {or:["that","which"]}, "is charging", "in the parking lot", "is", "a new energy one"], ".", ["who","it"], "从句缺主语 → that / which，不能省略。"],
+    [["I hope you can tell me more about the car.", "The car can fly."], ["I hope", "you can tell me", "more about", "the car", {or:["that","which"]}, "can fly"], ".", ["who","where"], "先行词 the car，从句缺主语 → that / which。"],
+    [["This is the machine.", "Jack invented it."], ["This is", "the machine", {or:["that","which",""]}, "Jack invented"], ".", ["it","who"], "作 invented 的宾语 → that / which / 省略；别忘了去掉 it。"],
+    [["William Monroe is a man.", "He made America's first wood pencil."], ["William Monroe", "is a man", {or:["that","who"]}, "made", "America's first wood pencil"], ".", ["which","he"], "先行词是人，作主语 → that / who；从句里的 he 要去掉。"],
+    [["It is the fastest train.", "I have ever taken the train."], ["It is", "the fastest train", {or:["that",""]}, "I have ever taken"], ".", ["which","it"], "最高级修饰先行词 → 只用 that（作宾语也可省略）。"],
+  ],
+  attr2: [
+    [["Is this the boy?", "His parents went to Canada last year."], ["Is this", "the boy", "whose", "parents", "went to Canada", "last year"], "?", ["who","his"], "“男孩的父母” → whose parents。"],
+    [["I remember the day.", "I met her on that day."], ["I remember", "the day", "when", "I met her"], ".", ["which","on that day"], "先行词是时间，从句不缺成分 → when。"],
+    [["This is the museum.", "He works in the museum."], ["This is", "the museum", "where", "he works"], ".", ["which","in it"], "先行词是地点，work 不及物，从句不缺成分 → where。"],
+    [["That's the girl.", "I met her at the party yesterday."], ["That's", "the girl", {or:["whom","who","that",""]}, "I met", "at the party", "yesterday"], ".", ["which","her"], "作 met 的宾语 → whom / who / that，也可以省略；her 要去掉。"],
+    [["He was a great man.", "We can learn a lot from him."], ["He was", "a great man", "from whom", "we can learn", "a lot"], ".", ["from who","from him"], "课本原句：介词提前时，指人只能用 whom。"],
+    [["Marie Curie is a scientist.", "She won two Nobel prizes."], ["Marie Curie", "is a scientist", {or:["who","that"]}, "won", "two Nobel prizes"], ".", ["whom","she"], "先行词是人，作主语 → who / that。"],
+    [["This museum is the place.", "We visited it last Sunday."], ["This museum", "is the place", {or:["which","that",""]}, "we visited", "last Sunday"], ".", ["where","it"], "visited 缺宾语 → which / that（可省略），不能用 where。"],
+  ],
+};
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+const R = { aux:'r-aux', be:'r-be', v:'r-v', adv:'r-adv', by:'r-by' };
+function toksHTML(toks) {
+  return toks.map(t => t.r === 'p' ? esc(t.w) : ' <span class="' + (R[t.r] || '') + '">' + esc(t.w) + '</span>').join('').trim();
+}
 /* ================= 题目生成 ================= */
 const pick = a => a[Math.floor(Math.random() * a.length)];
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -415,6 +637,29 @@ function makeQ(spec) {
     return { spec, type: 'irr', title: '写出过去式和过去分词', base: b, zh, p, pp,
       exp: `${b} — ${p} — ${pp}　<span class="muted">（${IRR_GROUPS[irrGroup(IRR[spec.i])]}）</span>` };
   }
+  if (spec.k === 'hf') {
+    const [text, hint, e] = HFILL[spec.b][spec.i];
+    const segs = [], ans = [];
+    text.split(/(\{[^}]+\})/).forEach(part => {
+      if (!part) return;
+      if (part[0] === '{') { const alts = part.slice(1, -1).split('|'); segs.push({ blank: true, alts }); ans.push(alts[0]); }
+      else segs.push({ text: part });
+    });
+    const full = segs.map(g => g.blank ? `<span class="r-v">${esc(g.alts[0])}</span>` : esc(g.text)).join('');
+    return { spec, type: 'fill', title: hint ? '根据提示填空' : '填空', segs, hint, answerHTML: full, exp: e };
+  }
+  if (spec.k === 'hc') {
+    const [src, chunks, punct, dis, e] = HCHIP[spec.b][spec.i];
+    let accept = [''];
+    const pool = [];
+    for (const c of chunks) {
+      if (typeof c === 'string') { accept = accept.map(a => a + ' ' + c); pool.push(c); }
+      else { accept = accept.flatMap(a => c.or.map(o => a + ' ' + o)); c.or.filter(Boolean).forEach(o => pool.push(o)); }
+    }
+    const first = chunks.map(c => typeof c === 'string' ? c : c.or[0]).filter(Boolean);
+    return { spec, type: 'chip', title: '用定语从句把两句合成一句', srcText: src.join(' '), pool: shuffle([...pool, ...dis]), punct,
+      accept, chips: first, answerHTML: esc(first.join(' ') + punct), exp: e };
+  }
   const sc = SCENES[spec.sc];
   if (spec.k === 'fill') {
     const toks = build(sc, spec.t, spec.vo, spec.f);
@@ -422,10 +667,11 @@ function makeQ(spec) {
     const segs = []; let cur = null;
     toks.forEach(t => {
       const blank = ['aux', 'be', 'v'].includes(t.r) && !(t.w.toLowerCase().startsWith('should'));
-      if (blank) { if (!cur) { cur = { blank: true, ans: [] }; segs.push(cur); } cur.ans.push(t.w); }
-      else { cur = null; segs.push({ tok: t }); }
+      if (blank) { if (!cur) { cur = { blank: true, w: [] }; segs.push(cur); } cur.w.push(t.w); }
+      else { cur = null; segs.push({ text: (t.r === 'p' ? '' : ' ') + t.w }); }
     });
-    return { spec, type: 'fill', title: '用括号里动词的正确形式填空', segs, toks, verb: sc.v, exp: explain(sc, spec.t, spec.vo, spec.f) };
+    segs.forEach((g, j) => { if (g.blank) g.alts = [g.w.join(' ')]; else if (j === 0) g.text = g.text.trim(); });
+    return { spec, type: 'fill', title: '用括号里动词的正确形式填空', segs, hint: sc.v, answerHTML: toksHTML(toks), exp: explain(sc, spec.t, spec.vo, spec.f) };
   }
   if (spec.k === 'chip') {
     const from = build(sc, spec.ft, spec.fv, spec.ff);
@@ -433,7 +679,7 @@ function makeQ(spec) {
     const words = to.filter(t => t.r !== 'p');
     const dis = distractors(sc, words);
     const pool = shuffle([...words.map(t => t.w), ...dis]);
-    return { spec, type: 'chip', title: chipTask(spec), from, to, words: words.map(t => t.w), pool, punct: to[to.length - 1].w,
+    return { spec, type: 'chip', title: chipTask(spec), srcText: plain(from), accept: [words.map(t => t.w).join(' ')], chips: words.map(t => t.w), answerHTML: toksHTML(to), pool, punct: to[to.length - 1].w,
       exp: (spec.ft === 'past' && spec.t === 'perf' ? `现在完成时不能和「${from.find(t => t.r === 'adv').w}」这种具体的过去时间连用，要去掉。` : '')
         + (spec.ff === 'aff' && spec.ft === 'perf' && spec.f !== 'aff' ? 'already 要换成句末的 yet。' : '')
         + explain(sc, spec.t, spec.vo, spec.f) };
@@ -480,13 +726,17 @@ const GEN = {
   mcq: b => ({ k: 'mcq', b, i: Math.floor(Math.random() * MCQ[b].length) }),
   fill: (tenses, voices, forms) => ({ k: 'fill', sc: scIdx(), t: pick(tenses), vo: pick(voices), f: pick(forms) }),
 };
+const HF = b => ({ k: 'hf', b, i: Math.floor(Math.random() * HFILL[b].length) });
+const HC = b => ({ k: 'hc', b, i: Math.floor(Math.random() * HCHIP[b].length) });
+const rep = (n, f) => Array.from({ length: n }, f);
 const TOPICS = [
   { id:'intro', tag:'总', name:'先看懂：时态和语态是什么', sub:'时间 + 状态 = 时态；做 / 被做 = 语态', learnOnly:true },
   { id:'pp1', tag:'U1', name:'现在完成时 (Ⅰ)', sub:'已经做了 · have been to / gone to',
     round() {
       const q = [];
-      for (let i = 0; i < 6; i++) q.push(GEN.mcq('pp1'));
-      for (let i = 0; i < 2; i++) q.push(GEN.fill(['perf'], ['act'], ['aff', 'neg', 'q']));
+      for (let i = 0; i < 5; i++) q.push(GEN.mcq('pp1'));
+      q.push(HF('pp1'), HF('pp1'));
+      q.push(GEN.fill(['perf'], ['act'], ['aff', 'neg', 'q']));
       q.push({ k:'chip', sc:scIdx(), ft:'past', fv:'act', ff:'aff', t:'perf', vo:'act', f:'aff', task:'用 already 改写成现在完成时' });
       q.push({ k:'chip', sc:scIdx(), ft:'perf', fv:'act', ff:'aff', t:'perf', vo:'act', f:pick(['neg', 'q']), task:'' });
       return q;
@@ -494,26 +744,33 @@ const TOPICS = [
   { id:'pv1', tag:'U2', name:'被动语态 (Ⅰ)', sub:'am/is/are done · was/were done',
     round() {
       const q = [];
-      for (let i = 0; i < 5; i++) q.push(GEN.mcq('pv1'));
-      for (let i = 0; i < 3; i++) q.push(GEN.fill(['pres', 'past'], ['pass'], ['aff', 'aff', 'neg', 'q']));
+      for (let i = 0; i < 4; i++) q.push(GEN.mcq('pv1'));
+      q.push(HF('pv1'), HF('pv1'));
+      for (let i = 0; i < 2; i++) q.push(GEN.fill(['pres', 'past'], ['pass'], ['aff', 'aff', 'neg', 'q']));
       for (let i = 0; i < 2; i++) { const t = pick(['pres', 'past']); q.push({ k:'chip', sc:scIdx(), ft:t, fv:'act', ff:'aff', t, vo:'pass', f:'aff', task:'改成被动语态' }); }
       return q;
     } },
   { id:'pp2', tag:'U3', name:'现在完成时 (Ⅱ)', sub:'for / since · 延续性动词',
     round() {
       const q = [];
-      for (let i = 0; i < 7; i++) q.push(GEN.mcq('pp2'));
-      for (let i = 0; i < 3; i++) q.push({ k:'fs', i: Math.floor(Math.random() * FOR_SINCE.length) });
+      for (let i = 0; i < 5; i++) q.push(GEN.mcq('pp2'));
+      for (let i = 0; i < 3; i++) q.push(HF('pp2'));
+      for (let i = 0; i < 2; i++) q.push({ k:'fs', i: Math.floor(Math.random() * FOR_SINCE.length) });
       return q;
     } },
   { id:'pv2', tag:'U4', name:'被动语态 (Ⅱ)', sub:'will be done · should / can / must be done',
     round() {
       const q = [];
-      for (let i = 0; i < 5; i++) q.push(GEN.mcq('pv2'));
-      for (let i = 0; i < 3; i++) q.push(GEN.fill(['fut', 'modal'], ['pass'], ['aff', 'aff', 'neg', 'q']));
+      for (let i = 0; i < 4; i++) q.push(GEN.mcq('pv2'));
+      q.push(HF('pv2'), HF('pv2'));
+      for (let i = 0; i < 2; i++) q.push(GEN.fill(['fut', 'modal'], ['pass'], ['aff', 'aff', 'neg', 'q']));
       for (let i = 0; i < 2; i++) { const t = pick(['fut', 'modal']); q.push({ k:'chip', sc:scIdx(), ft:t, fv:'act', ff:'aff', t, vo:'pass', f:'aff', task:'改成被动语态' }); }
       return q;
     } },
+  { id:'attr1', tag:'U5', name:'定语从句 (Ⅰ)', sub:'that / which · 先行词 · 只用 that 的情况',
+    round() { return [...rep(6, () => GEN.mcq('attr1')), HF('attr1'), HF('attr1'), HC('attr1'), HC('attr1')]; } },
+  { id:'attr2', tag:'U6', name:'定语从句 (Ⅱ)', sub:'who / whom / whose · when / where / why',
+    round() { return [...rep(5, () => GEN.mcq('attr2')), HF('attr2'), HF('attr2'), HC('attr2'), HC('attr2'), HC('attr2')]; } },
   { id:'mix', tag:'综', name:'时态大综合', sub:'看时间词，定时态和语态',
     round() {
       const q = [];
@@ -525,6 +782,10 @@ const TOPICS = [
     } },
   { id:'irr', tag:'词', name:'不规则动词三态', sub:'过去式 · 过去分词（完成时和被动都要用）',
     round() { return shuffle(IRR.map((_, i) => i)).slice(0, 10).map(i => ({ k:'irr', i })); } },
+  { id:'affix', tag:'构', name:'构词法：词缀', sub:'-ment · -en · re- · -able · -ty/-ity · en-（U1–U6）',
+    round() { return shuffle(HFILL.affix.map((_, i) => i)).slice(0, 10).map(i => ({ k:'hf', b:'affix', i })); } },
+  { id:'pron', tag:'代', name:'不定代词', sub:'some- / any- · few / little · both / either / neither',
+    round() { return rep(10, () => GEN.mcq('pron')); } },
 ];
 // 去重：同一轮里 spec 相同的题只留一道
 function dedupe(list, regen) {
@@ -539,6 +800,8 @@ function regenSpec(s) {
   if (s.k === 'mcq') return { ...s, i: Math.floor(Math.random() * MCQ[s.b].length) };
   if (s.k === 'fs') return { ...s, i: Math.floor(Math.random() * FOR_SINCE.length) };
   if (s.k === 'irr') return { ...s, i: Math.floor(Math.random() * IRR.length) };
+  if (s.k === 'hf') return { ...s, i: Math.floor(Math.random() * HFILL[s.b].length) };
+  if (s.k === 'hc') return { ...s, i: Math.floor(Math.random() * HCHIP[s.b].length) };
   return { ...s, sc: scIdx() };
 }
 // chip 题的任务说明
@@ -569,13 +832,9 @@ function tl(kind) {
 
 /* ================= 渲染小工具 ================= */
 const $ = s => document.querySelector(s);
-const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
-const R = { aux:'r-aux', be:'r-be', v:'r-v', adv:'r-adv', by:'r-by' };
-function toksHTML(toks) {
-  return toks.map(t => t.r === 'p' ? esc(t.w) : ' <span class="' + (R[t.r] || '') + '">' + esc(t.w) + '</span>').join('').trim();
-}
 // 讲解里的小标记：{a:has} 助动词 {b:been} 被动的 be {v:done} 动词 {t:yesterday} 时间词
-const mk = s => s.replace(/\{([abvt]):([^}]+)\}/g, (_, k, w) => `<span class="${{ a:'r-aux', b:'r-be', v:'r-v', t:'r-adv' }[k]}">${w}</span>`);
+const mk = s => s.replace(/\{([abvtnr]):([^}]+)\}/g, (_, k, w) => `<span class="${{ a:'r-aux', b:'r-be', v:'r-v', t:'r-adv', n:'r-n', r:'r-aux' }[k]}">${w}</span>`)
+  .replace(/«/g, '<span class="cl">').replace(/»/g, '</span>');
 const ex = (en, zh) => `<div class="ex">${mk(en)}<span class="zh">${zh}</span></div>`;
 const LEGEND = `<div class="legend"><span class="r-aux">助动词</span><span class="r-be">被动的 be</span><span class="r-v">动词变形</span><span class="r-adv" style="text-decoration:none">时间信号词</span></div>`;
 
@@ -611,7 +870,8 @@ const LESSONS = {
        ② <b>看主语</b>：自己做 → 主动；被做 → 被动<br>
        ③ <b>套公式</b>变形，别忘了主语单复数和不规则动词</p>
     <h3>这学期的语法</h3>
-    <p>U1 现在完成时 (Ⅰ) · U2 被动语态 (Ⅰ) · U3 现在完成时 (Ⅱ) · U4 被动语态 (Ⅱ)</p>
+    <p>U1 现在完成时 (Ⅰ) · U2 被动语态 (Ⅰ) · U3 现在完成时 (Ⅱ) · U4 被动语态 (Ⅱ) · U5 定语从句 (Ⅰ) · U6 定语从句 (Ⅱ)<br>
+      <span class="small muted">另外每单元还有一个词缀（构词法），课本附录还讲了不定代词，都在列表后面。</span></p>
     ${LEGEND}`,
 
   pp1: () => `
@@ -634,6 +894,9 @@ const LESSONS = {
     ${ex('She {a:has} {v:gone} to Guangzhou with her parents. She hasn\'t come back yet.', '她和父母去广州了，还没回来。（课本）')}
     <div class="warn"><b>易错：</b>现在完成时<b>不能</b>和明确的过去时间连用：yesterday、last week、…ago、in 2010、just now。<br>
       <span class="x">I have seen the film yesterday.</span> → I saw the film yesterday.</div>
+    <h3>现在完成时 vs 一般过去时</h3>
+    ${ex('I {a:have} {v:been} to Beijing.', '我去过北京。（我对北京有所了解——说的是现在）')}
+    ${ex('I {v:went} to Beijing {t:last year}.', '我去年去过北京。（只说去年的事，不涉及现在）')}
     <h3>课本例句</h3>
     ${ex('A lot of changes {a:have} {v:taken} place there.', '那里发生了很多变化。')}
     ${ex('{t:In recent years}, China {a:has} {v:made} great achievements in science and technology.', '近年来，中国在科学技术方面取得了巨大成就。')}
@@ -657,6 +920,8 @@ const LESSONS = {
     <h3>否定句和疑问句：只动 be</h3>
     ${ex('The classroom {b:isn\'t} {v:cleaned} every day.', '否定：be 后面加 not')}
     ${ex('{b:Was} the bridge {v:built} in 2018? — Yes, it was.', '疑问：be 提到主语前面')}
+    ${ex('What {b:are} {v:planted} by the students in Class 2?', '特殊疑问句：疑问词作主语 → 疑问词 + be + 过去分词？（课本附录）')}
+    ${ex('When {b:was} the bridge {v:built}?', '疑问词不作主语 → 疑问词 + be + 主语 + 过去分词？')}
     <div class="warn"><b>易错 1：</b>be 不能丢。<span class="x">The classroom cleaned every day.</span><br>
       <b>易错 2：</b>要用过去分词，不是过去式。<span class="x">The window was broke.</span> → was broken<br>
       <b>易错 3：</b>take place、happen、appear 没有被动。<span class="x">Changes were taken place.</span></div>
@@ -687,7 +952,10 @@ const LESSONS = {
       <tr><td>open / close 开、关</td><td>be open / be closed</td></tr>
       <tr><td>finish / end 结束</td><td>be over</td></tr>
       <tr><td>get to know 认识</td><td>know</td></tr>
-      <tr><td>catch a cold 感冒</td><td>have a cold</td></tr></table>
+      <tr><td>catch a cold 感冒</td><td>have a cold</td></tr>
+      <tr><td>fall ill 生病</td><td>be ill</td></tr>
+      <tr><td>marry 结婚</td><td>be married</td></tr></table>
+    <p class="small">注意：瞬间动词的<b>否定句</b>可以和一段时间连用：I <b>haven't seen</b> him for a long time. 我好久没见到他了。</p>
     <div class="warn"><b>易错：</b><span class="x">I have bought this bike for two years.</span> → I have <b>had</b> this bike for two years.<br>
       <span class="x">He has died for three years.</span> → He has <b>been dead</b> for three years.</div>
     <div class="formula">It is / has been + 一段时间 + since + 一般过去时<span class="eq">It is two years since we came to this school. 我们来这所学校两年了。</span></div>
@@ -704,11 +972,19 @@ const LESSONS = {
     <div class="formula">含情态动词的被动：can / must / should / may + be + 过去分词</div>
     ${ex('Waste paper {a:can} {b:be} {v:recycled}.', '废纸可以被回收。')}
     ${ex('The work {a:must} {b:be} {v:finished} before 5 o\'clock.', '这项工作必须在五点前完成。')}
+    ${ex('Two robots {a:are going to} {b:be} {v:displayed} in the show.', '将来的被动也可以用 be going to + be + 过去分词。（课本附录）')}
+    ${ex('These shoes {a:needn\'t} {b:be} {v:washed} twice.', 'needn\'t 也是情态动词。（课本附录）')}
     <h3>否定句和疑问句：动第一个词</h3>
     ${ex('Plastic bags {a:shouldn\'t} {b:be} {v:thrown} everywhere.', '塑料袋不应该到处乱扔。')}
     ${ex('{a:Will} the bridge {b:be} {v:finished} next year? — No, it won\'t.', '桥明年会完工吗？')}
     <div class="warn"><b>易错：</b>will / can / must 后面的 be 要用<b>原形 be</b>，过去分词别忘了。<br>
       <span class="x">will taught</span> <span class="x">must be finish</span> <span class="x">can is recycled</span></div>
+    ${ex('When {a:can} his homework {b:be} {v:finished}?', '特殊疑问句：疑问词 + 情态动词 + 主语 + be + 过去分词？（课本附录）')}
+    <h3>两个特殊句型</h3>
+    <p><b>① 双宾语</b>：buy / give sb. sth. 变被动，“人”或“物”都可以作主语；物作主语时，人前面加 for / to。</p>
+    ${ex('I {b:was} {v:bought} a cellphone by my father. = A cellphone {b:was} {v:bought} <b>for</b> me by my father.', '（课本附录）')}
+    <p><b>② make / see / hear / feel / notice sb. do</b> 变被动，要把省掉的 <b>to</b> 加回来。</p>
+    ${ex('They heard a girl sing in the next room. → A girl {b:was} {v:heard} <b>to</b> sing in the next room.', '（课本附录）')}
     <h3>一张表看懂所有被动</h3>
     <p class="small muted">秘诀：被动 = 把 <b>be</b> 放进这个时态里变形，后面接过去分词。以 clean 为例：</p>
     <table><tr><th>时态</th><th>主动</th><th>被动</th></tr>
@@ -717,7 +993,10 @@ const LESSONS = {
       <tr><td>一般将来</td><td>${mk('{a:will} {v:clean}')}</td><td>${mk('{a:will} {b:be} {v:cleaned}')}</td></tr>
       <tr><td>现在完成</td><td>${mk('{a:have/has} {v:cleaned}')}</td><td>${mk('{a:have/has} {b:been} {v:cleaned}')}</td></tr>
       <tr><td>情态动词</td><td>${mk('{a:can} {v:clean}')}</td><td>${mk('{a:can} {b:be} {v:cleaned}')}</td></tr>
-      <tr><td>现在进行 <span class="ext">拓展</span></td><td>${mk('{a:am/is/are} {v:cleaning}')}</td><td>${mk('{a:am/is/are} {b:being} {v:cleaned}')}</td></tr></table>
+      <tr><td>现在进行</td><td>${mk('{a:am/is/are} {v:cleaning}')}</td><td>${mk('{a:am/is/are} {b:being} {v:cleaned}')}</td></tr>
+      <tr><td>过去进行</td><td>${mk('{a:was/were} {v:cleaning}')}</td><td>${mk('{a:was/were} {b:being} {v:cleaned}')}</td></tr>
+      <tr><td>过去将来</td><td>${mk('{a:would} {v:clean}')}</td><td>${mk('{a:would} {b:be} {v:cleaned}')}</td></tr></table>
+    <p class="small muted">课本附录还列了过去完成时的被动（had been + 过去分词），九年级了解即可。</p>
     ${LEGEND}`,
 
   mix: () => `
@@ -734,6 +1013,108 @@ const LESSONS = {
       强调对现在的影响，或有 already / yet / for / since → 现在完成时</div>
     <p>然后看主语：是它<b>自己做</b>，还是<b>被做</b>？被做就用 be + 过去分词。</p>
     ${LEGEND}`,
+
+  attr1: () => `
+    <p>一个名词后面跟着一个<b>句子</b>来说明它是“哪一个、什么样的”，这个句子就叫<b>定语从句</b>。被说明的名词叫<b>先行词</b>，连接它们的词叫<b>关系词</b>。</p>
+    <div class="formula">先行词 + 关系词 + 从句<span class="eq">汉语把修饰语放在前面（我昨天买的<u>书</u>），英语放在后面（the <u>book</u> that I bought yesterday）。</span></div>
+    ${ex('China is a great {n:country} «{r:that} has about 5,000 years of history».', '中国是一个有着约 5000 年历史的伟大国家。（课本附录）')}
+    <h3>两句变一句</h3>
+    ${ex('This is the machine. Jack invented {n:it}.', '① 找到两句里指同一样东西的词：the machine = it')}
+    ${ex('This is the {n:machine} «{r:that} Jack invented».', '② 用关系词代替 it，放在先行词后面（it 要删掉！）')}
+    <h3>that 和 which</h3>
+    <table><tr><th>关系词</th><th>指</th><th>在从句里作</th></tr>
+      <tr><td class="r-aux">that</td><td>人或物</td><td>主语、宾语</td></tr>
+      <tr><td class="r-aux">which</td><td>物</td><td>主语、宾语</td></tr></table>
+    ${ex('It is the latest high-speed {n:train} «{r:that} runs between Shanghai and Beijing».', '作主语：从句缺主语（___ runs…）（课本）')}
+    ${ex('Is it the fastest {n:train} «({r:that}) you have ever taken»?', '作宾语：taken 缺宾语 → 关系词可以省略（课本）')}
+    <div class="formula">关系词作<b>宾语</b>可以省略，作<b>主语</b>不能省略。</div>
+    <h3>从句的动词跟着先行词变</h3>
+    ${ex('There are some TV {n:programs} «that {v:are} good for children».', 'programs 复数 → are')}
+    ${ex('I know the {n:girl} «who {v:draws} well».', 'girl 单数 → draws')}
+    <h3>只能用 that、不用 which 的情况</h3>
+    <table><tr><th>情况</th><th>例子</th></tr>
+      <tr><td>先行词是 all、everything、anything、nothing 等</td><td>That's <b>all</b> that I could do.</td></tr>
+      <tr><td>先行词被 every、any、no、few、little、some 修饰</td><td>almost <b>any</b> activity that humans can do</td></tr>
+      <tr><td>先行词被最高级、序数词修饰</td><td>the <b>best</b> hotel that I know<br><b>the first</b> one that comes</td></tr>
+      <tr><td>先行词前有 the only / the very / the last / the same</td><td><b>the very</b> thing that she wants</td></tr>
+      <tr><td>先行词既有人又有物</td><td>the <b>people and things</b> that she was interested in</td></tr></table>
+    <div class="warn"><b>易错 1：</b>从句里别重复先行词。<span class="x">This is the machine that Jack invented it.</span><br>
+      <b>易错 2：</b>what 不能引导定语从句。<span class="x">the book what I bought</span></div>
+    <h3>课本例句</h3>
+    ${ex('Virtual reality is a {n:technology} «{r:that} creates a copy of the real world in a virtual environment».', '虚拟现实是一种在虚拟环境中创建真实世界副本的技术。')}
+    ${ex('Robots can do almost any {n:activity} «{r:that} humans can do».', '机器人几乎能做人类能做的任何活动。')}
+    <div class="legend"><span class="r-n" style="color:var(--ink)">先行词</span><span class="r-aux">关系词</span><span style="color:var(--adv)">定语从句</span></div>`,
+
+  attr2: () => `
+    <p>先行词是<b>人</b>时，除了 that，还常用 who / whom；表示“……的”用 whose；先行词是时间、地点、原因时，可以用 when / where / why。</p>
+    <table><tr><th>关系词</th><th>指</th><th>在从句里作</th></tr>
+      <tr><td class="r-aux">who</td><td>人</td><td>主语（也可作宾语）</td></tr>
+      <tr><td class="r-aux">whom</td><td>人</td><td>宾语，尤其是<b>介词后面</b></td></tr>
+      <tr><td class="r-aux">whose</td><td>人或物</td><td>“……的” + 名词</td></tr>
+      <tr><td class="r-aux">when</td><td>时间</td><td>时间状语</td></tr>
+      <tr><td class="r-aux">where</td><td>地点</td><td>地点状语</td></tr>
+      <tr><td class="r-aux">why</td><td>原因（reason）</td><td>原因状语</td></tr></table>
+    ${ex('Marie Curie is a {n:scientist} «{r:who} won two Nobel prizes».', 'who 作主语（课本）')}
+    ${ex('That\'s the {n:girl} «({r:whom}) I met at the party yesterday».', 'whom 作宾语，可以省略（课本附录）')}
+    ${ex('Is this the {n:boy} «{r:whose} parents went to Canada last year»?', 'whose parents = 这个男孩的父母（课本附录）')}
+    <h3>介词 + whom / which</h3>
+    ${ex('He was really a great {n:man} «from {r:whom} we can learn a lot».', '介词放前面：指人用 whom，指物用 which，不能用 who / that（课本）')}
+    ${ex('The {n:house} «in {r:which} Lu Xun once lived» is now the Lu Xun Museum.', '（课本附录）')}
+    ${ex('The {n:friend} «({r:who}) I am traveling with» speaks English.', '介词留在后面时，可以用 who / that，也可以省略')}
+    <h3>when / where / why</h3>
+    ${ex('I remember the {n:day} «{r:when} I met her».', '（课本附录）')}
+    ${ex('I know that {n:school} «{r:where} a famous person gave a speech».', '（课本附录）')}
+    ${ex('I don\'t know the {n:reason} «{r:why} she cried so sadly».', '（课本附录）')}
+    <h3>最关键：看从句缺不缺成分</h3>
+    <div class="formula">从句缺主语 / 宾语 → 用关系代词（that / which / who / whom）<span class="eq">从句什么都不缺 → 用关系副词（when / where / why）</span></div>
+    ${ex('This museum is the {n:place} «{r:which} we visited last Sunday».', 'visited 后面缺宾语 → which / that')}
+    ${ex('This museum is the {n:place} «{r:where} he works».', 'he works 不缺成分 → where')}
+    <div class="warn"><b>易错：</b>先行词是地点，不一定用 where！<br>
+      <span class="x">This is the place where we visited.</span> → the place <b>which</b> we visited</div>
+    <h3>课本例句</h3>
+    ${ex('He was a great {n:thinker} «{r:who} had many wise ideas about how to behave well».', '他是一位伟大的思想家，对如何做人有许多睿智的见解。')}
+    ${ex('Yuan Longping is a great agriculture {n:scientist} «of {r:whom} we are proud».', '袁隆平是一位让我们骄傲的伟大农业科学家。')}
+    <div class="legend"><span class="r-n" style="color:var(--ink)">先行词</span><span class="r-aux">关系词</span><span style="color:var(--adv)">定语从句</span></div>`,
+
+  affix: () => `
+    <p>每个单元的 Grammar in Use 都教一个<b>词缀</b>。认识词缀，就能从一个词猜出一串词，填空题也常考“用所给词的适当形式”。</p>
+    <table><tr><th>词缀</th><th>规则</th><th>例子</th></tr>
+      <tr><td><b>U1 -ment</b></td><td>动词 → 名词</td><td>agree → agree<b>ment</b><br>move → move<b>ment</b><br>develop → develop<b>ment</b><br>argue → arg<b>ument</b>（去 e）</td></tr>
+      <tr><td><b>U2 -en</b></td><td>形容词 → 动词（使变得……）<br>名词 → 形容词（……做的）</td><td>short → short<b>en</b>，wide → wide<b>n</b>，dark → dark<b>en</b>，sharp → sharp<b>en</b><br>wood → wood<b>en</b>，wool → wool<b>en</b></td></tr>
+      <tr><td><b>U3 re-</b></td><td>再、重新</td><td><b>re</b>use，<b>re</b>visit，<b>re</b>build，<b>re</b>write，<b>re</b>think</td></tr>
+      <tr><td><b>U4 -able</b></td><td>动词 → 形容词（能被……的）</td><td>read<b>able</b>，change<b>able</b>，suit<b>able</b>，enjoy<b>able</b><br>believe → un-believ<b>able</b>（去 e）</td></tr>
+      <tr><td><b>U5 -ty / -ity</b></td><td>形容词 → 名词</td><td>safe → safe<b>ty</b>，honest → honest<b>y</b><br>possible → possib<b>ility</b>，able → ab<b>ility</b><br>curious → curi<b>osity</b>，creative → creativ<b>ity</b>，real → real<b>ity</b></td></tr>
+      <tr><td><b>U6 en-</b></td><td>形容词 / 名词 → 动词（使……）</td><td><b>en</b>large，<b>en</b>rich，<b>en</b>able，<b>en</b>courage，<b>en</b>danger，<b>en</b>joy</td></tr></table>
+    <div class="warn"><b>填空时别忘了：</b>变好词以后，还要看句子需要什么形式——名词要不要复数？动词要不要用过去式、过去分词、三单？<br>
+      例：Dickens' novels have <b>enriched</b> English literature.（现在完成时）</div>`,
+
+  pron: () => `
+    <p>不明确指哪个人、哪样东西的代词，叫<b>不定代词</b>。（课本附录 Ⅳ）</p>
+    <h3>some- / any- / no- / every-</h3>
+    <table><tr><th></th><th>some-</th><th>any-</th><th>no-</th><th>every-</th></tr>
+      <tr><td>人</td><td>someone<br>somebody</td><td>anyone<br>anybody</td><td>no one<br>nobody</td><td>everyone<br>everybody</td></tr>
+      <tr><td>物</td><td>something</td><td>anything</td><td>nothing</td><td>everything</td></tr></table>
+    <p>① 肯定句、表示请求的疑问句用 <b>some-</b>；否定句、一般疑问句用 <b>any-</b>。</p>
+    ${ex('Would you like {v:something} to drink?', '请求、希望对方说“好” → something')}
+    ${ex('She didn\'t say {v:anything}.', '否定句 → anything')}
+    <p>② 作主语时，谓语动词用<b>单数</b>。</p>
+    ${ex('{v:Everyone} in our class {a:likes} sports.', '')}
+    <p>③ 形容词放在不定代词<b>后面</b>。</p>
+    ${ex('I have {v:something important} to tell you.', '')}
+    <h3>多少：many / much / few / little</h3>
+    <table><tr><th></th><th>可数名词</th><th>不可数名词</th></tr>
+      <tr><td>许多</td><td>many</td><td>much</td></tr>
+      <tr><td>一些（肯定）</td><td>a few</td><td>a little</td></tr>
+      <tr><td>几乎没有（否定）</td><td>few</td><td>little</td></tr></table>
+    <p class="small muted">有 a 是“还有一些”，没有 a 是“几乎没有”。some / any 可数、不可数都能用。</p>
+    <h3>两者 vs 三者以上</h3>
+    <table><tr><th></th><th>两者</th><th>三者以上</th></tr>
+      <tr><td>每个</td><td>each</td><td>each / every</td></tr>
+      <tr><td>任何一个</td><td>either</td><td>any</td></tr>
+      <tr><td>都</td><td>both</td><td>all</td></tr>
+      <tr><td>都不</td><td>neither</td><td>none / no</td></tr>
+      <tr><td>另一个</td><td>the other</td><td>another</td></tr></table>
+    <div class="warn"><b>易错：</b>问 How many / How much → 答 <b>None</b>；问 Who → 答 <b>No one / Nobody</b>；问 What → 答 <b>Nothing</b>。</div>`,
 
   irr: () => {
     let h = '<p>现在完成时（have + 过去分词）和被动语态（be + 过去分词）都离不开<b>过去分词</b>。规则动词加 -ed，下面这些不规则的要记住。按规律分组，好记很多：</p>';
@@ -784,9 +1165,9 @@ function renderLearnList() {
 function renderLesson(id) {
   const t = TOPICS.find(x => x.id === id), el = $('#vLearn');
   el.innerHTML = `<button class="back" id="lb">‹ 全部讲解</button>
-    <div class="card lesson"><h2>${t.tag === '总' || t.tag === '综' || t.tag === '词' ? '' : t.tag + ' · '}${t.name}</h2>${LESSONS[id]()}</div>
+    <div class="card lesson"><h2>${/^U/.test(t.tag) ? t.tag + ' · ' : ''}${t.name}</h2>${LESSONS[id]()}</div>
     <div class="row">${t.learnOnly ? '<button class="btn primary" id="lgo">去变形器玩一玩 ›</button>' : '<button class="btn primary" id="lgo">开始练习 ›</button>'}
-    <button class="btn" id="lm">打开变形器</button></div>`;
+    ${['intro', 'pp1', 'pv1', 'pp2', 'pv2', 'mix'].includes(id) ? '<button class="btn" id="lm">打开变形器</button>' : ''}</div>`;
   el.onclick = e => {
     const g = e.target.closest('[data-go]');
     if (g) { M.t = g.dataset.go; show('machine'); return; }
@@ -857,12 +1238,15 @@ function renderQ() {
       <div class="opts">${opts.map(o => `<button class="opt" data-o="${esc(o)}">${esc(o)}</button>`).join('')}</div>`;
   } else if (q.type === 'fill') {
     let k = 0;
-    body = `<div class="q">${q.segs.map(g => g.blank
-      ? ` <input class="blank" data-k="${k++}" style="width:8ch" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="next" aria-label="填空">`
-      : (g.tok.r === 'p' ? esc(g.tok.w) : ' ' + esc(g.tok.w))).join('').trim()} <span class="hintv">(${q.verb})</span></div>
+    // 空后面紧跟的标点和空放在一起，不让标点单独折到下一行
+    body = `<div class="q">${q.segs.map((g, j) => {
+      if (!g.blank) return esc(g.text).replace(j && q.segs[j - 1].blank ? /^[.?!,]+/ : /^$/, '');
+      const p = (q.segs[j + 1] && !q.segs[j + 1].blank && (q.segs[j + 1].text.match(/^[.?!,]+/) || [''])[0]) || '';
+      return `<span style="white-space:nowrap"><input class="blank" data-k="${k++}" style="width:8ch" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="next" aria-label="填空">${esc(p)}</span>`;
+    }).join('')} ${q.hint ? `<span class="hintv">(${esc(q.hint)})</span>` : ''}</div>
       <button class="btn primary" id="qCheck">检查</button>`;
   } else if (q.type === 'chip') {
-    body = `<div class="src small muted">原句：<span class="s" style="color:var(--ink)">${esc(plain(q.from))}</span></div>
+    body = `<div class="src small muted">原句：<span class="s" style="color:var(--ink)">${esc(q.srcText)}</span></div>
       <div class="build" id="qBuild"></div>
       <div class="pool" id="qPool">${q.pool.map((w, i) => `<button class="chip" data-i="${i}">${esc(w)}</button>`).join('')}</div>
       <p class="small muted" style="margin:-4px 0 10px">点词语排成句子，点上面的词可以放回去。</p>
@@ -894,10 +1278,10 @@ function renderQ() {
       const blanks = q.segs.filter(g => g.blank);
       let ok = true;
       ins.forEach((inp, j) => {
-        const good = norm(inp.value) === norm(blanks[j].ans.join(' '));
+        const good = blanks[j].alts.some(a => norm(a) === norm(inp.value));
         inp.classList.add(good ? 'ok' : 'bad'); inp.readOnly = true; ok = ok && good;
       });
-      finish(ok, `<div class="s">${toksHTML(q.toks)}</div>`);
+      finish(ok, `<div class="s">${q.answerHTML}</div>`);
     };
     setTimeout(() => ins[0] && ins[0].focus({ preventScroll: true }), 50);
   }
@@ -913,9 +1297,9 @@ function renderQ() {
     $('#qCheck').onclick = () => {
       if (Q.answered) return next();
       const got = placed.map(i => q.pool[i]);
-      const ok = norm(got.join(' ')) === norm(q.words.join(' '));
+      const ok = q.accept.some(a => norm(a) === norm(got.join(' ')));
       $('#qBuild').classList.add(ok ? 'ok' : 'bad');
-      finish(ok, `<div class="s">${toksHTML(q.to)}</div>`);
+      finish(ok, `<div class="s">${q.answerHTML}</div>`);
     };
     draw();
   }

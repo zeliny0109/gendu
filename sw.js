@@ -1,5 +1,5 @@
 /* 跟读练习 Service Worker：让页面可安装、离线可用 */
-const VERSION = 'gendu-v5';
+const VERSION = 'gendu-v6';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './book.json', './icon.svg', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './grammar/', './grammar/index.html'];
 
 self.addEventListener('install', e => {
