@@ -1,0 +1,908 @@
+{
+ "subject": "wuli",
+ "year": 2019,
+ "source": "福建省教育考试院《试题、参考答案》合订本（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/zlxz/201906/t20190623_2922791.htm",
+ "total": 100,
+ "minutes": 90,
+ "materials": [
+  {
+   "id": "m26",
+   "text": "（6分）在“探究凸透镜成像规律”的实验中："
+  },
+  {
+   "id": "m27",
+   "text": "（5分）图15甲是“探究海波熔化时温度的变化规律”的实验装置。",
+   "figures": [
+    "figs/2019-m27-1.png"
+   ]
+  },
+  {
+   "id": "m28",
+   "text": "（5分）如图16，“验证阿基米德原理”的实验步骤如下：\n\n① 用弹簧测力计测出物体所受的重力 $G$（图甲）；\n\n② 将物体浸没在水面恰好与溢口相平的溢水杯中，用空的小桶接从溢水杯里被物体排开的水，读出这时测力计的示数 $F$（图乙）；\n\n③ 测出接水后小桶与水所受的总重力 $G_1$（图丙）；\n\n④ 将小桶中的水倒出，测出小桶所受的重力 $G_2$（图丁）；\n\n⑤ 分别计算出物体受到的浮力和排开的水所受的重力，并比较它们的大小是否相同。\n\n回答下列问题：",
+   "figures": [
+    "figs/2019-m28-1.png"
+   ]
+  },
+  {
+   "id": "m29",
+   "text": "（4分）图17是“测量滑动摩擦力大小”的实验装置示意图。",
+   "figures": [
+    "figs/2019-m29-1.png"
+   ]
+  },
+  {
+   "id": "m30",
+   "text": "（8分）现要测量电阻 $R_x$ 的阻值，提供的实验器材有：待测电阻 $R_x$（约 $5\\ \\Omega$）、两节干电池、电流表、电压表、滑动变阻器、开关及导线若干。",
+   "figures": [
+    "figs/2019-m30-1.png",
+    "figs/2019-m30-2.png"
+   ]
+  },
+  {
+   "id": "m31",
+   "text": "（6分）“国之润，自疏浚始”。新一代国之重器“天鲲号”绞吸挖泥船在河道清淤、湖泊疏浚、吹填造陆等方面发挥着重大作用。"
+  },
+  {
+   "id": "m32",
+   "text": "（6分）空气质量指数是环境监测的重要指标，下表的空气质量等级是按照空气质量指数 $A$ 划分的。某兴趣小组自制的空气质量监测仪，用电压表显示空气质量指数，工作原理电路图如图21。已知电源电压 $U=18\\ \\text{V}$，电压表量程为 $0\\sim15\\ \\text{V}$，定值电阻 $R_0$ 的阻值为 $100\\ \\Omega$，气敏电阻阻值 $R$ 与 $A$ 的关系为 $R=\\dfrac{6}{A}\\times10^{3}\\ \\Omega$。\n\n| 空气质量指数 $A$ | 0~50 | 51~100 | 101~150 | 151~200 | 201~300 | >300 |\n|---|---|---|---|---|---|---|\n| 空气质量等级 | 优 | 良 | 轻度污染 | 中度污染 | 重度污染 | 严重污染 |",
+   "figures": [
+    "figs/2019-32-1.png"
+   ]
+  },
+  {
+   "id": "m33",
+   "text": "（8分）将平底薄壁直圆筒状的空杯，放在饮料机的水平杯座上接饮料。杯座受到的压力 $F$ 随杯中饮料的高度 $h$ 变化的图象如图22。饮料出口的横截面积 $S_1=0.8\\ \\text{cm}^2$，饮料流出的速度 $v=50\\ \\text{cm/s}$，杯高 $H=10\\ \\text{cm}$，杯底面积 $S_2=30\\ \\text{cm}^2$，$g$ 取 $10\\ \\text{N/kg}$。",
+   "figures": [
+    "figs/2019-33-1.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "wuli-2019-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "最早发现通电导体周围存在磁场的物理学家是",
+   "options": [
+    "A. 焦耳",
+    "B. 欧姆",
+    "C. 安培",
+    "D. 奥斯特"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.method.history",
+    "wuli.magnet.current_field"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "北斗导航卫星与地球之间的通讯是利用",
+   "options": [
+    "A. 电磁波",
+    "B. 次声波",
+    "C. 超声波",
+    "D. 空气"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.energy.em_wave"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "图1的四种现象中，由于光的折射形成的是",
+   "options": [
+    "A. 水中荷花的倒影（见图1 A）",
+    "B. 屏幕上的手影（见图1 B）",
+    "C. 观后镜中汽车的像（见图1 C）",
+    "D. 放大镜下树叶的像（见图1 D）"
+   ],
+   "figures": [
+    "figs/2019-3-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.light.refraction",
+    "wuli.light.reflection",
+    "wuli.light.propagation"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "公共场所不要高声喧哗，这里的“高”是指声音的",
+   "options": [
+    "A. 响度",
+    "B. 音调",
+    "C. 音色",
+    "D. 频率"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.sound.features"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "为了防止惯性带来的危害，要求人们",
+   "options": [
+    "A. 乘车时系好安全带",
+    "B. 候车时站在安全线外",
+    "C. 市区行车禁鸣喇叭",
+    "D. 夜间行车车内不开灯"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.mf.inertia"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "光线从空气射到平静的水面，入射角为 $50^\\circ$，则反射光线与水面的夹角为",
+   "options": [
+    "A. $0^\\circ$",
+    "B. $40^\\circ$",
+    "C. $50^\\circ$",
+    "D. $100^\\circ$"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.light.reflection"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "图2的四个实验中，反映电动机工作原理的是",
+   "options": [
+    "A. （见图2 A）",
+    "B. （见图2 B）",
+    "C. （见图2 C）",
+    "D. （见图2 D）"
+   ],
+   "figures": [
+    "figs/2019-7-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.magnet.motor",
+    "wuli.magnet.induction",
+    "wuli.magnet.electromagnet"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列实例中，属于通过做功改变物体内能的是",
+   "options": [
+    "A. 搓手会发热",
+    "B. 用冷水冷却热鸡蛋",
+    "C. 晒太阳取暖",
+    "D. 给热咖啡加冰降温"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.thermal.internal_energy"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列数据中，最符合实际的是",
+   "options": [
+    "A. 人的正常体温约为 $42\\ ^\\circ\\text{C}$",
+    "B. 人的正常步行速度约为 $1\\ \\text{m/s}$",
+    "C. 一层普通教室的高度约为 $10\\ \\text{m}$",
+    "D. 一个鸡蛋的重力约为 $2\\ \\text{N}$"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.motion.estimate"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "图3的四幅图选自中国古代科技著作《天工开物》，下列说法正确的是",
+   "options": [
+    "A. “试弓定力”中弓的重力与秤砣的重力是一对平衡力",
+    "B. “赶稻及菽”中牛拉犁的力大于犁拉牛的力",
+    "C. “透火焙干”中把湿纸贴在热墙上可加快纸中水分升华",
+    "D. “炒蒸油料”中在同一灶台上同时炒和蒸可提高能源利用率"
+   ],
+   "figures": [
+    "figs/2019-10-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.thermal.efficiency",
+    "wuli.mf.balance",
+    "wuli.heat.vaporization"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-11",
+   "no": "11",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下表列出一些物质的比热容，根据表中数据，下列判断正确的是\n\n| 物质 | 水 | 煤油 | 冰 | 铝 | 铜 |\n|---|---|---|---|---|---|\n| 比热容/($\\text{J}\\cdot\\text{kg}^{-1}\\cdot{}^\\circ\\text{C}^{-1}$) | $4.2\\times10^{3}$ | $2.1\\times10^{3}$ | $2.1\\times10^{3}$ | $0.88\\times10^{3}$ | $0.39\\times10^{3}$ |",
+   "options": [
+    "A. 不同物质的比热容一定不同",
+    "B. 物质的物态发生变化，比热容不变",
+    "C. 质量相等的铝和铜升高相同的温度，铝吸收的热量更多",
+    "D. 质量相等的水和煤油吸收相同的热量，水升高的温度更多"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.thermal.specific_heat"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-12",
+   "no": "12",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "工人用图4的机械将物体匀速提升到某一高度，若物体的重力与滑轮的重力之比 $G_{物}:G_{滑轮}=9:1$，忽略绳重与摩擦的影响，则机械效率为",
+   "options": [
+    "A. 10%",
+    "B. 45%",
+    "C. 80%",
+    "D. 90%"
+   ],
+   "figures": [
+    "figs/2019-12-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.machine.efficiency",
+    "wuli.machine.pulley"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-13",
+   "no": "13",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "在相同温度下，关于导体的电阻，下列说法正确的是",
+   "options": [
+    "A. 铜线的电阻一定比铝线的小",
+    "B. 长度相同粗细也相同的铜线和铝线电阻相等",
+    "C. 长度相同的两根铜线，粗的那根电阻较大",
+    "D. 粗细相同的两根铜线，长的那根电阻较大"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.circuit.resistance"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-14",
+   "no": "14",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图5，装有两种不同液体的烧杯置于水平面上，两液体没有混合。上层液体的高度为 $h$，密度为 $0.8\\rho$；下层液体的高度为 $2h$，密度为 $\\rho$。则液体对烧杯底部的压强为",
+   "options": [
+    "A. $2.4\\rho gh$",
+    "B. $2.7\\rho gh$",
+    "C. $2.8\\rho gh$",
+    "D. $3\\rho gh$"
+   ],
+   "figures": [
+    "figs/2019-14-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.pressure.liquid"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-15",
+   "no": "15",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "踢毽子是一项有益的体育活动。如图6，毽子某次被踢出后，竖直上升经过某一位置时，毽子的动能和重力势能分别为 $E_{k1}$ 和 $E_{P1}$，下落经过同一位置时，毽子的动能和重力势能分别为 $E_{k2}$ 和 $E_{P2}$，则",
+   "options": [
+    "A. $E_{k2}>E_{k1}$",
+    "B. $E_{k2}<E_{k1}$",
+    "C. $E_{P2}>E_{P1}$",
+    "D. $E_{P2}<E_{P1}$"
+   ],
+   "figures": [
+    "figs/2019-15-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.work.mech_energy"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-16",
+   "no": "16",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图7电路，电源电压恒定，$R_1=12\\ \\Omega$，$R_2=6\\ \\Omega$，$R_3$ 是定值电阻。闭合开关 $S_1$，单刀双掷开关 $S_2$ 接 $a$ 时电流表的示数为 $0.6\\ \\text{A}$，接 $b$ 时电流表的示数可能为",
+   "options": [
+    "A. $0.3\\ \\text{A}$",
+    "B. $0.6\\ \\text{A}$",
+    "C. $0.9\\ \\text{A}$",
+    "D. $1.2\\ \\text{A}$"
+   ],
+   "figures": [
+    "figs/2019-16-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.ohm.law",
+    "wuli.ohm.dynamic"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2019-17",
+   "no": "17",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "2019年北京世界园艺博览会，百花绽放，鸟语花香。远处就能闻到花香是由于分子在不停地____；游客坐在游览车上游览，以游览车为参照物，游客是____的。",
+   "answer": "无规则运动（热运动）　静止",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.thermal.molecule",
+    "wuli.motion.relative"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-18",
+   "no": "18",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "如图8是我国古代劳动人民在工地上运送巨木的情景。架在支架上的横杆属于____杠杆（选填“省力”“费力”或“等臂”）；支架下面垫有面积较大的石块，是为了____对地面的压强（选填“增大”或“减小”）。",
+   "figures": [
+    "figs/2019-18-1.png"
+   ],
+   "answer": "省力　减小",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.machine.lever",
+    "wuli.pressure.solid"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-19",
+   "no": "19",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "一台标有“5 V　2.5 W”的带有USB接口的小电风扇，线圈电阻为 $1\\ \\Omega$，正常工作 $1\\ \\text{min}$，产生的热量是____J。工作一段时间后的风扇叶片黏有不少灰尘，这属于____现象。",
+   "answer": "15　静电（摩擦起电）",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.power.joule",
+    "wuli.circuit.charge"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-20",
+   "no": "20",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "如图9电路，闭合开关S，将滑动变阻器的滑片P从 $a$ 端向 $b$ 端移动过程中，示数减小的电表是____（选填“A”“$V_1$”或“$V_2$”），电路的总功率____（选填“增大”“减小”或“不变”）。",
+   "figures": [
+    "figs/2019-20-1.png"
+   ],
+   "answer": "$V_1$　增大",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.ohm.dynamic",
+    "wuli.power.power"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-21",
+   "no": "21",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "如图10，气球下面用细线悬挂一石块，它们恰好悬浮在水中。已知石块与气球的总重力为 $G_{总}$，则气球受到的浮力 $F_{浮}$ ____ $G_{总}$（选填“>”“<”或“=”）；若水温升高，石块将____（选填“上浮”“下沉”或“保持悬浮”）。",
+   "figures": [
+    "figs/2019-21-1.png"
+   ],
+   "answer": "<　上浮",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.buoyancy.float_sink",
+    "wuli.buoyancy.archimedes"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2019-22",
+   "no": "22",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "图11为某种灯泡的电流 $I$ 与电压 $U$ 的关系图象。若有6只这种灯泡串联接在电压为 $6\\ \\text{V}$ 的电源上，通过灯泡的电流为____A；若把一只这种灯泡与一电阻并联接在电压为 $6\\ \\text{V}$ 的电源上，总电流为 $1.5\\ \\text{A}$，则该电阻的阻值为____Ω。",
+   "figures": [
+    "figs/2019-22-1.png"
+   ],
+   "answer": "0.2　6",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.ohm.law"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-23",
+   "no": "23",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "如图12，悬挂在天花板下的电灯处于静止状态。画出电灯的受力示意图。",
+   "figures": [
+    "figs/2019-23-1.png"
+   ],
+   "answer": "如答图1",
+   "answer_figures": [
+    "figs/2019-23-ans.png"
+   ],
+   "kp": [
+    "wuli.force.diagram",
+    "wuli.mf.balance"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-24",
+   "no": "24",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "图13是部分照明电路。用笔画线代替导线，将开关和电灯接入照明电路。",
+   "figures": [
+    "figs/2019-24-1.png"
+   ],
+   "answer": "如答图2",
+   "answer_figures": [
+    "figs/2019-24-ans.png"
+   ],
+   "kp": [
+    "wuli.home.circuit",
+    "wuli.circuit.drawing"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-25",
+   "no": "25",
+   "section": "简答题",
+   "type": "short",
+   "score": 4,
+   "stem": "蒸粽子时将碗倒扣在盛有适量水的锅中当支架，把装有粽子的盘子放在上方，如图14甲。蒸好后打开锅盖，看到锅盖内表面有许多小水珠。熄火一会儿，发现锅中的水被“吸入”碗内，如图乙。\n\n(1) 锅盖内表面为什么有许多小水珠？\n\n(2) 锅中的水为什么会被“吸入”碗内？",
+   "figures": [
+    "figs/2019-25-1.png"
+   ],
+   "answer": "(1)（2分）锅中的水蒸气遇到温度相对较低的锅盖，放出热量，液化成小水珠。\n(2)（2分）熄火后，碗中的气体压强减小，在外界大气压的作用下，锅中的水被“吸入”碗内。",
+   "rubric": "(1) 2分；(2) 2分",
+   "kp": [
+    "wuli.heat.vaporization",
+    "wuli.pressure.atmosphere"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-26-1",
+   "no": "26(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "需要将凸透镜、蜡烛和光屏安装在光具座上，置于中间位置的应是____。",
+   "answer": "凸透镜",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.lens.exp_convex"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-26-2",
+   "no": "26(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 3,
+   "material": "m26",
+   "stem": "调节好装置，将蜡烛放在2倍焦距之外时，光屏上能成____（选填“放大”或“缩小”）、倒立的____像（选填“实”或“虚”）。生活中常用的____是利用这一成像规律工作的。",
+   "answer": "缩小　实　照相机",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.lens.exp_convex",
+    "wuli.lens.imaging"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-26-3",
+   "no": "26(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m26",
+   "stem": "将蜡烛移至1倍焦距与2倍焦距之间某处，光屏上成清晰的像。若烛焰中心下降 $1\\ \\text{cm}$，光屏上的像会____移动（选填“向上”或“向下”），移动的距离____$1\\ \\text{cm}$（选填“大于”“小于”或“等于”）。",
+   "answer": "向上　大于",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.lens.exp_convex",
+    "wuli.lens.imaging"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-27-1",
+   "no": "27(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "图乙温度计的示数为____℃。",
+   "answer": "46",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.heat.exp_melting",
+    "wuli.heat.temperature"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-27-2",
+   "no": "27(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 3,
+   "material": "m27",
+   "stem": "图丙是根据实验数据描绘出的海波温度随时间变化的图象，海波熔化过程对应图线中的____段（选填“$AB$”或“$BC$”），其熔点为____℃。熔化过程中海波吸收的热量____放出的热量（选填“大于”“小于”或“等于”）。",
+   "answer": "$BC$　48　大于",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.heat.exp_melting",
+    "wuli.heat.melting"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-27-3",
+   "no": "27(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "用质量为 $m_1$ 的海波做实验，绘制的海波的温度随时间变化的图线如图丁中的 $a$。若用质量为 $m_2$（$m_2>m_1$）的海波做实验，得到的图线可能是图丁中的____（选填“$b$”“$c$”或“$d$”）。",
+   "answer": "$c$",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.heat.exp_melting"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-28-1",
+   "no": "28(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m28",
+   "stem": "物体浸没在水中，受到水的浮力 $F_{浮}=$____，被排开的水所受的重力 $G_{排}=$____。（用上述测得量的符号表示）",
+   "answer": "$G-F$　$G_1-G_2$",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.buoyancy.exp",
+    "wuli.buoyancy.archimedes"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-28-2",
+   "no": "28(2)",
+   "section": "实验题",
+   "type": "short",
+   "score": 2,
+   "material": "m28",
+   "stem": "指出本实验产生误差的原因（写出两点）：\n\n(a) ____；\n\n(b) ____。",
+   "answer": "(a) 测力计的精度不够，测量时测力计未保持静止等\n(b) 小桶中的水未倒净，排开的水未全部流入小桶等",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.buoyancy.exp"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-28-3",
+   "no": "28(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m28",
+   "stem": "物体没有完全浸没在水中，____（选填“能”或“不能”）用实验验证阿基米德原理。",
+   "answer": "能",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.buoyancy.exp"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-29-1",
+   "no": "29(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m29",
+   "stem": "图甲中，将木板固定，水平拉动木块，木块受到的滑动摩擦力与其受到的水平拉力____大小相等；图乙中，水平拉动木板，待测力计示数稳定后，木块受到的滑动摩擦力与其受到的水平拉力____大小相等。（选填“一定”或“不一定”）",
+   "answer": "不一定　一定",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.force.exp_friction",
+    "wuli.mf.balance"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-29-2",
+   "no": "29(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m29",
+   "stem": "图丙中，水平拉动木板，待测力计示数稳定后，测力计A的示数为 $4.0\\ \\text{N}$，测力计B的示数为 $2.5\\ \\text{N}$，木块受到的滑动摩擦力大小为____N。若增大拉力，当A的示数为 $4.8\\ \\text{N}$ 时，B的示数为____N。",
+   "answer": "2.5　2.5",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.force.exp_friction",
+    "wuli.force.friction"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-30-1",
+   "no": "30(1)",
+   "section": "实验题",
+   "type": "draw",
+   "score": 2,
+   "material": "m30",
+   "stem": "用笔画线代替导线，将图18中的实物图连接完整，要求滑动变阻器的滑片P向接线柱D移动时接入电路的阻值变小。",
+   "answer": "如答图3",
+   "answer_figures": [
+    "figs/2019-30-1-ans.png"
+   ],
+   "rubric": "第(1)小题2分，其余每空1分",
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.circuit.drawing"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-30-2",
+   "no": "30(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m30",
+   "stem": "正确连线后，闭合开关，移动滑片P，电流表示数几乎为零，电压表示数接近电源电压且几乎不变。若电路中只有一处故障，可判断该故障是____。",
+   "answer": "$R_x$ 未接入电路（$R_x$ 断路）",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.ohm.fault",
+    "wuli.ohm.exp_measure_r"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-30-3",
+   "no": "30(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m30",
+   "stem": "排除故障继续实验，某次测量，电流表的示数为 $0.50\\ \\text{A}$，电压表的示数如图19，该示数为____V，则 $R_x=$____Ω。",
+   "answer": "2.60（2.6）　5.2",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.circuit.voltage"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-30-4",
+   "no": "30(4)",
+   "section": "实验题",
+   "type": "short",
+   "score": 3,
+   "material": "m30",
+   "stem": "某同学利用电源（电压未知）、电阻箱（$0\\sim999.9\\ \\Omega$）和电流表（指针能正常偏转，但刻度盘示数模糊不清）等器材，测电阻 $R_x$ 的阻值，设计的电路如图20。完成下列实验步骤：\n\n① 正确连接电路，断开 $S_1$、$S_2$，将电阻箱R阻值调至最大；\n\n② ____；\n\n③ ____；\n\n④ 电阻 $R_x=$____。（用测得量的符号表示）",
+   "figures": [
+    "figs/2019-30-4-1.png"
+   ],
+   "answer": "② 闭合 $S_1$，标记电流表指针所指的位置；\n③ 断开 $S_1$，闭合 $S_2$，调节电阻箱，使电流表指针指在标记的位置，记下电阻箱阻值 $R_0$；\n④ $R_0$",
+   "rubric": "每空1分",
+   "kp": [
+    "wuli.ohm.exp_special_r"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定（“其余每空1分”，本小问3空计3分）"
+  },
+  {
+   "id": "wuli-2019-31-1",
+   "no": "31(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m31",
+   "stem": "“天鲲号”以功率 $P_1=6\\ 600\\ \\text{kW}$ 进行绞吸，同时以功率 $P_2=13\\ 400\\ \\text{kW}$ 向远处输送岩石泥沙，工作时间 $t=10\\ \\text{min}$，共做功多少焦？",
+   "answer": "总功率 $P=P_1+P_2=6\\ 600\\ \\text{kW}+13\\ 400\\ \\text{kW}=2.0\\times10^{7}\\ \\text{W}$\n总功 $W=Pt=2.0\\times10^{7}\\ \\text{W}\\times10\\times60\\ \\text{s}=1.2\\times10^{10}\\ \\text{J}$",
+   "rubric": "第(1)小题3分",
+   "kp": [
+    "wuli.work.power",
+    "wuli.work.work"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-31-2",
+   "no": "31(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m31",
+   "stem": "“天鲲号”绞刀的工作原理与家用破壁机相似。某破壁机的额定电压 $U=220\\ \\text{V}$，额定电流 $I=10\\ \\text{A}$。“天鲲号”绞刀以功率 $P_1=6\\ 600\\ \\text{kW}$ 工作，相当于多少台这种破壁机正常工作消耗的总功率？",
+   "answer": "每台破壁机的功率 $P_0=UI=220\\ \\text{V}\\times10\\ \\text{A}=2\\ 200\\ \\text{W}$\n破壁机台数 $n=\\dfrac{P_1}{P_0}=\\dfrac{6\\ 600\\ \\text{kW}}{2\\ 200\\ \\text{W}}=3\\ 000$",
+   "rubric": "第(2)小题3分",
+   "kp": [
+    "wuli.power.power"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2019-32-1",
+   "no": "32(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m32",
+   "stem": "通过计算，判断电压表示数为 $10\\ \\text{V}$ 时对应的空气质量等级。",
+   "answer": "电流 $I=\\dfrac{U_{R_0}}{R_0}=\\dfrac{10\\ \\text{V}}{100\\ \\Omega}=0.1\\ \\text{A}$\n气敏电阻两端的电压 $U_R=U-U_{R_0}=18\\ \\text{V}-10\\ \\text{V}=8\\ \\text{V}$\n根据欧姆定律，气敏电阻阻值 $R=\\dfrac{U_R}{I}=\\dfrac{8\\ \\text{V}}{0.1\\ \\text{A}}=80\\ \\Omega$\n由 $R=\\dfrac{6}{A}\\times10^{3}\\ \\Omega$，得\n$A=\\dfrac{6\\times10^{3}\\ \\Omega}{80\\ \\Omega}=75$，所以对应的空气质量等级为良。",
+   "rubric": "第(1)小题3分",
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.ohm.law"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-32-2",
+   "no": "32(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m32",
+   "stem": "更换定值电阻 $R_0$ 可改变监测仪的测量范围，若要使电压表满偏时对应的空气质量指数 $A=400$，则更换后的定值电阻 $R_0'$ 的阻值应为多大？",
+   "answer": "当 $A=400$ 时，由 $R=\\dfrac{6}{A}\\times10^{3}\\ \\Omega$，得气敏电阻阻值 $R'=\\dfrac{6\\times10^{3}\\ \\Omega}{400}=15\\ \\Omega$\n气敏电阻两端的电压 $U_{R'}=U-U_{R_0'}=18\\ \\text{V}-15\\ \\text{V}=3\\ \\text{V}$\n根据欧姆定律，通过的电流 $I'=\\dfrac{U_{R'}}{R'}=\\dfrac{3\\ \\text{V}}{15\\ \\Omega}=0.2\\ \\text{A}$\n根据欧姆定律，更换的定值电阻 $R_0'=\\dfrac{U_{R_0'}}{I'}=\\dfrac{15\\ \\text{V}}{0.2\\ \\text{A}}=75\\ \\Omega$",
+   "rubric": "第(2)小题3分",
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.ohm.law"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2019-33-1",
+   "no": "33(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m33",
+   "stem": "装满饮料时，杯底受到饮料的压力为多大？",
+   "answer": "由图可知空杯对杯座的压力 $F_0=0.9\\ \\text{N}$\n装满饮料时，杯对杯座的压力 $F_1=4.5\\ \\text{N}$\n所以杯底受到饮料的压力 $F=F_1-F_0=3.6\\ \\text{N}$",
+   "rubric": "第(1)小题2分",
+   "kp": [
+    "wuli.pressure.solid",
+    "wuli.force.gravity"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-33-2",
+   "no": "33(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m33",
+   "stem": "饮料的密度为多大？",
+   "answer": "饮料质量 $m=\\dfrac{G}{g}=\\dfrac{F}{g}=\\dfrac{3.6\\ \\text{N}}{10\\ \\text{N/kg}}=0.36\\ \\text{kg}$\n饮料体积 $V=S_2H=30\\ \\text{cm}^2\\times10\\ \\text{cm}=3\\times10^{-4}\\ \\text{m}^3$\n饮料密度 $\\rho=\\dfrac{m}{V}=\\dfrac{0.36\\ \\text{kg}}{3\\times10^{-4}\\ \\text{m}^3}=1.2\\times10^{3}\\ \\text{kg/m}^3$",
+   "rubric": "第(2)小题3分",
+   "kp": [
+    "wuli.density.concept",
+    "wuli.force.gravity"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2019-33-3",
+   "no": "33(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m33",
+   "stem": "设杯底与杯座的接触面积也为 $S_2$，饮料持续流入空杯 $5\\ \\text{s}$ 后关闭开关，杯对杯座的压强为多大？",
+   "answer": "流入杯中饮料的质量\n$m_1=\\rho S_1vt=1.2\\times10^{3}\\ \\text{kg/m}^3\\times0.8\\times10^{-4}\\ \\text{m}^2\\times0.5\\ \\text{m/s}\\times5\\ \\text{s}=0.24\\ \\text{kg}$\n饮料对杯底的压力 $F_2=m_1g=0.24\\ \\text{kg}\\times10\\ \\text{N/kg}=2.4\\ \\text{N}$\n杯对杯座的压强 $p=\\dfrac{F_0+F_2}{S_2}=\\dfrac{0.9\\ \\text{N}+2.4\\ \\text{N}}{30\\times10^{-4}\\ \\text{m}^2}=1.1\\times10^{3}\\ \\text{Pa}$",
+   "rubric": "第(3)小题3分",
+   "kp": [
+    "wuli.pressure.solid",
+    "wuli.density.concept"
+   ],
+   "difficulty": 3
+  }
+ ]
+}

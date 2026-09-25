@@ -1,0 +1,648 @@
+{
+ "subject": "shuxue",
+ "year": 2025,
+ "source": "福建省教育考试院《试题、参考答案》合订本（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/zlxz/202506/t20250621_5036744.htm",
+ "total": 150,
+ "minutes": 120,
+ "materials": [
+  {
+   "id": "q20",
+   "text": "甲、乙两人是新华高级中学数学兴趣小组成员．以下是他们在参加高中数学联赛预备队员集训期间的测试成绩及当地近五年高中数学联赛的相关信息．\n\n信息一：甲、乙两人集训期间的测试成绩（单位：分）\n\n| 队员＼日期 | 2月10日 | 2月21日 | 3月5日 | 3月14日 | 3月25日 | 4月7日 | 4月17日 | 4月27日 | 5月8日 | 5月20日 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| 甲 | 75 | 80 | 73 | 81 | 90 | 83 | 85 | 92 | 95 | 96 |\n| 乙 | 82 | 83 | 86 | 82 | 92 | 83 | 87 | 86 | 84 | 85 |\n\n其中，甲、乙成绩的平均数分别是 $\\bar{x}_{甲}=85$，$\\bar{x}_{乙}=85$；方差分别是 $s^2_{甲}=58.4$，$s^2_{乙}=a$．\n\n信息二：当地近五年高中数学联赛获奖分数线（单位：分）\n\n| 年份 | 2020 | 2021 | 2022 | 2023 | 2024 |\n|---|---|---|---|---|---|\n| 获奖分数线 | 90 | 89 | 90 | 89 | 90 |\n\n试根据以上信息及你所学的统计学知识，解决以下问题："
+  },
+  {
+   "id": "q21",
+   "text": "如图，$\\triangle ABC$ 是等边三角形，$D$ 是 $AB$ 的中点，$CE\\perp BC$，垂足为 $C$，$EF$ 是由 $CD$ 沿 $CE$ 方向平移得到的．已知 $EF$ 过点 $A$，$BE$ 交 $CD$ 于点 $G$．",
+   "figures": [
+    "figs/2025-21-1.png"
+   ]
+  },
+  {
+   "id": "q22",
+   "text": "如图，矩形 $ABCD$ 中，$AB<AD$．",
+   "figures": [
+    "figs/2025-22-1.png"
+   ]
+  },
+  {
+   "id": "q23",
+   "text": "在平面直角坐标系中，二次函数 $y=ax^2+bx-2$ 的图象过点 $A(1,t)$，$B(2,t)$．"
+  },
+  {
+   "id": "q24",
+   "text": "阅读材料，回答问题．\n\n**主题**：两个正数的积与商的位数探究\n\n**提出问题**：小明是一位爱思考的小学生．一次，在完成多位数的乘法时，他根据算式“$46\\times 2=92$；$35\\times 21=735$；$663\\times 11=7\\,293$；$186\\times 362=67\\,332$”，**猜想：$m$ 位的正整数与 $n$ 位的正整数的乘积是一个 $(m+n-1)$ 位的正整数．**\n\n**分析探究**：问题1　小明的猜想是否正确？若正确，请给予证明；否则，请举出反例．\n\n**推广延伸**：小明的猜想激发了初中生小华的探究热情．为了使问题的研究推广到有理数的乘法，进而迁移到对除法的研究，小华将数的“位数”与“数字”的概念进行推广，规定：如果一个正数用科学记数法表示为 $a\\times 10^n$，则称这个数的位数是 $n+1$，数字是 $a$．\n\n借此，小华研究了两个数乘积的位数问题，提出并证明了以下命题．\n\n**命题：若正数 $A$，$B$，$C$ 的位数分别为 $m$，$n$，$p$，数字分别为 $a$，$b$，$c$，且 $A\\times B=C$，则必有 $c\\geqslant a$ 且 $c\\geqslant b$，或 $c<a$ 且 $c<b$．并且，当 $c\\geqslant a$ 且 $c\\geqslant b$ 时，$p=m+n-1$；当 $c<a$ 且 $c<b$ 时，$p=m+n$．**\n\n证明：依题意知，$A$，$B$，$C$ 用科学记数法可分别表示为 $a\\times 10^{m-1}$，$b\\times 10^{n-1}$，$c\\times 10^{p-1}$，其中 $a$，$b$，$c$ 均为正数．\n\n由 $A\\times B=C$，得 $ab\\times 10^{m+n-2}=c\\times 10^{p-1}$，\n\n即 $\\frac{ab}{c}=10^{p-m-n+1}$．　（＊）\n\n当 $c\\geqslant a$ 且 $c\\geqslant b$ 时，$\\frac{a}{c}\\leqslant 1$，所以 $\\frac{ab}{c}\\leqslant b<10$，又 $\\frac{ab}{c}\\geqslant\\frac{a}{c}>\\frac{1}{10}$，所以 $\\frac{1}{10}<\\frac{ab}{c}<10$．由（＊）知，$\\frac{ab}{c}=1$，所以 $p=m+n-1$；\n\n当 $c\\geqslant a$ 且 $c<b$ 时，$\\begin{cases}\\frac{a}{c}\\leqslant 1,\\\\ \\frac{b}{c}>1,\\end{cases}$ 所以 $\\begin{cases}\\frac{ab}{c}\\leqslant b<10,\\\\ \\frac{ab}{c}>a\\geqslant 1,\\end{cases}$ 所以 $1<\\frac{ab}{c}<10$，与（＊）矛盾，不合题意；\n\n当 $c<a$ 且 $c\\geqslant b$ 时，____①____；\n\n当 $c<a$ 且 $c<b$ 时，____②____．\n\n综上所述，命题成立．\n\n**拓展迁移**：问题2　若正数 $A$，$B$ 的位数分别为 $m$，$n$，那么 $\\frac{A}{B}$ 的位数是多少？证明你的结论．"
+  },
+  {
+   "id": "q25",
+   "text": "如图，四边形 $ABCD$ 内接于 $\\odot O$，$AD$，$BC$ 的延长线相交于点 $E$，$AC$，$BD$ 相交于点 $F$．$G$ 是 $AB$ 上一点，$GD$ 交 $AC$ 于点 $H$，且 $AB=AC$，$BG=DG$．",
+   "figures": [
+    "figs/2025-25-1.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "shuxue-2025-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列实数中，最小的数是",
+   "options": [
+    "A. $-1$",
+    "B. $0$",
+    "C. $\\sqrt{2}$",
+    "D. $2$"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.num.real"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "中国古算诗词歌赋较多．古算诗词题，是反映数学数量关系的内在联系及其规律的一种文学浪漫形式．下列分别是古算诗词题“圆中方形”“方形圆径”“圆材藏壁”“勾股容圆”所描绘的图形，其中既不是轴对称图形也不是中心对称图形的是",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "figures": [
+    "figs/2025-2-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.trans.symmetry"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "若 $\\sqrt{x-1}$ 在实数范围内有意义，则实数 $x$ 的值可以是",
+   "options": [
+    "A. $-2$",
+    "B. $-1$",
+    "C. $0$",
+    "D. $2$"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.num.radical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "福建博物院收藏着一件“镇馆之宝”——云纹青铜大铙，如图1．云纹青铜大铙是西周乐器，鼓饰变形兽面纹，两侧饰云雷纹，浑大厚重，作风稳重古朴，代表了福建古代青铜文化曾经的历史和辉煌．图2为其示意图，它的主视图是",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "figures": [
+    "figs/2025-4-1.png",
+    "figs/2025-4-2.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.solid.view"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "不等式 $\\frac{1}{2}x+1\\leqslant 2$ 的解集在数轴上表示正确的是",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "figures": [
+    "figs/2025-5-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.ineq.solve"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "在分别写有 $-1$，$1$，$2$ 的三张卡片中，不放回地随机抽取两张，这两张卡片上的数恰好互为相反数的概率是",
+   "options": [
+    "A. $\\frac{1}{4}$",
+    "B. $\\frac{1}{3}$",
+    "C. $\\frac{1}{2}$",
+    "D. $\\frac{2}{3}$"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.prob.tree",
+    "shuxue.num.rational"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "某数学兴趣小组为探究平行线的有关性质，用一副三角尺按如图所示的方式摆放，其中点 $A$，$E$，$C$，$F$ 在同一条直线上，$\\angle BAC=\\angle EDF=90^\\circ$，$\\angle B=45^\\circ$，$\\angle DEF=60^\\circ$．当 $AD\\parallel BC$ 时，$\\angle ADE$ 的大小为",
+   "options": [
+    "A. $5^\\circ$",
+    "B. $15^\\circ$",
+    "C. $25^\\circ$",
+    "D. $35^\\circ$"
+   ],
+   "figures": [
+    "figs/2025-7-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.geo.parallel",
+    "shuxue.geo.triangle"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "为加强劳动教育，增加学生实践机会，某校拟用总长为5米的篱笆，在两边都足够长的直角围墙的一角，围出一块6平方米的矩形菜地作为实践基地，如图所示．设矩形的一边长为 $x$ 米，根据题意可列方程",
+   "options": [
+    "A. $5x^2=6$",
+    "B. $5(1+x^2)=6$",
+    "C. $x(5-x)=6$",
+    "D. $5(1+x)^2=6$"
+   ],
+   "figures": [
+    "figs/2025-8-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.eq.quad_app"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，$PA$ 与 $\\odot O$ 相切于点 $A$，$PO$ 的延长线交 $\\odot O$ 于点 $C$．$AB\\parallel PC$，且交 $\\odot O$ 于点 $B$．若 $\\angle P=30^\\circ$，则 $\\angle BCP$ 的大小为",
+   "options": [
+    "A. $30^\\circ$",
+    "B. $45^\\circ$",
+    "C. $60^\\circ$",
+    "D. $75^\\circ$"
+   ],
+   "figures": [
+    "figs/2025-9-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.circle.tangent",
+    "shuxue.circle.basic"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "已知点 $A(-2,y_1)$，$B(1,y_2)$ 在抛物线 $y=3x^2+bx+1$ 上，若 $3<b<4$，则下列判断正确的是",
+   "options": [
+    "A. $1<y_1<y_2$",
+    "B. $y_1<1<y_2$",
+    "C. $1<y_2<y_1$",
+    "D. $y_2<1<y_1$"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.func.quad_graph",
+    "shuxue.func.quad_param"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2025-11",
+   "no": "11",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "为响应“体重管理年”有关倡议，小敏对自己的体重进行了跟踪统计．为方便记录，他将体重增加 1.5 kg 记作 $+1.5$，那么体重减少 1 kg 应记作____．",
+   "answer": "$-1$",
+   "kp": [
+    "shuxue.num.rational"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-12",
+   "no": "12",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "某房梁如图所示，立柱 $AD\\perp BC$，$E$，$F$ 分别是斜梁 $AB$，$AC$ 的中点．若 $AB=AC=8$ m，则 $DE$ 的长为____m．",
+   "figures": [
+    "figs/2025-12-1.png"
+   ],
+   "answer": "$4$",
+   "kp": [
+    "shuxue.geo.midline",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-13",
+   "no": "13",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "若反比例函数 $y=\\frac{k}{x}$ 的图象过点 $(-2,1)$，则常数 $k=$____．",
+   "answer": "$-2$",
+   "kp": [
+    "shuxue.func.inverse"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-14",
+   "no": "14",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，菱形 $ABCD$ 的对角线相交于点 $O$，$EF$ 过点 $O$ 且与边 $AB$，$CD$ 分别相交于点 $E$，$F$．若 $OA=2$，$OD=1$，则 $\\triangle AOE$ 与 $\\triangle DOF$ 的面积之和为____．",
+   "figures": [
+    "figs/2025-14-1.png"
+   ],
+   "answer": "$1$",
+   "kp": [
+    "shuxue.geo.special_quad",
+    "shuxue.geo.congruent"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "某公司为选拔英语翻译员，举行听、说、读、写综合测试，其中听、说、读、写各项成绩（百分制）按 $4:3:2:1$ 的比例计算最终成绩．参与选拔的甲、乙两位员工的听、说、读、写各项测试成绩及最终成绩如下表：\n\n| 员工＼项目 | 听 | 说 | 读 | 写 | 最终成绩 |\n|---|---|---|---|---|---|\n| 甲 | $A$ | 70 | 80 | 90 | 82 |\n| 乙 | $B$ | 90 | 80 | 70 | 82 |\n\n由以上信息，可以判断 $A$，$B$ 的大小关系是 $A$____$B$．（填“>”“=”或“<”）",
+   "answer": "$>$",
+   "kp": [
+    "shuxue.stat.central"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "弹簧秤是根据胡克定律并利用物体的重力来测量物体质量的．胡克定律为：在弹性限度内，弹簧弹力 $F$ 的大小与弹簧伸长（或压缩）的长度 $x$ 成正比，即 $F=kx$，其中 $k$ 为常数，是弹簧的劲度系数；质量为 $m$ 的物体重力为 $mg$，其中 $g$ 为常数．如图，一把弹簧秤在不挂任何物体时弹簧的长度为6厘米．在其弹性限度内：当所挂物体的质量为0.5千克时，弹簧长度为6.5厘米，那么，当弹簧长度为6.8厘米时，所挂物体的质量为____千克．",
+   "figures": [
+    "figs/2025-16-1.png"
+   ],
+   "answer": "$0.8$",
+   "kp": [
+    "shuxue.prac.modeling",
+    "shuxue.func.linear_app"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-17",
+   "no": "17",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "计算：$2^0+\\left|1-\\sqrt{2}\\right|-\\sqrt{8}$．",
+   "answer": "解：$2^0+\\left|1-\\sqrt{2}\\right|-\\sqrt{8}$\n$=1+\\sqrt{2}-1-2\\sqrt{2}$\n$=-\\sqrt{2}$．",
+   "rubric": "本小题考查零指数幂、绝对值、算术平方根、二次根式的运算等基础知识，考查运算能力．满分8分．",
+   "kp": [
+    "shuxue.num.real_calc",
+    "shuxue.num.radical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-18",
+   "no": "18",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "如图，点 $E$，$F$ 分别在 $AB$，$AD$ 的延长线上，$\\angle CBE=\\angle CDF$，$\\angle ACB=\\angle ACD$．求证：$AB=AD$．",
+   "figures": [
+    "figs/2025-18-1.png"
+   ],
+   "answer": "证明：$\\because \\angle CBE=\\angle CDF$，$\\angle ABC+\\angle CBE=180^\\circ$，$\\angle ADC+\\angle CDF=180^\\circ$，\n$\\therefore \\angle ABC=\\angle ADC$．\n在 $\\triangle ABC$ 和 $\\triangle ADC$ 中，\n$\\begin{cases}\\angle ABC=\\angle ADC,\\\\ \\angle ACB=\\angle ACD,\\\\ AC=AC,\\end{cases}$\n$\\therefore \\triangle ABC\\cong\\triangle ADC$，\n$\\therefore AB=AD$．",
+   "rubric": "本小题考查全等三角形的判定与性质、补角的性质等基础知识，考查推理能力、几何直观等．满分8分．",
+   "kp": [
+    "shuxue.geo.congruent",
+    "shuxue.geo.line_angle"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-19",
+   "no": "19",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "先化简，再求值：$\\left(2+\\frac{1-a}{a}\\right)\\div\\frac{a^2+2a+1}{a}$，其中 $a=\\sqrt{5}-1$．",
+   "answer": "解：$\\left(2+\\frac{1-a}{a}\\right)\\div\\frac{a^2+2a+1}{a}$\n$=\\frac{2a+1-a}{a}\\cdot\\frac{a}{a^2+2a+1}$\n$=\\frac{a+1}{a}\\cdot\\frac{a}{(a+1)^2}$\n$=\\frac{1}{a+1}$．\n当 $a=\\sqrt{5}-1$ 时，\n原式 $=\\frac{1}{\\sqrt{5}-1+1}=\\frac{\\sqrt{5}}{5}$．",
+   "rubric": "本小题考查分式的基本性质、整式的运算、因式分解、二次根式的运算等基础知识，考查运算能力，考查化归与转化思想等．满分8分．",
+   "kp": [
+    "shuxue.num.fraction",
+    "shuxue.num.radical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-20-1",
+   "no": "20(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q20",
+   "stem": "计算 $a$ 的值，并根据平均数与方差对甲、乙的成绩进行评价；",
+   "answer": "解：(1) $s^2_{乙}=\\frac{1}{10}(9+4+1+9+49+4+4+1+1+0)=\\frac{1}{10}\\times 82=8.2$，即 $a=8.2$．\n因为 $\\bar{x}_{甲}=85$，$\\bar{x}_{乙}=85$，$s^2_{甲}=58.4$，\n所以 $\\bar{x}_{甲}=\\bar{x}_{乙}$，$s^2_{甲}>s^2_{乙}$，\n所以甲、乙两人的整体水平相当，但乙的成绩比甲稳定．",
+   "rubric": "本小题考查平均数、方差、用频率估计概率等基础知识，考查运算能力、数据观念、模型观念、应用意识与创新意识，考查统计与概率思想等．满分8分．",
+   "kp": [
+    "shuxue.stat.spread",
+    "shuxue.stat.central"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-20-2",
+   "no": "20(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q20",
+   "stem": "计算当地近五年高中数学联赛获奖分数线的平均数，并说明：若要从中选择一人参加高中数学联赛，选谁更合适；",
+   "answer": "(2) 由已知得，获奖分数线的平均数为 $\\bar{x}=90+\\frac{1}{5}\\times(-2)=89.6$，\n从信息一可知，在集训期间的十次测试成绩中，甲达到获奖分数线的平均数的频数为4，而乙的频数为1，所以甲获奖的可能性更大，故选甲参加更合适．",
+   "kp": [
+    "shuxue.stat.decision",
+    "shuxue.stat.central",
+    "shuxue.prob.freq"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-20-3",
+   "no": "20(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 2,
+   "material": "q20",
+   "stem": "若要从中选择一人参加进一步的培养，从发展潜能的角度考虑，你认为选谁更合适？为什么？",
+   "answer": "(3) 选甲更合适．理由：在集训期间的十次测试成绩中，甲呈上升趋势，而乙基本稳定在原有的水平，故从发展潜能的角度考虑，选甲更合适．",
+   "rubric": "注：本题第(3)问为开放性试题，无论选甲或选乙，只要言之有理即可．",
+   "kp": [
+    "shuxue.stat.decision"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-21-1",
+   "no": "21(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q21",
+   "stem": "求 $\\angle DCE$ 的大小；",
+   "answer": "解：(1) $\\because \\triangle ABC$ 是等边三角形，\n$\\therefore \\angle ACB=60^\\circ$．\n$\\because D$ 是 $AB$ 的中点，\n$\\therefore \\angle DCB=\\angle DCA=\\frac{1}{2}\\angle ACB=30^\\circ$．\n$\\because CE\\perp BC$，\n$\\therefore \\angle BCE=90^\\circ$，\n$\\therefore \\angle DCE=\\angle BCE-\\angle DCB=60^\\circ$．",
+   "rubric": "本小题考查等边三角形的判定与性质、平移的基本性质、线段垂直平分线的判定与性质、平行线的性质、等腰三角形的判定与性质等基础知识，考查空间观念、几何直观与推理能力，考查化归与转化思想等．满分8分．",
+   "kp": [
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2025-21-2",
+   "no": "21(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q21",
+   "stem": "求证：$\\triangle CEG$ 是等边三角形．",
+   "answer": "(2) 由平移可知：$CD\\parallel EF$，\n$\\therefore \\angle EAC=\\angle DCA=30^\\circ$，\n又 $\\because \\angle ECA=\\angle BCE-\\angle ACB=30^\\circ$，\n$\\therefore \\angle EAC=\\angle ECA$，\n$\\therefore AE=CE$，$\\angle AEC=120^\\circ$，\n又 $\\because AB=CB$，\n$\\therefore BE$ 垂直平分 $AC$，\n$\\therefore \\angle GEC=\\frac{1}{2}\\angle AEC=60^\\circ$，\n由(1)知，$\\angle GCE=60^\\circ$，\n$\\therefore \\angle EGC=60^\\circ$，\n$\\therefore \\angle GEC=\\angle GCE=\\angle EGC$，\n$\\therefore \\triangle CEG$ 是等边三角形．",
+   "kp": [
+    "shuxue.geo.isosceles",
+    "shuxue.trans.translation",
+    "shuxue.geo.bisector"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-22-1",
+   "no": "22(1)",
+   "section": "解答题",
+   "type": "draw",
+   "score": 4,
+   "material": "q22",
+   "stem": "求作正方形 $EFGH$，使得点 $E$，$G$ 分别落在边 $AD$，$BC$ 上，点 $F$，$H$ 落在 $BD$ 上；（要求：尺规作图，不写作法，保留作图痕迹）",
+   "answer": "解：(1)\n\n![](figs/2025-22-ans.png)\n\n如图，四边形 $EFGH$ 就是所求作的正方形．",
+   "rubric": "本小题考查尺规作图、矩形的性质、平行线分线段成比例、线段垂直平分线的判定与性质、正方形的判定与性质、勾股定理、相似三角形的判定与性质等基础知识，考查推理能力、运算能力、几何直观与空间观念，考查化归与转化思想、函数与方程思想等．满分10分．",
+   "kp": [
+    "shuxue.construct.design",
+    "shuxue.geo.special_quad"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-22-2",
+   "no": "22(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q22",
+   "stem": "若 $AB=2$，$AD=4$，求(1)中所作的正方形的边长．",
+   "answer": "(2) 连接 $EG$ 交 $BD$ 于点 $O$．\n$\\because$ 四边形 $EFGH$ 是正方形，\n$\\therefore OE=OG$．\n$\\because$ 四边形 $ABCD$ 是矩形，\n$\\therefore \\angle A=90^\\circ$，$AD\\parallel BC$．\n$\\therefore \\frac{OD}{OB}=\\frac{OE}{OG}=1$，\n$\\therefore OB=OD$．\n在 $\\mathrm{Rt}\\triangle ABD$ 中，$AB=2$，$AD=4$，\n$\\therefore BD=\\sqrt{AB^2+AD^2}=2\\sqrt{5}$，\n$\\therefore OD=\\frac{1}{2}BD=\\sqrt{5}$．\n$\\because$ 四边形 $EFGH$ 是正方形，\n$\\therefore EG\\perp FH$，\n$\\therefore \\angle DOE=\\angle DAB=90^\\circ$．\n又 $\\because \\angle ODE=\\angle ADB$，\n$\\therefore \\triangle EOD\\backsim\\triangle BAD$，\n$\\therefore \\frac{OE}{AB}=\\frac{OD}{AD}$，即 $\\frac{OE}{2}=\\frac{\\sqrt{5}}{4}$，\n$\\therefore OE=\\frac{\\sqrt{5}}{2}$．\n在 $\\mathrm{Rt}\\triangle EOH$ 中，$OE=OH$，\n$\\therefore EH=\\sqrt{2}OE=\\frac{\\sqrt{10}}{2}$，\n即正方形 $EFGH$ 的边长为 $\\frac{\\sqrt{10}}{2}$．",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.geo.special_quad",
+    "shuxue.geo.pythagoras"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-23-1",
+   "no": "23(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q23",
+   "stem": "求 $\\frac{b}{a}$ 的值；",
+   "answer": "解：(1) 二次函数 $y=ax^2+bx-2$ 的图象的对称轴为 $x=-\\frac{b}{2a}$．\n因为点 $A(1,t)$，$B(2,t)$ 在该函数的图象上，所以 $2-\\left(-\\frac{b}{2a}\\right)=-\\frac{b}{2a}-1$，\n所以 $-\\frac{b}{2a}=\\frac{3}{2}$，所以 $\\frac{b}{a}=-3$．",
+   "rubric": "本小题考查二次函数表达式、二次函数的图象与性质、一元二次方程、等式的基本性质、分式的基本性质、代数推理等基础知识，考查运算能力、推理能力、几何直观，考查函数与方程思想、数形结合思想、化归与转化思想等．满分10分．",
+   "kp": [
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-23-2-1",
+   "no": "23(2)(i)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q23",
+   "stem": "已知二次函数 $y=ax^2+bx-2$ 的最大值为 $1-\\frac{3}{4}a^2$．\n\n(i) 求该二次函数的表达式；",
+   "answer": "(2)(i) 由(1)可得，$b=-3a$，\n所以该函数的表达式为 $y=ax^2-3ax-2$，\n函数图象的顶点坐标为 $\\left(\\frac{3}{2},-\\frac{9}{4}a-2\\right)$．\n因为函数的最大值为 $1-\\frac{3}{4}a^2$，\n所以 $a<0$，且 $-\\frac{9}{4}a-2=1-\\frac{3}{4}a^2$，\n解得 $a=-1$，或 $a=4$（舍去）．\n所以该二次函数的表达式为 $y=-x^2+3x-2$．",
+   "kp": [
+    "shuxue.func.quad_expr",
+    "shuxue.func.quad_param"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-23-2-2",
+   "no": "23(2)(ii)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q23",
+   "stem": "已知二次函数 $y=ax^2+bx-2$ 的最大值为 $1-\\frac{3}{4}a^2$．\n\n(ii) 若 $M(x_1,m)$，$N(x_2,m)$ 为该二次函数图象上的不同两点，且 $m\\neq 0$，求证：$\\frac{(x_1-1)^2}{m}=\\frac{x_2-2}{x_1-2}$．",
+   "answer": "(ii) 因为点 $M(x_1,m)$ 在函数 $y=-x^2+3x-2$ 的图象上，\n所以 $m=-x_1^2+3x_1-2$．\n由(i)知，点 $M(x_1,m)$，$N(x_2,m)$ 关于直线 $x=\\frac{3}{2}$ 对称，不妨设 $x_1<x_2$，\n则 $x_2-\\frac{3}{2}=\\frac{3}{2}-x_1$，即 $x_1+x_2=3$．\n所以 $\\frac{(x_1-1)^2}{m}-\\frac{x_2-2}{x_1-2}=\\frac{(x_1-1)^2(x_1-2)-m(x_2-2)}{m(x_1-2)}$\n$=\\frac{(x_1-1)(x_1-2)(x_1-1)-m(x_2-2)}{m(x_1-2)}$\n$=\\frac{(x_1^2-3x_1+2)(x_1-1)-m(x_2-2)}{m(x_1-2)}$\n$=\\frac{-m(x_1-1)-m(x_2-2)}{m(x_1-2)}$\n$=\\frac{-m(x_1+x_2-3)}{m(x_1-2)}$\n$=0$，\n所以 $\\frac{(x_1-1)^2}{m}=\\frac{x_2-2}{x_1-2}$．",
+   "kp": [
+    "shuxue.prac.reasoning",
+    "shuxue.func.quad_graph",
+    "shuxue.num.fraction"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2025-24-1",
+   "no": "24(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 2,
+   "material": "q24",
+   "stem": "解决问题1；",
+   "answer": "解：(1) 小明的猜想不正确．\n反例：$3\\times 4=12$．",
+   "rubric": "本小题考查判断命题的真假、科学记数法、整数指数幂、幂的运算、不等式的基本性质、代数推理等基础知识；考查抽象能力、推理能力、运算能力、应用意识与创新意识，考查应用所学知识分析、解决问题的综合实践能力；考查特殊与一般思想、分类与整合思想、化归与转化思想等．满分12分．",
+   "kp": [
+    "shuxue.prac.reading",
+    "shuxue.prac.reasoning"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-24-2",
+   "no": "24(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q24",
+   "stem": "请把①②所缺的证明过程补充完整；",
+   "answer": "(2) ① $\\begin{cases}\\frac{a}{c}>1,\\\\ \\frac{b}{c}\\leqslant 1,\\end{cases}$ 所以 $\\begin{cases}\\frac{ab}{c}>b\\geqslant 1,\\\\ \\frac{ab}{c}\\leqslant a<10,\\end{cases}$ 所以 $1<\\frac{ab}{c}<10$，与（＊）矛盾，不合题意；\n② $\\frac{a}{c}>1$，所以 $\\frac{ab}{c}>b>1$，又 $\\frac{ab}{c}\\leqslant ab<100$，所以 $1<\\frac{ab}{c}<100$，\n由（＊）知 $\\frac{ab}{c}=10$，所以 $p=m+n$．",
+   "kp": [
+    "shuxue.prac.reasoning",
+    "shuxue.num.sci_notation",
+    "shuxue.ineq.solve"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2025-24-3",
+   "no": "24(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q24",
+   "stem": "解决问题2．",
+   "answer": "(3) 当 $A$ 的数字大于或等于 $B$ 的数字时，$\\frac{A}{B}$ 的位数是 $m-n+1$；\n当 $A$ 的数字小于 $B$ 的数字时，$\\frac{A}{B}$ 的位数是 $m-n$．\n证明如下：\n由已知，$A$，$B$ 的位数分别为 $m$，$n$，\n设 $\\frac{A}{B}=C$，$A$，$B$，$C$ 的数字分别为 $a$，$b$，$c$，$C$ 的位数为 $x$，则 $B\\times C=A$．\n由小华的命题知，当 $a\\geqslant b$ 时，必有 $a\\geqslant c$，\n此时，$m=n+x-1$，所以 $x=m-n+1$；\n当 $a<b$ 时，必有 $a<c$，\n此时，$m=n+x$，所以 $x=m-n$．\n综上所述，当 $A$ 的数字大于或等于 $B$ 的数字时，$\\frac{A}{B}$ 的位数是 $m-n+1$；\n当 $A$ 的数字小于 $B$ 的数字时，$\\frac{A}{B}$ 的位数是 $m-n$．",
+   "kp": [
+    "shuxue.prac.reading",
+    "shuxue.prac.reasoning",
+    "shuxue.num.sci_notation"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2025-25-1",
+   "no": "25(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q25",
+   "stem": "求证：$\\angle ABC=\\angle DBE+\\angle E$；",
+   "answer": "解：(1) $\\because AB=AC$，\n$\\therefore \\angle ABC=\\angle ACB$．\n$\\because \\overset{\\frown}{AB}=\\overset{\\frown}{AB}$，\n$\\therefore \\angle ACB=\\angle ADB$，\n$\\therefore \\angle ABC=\\angle ADB$．\n$\\because \\angle ADB=\\angle DBE+\\angle E$，\n$\\therefore \\angle ABC=\\angle DBE+\\angle E$．",
+   "rubric": "本小题考查圆的有关性质、等腰三角形的判定与性质、相似三角形的判定与性质、解直角三角形、三角形内角和定理及其推论等基础知识，考查推理能力、空间观念、几何直观、运算能力与创新意识，考查数形结合思想、函数与方程思想、化归与转化思想等．满分14分．",
+   "kp": [
+    "shuxue.circle.basic",
+    "shuxue.geo.isosceles",
+    "shuxue.geo.triangle"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2025-25-2",
+   "no": "25(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q25",
+   "stem": "求证：$AH^2=HF\\cdot HC$；",
+   "answer": "(2) $\\because \\overset{\\frown}{AD}=\\overset{\\frown}{AD}$，\n$\\therefore \\angle ABD=\\angle ACD$．\n$\\because BG=DG$，\n$\\therefore \\angle BDG=\\angle ABD=\\angle ACD$，\n又 $\\because \\angle DHF=\\angle CHD$，\n$\\therefore \\triangle HDF\\backsim\\triangle HCD$，\n$\\therefore \\frac{HF}{HD}=\\frac{HD}{HC}$，\n$\\therefore HD^2=HF\\cdot HC$．\n由(1)知，$\\angle ABC=\\angle DBE+\\angle E$，\n又 $\\because \\angle ABC=\\angle DBE+\\angle ABD$，\n$\\therefore \\angle ABD=\\angle E$，\n$\\therefore \\angle BDG=\\angle E$．\n$\\because \\angle ADB=\\angle ADG+\\angle BDG=\\angle DBC+\\angle E$，\n$\\therefore \\angle ADG=\\angle DBC$．\n$\\because \\overset{\\frown}{CD}=\\overset{\\frown}{CD}$，\n$\\therefore \\angle DAC=\\angle DBC$，\n$\\therefore \\angle ADG=\\angle DAC$，\n$\\therefore AH=DH$，\n$\\therefore AH^2=HF\\cdot HC$．",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.circle.basic",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2025-25-3",
+   "no": "25(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q25",
+   "stem": "若 $\\tan\\angle ABC=\\sqrt{5}$，$AD=2DE$，$CD=\\sqrt{6}$，求 $\\triangle AGH$ 的周长．",
+   "answer": "(3) 由(2)知，$AH=DH$，\n$\\therefore \\triangle AGH$ 的周长为 $AG+GH+AH=AG+GH+DH=AG+DG=AG+BG=AB$．\n设 $DE=m$，则 $AD=2DE=2m$，$AE=AD+DE=3m$．\n由(2)可知，$\\angle ACD=\\angle E$．\n又 $\\because \\angle CAD=\\angle EAC$，\n$\\therefore \\triangle ACD\\backsim\\triangle AEC$，\n$\\therefore \\frac{AC}{AE}=\\frac{AD}{AC}=\\frac{CD}{EC}$，\n$\\therefore AC^2=AD\\cdot AE=6m^2$，\n$\\therefore AC=\\sqrt{6}m$．\n又 $\\because CD=\\sqrt{6}$，\n$\\therefore \\frac{\\sqrt{6}m}{3m}=\\frac{\\sqrt{6}}{EC}$，\n$\\therefore EC=3$．\n过点 $C$ 作 $CP\\perp AE$，垂足为 $P$，则 $\\angle CPD=\\angle CPE=90^\\circ$．\n\n![](figs/2025-25-ans.png)\n\n$\\because$ 四边形 $ABCD$ 是圆内接四边形，\n$\\therefore \\angle ADC+\\angle ABC=180^\\circ$，\n又 $\\because \\angle ADC+\\angle CDP=180^\\circ$，\n$\\therefore \\angle CDP=\\angle ABC$，\n$\\therefore \\tan\\angle CDP=\\tan\\angle ABC=\\sqrt{5}$．\n$\\therefore$ 在 $\\mathrm{Rt}\\triangle DCP$ 中，$\\frac{PC}{PD}=\\sqrt{5}$，即 $PC=\\sqrt{5}PD$．\n$\\therefore CD=\\sqrt{PD^2+PC^2}=\\sqrt{6}PD$，\n$\\therefore \\sqrt{6}PD=\\sqrt{6}$，\n$\\therefore PD=1$，\n$\\therefore PE=DE-DP=m-1$．\n在 $\\mathrm{Rt}\\triangle CPE$ 中，$PE^2+PC^2=CE^2$，\n$\\therefore (m-1)^2+(\\sqrt{5})^2=3^2$，\n解得 $m=3$，或 $m=-1$（舍去）．\n$\\therefore AB=AC=3\\sqrt{6}$．\n$\\therefore \\triangle AGH$ 的周长为 $3\\sqrt{6}$．",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.geo.trig",
+    "shuxue.circle.basic"
+   ],
+   "difficulty": 3
+  }
+ ]
+}

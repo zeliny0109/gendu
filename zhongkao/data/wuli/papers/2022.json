@@ -1,0 +1,1031 @@
+{
+ "subject": "wuli",
+ "year": 2022,
+ "source": "https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/zlxz/202206/t20220627_4386935.htm",
+ "total": 100,
+ "minutes": 90,
+ "materials": [
+  {
+   "id": "m24",
+   "text": "24.（6分）用如图14甲装置，探究平面镜成像的特点：",
+   "figures": [
+    "figs/2022-m24-1.png"
+   ]
+  },
+  {
+   "id": "m25",
+   "text": "25.（4分）在探究“不同物质吸热的情况”实验中：",
+   "figures": []
+  },
+  {
+   "id": "m26",
+   "text": "26.（5分）在探究声音的传播时，对课本的实验进行改进，如图16。",
+   "figures": [
+    "figs/2022-m26-1.png"
+   ]
+  },
+  {
+   "id": "m27",
+   "text": "27.（5分）在探究影响液体压强因素的实验中，用几根一端封有相同橡皮薄膜的玻璃管进行实验，在5号管中装入盐水，其它管中装入水，如图17。",
+   "figures": [
+    "figs/2022-m27-1.png"
+   ]
+  },
+  {
+   "id": "m28",
+   "text": "28.（10分）小华用如图18甲所示电路，测量标有“$2.5\\ \\text{V}$”字样小灯泡的电阻，现有器材：电源（$3\\ \\text{V}$）、电流表、电压表、滑动变阻器（$20\\ \\Omega\\ \\ 2\\ \\text{A}$）、开关、导线若干。",
+   "figures": [
+    "figs/2022-m28-1.png"
+   ]
+  },
+  {
+   "id": "m29",
+   "text": "29.（6分）如图20是一款摄像机自主启动装置的简化电路图，电源电压恒为 $12\\ \\text{V}$，$R_\\text{P}$ 是红外线探测电阻，$R$ 是定值电阻，阻值为 $8\\ \\Omega$。当 $R$ 两端的电压达到 $8\\ \\text{V}$ 时，摄像机自主启动拍摄。求：",
+   "figures": [
+    "figs/2022-m29-1.png"
+   ]
+  },
+  {
+   "id": "m30",
+   "text": "30.（7分）如图21是某晾衣机的工作电路图，电源电压 $U=220\\ \\text{V}$，其中 $R$ 是发热电阻。当开关 $S_1$ 闭合、$S_2$ 断开时，晾衣机开启风干功能，其额定功率 $P_1=44\\ \\text{W}$；当开关 $S_1$、$S_2$ 均闭合时，晾衣机开启烘干功能，通过 $R$ 的电流 $I_2=1\\ \\text{A}$。求：",
+   "figures": [
+    "figs/2022-m30-1.png"
+   ]
+  },
+  {
+   "id": "m31",
+   "text": "31.（9分）如图22是一款能自动浮沉的潜水玩具，正方体潜水器内装有智能电磁铁，将它放入装有水的圆柱形薄壁容器中，容器放置在水平铁板上，不计容器的重力。潜水器启动后通过传感器测出其底部与铁板间的距离 $l$，自动调节电磁铁电流大小，改变潜水器与铁板间的吸引力 $F$ 的大小。闭合开关前，潜水器处于漂浮状态。闭合开关，潜水器启动后先匀速下沉，完全浸入水中后，变为加速下沉直至容器底部，下沉全过程 $F$ 随 $l$ 变化的关系保持不变，水深变化的影响忽略不计。已知潜水器的边长为 $10\\ \\text{cm}$，重为 $5\\ \\text{N}$，容器的底面积为 $1\\,000\\ \\text{cm}^2$，水深为 $25\\ \\text{cm}$。求：",
+   "figures": [
+    "figs/2022-m31-1.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "wuli-2022-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "中国航天从“天宫”建站到“嫦娥”奔月，从“天问”探火到“羲和”追日，一步步迈进探索星辰大海的伟大征程。下列星球空间尺度最大的是",
+   "options": [
+    "A. 地球",
+    "B. 月球",
+    "C. 火星",
+    "D. 太阳"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.energy.universe"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图1为我国纳西族东巴象形文字“晒干”，所描述的物态变化是",
+   "options": [
+    "A. 液化",
+    "B. 熔化",
+    "C. 汽化",
+    "D. 凝固"
+   ],
+   "figures": [
+    "figs/2022-2-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.heat.vaporization"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "国产大飞机C919采用碳纤维材料减轻机身质量，因为碳纤维材料具有较小的",
+   "options": [
+    "A. 弹性",
+    "B. 密度",
+    "C. 硬度",
+    "D. 导热性"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.density.application",
+    "wuli.energy.materials"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图2的光现象中，由于光的折射形成的是",
+   "options": [
+    "A. 屏上的皮影",
+    "B. 水中的倒影",
+    "C. 水里的“折筷”",
+    "D. 镜中的花瓶"
+   ],
+   "figures": [
+    "figs/2022-4-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.light.refraction",
+    "wuli.light.propagation",
+    "wuli.light.reflection"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "“摘星星”的妈妈王亚平从空间站回到地球，把来自太空的纸星星送给女儿。纸星星从太空返回地面后",
+   "options": [
+    "A. 质量变小",
+    "B. 质量不变",
+    "C. 重力变小",
+    "D. 重力不变"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.density.mass",
+    "wuli.force.gravity"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列做法中，符合用电安全的是",
+   "options": [
+    "A. 用淋湿的手拨动用电器开关",
+    "B. 在高压线下放飞风筝",
+    "C. 清洗空调前应断开电源开关",
+    "D. 使用绝缘层破损的导线"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.home.safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图3，用大小相同的力，分别在不同位置按图示方向开门，最容易的是",
+   "options": [
+    "A. （见图）",
+    "B. （见图）",
+    "C. （见图）",
+    "D. （见图）"
+   ],
+   "figures": [
+    "figs/2022-7-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.force.concept",
+    "wuli.machine.lever"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列对中学生体育运动相关数据的估测，符合实际的是",
+   "options": [
+    "A. 立定跳远的距离约为 $2\\ \\text{m}$",
+    "B. 一个实心球的质量约为 $30\\ \\text{kg}$",
+    "C. 跑步的速度约为 $60\\ \\text{m/s}$",
+    "D. 50米跑的满分成绩约为 $6\\ \\text{min}$"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.motion.estimate"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "丰子恺的书画简朴，富有生活气息，描绘了人与自然和谐共生的美好景象。图4是他的四幅作品，下列说法中正确的是",
+   "options": [
+    "A. 旭日初升——以旭日为参照物，山是静止的",
+    "B. 齐心协力——合力的大小可以大于分力之和",
+    "C. 牧童骑牛——牧童受到支持力的施力物体是地面",
+    "D. 春色满园——院子里花香四溢，说明分子是运动的"
+   ],
+   "figures": [
+    "figs/2022-9-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.thermal.molecule",
+    "wuli.motion.relative",
+    "wuli.force.concept"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2022-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "2022年6月5日，神舟十四号载人飞船发射取得圆满成功。以下说法正确的是",
+   "options": [
+    "A. 火箭向下喷气获得向上的推力，说明力的作用是相互的",
+    "B. 加速上升时，燃料的化学能全部转化为船箭的重力势能",
+    "C. 飞船变换角度入轨时，它的运动状态保持不变",
+    "D. 展开太阳能帆板的目的是为了保持飞船的平衡"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.force.concept",
+    "wuli.work.mech_energy",
+    "wuli.mf.force_motion"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2022-11",
+   "no": "11",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "电流的磁效应被发现后，科学家笃信自然力的统一，以逆向的思想，开始在磁生电的研究中进行艰辛的探索。下列科学家与其重要发现对应正确的是",
+   "options": [
+    "A. 法拉第——电磁感应现象",
+    "B. 奥斯特——电流的热效应",
+    "C. 安培——通电导体周围存在磁场",
+    "D. 焦耳——磁场对通电导体的作用"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.method.history",
+    "wuli.magnet.induction"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-12",
+   "no": "12",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图5，小华利用自制喷雾器浇花。推动注射器的活塞时吸管内水面上升，这是因为吸管上方空气",
+   "options": [
+    "A. 流速大，压强大",
+    "B. 流速大，压强小",
+    "C. 流速小，压强大",
+    "D. 流速小，压强小"
+   ],
+   "figures": [
+    "figs/2022-12-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.pressure.fluid_speed"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-13",
+   "no": "13",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "国家速滑馆在冬奥会历史上首次采用“二氧化碳跨临界直冷制冰”技术。技术原理简化如图6，下列说法正确的是",
+   "options": [
+    "A. $\\text{CO}_2$ 经过压缩机时温度降低",
+    "B. $\\text{CO}_2$ 经过冷凝器时发生凝华",
+    "C. $\\text{CO}_2$ 经过膨胀阀时发生升华",
+    "D. $\\text{CO}_2$ 经过蒸发器时吸收热量"
+   ],
+   "figures": [
+    "figs/2022-13-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.heat.phase_change",
+    "wuli.heat.vaporization"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2022-14",
+   "no": "14",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图7，电源电压保持不变，$R$ 为定值电阻。闭合开关S，将滑片P从右端向左端移动过程中，下列说法正确的是",
+   "options": [
+    "A. $V_1$ 和 $V_2$ 示数不变，A示数变大",
+    "B. $V_2$ 和A示数的乘积先变大后变小",
+    "C. $V_1$ 和A示数之比不变",
+    "D. $V_2$ 和A示数之比变小"
+   ],
+   "figures": [
+    "figs/2022-14-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.ohm.dynamic",
+    "wuli.power.power"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2022-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "2022年5月18日，我国自主研制的全球首艘智能型无人系统母船——“珠海云”科考船下水，如图8。该船是利用____波对无人机进行远程遥控。滑翔翼无人机返回母船甲板时，由于____要滑行一段距离才能停下来。",
+   "figures": [
+    "figs/2022-15-1.png"
+   ],
+   "answer": "电磁；惯性",
+   "kp": [
+    "wuli.energy.em_wave",
+    "wuli.mf.inertia"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "塑料胶带属于____（填“绝缘体”或“导体”）。把贴在桌面的两条塑料胶带迅速撕开后让其靠近时，发现它们互相排斥，说明它们带____电荷（填“同种”或“异种”）。",
+   "answer": "绝缘体；同种",
+   "kp": [
+    "wuli.circuit.charge",
+    "wuli.circuit.resistance"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-17",
+   "no": "17",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "如图9是我国古代发明的取火器的模型图，把木制推杆迅速推入牛角套筒时，杆前端的艾绒立刻燃烧起来，这是通过____的方式，使筒内空气内能____，温度升高，达到艾绒的着火点。",
+   "figures": [
+    "figs/2022-17-1.png"
+   ],
+   "answer": "做功；增大",
+   "kp": [
+    "wuli.thermal.internal_energy"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-18",
+   "no": "18",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "福厦高铁预计明年6月建成运营。若高铁列车以 $350\\ \\text{km/h}$ 的设计时速行驶 $210\\ \\text{km}$，需用时____h；列车减速进站时，动能变____。",
+   "answer": "0.6；小",
+   "kp": [
+    "wuli.motion.speed",
+    "wuli.work.mech_energy"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-19",
+   "no": "19",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "2022年5月30日，我国首座潮光互补型光伏电站并网发电，通过光伏发电、潮汐发电实现“日月同辉”。发电站分别把太阳能和月亮潮汐能转化为____。太阳能和潮汐能都属于____能源。",
+   "answer": "电能；可再生",
+   "kp": [
+    "wuli.energy.sources",
+    "wuli.thermal.conservation"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-20",
+   "no": "20",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "如图10，用滑轮组帮助汽车脱困时，滑轮B的作用是____；汽车被匀速拉动时，作用在绳子上的拉力 $F$ 为 $1\\,000\\ \\text{N}$，滑轮组的机械效率为 $80\\%$，则汽车受到的摩擦力为____N。",
+   "figures": [
+    "figs/2022-20-1.png"
+   ],
+   "answer": "改变力的方向；1 600",
+   "kp": [
+    "wuli.machine.efficiency",
+    "wuli.machine.pulley"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2022-21",
+   "no": "21",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "如图11，书静止在水平桌面上。画出书的受力示意图。",
+   "figures": [
+    "figs/2022-21-1.png"
+   ],
+   "answer": "如图",
+   "answer_figures": [
+    "figs/2022-21-ans.png"
+   ],
+   "kp": [
+    "wuli.force.diagram",
+    "wuli.mf.balance"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-22",
+   "no": "22",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "用笔画线表示导线，将图12中的开关、插座分别接入家庭电路中。",
+   "figures": [
+    "figs/2022-22-1.png"
+   ],
+   "answer": "如图",
+   "answer_figures": [
+    "figs/2022-22-ans.png"
+   ],
+   "kp": [
+    "wuli.home.circuit",
+    "wuli.circuit.drawing"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-23",
+   "no": "23",
+   "section": "简答题",
+   "type": "short",
+   "score": 4,
+   "stem": "尊老爱幼是中华民族的传统美德。为了方便老年人剪指甲，在指甲剪的上方加装了一个小凸透镜，如图13。请用物理知识说明：\n\n(1) 指甲剪上加装凸透镜的作用。\n\n(2) 磨指甲的金属磨甲片表面粗糙条纹的作用。",
+   "figures": [
+    "figs/2022-23-1.png"
+   ],
+   "answer": "(1) 凸透镜起到放大镜的作用。指甲到凸透镜距离小于一倍焦距，成正立放大的虚像。\n(2) 磨甲片表面刻有粗糙条纹，可以增大表面的粗糙程度，增大摩擦力，利于磨掉指甲边缘的棱角。",
+   "kp": [
+    "wuli.lens.imaging",
+    "wuli.force.friction"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2022-24-1",
+   "no": "24(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m24",
+   "stem": "为了便于确定像的位置，玻璃板应____放置在水平桌面的白纸上。",
+   "answer": "竖直",
+   "kp": [
+    "wuli.light.exp_plane_mirror"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-24-2",
+   "no": "24(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m24",
+   "stem": "将蜡烛1放在A位置，可看到它在玻璃板后面的像。拿一支相同的蜡烛2竖立着在玻璃板后面移动，直到看上去它跟蜡烛1的像____时，该位置记为 $A'$。",
+   "answer": "完全重合",
+   "kp": [
+    "wuli.light.exp_plane_mirror"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-24-3",
+   "no": "24(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m24",
+   "stem": "将光屏放在 $A'$ 位置，任意转动都承接不到像，可知平面镜成的像是____像。",
+   "answer": "虚",
+   "kp": [
+    "wuli.light.exp_plane_mirror"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-24-4",
+   "no": "24(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m24",
+   "stem": "改变蜡烛1的位置，重复步骤(2)，可得像与物位置的对应关系如图14乙，可知平面镜成像时，像与物关于镜面____。",
+   "answer": "对称",
+   "kp": [
+    "wuli.light.exp_plane_mirror"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-24-5",
+   "no": "24(5)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m24",
+   "stem": "将图14乙中C处的蜡烛沿直线 $CC'$ 向玻璃板方向移动 $1\\ \\text{cm}$，此时像与物之间的距离是____cm，像的大小的变化情况是____。",
+   "answer": "10；不变",
+   "kp": [
+    "wuli.light.exp_plane_mirror",
+    "wuli.light.plane_mirror"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-25-1",
+   "no": "25(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m25",
+   "stem": "用相同的酒精灯加热质量相等的沙子和水，使它们升高相同的温度，通过比较____来判断吸收热量的多少。",
+   "answer": "加热时间",
+   "kp": [
+    "wuli.thermal.exp_specific_heat",
+    "wuli.method.inquiry"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-25-2",
+   "no": "25(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m25",
+   "stem": "加热 $10\\ \\text{min}$ 后，测得水的温度如图15，该示数为____℃。",
+   "figures": [
+    "figs/2022-25-1.png"
+   ],
+   "answer": "48",
+   "kp": [
+    "wuli.thermal.exp_specific_heat",
+    "wuli.heat.temperature"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-25-3",
+   "no": "25(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m25",
+   "stem": "多次实验后得到的数据如下表，分析可得：质量相等的水和沙子，升高相同的温度，水比沙子吸收更____的热量。\n\n| 升高的温度/℃ | 5 | 10 | 15 | 20 |\n|---|---|---|---|---|\n| 加热水的时间/min | 2.5 | 5 | 7.5 | 10 |\n| 加热沙子的时间/min | 1 | 2 | 3 | 4 |",
+   "answer": "多",
+   "kp": [
+    "wuli.thermal.exp_specific_heat"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-25-4",
+   "no": "25(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m25",
+   "stem": "根据实验结论推理：沿海地区昼夜温差比内陆地区更____。",
+   "answer": "小",
+   "kp": [
+    "wuli.thermal.exp_specific_heat",
+    "wuli.thermal.specific_heat"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-26-1",
+   "no": "26(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "为了避免声音通过底部固体传出，利用磁悬浮装置使发声体悬浮于空中，A磁体上端为N极，则B磁体下端为____极。",
+   "answer": "N",
+   "kp": [
+    "wuli.magnet.basics",
+    "wuli.sound.production"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-26-2",
+   "no": "26(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "将内部充有少量空气的气球口系紧，并悬挂于玻璃罩内壁，实验过程发现气球体积变大，说明罩内气压变____。",
+   "answer": "小",
+   "kp": [
+    "wuli.pressure.atmosphere",
+    "wuli.sound.production"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-26-3",
+   "no": "26(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "罩内空气不断减少，最后几乎听不到声音了，但发声体上方的轻质小球照旧跳动，说明发声体仍在____。",
+   "answer": "振动",
+   "kp": [
+    "wuli.sound.production"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-26-4",
+   "no": "26(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m26",
+   "stem": "本实验无法抽成绝对真空，需在实验的基础上，进一步推理得出：真空____传声。写出一个运用类似研究方法的实验：____。",
+   "answer": "不能；探究牛顿第一定律（或伽利略理想实验、阻力对物体运动的影响等）",
+   "kp": [
+    "wuli.sound.production",
+    "wuli.method.inquiry",
+    "wuli.mf.exp_newton1"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-27-1",
+   "no": "27(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "玻璃管下方薄膜鼓起的程度可反映液体____的大小。",
+   "answer": "压强",
+   "kp": [
+    "wuli.pressure.exp_liquid",
+    "wuli.method.inquiry"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-27-2",
+   "no": "27(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "根据图17甲中三支相同玻璃管薄膜鼓起的程度，猜想：液体的压强可能与液体的质量、重力、体积或____有关。",
+   "answer": "深度",
+   "kp": [
+    "wuli.pressure.exp_liquid"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-27-3",
+   "no": "27(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "图17乙中，4号管上段更粗，下段与2号管粗细相同，两管中水的总长度相同，发现两管薄膜鼓起的程度相同，可得：液体压强的大小与液体的质量、重力、体积都____。",
+   "answer": "无关",
+   "kp": [
+    "wuli.pressure.exp_liquid"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-27-4",
+   "no": "27(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "图17丙中，5号管和2号管的液柱长度相等，利用5号管和2号管可探究液体压强与液体的____是否有关。",
+   "answer": "密度",
+   "kp": [
+    "wuli.pressure.exp_liquid"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-27-5",
+   "no": "27(5)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "为了探究液体长度对液体压强的影响，选用2号管和6号管进行实验，6号管水柱比2号管水柱长，实验时需控制两管水柱的____相等。",
+   "answer": "深度",
+   "kp": [
+    "wuli.pressure.exp_liquid",
+    "wuli.pressure.liquid"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-28-1",
+   "no": "28(1)",
+   "section": "实验题",
+   "type": "draw",
+   "score": 2,
+   "material": "m28",
+   "stem": "根据图18甲，用笔画线表示导线，将图18乙中的实物图连接完整。",
+   "answer": "如图（示例）",
+   "answer_figures": [
+    "figs/2022-28-ans.png"
+   ],
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.circuit.drawing"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-28-2",
+   "no": "28(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m28",
+   "stem": "闭合开关前，滑动变阻器滑片P应调至____端。",
+   "answer": "右",
+   "kp": [
+    "wuli.ohm.exp_measure_r"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-28-3",
+   "no": "28(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m28",
+   "stem": "闭合开关，移动滑片P，发现灯泡始终不亮，电流表示数为零，电压表示数等于电源电压，可判断故障是____。",
+   "answer": "小灯泡断路（或小灯泡开路）",
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.ohm.fault"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-28-4",
+   "no": "28(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m28",
+   "stem": "排除故障后进行实验。移动滑片P，当电压表示数为 $2.2\\ \\text{V}$ 时，电流表示数如图19甲，为____A，此时小灯泡的电阻为____$\\Omega$（结果保留一位小数）。",
+   "figures": [
+    "figs/2022-28-1.png"
+   ],
+   "answer": "0.24；9.2",
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.circuit.current"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-28-5",
+   "no": "28(5)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m28",
+   "stem": "根据实验数据，分别画出小灯泡和滑动变阻器的 $I$-$U$ 图象，如图19乙。根据图象可知：小灯泡两端电压越大，电阻越____；当滑动变阻器电阻与小灯泡电阻相等时，小灯泡消耗的功率是____W。",
+   "figures": [
+    "figs/2022-28-1.png"
+   ],
+   "answer": "大；0.3",
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.power.power"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-28-6",
+   "no": "28(6)",
+   "section": "实验题",
+   "type": "draw",
+   "score": 2,
+   "material": "m28",
+   "stem": "小华发现无论如何移动滑片，小灯泡两端的电压都无法调到 $0.5\\ \\text{V}$。现增加一个阻值为 $20\\ \\Omega$ 的定值电阻 $R$ 和一个开关，对原电路进行改进，使小灯泡两端电压能在 $0.5\\ \\text{V}\\sim3.0\\ \\text{V}$ 之间变化，测出小灯泡在不同电压下的电阻。请在虚线框中画出电路图，要求电路连接后不再拆接。",
+   "answer": "如图",
+   "answer_figures": [
+    "figs/2022-28-ans2.png"
+   ],
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.circuit.design",
+    "wuli.ohm.law"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-29-1",
+   "no": "29(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m29",
+   "stem": "电路中的电流。",
+   "answer": "根据 $I=\\dfrac{U}{R}$ 得，电路中的电流 $I=\\dfrac{U_1}{R}=\\dfrac{8\\ \\text{V}}{8\\ \\Omega}=1\\ \\text{A}$",
+   "kp": [
+    "wuli.ohm.law"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-29-2",
+   "no": "29(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m29",
+   "stem": "$R_\\text{P}$ 的阻值。",
+   "answer": "$R_\\text{P}$ 两端的电压 $U_2=U-U_1=12\\ \\text{V}-8\\ \\text{V}=4\\ \\text{V}$\n$R_\\text{P}$ 的阻值 $R_\\text{P}=\\dfrac{U_2}{I}=\\dfrac{4\\ \\text{V}}{1\\ \\text{A}}=4\\ \\Omega$",
+   "kp": [
+    "wuli.ohm.law",
+    "wuli.ohm.sensor"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-30-1",
+   "no": "30(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m30",
+   "stem": "使用风干功能时通过电动机的电流。",
+   "answer": "使用风干功能时，电路中只有电动机工作\n根据 $P=UI$ 得，$I_1=\\dfrac{P_1}{U}=\\dfrac{44\\ \\text{W}}{220\\ \\text{V}}=0.2\\ \\text{A}$",
+   "kp": [
+    "wuli.power.gears",
+    "wuli.power.power"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-30-2",
+   "no": "30(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m30",
+   "stem": "使用烘干功能时电阻 $R$ 在 $1\\ \\text{min}$ 内产生的热量。",
+   "answer": "使用烘干功能时，电路中电动机和发热电阻 $R$ 并联，$U$ 相同\n$Q=W_2=UI_2t_1=220\\ \\text{V}\\times1\\ \\text{A}\\times60\\ \\text{s}=1.32\\times10^{4}\\ \\text{J}$",
+   "kp": [
+    "wuli.power.joule",
+    "wuli.power.gears"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-30-3",
+   "no": "30(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m30",
+   "stem": "使用烘干功能 $1\\ \\text{h}$ 消耗的电能。",
+   "answer": "电阻 $R$ 的功率 $P_2=UI_2=220\\ \\text{V}\\times1\\ \\text{A}=220\\ \\text{W}$\n电路消耗的总功率 $P=P_1+P_2=44\\ \\text{W}+220\\ \\text{W}=264\\ \\text{W}$\n电路消耗的总电能 $W=Pt_2=264\\times10^{-3}\\ \\text{kW}\\times1\\ \\text{h}=0.264\\ \\text{kW·h}$",
+   "kp": [
+    "wuli.power.gears",
+    "wuli.power.energy"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-31-1",
+   "no": "31(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m31",
+   "stem": "潜水器漂浮时受到的浮力。",
+   "answer": "潜水器处于漂浮状态时\n潜水器受到的浮力 $F_{浮}=G_{潜}=5\\ \\text{N}$",
+   "kp": [
+    "wuli.buoyancy.float_sink"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-31-2",
+   "no": "31(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m31",
+   "stem": "下沉全过程潜水器重力所做的功。",
+   "answer": "潜水器的底面积 $S_1=10\\ \\text{cm}\\times10\\ \\text{cm}=100\\ \\text{cm}^2=0.01\\ \\text{m}^2$\n由 $F_{浮}=\\rho_{液}V_{排}g=\\rho_{水}S_1h_1g$ 得，漂浮时浸入水中的深度\n$h_1=\\dfrac{F_{浮}}{\\rho_{水}S_1g}=\\dfrac{5\\ \\text{N}}{1.0\\times10^{3}\\ \\text{kg/m}^3\\times0.01\\ \\text{m}^2\\times10\\ \\text{N/kg}}=0.05\\ \\text{m}$\n潜水器下降的距离\n$h_2=h-h_1=0.25\\ \\text{m}-0.05\\ \\text{m}=0.2\\ \\text{m}$\n潜水器的重力所做的功\n$W=G_{潜}h_2=5\\ \\text{N}\\times0.2\\ \\text{m}=1\\ \\text{J}$",
+   "kp": [
+    "wuli.work.work",
+    "wuli.buoyancy.archimedes"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2022-31-3",
+   "no": "31(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 4,
+   "material": "m31",
+   "stem": "潜水器沉底静止后容器对铁板的压强。",
+   "answer": "潜水器匀速下沉时，$F$ 随 $l$ 的变化关系式为\n$F=F_{浮}-G_{潜}=\\rho_{水}gS_1(h-l)-G_{潜}$\n$=1.0\\times10^{3}\\ \\text{kg/m}^3\\times10\\ \\text{N/kg}\\times0.01\\ \\text{m}^2\\times(0.25\\ \\text{m}-l)-5\\ \\text{N}$\n$=(20-100\\,l)\\ \\text{N}$\n依题意，潜水器浸没后加速下沉，$F$ 随 $l$ 的变化关系不变\n即 $F=(20-100\\,l)\\ \\text{N}$\n潜水器沉底静止时，$l=0$，受到的吸力 $F=20\\ \\text{N}$\n潜水器漂浮时，潜水器受到的重力等于它排开水的重力\n因此潜水器和水的总重 $G_{总}$ 等于容器中只装 $25\\ \\text{cm}$ 深的水重 $G_{水}$\n容器的底面积 $S_2=1\\,000\\ \\text{cm}^2=0.1\\ \\text{m}^2$\n潜水器和水的总重\n$G_{总}=G_{水}=mg=\\rho_{水}gV=\\rho_{水}gS_2h$\n$=1.0\\times10^{3}\\ \\text{kg/m}^3\\times10\\ \\text{N/kg}\\times0.1\\ \\text{m}^2\\times0.25\\ \\text{m}=250\\ \\text{N}$\n潜水器沉底静止时，容器对铁板的压力\n$F_{压}=F+G_{总}=20\\ \\text{N}+250\\ \\text{N}=270\\ \\text{N}$\n由 $p=\\dfrac{F}{S}$ 得，容器对铁板的压强\n$p=\\dfrac{F_{压}}{S_2}=\\dfrac{270\\ \\text{N}}{0.1\\ \\text{m}^2}=2\\,700\\ \\text{Pa}$",
+   "kp": [
+    "wuli.pressure.solid",
+    "wuli.buoyancy.float_sink",
+    "wuli.magnet.electromagnet"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定"
+  }
+ ]
+}

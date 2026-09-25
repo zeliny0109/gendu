@@ -1,0 +1,399 @@
+{
+ "subjects": [
+  {
+   "id": "yuwen",
+   "name": "语文",
+   "weight": 150,
+   "ready": true,
+   "years": [
+    {
+     "year": 2019,
+     "n": 35,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2020,
+     "n": 33,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2021,
+     "n": 25,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2022,
+     "n": 24,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2023,
+     "n": 27,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2024,
+     "n": 26,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2025,
+     "n": 26,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2026,
+     "n": 25,
+     "total": 150,
+     "minutes": 120
+    }
+   ],
+   "questions": 221,
+   "kps": 75,
+   "lessons": false
+  },
+  {
+   "id": "shuxue",
+   "name": "数学",
+   "weight": 150,
+   "ready": true,
+   "years": [
+    {
+     "year": 2019,
+     "n": 32,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2020,
+     "n": 34,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2021,
+     "n": 33,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2022,
+     "n": 33,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2023,
+     "n": 33,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2024,
+     "n": 33,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2025,
+     "n": 35,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2026,
+     "n": 34,
+     "total": 150,
+     "minutes": 120
+    }
+   ],
+   "questions": 267,
+   "kps": 75,
+   "lessons": false
+  },
+  {
+   "id": "yingyu",
+   "name": "英语",
+   "weight": 150,
+   "ready": true,
+   "years": [
+    {
+     "year": 2019,
+     "n": 91,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2020,
+     "n": 91,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2021,
+     "n": 91,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2022,
+     "n": 91,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2023,
+     "n": 91,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2024,
+     "n": 91,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2025,
+     "n": 91,
+     "total": 150,
+     "minutes": 120
+    },
+    {
+     "year": 2026,
+     "n": 91,
+     "total": 150,
+     "minutes": 120
+    }
+   ],
+   "questions": 728,
+   "kps": 103,
+   "lessons": false
+  },
+  {
+   "id": "wuli",
+   "name": "物理",
+   "weight": 90,
+   "ready": true,
+   "years": [
+    {
+     "year": 2019,
+     "n": 47,
+     "total": 100,
+     "minutes": 90
+    },
+    {
+     "year": 2021,
+     "n": 53,
+     "total": 100,
+     "minutes": 90
+    },
+    {
+     "year": 2022,
+     "n": 55,
+     "total": 100,
+     "minutes": 90
+    },
+    {
+     "year": 2023,
+     "n": 50,
+     "total": 100,
+     "minutes": 90
+    },
+    {
+     "year": 2024,
+     "n": 51,
+     "total": 100,
+     "minutes": 90
+    },
+    {
+     "year": 2025,
+     "n": 52,
+     "total": 100,
+     "minutes": 90
+    },
+    {
+     "year": 2026,
+     "n": 49,
+     "total": 100,
+     "minutes": 90
+    }
+   ],
+   "questions": 357,
+   "kps": 109,
+   "lessons": false
+  },
+  {
+   "id": "huaxue",
+   "name": "化学",
+   "weight": 60,
+   "ready": true,
+   "years": [
+    {
+     "year": 2020,
+     "n": 35,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2021,
+     "n": 36,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2022,
+     "n": 42,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2023,
+     "n": 44,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2024,
+     "n": 38,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2025,
+     "n": 39,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2026,
+     "n": 40,
+     "total": 100,
+     "minutes": 60
+    }
+   ],
+   "questions": 274,
+   "kps": 67,
+   "lessons": false
+  },
+  {
+   "id": "daofa",
+   "name": "道德与法治",
+   "weight": 50,
+   "ready": true,
+   "years": [
+    {
+     "year": 2019,
+     "n": 38,
+     "total": 100,
+     "minutes": 100
+    },
+    {
+     "year": 2020,
+     "n": 36,
+     "total": 100,
+     "minutes": 100
+    },
+    {
+     "year": 2021,
+     "n": 36,
+     "total": 100,
+     "minutes": 100
+    },
+    {
+     "year": 2022,
+     "n": 35,
+     "total": 100,
+     "minutes": 100
+    },
+    {
+     "year": 2023,
+     "n": 35,
+     "total": 100,
+     "minutes": 100
+    },
+    {
+     "year": 2024,
+     "n": 35,
+     "total": 100,
+     "minutes": 100
+    },
+    {
+     "year": 2025,
+     "n": 35,
+     "total": 100,
+     "minutes": 100
+    },
+    {
+     "year": 2026,
+     "n": 36,
+     "total": 100,
+     "minutes": 90
+    }
+   ],
+   "questions": 286,
+   "kps": 94,
+   "lessons": false
+  },
+  {
+   "id": "lishi",
+   "name": "历史",
+   "weight": 50,
+   "ready": true,
+   "years": [
+    {
+     "year": 2019,
+     "n": 40,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2021,
+     "n": 40,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2022,
+     "n": 37,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2023,
+     "n": 36,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2024,
+     "n": 37,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2025,
+     "n": 34,
+     "total": 100,
+     "minutes": 60
+    },
+    {
+     "year": 2026,
+     "n": 35,
+     "total": 100,
+     "minutes": 60
+    }
+   ],
+   "questions": 259,
+   "kps": 111,
+   "lessons": false
+  }
+ ]
+}

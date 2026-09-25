@@ -1,0 +1,672 @@
+{
+  "subject": "yingyu",
+  "note": "grade 按仁爱科普版初中英语教材估计（七上 U1–U4 … 九下 U5–U6），同一语法点多册反复出现时写首次系统讲授的册次；不确定写 ?",
+  "modules": [
+    {
+      "id": "M1",
+      "name": "语法·词法",
+      "kps": [
+        {
+          "id": "yingyu.noun.number",
+          "name": "名词单复数与可数/不可数",
+          "grade": "七上",
+          "desc": "名词复数变化、不可数名词、单复数与语境匹配（短文填空常考 visitors, parts）"
+        },
+        {
+          "id": "yingyu.noun.possessive",
+          "name": "名词所有格",
+          "grade": "七上",
+          "desc": "'s / of 所有格、双重所有格"
+        },
+        {
+          "id": "yingyu.word.formation",
+          "name": "词性转换与构词法",
+          "grade": "九上",
+          "desc": "派生词缀（-ful/-less/-ly/-tion/-er/un-等）、名词↔形容词↔动词转换，如 proud→pride, luck→luckily"
+        },
+        {
+          "id": "yingyu.pron.personal",
+          "name": "人称代词主格/宾格",
+          "grade": "七上",
+          "desc": "I/me, she/her, they/them 等主宾格选择"
+        },
+        {
+          "id": "yingyu.pron.possessive",
+          "name": "物主代词",
+          "grade": "七上",
+          "desc": "形容词性与名词性物主代词（their / mine, yours）"
+        },
+        {
+          "id": "yingyu.pron.reflexive",
+          "name": "反身代词",
+          "grade": "八上",
+          "desc": "myself 等及 by oneself, enjoy oneself 等搭配"
+        },
+        {
+          "id": "yingyu.pron.indefinite",
+          "name": "不定代词与复合不定代词",
+          "grade": "九上",
+          "desc": "all/both/either/neither/none/each/other/another, someone/everyone/anything 等"
+        },
+        {
+          "id": "yingyu.pron.it_one",
+          "name": "it / one / that 与指示代词",
+          "grade": "八上",
+          "desc": "it 与 one 的替代区别、this/that/these/those、形式主语 it 之外的指代"
+        },
+        {
+          "id": "yingyu.numeral",
+          "name": "数词",
+          "grade": "七上",
+          "desc": "基数词、序数词、日期、分数、hundreds of 等"
+        },
+        {
+          "id": "yingyu.article",
+          "name": "冠词",
+          "grade": "七上",
+          "desc": "a/an/the/零冠词"
+        },
+        {
+          "id": "yingyu.prep.basic",
+          "name": "介词（时间、地点、方式）",
+          "grade": "七下",
+          "desc": "in/on/at 表时间地点、with/by/in 表方式、方位介词"
+        },
+        {
+          "id": "yingyu.adj_adv.usage",
+          "name": "形容词与副词的用法",
+          "grade": "七下",
+          "desc": "形容词作表语/定语、副词修饰动词；形容词↔副词（-ly）转换"
+        },
+        {
+          "id": "yingyu.adj_adv.compare",
+          "name": "比较级与最高级",
+          "grade": "八上",
+          "desc": "比较级/最高级构成与用法，as…as，the + 比较级…the + 比较级"
+        },
+        {
+          "id": "yingyu.conj.coord",
+          "name": "并列连词",
+          "grade": "七下",
+          "desc": "and/but/or/so，both…and, either…or, not only…but also"
+        },
+        {
+          "id": "yingyu.verb.simple_present",
+          "name": "一般现在时",
+          "grade": "七上",
+          "desc": "含第三人称单数、主将从现"
+        },
+        {
+          "id": "yingyu.verb.simple_past",
+          "name": "一般过去时",
+          "grade": "七下",
+          "desc": "规则/不规则动词过去式"
+        },
+        {
+          "id": "yingyu.verb.simple_future",
+          "name": "一般将来时",
+          "grade": "八上",
+          "desc": "will / be going to"
+        },
+        {
+          "id": "yingyu.verb.present_progressive",
+          "name": "现在进行时",
+          "grade": "七下",
+          "desc": "am/is/are doing，now, look, listen 等标志"
+        },
+        {
+          "id": "yingyu.verb.past_progressive",
+          "name": "过去进行时",
+          "grade": "八下",
+          "desc": "was/were doing，at 9:00 last night, when/while"
+        },
+        {
+          "id": "yingyu.verb.present_perfect",
+          "name": "现在完成时",
+          "grade": "九上",
+          "desc": "have/has done，since/for/already/yet/ever；非延续性动词转换"
+        },
+        {
+          "id": "yingyu.verb.other_tense",
+          "name": "其他时态（过去完成、过去将来）",
+          "grade": "九上",
+          "desc": "had done、would do，多见于宾语从句时态呼应"
+        },
+        {
+          "id": "yingyu.verb.passive",
+          "name": "被动语态",
+          "grade": "九上",
+          "desc": "各时态被动语态，含情态动词被动 can be done"
+        },
+        {
+          "id": "yingyu.verb.agreement",
+          "name": "主谓一致与 be 动词",
+          "grade": "七上",
+          "desc": "主语单复数与谓语一致，be/have 的形式"
+        },
+        {
+          "id": "yingyu.verb.infinitive",
+          "name": "动词不定式",
+          "grade": "八上",
+          "desc": "to do 作宾语、目的状语、宾补、疑问词+to do"
+        },
+        {
+          "id": "yingyu.verb.gerund",
+          "name": "动名词",
+          "grade": "八上",
+          "desc": "enjoy/finish/mind/spend…doing、介词后接 doing、doing 作主语"
+        },
+        {
+          "id": "yingyu.verb.bare_infinitive",
+          "name": "省略 to 的不定式",
+          "grade": "八下",
+          "desc": "make/let/have/see/hear sb do，had better do, would rather do"
+        },
+        {
+          "id": "yingyu.verb.modal",
+          "name": "情态动词",
+          "grade": "八上",
+          "desc": "can/could/may/must/should/need/have to 的用法与回答"
+        },
+        {
+          "id": "yingyu.verb.pattern",
+          "name": "常用动词句型",
+          "grade": "八上",
+          "desc": "used to do, be used to doing, stop to do/doing, It takes sb… to do, spend/cost/pay"
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "语法·句法",
+      "kps": [
+        {
+          "id": "yingyu.clause.object",
+          "name": "宾语从句",
+          "grade": "八下",
+          "desc": "连接词、陈述语序、时态呼应"
+        },
+        {
+          "id": "yingyu.clause.attributive",
+          "name": "定语从句",
+          "grade": "九上",
+          "desc": "who/which/that 引导的定语从句"
+        },
+        {
+          "id": "yingyu.clause.time",
+          "name": "时间状语从句",
+          "grade": "八下",
+          "desc": "when/while/before/after/until/as soon as/since"
+        },
+        {
+          "id": "yingyu.clause.condition",
+          "name": "条件状语从句",
+          "grade": "八上",
+          "desc": "if/unless，主将从现"
+        },
+        {
+          "id": "yingyu.clause.reason_result",
+          "name": "原因、目的与结果状语从句",
+          "grade": "八下",
+          "desc": "because/since/as, so that, so…that, such…that, too…to"
+        },
+        {
+          "id": "yingyu.clause.concession",
+          "name": "让步状语从句",
+          "grade": "九上",
+          "desc": "though/although/even though，不与 but 连用"
+        },
+        {
+          "id": "yingyu.sent.wh_question",
+          "name": "特殊疑问句",
+          "grade": "七上",
+          "desc": "what/who/whose/which/when/where/why/how 及 how many/much/long/often/far/soon"
+        },
+        {
+          "id": "yingyu.sent.general_question",
+          "name": "一般疑问句与选择疑问句",
+          "grade": "七上",
+          "desc": "Do/Can/Is 开头的问句及其答语"
+        },
+        {
+          "id": "yingyu.sent.exclamation",
+          "name": "感叹句",
+          "grade": "七下",
+          "desc": "What a/an + adj. + n.! / How + adj.!"
+        },
+        {
+          "id": "yingyu.sent.tag_question",
+          "name": "反意疑问句",
+          "grade": "?",
+          "desc": "前肯后否、前否后肯及回答"
+        },
+        {
+          "id": "yingyu.sent.imperative",
+          "name": "祈使句",
+          "grade": "七上",
+          "desc": "Do / Don't / Let's …，祈使句 + and/or"
+        },
+        {
+          "id": "yingyu.sent.there_be",
+          "name": "There be 句型",
+          "grade": "七下",
+          "desc": "there is/are/was/will be，就近原则"
+        },
+        {
+          "id": "yingyu.sent.it_pattern",
+          "name": "It 作形式主语句型",
+          "grade": "八上",
+          "desc": "It's + adj. + (for/of sb) to do, It's time to/for"
+        }
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "词汇与固定搭配",
+      "kps": [
+        {
+          "id": "yingyu.vocab.noun",
+          "name": "名词词义辨析",
+          "grade": "?",
+          "desc": "语境中选择恰当的名词"
+        },
+        {
+          "id": "yingyu.vocab.verb",
+          "name": "动词词义辨析",
+          "grade": "?",
+          "desc": "语境中选择恰当的动词"
+        },
+        {
+          "id": "yingyu.vocab.adj",
+          "name": "形容词词义辨析",
+          "grade": "?",
+          "desc": "语境中选择恰当的形容词"
+        },
+        {
+          "id": "yingyu.vocab.adv",
+          "name": "副词词义辨析",
+          "grade": "?",
+          "desc": "语境中选择恰当的副词（successfully, luckily 等）"
+        },
+        {
+          "id": "yingyu.vocab.conj_logic",
+          "name": "连词/逻辑衔接词辨析",
+          "grade": "?",
+          "desc": "语境中选择 but/so/though/unless/however 等表示逻辑关系的词"
+        },
+        {
+          "id": "yingyu.vocab.phrasal_verb",
+          "name": "动词短语",
+          "grade": "?",
+          "desc": "work out, give up, look after 等动词短语辨析"
+        },
+        {
+          "id": "yingyu.vocab.prep_phrase",
+          "name": "介词短语与固定搭配",
+          "grade": "?",
+          "desc": "be good at, be famous for, in surprise, take part in 等"
+        }
+      ]
+    },
+    {
+      "id": "M4",
+      "name": "话题（语篇主题）",
+      "kps": [
+        {
+          "id": "yingyu.topic.personal_family",
+          "name": "个人情况、家庭与朋友",
+          "grade": "七上",
+          "desc": "介绍自己与他人、家庭、友谊"
+        },
+        {
+          "id": "yingyu.topic.school",
+          "name": "学校生活与学习",
+          "grade": "七下",
+          "desc": "课程、校园活动、学习方法、考试"
+        },
+        {
+          "id": "yingyu.topic.hobby_ent",
+          "name": "兴趣爱好与娱乐",
+          "grade": "八上",
+          "desc": "爱好、音乐、电影、阅读、艺术"
+        },
+        {
+          "id": "yingyu.topic.health_sports",
+          "name": "健康与运动",
+          "grade": "八上",
+          "desc": "体育运动、生活习惯、看病、安全"
+        },
+        {
+          "id": "yingyu.topic.food_shopping",
+          "name": "饮食与购物",
+          "grade": "八下",
+          "desc": "食物、做饭、购物、价格"
+        },
+        {
+          "id": "yingyu.topic.travel",
+          "name": "旅游与交通",
+          "grade": "八下",
+          "desc": "出行、景点、问路、交通方式"
+        },
+        {
+          "id": "yingyu.topic.nature_env",
+          "name": "自然与环境保护",
+          "grade": "九上",
+          "desc": "动植物、天气、环保、节约资源"
+        },
+        {
+          "id": "yingyu.topic.sci_tech",
+          "name": "科学技术",
+          "grade": "九上",
+          "desc": "发明、航天、人工智能、科普说明文"
+        },
+        {
+          "id": "yingyu.topic.chinese_culture",
+          "name": "中华文化与节日",
+          "grade": "九下",
+          "desc": "传统文化、非遗、节日、家乡与中国发展"
+        },
+        {
+          "id": "yingyu.topic.world_culture",
+          "name": "世界文化与语言学习",
+          "grade": "九上",
+          "desc": "英语学习、中外交流、各国风俗"
+        },
+        {
+          "id": "yingyu.topic.character_growth",
+          "name": "品格、成长与志愿服务",
+          "grade": "?",
+          "desc": "人物故事、助人、诚信、劳动、挫折与成长"
+        },
+        {
+          "id": "yingyu.topic.jobs_future",
+          "name": "职业与未来规划",
+          "grade": "?",
+          "desc": "职业、梦想、未来生活"
+        },
+        {
+          "id": "yingyu.topic.feelings",
+          "name": "情感与人际交往",
+          "grade": "八下",
+          "desc": "情绪、沟通、处理人际关系"
+        }
+      ]
+    },
+    {
+      "id": "M5",
+      "name": "完形与阅读技能",
+      "kps": [
+        {
+          "id": "yingyu.cloze.context",
+          "name": "完形：语境与上下文逻辑",
+          "grade": "?",
+          "desc": "结合上下文、情节与逻辑选词（完形题的技能标签）"
+        },
+        {
+          "id": "yingyu.read.detail",
+          "name": "细节理解",
+          "grade": "?",
+          "desc": "直接或同义转述定位事实细节，含简单计算"
+        },
+        {
+          "id": "yingyu.read.chart",
+          "name": "图表与应用文信息检索",
+          "grade": "?",
+          "desc": "从表格、海报、广告、通知中查找/比较信息"
+        },
+        {
+          "id": "yingyu.read.inference",
+          "name": "推理判断",
+          "grade": "?",
+          "desc": "推断隐含信息、人物特点、可能结果"
+        },
+        {
+          "id": "yingyu.read.main_idea",
+          "name": "主旨大意与段落大意",
+          "grade": "?",
+          "desc": "文章或段落主要讲什么"
+        },
+        {
+          "id": "yingyu.read.title",
+          "name": "最佳标题",
+          "grade": "?",
+          "desc": "为全文选择最佳标题"
+        },
+        {
+          "id": "yingyu.read.word_meaning",
+          "name": "词义猜测",
+          "grade": "?",
+          "desc": "根据上下文猜测划线词/短语含义"
+        },
+        {
+          "id": "yingyu.read.reference",
+          "name": "代词指代",
+          "grade": "?",
+          "desc": "判断代词或名词短语指代的对象"
+        },
+        {
+          "id": "yingyu.read.structure",
+          "name": "篇章结构与写作手法",
+          "grade": "?",
+          "desc": "文章结构图、段落作用、作者用何种方法说明/论证"
+        },
+        {
+          "id": "yingyu.read.purpose_attitude",
+          "name": "作者意图与态度",
+          "grade": "?",
+          "desc": "作者写作目的、观点态度、人物情感"
+        },
+        {
+          "id": "yingyu.read.source_genre",
+          "name": "文章出处与文体",
+          "grade": "?",
+          "desc": "文章可能出自报纸哪个版块/什么书、文体判断"
+        },
+        {
+          "id": "yingyu.read.sentence_fill",
+          "name": "还原句子（选句填空）",
+          "grade": "?",
+          "desc": "5 选 5，根据上下文衔接、段落主题句还原句子"
+        }
+      ]
+    },
+    {
+      "id": "M6",
+      "name": "情景交际功能用语",
+      "kps": [
+        {
+          "id": "yingyu.func.greeting",
+          "name": "问候、介绍与告别",
+          "grade": "七上",
+          "desc": "Nice to meet/see you, Good afternoon, Goodbye, What's your name"
+        },
+        {
+          "id": "yingyu.func.thanks_apology",
+          "name": "感谢、道歉及应答",
+          "grade": "七上",
+          "desc": "Thank you / You're welcome / I'm sorry / That's all right"
+        },
+        {
+          "id": "yingyu.func.wishes",
+          "name": "祝愿、祝贺与节日问候",
+          "grade": "七下",
+          "desc": "Happy New Year, Congratulations, Have a good time"
+        },
+        {
+          "id": "yingyu.func.personal_info",
+          "name": "询问个人信息与身份",
+          "grade": "七上",
+          "desc": "姓名、年龄、来自哪里、职业、外貌、所属"
+        },
+        {
+          "id": "yingyu.func.time_place",
+          "name": "询问时间、日期、地点与距离",
+          "grade": "七下",
+          "desc": "What time/When/Where/How far/How long"
+        },
+        {
+          "id": "yingyu.func.quantity_price",
+          "name": "询问数量与价格、购物",
+          "grade": "七上",
+          "desc": "How many/How much，购物用语"
+        },
+        {
+          "id": "yingyu.func.activity_plan",
+          "name": "询问活动、计划与经历",
+          "grade": "七下",
+          "desc": "What are you doing / going to do / did you do / Have you ever"
+        },
+        {
+          "id": "yingyu.func.frequency_way",
+          "name": "询问频率、方式与原因",
+          "grade": "八上",
+          "desc": "How often / How do you go / Why"
+        },
+        {
+          "id": "yingyu.func.opinion_feeling",
+          "name": "询问看法、喜好与感受",
+          "grade": "八上",
+          "desc": "What do you think of / How do you like / How do you feel"
+        },
+        {
+          "id": "yingyu.func.health",
+          "name": "询问健康与看病",
+          "grade": "八上",
+          "desc": "What's wrong / How are you feeling / I hope you get well soon"
+        },
+        {
+          "id": "yingyu.func.request_offer",
+          "name": "请求、许可与提供帮助",
+          "grade": "七下",
+          "desc": "Could you… / May I… / Can I help you / Would you like"
+        },
+        {
+          "id": "yingyu.func.suggestion",
+          "name": "建议、劝告与禁止",
+          "grade": "八上",
+          "desc": "Why not / Let's / You'd better / Don't…"
+        },
+        {
+          "id": "yingyu.func.invitation_agree",
+          "name": "邀请、同意与拒绝",
+          "grade": "八上",
+          "desc": "Would you like to… / Sure / I'd love to, but…"
+        },
+        {
+          "id": "yingyu.func.praise",
+          "name": "赞美与感叹",
+          "grade": "七下",
+          "desc": "What a…! How…! Well done"
+        },
+        {
+          "id": "yingyu.func.ask_way",
+          "name": "问路与指路",
+          "grade": "七下",
+          "desc": "Excuse me, how can I get to… / Go along…"
+        },
+        {
+          "id": "yingyu.func.phone",
+          "name": "打电话用语",
+          "grade": "七下",
+          "desc": "May I speak to… / This is…speaking"
+        }
+      ]
+    },
+    {
+      "id": "M7",
+      "name": "写作",
+      "kps": [
+        {
+          "id": "yingyu.write.picture_sentence",
+          "name": "看图写话",
+          "grade": "?",
+          "desc": "根据图画和提示词写出语法正确、意思完整的一句话（时态/句型由提示词决定）"
+        },
+        {
+          "id": "yingyu.fill.word_form",
+          "name": "短文填空：有提示词（词形变化）",
+          "grade": "?",
+          "desc": "根据语篇把所给词变成正确形式"
+        },
+        {
+          "id": "yingyu.fill.function_word",
+          "name": "短文填空：无提示词（虚词/语篇）",
+          "grade": "?",
+          "desc": "根据语篇填冠词、介词、连词、代词或实词"
+        },
+        {
+          "id": "yingyu.fill.phonetic",
+          "name": "短文填空：根据音标写单词",
+          "grade": "七上",
+          "desc": "根据所给音标拼写单词并用正确形式（2019、2022 等年份卷面出现）"
+        },
+        {
+          "id": "yingyu.essay.letter",
+          "name": "书面表达：书信/电子邮件",
+          "grade": "?",
+          "desc": "回信、介绍活动、推荐、申请等书信类应用文"
+        },
+        {
+          "id": "yingyu.essay.report_speech",
+          "name": "书面表达：报道/倡议书/演讲稿",
+          "grade": "?",
+          "desc": "活动报道、倡议书、发言稿等"
+        },
+        {
+          "id": "yingyu.essay.narrative",
+          "name": "书面表达：记叙经历与感受",
+          "grade": "?",
+          "desc": "用一般过去时记述活动经过并写感受（内容要点层面）"
+        }
+      ]
+    },
+    {
+      "id": "M8",
+      "name": "听力技能",
+      "kps": [
+        {
+          "id": "yingyu.listen.picture",
+          "name": "听句子选图",
+          "grade": "?",
+          "desc": "抓住句子中的关键词（动作、物品、地点）匹配图画"
+        },
+        {
+          "id": "yingyu.listen.detail",
+          "name": "听对话获取事实细节",
+          "grade": "?",
+          "desc": "人物、物品、地点、原因等细节"
+        },
+        {
+          "id": "yingyu.listen.number_time",
+          "name": "听数字、时间与价格",
+          "grade": "?",
+          "desc": "时间、日期、价格、数量，含简单计算"
+        },
+        {
+          "id": "yingyu.listen.relation_place",
+          "name": "判断说话人关系与场景",
+          "grade": "?",
+          "desc": "说话人关系、对话发生地点"
+        },
+        {
+          "id": "yingyu.listen.main_idea",
+          "name": "听对话主旨",
+          "grade": "?",
+          "desc": "谈话的主要话题"
+        },
+        {
+          "id": "yingyu.listen.inference",
+          "name": "听力推理判断",
+          "grade": "?",
+          "desc": "推断下一步行动、态度、隐含意思"
+        },
+        {
+          "id": "yingyu.listen.note_taking",
+          "name": "听短文记录关键词（填表）",
+          "grade": "?",
+          "desc": "听短文完成表格，每空一词，需拼写正确"
+        }
+      ]
+    }
+  ]
+}

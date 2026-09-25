@@ -1,0 +1,709 @@
+{
+ "subject": "huaxue",
+ "year": 2025,
+ "source": "福建省教育考试院《2025年福建省初中学业水平考试试题、参考答案》（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/tzgg/202506/P020250621484775049990.pdf",
+ "total": 100,
+ "minutes": 60,
+ "note": "相对原子质量：H 1　C 12　O 16　Na 23　Cl 35.5　Pb 207。非选择题小问分值为按福建阅卷惯例估算，官方只给大题总分。",
+ "materials": [
+  {
+   "id": "m11",
+   "text": "$\\mathrm{CuO}$-$\\mathrm{CeO_2}$ 催化剂在燃料电池研究方面发挥着重要作用。"
+  },
+  {
+   "id": "m12",
+   "text": "海洋蕴含宝贵的化学资源。含碳物质在海洋中的部分转化如下图所示。",
+   "figures": [
+    "figs/2025-m12-1.png"
+   ]
+  },
+  {
+   "id": "m13",
+   "text": "兴趣小组开展“小区火灾隐患调查与火灾防范宣传”实践活动。\n\n【设计方案】用某生成式人工智能软件辅助生成实践活动方案。方案强调开展可燃物、火源控制、消防设施等的调查，并对活动提出具体的实施建议。\n\n【展开调查】调查发现：小区配有干粉灭火器；居民主要以天然气为家用燃料、以电动车为出行工具。\n\n【进行宣传】介绍灭火器的使用方法、常见火灾隐患及应对措施等，并张贴安全标识。\n\n基于上述实践活动，请回答下列问题："
+  },
+  {
+   "id": "m14",
+   "text": "研究性学习小组开展“自制酸碱指示剂”实践活动。\n\n【活动 1】将紫甘蓝叶研碎后加入适量酒精浸泡一段时间，用纱布将浸泡出的汁液挤出，得到紫甘蓝液。\n\n【活动 2】探究紫甘蓝液在不同酸碱性溶液中的颜色变化，结果如下表所示。\n\n| pH | 1～2 | 3～6 | 7～9 | 10～11 | 12～14 |\n|---|---|---|---|---|---|\n| 颜色 | 红 | 紫 | 蓝 | 绿 | 黄 |\n\n请回答下列问题："
+  },
+  {
+   "id": "m15",
+   "text": "月壤含有大量氧元素，若能在月壤中找到氢元素，将为“月壤制水”提供可能。为此，我国科研团队对嫦娥五号月壤进行深入研究，有如下新发现：\n\n① 月壤中的钛铁矿储存了氢；\n\n② 加热月壤，钛铁矿中铁的氧化物与氢反应得到水，且月壤中含铁物质的质量随温度的变化情况如下图所示；\n\n③ 1 g 月壤大约可产生 63 mg 水。\n\n据此，科研团队提出月球水资源开采的新设想：在月球上采用合适手段聚焦太阳光，直接加热月壤至熔融状态，即可实现水的生产。\n\n请回答下列问题：",
+   "figures": [
+    "figs/2025-m15-1.png"
+   ]
+  },
+  {
+   "id": "m16",
+   "text": "我国古代劳动人民因地制宜生产食盐。如《明史》记载：“解州之盐，风水所结；闽粤之盐，集卤。”"
+  },
+  {
+   "id": "m17",
+   "text": "博物院油画馆的讲解员告知同学们，油画若保存不当，其中的红铅颜料在空气中会缓慢变成白色。为探究红铅（$\\mathrm{Pb_3O_4}$）的变色原因，研究性学习小组开展实践活动。\n\n【查阅资料】① $\\mathrm{Pb_3O_4}$ 是难溶于水的红色固体，暴露在空气中可转化为 $\\mathrm{PbCO_3}$、$\\mathrm{Pb(OH)_2}$ 中的一种或两种；② $\\mathrm{PbCO_3}$、$\\mathrm{Pb(OH)_2}$ 均为难溶于水的白色固体，均能与稀硝酸（$\\mathrm{HNO_3}$）发生复分解反应。\n\n【活动 1】探究红铅变色与光照强度的关系\n在 3 支洁净试管中分别加入 $\\mathrm{Pb_3O_4}$ 粉末，控制单一变量进行实验（如下表所示）。\n\n| 试管编号 | Ⅰ | Ⅱ | Ⅲ |\n|---|---|---|---|\n| 光照强度 | 弱 | 较强 | 强 |\n| 实验现象 | 无明显变化 | 红色粉末少量变白 | 红色粉末变白 |"
+  },
+  {
+   "id": "m18",
+   "text": "“84”消毒液（含 NaClO）常用于环境消毒，其生产原理是：\n\n$\\mathrm{NaCl + H_2O \\xlongequal{通电} NaClO + H_2\\uparrow}$\n\n欲生产 100 t 质量分数为 14.9% 的 NaClO 溶液以配制“84”消毒液，请回答下列问题："
+  }
+ ],
+ "questions": [
+  {
+   "id": "huaxue-2025-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "大量饮用碳酸饮料会使人体内某种元素流失，从而可能导致骨质疏松，该元素是",
+   "options": [
+    "A. 钙",
+    "B. 铁",
+    "C. 碘",
+    "D. 锌"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.life.elements_health"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列厨房用品中，属于有机合成材料制品的是",
+   "options": [
+    "A. 木质筷子",
+    "B. 不锈钢碗",
+    "C. 陶瓷汤勺",
+    "D. 塑料菜篮"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.life.materials"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列用于制作简易净水装置的材料中，能吸附色素、去除异味的是",
+   "options": [
+    "A. 塑料瓶",
+    "B. 小卵石",
+    "C. 石英砂",
+    "D. 活性炭"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.water.purification",
+    "huaxue.carbon.allotropes"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "我国科学家合成了全新分子——$\\mathrm{C_6}$，开创了“表面合成极小尺寸分子碳”的新范式。下列有关 $\\mathrm{C_6}$ 的说法中，**错误**的是",
+   "options": [
+    "A. 属于新型化合物",
+    "B. 每个分子由 6 个碳原子构成",
+    "C. 相对分子质量为 72",
+    "D. 与 $\\mathrm{O_2}$ 反应生成碳的氧化物"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.matter.classify",
+    "huaxue.carbon.allotropes",
+    "huaxue.formula.calc"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列物质均可用于配制无土栽培营养液，其中属于复合肥料的是",
+   "options": [
+    "A. $\\mathrm{Ca(NO_3)_2}$",
+    "B. $\\mathrm{KNO_3}$",
+    "C. $\\mathrm{Ca(H_2PO_4)_2}$",
+    "D. $\\mathrm{(NH_4)_2SO_4}$"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.salt.fertilizer"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "$\\mathrm{Ca(OH)_2}$ 具有杀灭牙根感染的细菌、中和牙根炎症所产生的酸性物质等作用，其制剂常用于牙髓病的治疗。下列有关 $\\mathrm{Ca(OH)_2}$ 的说法中，**错误**的是",
+   "options": [
+    "A. 水溶液显碱性",
+    "B. 具有杀菌消毒功效",
+    "C. 可露置于空气中保存",
+    "D. 不慎沾到皮肤上，应用水冲洗"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.acid.bases",
+    "huaxue.intro.lab_safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "某同学利用 $\\mathrm{H_2O_2}$ 溶液在 $\\mathrm{MnO_2}$ 作用下的反应，探究化学反应前后物质的质量关系。下列操作或现象**错误**的是",
+   "options": [
+    "A. 加入固体",
+    "B. 倾倒溶液",
+    "C. 称量质量",
+    "D. 有气泡产生"
+   ],
+   "figures": [
+    "figs/2025-7-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.intro.basic_ops",
+    "huaxue.eq.conservation"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "《本草纲目》记载，高温下“生铁打铸，皆有花出”。冷却后的“花”即“铁末”，可用于仿制碑文拓片，其方法为“铁末浸醋，书字于纸，背后涂墨（炭黑）如碑字”。下列说法**错误**的是",
+   "options": [
+    "A. “铁末”含有铁的氧化物",
+    "B. “醋”所含的醋酸（$\\mathrm{CH_3COOH}$）属于有机物",
+    "C. “铁末浸醋”只发生物理变化",
+    "D. “墨”经久不褪色，说明常温下碳的化学性质不活泼"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.intro.change",
+    "huaxue.carbon.allotropes",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2025-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "镍是一种重要的金属。将废旧坡莫合金（含镍、铁和铜等）浸入 800 ℃ 液态镁中形成镁镍合金，再经如右下图所示的真空蒸馏，可实现镁和镍的分离与回收。下列说法正确的是",
+   "options": [
+    "A. 合金的硬度一般比其组成金属的小",
+    "B. 镁的沸点比镍的高",
+    "C. 真空蒸馏过程中，镁原子间的间隙发生改变",
+    "D. 坡莫合金可完全溶解于足量稀硫酸中"
+   ],
+   "figures": [
+    "figs/2025-9-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.metal.materials",
+    "huaxue.struct.particles",
+    "huaxue.metal.chem"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2025-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "兴趣小组设计右下图所示装置用于模拟工业处理含硫酸的废水。实验时，废水从 c 口进入并保持流速不变，$\\mathrm{CaCO_3}$ 与 $\\mathrm{H_2SO_4}$ 反应有 $\\mathrm{CaSO_4}$（微溶）和 $\\mathrm{CO_2}$ 生成。由于气流和水流的作用，石灰石滤料不断翻滚摩擦。下列说法**错误**的是",
+   "options": [
+    "A. 处理后的废水从 a 口流出",
+    "B. “翻滚摩擦”有利于反应的持续进行",
+    "C. 若改变水流方向，废水处理的效果变差",
+    "D. 若石灰石滤料足量，处理后的溶液显中性"
+   ],
+   "figures": [
+    "figs/2025-10-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.acid.acids",
+    "huaxue.salt.common",
+    "huaxue.water.resources"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2025-11-1",
+   "no": "11(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m11",
+   "stem": "铈在元素周期表中的部分信息如右图所示。\n\n① 铈的相对原子质量为____。\n\n② $\\mathrm{CeO_2}$ 中氧元素为 -2 价，铈元素为____价。",
+   "figures": [
+    "figs/2025-11-1.png"
+   ],
+   "answer": "① 140.1\n② +4",
+   "kp": [
+    "huaxue.struct.periodic_table",
+    "huaxue.formula.valence"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-11-2",
+   "no": "11(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m11",
+   "stem": "$\\mathrm{CuO}$-$\\mathrm{CeO_2}$ 催化剂可以实现有关反应的分阶段进行，其微观示意图如下。（图例：小灰球为 H，黑球为 O，白球为 C）\n\n① 反应Ⅰ可应用于燃料电池，电池工作时____能转化为电能。\n\n② 反应Ⅱ的化学方程式为____。",
+   "figures": [
+    "figs/2025-11-2.png"
+   ],
+   "answer": "① 化学\n② $\\mathrm{2CO + O_2 \\xlongequal{CuO-CeO_2} 2CO_2}$",
+   "kp": [
+    "huaxue.eq.micro_diagram",
+    "huaxue.fuel.energy",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2025-12-1",
+   "no": "12(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m12",
+   "stem": "水生植物在光照条件下吸收 $\\mathrm{CO_2}$ 转化为淀粉等糖类物质，属于植物的____（填“光合作用”或“呼吸作用”）。",
+   "answer": "光合作用",
+   "kp": [
+    "huaxue.carbon.cycle"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-12-2",
+   "no": "12(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m12",
+   "stem": "科学家通过技术创新，将 $\\mathrm{CO_2}$ 从“环境负担”转变为 $\\mathrm{CH_4}$ 等工业原料：$\\mathrm{CO_2 + 4X \\xlongequal{一定条件} CH_4 + 2H_2O}$，其中 X 的化学式为____。",
+   "answer": "$\\mathrm{H_2}$",
+   "kp": [
+    "huaxue.eq.conservation",
+    "huaxue.carbon.cycle"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-12-3",
+   "no": "12(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m12",
+   "stem": "水生植物经厌氧发酵可产生乙醇等生物燃料，该燃料与化石燃料相比，其优点有____（写一个）。",
+   "answer": "可再生（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.energy",
+    "huaxue.fuel.fossil"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-12-4",
+   "no": "12(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m12",
+   "stem": "将 $\\mathrm{CO_2}$ 注入海底封存有利有弊，请从环境保护的角度谈谈你对利（或弊）的认识：____（写一个）。",
+   "answer": "减缓温室效应（或其他合理答案）",
+   "kp": [
+    "huaxue.carbon.cycle",
+    "huaxue.society.green"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2025-13-1",
+   "no": "13(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m13",
+   "stem": "确定“可燃物、火源控制、消防设施”等调查内容所依据的化学原理是____。",
+   "answer": "燃烧的条件（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.combustion",
+    "huaxue.society.project"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2025-13-2",
+   "no": "13(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m13",
+   "stem": "使用干粉灭火器灭火时，应对准火焰____（填“上”“中”或“根”）部喷射。",
+   "answer": "根",
+   "kp": [
+    "huaxue.fuel.safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-13-3",
+   "no": "13(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m13",
+   "stem": "火灾隐患及应对措施。\n\n① 天然气泄漏易引发火灾，$\\mathrm{CH_4}$ 完全燃烧的化学方程式为____。\n\n② 若被困在火灾区，可采用的自救措施是____（写一条）。",
+   "answer": "① $\\mathrm{CH_4 + 2O_2 \\xlongequal{点燃} CO_2 + 2H_2O}$\n② 用湿毛巾捂住口鼻（或其他合理答案）",
+   "kp": [
+    "huaxue.eq.writing",
+    "huaxue.fuel.safety",
+    "huaxue.fuel.fossil"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-13-4",
+   "no": "13(4)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m13",
+   "stem": "设置安全标识。\n\n① “禁止烟火”的消防安全标志是____（填字母）。\n\n② 宣传语“油锅起火别慌乱，锅盖一盖火自断”蕴含的灭火原理是____。",
+   "figures": [
+    "figs/2025-13-1.png"
+   ],
+   "answer": "① a\n② 将可燃物与氧气（或空气）隔绝",
+   "kp": [
+    "huaxue.fuel.combustion",
+    "huaxue.fuel.safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-14-1",
+   "no": "14(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m14",
+   "stem": "将紫甘蓝叶研碎的目的是____。",
+   "answer": "增大接触面积，促进色素充分溶解",
+   "kp": [
+    "huaxue.acid.indicator",
+    "huaxue.sol.formation"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-14-2",
+   "no": "14(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m14",
+   "stem": "“用纱布将浸泡出的汁液挤出”相当于____（填实验操作名称）。",
+   "answer": "过滤",
+   "kp": [
+    "huaxue.intro.basic_ops"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-14-3",
+   "no": "14(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 5,
+   "material": "m14",
+   "stem": "若往 1 mL pH＝13 的氢氧化钠溶液中滴加 1～2 滴紫甘蓝液，溶液呈____色；继续滴加稀盐酸至溶液呈绿色，氢氧化钠和稀盐酸反应的化学方程式为____，此时酸、碱是否恰好完全反应？答：____（填“是”或“否”）。",
+   "answer": "黄\n$\\mathrm{NaOH + HCl \\xlongequal{} NaCl + H_2O}$\n否",
+   "kp": [
+    "huaxue.acid.neutralization",
+    "huaxue.acid.indicator",
+    "huaxue.acid.ph"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2025-15-1",
+   "no": "15(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m15",
+   "stem": "铁的氧化物（如 FeO）与氢气反应生成铁和水，该反应属于____（填基本反应类型）。",
+   "answer": "置换反应",
+   "kp": [
+    "huaxue.eq.reaction_types"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-15-2",
+   "no": "15(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m15",
+   "stem": "可用于聚焦太阳光的仪器（或用品）有____（填一种）。",
+   "answer": "凸透镜（或其他合理答案）",
+   "kp": [
+    "huaxue.society.frontier"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-15-3",
+   "no": "15(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m15",
+   "stem": "63 mg 水中的氢元素质量为____mg。",
+   "answer": "7",
+   "kp": [
+    "huaxue.formula.calc"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-15-4",
+   "no": "15(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m15",
+   "stem": "加热月壤至 500～600 ℃ 时，铁单质的质量保持不变。该条件下，含铁物质与氢（用 $\\mathrm{H_2}$ 表示）反应的化学方程式为____。",
+   "answer": "$\\mathrm{Fe_2O_3 + H_2 \\xlongequal{500～600 ℃} 2FeO + H_2O}$",
+   "kp": [
+    "huaxue.eq.writing",
+    "huaxue.inquiry.data_analysis",
+    "huaxue.metal.smelting"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2025-15-5",
+   "no": "15(5)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m15",
+   "stem": "我国科研团队关于“月壤制水”的研究成果对未来月球科研站建设具有重要意义，体现在____（写一条）。",
+   "answer": "解决了月球科研站的用水问题（或其他合理答案）",
+   "kp": [
+    "huaxue.society.frontier"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-16-1",
+   "no": "16(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 5,
+   "material": "m16",
+   "stem": "解州之“盐”指池盐，即自然条件下盐湖结晶得到的食盐（含 $\\mathrm{Na_2SO_4}$ 等杂质），常产于气候干旱地区。\n\n① 池盐属于____（填“纯净物”或“混合物”）。\n\n② 盐湖遇到西北风（冷空气）或南风（热空气）时，均会出现“一夜浮华”（析出大量晶体）的现象。所得晶体中，NaCl 含量较高的自然条件是____（填“西北风”或“南风”），理由是____。（已知：$\\mathrm{Na_2SO_4}$ 和 NaCl 的溶解度曲线如右上图所示）",
+   "figures": [
+    "figs/2025-16-1.png"
+   ],
+   "answer": "① 混合物\n② 南风\n$\\mathrm{Na_2SO_4}$ 的溶解度随温度升高而明显增大，南风时温度较高，析出的晶体中 $\\mathrm{Na_2SO_4}$ 含量较低（或其他合理答案）",
+   "kp": [
+    "huaxue.sol.solubility",
+    "huaxue.sol.saturation",
+    "huaxue.matter.classify"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2025-16-2",
+   "no": "16(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 7,
+   "material": "m16",
+   "stem": "闽粤之“盐”指海盐，其生产工艺（集卤）：海水先经风吹和日晒获得较浓卤水，再煎制得食盐。生产时，古人用不同浓度的食盐水处理过的石莲子（一种植物果实）和竹筒制成莲管秤（如图 A 所示），用来检验卤水的浓度是否达到煎制要求。\n\n① “集卤”工艺不采用直接蒸煮海水的方法提取食盐，其原因是____。\n\n② 处理石莲子时，需配制饱和食盐水，其操作是____。\n\n③ 莲管秤中的 1～4 号石莲子的密度依次减小。现将两份卤水分别倒入莲管秤中，观察到石莲子的沉浮情况如图 B 和图 C 所示，对应的卤水浓度较大的是____（填“B”或“C”），莲管秤能区分不同浓度卤水的原理是____。",
+   "figures": [
+    "figs/2025-16-2.png"
+   ],
+   "answer": "① 直接蒸煮海水需要消耗大量能源\n② 取适量水，加入食盐并充分搅拌，直至不再溶解（或其他合理答案）\n③ B\n卤水的浓度越大，密度越大，石莲子排开等体积的水所产生的浮力越大（或其他合理答案）",
+   "kp": [
+    "huaxue.salt.crude_salt",
+    "huaxue.sol.saturation",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2025-17-1",
+   "no": "17(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 1,
+   "material": "m17",
+   "stem": "实验过程中，试管应保持敞口状态的理由是____。",
+   "answer": "与红铅颜料暴露在空气中的环境一致（或其他合理答案）",
+   "kp": [
+    "huaxue.inquiry.control_variable"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2025-17-2",
+   "no": "17(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "该实验可以得出的结论是____。",
+   "answer": "光照越强，$\\mathrm{Pb_3O_4}$ 变色越快",
+   "kp": [
+    "huaxue.inquiry.data_analysis",
+    "huaxue.inquiry.control_variable"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-17-3",
+   "no": "17(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "一定条件下，$\\mathrm{Pb_3O_4}$ 分解有 $\\mathrm{O_2}$ 产生。检验 $\\mathrm{O_2}$ 的方法是____。",
+   "answer": "用带火星的木条检验",
+   "kp": [
+    "huaxue.o2.properties",
+    "huaxue.inquiry.identify"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-17-4",
+   "no": "17(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m17",
+   "stem": "【活动 2】探究白色固体的组成\n取上述试管Ⅲ中的白色固体进行如下实验：\n\n白色固体 M —足量稀硝酸→ 气体 A（能使澄清石灰水变浑浊）＋ 溶液 B\n\n（4）由白色固体 M 生成气体 A 的化学方程式为____。",
+   "answer": "$\\mathrm{PbCO_3 + 2HNO_3 \\xlongequal{} Pb(NO_3)_2 + CO_2\\uparrow + H_2O}$",
+   "kp": [
+    "huaxue.salt.common",
+    "huaxue.eq.writing",
+    "huaxue.salt.metathesis"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2025-17-5",
+   "no": "17(5)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "依据上述实验的现象，无法确定白色固体 M 中是否还含有 $\\mathrm{Pb(OH)_2}$，其理由是____。",
+   "answer": "是否含有 $\\mathrm{Pb(OH)_2}$，实验的现象都相同（或其他合理答案）",
+   "kp": [
+    "huaxue.inquiry.design_eval",
+    "huaxue.inquiry.identify"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2025-17-6",
+   "no": "17(6)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m17",
+   "stem": "将溶液 B 中的铅元素完全转化为 $\\mathrm{PbCO_3}$ 沉淀，并依据 $\\mathrm{PbCO_3}$ 沉淀的质量（$x$）和白色固体 M 的质量（$y$）的关系，可以确定白色固体 M 是否含有 $\\mathrm{Pb(OH)_2}$。若含有 $\\mathrm{Pb(OH)_2}$，则 $x$ ____ $y$（填“>”“<”或“=”）。",
+   "answer": ">",
+   "kp": [
+    "huaxue.eq.conservation",
+    "huaxue.formula.calc",
+    "huaxue.inquiry.design_eval"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2025-17-7",
+   "no": "17(7)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "基于上述探究，为了更好地保护油画，请你为参观人员提出一条合理的建议：____。",
+   "answer": "禁止开闪光灯拍照（或其他合理答案）",
+   "kp": [
+    "huaxue.inquiry.data_analysis",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-18-1",
+   "no": "18(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m18",
+   "stem": "100 t 该 NaClO 溶液含 NaClO____t。",
+   "answer": "14.9",
+   "kp": [
+    "huaxue.sol.concentration",
+    "huaxue.eq.calc"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2025-18-2",
+   "no": "18(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 5,
+   "material": "m18",
+   "stem": "理论上需 NaCl 的质量是多少？（写出计算过程）",
+   "answer": "解：设理论上需 NaCl 的质量为 $x$。\n\n$\\mathrm{NaCl + H_2O \\xlongequal{通电} NaClO + H_2\\uparrow}$\n\n58.5　　　　74.5\n\n$x$　　　　　14.9 t\n\n$\\dfrac{58.5}{74.5}=\\dfrac{x}{14.9\\ \\mathrm{t}}$\n\n$x = 11.7$ t\n\n答：理论上需 NaCl 的质量为 11.7 t。",
+   "kp": [
+    "huaxue.eq.calc"
+   ],
+   "difficulty": 2
+  }
+ ]
+}

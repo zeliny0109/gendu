@@ -1,0 +1,2935 @@
+{
+ "subject": "yingyu",
+ "years": [
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "kps": {
+  "yingyu.noun.number": {
+   "name": "名词单复数与可数/不可数",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 4.8,
+   "qs": [
+    "yingyu-2019-85",
+    "yingyu-2020-89",
+    "yingyu-2021-83",
+    "yingyu-2022-82",
+    "yingyu-2023-88",
+    "yingyu-2024-89",
+    "yingyu-2025-83",
+    "yingyu-2026-86"
+   ]
+  },
+  "yingyu.noun.possessive": {
+   "name": "名词所有格",
+   "module": "语法·词法",
+   "years": [
+    2023
+   ],
+   "count": 1,
+   "score": 0.4,
+   "qs": [
+    "yingyu-2023-79"
+   ]
+  },
+  "yingyu.word.formation": {
+   "name": "词性转换与构词法",
+   "module": "语法·词法",
+   "years": [
+    2025,
+    2026
+   ],
+   "count": 2,
+   "score": 0.8,
+   "qs": [
+    "yingyu-2025-90",
+    "yingyu-2026-85"
+   ]
+  },
+  "yingyu.pron.personal": {
+   "name": "人称代词主格/宾格",
+   "module": "语法·词法",
+   "years": [
+    2020,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 4.2,
+   "qs": [
+    "yingyu-2020-87",
+    "yingyu-2024-22",
+    "yingyu-2025-22",
+    "yingyu-2026-21",
+    "yingyu-2026-90"
+   ]
+  },
+  "yingyu.pron.possessive": {
+   "name": "物主代词",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 5,
+   "score": 4.1,
+   "qs": [
+    "yingyu-2019-23",
+    "yingyu-2023-21",
+    "yingyu-2023-84",
+    "yingyu-2024-41",
+    "yingyu-2025-89"
+   ]
+  },
+  "yingyu.pron.reflexive": {
+   "name": "反身代词",
+   "module": "语法·词法",
+   "years": [
+    2020,
+    2022,
+    2024
+   ],
+   "count": 3,
+   "score": 2.6,
+   "qs": [
+    "yingyu-2020-22",
+    "yingyu-2022-23",
+    "yingyu-2024-90"
+   ]
+  },
+  "yingyu.pron.indefinite": {
+   "name": "不定代词与复合不定代词",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2025
+   ],
+   "count": 6,
+   "score": 5.3,
+   "qs": [
+    "yingyu-2019-25",
+    "yingyu-2019-89",
+    "yingyu-2020-36",
+    "yingyu-2021-40",
+    "yingyu-2022-37",
+    "yingyu-2025-28"
+   ]
+  },
+  "yingyu.pron.it_one": {
+   "name": "it / one / that 与指示代词",
+   "module": "语法·词法",
+   "years": [
+    2021
+   ],
+   "count": 1,
+   "score": 0.6,
+   "qs": [
+    "yingyu-2021-22"
+   ]
+  },
+  "yingyu.numeral": {
+   "name": "数词",
+   "module": "语法·词法",
+   "years": [
+    2022
+   ],
+   "count": 1,
+   "score": 0.6,
+   "qs": [
+    "yingyu-2022-86"
+   ]
+  },
+  "yingyu.article": {
+   "name": "冠词",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 6.8,
+   "qs": [
+    "yingyu-2019-90",
+    "yingyu-2020-84",
+    "yingyu-2021-21",
+    "yingyu-2021-82",
+    "yingyu-2022-21",
+    "yingyu-2022-81",
+    "yingyu-2023-83",
+    "yingyu-2024-81",
+    "yingyu-2025-82",
+    "yingyu-2026-83"
+   ]
+  },
+  "yingyu.prep.basic": {
+   "name": "介词（时间、地点、方式）",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 11,
+   "score": 10.3,
+   "qs": [
+    "yingyu-2019-22",
+    "yingyu-2020-21",
+    "yingyu-2021-38",
+    "yingyu-2022-22",
+    "yingyu-2022-77",
+    "yingyu-2023-22",
+    "yingyu-2024-21",
+    "yingyu-2024-77",
+    "yingyu-2024-87",
+    "yingyu-2025-79",
+    "yingyu-2026-22"
+   ]
+  },
+  "yingyu.adj_adv.usage": {
+   "name": "形容词与副词的用法",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 4.2,
+   "qs": [
+    "yingyu-2019-82",
+    "yingyu-2020-85",
+    "yingyu-2021-85",
+    "yingyu-2022-87",
+    "yingyu-2023-90",
+    "yingyu-2025-81",
+    "yingyu-2026-85"
+   ]
+  },
+  "yingyu.adj_adv.compare": {
+   "name": "比较级与最高级",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 14,
+   "score": 11.2,
+   "qs": [
+    "yingyu-2019-26",
+    "yingyu-2019-30",
+    "yingyu-2019-86",
+    "yingyu-2020-79",
+    "yingyu-2021-24",
+    "yingyu-2021-82",
+    "yingyu-2022-31",
+    "yingyu-2023-79",
+    "yingyu-2023-85",
+    "yingyu-2024-24",
+    "yingyu-2024-85",
+    "yingyu-2025-24",
+    "yingyu-2026-79",
+    "yingyu-2026-88"
+   ]
+  },
+  "yingyu.conj.coord": {
+   "name": "并列连词",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 5.2,
+   "qs": [
+    "yingyu-2019-88",
+    "yingyu-2021-88",
+    "yingyu-2022-88",
+    "yingyu-2023-89",
+    "yingyu-2024-86",
+    "yingyu-2025-87",
+    "yingyu-2026-26",
+    "yingyu-2026-84"
+   ]
+  },
+  "yingyu.verb.simple_present": {
+   "name": "一般现在时",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 10,
+   "score": 5.2,
+   "qs": [
+    "yingyu-2019-78",
+    "yingyu-2020-77",
+    "yingyu-2020-88",
+    "yingyu-2021-78",
+    "yingyu-2022-76",
+    "yingyu-2023-82",
+    "yingyu-2024-73",
+    "yingyu-2024-84",
+    "yingyu-2026-72",
+    "yingyu-2026-87"
+   ]
+  },
+  "yingyu.verb.simple_past": {
+   "name": "一般过去时",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 17,
+   "score": 11.4,
+   "qs": [
+    "yingyu-2019-34",
+    "yingyu-2019-87",
+    "yingyu-2020-80",
+    "yingyu-2020-83",
+    "yingyu-2021-77",
+    "yingyu-2022-33",
+    "yingyu-2022-80",
+    "yingyu-2022-84",
+    "yingyu-2023-78",
+    "yingyu-2023-86",
+    "yingyu-2024-78",
+    "yingyu-2024-82",
+    "yingyu-2025-30",
+    "yingyu-2025-80",
+    "yingyu-2025-84",
+    "yingyu-2026-80",
+    "yingyu-2026-81"
+   ]
+  },
+  "yingyu.verb.simple_future": {
+   "name": "一般将来时",
+   "module": "语法·词法",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 6.8,
+   "qs": [
+    "yingyu-2020-76",
+    "yingyu-2021-31",
+    "yingyu-2023-77",
+    "yingyu-2024-79",
+    "yingyu-2025-77",
+    "yingyu-2026-33",
+    "yingyu-2026-77"
+   ]
+  },
+  "yingyu.verb.present_progressive": {
+   "name": "现在进行时",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 7.4,
+   "qs": [
+    "yingyu-2019-76",
+    "yingyu-2020-78",
+    "yingyu-2021-28",
+    "yingyu-2022-79",
+    "yingyu-2023-76",
+    "yingyu-2025-76",
+    "yingyu-2026-75"
+   ]
+  },
+  "yingyu.verb.past_progressive": {
+   "name": "过去进行时",
+   "module": "语法·词法",
+   "years": [
+    2024,
+    2026
+   ],
+   "count": 3,
+   "score": 3.0,
+   "qs": [
+    "yingyu-2024-27",
+    "yingyu-2024-80",
+    "yingyu-2026-78"
+   ]
+  },
+  "yingyu.verb.present_perfect": {
+   "name": "现在完成时",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 8.8,
+   "qs": [
+    "yingyu-2019-32",
+    "yingyu-2020-25",
+    "yingyu-2021-79",
+    "yingyu-2022-27",
+    "yingyu-2022-30",
+    "yingyu-2022-90",
+    "yingyu-2023-34",
+    "yingyu-2023-81",
+    "yingyu-2025-26",
+    "yingyu-2026-29"
+   ]
+  },
+  "yingyu.verb.other_tense": {
+   "name": "其他时态（过去完成、过去将来）",
+   "module": "语法·词法",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yingyu.verb.passive": {
+   "name": "被动语态",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 11,
+   "score": 7.4,
+   "qs": [
+    "yingyu-2019-34",
+    "yingyu-2020-32",
+    "yingyu-2021-31",
+    "yingyu-2021-81",
+    "yingyu-2022-33",
+    "yingyu-2023-27",
+    "yingyu-2024-33",
+    "yingyu-2024-88",
+    "yingyu-2025-30",
+    "yingyu-2025-88",
+    "yingyu-2026-33"
+   ]
+  },
+  "yingyu.verb.agreement": {
+   "name": "主谓一致与 be 动词",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2021,
+    2024
+   ],
+   "count": 3,
+   "score": 2.8,
+   "qs": [
+    "yingyu-2019-21",
+    "yingyu-2021-76",
+    "yingyu-2024-76"
+   ]
+  },
+  "yingyu.verb.infinitive": {
+   "name": "动词不定式",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 7.6,
+   "qs": [
+    "yingyu-2019-79",
+    "yingyu-2020-74",
+    "yingyu-2021-32",
+    "yingyu-2022-28",
+    "yingyu-2023-31",
+    "yingyu-2023-80",
+    "yingyu-2024-74",
+    "yingyu-2025-33",
+    "yingyu-2026-31",
+    "yingyu-2026-74"
+   ]
+  },
+  "yingyu.verb.gerund": {
+   "name": "动名词",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 13,
+   "score": 10.2,
+   "qs": [
+    "yingyu-2019-27",
+    "yingyu-2019-78",
+    "yingyu-2019-84",
+    "yingyu-2020-26",
+    "yingyu-2020-77",
+    "yingyu-2021-78",
+    "yingyu-2021-90",
+    "yingyu-2022-76",
+    "yingyu-2022-85",
+    "yingyu-2024-83",
+    "yingyu-2025-86",
+    "yingyu-2026-76",
+    "yingyu-2026-89"
+   ]
+  },
+  "yingyu.verb.bare_infinitive": {
+   "name": "省略 to 的不定式",
+   "module": "语法·词法",
+   "years": [
+    2019
+   ],
+   "count": 1,
+   "score": 0.4,
+   "qs": [
+    "yingyu-2019-30"
+   ]
+  },
+  "yingyu.verb.modal": {
+   "name": "情态动词",
+   "module": "语法·词法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 9,
+   "score": 7.4,
+   "qs": [
+    "yingyu-2019-80",
+    "yingyu-2020-33",
+    "yingyu-2020-73",
+    "yingyu-2020-75",
+    "yingyu-2021-25",
+    "yingyu-2021-71",
+    "yingyu-2022-78",
+    "yingyu-2023-23",
+    "yingyu-2025-78"
+   ]
+  },
+  "yingyu.verb.pattern": {
+   "name": "常用动词句型",
+   "module": "语法·词法",
+   "years": [
+    2019
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "yingyu-2019-77"
+   ]
+  },
+  "yingyu.clause.object": {
+   "name": "宾语从句",
+   "module": "语法·句法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 8.4,
+   "qs": [
+    "yingyu-2019-35",
+    "yingyu-2020-35",
+    "yingyu-2021-35",
+    "yingyu-2022-35",
+    "yingyu-2023-35",
+    "yingyu-2024-33",
+    "yingyu-2024-35",
+    "yingyu-2025-35",
+    "yingyu-2026-35"
+   ]
+  },
+  "yingyu.clause.attributive": {
+   "name": "定语从句",
+   "module": "语法·句法",
+   "years": [
+    2019,
+    2020,
+    2021
+   ],
+   "count": 4,
+   "score": 3.6,
+   "qs": [
+    "yingyu-2019-33",
+    "yingyu-2020-34",
+    "yingyu-2020-81",
+    "yingyu-2021-34"
+   ]
+  },
+  "yingyu.clause.time": {
+   "name": "时间状语从句",
+   "module": "语法·句法",
+   "years": [
+    2019,
+    2021,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 6.1,
+   "qs": [
+    "yingyu-2019-38",
+    "yingyu-2021-33",
+    "yingyu-2021-80",
+    "yingyu-2024-27",
+    "yingyu-2024-80",
+    "yingyu-2025-34",
+    "yingyu-2026-80"
+   ]
+  },
+  "yingyu.clause.condition": {
+   "name": "条件状语从句",
+   "module": "语法·句法",
+   "years": [
+    2020,
+    2024
+   ],
+   "count": 2,
+   "score": 2.0,
+   "qs": [
+    "yingyu-2020-31",
+    "yingyu-2024-34"
+   ]
+  },
+  "yingyu.clause.reason_result": {
+   "name": "原因、目的与结果状语从句",
+   "module": "语法·句法",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 5,
+   "score": 5.0,
+   "qs": [
+    "yingyu-2019-80",
+    "yingyu-2020-80",
+    "yingyu-2022-29",
+    "yingyu-2023-25",
+    "yingyu-2025-80"
+   ]
+  },
+  "yingyu.clause.concession": {
+   "name": "让步状语从句",
+   "module": "语法·句法",
+   "years": [
+    2019,
+    2023
+   ],
+   "count": 2,
+   "score": 2.0,
+   "qs": [
+    "yingyu-2019-31",
+    "yingyu-2023-30"
+   ]
+  },
+  "yingyu.sent.wh_question": {
+   "name": "特殊疑问句",
+   "module": "语法·句法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 20,
+   "score": 16.2,
+   "qs": [
+    "yingyu-2019-28",
+    "yingyu-2019-72",
+    "yingyu-2020-28",
+    "yingyu-2020-72",
+    "yingyu-2021-26",
+    "yingyu-2021-73",
+    "yingyu-2021-74",
+    "yingyu-2022-27",
+    "yingyu-2022-72",
+    "yingyu-2022-73",
+    "yingyu-2023-26",
+    "yingyu-2023-73",
+    "yingyu-2024-23",
+    "yingyu-2024-75",
+    "yingyu-2025-73",
+    "yingyu-2025-74",
+    "yingyu-2025-75",
+    "yingyu-2026-23",
+    "yingyu-2026-73",
+    "yingyu-2026-75"
+   ]
+  },
+  "yingyu.sent.general_question": {
+   "name": "一般疑问句与选择疑问句",
+   "module": "语法·句法",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 2.8,
+   "qs": [
+    "yingyu-2020-75",
+    "yingyu-2021-71",
+    "yingyu-2023-74",
+    "yingyu-2025-72",
+    "yingyu-2026-72"
+   ]
+  },
+  "yingyu.sent.exclamation": {
+   "name": "感叹句",
+   "module": "语法·句法",
+   "years": [
+    2019,
+    2023
+   ],
+   "count": 2,
+   "score": 1.6,
+   "qs": [
+    "yingyu-2019-75",
+    "yingyu-2023-72"
+   ]
+  },
+  "yingyu.sent.tag_question": {
+   "name": "反意疑问句",
+   "module": "语法·句法",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yingyu.sent.imperative": {
+   "name": "祈使句",
+   "module": "语法·句法",
+   "years": [
+    2021,
+    2025
+   ],
+   "count": 3,
+   "score": 1.6,
+   "qs": [
+    "yingyu-2021-75",
+    "yingyu-2021-80",
+    "yingyu-2025-78"
+   ]
+  },
+  "yingyu.sent.there_be": {
+   "name": "There be 句型",
+   "module": "语法·句法",
+   "years": [
+    2019,
+    2025,
+    2026
+   ],
+   "count": 3,
+   "score": 2.2,
+   "qs": [
+    "yingyu-2019-21",
+    "yingyu-2025-79",
+    "yingyu-2026-73"
+   ]
+  },
+  "yingyu.sent.it_pattern": {
+   "name": "It 作形式主语句型",
+   "module": "语法·句法",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 4,
+   "score": 3.4,
+   "qs": [
+    "yingyu-2019-79",
+    "yingyu-2022-28",
+    "yingyu-2023-80",
+    "yingyu-2025-31"
+   ]
+  },
+  "yingyu.vocab.noun": {
+   "name": "名词词义辨析",
+   "module": "词汇与固定搭配",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 30,
+   "score": 27.7,
+   "qs": [
+    "yingyu-2019-24",
+    "yingyu-2019-36",
+    "yingyu-2019-42",
+    "yingyu-2019-81",
+    "yingyu-2020-23",
+    "yingyu-2020-39",
+    "yingyu-2020-45",
+    "yingyu-2021-23",
+    "yingyu-2021-42",
+    "yingyu-2021-45",
+    "yingyu-2022-25",
+    "yingyu-2022-40",
+    "yingyu-2022-43",
+    "yingyu-2023-24",
+    "yingyu-2023-38",
+    "yingyu-2023-43",
+    "yingyu-2023-45",
+    "yingyu-2024-26",
+    "yingyu-2024-29",
+    "yingyu-2024-40",
+    "yingyu-2024-42",
+    "yingyu-2024-43",
+    "yingyu-2025-25",
+    "yingyu-2025-42",
+    "yingyu-2025-44",
+    "yingyu-2026-27",
+    "yingyu-2026-32",
+    "yingyu-2026-40",
+    "yingyu-2026-41",
+    "yingyu-2026-43"
+   ]
+  },
+  "yingyu.vocab.verb": {
+   "name": "动词词义辨析",
+   "module": "词汇与固定搭配",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 28,
+   "score": 24.5,
+   "qs": [
+    "yingyu-2019-27",
+    "yingyu-2019-40",
+    "yingyu-2019-45",
+    "yingyu-2020-29",
+    "yingyu-2020-40",
+    "yingyu-2020-43",
+    "yingyu-2020-90",
+    "yingyu-2021-37",
+    "yingyu-2021-39",
+    "yingyu-2021-41",
+    "yingyu-2021-86",
+    "yingyu-2022-26",
+    "yingyu-2022-41",
+    "yingyu-2023-25",
+    "yingyu-2023-39",
+    "yingyu-2023-41",
+    "yingyu-2024-30",
+    "yingyu-2024-36",
+    "yingyu-2024-44",
+    "yingyu-2025-23",
+    "yingyu-2025-36",
+    "yingyu-2025-41",
+    "yingyu-2025-45",
+    "yingyu-2026-25",
+    "yingyu-2026-37",
+    "yingyu-2026-42",
+    "yingyu-2026-44",
+    "yingyu-2026-45"
+   ]
+  },
+  "yingyu.vocab.adj": {
+   "name": "形容词词义辨析",
+   "module": "词汇与固定搭配",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 28,
+   "score": 23.0,
+   "qs": [
+    "yingyu-2019-26",
+    "yingyu-2019-41",
+    "yingyu-2019-44",
+    "yingyu-2020-24",
+    "yingyu-2020-38",
+    "yingyu-2020-41",
+    "yingyu-2020-82",
+    "yingyu-2021-27",
+    "yingyu-2021-43",
+    "yingyu-2021-76",
+    "yingyu-2021-84",
+    "yingyu-2021-89",
+    "yingyu-2022-32",
+    "yingyu-2022-42",
+    "yingyu-2022-44",
+    "yingyu-2022-45",
+    "yingyu-2022-89",
+    "yingyu-2023-28",
+    "yingyu-2023-36",
+    "yingyu-2023-37",
+    "yingyu-2024-25",
+    "yingyu-2024-37",
+    "yingyu-2024-45",
+    "yingyu-2024-76",
+    "yingyu-2025-31",
+    "yingyu-2025-38",
+    "yingyu-2026-28",
+    "yingyu-2026-36"
+   ]
+  },
+  "yingyu.vocab.adv": {
+   "name": "副词词义辨析",
+   "module": "词汇与固定搭配",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 12,
+   "score": 11.3,
+   "qs": [
+    "yingyu-2019-43",
+    "yingyu-2020-27",
+    "yingyu-2020-42",
+    "yingyu-2021-44",
+    "yingyu-2022-36",
+    "yingyu-2023-32",
+    "yingyu-2023-40",
+    "yingyu-2024-28",
+    "yingyu-2025-27",
+    "yingyu-2025-40",
+    "yingyu-2026-24",
+    "yingyu-2026-38"
+   ]
+  },
+  "yingyu.vocab.conj_logic": {
+   "name": "连词/逻辑衔接词辨析",
+   "module": "词汇与固定搭配",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 5,
+   "score": 4.5,
+   "qs": [
+    "yingyu-2020-44",
+    "yingyu-2022-39",
+    "yingyu-2023-44",
+    "yingyu-2024-38",
+    "yingyu-2025-43"
+   ]
+  },
+  "yingyu.vocab.phrasal_verb": {
+   "name": "动词短语",
+   "module": "词汇与固定搭配",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 12,
+   "score": 11.5,
+   "qs": [
+    "yingyu-2019-29",
+    "yingyu-2019-39",
+    "yingyu-2020-37",
+    "yingyu-2021-29",
+    "yingyu-2022-24",
+    "yingyu-2022-38",
+    "yingyu-2023-29",
+    "yingyu-2023-42",
+    "yingyu-2024-32",
+    "yingyu-2025-32",
+    "yingyu-2025-39",
+    "yingyu-2026-34"
+   ]
+  },
+  "yingyu.vocab.prep_phrase": {
+   "name": "介词短语与固定搭配",
+   "module": "词汇与固定搭配",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 21,
+   "score": 17.9,
+   "qs": [
+    "yingyu-2019-37",
+    "yingyu-2019-83",
+    "yingyu-2020-30",
+    "yingyu-2020-86",
+    "yingyu-2021-30",
+    "yingyu-2021-36",
+    "yingyu-2021-87",
+    "yingyu-2022-34",
+    "yingyu-2022-83",
+    "yingyu-2023-33",
+    "yingyu-2023-87",
+    "yingyu-2024-31",
+    "yingyu-2024-39",
+    "yingyu-2025-21",
+    "yingyu-2025-29",
+    "yingyu-2025-37",
+    "yingyu-2025-85",
+    "yingyu-2026-30",
+    "yingyu-2026-39",
+    "yingyu-2026-76",
+    "yingyu-2026-82"
+   ]
+  },
+  "yingyu.topic.personal_family": {
+   "name": "个人情况、家庭与朋友",
+   "module": "话题（语篇主题）",
+   "years": [
+    2019,
+    2020,
+    2024,
+    2026
+   ],
+   "count": 20,
+   "score": 15.6,
+   "qs": [
+    "yingyu-2019-46",
+    "yingyu-2019-47",
+    "yingyu-2019-48",
+    "yingyu-2019-49",
+    "yingyu-2019-50",
+    "yingyu-2020-56",
+    "yingyu-2020-57",
+    "yingyu-2020-58",
+    "yingyu-2020-59",
+    "yingyu-2020-60",
+    "yingyu-2024-46",
+    "yingyu-2024-47",
+    "yingyu-2024-48",
+    "yingyu-2024-49",
+    "yingyu-2024-50",
+    "yingyu-2026-51",
+    "yingyu-2026-52",
+    "yingyu-2026-53",
+    "yingyu-2026-54",
+    "yingyu-2026-55"
+   ]
+  },
+  "yingyu.topic.school": {
+   "name": "学校生活与学习",
+   "module": "话题（语篇主题）",
+   "years": [
+    2020,
+    2021,
+    2024
+   ],
+   "count": 11,
+   "score": 8.6,
+   "qs": [
+    "yingyu-2020-46",
+    "yingyu-2020-47",
+    "yingyu-2020-48",
+    "yingyu-2020-49",
+    "yingyu-2020-50",
+    "yingyu-2021-91",
+    "yingyu-2024-66",
+    "yingyu-2024-67",
+    "yingyu-2024-68",
+    "yingyu-2024-69",
+    "yingyu-2024-70"
+   ]
+  },
+  "yingyu.topic.hobby_ent": {
+   "name": "兴趣爱好与娱乐",
+   "module": "话题（语篇主题）",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 20,
+   "score": 12.0,
+   "qs": [
+    "yingyu-2021-66",
+    "yingyu-2021-67",
+    "yingyu-2021-68",
+    "yingyu-2021-69",
+    "yingyu-2021-70",
+    "yingyu-2022-46",
+    "yingyu-2022-47",
+    "yingyu-2022-48",
+    "yingyu-2022-49",
+    "yingyu-2022-50",
+    "yingyu-2023-46",
+    "yingyu-2023-47",
+    "yingyu-2023-48",
+    "yingyu-2023-49",
+    "yingyu-2023-50",
+    "yingyu-2025-66",
+    "yingyu-2025-67",
+    "yingyu-2025-68",
+    "yingyu-2025-69",
+    "yingyu-2025-70"
+   ]
+  },
+  "yingyu.topic.health_sports": {
+   "name": "健康与运动",
+   "module": "话题（语篇主题）",
+   "years": [
+    2019,
+    2022,
+    2023
+   ],
+   "count": 15,
+   "score": 6.0,
+   "qs": [
+    "yingyu-2019-66",
+    "yingyu-2019-67",
+    "yingyu-2019-68",
+    "yingyu-2019-69",
+    "yingyu-2019-70",
+    "yingyu-2022-66",
+    "yingyu-2022-67",
+    "yingyu-2022-68",
+    "yingyu-2022-69",
+    "yingyu-2022-70",
+    "yingyu-2023-66",
+    "yingyu-2023-67",
+    "yingyu-2023-68",
+    "yingyu-2023-69",
+    "yingyu-2023-70"
+   ]
+  },
+  "yingyu.topic.food_shopping": {
+   "name": "饮食与购物",
+   "module": "话题（语篇主题）",
+   "years": [
+    2023,
+    2025
+   ],
+   "count": 7,
+   "score": 5.2,
+   "qs": [
+    "yingyu-2023-51",
+    "yingyu-2023-52",
+    "yingyu-2023-53",
+    "yingyu-2023-54",
+    "yingyu-2023-55",
+    "yingyu-2025-10",
+    "yingyu-2025-11"
+   ]
+  },
+  "yingyu.topic.travel": {
+   "name": "旅游与交通",
+   "module": "话题（语篇主题）",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yingyu.topic.nature_env": {
+   "name": "自然与环境保护",
+   "module": "话题（语篇主题）",
+   "years": [
+    2019,
+    2020,
+    2025,
+    2026
+   ],
+   "count": 30,
+   "score": 21.6,
+   "qs": [
+    "yingyu-2019-56",
+    "yingyu-2019-57",
+    "yingyu-2019-58",
+    "yingyu-2019-59",
+    "yingyu-2019-60",
+    "yingyu-2020-51",
+    "yingyu-2020-52",
+    "yingyu-2020-53",
+    "yingyu-2020-54",
+    "yingyu-2020-55",
+    "yingyu-2025-46",
+    "yingyu-2025-47",
+    "yingyu-2025-48",
+    "yingyu-2025-49",
+    "yingyu-2025-50",
+    "yingyu-2025-56",
+    "yingyu-2025-57",
+    "yingyu-2025-58",
+    "yingyu-2025-59",
+    "yingyu-2025-60",
+    "yingyu-2025-61",
+    "yingyu-2025-62",
+    "yingyu-2025-63",
+    "yingyu-2025-64",
+    "yingyu-2025-65",
+    "yingyu-2026-56",
+    "yingyu-2026-57",
+    "yingyu-2026-58",
+    "yingyu-2026-59",
+    "yingyu-2026-60"
+   ]
+  },
+  "yingyu.topic.sci_tech": {
+   "name": "科学技术",
+   "module": "话题（语篇主题）",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 51,
+   "score": 43.2,
+   "qs": [
+    "yingyu-2019-51",
+    "yingyu-2019-52",
+    "yingyu-2019-53",
+    "yingyu-2019-54",
+    "yingyu-2019-55",
+    "yingyu-2019-91",
+    "yingyu-2020-61",
+    "yingyu-2020-62",
+    "yingyu-2020-63",
+    "yingyu-2020-64",
+    "yingyu-2020-65",
+    "yingyu-2021-46",
+    "yingyu-2021-47",
+    "yingyu-2021-48",
+    "yingyu-2021-49",
+    "yingyu-2021-50",
+    "yingyu-2021-56",
+    "yingyu-2021-57",
+    "yingyu-2021-58",
+    "yingyu-2021-59",
+    "yingyu-2021-60",
+    "yingyu-2022-56",
+    "yingyu-2022-57",
+    "yingyu-2022-58",
+    "yingyu-2022-59",
+    "yingyu-2022-60",
+    "yingyu-2023-61",
+    "yingyu-2023-62",
+    "yingyu-2023-63",
+    "yingyu-2023-64",
+    "yingyu-2023-65",
+    "yingyu-2024-51",
+    "yingyu-2024-52",
+    "yingyu-2024-53",
+    "yingyu-2024-54",
+    "yingyu-2024-55",
+    "yingyu-2024-56",
+    "yingyu-2024-57",
+    "yingyu-2024-58",
+    "yingyu-2024-59",
+    "yingyu-2024-60",
+    "yingyu-2026-46",
+    "yingyu-2026-47",
+    "yingyu-2026-48",
+    "yingyu-2026-49",
+    "yingyu-2026-50",
+    "yingyu-2026-61",
+    "yingyu-2026-62",
+    "yingyu-2026-63",
+    "yingyu-2026-64",
+    "yingyu-2026-65"
+   ]
+  },
+  "yingyu.topic.chinese_culture": {
+   "name": "中华文化与节日",
+   "module": "话题（语篇主题）",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 82,
+   "score": 33.6,
+   "qs": [
+    "yingyu-2019-81",
+    "yingyu-2019-82",
+    "yingyu-2019-83",
+    "yingyu-2019-84",
+    "yingyu-2019-85",
+    "yingyu-2019-86",
+    "yingyu-2019-87",
+    "yingyu-2019-88",
+    "yingyu-2019-89",
+    "yingyu-2019-90",
+    "yingyu-2020-81",
+    "yingyu-2020-82",
+    "yingyu-2020-83",
+    "yingyu-2020-84",
+    "yingyu-2020-85",
+    "yingyu-2020-86",
+    "yingyu-2020-87",
+    "yingyu-2020-88",
+    "yingyu-2020-89",
+    "yingyu-2020-90",
+    "yingyu-2020-91",
+    "yingyu-2021-81",
+    "yingyu-2021-83",
+    "yingyu-2021-84",
+    "yingyu-2021-85",
+    "yingyu-2021-86",
+    "yingyu-2021-87",
+    "yingyu-2021-88",
+    "yingyu-2021-89",
+    "yingyu-2021-90",
+    "yingyu-2022-81",
+    "yingyu-2022-82",
+    "yingyu-2022-83",
+    "yingyu-2022-84",
+    "yingyu-2022-85",
+    "yingyu-2022-86",
+    "yingyu-2022-87",
+    "yingyu-2022-88",
+    "yingyu-2022-89",
+    "yingyu-2022-90",
+    "yingyu-2023-81",
+    "yingyu-2023-82",
+    "yingyu-2023-83",
+    "yingyu-2023-84",
+    "yingyu-2023-85",
+    "yingyu-2023-86",
+    "yingyu-2023-87",
+    "yingyu-2023-88",
+    "yingyu-2023-89",
+    "yingyu-2023-90",
+    "yingyu-2023-91",
+    "yingyu-2024-81",
+    "yingyu-2024-82",
+    "yingyu-2024-83",
+    "yingyu-2024-84",
+    "yingyu-2024-85",
+    "yingyu-2024-86",
+    "yingyu-2024-87",
+    "yingyu-2024-88",
+    "yingyu-2024-89",
+    "yingyu-2024-90",
+    "yingyu-2024-91",
+    "yingyu-2025-81",
+    "yingyu-2025-82",
+    "yingyu-2025-83",
+    "yingyu-2025-84",
+    "yingyu-2025-85",
+    "yingyu-2025-86",
+    "yingyu-2025-87",
+    "yingyu-2025-88",
+    "yingyu-2025-89",
+    "yingyu-2025-90",
+    "yingyu-2026-81",
+    "yingyu-2026-82",
+    "yingyu-2026-83",
+    "yingyu-2026-84",
+    "yingyu-2026-86",
+    "yingyu-2026-87",
+    "yingyu-2026-88",
+    "yingyu-2026-89",
+    "yingyu-2026-90",
+    "yingyu-2026-91"
+   ]
+  },
+  "yingyu.topic.world_culture": {
+   "name": "世界文化与语言学习",
+   "module": "话题（语篇主题）",
+   "years": [
+    2024
+   ],
+   "count": 5,
+   "score": 3.6,
+   "qs": [
+    "yingyu-2024-61",
+    "yingyu-2024-62",
+    "yingyu-2024-63",
+    "yingyu-2024-64",
+    "yingyu-2024-65"
+   ]
+  },
+  "yingyu.topic.character_growth": {
+   "name": "品格、成长与志愿服务",
+   "module": "话题（语篇主题）",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 92,
+   "score": 42.8,
+   "qs": [
+    "yingyu-2019-36",
+    "yingyu-2019-37",
+    "yingyu-2019-38",
+    "yingyu-2019-39",
+    "yingyu-2019-40",
+    "yingyu-2019-41",
+    "yingyu-2019-42",
+    "yingyu-2019-43",
+    "yingyu-2019-44",
+    "yingyu-2019-45",
+    "yingyu-2020-66",
+    "yingyu-2020-67",
+    "yingyu-2020-68",
+    "yingyu-2020-69",
+    "yingyu-2020-70",
+    "yingyu-2021-51",
+    "yingyu-2021-52",
+    "yingyu-2021-53",
+    "yingyu-2021-54",
+    "yingyu-2021-55",
+    "yingyu-2022-36",
+    "yingyu-2022-37",
+    "yingyu-2022-38",
+    "yingyu-2022-39",
+    "yingyu-2022-40",
+    "yingyu-2022-41",
+    "yingyu-2022-42",
+    "yingyu-2022-43",
+    "yingyu-2022-44",
+    "yingyu-2022-45",
+    "yingyu-2022-51",
+    "yingyu-2022-52",
+    "yingyu-2022-53",
+    "yingyu-2022-54",
+    "yingyu-2022-55",
+    "yingyu-2022-61",
+    "yingyu-2022-62",
+    "yingyu-2022-63",
+    "yingyu-2022-64",
+    "yingyu-2022-65",
+    "yingyu-2022-91",
+    "yingyu-2023-36",
+    "yingyu-2023-37",
+    "yingyu-2023-38",
+    "yingyu-2023-39",
+    "yingyu-2023-40",
+    "yingyu-2023-41",
+    "yingyu-2023-42",
+    "yingyu-2023-43",
+    "yingyu-2023-44",
+    "yingyu-2023-45",
+    "yingyu-2023-56",
+    "yingyu-2023-57",
+    "yingyu-2023-58",
+    "yingyu-2023-59",
+    "yingyu-2023-60",
+    "yingyu-2024-36",
+    "yingyu-2024-37",
+    "yingyu-2024-38",
+    "yingyu-2024-39",
+    "yingyu-2024-40",
+    "yingyu-2024-41",
+    "yingyu-2024-42",
+    "yingyu-2024-43",
+    "yingyu-2024-44",
+    "yingyu-2024-45",
+    "yingyu-2025-36",
+    "yingyu-2025-37",
+    "yingyu-2025-38",
+    "yingyu-2025-39",
+    "yingyu-2025-40",
+    "yingyu-2025-41",
+    "yingyu-2025-42",
+    "yingyu-2025-43",
+    "yingyu-2025-44",
+    "yingyu-2025-45",
+    "yingyu-2025-91",
+    "yingyu-2026-36",
+    "yingyu-2026-37",
+    "yingyu-2026-38",
+    "yingyu-2026-39",
+    "yingyu-2026-40",
+    "yingyu-2026-41",
+    "yingyu-2026-42",
+    "yingyu-2026-43",
+    "yingyu-2026-44",
+    "yingyu-2026-45",
+    "yingyu-2026-66",
+    "yingyu-2026-67",
+    "yingyu-2026-68",
+    "yingyu-2026-69",
+    "yingyu-2026-70"
+   ]
+  },
+  "yingyu.topic.jobs_future": {
+   "name": "职业与未来规划",
+   "module": "话题（语篇主题）",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2025
+   ],
+   "count": 26,
+   "score": 13.0,
+   "qs": [
+    "yingyu-2020-36",
+    "yingyu-2020-37",
+    "yingyu-2020-38",
+    "yingyu-2020-39",
+    "yingyu-2020-40",
+    "yingyu-2020-41",
+    "yingyu-2020-42",
+    "yingyu-2020-43",
+    "yingyu-2020-44",
+    "yingyu-2020-45",
+    "yingyu-2021-36",
+    "yingyu-2021-37",
+    "yingyu-2021-38",
+    "yingyu-2021-39",
+    "yingyu-2021-40",
+    "yingyu-2021-41",
+    "yingyu-2021-42",
+    "yingyu-2021-43",
+    "yingyu-2021-44",
+    "yingyu-2021-45",
+    "yingyu-2023-91",
+    "yingyu-2025-51",
+    "yingyu-2025-52",
+    "yingyu-2025-53",
+    "yingyu-2025-54",
+    "yingyu-2025-55"
+   ]
+  },
+  "yingyu.topic.feelings": {
+   "name": "情感与人际交往",
+   "module": "话题（语篇主题）",
+   "years": [
+    2019,
+    2021
+   ],
+   "count": 10,
+   "score": 6.8,
+   "qs": [
+    "yingyu-2019-61",
+    "yingyu-2019-62",
+    "yingyu-2019-63",
+    "yingyu-2019-64",
+    "yingyu-2019-65",
+    "yingyu-2021-61",
+    "yingyu-2021-62",
+    "yingyu-2021-63",
+    "yingyu-2021-64",
+    "yingyu-2021-65"
+   ]
+  },
+  "yingyu.cloze.context": {
+   "name": "完形：语境与上下文逻辑",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 80,
+   "score": 24.0,
+   "qs": [
+    "yingyu-2019-36",
+    "yingyu-2019-37",
+    "yingyu-2019-38",
+    "yingyu-2019-39",
+    "yingyu-2019-40",
+    "yingyu-2019-41",
+    "yingyu-2019-42",
+    "yingyu-2019-43",
+    "yingyu-2019-44",
+    "yingyu-2019-45",
+    "yingyu-2020-36",
+    "yingyu-2020-37",
+    "yingyu-2020-38",
+    "yingyu-2020-39",
+    "yingyu-2020-40",
+    "yingyu-2020-41",
+    "yingyu-2020-42",
+    "yingyu-2020-43",
+    "yingyu-2020-44",
+    "yingyu-2020-45",
+    "yingyu-2021-36",
+    "yingyu-2021-37",
+    "yingyu-2021-38",
+    "yingyu-2021-39",
+    "yingyu-2021-40",
+    "yingyu-2021-41",
+    "yingyu-2021-42",
+    "yingyu-2021-43",
+    "yingyu-2021-44",
+    "yingyu-2021-45",
+    "yingyu-2022-36",
+    "yingyu-2022-37",
+    "yingyu-2022-38",
+    "yingyu-2022-39",
+    "yingyu-2022-40",
+    "yingyu-2022-41",
+    "yingyu-2022-42",
+    "yingyu-2022-43",
+    "yingyu-2022-44",
+    "yingyu-2022-45",
+    "yingyu-2023-36",
+    "yingyu-2023-37",
+    "yingyu-2023-38",
+    "yingyu-2023-39",
+    "yingyu-2023-40",
+    "yingyu-2023-41",
+    "yingyu-2023-42",
+    "yingyu-2023-43",
+    "yingyu-2023-44",
+    "yingyu-2023-45",
+    "yingyu-2024-36",
+    "yingyu-2024-37",
+    "yingyu-2024-38",
+    "yingyu-2024-39",
+    "yingyu-2024-40",
+    "yingyu-2024-41",
+    "yingyu-2024-42",
+    "yingyu-2024-43",
+    "yingyu-2024-44",
+    "yingyu-2024-45",
+    "yingyu-2025-36",
+    "yingyu-2025-37",
+    "yingyu-2025-38",
+    "yingyu-2025-39",
+    "yingyu-2025-40",
+    "yingyu-2025-41",
+    "yingyu-2025-42",
+    "yingyu-2025-43",
+    "yingyu-2025-44",
+    "yingyu-2025-45",
+    "yingyu-2026-36",
+    "yingyu-2026-37",
+    "yingyu-2026-38",
+    "yingyu-2026-39",
+    "yingyu-2026-40",
+    "yingyu-2026-41",
+    "yingyu-2026-42",
+    "yingyu-2026-43",
+    "yingyu-2026-44",
+    "yingyu-2026-45"
+   ]
+  },
+  "yingyu.read.detail": {
+   "name": "细节理解",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 57,
+   "score": 66.0,
+   "qs": [
+    "yingyu-2019-47",
+    "yingyu-2019-56",
+    "yingyu-2019-59",
+    "yingyu-2019-62",
+    "yingyu-2019-63",
+    "yingyu-2020-51",
+    "yingyu-2020-54",
+    "yingyu-2020-57",
+    "yingyu-2020-62",
+    "yingyu-2020-63",
+    "yingyu-2021-51",
+    "yingyu-2021-54",
+    "yingyu-2021-56",
+    "yingyu-2021-57",
+    "yingyu-2021-58",
+    "yingyu-2021-59",
+    "yingyu-2021-62",
+    "yingyu-2021-64",
+    "yingyu-2021-65",
+    "yingyu-2022-51",
+    "yingyu-2022-52",
+    "yingyu-2022-54",
+    "yingyu-2022-56",
+    "yingyu-2022-57",
+    "yingyu-2022-59",
+    "yingyu-2022-62",
+    "yingyu-2022-64",
+    "yingyu-2023-48",
+    "yingyu-2023-51",
+    "yingyu-2023-52",
+    "yingyu-2023-53",
+    "yingyu-2023-56",
+    "yingyu-2023-57",
+    "yingyu-2023-58",
+    "yingyu-2024-46",
+    "yingyu-2024-47",
+    "yingyu-2024-48",
+    "yingyu-2024-51",
+    "yingyu-2024-57",
+    "yingyu-2024-59",
+    "yingyu-2024-62",
+    "yingyu-2024-65",
+    "yingyu-2025-48",
+    "yingyu-2025-51",
+    "yingyu-2025-52",
+    "yingyu-2025-53",
+    "yingyu-2025-56",
+    "yingyu-2025-58",
+    "yingyu-2025-61",
+    "yingyu-2025-63",
+    "yingyu-2026-51",
+    "yingyu-2026-52",
+    "yingyu-2026-53",
+    "yingyu-2026-54",
+    "yingyu-2026-56",
+    "yingyu-2026-57",
+    "yingyu-2026-63"
+   ]
+  },
+  "yingyu.read.chart": {
+   "name": "图表与应用文信息检索",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 28,
+   "score": 32.0,
+   "qs": [
+    "yingyu-2019-52",
+    "yingyu-2019-53",
+    "yingyu-2019-54",
+    "yingyu-2020-46",
+    "yingyu-2020-47",
+    "yingyu-2020-48",
+    "yingyu-2020-49",
+    "yingyu-2020-50",
+    "yingyu-2021-46",
+    "yingyu-2021-47",
+    "yingyu-2021-48",
+    "yingyu-2022-46",
+    "yingyu-2022-47",
+    "yingyu-2022-48",
+    "yingyu-2022-49",
+    "yingyu-2023-46",
+    "yingyu-2023-47",
+    "yingyu-2023-49",
+    "yingyu-2024-52",
+    "yingyu-2024-53",
+    "yingyu-2024-54",
+    "yingyu-2025-46",
+    "yingyu-2025-47",
+    "yingyu-2025-49",
+    "yingyu-2026-46",
+    "yingyu-2026-47",
+    "yingyu-2026-48",
+    "yingyu-2026-49"
+   ]
+  },
+  "yingyu.read.inference": {
+   "name": "推理判断",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 38,
+   "score": 36.0,
+   "qs": [
+    "yingyu-2019-46",
+    "yingyu-2019-48",
+    "yingyu-2019-49",
+    "yingyu-2019-50",
+    "yingyu-2019-54",
+    "yingyu-2019-58",
+    "yingyu-2019-64",
+    "yingyu-2020-49",
+    "yingyu-2020-51",
+    "yingyu-2020-53",
+    "yingyu-2020-58",
+    "yingyu-2020-59",
+    "yingyu-2020-60",
+    "yingyu-2020-64",
+    "yingyu-2021-53",
+    "yingyu-2021-64",
+    "yingyu-2022-55",
+    "yingyu-2022-60",
+    "yingyu-2022-63",
+    "yingyu-2022-64",
+    "yingyu-2023-50",
+    "yingyu-2023-58",
+    "yingyu-2023-59",
+    "yingyu-2023-63",
+    "yingyu-2023-64",
+    "yingyu-2024-49",
+    "yingyu-2024-50",
+    "yingyu-2024-57",
+    "yingyu-2024-61",
+    "yingyu-2025-49",
+    "yingyu-2025-54",
+    "yingyu-2025-55",
+    "yingyu-2025-58",
+    "yingyu-2025-63",
+    "yingyu-2025-64",
+    "yingyu-2026-54",
+    "yingyu-2026-55",
+    "yingyu-2026-65"
+   ]
+  },
+  "yingyu.read.main_idea": {
+   "name": "主旨大意与段落大意",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 16,
+   "score": 17.6,
+   "qs": [
+    "yingyu-2019-60",
+    "yingyu-2019-64",
+    "yingyu-2020-61",
+    "yingyu-2021-55",
+    "yingyu-2021-61",
+    "yingyu-2022-58",
+    "yingyu-2022-63",
+    "yingyu-2023-60",
+    "yingyu-2023-62",
+    "yingyu-2024-63",
+    "yingyu-2024-65",
+    "yingyu-2025-59",
+    "yingyu-2025-60",
+    "yingyu-2025-61",
+    "yingyu-2026-59",
+    "yingyu-2026-64"
+   ]
+  },
+  "yingyu.read.title": {
+   "name": "最佳标题",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 9.6,
+   "qs": [
+    "yingyu-2019-65",
+    "yingyu-2020-55",
+    "yingyu-2021-60",
+    "yingyu-2022-65",
+    "yingyu-2023-65",
+    "yingyu-2024-60",
+    "yingyu-2025-65",
+    "yingyu-2026-60"
+   ]
+  },
+  "yingyu.read.word_meaning": {
+   "name": "词义猜测",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 10.0,
+   "qs": [
+    "yingyu-2019-61",
+    "yingyu-2020-56",
+    "yingyu-2021-57",
+    "yingyu-2021-63",
+    "yingyu-2022-53",
+    "yingyu-2023-54",
+    "yingyu-2024-64",
+    "yingyu-2025-57",
+    "yingyu-2026-61"
+   ]
+  },
+  "yingyu.read.reference": {
+   "name": "代词指代",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 9.6,
+   "qs": [
+    "yingyu-2019-57",
+    "yingyu-2020-52",
+    "yingyu-2021-52",
+    "yingyu-2022-61",
+    "yingyu-2023-61",
+    "yingyu-2024-58",
+    "yingyu-2025-62",
+    "yingyu-2026-58"
+   ]
+  },
+  "yingyu.read.structure": {
+   "name": "篇章结构与写作手法",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 7,
+   "score": 6.8,
+   "qs": [
+    "yingyu-2019-62",
+    "yingyu-2021-50",
+    "yingyu-2023-62",
+    "yingyu-2023-63",
+    "yingyu-2024-53",
+    "yingyu-2024-56",
+    "yingyu-2026-62"
+   ]
+  },
+  "yingyu.read.purpose_attitude": {
+   "name": "作者意图与态度",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2021,
+    2025
+   ],
+   "count": 3,
+   "score": 3.6,
+   "qs": [
+    "yingyu-2019-51",
+    "yingyu-2021-50",
+    "yingyu-2025-60"
+   ]
+  },
+  "yingyu.read.source_genre": {
+   "name": "文章出处与文体",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 9.6,
+   "qs": [
+    "yingyu-2019-55",
+    "yingyu-2020-65",
+    "yingyu-2021-49",
+    "yingyu-2022-50",
+    "yingyu-2023-55",
+    "yingyu-2024-55",
+    "yingyu-2025-50",
+    "yingyu-2026-50"
+   ]
+  },
+  "yingyu.read.sentence_fill": {
+   "name": "还原句子（选句填空）",
+   "module": "完形与阅读技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 40,
+   "score": 24.0,
+   "qs": [
+    "yingyu-2019-66",
+    "yingyu-2019-67",
+    "yingyu-2019-68",
+    "yingyu-2019-69",
+    "yingyu-2019-70",
+    "yingyu-2020-66",
+    "yingyu-2020-67",
+    "yingyu-2020-68",
+    "yingyu-2020-69",
+    "yingyu-2020-70",
+    "yingyu-2021-66",
+    "yingyu-2021-67",
+    "yingyu-2021-68",
+    "yingyu-2021-69",
+    "yingyu-2021-70",
+    "yingyu-2022-66",
+    "yingyu-2022-67",
+    "yingyu-2022-68",
+    "yingyu-2022-69",
+    "yingyu-2022-70",
+    "yingyu-2023-66",
+    "yingyu-2023-67",
+    "yingyu-2023-68",
+    "yingyu-2023-69",
+    "yingyu-2023-70",
+    "yingyu-2024-66",
+    "yingyu-2024-67",
+    "yingyu-2024-68",
+    "yingyu-2024-69",
+    "yingyu-2024-70",
+    "yingyu-2025-66",
+    "yingyu-2025-67",
+    "yingyu-2025-68",
+    "yingyu-2025-69",
+    "yingyu-2025-70",
+    "yingyu-2026-66",
+    "yingyu-2026-67",
+    "yingyu-2026-68",
+    "yingyu-2026-69",
+    "yingyu-2026-70"
+   ]
+  },
+  "yingyu.func.greeting": {
+   "name": "问候、介绍与告别",
+   "module": "情景交际功能用语",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 11.2,
+   "qs": [
+    "yingyu-2019-71",
+    "yingyu-2022-71",
+    "yingyu-2023-71",
+    "yingyu-2024-71",
+    "yingyu-2025-74",
+    "yingyu-2026-71"
+   ]
+  },
+  "yingyu.func.thanks_apology": {
+   "name": "感谢、道歉及应答",
+   "module": "情景交际功能用语",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 6,
+   "score": 10.0,
+   "qs": [
+    "yingyu-2019-74",
+    "yingyu-2020-71",
+    "yingyu-2020-73",
+    "yingyu-2022-74",
+    "yingyu-2023-75",
+    "yingyu-2024-72"
+   ]
+  },
+  "yingyu.func.wishes": {
+   "name": "祝愿、祝贺与节日问候",
+   "module": "情景交际功能用语",
+   "years": [
+    2025
+   ],
+   "count": 1,
+   "score": 2.0,
+   "qs": [
+    "yingyu-2025-71"
+   ]
+  },
+  "yingyu.func.personal_info": {
+   "name": "询问个人信息与身份",
+   "module": "情景交际功能用语",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2025
+   ],
+   "count": 5,
+   "score": 6.0,
+   "qs": [
+    "yingyu-2019-72",
+    "yingyu-2020-72",
+    "yingyu-2021-73",
+    "yingyu-2022-72",
+    "yingyu-2025-75"
+   ]
+  },
+  "yingyu.func.time_place": {
+   "name": "询问时间、日期、地点与距离",
+   "module": "情景交际功能用语",
+   "years": [
+    2025
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "yingyu-2025-73"
+   ]
+  },
+  "yingyu.func.quantity_price": {
+   "name": "询问数量与价格、购物",
+   "module": "情景交际功能用语",
+   "years": [
+    2021,
+    2022,
+    2026
+   ],
+   "count": 3,
+   "score": 3.6,
+   "qs": [
+    "yingyu-2021-74",
+    "yingyu-2022-73",
+    "yingyu-2026-73"
+   ]
+  },
+  "yingyu.func.activity_plan": {
+   "name": "询问活动、计划与经历",
+   "module": "情景交际功能用语",
+   "years": [
+    2026
+   ],
+   "count": 2,
+   "score": 2.4,
+   "qs": [
+    "yingyu-2026-72",
+    "yingyu-2026-75"
+   ]
+  },
+  "yingyu.func.frequency_way": {
+   "name": "询问频率、方式与原因",
+   "module": "情景交际功能用语",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yingyu.func.opinion_feeling": {
+   "name": "询问看法、喜好与感受",
+   "module": "情景交际功能用语",
+   "years": [
+    2021,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 6.8,
+   "qs": [
+    "yingyu-2021-72",
+    "yingyu-2024-73",
+    "yingyu-2024-75",
+    "yingyu-2025-72",
+    "yingyu-2026-74"
+   ]
+  },
+  "yingyu.func.health": {
+   "name": "询问健康与看病",
+   "module": "情景交际功能用语",
+   "years": [
+    2023
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "yingyu-2023-73"
+   ]
+  },
+  "yingyu.func.request_offer": {
+   "name": "请求、许可与提供帮助",
+   "module": "情景交际功能用语",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2023
+   ],
+   "count": 5,
+   "score": 6.8,
+   "qs": [
+    "yingyu-2019-73",
+    "yingyu-2019-74",
+    "yingyu-2020-75",
+    "yingyu-2021-71",
+    "yingyu-2023-74"
+   ]
+  },
+  "yingyu.func.suggestion": {
+   "name": "建议、劝告与禁止",
+   "module": "情景交际功能用语",
+   "years": [
+    2021
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "yingyu-2021-75"
+   ]
+  },
+  "yingyu.func.invitation_agree": {
+   "name": "邀请、同意与拒绝",
+   "module": "情景交际功能用语",
+   "years": [
+    2020,
+    2024
+   ],
+   "count": 2,
+   "score": 2.4,
+   "qs": [
+    "yingyu-2020-74",
+    "yingyu-2024-74"
+   ]
+  },
+  "yingyu.func.praise": {
+   "name": "赞美与感叹",
+   "module": "情景交际功能用语",
+   "years": [
+    2019,
+    2022,
+    2023
+   ],
+   "count": 3,
+   "score": 4.4,
+   "qs": [
+    "yingyu-2019-75",
+    "yingyu-2022-75",
+    "yingyu-2023-72"
+   ]
+  },
+  "yingyu.func.ask_way": {
+   "name": "问路与指路",
+   "module": "情景交际功能用语",
+   "years": [
+    2021
+   ],
+   "count": 1,
+   "score": 0.4,
+   "qs": [
+    "yingyu-2021-22"
+   ]
+  },
+  "yingyu.func.phone": {
+   "name": "打电话用语",
+   "module": "情景交际功能用语",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yingyu.write.picture_sentence": {
+   "name": "看图写话",
+   "module": "写作",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 40,
+   "score": 24.8,
+   "qs": [
+    "yingyu-2019-76",
+    "yingyu-2019-77",
+    "yingyu-2019-78",
+    "yingyu-2019-79",
+    "yingyu-2019-80",
+    "yingyu-2020-76",
+    "yingyu-2020-77",
+    "yingyu-2020-78",
+    "yingyu-2020-79",
+    "yingyu-2020-80",
+    "yingyu-2021-76",
+    "yingyu-2021-77",
+    "yingyu-2021-78",
+    "yingyu-2021-79",
+    "yingyu-2021-80",
+    "yingyu-2022-76",
+    "yingyu-2022-77",
+    "yingyu-2022-78",
+    "yingyu-2022-79",
+    "yingyu-2022-80",
+    "yingyu-2023-76",
+    "yingyu-2023-77",
+    "yingyu-2023-78",
+    "yingyu-2023-79",
+    "yingyu-2023-80",
+    "yingyu-2024-76",
+    "yingyu-2024-77",
+    "yingyu-2024-78",
+    "yingyu-2024-79",
+    "yingyu-2024-80",
+    "yingyu-2025-76",
+    "yingyu-2025-77",
+    "yingyu-2025-78",
+    "yingyu-2025-79",
+    "yingyu-2025-80",
+    "yingyu-2026-76",
+    "yingyu-2026-77",
+    "yingyu-2026-78",
+    "yingyu-2026-79",
+    "yingyu-2026-80"
+   ]
+  },
+  "yingyu.fill.word_form": {
+   "name": "短文填空：有提示词（词形变化）",
+   "module": "写作",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 44,
+   "score": 8.8,
+   "qs": [
+    "yingyu-2019-82",
+    "yingyu-2019-84",
+    "yingyu-2019-85",
+    "yingyu-2019-86",
+    "yingyu-2020-85",
+    "yingyu-2020-87",
+    "yingyu-2020-88",
+    "yingyu-2020-89",
+    "yingyu-2021-81",
+    "yingyu-2021-83",
+    "yingyu-2021-85",
+    "yingyu-2021-90",
+    "yingyu-2022-82",
+    "yingyu-2022-84",
+    "yingyu-2022-85",
+    "yingyu-2022-87",
+    "yingyu-2023-81",
+    "yingyu-2023-82",
+    "yingyu-2023-84",
+    "yingyu-2023-85",
+    "yingyu-2023-86",
+    "yingyu-2023-88",
+    "yingyu-2023-90",
+    "yingyu-2024-82",
+    "yingyu-2024-83",
+    "yingyu-2024-84",
+    "yingyu-2024-85",
+    "yingyu-2024-88",
+    "yingyu-2024-89",
+    "yingyu-2024-90",
+    "yingyu-2025-81",
+    "yingyu-2025-83",
+    "yingyu-2025-84",
+    "yingyu-2025-86",
+    "yingyu-2025-88",
+    "yingyu-2025-89",
+    "yingyu-2025-90",
+    "yingyu-2026-81",
+    "yingyu-2026-85",
+    "yingyu-2026-86",
+    "yingyu-2026-87",
+    "yingyu-2026-88",
+    "yingyu-2026-89",
+    "yingyu-2026-90"
+   ]
+  },
+  "yingyu.fill.function_word": {
+   "name": "短文填空：无提示词（虚词/语篇）",
+   "module": "写作",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 24,
+   "score": 4.8,
+   "qs": [
+    "yingyu-2019-83",
+    "yingyu-2019-88",
+    "yingyu-2019-90",
+    "yingyu-2020-81",
+    "yingyu-2020-84",
+    "yingyu-2020-86",
+    "yingyu-2021-82",
+    "yingyu-2021-87",
+    "yingyu-2021-88",
+    "yingyu-2022-81",
+    "yingyu-2022-83",
+    "yingyu-2022-88",
+    "yingyu-2023-83",
+    "yingyu-2023-87",
+    "yingyu-2023-89",
+    "yingyu-2024-81",
+    "yingyu-2024-86",
+    "yingyu-2024-87",
+    "yingyu-2025-82",
+    "yingyu-2025-85",
+    "yingyu-2025-87",
+    "yingyu-2026-82",
+    "yingyu-2026-83",
+    "yingyu-2026-84"
+   ]
+  },
+  "yingyu.fill.phonetic": {
+   "name": "短文填空：根据音标写单词",
+   "module": "写作",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "count": 12,
+   "score": 2.4,
+   "qs": [
+    "yingyu-2019-81",
+    "yingyu-2019-87",
+    "yingyu-2019-89",
+    "yingyu-2020-82",
+    "yingyu-2020-83",
+    "yingyu-2020-90",
+    "yingyu-2021-84",
+    "yingyu-2021-86",
+    "yingyu-2021-89",
+    "yingyu-2022-86",
+    "yingyu-2022-89",
+    "yingyu-2022-90"
+   ]
+  },
+  "yingyu.essay.letter": {
+   "name": "书面表达：书信/电子邮件",
+   "module": "写作",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 6,
+   "score": 54.0,
+   "qs": [
+    "yingyu-2019-91",
+    "yingyu-2020-91",
+    "yingyu-2022-91",
+    "yingyu-2023-91",
+    "yingyu-2024-91",
+    "yingyu-2025-91"
+   ]
+  },
+  "yingyu.essay.report_speech": {
+   "name": "书面表达：报道/倡议书/演讲稿",
+   "module": "写作",
+   "years": [
+    2021,
+    2026
+   ],
+   "count": 2,
+   "score": 18.0,
+   "qs": [
+    "yingyu-2021-91",
+    "yingyu-2026-91"
+   ]
+  },
+  "yingyu.essay.narrative": {
+   "name": "书面表达：记叙经历与感受",
+   "module": "写作",
+   "years": [
+    2021,
+    2022,
+    2024,
+    2025
+   ],
+   "count": 4,
+   "score": 12.0,
+   "qs": [
+    "yingyu-2021-91",
+    "yingyu-2022-91",
+    "yingyu-2024-91",
+    "yingyu-2025-91"
+   ]
+  },
+  "yingyu.listen.picture": {
+   "name": "听句子选图",
+   "module": "听力技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 40,
+   "score": 60.0,
+   "qs": [
+    "yingyu-2019-1",
+    "yingyu-2019-2",
+    "yingyu-2019-3",
+    "yingyu-2019-4",
+    "yingyu-2019-5",
+    "yingyu-2020-1",
+    "yingyu-2020-2",
+    "yingyu-2020-3",
+    "yingyu-2020-4",
+    "yingyu-2020-5",
+    "yingyu-2021-1",
+    "yingyu-2021-2",
+    "yingyu-2021-3",
+    "yingyu-2021-4",
+    "yingyu-2021-5",
+    "yingyu-2022-1",
+    "yingyu-2022-2",
+    "yingyu-2022-3",
+    "yingyu-2022-4",
+    "yingyu-2022-5",
+    "yingyu-2023-1",
+    "yingyu-2023-2",
+    "yingyu-2023-3",
+    "yingyu-2023-4",
+    "yingyu-2023-5",
+    "yingyu-2024-1",
+    "yingyu-2024-2",
+    "yingyu-2024-3",
+    "yingyu-2024-4",
+    "yingyu-2024-5",
+    "yingyu-2025-1",
+    "yingyu-2025-2",
+    "yingyu-2025-3",
+    "yingyu-2025-4",
+    "yingyu-2025-5",
+    "yingyu-2026-1",
+    "yingyu-2026-2",
+    "yingyu-2026-3",
+    "yingyu-2026-4",
+    "yingyu-2026-5"
+   ]
+  },
+  "yingyu.listen.detail": {
+   "name": "听对话获取事实细节",
+   "module": "听力技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 42,
+   "score": 62.4,
+   "qs": [
+    "yingyu-2019-6",
+    "yingyu-2019-7",
+    "yingyu-2019-8",
+    "yingyu-2019-10",
+    "yingyu-2019-12",
+    "yingyu-2019-14",
+    "yingyu-2020-6",
+    "yingyu-2020-7",
+    "yingyu-2020-8",
+    "yingyu-2020-9",
+    "yingyu-2020-12",
+    "yingyu-2020-13",
+    "yingyu-2021-6",
+    "yingyu-2021-7",
+    "yingyu-2021-8",
+    "yingyu-2021-11",
+    "yingyu-2021-12",
+    "yingyu-2021-14",
+    "yingyu-2022-6",
+    "yingyu-2022-8",
+    "yingyu-2022-9",
+    "yingyu-2022-12",
+    "yingyu-2022-13",
+    "yingyu-2023-6",
+    "yingyu-2023-7",
+    "yingyu-2023-8",
+    "yingyu-2023-10",
+    "yingyu-2023-15",
+    "yingyu-2024-6",
+    "yingyu-2024-10",
+    "yingyu-2024-11",
+    "yingyu-2024-12",
+    "yingyu-2025-6",
+    "yingyu-2025-10",
+    "yingyu-2025-12",
+    "yingyu-2025-13",
+    "yingyu-2026-6",
+    "yingyu-2026-7",
+    "yingyu-2026-8",
+    "yingyu-2026-10",
+    "yingyu-2026-12",
+    "yingyu-2026-13"
+   ]
+  },
+  "yingyu.listen.number_time": {
+   "name": "听数字、时间与价格",
+   "module": "听力技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 13,
+   "score": 18.9,
+   "qs": [
+    "yingyu-2019-9",
+    "yingyu-2020-10",
+    "yingyu-2020-11",
+    "yingyu-2021-13",
+    "yingyu-2022-10",
+    "yingyu-2023-12",
+    "yingyu-2023-14",
+    "yingyu-2024-7",
+    "yingyu-2024-8",
+    "yingyu-2025-7",
+    "yingyu-2025-8",
+    "yingyu-2025-11",
+    "yingyu-2026-9"
+   ]
+  },
+  "yingyu.listen.relation_place": {
+   "name": "判断说话人关系与场景",
+   "module": "听力技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 15.0,
+   "qs": [
+    "yingyu-2019-13",
+    "yingyu-2020-14",
+    "yingyu-2021-10",
+    "yingyu-2022-7",
+    "yingyu-2022-11",
+    "yingyu-2023-9",
+    "yingyu-2023-11",
+    "yingyu-2024-9",
+    "yingyu-2025-15",
+    "yingyu-2026-11"
+   ]
+  },
+  "yingyu.listen.main_idea": {
+   "name": "听对话主旨",
+   "module": "听力技能",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 10.5,
+   "qs": [
+    "yingyu-2019-11",
+    "yingyu-2021-9",
+    "yingyu-2021-15",
+    "yingyu-2022-14",
+    "yingyu-2024-15",
+    "yingyu-2025-14",
+    "yingyu-2026-14"
+   ]
+  },
+  "yingyu.listen.inference": {
+   "name": "听力推理判断",
+   "module": "听力技能",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 12.0,
+   "qs": [
+    "yingyu-2019-15",
+    "yingyu-2020-15",
+    "yingyu-2022-15",
+    "yingyu-2023-13",
+    "yingyu-2024-13",
+    "yingyu-2024-14",
+    "yingyu-2025-9",
+    "yingyu-2026-15"
+   ]
+  },
+  "yingyu.listen.note_taking": {
+   "name": "听短文记录关键词（填表）",
+   "module": "听力技能",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 40,
+   "score": 60.0,
+   "qs": [
+    "yingyu-2019-16",
+    "yingyu-2019-17",
+    "yingyu-2019-18",
+    "yingyu-2019-19",
+    "yingyu-2019-20",
+    "yingyu-2020-16",
+    "yingyu-2020-17",
+    "yingyu-2020-18",
+    "yingyu-2020-19",
+    "yingyu-2020-20",
+    "yingyu-2021-16",
+    "yingyu-2021-17",
+    "yingyu-2021-18",
+    "yingyu-2021-19",
+    "yingyu-2021-20",
+    "yingyu-2022-16",
+    "yingyu-2022-17",
+    "yingyu-2022-18",
+    "yingyu-2022-19",
+    "yingyu-2022-20",
+    "yingyu-2023-16",
+    "yingyu-2023-17",
+    "yingyu-2023-18",
+    "yingyu-2023-19",
+    "yingyu-2023-20",
+    "yingyu-2024-16",
+    "yingyu-2024-17",
+    "yingyu-2024-18",
+    "yingyu-2024-19",
+    "yingyu-2024-20",
+    "yingyu-2025-16",
+    "yingyu-2025-17",
+    "yingyu-2025-18",
+    "yingyu-2025-19",
+    "yingyu-2025-20",
+    "yingyu-2026-16",
+    "yingyu-2026-17",
+    "yingyu-2026-18",
+    "yingyu-2026-19",
+    "yingyu-2026-20"
+   ]
+  }
+ }
+}

@@ -1,0 +1,612 @@
+{
+ "subject": "shuxue",
+ "year": 2022,
+ "source": "福建省教育考试院《试题、参考答案》合订本（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/zlxz/202206/t20220627_4386935.htm",
+ "total": 150,
+ "minutes": 120,
+ "materials": [
+  {
+   "id": "q20",
+   "text": "学校开展以“劳动创造美好生活”为主题的系列活动，同学们积极参与主题活动的规划、实施、组织和管理，组成调查组、采购组、规划组等多个研究小组.\n\n调查组设计了一份问卷，并实施两次调查. 活动前，调查组随机抽取 50 名同学，调查他们一周的课外劳动时间 $t$（单位：h），并分组整理，制成如下条形统计图. 活动结束一个月后，调查组再次随机抽取 50 名同学，调查他们一周的课外劳动时间 $t$（单位：h），按同样的分组方法制成如下扇形统计图. 其中 A 组为 $0\\leqslant t<1$，B 组为 $1\\leqslant t<2$，C 组为 $2\\leqslant t<3$，D 组为 $3\\leqslant t<4$，E 组为 $4\\leqslant t<5$，F 组为 $t\\geqslant5$.",
+   "figures": [
+    "figs/2022-20-1.png",
+    "figs/2022-20-2.png"
+   ]
+  },
+  {
+   "id": "q21",
+   "text": "如图，$\\triangle ABC$ 内接于 $\\odot O$，$AD\\parallel BC$ 交 $\\odot O$ 于点 $D$，$DF\\parallel AB$ 交 $BC$ 于点 $E$，交 $\\odot O$ 于点 $F$，连接 $AF$，$CF$.",
+   "figures": [
+    "figs/2022-21-1.png"
+   ]
+  },
+  {
+   "id": "q22",
+   "text": "在学校开展“劳动创造美好生活”主题系列活动中，八年级（1）班负责校园某绿化角的设计、种植与养护. 同学们约定每人养护一盆绿植，计划购买绿萝和吊兰两种绿植共 46 盆，且绿萝盆数不少于吊兰盆数的 2 倍. 已知绿萝每盆 9 元，吊兰每盆 6 元."
+  },
+  {
+   "id": "q23",
+   "text": "如图，$BD$ 是矩形 $ABCD$ 的对角线.",
+   "figures": [
+    "figs/2022-23-1.png"
+   ]
+  },
+  {
+   "id": "q24",
+   "text": "已知 $\\triangle ABC\\cong\\triangle DEC$，$AB=AC$，$AB>BC$.",
+   "figures": [
+    "figs/2022-24-1.png",
+    "figs/2022-24-2.png",
+    "figs/2022-24-3.png"
+   ]
+  },
+  {
+   "id": "q25",
+   "text": "在平面直角坐标系 $xOy$ 中，已知抛物线 $y=ax^{2}+bx$ 经过 $A(4,0)$，$B(1,4)$ 两点. $P$ 是抛物线上一点，且在直线 $AB$ 的上方.",
+   "figures": [
+    "figs/2022-25-1.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "shuxue-2022-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "$-11$ 的相反数是",
+   "options": [
+    "A. $-11$",
+    "B. $-\\frac{1}{11}$",
+    "C. $\\frac{1}{11}$",
+    "D. $11$"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.num.rational"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如右图所示的圆柱，其俯视图是",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "figures": [
+    "figs/2022-2-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.solid.view"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "5G 应用在福建省全面铺开，助力千行百业迎“智”变. 截止 2021 年底，全省 5G 终端用户达 1397.6 万户. 数据 13 976 000 用科学记数法表示为",
+   "options": [
+    "A. $13976\\times10^{3}$",
+    "B. $1397.6\\times10^{4}$",
+    "C. $1.3976\\times10^{7}$",
+    "D. $0.13976\\times10^{8}$"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.num.sci_notation"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "美术老师布置同学们设计窗花，下列作品为轴对称图形的是",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "figures": [
+    "figs/2022-4-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.trans.symmetry"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，数轴上的点 $P$ 表示下列四个无理数中的一个，这个无理数是",
+   "options": [
+    "A. $-\\sqrt{2}$",
+    "B. $\\sqrt{2}$",
+    "C. $\\sqrt{5}$",
+    "D. $\\pi$"
+   ],
+   "figures": [
+    "figs/2022-5-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.num.real"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "不等式组 $\\begin{cases}x-1>0,\\\\ x-3\\leqslant 0\\end{cases}$ 的解集是",
+   "options": [
+    "A. $x>1$",
+    "B. $1<x<3$",
+    "C. $1<x\\leqslant 3$",
+    "D. $x\\leqslant 3$"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.ineq.solve"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "化简 $(3a^{2})^{2}$ 的结果是",
+   "options": [
+    "A. $9a^{2}$",
+    "B. $6a^{2}$",
+    "C. $9a^{4}$",
+    "D. $3a^{4}$"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.num.power"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "2021年福建省的环境空气质量达标天数位居全国前列. 下图是福建省 10 个地区环境空气质量综合指数统计图.\n\n综合指数越小，表示环境空气质量越好. 依据综合指数，从图中可知环境空气质量最好的地区是",
+   "options": [
+    "A. $F_{1}$",
+    "B. $F_{6}$",
+    "C. $F_{7}$",
+    "D. $F_{10}$"
+   ],
+   "figures": [
+    "figs/2022-8-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.stat.chart"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图所示的衣架可以近似看成一个等腰三角形 $ABC$，其中 $AB=AC$，$\\angle ABC=27^\\circ$，$BC=44\\text{cm}$，则高 $AD$ 约为\n\n（参考数据：$\\sin 27^\\circ\\approx0.45$，$\\cos 27^\\circ\\approx0.89$，$\\tan 27^\\circ\\approx0.51$）",
+   "options": [
+    "A. $9.90\\text{cm}$",
+    "B. $11.22\\text{cm}$",
+    "C. $19.58\\text{cm}$",
+    "D. $22.44\\text{cm}$"
+   ],
+   "figures": [
+    "figs/2022-9-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.geo.trig_app",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，现有一把直尺和一块三角尺，其中 $\\angle ABC=90^\\circ$，$\\angle CAB=60^\\circ$，$AB=8$，点 $A$ 对应直尺的刻度为 12. 将该三角尺沿着直尺边缘平移，使得 $\\triangle ABC$ 移动到 $\\triangle A'B'C'$，点 $A'$ 对应直尺的刻度为 0，则四边形 $ACC'A'$ 的面积是",
+   "options": [
+    "A. $96$",
+    "B. $96\\sqrt{3}$",
+    "C. $192$",
+    "D. $160\\sqrt{3}$"
+   ],
+   "figures": [
+    "figs/2022-10-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.trans.translation",
+    "shuxue.geo.parallelogram",
+    "shuxue.geo.trig"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2022-11",
+   "no": "11",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "四边形的外角和度数是____.",
+   "answer": "$360^\\circ$",
+   "kp": [
+    "shuxue.geo.polygon"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-12",
+   "no": "12",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，在 $\\triangle ABC$ 中，$D$，$E$ 分别是 $AB$，$AC$ 的中点. 若 $BC=12$，则 $DE$ 的长为____.",
+   "figures": [
+    "figs/2022-12-1.png"
+   ],
+   "answer": "6",
+   "kp": [
+    "shuxue.geo.midline"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-13",
+   "no": "13",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "一个不透明的袋中装有 3 个红球和 2 个白球，这些球除颜色外无其他差别. 现随机从袋中摸出一个球，这个球是红球的概率是____.",
+   "answer": "$\\frac{3}{5}$",
+   "kp": [
+    "shuxue.prob.classical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-14",
+   "no": "14",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "已知反比例函数 $y=\\frac{k}{x}$ 的图象分别位于第二、第四象限，则实数 $k$ 的值可以是____.（只需写出一个符合条件的实数）",
+   "answer": "答案不唯一，负数即可",
+   "kp": [
+    "shuxue.func.inverse"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "推理是数学的基本思维方式，若推理过程不严谨，则推理结果可能产生错误.\n\n例如，有人声称可以证明“任意一个实数都等于 0”，并证明如下：\n\n设任意一个实数为 $x$，令 $x=m$，\n\n等式两边都乘以 $x$，得 $x^{2}=mx$.　①\n\n等式两边都减 $m^{2}$，得 $x^{2}-m^{2}=mx-m^{2}$.　②\n\n等式两边分别分解因式，得 $(x+m)(x-m)=m(x-m)$.　③\n\n等式两边都除以 $x-m$，得 $x+m=m$.　④\n\n等式两边都减 $m$，得 $x=0$.　⑤\n\n所以任意一个实数都等于 0.\n\n以上推理过程中，开始出现错误的那一步对应的序号是____.",
+   "answer": "④",
+   "kp": [
+    "shuxue.prac.reasoning",
+    "shuxue.num.factorize"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2022-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "已知抛物线 $y=x^{2}+2x-n$ 与 $x$ 轴交于 $A$，$B$ 两点，抛物线 $y=x^{2}-2x-n$ 与 $x$ 轴交于 $C$，$D$ 两点，其中 $n>0$. 若 $AD=2BC$，则 $n$ 的值为____.",
+   "answer": "8",
+   "kp": [
+    "shuxue.func.quad_eq",
+    "shuxue.func.quad_param"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2022-17",
+   "no": "17",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "计算：$\\sqrt{4}+|\\sqrt{3}-1|-2022^{0}$.",
+   "answer": "解：原式 $=2+\\sqrt{3}-1-1=\\sqrt{3}$.\n说明：本参考答案仅给出一种解法供参考.",
+   "rubric": "本小题考查二次根式、绝对值、零指数幂等基础知识. 满分 8 分.",
+   "kp": [
+    "shuxue.num.real_calc"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-18",
+   "no": "18",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "如图，点 $B$，$F$，$C$，$E$ 在同一条直线上，$BF=EC$，$AB=DE$，$\\angle B=\\angle E$. 求证：$\\angle A=\\angle D$.",
+   "figures": [
+    "figs/2022-18-1.png"
+   ],
+   "answer": "证明：$\\because BF=EC$，\n\n$\\therefore BF+CF=EC+CF$，即 $BC=EF$.\n\n在 $\\triangle ABC$ 和 $\\triangle DEF$ 中，$\\begin{cases}AB=DE,\\\\ \\angle B=\\angle E,\\\\ BC=EF,\\end{cases}$\n\n$\\therefore \\triangle ABC\\cong\\triangle DEF$，\n\n$\\therefore \\angle A=\\angle D$.\n说明：本参考答案仅给出一种解法供参考.",
+   "rubric": "本小题考查全等三角形的判定与性质等基础知识，考查推理能力、空间观念与几何直观. 满分 8 分.",
+   "kp": [
+    "shuxue.geo.congruent"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-19",
+   "no": "19",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "先化简，再求值：$\\left(1+\\frac{1}{a}\\right)\\div\\frac{a^{2}-1}{a}$，其中 $a=\\sqrt{2}+1$.",
+   "answer": "解：原式 $=\\frac{a+1}{a}\\div\\frac{(a+1)(a-1)}{a}$\n\n$=\\frac{a+1}{a}\\cdot\\frac{a}{(a+1)(a-1)}$\n\n$=\\frac{1}{a-1}$.\n\n当 $a=\\sqrt{2}+1$ 时，\n\n原式 $=\\frac{1}{\\sqrt{2}+1-1}=\\frac{\\sqrt{2}}{2}$.\n说明：本参考答案仅给出一种解法供参考.",
+   "rubric": "本小题考查平方差公式、分式基本性质等基础知识，考查因式分解、分式运算、二次根式化简等基本技能. 满分 8 分.",
+   "kp": [
+    "shuxue.num.fraction",
+    "shuxue.num.radical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-20-1",
+   "no": "20(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q20",
+   "stem": "判断活动前、后两次调查数据的中位数分别落在哪一组；",
+   "answer": "解：（1）活动前调查数据的中位数落在 C 组；\n\n活动后调查数据的中位数落在 D 组.",
+   "rubric": "本小题考查统计图、中位数、样本估计总体等基础知识，考查阅读理解能力、应用意识和数据分析观念. 满分 8 分.",
+   "kp": [
+    "shuxue.stat.central",
+    "shuxue.stat.chart"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-20-2",
+   "no": "20(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q20",
+   "stem": "该校共有 2000 名学生，请根据活动后的调查结果，估计该校学生一周的课外劳动时间不小于 3h 的人数.",
+   "answer": "（2）一周的课外劳动时间不小于 3h 的比例为 $30\\%+24\\%+16\\%=70\\%$，\n\n$2000\\times70\\%=1400$.\n\n答：根据活动后的调查结果，估计该校学生一周的课外劳动时间不小于 3h 的人数为 1400.\n说明：本参考答案仅给出一种解法供参考.",
+   "kp": [
+    "shuxue.stat.collect",
+    "shuxue.stat.chart"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-21-1",
+   "no": "21(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q21",
+   "stem": "求证：$AC=AF$；",
+   "answer": "证明：（1）$\\because AD\\parallel BC$，$DF\\parallel AB$，\n\n$\\therefore$ 四边形 $ABED$ 是平行四边形，\n\n$\\therefore \\angle B=\\angle D$.\n\n又 $\\angle AFC=\\angle B$，$\\angle ACF=\\angle D$，\n\n$\\therefore \\angle AFC=\\angle ACF$，\n\n$\\therefore AC=AF$.",
+   "rubric": "本小题考查等腰三角形的判定与性质、平行四边形的判定与性质、圆的性质和弧长公式等基础知识，考查化归与转化思想，考查推理能力、空间观念与几何直观等数学素养. 满分 8 分.",
+   "kp": [
+    "shuxue.circle.basic",
+    "shuxue.geo.parallelogram",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2022-21-2",
+   "no": "21(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q21",
+   "stem": "若 $\\odot O$ 的半径为 3，$\\angle CAF=30^\\circ$，求 $\\overset{\\frown}{AC}$ 的长（结果保留 $\\pi$）.",
+   "answer": "（2）连接 $AO$，$CO$.\n\n由（1）得 $\\angle AFC=\\angle ACF$，\n\n又 $\\because \\angle CAF=30^\\circ$，\n\n$\\therefore \\angle AFC=\\frac{180^\\circ-30^\\circ}{2}=75^\\circ$，\n\n$\\therefore \\angle AOC=2\\angle AFC=150^\\circ$.\n\n$\\therefore \\overset{\\frown}{AC}$ 的长 $l=\\frac{150\\times\\pi\\times3}{180}=\\frac{5\\pi}{2}$.\n说明：本参考答案仅给出一种解法供参考.",
+   "kp": [
+    "shuxue.circle.polygon_arc",
+    "shuxue.circle.basic"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2022-22-1",
+   "no": "22(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q22",
+   "stem": "采购组计划将预算经费 390 元全部用于购买绿萝和吊兰，问可购买绿萝和吊兰各多少盆？",
+   "answer": "解：（1）设购买绿萝 $x$ 盆，吊兰 $y$ 盆.\n\n根据题意，得 $\\begin{cases}x+y=46,\\\\ 9x+6y=390,\\end{cases}$\n\n解得 $\\begin{cases}x=38,\\\\ y=8,\\end{cases}$\n\n因为 $38>2\\times8$，所以答案符合题意.\n\n答：可购买绿萝 38 盆，吊兰 8 盆.",
+   "rubric": "本小题考查一元一次方程、二元一次方程组、一元一次不等式的应用、一次函数的性质等基础知识，考查函数与方程思想，考查运算能力、模型思想、应用意识等数学素养. 满分 10 分.",
+   "kp": [
+    "shuxue.eq.system_app"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-22-2",
+   "no": "22(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q22",
+   "stem": "规划组认为有比 390 元更省钱的购买方案，请求出购买两种绿植总费用的最小值.",
+   "answer": "（2）设购买绿萝 $m$ 盆，吊兰 $(46-m)$ 盆，购买两种绿植的总费用为 $W$ 元.\n\n$W=9m+6(46-m)=3m+276$，\n\n根据题意，得 $m\\geqslant2(46-m)$，解得 $m\\geqslant\\frac{92}{3}$，\n\n因为 $W$ 是 $m$ 的一次函数，$W$ 随 $m$ 的增大而增大，\n\n又 $m$ 为整数，所以 $m$ 取最小值 31 时，$W$ 的值最小.\n\n当 $m=31$ 时，$W=3\\times31+276=369$（元）.\n\n答：购买两种绿植总费用的最小值为 369 元.\n说明：本参考答案仅给出一种解法供参考.",
+   "kp": [
+    "shuxue.ineq.app",
+    "shuxue.func.linear_app"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2022-23-1",
+   "no": "23(1)",
+   "section": "解答题",
+   "type": "draw",
+   "score": 4,
+   "material": "q23",
+   "stem": "求作 $\\odot A$，使得 $\\odot A$ 与 $BD$ 相切（要求：尺规作图，不写作法，保留作图痕迹）；",
+   "answer": "解：（1）\n\n![](figs/2022-23-ans.png)\n\n如图所示，$\\odot A$ 即为所求作.",
+   "rubric": "本小题考查直角三角形的性质、特殊平行四边形的判定与性质、圆的概念与性质、锐角三角函数、一元二次方程等基础知识，考查尺规作图技能，考查函数与方程、化归与转化等数学思想方法，考查推理能力、运算能力、空间观念与几何直观、创新意识等数学素养，渗透数学文化. 满分 10 分.",
+   "kp": [
+    "shuxue.construct.design",
+    "shuxue.circle.tangent"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2022-23-2",
+   "no": "23(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q23",
+   "stem": "在（1）的条件下，设 $BD$ 与 $\\odot A$ 相切于点 $E$，$CF\\perp BD$，垂足为 $F$. 若直线 $CF$ 与 $\\odot A$ 相切于点 $G$，求 $\\tan\\angle ADB$ 的值.",
+   "answer": "（2）设 $\\angle ADB=\\alpha$，$\\odot A$ 的半径为 $r$.\n\n$\\because BD$ 与 $\\odot A$ 相切于点 $E$，$CF$ 与 $\\odot A$ 相切于点 $G$，\n\n$\\therefore AE\\perp BD$，$AG\\perp CG$，即 $\\angle AEF=\\angle AGF=90^\\circ$.\n\n$\\because CF\\perp BD$，\n\n$\\therefore \\angle EFG=90^\\circ$，\n\n$\\therefore$ 四边形 $AEFG$ 是矩形.\n\n又 $AE=AG=r$，\n\n$\\therefore$ 四边形 $AEFG$ 是正方形.\n\n$\\therefore EF=AE=r$.\n\n在 $\\mathrm{Rt}\\triangle AEB$ 和 $\\mathrm{Rt}\\triangle DAB$ 中，$\\angle BAE+\\angle ABD=90^\\circ$，$\\angle ADB+\\angle ABD=90^\\circ$，\n\n$\\therefore \\angle BAE=\\angle ADB=\\alpha$.\n\n在 $\\mathrm{Rt}\\triangle ABE$ 中，$\\tan\\angle BAE=\\frac{BE}{AE}$，\n\n$\\therefore BE=r\\tan\\alpha$.\n\n$\\because$ 四边形 $ABCD$ 是矩形，\n\n$\\therefore AB\\parallel CD$，$AB=CD$，\n\n$\\therefore \\angle ABE=\\angle CDF$，\n\n又 $\\angle AEB=\\angle CFD=90^\\circ$，\n\n$\\therefore \\triangle ABE\\cong\\triangle CDF$，\n\n$\\therefore BE=DF=r\\tan\\alpha$，\n\n$\\therefore DE=DF+EF=r\\tan\\alpha+r$.\n\n在 $\\mathrm{Rt}\\triangle ADE$ 中，$\\tan\\angle ADE=\\frac{AE}{DE}$，即 $DE\\cdot\\tan\\alpha=AE$，\n\n$\\therefore (r\\tan\\alpha+r)\\tan\\alpha=r$，\n\n即 $\\tan^{2}\\alpha+\\tan\\alpha-1=0$.\n\n$\\because \\tan\\alpha>0$，\n\n$\\therefore \\tan\\alpha=\\frac{\\sqrt{5}-1}{2}$.\n\n即 $\\tan\\angle ADB$ 的值为 $\\frac{\\sqrt{5}-1}{2}$.\n说明：本参考答案仅给出一种解法供参考.",
+   "kp": [
+    "shuxue.circle.tangent",
+    "shuxue.geo.trig",
+    "shuxue.eq.quad_solve"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2022-24-1",
+   "no": "24(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q24",
+   "stem": "如图 1，$CB$ 平分 $\\angle ACD$，求证：四边形 $ABDC$ 是菱形；",
+   "answer": "解：（1）$\\because \\triangle ABC\\cong\\triangle DEC$，\n\n$\\therefore AC=DC$.\n\n$\\because AB=AC$，\n\n$\\therefore \\angle ABC=\\angle ACB$，$AB=DC$.\n\n$\\because CB$ 平分 $\\angle ACD$，\n\n$\\therefore \\angle ACB=\\angle DCB$，\n\n$\\therefore \\angle ABC=\\angle DCB$，\n\n$\\therefore AB\\parallel CD$，\n\n$\\therefore$ 四边形 $ABDC$ 是平行四边形.\n\n又 $AB=AC$，\n\n$\\therefore$ 四边形 $ABDC$ 是菱形.",
+   "rubric": "本小题考查平行线的判定、等腰三角形的性质、全等三角形的判定与性质、菱形的判定等基础知识，考查特殊与一般、函数与方程、化归与转化等数学思想方法，考查推理能力、空间观念与几何直观等数学素养. 满分 12 分.",
+   "kp": [
+    "shuxue.geo.special_quad",
+    "shuxue.geo.congruent",
+    "shuxue.geo.parallel"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2022-24-2",
+   "no": "24(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q24",
+   "stem": "如图 2，将（1）中的 $\\triangle CDE$ 绕点 $C$ 逆时针旋转（旋转角小于 $\\angle BAC$），$BC$，$DE$ 的延长线相交于点 $F$，用等式表示 $\\angle ACE$ 与 $\\angle EFC$ 之间的数量关系，并证明；",
+   "answer": "（2）结论：$\\angle ACE+\\angle EFC=180^\\circ$.\n\n$\\because \\triangle ABC\\cong\\triangle DEC$，\n\n$\\therefore \\angle ABC=\\angle DEC$.\n\n$\\because AB=AC$，\n\n$\\therefore \\angle ABC=\\angle ACB$，\n\n$\\therefore \\angle ACB=\\angle DEC$.\n\n$\\because \\angle ACB+\\angle ACF=\\angle DEC+\\angle CEF=180^\\circ$，\n\n$\\therefore \\angle ACF=\\angle CEF$.\n\n$\\because \\angle CEF+\\angle ECF+\\angle EFC=180^\\circ$，\n\n$\\therefore \\angle ACF+\\angle ECF+\\angle EFC=180^\\circ$，\n\n$\\therefore \\angle ACE+\\angle EFC=180^\\circ$.",
+   "kp": [
+    "shuxue.trans.rotation",
+    "shuxue.geo.congruent",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2022-24-3",
+   "no": "24(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q24",
+   "stem": "如图 3，将（1）中的 $\\triangle CDE$ 绕点 $C$ 顺时针旋转（旋转角小于 $\\angle ABC$），若 $\\angle BAD=\\angle BCD$，求 $\\angle ADB$ 的度数.",
+   "answer": "（3）在 $AD$ 上取一点 $M$，使得 $AM=CB$，连接 $BM$.\n\n$\\because AB=CD$，$\\angle BAD=\\angle BCD$，\n\n$\\therefore \\triangle ABM\\cong\\triangle CDB$，\n\n$\\therefore BM=BD$，$\\angle MBA=\\angle BDC$，\n\n$\\therefore \\angle ADB=\\angle BMD$，\n\n$\\because \\angle BMD=\\angle BAD+\\angle MBA$，\n\n$\\therefore \\angle ADB=\\angle BCD+\\angle BDC$.\n\n设 $\\angle BCD=\\angle BAD=\\alpha$，$\\angle BDC=\\beta$，则 $\\angle ADB=\\alpha+\\beta$.\n\n$\\because CA=CD$，\n\n$\\therefore \\angle CAD=\\angle CDA=\\alpha+2\\beta$，\n\n$\\therefore \\angle BAC=\\angle CAD-\\angle BAD=2\\beta$，\n\n$\\therefore \\angle ACB=\\frac{1}{2}(180^\\circ-\\angle BAC)=90^\\circ-\\beta$，\n\n$\\therefore \\angle ACD=(90^\\circ-\\beta)+\\alpha$.\n\n$\\because \\angle ACD+\\angle CAD+\\angle CDA=180^\\circ$，\n\n$\\therefore (90^\\circ-\\beta)+\\alpha+2(\\alpha+2\\beta)=180^\\circ$，\n\n$\\therefore \\alpha+\\beta=30^\\circ$，即 $\\angle ADB=30^\\circ$.\n说明：本参考答案仅给出一种解法供参考.",
+   "kp": [
+    "shuxue.geo.synthesis",
+    "shuxue.geo.congruent",
+    "shuxue.trans.rotation"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2022-25-1",
+   "no": "25(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q25",
+   "stem": "求抛物线的解析式；",
+   "answer": "解：（1）将 $A(4,0)$，$B(1,4)$ 代入 $y=ax^{2}+bx$，\n\n得 $\\begin{cases}16a+4b=0,\\\\ a+b=4,\\end{cases}$\n\n解得 $\\begin{cases}a=-\\frac{4}{3},\\\\ b=\\frac{16}{3}.\\end{cases}$\n\n所以抛物线的解析式为 $y=-\\frac{4}{3}x^{2}+\\frac{16}{3}x$.",
+   "rubric": "本小题考查一次函数和二次函数的图象与性质、三角函数、三角形面积、相似三角形的判定与性质等基础知识，考查数形结合、函数与方程、函数建模等数学思想方法，考查运算能力、推理能力、空间观念与几何直观、创新意识等数学素养. 满分 14 分.",
+   "kp": [
+    "shuxue.func.quad_expr"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2022-25-2",
+   "no": "25(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q25",
+   "stem": "若 $\\triangle OAB$ 面积是 $\\triangle PAB$ 面积的 2 倍，求点 $P$ 的坐标；",
+   "answer": "（2）设直线 $AB$ 的解析式为 $y=kx+t\\ (k\\neq0)$，\n\n将 $A(4,0)$，$B(1,4)$ 代入 $y=kx+t$，\n\n得 $\\begin{cases}4k+t=0,\\\\ k+t=4,\\end{cases}$ 解得 $\\begin{cases}k=-\\frac{4}{3},\\\\ t=\\frac{16}{3}.\\end{cases}$\n\n所以直线 $AB$ 的解析式为 $y=-\\frac{4}{3}x+\\frac{16}{3}$.\n\n过点 $P$ 作 $PM\\perp x$ 轴，垂足为 $M$，$PM$ 交 $AB$ 于点 $N$.\n\n过点 $B$ 作 $BE\\perp PM$，垂足为 $E$.\n\n所以 $S_{\\triangle PAB}=S_{\\triangle PNB}+S_{\\triangle PNA}=\\frac{1}{2}PN\\times BE+\\frac{1}{2}PN\\times AM=\\frac{1}{2}PN\\times(BE+AM)=\\frac{3}{2}PN$.\n\n因为 $A(4,0)$，$B(1,4)$，所以 $S_{\\triangle OAB}=\\frac{1}{2}\\times4\\times4=8$.\n\n因为 $\\triangle OAB$ 的面积是 $\\triangle PAB$ 面积的 2 倍，\n\n所以 $2\\times\\frac{3}{2}PN=8$，$PN=\\frac{8}{3}$.\n\n设 $P\\left(m,-\\frac{4}{3}m^{2}+\\frac{16}{3}m\\right)\\ (1<m<4)$，则 $N\\left(m,-\\frac{4}{3}m+\\frac{16}{3}\\right)$.\n\n所以 $PN=\\left(-\\frac{4}{3}m^{2}+\\frac{16}{3}m\\right)-\\left(-\\frac{4}{3}m+\\frac{16}{3}\\right)=\\frac{8}{3}$，\n\n即 $-\\frac{4}{3}m^{2}+\\frac{20}{3}m-\\frac{16}{3}=\\frac{8}{3}$，\n\n解得 $m_{1}=2$，$m_{2}=3$.\n\n所以点 $P$ 的坐标为 $\\left(2,\\frac{16}{3}\\right)$ 或 $(3,4)$.",
+   "kp": [
+    "shuxue.func.quad_geo",
+    "shuxue.func.linear"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2022-25-3",
+   "no": "25(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q25",
+   "stem": "如图，$OP$ 交 $AB$ 于点 $C$，$PD\\parallel BO$ 交 $AB$ 于点 $D$. 记 $\\triangle CDP$，$\\triangle CPB$，$\\triangle CBO$ 的面积分别为 $S_{1}$，$S_{2}$，$S_{3}$. 判断 $\\frac{S_{1}}{S_{2}}+\\frac{S_{2}}{S_{3}}$ 是否存在最大值. 若存在，求出最大值；若不存在，请说明理由.",
+   "answer": "（3）因为 $PD\\parallel OB$，所以 $\\angle DPC=\\angle BOC$，$\\angle PDC=\\angle OBC$，\n\n所以 $\\triangle DPC\\backsim\\triangle BOC$，\n\n所以 $\\frac{CP}{CO}=\\frac{CD}{CB}=\\frac{PD}{OB}$.\n\n因为 $\\frac{S_{1}}{S_{2}}=\\frac{CD}{CB}$，$\\frac{S_{2}}{S_{3}}=\\frac{CP}{CO}$，\n\n所以 $\\frac{S_{1}}{S_{2}}+\\frac{S_{2}}{S_{3}}=\\frac{2PD}{OB}$.\n\n设直线 $AB$ 交 $y$ 轴于点 $F$，则 $F\\left(0,\\frac{16}{3}\\right)$.\n\n过点 $P$ 作 $PH\\perp x$ 轴，垂足为 $H$，$PH$ 交 $AB$ 于点 $G$.\n\n因为 $\\angle PDC=\\angle OBC$，所以 $\\angle PDG=\\angle OBF$，\n\n因为 $PG\\parallel OF$，所以 $\\angle PGD=\\angle OFB$，\n\n所以 $\\triangle PDG\\backsim\\triangle OBF$，\n\n所以 $\\frac{PD}{OB}=\\frac{PG}{OF}$.\n\n设 $P\\left(n,-\\frac{4}{3}n^{2}+\\frac{16}{3}n\\right)\\ (1<n<4)$. 由（2）可得 $PG=-\\frac{4}{3}n^{2}+\\frac{20}{3}n-\\frac{16}{3}$，\n\n所以 $\\frac{S_{1}}{S_{2}}+\\frac{S_{2}}{S_{3}}=\\frac{2PG}{OF}=\\frac{3}{8}PG=\\frac{3}{8}\\left(-\\frac{4}{3}n^{2}+\\frac{20}{3}n-\\frac{16}{3}\\right)=-\\frac{1}{2}\\left(n-\\frac{5}{2}\\right)^{2}+\\frac{9}{8}$.\n\n又 $1<n<4$，\n\n所以，当 $n=\\frac{5}{2}$ 时，$\\frac{S_{1}}{S_{2}}+\\frac{S_{2}}{S_{3}}$ 的最大值为 $\\frac{9}{8}$.\n说明：本参考答案仅给出一种解法供参考.",
+   "kp": [
+    "shuxue.func.quad_geo",
+    "shuxue.geo.similar"
+   ],
+   "difficulty": 3
+  }
+ ]
+}

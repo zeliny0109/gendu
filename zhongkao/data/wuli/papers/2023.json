@@ -1,0 +1,963 @@
+{
+ "subject": "wuli",
+ "year": 2023,
+ "source": "福建省教育考试院《福建省初中学业水平考试 试题、参考答案》合订本（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/zlxz/202306/t20230626_4626661.htm（附件 P020230626469161406768.pdf，第 38–50 页）",
+ "total": 100,
+ "minutes": 90,
+ "materials": [
+  {
+   "id": "m15",
+   "text": "如图 9 所示，民间有“做白粿迎新春”的传统习俗。制作白粿时，先将浸泡过的米放在木桶中蒸熟，再放入石臼中用木棰捶打，最后搓揉成形。据此回答 15~17 题。",
+   "figures": [
+    "figs/2023-m15-1.png"
+   ]
+  },
+  {
+   "id": "m24",
+   "text": "24.（4 分）图 14 是探究滑动摩擦力大小与哪些因素有关的实验情景。",
+   "figures": [
+    "figs/2023-m24-1.png"
+   ]
+  },
+  {
+   "id": "m25",
+   "text": "25.（6 分）利用低温箱和温度传感器探究不同温度的水降温的快慢，温度传感器可实时监测并自动记录水温，如图 15 甲所示。",
+   "figures": [
+    "figs/2023-m25-1.png"
+   ]
+  },
+  {
+   "id": "m26",
+   "text": "26.（5 分）在探究凸透镜成像规律的实验中：",
+   "figures": [
+    "figs/2023-m26-1.png"
+   ]
+  },
+  {
+   "id": "m27",
+   "text": "27.（6 分）用透明圆筒制作测量液体密度的密度计。",
+   "figures": []
+  },
+  {
+   "id": "m28",
+   "text": "28.（9 分）学校“水培种植小屋”的蔬菜适宜生长的温度在 $10\\sim30\\ ^\\circ\\text{C}$ 之间，项目式学习小组利用热敏电阻和电阻箱设计温度报警电路，电阻箱是可以调节并显示阻值的变阻器。",
+   "figures": []
+  },
+  {
+   "id": "m29",
+   "text": "29.（6 分）图 20 是某暖手宝的工作原理图，电源电压恒为 $6\\ \\text{V}$，电阻 $R_1$ 为 $10\\ \\Omega$。闭合开关 S，电路的总电流为 $1\\ \\text{A}$。求：",
+   "figures": [
+    "figs/2023-m29-1.png"
+   ]
+  },
+  {
+   "id": "m30",
+   "text": "30.（8 分）小华利用氦气球与探空仪了解空气状况。如图 21 甲所示，质量为 $0.4\\ \\text{kg}$ 的探空仪静止在水平桌面上，与桌面接触面积为 $0.02\\ \\text{m}^2$。在室内测试时，将探空仪固定在充有氦气的气球上，释放后氦气球恰好能携带探空仪悬浮在空中，如图 21 乙所示。已知球壳质量为 $0.23\\ \\text{kg}$，球内氦气的密度为 $0.17\\ \\text{kg/m}^3$，室内空气的密度为 $1.22\\ \\text{kg/m}^3$。求：",
+   "figures": [
+    "figs/2023-m30-1.png"
+   ]
+  },
+  {
+   "id": "m31",
+   "text": "31.（8 分）实践小组设计了由厢体、承重板和动滑轮组成的提升重物的装置，示意图如图 22 甲，厢体放置在水平承重板上，承重板的上表面装有压力传感器，装置由电动机提供动力。该装置设计有超载限制系统，如图 22 乙，限制系统中的控制电路电源电压恒为 $12\\ \\text{V}$，定值电阻 $R_0$ 阻值为 $200\\ \\Omega$，压力传感器中的力敏电阻 $R_{\\text{F}}$ 阻值随压力 $F_{\\text{压}}$ 变化的部分数据如下表所示。当控制电路的电流大于 $0.03\\ \\text{A}$ 时，电磁铁将衔铁吸下，B、C 两个触点断开，电动机停止工作。已知厢体重 $150\\ \\text{N}$，承重板和滑轮共重 $100\\ \\text{N}$，忽略绳重、摩擦和电磁铁线圈电阻。\n\n| $F_{\\text{压}}$/N | … | 400 | 600 | 800 | 900 | 1 000 | … |\n|---|---|---|---|---|---|---|---|\n| $R_{\\text{F}}$/Ω | … | 800 | 500 | 300 | 200 | 100 | … |",
+   "figures": [
+    "figs/2023-m31-1.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "wuli-2023-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "古有北斗星指方向，今有北斗卫星导航程。北斗卫星与地面间传递信息是利用",
+   "options": [
+    "A. 超声波",
+    "B. 次声波",
+    "C. 电磁波",
+    "D. 空气"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.energy.em_wave"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "在我国古代的四大发明中，主要应用了磁性材料特性的是",
+   "options": [
+    "A. 指南针",
+    "B. 火药",
+    "C. 印刷术",
+    "D. 造纸术"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.magnet.basics"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列利用电流热效应工作的用电器是",
+   "options": [
+    "A. 电视机",
+    "B. 电风扇",
+    "C. 电脑",
+    "D. 电炉"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.power.joule"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列光现象与图 1 中廊桥倒影形成的原理相同的是",
+   "options": [
+    "A. 镜花水月",
+    "B. 小孔成像",
+    "C. 海市蜃楼",
+    "D. 立竿见影"
+   ],
+   "figures": [
+    "figs/2023-4-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.light.plane_mirror",
+    "wuli.light.reflection"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "从百米浅海到万米深海，中国自主研制的潜水器有了质的飞跃。潜水器下潜到图 2 中标注的对应深度，承受海水压强最大的是",
+   "options": [
+    "A. 7103 救生艇（1986 年，深度 300 m）",
+    "B. 蛟龙号（2012 年，深度 7 062 m）",
+    "C. 深海勇士号（2017 年，深度 4 500 m）",
+    "D. 奋斗者号（2020 年，深度 10 909 m）"
+   ],
+   "figures": [
+    "figs/2023-5-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.pressure.liquid"
+   ],
+   "difficulty": 1,
+   "note": "选项原文只有潜水器名称，年份与深度取自图 2 中的标注，写在括号里"
+  },
+  {
+   "id": "wuli-2023-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "滑动变阻器可以改变接入电路中电阻的大小。使用时移动滑片，改变的是滑动变阻器接入电路中电阻丝的",
+   "options": [
+    "A. 材料",
+    "B. 横截面积",
+    "C. 长度",
+    "D. 电流方向"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.circuit.resistance"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列做法符合安全用电原则的是",
+   "options": [
+    "A. 用电器着火时用水灭火",
+    "B. 在高压线附近放风筝",
+    "C. 在灯和零线之间接开关",
+    "D. 更换灯泡前先断开电源"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.home.safety",
+    "wuli.home.circuit"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "城市中修建人工湖和湿地公园，可以调节气温，这主要是利用水的",
+   "options": [
+    "A. 密度较大",
+    "B. 沸点较高",
+    "C. 比热容大",
+    "D. 流动性好"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.thermal.specific_heat"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图 3 所示，张继的《枫桥夜泊》描绘了枫桥附近的夜景。下列说法正确的是",
+   "options": [
+    "A. “霜”是水蒸气遇冷吸热后形成的",
+    "B. “月”和“渔火”都属于光源",
+    "C. 以“寺”为参照物，“桥”是运动的",
+    "D. 敲钟的力越大，“钟声”的响度越大"
+   ],
+   "figures": [
+    "figs/2023-9-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.sound.features",
+    "wuli.heat.phase_change",
+    "wuli.motion.relative"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2023-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "图 4 是某衬衫吊牌的部分信息，号型“170/92 A”表示适穿人群的特征参数及体型。“A”表示适用于一般体型，“170”表示身高 170 cm，“92”表示",
+   "options": [
+    "A. 胸围 92 cm",
+    "B. 肩膀宽 92 cm",
+    "C. 上臂周长 92 cm",
+    "D. 脖子周长 92 cm"
+   ],
+   "figures": [
+    "figs/2023-10-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.motion.estimate"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-11",
+   "no": "11",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "经过十年的不懈探索，法拉第发现了电磁感应现象。图 5 中可以探究产生感应电流条件的装置是",
+   "options": [
+    "A. （见图 5 A）",
+    "B. （见图 5 B）",
+    "C. （见图 5 C）",
+    "D. （见图 5 D）"
+   ],
+   "figures": [
+    "figs/2023-11-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.magnet.induction",
+    "wuli.method.history"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-12",
+   "no": "12",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "东南海域水质的改善，给了中华白海豚一个温馨的家。如图 6 所示，下列说法正确的是",
+   "options": [
+    "A. 海豚跃出海面减速上升过程，动能不变",
+    "B. 海豚跃起到最高点时，重力势能最大",
+    "C. 海豚从高处落回海面过程，重力势能不变",
+    "D. 海豚在海面下加速下潜过程，动能变小"
+   ],
+   "figures": [
+    "figs/2023-12-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.work.mech_energy"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-13",
+   "no": "13",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图 7 所示，闭合开关 S，滑动变阻器滑片 P 移动过程中，灯突然熄灭，电压表和电流表均无示数。若电路中仅有一处故障，则故障**不可能**是",
+   "options": [
+    "A. 电流表接线松开",
+    "B. 小灯泡 L 断路",
+    "C. 滑动变阻器 $R$ 断路",
+    "D. 开关 S 接触不良"
+   ],
+   "figures": [
+    "figs/2023-13-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.ohm.fault"
+   ],
+   "difficulty": 2,
+   "note": "“不可能”三字原卷加着重号"
+  },
+  {
+   "id": "wuli-2023-14",
+   "no": "14",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图 8 甲所示，一块质量分布均匀的长木板平放在水平桌面上，对长木板施加一个水平向右的力 $F$，使木板沿着与桌子边缘平行的方向缓慢向右做直线运动，直到木板的 $\\frac{1}{4}$ 长度伸出桌面时停止运动，此过程中木板对桌面的压强 $p$ 与木板被推动的距离 $x$ 的关系图象如图 8 乙所示。已知木板宽为 $0.25\\ \\text{m}$，下列判断正确的是",
+   "options": [
+    "A. 长木板的底面积为 $0.25\\ \\text{m}^2$",
+    "B. 当 $x=0.26\\ \\text{m}$ 时，木板对桌面的压强为 $37.5\\ \\text{Pa}$",
+    "C. 当 $x=0.30\\ \\text{m}$ 时，木板对桌面的压力为 $9\\ \\text{N}$",
+    "D. 移动过程中，木板对桌面的压力先不变后增大"
+   ],
+   "figures": [
+    "figs/2023-14-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.pressure.solid"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2023-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "material": "m15",
+   "stem": "蒸米时，木桶中米内能的增加是通过____方式实现的。完全燃烧 $10\\ \\text{kg}$ 的干木柴能释放出____ J 的热量。（干木柴的热值为 $1.2\\times10^{7}\\ \\text{J/kg}$）",
+   "answer": "热传递；$1.2\\times10^{8}$",
+   "kp": [
+    "wuli.thermal.internal_energy",
+    "wuli.thermal.fuel"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "material": "m15",
+   "stem": "从木桶中冒出的“白气”是水蒸气____形成的（填物态变化名称）。米香四溢是因为分子在不停地____。",
+   "answer": "液化；无规则运动（或其他合理答案）",
+   "kp": [
+    "wuli.heat.vaporization",
+    "wuli.thermal.molecule"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-17",
+   "no": "17",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "material": "m15",
+   "stem": "捶打时，木棰相当于一个____杠杆。白粿被搓揉成圆条形，说明力可以改变物体的____。",
+   "answer": "费力；形状",
+   "kp": [
+    "wuli.machine.lever",
+    "wuli.force.concept"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-18",
+   "no": "18",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "我国古药物学家常用布摩擦过的琥珀能否吸引干草屑来辨别琥珀的真假。摩擦后的琥珀能吸引干草屑，说明琥珀带了____。吸管和纸巾摩擦后，吸管带负电，说明摩擦过程中____（填“吸管”或“纸巾”）失去电子。",
+   "answer": "电荷（或电）；纸巾",
+   "kp": [
+    "wuli.circuit.charge"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-19",
+   "no": "19",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "我国拥有全球最大的海上风力发电站。风能属于____能源。风力发电设备测试时，风机叶片转动一圈用时 $20\\ \\text{s}$，发电功率约为 $6\\ 120\\ \\text{kW}$，则风机叶片转动一圈的发电量为____ $\\text{kW}\\cdot\\text{h}$。",
+   "answer": "可再生（或其他合理答案）；34",
+   "kp": [
+    "wuli.energy.sources",
+    "wuli.power.energy"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2023-20",
+   "no": "20",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "如图 10 所示，电源电压不变，灯 $L_1$、$L_2$ 完全相同。闭合 $S_1$，断开 $S_2$、$S_3$，灯 $L_1$、$L_2$ 是____联的。闭合 $S_1$、$S_2$，断开 $S_3$，电压表示数为 $U_1$；闭合 $S_1$、$S_3$，断开 $S_2$，电压表示数为 $U_2$，则 $U_1:U_2=$____。",
+   "figures": [
+    "figs/2023-20-1.png"
+   ],
+   "answer": "串；2∶1",
+   "kp": [
+    "wuli.circuit.design",
+    "wuli.circuit.voltage"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2023-21",
+   "no": "21",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "投掷实心球是体育项目之一。请在图 11 中画出静止在水平地面上实心球的受力示意图。",
+   "figures": [
+    "figs/2023-21-1.png"
+   ],
+   "answer": "如图",
+   "answer_figures": [
+    "figs/2023-21-ans.png"
+   ],
+   "kp": [
+    "wuli.force.diagram",
+    "wuli.mf.balance"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-22",
+   "no": "22",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "光从空气斜射入玻璃中，请在图 12 中画出反射光线和折射光线的大致位置。",
+   "figures": [
+    "figs/2023-22-1.png"
+   ],
+   "answer": "如图",
+   "answer_figures": [
+    "figs/2023-22-ans.png"
+   ],
+   "kp": [
+    "wuli.light.ray_drawing",
+    "wuli.light.refraction"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-23",
+   "no": "23",
+   "section": "简答题",
+   "type": "short",
+   "score": 4,
+   "stem": "如图 13，小华利用家中物品做实验。他将玻璃杯放在桌布上，然后猛地将桌布从桌面抽出时，玻璃杯几乎不随桌布运动。请用物理知识说明玻璃杯不随桌布运动的理由。",
+   "figures": [
+    "figs/2023-23-1.png"
+   ],
+   "answer": "玻璃杯与桌布原来处于静止状态，桌布受力被抽出，玻璃杯由于惯性，仍保持原来的静止状态，所以玻璃杯几乎不随桌布运动。",
+   "kp": [
+    "wuli.mf.inertia"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2023-24-1",
+   "no": "24(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m24",
+   "stem": "将木块平放在水平木板上，用弹簧测力计水平拉动木块，使木块做____运动。",
+   "answer": "匀速直线",
+   "kp": [
+    "wuli.force.exp_friction",
+    "wuli.mf.balance"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-24-2",
+   "no": "24(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m24",
+   "stem": "由图甲可知：此时木块受到的滑动摩擦力大小为____ N。",
+   "answer": "1.2",
+   "kp": [
+    "wuli.force.exp_friction",
+    "wuli.force.elastic"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-24-3",
+   "no": "24(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m24",
+   "stem": "由图乙和图丙可知：在其他条件相同的情况下，压力越大，滑动摩擦力越____。",
+   "answer": "大",
+   "kp": [
+    "wuli.force.exp_friction"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-24-4",
+   "no": "24(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m24",
+   "stem": "本实验产生误差的原因是：____。（写一条即可）",
+   "answer": "很难控制木块做匀速直线运动（或其他合理答案）",
+   "kp": [
+    "wuli.force.exp_friction",
+    "wuli.method.inquiry"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-25-1",
+   "no": "25(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m25",
+   "stem": "实验时，在三个相同的杯子中加入____相同、初温不同的水。将温度传感器的探头浸没水中测量水温时，应注意探头不要____。",
+   "answer": "质量；接触杯底（或接触杯壁）",
+   "kp": [
+    "wuli.heat.exp_melting",
+    "wuli.method.inquiry",
+    "wuli.heat.temperature"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-25-2",
+   "no": "25(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m25",
+   "stem": "将三杯水同时放入 $-30\\ ^\\circ\\text{C}$ 的低温箱中冷却，箱内的风扇可使箱内气流稳定循环，使得三杯水受冷环境____。",
+   "answer": "相同",
+   "kp": [
+    "wuli.heat.exp_melting",
+    "wuli.method.inquiry"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-25-3",
+   "no": "25(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m25",
+   "stem": "同时用三个温度传感器分别监测三杯水的温度，并获得温度随时间变化的图象如图 15 乙。分析图象可知：在其他条件相同的情况下，初温高的水降温____（填“快”或“慢”）；水在凝固过程中，____热量，温度保持不变。",
+   "answer": "快；放出",
+   "kp": [
+    "wuli.heat.exp_melting",
+    "wuli.heat.melting"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-25-4",
+   "no": "25(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m25",
+   "stem": "为提高实验结论的普遍性，实验时应在每杯水中放入多个探头，对杯子中不同____的水进行测量。",
+   "answer": "位置（或深度）",
+   "kp": [
+    "wuli.heat.exp_melting",
+    "wuli.method.inquiry"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-26-1",
+   "no": "26(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "如图 16 甲所示，用平行光测出凸透镜的焦距为____ cm。",
+   "answer": "12.5（12.3~12.7 均可）",
+   "kp": [
+    "wuli.lens.exp_convex",
+    "wuli.lens.basics",
+    "wuli.motion.measure"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-26-2",
+   "no": "26(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "将蜡烛、凸透镜和光屏依次放在水平光具座上，调节烛焰、凸透镜和光屏三者中心在____。",
+   "answer": "同一高度",
+   "kp": [
+    "wuli.lens.exp_convex"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-26-3",
+   "no": "26(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m26",
+   "stem": "调节蜡烛、凸透镜和光屏至图 16 乙所示的位置，则烛焰在光屏上成倒立、____的像。根据这一成像特点，可制成____。",
+   "answer": "缩小；照相机",
+   "kp": [
+    "wuli.lens.exp_convex",
+    "wuli.lens.imaging"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-26-4",
+   "no": "26(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "若要使光屏上的像变小，应使蜡烛与凸透镜的距离变____，再调节光屏位置。",
+   "answer": "大",
+   "kp": [
+    "wuli.lens.exp_convex",
+    "wuli.lens.imaging"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-27-1",
+   "no": "27(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 3,
+   "material": "m27",
+   "stem": "获取相关数据\n\n①已知圆筒底面积为 $S$；\n\n②调节天平平衡时，指针指在分度盘中央刻度线的左侧，此时应将平衡螺母向____移。如图 17，用调好的天平测得空圆筒质量 $m=$____ g；向圆筒中倒入适量水，用天平测得圆筒与水的总质量为 $81.4\\ \\text{g}$，计算得到圆筒内水的体积 $V_0=$____ $\\text{cm}^3$。",
+   "figures": [
+    "figs/2023-27-1-1.png"
+   ],
+   "answer": "② 右；31.4；50",
+   "kp": [
+    "wuli.density.exp_liquid",
+    "wuli.density.mass",
+    "wuli.density.concept"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-27-2",
+   "no": "27(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m27",
+   "stem": "制作液体密度计\n\n在圆筒上体积为 $V_0$ 的水面处做标记，如图 18 甲所示。倒掉圆筒内的水，倒入待测液体至标记处，使待测液体体积为 $V_0$。将圆筒放入水中，圆筒处于漂浮状态，如图 18 乙。测量圆筒浸入水中的深度 $h$，则待测液体密度 $\\rho_{\\text{液}}=$____（用 $m$、$S$、$h$、$V_0$、$\\rho_{\\text{水}}$ 表示）。根据计算结果在圆筒外壁标记刻度线和密度值。（2 分）",
+   "figures": [
+    "figs/2023-27-2-1.png"
+   ],
+   "answer": "$\\dfrac{\\rho_{\\text{水}}Sh-m}{V_0}$",
+   "kp": [
+    "wuli.density.exp_liquid",
+    "wuli.buoyancy.float_sink",
+    "wuli.buoyancy.archimedes"
+   ],
+   "difficulty": 3,
+   "note": "本小问分值为试卷原文标注（2 分）"
+  },
+  {
+   "id": "wuli-2023-27-3",
+   "no": "27(3)",
+   "section": "实验题",
+   "type": "short",
+   "score": 1,
+   "material": "m27",
+   "stem": "用自制密度计测量某种液体密度时，发现圆筒触底无法漂浮，请提出一条改进建议：____。",
+   "answer": "往容器中加足够多的水（或减小待测液体体积 $V_0$ 并重新标刻度等其他合理答案）",
+   "kp": [
+    "wuli.density.exp_liquid",
+    "wuli.method.project"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2023-28-1",
+   "no": "28(1)",
+   "section": "实验题",
+   "type": "short",
+   "score": 6,
+   "material": "m28",
+   "stem": "利用图 19 甲所示电路探究热敏电阻 $R_t$ 阻值随环境温度 $t$ 变化的规律。\n\n①根据图 19 甲，用笔画线表示导线，将图 19 乙中的实物电路连接完整。\n\n②连接电路的过程中，应将开关____；将电阻箱的阻值调至最大，起到____的作用。\n\n③将热敏电阻置于 $0\\ ^\\circ\\text{C}$ 的环境中，闭合 $S_1$、断开 $S_2$，记录电流表示数 $I_0$；然后____（描述开关状态），调节电阻箱 $R_0$ 直至电流表示数为____，此时 $R_t=R_0$。\n\n④将热敏电阻 $R_t$ 置于不同温度的环境中，重复步骤③，测得的数据如下表：\n\n| 温度 $t$/℃ | 0 | 10 | 20 | 30 | 40 |\n|---|---|---|---|---|---|\n| 阻值 $R_t$/Ω | 2 800 | 1 800 | 1 200 | 800 | 600 |\n\n分析数据可得：热敏电阻的阻值随温度的升高而____。",
+   "figures": [
+    "figs/2023-28-1-1.png"
+   ],
+   "answer": "① 如图 1 或图 2\n② 断开；保护电路\n③ 断开 $S_1$、闭合 $S_2$；$I_0$（或闭合 $S_1$、$S_2$；$2I_0$）\n④ 减小",
+   "answer_figures": [
+    "figs/2023-28-1-ans.png",
+    "figs/2023-28-1-ans2.png"
+   ],
+   "kp": [
+    "wuli.ohm.exp_special_r",
+    "wuli.circuit.drawing",
+    "wuli.ohm.sensor"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定（连线 1 分，其余每空 1 分）"
+  },
+  {
+   "id": "wuli-2023-28-2",
+   "no": "28(2)",
+   "section": "实验题",
+   "type": "short",
+   "score": 3,
+   "material": "m28",
+   "stem": "根据上述探究结果，设计报警电路。\n\n实验器材：电源（恒为 $12\\ \\text{V}$）、热敏电阻 $R_t$、电阻箱 $R_0$（$0\\sim9\\ 999\\ \\Omega$）、数字电压表Ⓥ（$U\\geqslant7.2\\ \\text{V}$ 时报警）、数字电流表(mA)（$I\\geqslant6\\ \\text{mA}$ 时报警）、开关一个、导线若干。\n\n设计要求：小屋温度 $t\\geqslant30\\ ^\\circ\\text{C}$ 或 $t\\leqslant10\\ ^\\circ\\text{C}$ 时都有一个电表报警。\n\n①虚线框中的电路图是学习小组设计的报警电路，但它不能完全满足要求，请你根据设计要求将电路图补画完整。\n\n②设计的电路中，电阻箱 $R_0$ 应调为____ Ω。当温度降低到 $10\\ ^\\circ\\text{C}$ 时电路报警，此时电流表的示数为____ mA。",
+   "figures": [
+    "figs/2023-28-2-1.png"
+   ],
+   "answer": "① 如图\n② 1 200；4",
+   "answer_figures": [
+    "figs/2023-28-2-ans.png"
+   ],
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.ohm.law",
+    "wuli.method.project"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定（补画 1 分，每空 1 分）"
+  },
+  {
+   "id": "wuli-2023-29-1",
+   "no": "29(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m29",
+   "stem": "通过 $R_1$ 的电流。",
+   "answer": "$R_1$ 和 $R_2$ 并联 $U_1=U_2=U=6\\ \\text{V}$；$R_1$ 的电流 $I_1=\\dfrac{U_1}{R_1}=\\dfrac{6\\ \\text{V}}{10\\ \\Omega}=0.6\\ \\text{A}$",
+   "kp": [
+    "wuli.ohm.law"
+   ],
+   "difficulty": 1,
+   "rubric": "29 题（6 分）：第(1)小题 2 分，第(2)小题 2 分，第(3)小题 2 分。"
+  },
+  {
+   "id": "wuli-2023-29-2",
+   "no": "29(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m29",
+   "stem": "电阻 $R_2$ 的阻值。",
+   "answer": "$R_2$ 的电流 $I_2=I-I_1=1\\ \\text{A}-0.6\\ \\text{A}=0.4\\ \\text{A}$；$R_2$ 的电阻 $R_2=\\dfrac{U_2}{I_2}=\\dfrac{6\\ \\text{V}}{0.4\\ \\text{A}}=15\\ \\Omega$",
+   "kp": [
+    "wuli.ohm.law"
+   ],
+   "difficulty": 1,
+   "rubric": "29 题（6 分）：第(1)小题 2 分，第(2)小题 2 分，第(3)小题 2 分。"
+  },
+  {
+   "id": "wuli-2023-29-3",
+   "no": "29(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m29",
+   "stem": "电路消耗的总电功率。",
+   "answer": "电路消耗的总电功率 $P=UI=6\\ \\text{V}\\times1\\ \\text{A}=6\\ \\text{W}$",
+   "kp": [
+    "wuli.power.power"
+   ],
+   "difficulty": 1,
+   "rubric": "29 题（6 分）：第(1)小题 2 分，第(2)小题 2 分，第(3)小题 2 分。"
+  },
+  {
+   "id": "wuli-2023-30-1",
+   "no": "30(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m30",
+   "stem": "探空仪所受的重力。",
+   "answer": "探空仪的重力 $G=mg=0.4\\ \\text{kg}\\times10\\ \\text{N/kg}=4\\ \\text{N}$",
+   "kp": [
+    "wuli.force.gravity"
+   ],
+   "difficulty": 1,
+   "rubric": "30 题（8 分）：第(1)小题 2 分，第(2)小题 3 分，第(3)小题 3 分。"
+  },
+  {
+   "id": "wuli-2023-30-2",
+   "no": "30(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m30",
+   "stem": "探空仪对水平桌面的压强。",
+   "answer": "探空仪对水平桌面的压力 $F=G=4\\ \\text{N}$；探空仪对水平桌面的压强 $p=\\dfrac{F}{S}=\\dfrac{4\\ \\text{N}}{0.02\\ \\text{m}^2}=200\\ \\text{Pa}$",
+   "kp": [
+    "wuli.pressure.solid"
+   ],
+   "difficulty": 1,
+   "rubric": "30 题（8 分）：第(1)小题 2 分，第(2)小题 3 分，第(3)小题 3 分。"
+  },
+  {
+   "id": "wuli-2023-30-3",
+   "no": "30(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m30",
+   "stem": "悬浮时氦气球的体积（计算浮力时，不计探空仪的体积和球壳的厚度）。",
+   "answer": "气球悬浮 $F_{\\text{浮}}=G_{\\text{总}}=(m+m_{\\text{壳}}+m_{\\text{氦}})g$；其中，氦气球受到浮力 $F_{\\text{浮}}=\\rho_{\\text{空}}gV_{\\text{排}}=\\rho_{\\text{空}}gV_{\\text{氦}}$；氦气的质量 $m_{\\text{氦}}=\\rho_{\\text{氦}}V_{\\text{氦}}$；由以上式子得：$V_{\\text{氦}}=\\dfrac{m+m_{\\text{壳}}}{\\rho_{\\text{空}}-\\rho_{\\text{氦}}}=\\dfrac{0.4\\ \\text{kg}+0.23\\ \\text{kg}}{1.22\\ \\text{kg/m}^3-0.17\\ \\text{kg/m}^3}=0.6\\ \\text{m}^3$",
+   "kp": [
+    "wuli.buoyancy.float_sink",
+    "wuli.buoyancy.archimedes",
+    "wuli.density.concept"
+   ],
+   "difficulty": 3,
+   "rubric": "30 题（8 分）：第(1)小题 2 分，第(2)小题 3 分，第(3)小题 3 分。"
+  },
+  {
+   "id": "wuli-2023-31-1",
+   "no": "31(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m31",
+   "stem": "空厢匀速竖直上升时，求绳拉力 $F$ 的大小。",
+   "answer": "忽略绳重、摩擦 $F=\\dfrac{G}{2}=\\dfrac{G_{\\text{厢}}+G_{\\text{板}}}{2}=\\dfrac{150\\ \\text{N}+100\\ \\text{N}}{2}=125\\ \\text{N}$",
+   "kp": [
+    "wuli.machine.pulley"
+   ],
+   "difficulty": 1,
+   "rubric": "31 题（8 分）：第(1)小题 2 分，第(2)小题 2 分，第(3)小题 3 分，第(4)小题 1 分。"
+  },
+  {
+   "id": "wuli-2023-31-2",
+   "no": "31(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m31",
+   "stem": "在 $6\\ \\text{s}$ 内将空厢匀速竖直提升 $3\\ \\text{m}$，求拉力 $F$ 做功的功率。",
+   "answer": "绳端移动距离 $s=2h=2\\times3\\ \\text{m}=6\\ \\text{m}$；绳拉力 $F$ 做的功 $W=Fs=125\\ \\text{N}\\times6\\ \\text{m}=750\\ \\text{J}$；绳拉力 $F$ 的功率 $P=\\dfrac{W}{t}=\\dfrac{750\\ \\text{J}}{6\\ \\text{s}}=125\\ \\text{W}$",
+   "kp": [
+    "wuli.work.power",
+    "wuli.work.work"
+   ],
+   "difficulty": 2,
+   "rubric": "31 题（8 分）：第(1)小题 2 分，第(2)小题 2 分，第(3)小题 3 分，第(4)小题 1 分。"
+  },
+  {
+   "id": "wuli-2023-31-3",
+   "no": "31(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m31",
+   "stem": "重物放在厢体内，求该装置匀速竖直提升重物的最大机械效率。",
+   "answer": "控制电路的最大电流 $I=0.03\\ \\text{A}$ 时，载重量最大；控制电路最小总电阻 $R=\\dfrac{U}{I}=\\dfrac{12\\ \\text{V}}{0.03\\ \\text{A}}=400\\ \\Omega$；$R_{\\text{F}}=R-R_0=400\\ \\Omega-200\\ \\Omega=200\\ \\Omega$；当 $R_{\\text{F}}=200\\ \\Omega$，压力 $F_{\\text{压}}=900\\ \\text{N}$；即最大载重 $G_{\\text{物}}=F_{\\text{压}}-G_{\\text{厢}}=900\\ \\text{N}-150\\ \\text{N}=750\\ \\text{N}$；装置的最大机械效率 $\\eta=\\dfrac{W_{\\text{有用}}}{W_{\\text{总}}}\\times100\\%=\\dfrac{G_{\\text{物}}h}{F_{\\text{总}}s}\\times100\\%=\\dfrac{G_{\\text{物}}}{2F_{\\text{总}}}\\times100\\%=\\dfrac{G_{\\text{物}}}{G_{\\text{厢}}+G_{\\text{物}}+G_{\\text{板}}}\\times100\\%=\\dfrac{750\\ \\text{N}}{750\\ \\text{N}+150\\ \\text{N}+100\\ \\text{N}}\\times100\\%=75\\%$",
+   "kp": [
+    "wuli.machine.efficiency",
+    "wuli.ohm.sensor",
+    "wuli.magnet.electromagnet"
+   ],
+   "difficulty": 3,
+   "rubric": "31 题（8 分）：第(1)小题 2 分，第(2)小题 2 分，第(3)小题 3 分，第(4)小题 1 分。"
+  },
+  {
+   "id": "wuli-2023-31-4",
+   "no": "31(4)",
+   "section": "计算题",
+   "type": "short",
+   "score": 1,
+   "material": "m31",
+   "stem": "若要将该装置的最大载重量调小，提出对控制电路的一条调整措施。",
+   "answer": "可对控制电路进行以下调整：减小 $R_0$（或增大电源电压等其他合理答案）",
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.magnet.electromagnet"
+   ],
+   "difficulty": 3,
+   "rubric": "31 题（8 分）：第(1)小题 2 分，第(2)小题 2 分，第(3)小题 3 分，第(4)小题 1 分。"
+  }
+ ]
+}

@@ -22,6 +22,12 @@ python3 -m http.server 8000
 - 手机浏览器打开后，可"添加到主屏幕"（iPhone 用 Safari 分享菜单；Android 用 Chrome 菜单里的"安装应用"），之后像普通 App 一样点图标打开，离线也能用。
 - 代码放在 https://github.com/zeliny0109/gendu ，推送到 main 分支后 GitHub Actions 会自动把内容同步到 gh-pages 分支并重新发布（见 .github/workflows/pages.yml）。
 
+### 中考备考
+
+**https://zeliny0109.github.io/gendu/zhongkao/**
+
+福建中考全科（语数英物化道法历史）历年官方真题题库：2019–2026 年约 2400 道题，逐题标注考点。按考点看历年考频与分值、摸底诊断、每日任务、错题间隔复习。真题来自福建省教育考试院《试题、参考答案》合订本（福州、泉州市教育局转载）。
+
 ### 九上语法练习
 
 **https://zeliny0109.github.io/gendu/grammar/** （跟读页面的句子列表上方也有入口）

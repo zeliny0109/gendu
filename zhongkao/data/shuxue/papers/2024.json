@@ -1,0 +1,622 @@
+{
+ "subject": "shuxue",
+ "year": 2024,
+ "source": "福建省教育考试院《试题、参考答案》合订本（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/tzgg/202406/t20240621_4847383.htm",
+ "total": 150,
+ "minutes": 120,
+ "materials": [
+  {
+   "id": "q20",
+   "text": "已知A、B两地都只有甲、乙两类普通高中学校．在一次普通高中学业水平考试中，A地甲类学校有考生3 000人，数学平均分为90分；乙类学校有考生2 000人，数学平均分为80分．"
+  },
+  {
+   "id": "q21",
+   "text": "如图，已知二次函数 $y=x^2+bx+c$ 的图象与 $x$ 轴交于 $A$，$B$ 两点，与 $y$ 轴交于点 $C$，其中 $A(-2,0)$，$C(0,-2)$．",
+   "figures": [
+    "figs/2024-21-1.png"
+   ]
+  },
+  {
+   "id": "q22",
+   "text": "如图，已知直线 $l_1\\parallel l_2$．",
+   "figures": [
+    "figs/2024-22-1.png"
+   ]
+  },
+  {
+   "id": "q23",
+   "text": "已知实数 $a$，$b$，$c$，$m$，$n$ 满足 $3m+n=\\dfrac{b}{a}$，$mn=\\dfrac{c}{a}$．"
+  },
+  {
+   "id": "q24",
+   "text": "在手工制作课上，老师提供了如图1所示的矩形卡纸 $ABCD$，要求大家利用它制作一个底面为正方形的礼品盒．小明按照图2的方式裁剪（其中 $AE=FB$），恰好得到纸盒的展开图，并利用该展开图折成一个礼品盒，如图3所示．",
+   "figures": [
+    "figs/2024-24-1.png"
+   ]
+  },
+  {
+   "id": "q25",
+   "text": "如图，在 $\\triangle ABC$ 中，$\\angle BAC=90^\\circ$，$AB=AC$，以 $AB$ 为直径的 $\\odot O$ 交 $BC$ 于点 $D$，$AE\\perp OC$，垂足为 $E$，$BE$ 的延长线交 $\\overset{\\frown}{AD}$ 于点 $F$．",
+   "figures": [
+    "figs/2024-25-1.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "shuxue-2024-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列实数中，无理数是",
+   "options": [
+    "A. $-3$",
+    "B. $0$",
+    "C. $\\dfrac{2}{3}$",
+    "D. $\\sqrt{5}$"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.num.real"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "据《人民日报》3月12日电，世界知识产权组织近日公布数据显示，2023年，全球PCT（《专利合作条约》）国际专利申请总量为27.26万件，中国申请量为69 610件，是申请量最大的来源国．数据69 610用科学记数法表示为",
+   "options": [
+    "A. $6961\\times 10$",
+    "B. $696.1\\times 10^{2}$",
+    "C. $6.961\\times 10^{4}$",
+    "D. $0.6961\\times 10^{5}$"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.num.sci_notation"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图是由长方体和圆柱组成的几何体，其俯视图是",
+   "options": [
+    "A. A",
+    "B. B",
+    "C. C",
+    "D. D"
+   ],
+   "figures": [
+    "figs/2024-3-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.solid.view"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "在同一平面内，将直尺、含 $30^\\circ$ 角的三角尺和木工角尺（$CD\\perp DE$）按如图方式摆放，若 $AB\\parallel CD$，则 $\\angle 1$ 的大小为",
+   "options": [
+    "A. $30^\\circ$",
+    "B. $45^\\circ$",
+    "C. $60^\\circ$",
+    "D. $75^\\circ$"
+   ],
+   "figures": [
+    "figs/2024-4-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.geo.parallel",
+    "shuxue.geo.line_angle"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列运算正确的是",
+   "options": [
+    "A. $a^3\\cdot a^3=a^9$",
+    "B. $a^4\\div a^2=a^2$",
+    "C. $(a^3)^2=a^5$",
+    "D. $2a^2-a^2=2$"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.num.power",
+    "shuxue.num.polynomial"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "哥德巴赫提出“每个大于2的偶数都可以表示为两个质数之和”的猜想，我国数学家陈景润在哥德巴赫猜想的研究中取得了世界领先的成果．在质数2，3，5中，随机选取两个不同的数，其和是偶数的概率是",
+   "options": [
+    "A. $\\dfrac{1}{4}$",
+    "B. $\\dfrac{1}{3}$",
+    "C. $\\dfrac{1}{2}$",
+    "D. $\\dfrac{2}{3}$"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.prob.tree",
+    "shuxue.prob.classical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，已知点 $A$，$B$ 在 $\\odot O$ 上，$\\angle AOB=72^\\circ$，直线 $MN$ 与 $\\odot O$ 相切，切点为 $C$，且 $C$ 为 $\\overset{\\frown}{AB}$ 的中点，则 $\\angle ACM$ 等于",
+   "options": [
+    "A. $18^\\circ$",
+    "B. $30^\\circ$",
+    "C. $36^\\circ$",
+    "D. $72^\\circ$"
+   ],
+   "figures": [
+    "figs/2024-7-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.circle.tangent",
+    "shuxue.circle.basic"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "今年我国国民经济开局良好，市场销售稳定增长，社会消费增长较快，第一季度社会消费品零售总额120 327亿元，比去年第一季度增长4.7%，求去年第一季度社会消费品零售总额．若将去年第一季度社会消费品零售总额设为 $x$ 亿元，则符合题意的方程是",
+   "options": [
+    "A. $(1+4.7\\%)x=120327$",
+    "B. $(1-4.7\\%)x=120327$",
+    "C. $\\dfrac{x}{1+4.7\\%}=120327$",
+    "D. $\\dfrac{x}{1-4.7\\%}=120327$"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.eq.linear"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "小明用两个全等的等腰三角形设计了一个“蝴蝶”的平面图案，如图．其中 $\\triangle OAB$ 与 $\\triangle ODC$ 都是等腰三角形，且它们关于直线 $l$ 对称，点 $E$，$F$ 分别是底边 $AB$，$CD$ 的中点，$OE\\perp OF$．下列推断错误的是",
+   "options": [
+    "A. $OB\\perp OD$",
+    "B. $\\angle BOC=\\angle AOB$",
+    "C. $OE=OF$",
+    "D. $\\angle BOC+\\angle AOD=180^\\circ$"
+   ],
+   "figures": [
+    "figs/2024-9-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.geo.isosceles",
+    "shuxue.trans.symmetry"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "已知二次函数 $y=x^2-2ax+a\\ (a\\neq 0)$ 的图象经过 $A\\left(\\dfrac{a}{2},y_1\\right)$，$B(3a,y_2)$ 两点，则下列判断正确的是",
+   "options": [
+    "A. 可以找到一个实数 $a$，使得 $y_1>a$",
+    "B. 无论实数 $a$ 取什么值，都有 $y_1>a$",
+    "C. 可以找到一个实数 $a$，使得 $y_2<0$",
+    "D. 无论实数 $a$ 取什么值，都有 $y_2<0$"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.func.quad_param",
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2024-11",
+   "no": "11",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "因式分解：$x^2+x=$____．",
+   "answer": "$x(x+1)$",
+   "kp": [
+    "shuxue.num.factorize"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-12",
+   "no": "12",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "不等式 $3x-2<1$ 的解集是____．",
+   "answer": "$x<1$",
+   "kp": [
+    "shuxue.ineq.solve"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-13",
+   "no": "13",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "学校为了解学生的安全防范意识，随机抽取了12名学生进行相关知识测试，将测试成绩整理得到如图所示的条形统计图，则这12名学生测试成绩的中位数是____．（单位：分）",
+   "figures": [
+    "figs/2024-13-1.png"
+   ],
+   "answer": "90",
+   "kp": [
+    "shuxue.stat.central",
+    "shuxue.stat.chart"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-14",
+   "no": "14",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，正方形 $ABCD$ 的面积为4，点 $E$，$F$，$G$，$H$ 分别为边 $AB$，$BC$，$CD$，$AD$ 的中点，则四边形 $EFGH$ 的面积为____．",
+   "figures": [
+    "figs/2024-14-1.png"
+   ],
+   "answer": "2",
+   "kp": [
+    "shuxue.geo.special_quad",
+    "shuxue.geo.midline"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，在平面直角坐标系 $xOy$ 中，反比例函数 $y=\\dfrac{k}{x}$ 的图象与 $\\odot O$ 交于 $A$，$B$ 两点，且点 $A$，$B$ 都在第一象限．若 $A(1,2)$，则点 $B$ 的坐标为____．",
+   "figures": [
+    "figs/2024-15-1.png"
+   ],
+   "answer": "$(2,1)$",
+   "kp": [
+    "shuxue.func.inverse",
+    "shuxue.trans.symmetry"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "无动力帆船是借助风力前行的．下图是帆船借助风力航行的平面示意图，已知帆船航行方向与风向所在直线的夹角 $\\angle PDA$ 为 $70^\\circ$，帆与航行方向的夹角 $\\angle PDQ$ 为 $30^\\circ$，风对帆的作用力 $F$ 为400 N．根据物理知识，$F$ 可以分解为两个力 $F_1$ 与 $F_2$，其中与帆平行的力 $F_1$ 不起作用，与帆垂直的力 $F_2$ 又可以分解为两个力 $f_1$ 与 $f_2$，$f_1$ 与航行方向垂直，被舵的阻力抵消；$f_2$ 与航行方向一致，是真正推动帆船前行的动力．在物理学上常用线段的长度表示力的大小，据此，建立数学模型：$F=AD=400$，则 $f_2=CD=$____．（单位：N）（参考数据：$\\sin 40^\\circ=0.64$，$\\cos 40^\\circ=0.77$）",
+   "figures": [
+    "figs/2024-16-1.png"
+   ],
+   "answer": "128",
+   "kp": [
+    "shuxue.geo.trig_app",
+    "shuxue.prac.modeling"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2024-17",
+   "no": "17",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "计算：$(-1)^0+|-5|-\\sqrt{4}$．",
+   "answer": "解：原式 $=1+5-2$ $=4$．",
+   "rubric": "本小题考查零指数幂、绝对值、算术平方根等基础知识，考查运算能力．满分8分．",
+   "kp": [
+    "shuxue.num.real_calc"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-18",
+   "no": "18",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "如图，在菱形 $ABCD$ 中，点 $E$，$F$ 分别在边 $BC$ 和 $CD$ 上，且 $\\angle AEB=\\angle AFD$．求证：$BE=DF$．",
+   "figures": [
+    "figs/2024-18-1.png"
+   ],
+   "answer": "证明：$\\because$ 四边形 $ABCD$ 是菱形，\n\n$\\therefore AB=AD$，$\\angle B=\\angle D$．\n\n在 $\\triangle ABE$ 和 $\\triangle ADF$ 中，$\\begin{cases}\\angle B=\\angle D,\\\\ \\angle AEB=\\angle AFD,\\\\ AB=AD,\\end{cases}$\n\n$\\therefore \\triangle ABE\\cong\\triangle ADF$，\n\n$\\therefore BE=DF$．",
+   "rubric": "本小题考查菱形的性质、全等三角形的判定与性质等基础知识，考查几何直观、推理能力等．满分8分．",
+   "kp": [
+    "shuxue.geo.special_quad",
+    "shuxue.geo.congruent"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-19",
+   "no": "19",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "解方程：$\\dfrac{3}{x+2}+1=\\dfrac{x}{x-2}$．",
+   "answer": "解：方程两边都乘 $(x+2)(x-2)$，得\n\n$3(x-2)+(x+2)(x-2)=x(x+2)$．\n\n解得 $x=10$．\n\n经检验，$x=10$ 是原方程的根．",
+   "rubric": "本小题考查分式方程的解法等基础知识，考查运算能力．满分8分．",
+   "kp": [
+    "shuxue.eq.fractional"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-20-1",
+   "no": "20(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q20",
+   "stem": "求A地考生的数学平均分；",
+   "answer": "解：由题意，得A地考生的数学平均分为\n\n$\\dfrac{1}{5000}(90\\times 3000+80\\times 2000)=86$．",
+   "rubric": "本小题考查加权平均数等基础知识，考查数据观念、抽象能力、推理能力、应用意识、创新意识等，考查统计与概率思想．满分8分．",
+   "kp": [
+    "shuxue.stat.central"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-20-2",
+   "no": "20(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q20",
+   "stem": "若B地甲类学校数学平均分为94分，乙类学校数学平均分为82分，据此，能否判断B地考生数学平均分一定比A地考生数学平均分高？若能，请给予证明；若不能，请举例说明．",
+   "answer": "不能．\n\n举例如下：如B地甲类学校有考生1 000人，乙类学校有考生3 000人，则B地考生的数学平均分为\n\n$\\dfrac{1}{4000}(94\\times 1000+82\\times 3000)=85$．\n\n因为 $85<86$，所以不能判断B地考生数学平均分一定比A地考生数学平均分高．\n\n注：本题答案不唯一，只要学生能作出正确判断，并且所举的例子能说明其判断即可．",
+   "kp": [
+    "shuxue.stat.central",
+    "shuxue.stat.decision"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-21-1",
+   "no": "21(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q21",
+   "stem": "求二次函数的表达式；",
+   "answer": "解：将 $A(-2,0)$，$C(0,-2)$ 代入 $y=x^2+bx+c$，得 $\\begin{cases}4-2b+c=0,\\\\ c=-2,\\end{cases}$ 解得 $\\begin{cases}b=1,\\\\ c=-2.\\end{cases}$\n\n所以，二次函数的表达式为 $y=x^2+x-2$．",
+   "rubric": "本小题考查二次函数表达式、二次函数的图象与性质、二元一次方程组、一元二次方程、三角形面积等基础知识，考查运算能力、推理能力、几何直观等，考查数形结合思想、函数与方程思想、化归与转化思想等．满分8分．",
+   "kp": [
+    "shuxue.func.quad_expr"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2024-21-2",
+   "no": "21(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q21",
+   "stem": "若 $P$ 是二次函数图象上的一点，且点 $P$ 在第二象限，线段 $PC$ 交 $x$ 轴于点 $D$，$\\triangle PDB$ 的面积是 $\\triangle CDB$ 的面积的2倍，求点 $P$ 的坐标．",
+   "answer": "设 $P(m,n)$，因为点 $P$ 在第二象限，所以 $m<0$，$n>0$．\n\n依题意，得 $\\dfrac{S_{\\triangle PDB}}{S_{\\triangle CDB}}=2$，即 $\\dfrac{\\frac{1}{2}BD\\cdot n}{\\frac{1}{2}BD\\cdot CO}=2$，所以 $\\dfrac{n}{CO}=2$．\n\n由已知，得 $CO=2$，所以 $n=2CO=4$．\n\n由 $m^2+m-2=4$，解得 $m_1=-3$，$m_2=2$（舍去），\n\n所以点 $P$ 坐标为 $(-3,4)$．",
+   "kp": [
+    "shuxue.func.quad_geo"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-22-1",
+   "no": "22(1)",
+   "section": "解答题",
+   "type": "draw",
+   "score": 4,
+   "material": "q22",
+   "stem": "在 $l_1$，$l_2$ 所在的平面内求作直线 $l$，使得 $l\\parallel l_1\\parallel l_2$，且 $l$ 与 $l_1$ 间的距离恰好等于 $l$ 与 $l_2$ 间的距离；（要求：尺规作图，不写作法，保留作图痕迹）",
+   "answer": "解：\n\n![](figs/2024-22-ans.png)\n\n所以直线 $l$ 就是所求作的直线．",
+   "rubric": "本小题考查尺规作图、平行线的判定与性质、全等三角形的判定与性质、等腰直角三角形的性质、锐角三角函数、线段的垂直平分线、勾股定理等基础知识，考查推理能力、几何直观等，考查分类与整合思想等．满分10分．",
+   "kp": [
+    "shuxue.construct.design",
+    "shuxue.geo.parallel"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-22-2",
+   "no": "22(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q22",
+   "stem": "在(1)的条件下，若 $l_1$ 与 $l_2$ 间的距离为2，点 $A$，$B$，$C$ 分别在 $l$，$l_1$，$l_2$ 上，且 $\\triangle ABC$ 为等腰直角三角形，求 $\\triangle ABC$ 的面积．",
+   "answer": "①当 $\\angle BAC=90^\\circ$，$AB=AC$ 时，\n\n$\\because l\\parallel l_1\\parallel l_2$，直线 $l_1$ 与 $l_2$ 间的距离为2，且 $l$ 与 $l_1$ 间的距离等于 $l$ 与 $l_2$ 间的距离，根据图形的对称性可知：$BC=2$，\n\n$\\therefore AB=AC=\\sqrt{2}$，\n\n$\\therefore S_{\\triangle ABC}=\\dfrac{1}{2}AB\\cdot AC=1$．\n\n![](figs/2024-22-ans-2.png)\n\n②当 $\\angle ABC=90^\\circ$，$BA=BC$ 时，\n\n分别过点 $A$，$C$ 作直线 $l_1$ 的垂线，垂足为 $M$，$N$，\n\n$\\therefore \\angle AMB=\\angle BNC=90^\\circ$．\n\n$\\because l\\parallel l_1\\parallel l_2$，直线 $l_1$ 与 $l_2$ 间的距离为2，且 $l$ 与 $l_1$ 间的距离等于 $l$ 与 $l_2$ 间的距离，\n\n$\\therefore CN=2$，$AM=1$．\n\n$\\because \\angle MAB+\\angle ABM=90^\\circ$，$\\angle NBC+\\angle ABM=90^\\circ$，\n\n$\\therefore \\angle MAB=\\angle NBC$，\n\n$\\therefore \\triangle AMB\\cong\\triangle BNC$，\n\n$\\therefore BM=CN=2$．\n\n在 $\\mathrm{Rt}\\triangle ABM$ 中，由勾股定理得 $AB^2=AM^2+BM^2$，\n\n$\\therefore AB=\\sqrt{5}$．\n\n$\\therefore S_{\\triangle ABC}=\\dfrac{1}{2}AB\\cdot BC=\\dfrac{5}{2}$．\n\n![](figs/2024-22-ans-3.png)\n\n③当 $\\angle ACB=90^\\circ$，$CA=CB$ 时，同理可得，$S_{\\triangle ABC}=\\dfrac{5}{2}$．\n\n![](figs/2024-22-ans-4.png)\n\n综上所述，$\\triangle ABC$ 的面积为1或 $\\dfrac{5}{2}$．",
+   "kp": [
+    "shuxue.geo.isosceles",
+    "shuxue.geo.congruent",
+    "shuxue.geo.pythagoras"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2024-23-1",
+   "no": "23(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q23",
+   "stem": "求证：$b^2-12ac$ 为非负数；",
+   "answer": "解：因为 $3m+n=\\dfrac{b}{a}$，$mn=\\dfrac{c}{a}$，所以 $b=a(3m+n)$，$c=amn$．\n\n则 $b^2-12ac=[a(3m+n)]^2-12a^2mn=a^2(9m^2+6mn+n^2)-12a^2mn=a^2(9m^2-6mn+n^2)=a^2(3m-n)^2$．\n\n因为 $a$，$m$，$n$ 是实数，所以 $a^2(3m-n)^2\\geq 0$，\n\n所以 $b^2-12ac$ 为非负数．",
+   "rubric": "本小题考查整式的运算、因式分解、等式的性质等基础知识；考查运算能力、推理能力、创新意识等，考查综合应用所学知识分析、解决问题的能力；考查化归与转化思想、分类与整合思想等．满分10分．",
+   "kp": [
+    "shuxue.prac.reasoning",
+    "shuxue.num.polynomial",
+    "shuxue.num.factorize"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-23-2",
+   "no": "23(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q23",
+   "stem": "若 $a$，$b$，$c$ 均为奇数，$m$，$n$ 是否可以都为整数？说明你的理由．",
+   "answer": "$m$，$n$ 不可能都为整数．\n\n理由如下：若 $m$，$n$ 都为整数，其可能情况有：① $m$，$n$ 都为奇数；② $m$，$n$ 为整数，且其中至少有一个为偶数．\n\n①当 $m$，$n$ 都为奇数时，则 $3m+n$ 必为偶数．\n\n又 $3m+n=\\dfrac{b}{a}$，所以 $b=a(3m+n)$．\n\n因为 $a$ 为奇数，所以 $a(3m+n)$ 必为偶数，这与 $b$ 为奇数矛盾．\n\n②当 $m$，$n$ 为整数，且其中至少有一个为偶数时，则 $mn$ 必为偶数．\n\n又因为 $mn=\\dfrac{c}{a}$，所以 $c=amn$．\n\n因为 $a$ 为奇数，所以 $amn$ 必为偶数，这与 $c$ 为奇数矛盾．\n\n综上所述，$m$，$n$ 不可能都为整数．",
+   "kp": [
+    "shuxue.prac.reasoning"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2024-24-1",
+   "no": "24(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 2,
+   "material": "q24",
+   "stem": "直接写出 $\\dfrac{AD}{AB}$ 的值；",
+   "answer": "解：2．",
+   "rubric": "本小题考查展开与折叠等基础知识；考查空间观念、几何直观、推理能力、模型观念、应用意识、创新意识等，考查应用所学知识分析、解决问题的综合实践能力；考查特殊与一般思想等．满分12分．",
+   "kp": [
+    "shuxue.solid.net"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-24-2",
+   "no": "24(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q24",
+   "stem": "如果要求折成的礼品盒的两个相对的面上分别印有“吉祥”和“如意”，如图4所示，那么应选择的纸盒展开图图样是（　　）",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "figures": [
+    "figs/2024-24-2.png",
+    "figs/2024-24-3.png"
+   ],
+   "answer": "C．",
+   "kp": [
+    "shuxue.solid.net"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-24-3",
+   "no": "24(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 7,
+   "material": "q24",
+   "stem": "今有三种不同型号的矩形卡纸，其规格、单价如下表所示：\n\n| 卡纸型号 | 型号Ⅰ | 型号Ⅱ | 型号Ⅲ |\n|---|---|---|---|\n| 规格（单位：cm） | $30\\times 40$ | $20\\times 80$ | $80\\times 80$ |\n| 单价（单位：元） | 3 | 5 | 20 |\n\n现以小明设计的纸盒展开图（图2）为基本样式，适当调整 $AE$，$EF$ 的比例，制作棱长为10 cm的正方体礼品盒．如果要制作27个这样的礼品盒，请你合理选择上述卡纸（包括卡纸的型号及相应型号卡纸的张数），并在卡纸上画出设计示意图（包括一张卡纸可制作几个礼品盒，其展开图在卡纸上的分布情况），给出所用卡纸的总费用．\n\n（要求：①同一型号的卡纸如果需要不止一张，只要在一张卡纸上画出设计方案；②没有用到的卡纸，不要在该型号的卡纸上作任何设计；③所用卡纸的数量及总费用直接填在答题卡的表格上；④本题将综合考虑“利用卡纸的合理性”和“所用卡纸的总费用”给分，总费用最低的才能得满分；⑤试卷上的卡纸仅供作草稿用）",
+   "figures": [
+    "figs/2024-24-4.png"
+   ],
+   "answer": "| 卡纸型号 | 型号Ⅰ | 型号Ⅱ | 型号Ⅲ |\n|---|---|---|---|\n| 所需卡纸的数量（单位：张） | 1 | 3 | 2 |\n| 所用卡纸总费用（单位：元） | 58 | | |\n\n![](figs/2024-24-ans.png)",
+   "rubric": "说明：本小题第(3)问为开放性试题，依据“满意原则”和“加分原则”的要求，采用“分层给分”．根据考生答题情况，分为下列四个等级，按等级赋分．\nA．展开图正确，并能合理利用型号Ⅲ的卡纸，同时考虑“大张优先原则”，且总费用最省．\nB．展开图正确，并能合理利用型号Ⅲ的卡纸，基本上能考虑“大张优先原则”，但总费用没有最省．\nC．展开图正确，基本上能考虑“大张优先原则”，但未必能合理利用型号Ⅲ的卡纸．\nD．所选卡纸能完成制作27个礼品盒的任务，正确求出所用卡纸的总费用．",
+   "kp": [
+    "shuxue.prac.project",
+    "shuxue.solid.net"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2024-25-1",
+   "no": "25(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q25",
+   "stem": "求 $\\dfrac{OE}{AE}$ 的值；",
+   "answer": "解：$\\because AB=AC$，且 $AB$ 是 $\\odot O$ 的直径，$\\therefore AC=2AO$．\n\n$\\because \\angle BAC=90^\\circ$，$\\therefore$ 在 $\\mathrm{Rt}\\triangle AOC$ 中，$\\tan\\angle AOC=\\dfrac{AC}{AO}=2$．\n\n$\\because AE\\perp OC$，$\\therefore$ 在 $\\mathrm{Rt}\\triangle AOE$ 中，$\\tan\\angle AOC=\\dfrac{AE}{OE}$．\n\n$\\therefore \\dfrac{AE}{OE}=2$，$\\therefore \\dfrac{OE}{AE}=\\dfrac{1}{2}$．",
+   "rubric": "本小题考查等腰三角形及直角三角形的判定与性质、锐角三角函数、全等三角形的判定与性质、相似三角形的判定与性质、平行线的判定与性质、平行四边形的判定与性质、圆的基本性质等基础知识，考查推理能力、几何直观、运算能力、创新意识等，考查化归与转化思想等．满分14分．",
+   "kp": [
+    "shuxue.geo.trig",
+    "shuxue.circle.basic"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2024-25-2",
+   "no": "25(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q25",
+   "stem": "求证：$\\triangle AEB\\backsim\\triangle BEC$；",
+   "answer": "过点 $B$ 作 $BM\\parallel AE$，交 $EO$ 延长线于点 $M$．\n\n![](figs/2024-25-ans.png)\n\n$\\therefore \\angle BAE=\\angle ABM$，$\\angle AEO=\\angle BMO=90^\\circ$．\n\n$\\because AO=BO$，$\\therefore \\triangle AOE\\cong\\triangle BOM$，$\\therefore AE=BM$，$OE=OM$．\n\n$\\because \\dfrac{OE}{AE}=\\dfrac{1}{2}$，$\\therefore BM=2OE=EM$，\n\n$\\therefore \\angle MEB=\\angle MBE=45^\\circ$，\n\n$\\therefore \\angle AEB=\\angle AEO+\\angle MEB=135^\\circ$，$\\angle BEC=180^\\circ-\\angle MEB=135^\\circ$，\n\n$\\therefore \\angle AEB=\\angle BEC$．\n\n$\\because AB=AC$，$\\angle BAC=90^\\circ$，$\\therefore \\angle ABC=45^\\circ$，\n\n$\\therefore \\angle ABM=\\angle CBE$，$\\therefore \\angle BAE=\\angle CBE$，\n\n$\\therefore \\triangle AEB\\backsim\\triangle BEC$．",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.geo.congruent"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2024-25-3",
+   "no": "25(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q25",
+   "stem": "求证：$AD$ 与 $EF$ 互相平分．",
+   "answer": "连接 $DE$，$DF$．\n\n![](figs/2024-25-ans-2.png)\n\n$\\because AB$ 是 $\\odot O$ 的直径，$\\therefore \\angle ADB=\\angle AFB=90^\\circ$，$AB=2AO$．\n\n$\\because AB=AC$，$\\angle BAC=90^\\circ$，$\\therefore BC=2BD$，$\\angle DAB=45^\\circ$．\n\n由(2)知，$\\triangle AEB\\backsim\\triangle BEC$，\n\n$\\therefore \\dfrac{AE}{BE}=\\dfrac{AB}{BC}=\\dfrac{2AO}{2BD}=\\dfrac{AO}{BD}$，$\\angle EAO=\\angle EBD$，\n\n$\\therefore \\triangle AOE\\backsim\\triangle BDE$，\n\n$\\therefore \\angle BED=\\angle AEO=90^\\circ$．\n\n$\\therefore \\angle DEF=90^\\circ$．\n\n$\\therefore \\angle AFB=\\angle DEF$，$\\therefore AF\\parallel DE$．\n\n由(2)知，$\\angle AEB=135^\\circ$，$\\therefore \\angle AEF=180^\\circ-\\angle AEB=45^\\circ$．\n\n$\\because \\angle DFB=\\angle DAB=45^\\circ$，$\\therefore \\angle DFB=\\angle AEF$，$\\therefore AE\\parallel FD$，\n\n$\\therefore$ 四边形 $AEDF$ 是平行四边形，\n\n$\\therefore AD$ 与 $EF$ 互相平分．",
+   "kp": [
+    "shuxue.geo.parallelogram",
+    "shuxue.geo.similar",
+    "shuxue.circle.basic"
+   ],
+   "difficulty": 3
+  }
+ ]
+}

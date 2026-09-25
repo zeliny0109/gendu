@@ -1,0 +1,617 @@
+{
+ "subject": "shuxue",
+ "year": 2020,
+ "source": "奥数网转载图片版（带福建省教育考试院水印），官方页面已失效：https://www.aoshu.com/e/20200718/5f12be5819c48.shtml",
+ "total": 150,
+ "minutes": 120,
+ "materials": [
+  {
+   "id": "q20",
+   "text": "某公司经营甲、乙两种特产，其中甲特产每吨成本价为 $10$ 万元，销售价为 $10.5$ 万元；乙特产每吨成本价为 $1$ 万元，销售价为 $1.2$ 万元. 由于受有关条件限制，该公司每月这两种特产的销售量之和都是 $100$ 吨，且甲特产的销售量都不超过 $20$ 吨."
+  },
+  {
+   "id": "q21",
+   "text": "如图，$AB$ 与 $\\odot O$ 相切于点 $B$，$AO$ 交 $\\odot O$ 于点 $C$，$AO$ 的延长线交 $\\odot O$ 于点 $D$，$E$ 是 $\\overset{\\frown}{BCD}$ 上不与 $B$，$D$ 重合的点，$\\sin A=\\dfrac{1}{2}$.",
+   "figures": [
+    "figs/2020-21-1.png"
+   ]
+  },
+  {
+   "id": "q22",
+   "text": "为贯彻落实党中央关于全面建成小康社会的战略部署，某贫困地区的广大党员干部深入农村积极开展“精准扶贫”工作. 经过多年的精心帮扶，截至 2019 年底，按照农民人均年纯收入 $3218$ 元的脱贫标准，该地区只剩少量家庭尚未脱贫. 现从这些尚未脱贫的家庭中随机抽取 $50$ 户，统计其 2019 年的家庭人均年纯收入，得到如下图所示的条形图.\n\n（条形图数据：家庭人均年纯收入/千元为 $1.5$，$2.0$，$2.2$，$2.5$，$3.0$，$3.2$ 的户数依次为 $6$，$8$，$10$，$12$，$9$，$5$）",
+   "figures": [
+    "figs/2020-22-1.png"
+   ]
+  },
+  {
+   "id": "q23",
+   "text": "如图，$C$ 为线段 $AB$ 外一点.",
+   "figures": [
+    "figs/2020-23-1.png"
+   ]
+  },
+  {
+   "id": "q24",
+   "text": "如图，$\\triangle ADE$ 由 $\\triangle ABC$ 绕点 $A$ 按逆时针方向旋转 $90^\\circ$ 得到，且点 $B$ 的对应点 $D$ 恰好落在 $BC$ 的延长线上，$AD$，$EC$ 相交于点 $P$.",
+   "figures": [
+    "figs/2020-24-1.png"
+   ]
+  },
+  {
+   "id": "q25",
+   "text": "已知直线 $l_1$：$y=-2x+10$ 交 $y$ 轴于点 $A$，交 $x$ 轴于点 $B$，二次函数的图象过 $A$，$B$ 两点，交 $x$ 轴于另一点 $C$，$BC=4$，且对于该二次函数图象上的任意两点 $P_1(x_1,y_1)$，$P_2(x_2,y_2)$，当 $x_1>x_2\\geqslant 5$ 时，总有 $y_1>y_2$."
+  }
+ ],
+ "questions": [
+  {
+   "id": "shuxue-2020-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "$-\\dfrac{1}{5}$ 的相反数是",
+   "options": [
+    "A. $5$",
+    "B. $\\dfrac{1}{5}$",
+    "C. $-\\dfrac{1}{5}$",
+    "D. $-5$"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.num.rational"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图所示的六角螺母，其俯视图是",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "figures": [
+    "figs/2020-2-1.png"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.solid.view"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，面积为 $1$ 的等边三角形 $ABC$ 中，$D$，$E$，$F$ 分别是 $AB$，$BC$，$CA$ 的中点，则 $\\triangle DEF$ 的面积是",
+   "options": [
+    "A. $1$",
+    "B. $\\dfrac{1}{2}$",
+    "C. $\\dfrac{1}{3}$",
+    "D. $\\dfrac{1}{4}$"
+   ],
+   "figures": [
+    "figs/2020-3-1.png"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.geo.midline",
+    "shuxue.geo.similar"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列给出的等边三角形、平行四边形、圆及扇形中，既是轴对称图形又是中心对称图形的是",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "figures": [
+    "figs/2020-4-1.png"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.trans.symmetry"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，$AD$ 是等腰三角形 $ABC$ 的顶角平分线，$BD=5$，则 $CD$ 等于",
+   "options": [
+    "A. $10$",
+    "B. $5$",
+    "C. $4$",
+    "D. $3$"
+   ],
+   "figures": [
+    "figs/2020-5-1.png"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，数轴上两点 $M$，$N$ 所对应的实数分别为 $m$，$n$，则 $m-n$ 的结果可能是",
+   "options": [
+    "A. $-1$",
+    "B. $1$",
+    "C. $2$",
+    "D. $3$"
+   ],
+   "figures": [
+    "figs/2020-6-1.png"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.num.real"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列运算正确的是",
+   "options": [
+    "A. $3a^2-a^2=3$",
+    "B. $(a+b)^2=a^2+b^2$",
+    "C. $(-3ab^2)^2=-6a^2b^4$",
+    "D. $a\\cdot a^{-1}=1\\ (a\\neq 0)$"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.num.power",
+    "shuxue.num.polynomial"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "我国古代著作《四元玉鉴》记载“买椽多少”问题：“六贯二百一十钱，倩人去买几株椽. 每株脚钱三文足，无钱准与一株椽.”其大意为：现请人代买一批椽，这批椽的价钱为 $6210$ 文. 如果每株椽的运费是 $3$ 文，那么少拿一株椽后，剩下的椽的运费恰好等于一株椽的价钱，试问 $6210$ 文能买多少株椽？设这批椽的数量为 $x$ 株，则符合题意的方程是",
+   "options": [
+    "A. $3(x-1)=\\dfrac{6210}{x}$",
+    "B. $\\dfrac{6210}{x-1}=3$",
+    "C. $3x-1=\\dfrac{6210}{x}$",
+    "D. $\\dfrac{6210}{x}=3$"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.eq.fractional",
+    "shuxue.eq.system_app"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，四边形 $ABCD$ 内接于 $\\odot O$，$AB=CD$，$A$ 为 $\\overset{\\frown}{BD}$ 中点，$\\angle BDC=60^\\circ$，则 $\\angle ADB$ 等于",
+   "options": [
+    "A. $40^\\circ$",
+    "B. $50^\\circ$",
+    "C. $60^\\circ$",
+    "D. $70^\\circ$"
+   ],
+   "figures": [
+    "figs/2020-9-1.png"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.circle.basic"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "已知 $P_1(x_1,y_1)$，$P_2(x_2,y_2)$ 是抛物线 $y=ax^2-2ax$ 上的点，下列命题正确的是",
+   "options": [
+    "A. 若 $|x_1-1|>|x_2-1|$，则 $y_1>y_2$",
+    "B. 若 $|x_1-1|>|x_2-1|$，则 $y_1<y_2$",
+    "C. 若 $|x_1-1|=|x_2-1|$，则 $y_1=y_2$",
+    "D. 若 $y_1=y_2$，则 $x_1=x_2$"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.func.quad_param",
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2020-11",
+   "no": "11",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "计算：$|-8|=$____.",
+   "answer": "",
+   "kp": [
+    "shuxue.num.rational"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-12",
+   "no": "12",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "若从甲、乙、丙 $3$ 位“爱心辅学”志愿者中随机选 $1$ 位为学生在线辅导功课，则甲被选到的概率为____.",
+   "answer": "",
+   "kp": [
+    "shuxue.prob.classical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-13",
+   "no": "13",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "一个扇形的圆心角是 $90^\\circ$，半径为 $4$，则这个扇形的面积为____.（结果保留 $\\pi$）",
+   "answer": "",
+   "kp": [
+    "shuxue.circle.polygon_arc"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-14",
+   "no": "14",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "2020 年 6 月 9 日，我国全海深自主遥控潜水器“海斗一号”在马里亚纳海沟刷新了我国潜水器下潜深度的纪录，最大下潜深度达 $10\\,907$ 米. 假设以马里亚纳海沟所在海域的海平面为基准，记为 $0$ 米，高于马里亚纳海沟所在海域的海平面 $100$ 米的某地的高度记为 $+100$ 米，根据题意，“海斗一号”下潜至最大深度 $10\\,907$ 米处，该处的高度可记为____米.",
+   "answer": "",
+   "kp": [
+    "shuxue.num.rational"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图所示的六边形花环是用六个全等的直角三角形拼成的，则 $\\angle ABC$ 等于____度.",
+   "figures": [
+    "figs/2020-15-1.png"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.geo.polygon",
+    "shuxue.geo.triangle"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "设 $A$，$B$，$C$，$D$ 是反比例函数 $y=\\dfrac{k}{x}$ 图象上的任意四点，现有以下结论：\n\n① 四边形 $ABCD$ 可以是平行四边形；\n\n② 四边形 $ABCD$ 可以是菱形；\n\n③ 四边形 $ABCD$ 不可能是矩形；\n\n④ 四边形 $ABCD$ 不可能是正方形.\n\n其中正确的是____.（写出所有正确结论的序号）",
+   "answer": "",
+   "kp": [
+    "shuxue.func.inverse",
+    "shuxue.geo.special_quad",
+    "shuxue.geo.parallelogram"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2020-17",
+   "no": "17",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "解不等式组：$\\begin{cases}2x\\leqslant 6-x, & ①\\\\ 3x+1>2(x-1). & ②\\end{cases}$",
+   "answer": "",
+   "kp": [
+    "shuxue.ineq.solve"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-18",
+   "no": "18",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "如图，点 $E$，$F$ 分别在菱形 $ABCD$ 的边 $BC$，$CD$ 上，且 $BE=DF$. 求证：$\\angle BAE=\\angle DAF$.",
+   "figures": [
+    "figs/2020-18-1.png"
+   ],
+   "answer": "",
+   "kp": [
+    "shuxue.geo.special_quad",
+    "shuxue.geo.congruent"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-19",
+   "no": "19",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "先化简，再求值：$\\left(1-\\dfrac{1}{x+2}\\right)\\div\\dfrac{x^2-1}{x+2}$（括号后的运算符“÷”[?]），其中 $x=\\sqrt{2}+1$.",
+   "answer": "",
+   "kp": [
+    "shuxue.num.fraction",
+    "shuxue.num.radical"
+   ],
+   "difficulty": 1,
+   "note": "括号与第二个分式之间的运算符被“福建省教育考试院”水印遮挡，放大后辨认为“÷”，低清图无法百分之百确认，建议对照清晰原卷核对"
+  },
+  {
+   "id": "shuxue-2020-20-1",
+   "no": "20(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q20",
+   "stem": "若该公司某月销售甲、乙两种特产的总成本为 $235$ 万元，问这个月该公司分别销售甲、乙两种特产各多少吨？",
+   "answer": "",
+   "kp": [
+    "shuxue.eq.system_app"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-20-2",
+   "no": "20(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q20",
+   "stem": "求该公司一个月销售这两种特产所能获得的最大总利润.",
+   "answer": "",
+   "kp": [
+    "shuxue.func.linear_app",
+    "shuxue.ineq.app"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-21-1",
+   "no": "21(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q21",
+   "stem": "求 $\\angle BED$ 的大小；",
+   "answer": "",
+   "kp": [
+    "shuxue.circle.tangent",
+    "shuxue.circle.basic",
+    "shuxue.geo.trig"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-21-2",
+   "no": "21(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q21",
+   "stem": "若 $\\odot O$ 的半径为 $3$，点 $F$ 在 $AB$ 的延长线上，且 $BF=3\\sqrt{3}$，求证：$DF$ 与 $\\odot O$ 相切.",
+   "answer": "",
+   "kp": [
+    "shuxue.circle.tangent",
+    "shuxue.geo.congruent"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-22-1",
+   "no": "22(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q22",
+   "stem": "如果该地区尚未脱贫的家庭共有 $1000$ 户，试估计其中家庭人均年纯收入低于 $2000$ 元（不含 $2000$ 元）的户数；",
+   "answer": "",
+   "kp": [
+    "shuxue.stat.collect",
+    "shuxue.stat.chart"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-22-2",
+   "no": "22(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q22",
+   "stem": "估计 2019 年该地区尚未脱贫的家庭人均年纯收入的平均值；",
+   "answer": "",
+   "kp": [
+    "shuxue.stat.central"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2020-22-3",
+   "no": "22(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q22",
+   "stem": "2020 年初，由于新冠疫情，农民收入受到严重影响，上半年当地农民家庭人均月纯收入的最低值变化情况如下面的折线图所示. 为确保当地农民在 2020 年全面脱贫，当地政府积极筹集资金，引进某科研机构的扶贫专项项目. 据预测，随着该项目的实施，当地农民自 2020 年 6 月开始，以后每月家庭人均月纯收入都将比上一个月增加 $170$ 元.\n\n（折线图：1–6 月家庭人均月纯收入最低值依次为 $500$，$300$，$150$，$200$，$300$，$450$ 元）\n\n已知 2020 年农村脱贫标准为农民人均年纯收入 $4000$ 元，试根据以上信息预测该地区所有贫困家庭能否在今年实现全面脱贫.",
+   "answer": "",
+   "kp": [
+    "shuxue.stat.decision",
+    "shuxue.stat.chart",
+    "shuxue.prac.modeling"
+   ],
+   "difficulty": 2,
+   "figures": [
+    "figs/2020-22-2.png"
+   ]
+  },
+  {
+   "id": "shuxue-2020-23-1",
+   "no": "23(1)",
+   "section": "解答题",
+   "type": "draw",
+   "score": 4,
+   "material": "q23",
+   "stem": "求作四边形 $ABCD$，使得 $CD\\parallel AB$，且 $CD=2AB$；（要求：尺规作图，不写作法，保留作图痕迹）",
+   "answer": "",
+   "kp": [
+    "shuxue.construct.design",
+    "shuxue.construct.basic"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-23-2",
+   "no": "23(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q23",
+   "stem": "在(1)的四边形 $ABCD$ 中，$AC$，$BD$ 相交于点 $P$，$AB$，$CD$ 的中点分别为 $M$，$N$，求证：$M$，$P$，$N$ 三点在同一条直线上.",
+   "answer": "",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.prac.reasoning"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2020-24-1",
+   "no": "24(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q24",
+   "stem": "求 $\\angle BDE$ 的度数；",
+   "answer": "",
+   "kp": [
+    "shuxue.trans.rotation",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-24-2-1",
+   "no": "24(2)①",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q24",
+   "stem": "$F$ 是 $EC$ 延长线上的点，且 $\\angle CDF=\\angle DAC$. 判断 $DF$ 和 $PF$ 的数量关系，并证明；",
+   "answer": "",
+   "kp": [
+    "shuxue.trans.rotation",
+    "shuxue.geo.isosceles",
+    "shuxue.geo.synthesis"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2020-24-2-2",
+   "no": "24(2)②",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q24",
+   "stem": "$F$ 是 $EC$ 延长线上的点，且 $\\angle CDF=\\angle DAC$. 求证：$\\dfrac{EP}{PF}=\\dfrac{PC}{CF}$.",
+   "answer": "",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.geo.synthesis"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2020-25-1",
+   "no": "25(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q25",
+   "stem": "求二次函数的表达式；",
+   "answer": "",
+   "kp": [
+    "shuxue.func.quad_expr",
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-25-2",
+   "no": "25(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q25",
+   "stem": "若直线 $l_2$：$y=mx+n\\ (n\\neq 10)$，求证：当 $m=-2$ 时，$l_2\\parallel l_1$；",
+   "answer": "",
+   "kp": [
+    "shuxue.func.linear",
+    "shuxue.prac.reasoning"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2020-25-3",
+   "no": "25(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q25",
+   "stem": "$E$ 为线段 $BC$ 上不与端点重合的点，直线 $l_3$：$y=-2x+q$ 过点 $C$ 且交直线 $AE$ 于点 $F$，求 $\\triangle ABE$ 与 $\\triangle CEF$ 面积之和的最小值.",
+   "answer": "",
+   "kp": [
+    "shuxue.func.quad_geo",
+    "shuxue.geo.similar"
+   ],
+   "difficulty": 3
+  }
+ ]
+}

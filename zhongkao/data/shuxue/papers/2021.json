@@ -1,0 +1,614 @@
+{
+ "subject": "shuxue",
+ "year": 2021,
+ "source": "福建省教育考试院《试题、参考答案》合订本（福州市教育局转载）http://www.fuzhou.gov.cn/zgfzzt/jy/ksxx/hkxx/202106/t20210627_4128932.htm",
+ "total": 150,
+ "minutes": 120,
+ "materials": [
+  {
+   "id": "q20",
+   "text": "某公司经营某种农产品，零售一箱该农产品的利润是 70 元，批发一箱该农产品的利润是 40 元."
+  },
+  {
+   "id": "q21",
+   "text": "如图，在 $\\text{Rt}\\triangle ABC$ 中，$\\angle ACB=90^\\circ$. 线段 $EF$ 是由线段 $AB$ 平移得到的，点 $F$ 在边 $BC$ 上，$\\triangle EFD$ 是以 $EF$ 为斜边的等腰直角三角形，且点 $D$ 恰好在 $AC$ 的延长线上.",
+   "figures": [
+    "figs/2021-21-1.png"
+   ]
+  },
+  {
+   "id": "q22",
+   "text": "如图，已知线段 $MN=a$，$AR\\perp AK$，垂足为 $A$.",
+   "figures": [
+    "figs/2021-22-1.png"
+   ]
+  },
+  {
+   "id": "q23",
+   "text": "“田忌赛马”的故事闪烁着我国古代先贤的智慧光芒. 该故事的大意是：齐王有上、中、下三匹马 $A_1$，$B_1$，$C_1$，田忌也有上、中、下三匹马 $A_2$，$B_2$，$C_2$，且这六匹马在比赛中的胜负可用不等式表示如下：$A_1>A_2>B_1>B_2>C_1>C_2$（注：$A>B$ 表示 A 马与 B 马比赛，A 马获胜）. 一天，齐王找田忌赛马，约定：每匹马都出场比赛一局，共赛三局，胜两局者获得整场比赛的胜利. 面对劣势，田忌事先了解到齐王三局比赛的“出马”顺序为上马、中马、下马，并采用孙膑的策略：分别用下马、上马、中马与齐王的上马、中马、下马比赛，即借助对阵（$C_2A_1$，$A_2B_1$，$B_2C_1$）获得了整场比赛的胜利，创造了以弱胜强的经典案例.\n\n假设齐王事先不打探田忌的“出马”情况，试回答以下问题："
+  },
+  {
+   "id": "q24",
+   "text": "如图，在正方形 $ABCD$ 中，$E$，$F$ 为边 $AB$ 上的两个三等分点，点 $A$ 关于 $DE$ 的对称点为 $A'$，$AA'$ 的延长线交 $BC$ 于点 $G$.",
+   "figures": [
+    "figs/2021-24-1.png"
+   ]
+  },
+  {
+   "id": "q25",
+   "text": "已知抛物线 $y=ax^2+bx+c$ 与 $x$ 轴只有一个公共点."
+  }
+ ],
+ "questions": [
+  {
+   "id": "shuxue-2021-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "在实数 $\\sqrt{2}$，$\\frac{1}{2}$，$0$，$-1$ 中，最小的数是",
+   "options": [
+    "A. $-1$",
+    "B. $0$",
+    "C. $\\frac{1}{2}$",
+    "D. $\\sqrt{2}$"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.num.real"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图所示的六角螺栓，其俯视图是",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.solid.view"
+   ],
+   "difficulty": 1,
+   "figures": [
+    "figs/2021-2-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2021-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，某研究性学习小组为测量学校 $A$ 与河对岸工厂 $B$ 之间的距离，在学校附近选一点 $C$，利用测量仪器测得 $\\angle A=60^\\circ$，$\\angle C=90^\\circ$，$AC=2\\ \\text{km}$. 据此，可求得学校与工厂之间的距离 $AB$ 等于",
+   "options": [
+    "A. $2\\ \\text{km}$",
+    "B. $3\\ \\text{km}$",
+    "C. $2\\sqrt{3}\\ \\text{km}$",
+    "D. $4\\ \\text{km}$"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.geo.trig_app",
+    "shuxue.geo.trig"
+   ],
+   "difficulty": 1,
+   "figures": [
+    "figs/2021-3-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2021-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列运算正确的是",
+   "options": [
+    "A. $2a-a=2$",
+    "B. $(a-1)^2=a^2-1$",
+    "C. $a^6\\div a^3=a^2$",
+    "D. $(2a^3)^2=4a^6$"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.num.power",
+    "shuxue.num.polynomial"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "某校为推荐一项作品参加“科技创新”比赛，对甲、乙、丙、丁四项候选作品进行量化评分，具体成绩（百分制）如下表：\n\n| 项目＼作品 | 甲 | 乙 | 丙 | 丁 |\n|---|---|---|---|---|\n| 创新性 | 90 | 95 | 90 | 90 |\n| 实用性 | 90 | 90 | 95 | 85 |\n\n如果按照创新性占 $60\\%$，实用性占 $40\\%$ 计算总成绩，并根据总成绩择优推荐，那么应推荐的作品是",
+   "options": [
+    "A. 甲",
+    "B. 乙",
+    "C. 丙",
+    "D. 丁"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.stat.central",
+    "shuxue.stat.decision"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "某市 2018 年底森林覆盖率为 $63\\%$. 为贯彻落实“绿水青山就是金山银山”的发展理念，该市大力开展植树造林活动，2020 年底森林覆盖率达到 $68\\%$. 如果这两年森林覆盖率的年平均增长率为 $x$，那么，符合题意的方程是",
+   "options": [
+    "A. $0.63(1+x)=0.68$",
+    "B. $0.63(1+x)^2=0.68$",
+    "C. $0.63(1+2x)=0.68$",
+    "D. $0.63(1+2x)^2=0.68$"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.eq.quad_app"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，点 $F$ 在正五边形 $ABCDE$ 的内部，$\\triangle ABF$ 为等边三角形，则 $\\angle AFC$ 等于",
+   "options": [
+    "A. $108^\\circ$",
+    "B. $120^\\circ$",
+    "C. $126^\\circ$",
+    "D. $132^\\circ$"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.geo.polygon",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 2,
+   "figures": [
+    "figs/2021-7-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2021-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，一次函数 $y=kx+b\\ (k>0)$ 的图象过点 $(-1,0)$，则不等式 $k(x-1)+b>0$ 的解集是",
+   "options": [
+    "A. $x>-2$",
+    "B. $x>-1$",
+    "C. $x>0$",
+    "D. $x>1$"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.func.linear",
+    "shuxue.ineq.solve"
+   ],
+   "difficulty": 2,
+   "figures": [
+    "figs/2021-8-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2021-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，$AB$ 为 $\\odot O$ 的直径，点 $P$ 在 $AB$ 的延长线上，$PC$，$PD$ 与 $\\odot O$ 相切，切点分别为 $C$，$D$. 若 $AB=6$，$PC=4$，则 $\\sin\\angle CAD$ 等于",
+   "options": [
+    "A. $\\frac{3}{5}$",
+    "B. $\\frac{2}{3}$",
+    "C. $\\frac{3}{4}$",
+    "D. $\\frac{4}{5}$"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.circle.tangent",
+    "shuxue.circle.basic",
+    "shuxue.geo.trig"
+   ],
+   "difficulty": 2,
+   "figures": [
+    "figs/2021-9-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2021-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "二次函数 $y=ax^2-2ax+c\\ (a>0)$ 的图象过 $A(-3,y_1)$，$B(-1,y_2)$，$C(2,y_3)$，$D(4,y_4)$ 四个点，下列说法一定正确的是",
+   "options": [
+    "A. 若 $y_1y_2>0$，则 $y_3y_4>0$",
+    "B. 若 $y_1y_4>0$，则 $y_2y_3>0$",
+    "C. 若 $y_2y_4<0$，则 $y_1y_3<0$",
+    "D. 若 $y_3y_4<0$，则 $y_1y_2<0$"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.func.quad_param",
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2021-11",
+   "no": "11",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "若反比例函数 $y=\\frac{k}{x}$ 的图象过点 $(1,1)$，则 $k$ 的值等于____.",
+   "answer": "1",
+   "kp": [
+    "shuxue.func.inverse"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-12",
+   "no": "12",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "写出一个无理数 $x$，使得 $1<x<4$，则 $x$ 可以是____.（只要写出一个满足条件的 $x$ 即可）",
+   "answer": "答案不唯一（如 $\\sqrt{2}$，$\\pi$，$1.010010001\\cdots$ 等）",
+   "kp": [
+    "shuxue.num.real"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-13",
+   "no": "13",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "某校共有 1 000 名学生. 为了解学生的中长跑成绩分布情况，随机抽取 100 名学生的中长跑成绩，画出条形统计图，如图. 根据所学的统计知识可估计该校中长跑成绩优秀的学生人数是____.",
+   "answer": "270",
+   "kp": [
+    "shuxue.stat.collect",
+    "shuxue.stat.chart"
+   ],
+   "difficulty": 1,
+   "figures": [
+    "figs/2021-13-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2021-14",
+   "no": "14",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，$AD$ 是 $\\triangle ABC$ 的角平分线. 若 $\\angle B=90^\\circ$，$BD=\\sqrt{3}$，则点 $D$ 到 $AC$ 的距离是____.",
+   "answer": "$\\sqrt{3}$",
+   "kp": [
+    "shuxue.geo.bisector"
+   ],
+   "difficulty": 1,
+   "figures": [
+    "figs/2021-14-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2021-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "已知非零实数 $x$，$y$ 满足 $y=\\frac{x}{x+1}$，则 $\\frac{x-y+3xy}{xy}$ 的值等于____.",
+   "answer": "4",
+   "kp": [
+    "shuxue.num.fraction",
+    "shuxue.num.algebra_expr"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2021-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，在矩形 $ABCD$ 中，$AB=4$，$AD=5$，点 $E$，$F$ 分别是边 $AB$，$BC$ 上的动点，点 $E$ 不与 $A$，$B$ 重合，且 $EF=AB$，$G$ 是五边形 $AEFCD$ 内满足 $GE=GF$ 且 $\\angle EGF=90^\\circ$ 的点. 现给出以下结论：\n\n①$\\angle GEB$ 与 $\\angle GFB$ 一定互补；\n\n②点 $G$ 到边 $AB$，$BC$ 的距离一定相等；\n\n③点 $G$ 到边 $AD$，$DC$ 的距离可能相等；\n\n④点 $G$ 到边 $AB$ 的距离的最大值为 $2\\sqrt{2}$.\n\n其中正确的是____.（写出所有正确结论的序号）",
+   "answer": "①②④",
+   "kp": [
+    "shuxue.geo.special_quad",
+    "shuxue.geo.congruent",
+    "shuxue.geo.extremum"
+   ],
+   "difficulty": 3,
+   "figures": [
+    "figs/2021-16-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2021-17",
+   "no": "17",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "计算：$\\sqrt{12}+\\left|\\sqrt{3}-3\\right|-\\left(\\frac{1}{3}\\right)^{-1}$.",
+   "answer": "解：原式 $=2\\sqrt{3}+(3-\\sqrt{3})-3$\n\n$=2\\sqrt{3}+3-\\sqrt{3}-3$\n\n$=\\sqrt{3}$.",
+   "rubric": "本小题考查二次根式的化简、绝对值的意义、有理数负指数幂等基础知识，考查运算能力. 满分 8 分.",
+   "kp": [
+    "shuxue.num.real_calc",
+    "shuxue.num.radical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-18",
+   "no": "18",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "如图，在 $\\triangle ABC$ 中，$D$ 是边 $BC$ 上的点，$DE\\perp AC$，$DF\\perp AB$，垂足分别为 $E$，$F$，且 $DE=DF$，$CE=BF$. 求证：$\\angle B=\\angle C$.",
+   "figures": [
+    "figs/2021-18-1.png"
+   ],
+   "answer": "证明：$\\because DE\\perp AC$，$DF\\perp AB$，\n\n$\\therefore \\angle DEC=\\angle DFB=90^\\circ$.\n\n在 $\\triangle DEC$ 和 $\\triangle DFB$ 中，$\\begin{cases}DE=DF,\\\\ \\angle DEC=\\angle DFB,\\\\ CE=BF,\\end{cases}$\n\n$\\therefore \\triangle DEC\\cong\\triangle DFB$，\n\n$\\therefore \\angle B=\\angle C$.",
+   "rubric": "本小题考查垂线的性质、全等三角形的判定与性质、等腰三角形的性质等基础知识，考查推理能力、空间观念与几何直观. 满分 8 分.",
+   "kp": [
+    "shuxue.geo.congruent",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-19",
+   "no": "19",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "解不等式组：$\\begin{cases}x\\geqslant 3-2x, & ①\\\\ \\dfrac{x-1}{2}-\\dfrac{x-3}{6}<1. & ②\\end{cases}$",
+   "answer": "解：解不等式①，得 $x\\geqslant 1$.\n\n解不等式②，得 $x<3$.\n\n所以原不等式组的解集是 $1\\leqslant x<3$.",
+   "rubric": "本小题考查一元一次不等式组的解法等基础知识，考查运算能力. 满分 8 分.",
+   "kp": [
+    "shuxue.ineq.solve"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-20-1",
+   "no": "20(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q20",
+   "stem": "已知该公司某月卖出 100 箱这种农产品共获利润 4 600 元，问：该公司当月零售、批发这种农产品的箱数分别是多少？",
+   "answer": "解：设该公司当月零售农产品 $x$ 箱，批发农产品 $y$ 箱.\n\n依题意，得 $\\begin{cases}70x+40y=4600,\\\\ x+y=100,\\end{cases}$\n\n解得 $\\begin{cases}x=20,\\\\ y=80.\\end{cases}$\n\n所以该公司当月零售农产品 20 箱，批发农产品 80 箱.",
+   "rubric": "本小题考查列方程（组）解应用题、二元一次方程组的解法、一次函数的性质等基础知识，考查运算能力、应用意识，考查函数与方程思想. 满分 8 分.",
+   "kp": [
+    "shuxue.eq.system_app",
+    "shuxue.eq.system"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-20-2",
+   "no": "20(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q20",
+   "stem": "经营性质规定，该公司零售的数量不能多于总数量的 $30\\%$. 现该公司要经营 1 000 箱这种农产品，问：应如何规划零售和批发的数量，才能使总利润最大？最大总利润是多少？",
+   "answer": "设该公司零售农产品 $m$ 箱，获得总利润 $w$ 元.\n\n则批发农产品的数量为 $(1000-m)$ 箱，\n\n依题意，得 $w=70m+40(1000-m)=30m+40000$，$m\\leqslant 300$.\n\n因为 $30>0$，所以 $w$ 随着 $m$ 的增大而增大，\n\n所以 $m=300$ 时，$w$ 取得最大值 49000 元，\n\n此时 $1000-m=700$.\n\n所以该公司应零售农产品 300 箱、批发农产品 700 箱才能使总利润最大，最大总利润是 49000 元.",
+   "kp": [
+    "shuxue.func.linear_app",
+    "shuxue.ineq.app"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2021-21-1",
+   "no": "21(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q21",
+   "stem": "求证：$\\angle ADE=\\angle DFC$；",
+   "answer": "证明：在等腰直角三角形 $EDF$ 中，$\\angle EDF=90^\\circ$，\n\n$\\therefore \\angle ADE+\\angle ADF=90^\\circ$.\n\n$\\because \\angle ACB=90^\\circ$，\n\n$\\therefore \\angle DFC+\\angle ADF=\\angle ACB=90^\\circ$，\n\n$\\therefore \\angle ADE=\\angle DFC$.",
+   "rubric": "本小题考查平移的性质、直角三角形和等腰三角形的性质、全等三角形的判定和性质，考查推理能力、空间观念与几何直观，考查化归与转化思想. 满分 8 分.",
+   "kp": [
+    "shuxue.geo.isosceles",
+    "shuxue.geo.triangle"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2021-21-2",
+   "no": "21(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q21",
+   "stem": "求证：$CD=BF$.",
+   "answer": "连接 $AE$.\n\n![](figs/2021-21-ans.png)\n\n由平移的性质得 $AE\\parallel BF$，$AE=BF$.\n\n$\\therefore \\angle EAD=\\angle ACB=90^\\circ$，\n\n$\\therefore \\angle DCF=180^\\circ-\\angle ACB=90^\\circ$，\n\n$\\therefore \\angle EAD=\\angle DCF$.\n\n$\\because \\triangle EDF$ 是等腰直角三角形，\n\n$\\therefore DE=DF$.\n\n由(1)得 $\\angle ADE=\\angle DFC$，\n\n$\\therefore \\triangle AED\\cong\\triangle CDF$，\n\n$\\therefore AE=CD$，$\\therefore CD=BF$.",
+   "kp": [
+    "shuxue.geo.congruent",
+    "shuxue.trans.translation"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2021-22-1",
+   "no": "22(1)",
+   "section": "解答题",
+   "type": "draw",
+   "score": 4,
+   "material": "q22",
+   "stem": "求作四边形 $ABCD$，使得点 $B$，$D$ 分别在射线 $AK$，$AR$ 上，且 $AB=BC=a$，$\\angle ABC=60^\\circ$，$CD\\parallel AB$；（要求：尺规作图，不写作法，保留作图痕迹）",
+   "answer": "解：\n\n![](figs/2021-22-ans.png)\n\n四边形 $ABCD$ 是所求作的四边形.",
+   "rubric": "本小题考查尺规作图、等边三角形的判定与性质、直角三角形的性质、平行线的判定与性质、相似三角形的判定与性质、全等三角形的判定与性质、矩形的判定与性质等基础知识，考查推理能力、空间观念与几何直观，考查化归与转化思想. 满分 10 分.",
+   "kp": [
+    "shuxue.construct.design",
+    "shuxue.construct.basic"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2021-22-2",
+   "no": "22(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q22",
+   "stem": "设 $P$，$Q$ 分别为(1)中四边形 $ABCD$ 的边 $AB$，$CD$ 的中点，求证：直线 $AD$，$BC$，$PQ$ 相交于同一点.",
+   "answer": "设直线 $BC$ 与 $AD$ 相交于点 $S$，\n\n![](figs/2021-22-ans2.png)\n\n$\\because DC\\parallel AB$，$\\therefore \\triangle SBA\\backsim\\triangle SCD$，\n\n$\\therefore \\frac{SA}{SD}=\\frac{AB}{DC}$.\n\n设直线 $PQ$ 与 $AD$ 相交于点 $S'$，\n\n同理 $\\frac{S'A}{S'D}=\\frac{PA}{QD}$.\n\n$\\because P$，$Q$ 分别为 $AB$，$CD$ 的中点，\n\n$\\therefore PA=\\frac{1}{2}AB$，$QD=\\frac{1}{2}DC$，\n\n$\\therefore \\frac{PA}{QD}=\\frac{AB}{DC}$，$\\therefore \\frac{S'A}{S'D}=\\frac{SA}{SD}$，\n\n即 $\\frac{S'D+AD}{S'D}=\\frac{SD+AD}{SD}$，$\\therefore \\frac{AD}{S'D}=\\frac{AD}{SD}$，\n\n$\\therefore S'D=SD$，故点 $S$ 与 $S'$ 重合，即三条直线 $AD$，$BC$，$PQ$ 相交于同一点.",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.geo.parallel"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2021-23-1",
+   "no": "23(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q23",
+   "stem": "如果田忌事先只打探到齐王首局将出“上马”，他首局应出哪种马才可能获得整场比赛的胜利？并求其获胜的概率；",
+   "answer": "解：田忌首局应出“下马”才可能在整场比赛中获胜.\n\n此时，比赛的所有可能对阵为：（$C_2A_1$，$A_2B_1$，$B_2C_1$），（$C_2A_1$，$B_2C_1$，$A_2B_1$），（$C_2A_1$，$B_2B_1$，$A_2C_1$），（$C_2A_1$，$A_2C_1$，$B_2B_1$），共四种，\n\n其中田忌获胜的对阵有（$C_2A_1$，$A_2B_1$，$B_2C_1$），（$C_2A_1$，$B_2C_1$，$A_2B_1$），共两种，\n\n故此时田忌获胜的概率为 $P_1=\\frac{1}{2}$.",
+   "rubric": "本小题考查简单随机事件的概率等基础知识，考查推理能力、应用意识，考查统计与概率思想. 满分 10 分.",
+   "kp": [
+    "shuxue.prob.classical",
+    "shuxue.prob.decision"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2021-23-2",
+   "no": "23(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q23",
+   "stem": "如果田忌事先无法打探到齐王各局的“出马”情况，他是否必败无疑？若是，请说明理由；若不是，请列出田忌获得整场比赛胜利的所有对阵情况，并求其获胜的概率.",
+   "answer": "不是.\n\n齐王的出马顺序为 $A_1$，$B_1$，$C_1$ 时，田忌获胜的对阵是（$C_2A_1$，$A_2B_1$，$B_2C_1$）；\n\n齐王的出马顺序为 $A_1$，$C_1$，$B_1$ 时，田忌获胜的对阵是（$C_2A_1$，$B_2C_1$，$A_2B_1$）；\n\n齐王的出马顺序为 $B_1$，$A_1$，$C_1$ 时，田忌获胜的对阵是（$A_2B_1$，$C_2A_1$，$B_2C_1$）；\n\n齐王的出马顺序为 $B_1$，$C_1$，$A_1$ 时，田忌获胜的对阵是（$A_2B_1$，$B_2C_1$，$C_2A_1$）；\n\n齐王的出马顺序为 $C_1$，$A_1$，$B_1$ 时，田忌获胜的对阵是（$B_2C_1$，$C_2A_1$，$A_2B_1$）；\n\n齐王的出马顺序为 $C_1$，$B_1$，$A_1$ 时，田忌获胜的对阵是（$B_2C_1$，$A_2B_1$，$C_2A_1$）.\n\n综上所述，田忌获胜的所有对阵是（$C_2A_1$，$A_2B_1$，$B_2C_1$），（$C_2A_1$，$B_2C_1$，$A_2B_1$），（$A_2B_1$，$C_2A_1$，$B_2C_1$），（$A_2B_1$，$B_2C_1$，$C_2A_1$），（$B_2C_1$，$C_2A_1$，$A_2B_1$），（$B_2C_1$，$A_2B_1$，$C_2A_1$）.\n\n齐王的出马顺序为 $A_1$，$B_1$，$C_1$ 时，比赛的所有可能对阵是（$A_2A_1$，$B_2B_1$，$C_2C_1$），（$A_2A_1$，$C_2B_1$，$B_2C_1$），（$B_2A_1$，$A_2B_1$，$C_2C_1$），（$B_2A_1$，$C_2B_1$，$A_2C_1$），（$C_2A_1$，$A_2B_1$，$B_2C_1$），（$C_2A_1$，$B_2B_1$，$A_2C_1$），共 6 种，同理，齐王的其他各种出马顺序，也都分别有相应的 6 种可能对阵，所以，此时田忌获胜的概率 $P_2=\\frac{6}{36}=\\frac{1}{6}$.",
+   "kp": [
+    "shuxue.prob.tree",
+    "shuxue.prob.decision"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2021-24-1",
+   "no": "24(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q24",
+   "stem": "求证：$DE\\parallel A'F$；",
+   "answer": "解：设直线 $DE$ 与 $AA'$ 相交于点 $T$，\n\n![](figs/2021-24-ans.png)\n\n$\\because$ 点 $A$ 与 $A'$ 关于 $DE$ 对称，\n\n$\\therefore DE$ 垂直平分 $AA'$，即 $DE\\perp AA'$，$AT=TA'$.\n\n$\\because E$，$F$ 为 $AB$ 边上的两个三等分点，\n\n$\\therefore AE=EF$，\n\n$\\therefore ET$ 是 $\\triangle AA'F$ 的中位线，\n\n$\\therefore ET\\parallel A'F$，即 $DE\\parallel A'F$.",
+   "rubric": "本小题考查正方形的性质、轴对称的性质、多边形内角与外角的关系、全等三角形的判定与性质、相似三角形的判定与性质、平行线的判定与性质、三角形中位线定理、圆的基本概念与性质、解直角三角形等基础知识，考查推理能力、运算能力，考查空间观念与几何直观，考查化归与转化思想. 满分 12 分.",
+   "kp": [
+    "shuxue.trans.fold",
+    "shuxue.geo.midline"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2021-24-2",
+   "no": "24(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q24",
+   "stem": "求 $\\angle GA'B$ 的大小；",
+   "answer": "连接 $FG$，$\\because$ 四边形 $ABCD$ 是正方形，\n\n$\\therefore AD=AB$，$\\angle DAB=\\angle ABG=90^\\circ$，$\\angle DAT+\\angle BAG=90^\\circ$，\n\n$\\because DE\\perp AA'$，$\\therefore \\angle DTA=90^\\circ$，\n\n$\\therefore \\angle ADT+\\angle DAT=90^\\circ$，$\\therefore \\angle ADT=\\angle BAG$.\n\n$\\therefore \\triangle DAE\\cong\\triangle ABG$，\n\n$\\therefore AE=BG$，又 $AE=EF=FB$，\n\n$\\therefore FB=BG$，\n\n$\\therefore \\triangle FBG$ 是等腰直角三角形，\n\n$\\therefore \\angle GFB=45^\\circ$.\n\n$\\because DE\\parallel A'F$，$\\therefore A'F\\perp AA'$，\n\n$\\therefore \\angle FA'G=90^\\circ$.\n\n取 $FG$ 的中点 $O$，连接 $OA'$，$OB$，\n\n在 $\\text{Rt}\\triangle A'FG$ 和 $\\text{Rt}\\triangle BFG$ 中，\n\n$OA'=OF=OG=\\frac{1}{2}FG$，$OB=OF=OG=\\frac{1}{2}FG$，\n\n$\\therefore OA'=OF=OG=OB$，\n\n$\\therefore$ 点 $A'$，$F$，$B$，$G$ 都在以 $FG$ 为直径的 $\\odot O$ 上，\n\n$\\therefore \\angle GA'B=\\angle GFB=45^\\circ$.",
+   "kp": [
+    "shuxue.geo.special_quad",
+    "shuxue.geo.congruent",
+    "shuxue.circle.concyclic"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2021-24-3",
+   "no": "24(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q24",
+   "stem": "求证：$A'C=2A'B$.",
+   "answer": "设 $AB=3a$，则 $AD=BC=3a$，$AF=2a$，$AE=BF=a$.\n\n由(2)得 $BG=AE=a$，\n\n$\\therefore \\tan\\angle BAG=\\frac{BG}{AB}=\\frac{a}{3a}=\\frac{1}{3}$，即 $\\tan\\angle A'AF=\\frac{1}{3}$，$\\therefore \\frac{A'F}{AA'}=\\frac{1}{3}$.\n\n设 $A'F=k$，则 $AA'=3k$，在 $\\text{Rt}\\triangle A'AF$ 中，由勾股定理，得 $AF=\\sqrt{AA'^2+A'F^2}=\\sqrt{10}k$，\n\n$\\therefore \\sqrt{10}k=2a$，$k=\\frac{\\sqrt{10}a}{5}$，$A'F=\\frac{\\sqrt{10}a}{5}$.\n\n在 $\\text{Rt}\\triangle ABG$ 中，由勾股定理，得 $AG=\\sqrt{AB^2+BG^2}=\\sqrt{10}a$.\n\n又 $AA'=3k=\\frac{3\\sqrt{10}a}{5}$，$\\therefore A'G=AG-AA'=\\sqrt{10}a-\\frac{3\\sqrt{10}a}{5}=\\frac{2\\sqrt{10}a}{5}$，\n\n$\\therefore \\frac{A'F}{A'G}=\\frac{\\frac{\\sqrt{10}a}{5}}{\\frac{2\\sqrt{10}a}{5}}=\\frac{1}{2}$.\n\n$\\because CG=BC-GB=2a$，$\\therefore \\frac{BF}{CG}=\\frac{a}{2a}=\\frac{1}{2}$，$\\therefore \\frac{A'F}{A'G}=\\frac{BF}{CG}=\\frac{1}{2}$.\n\n由(2)知，$\\angle A'FB+\\angle A'GB=180^\\circ$，\n\n又 $\\because \\angle A'GC+\\angle A'GB=180^\\circ$，\n\n$\\therefore \\angle A'FB=\\angle A'GC$，\n\n$\\therefore \\triangle A'FB\\backsim\\triangle A'GC$，\n\n$\\therefore \\frac{A'B}{A'C}=\\frac{BF}{CG}=\\frac{1}{2}$，\n\n$\\therefore A'C=2A'B$.",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.geo.trig",
+    "shuxue.geo.pythagoras"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2021-25-1",
+   "no": "25(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q25",
+   "stem": "若抛物线过点 $P(0,1)$，求 $a+b$ 的最小值；",
+   "answer": "解：因为抛物线 $y=ax^2+bx+c$ 与 $x$ 轴只有一个公共点，\n\n所以方程 $ax^2+bx+c=0$ 有两个相等的实数根，\n\n所以 $\\Delta=b^2-4ac=0$，即 $b^2=4ac$.\n\n(1)因为抛物线过点 $P(0,1)$，所以 $c=1$，\n\n所以 $b^2=4a$，即 $a=\\frac{b^2}{4}$.\n\n所以 $a+b=\\frac{b^2}{4}+b=\\frac{1}{4}(b+2)^2-1$，\n\n当 $b=-2$ 时，$a+b$ 取到最小值 $-1$.",
+   "rubric": "本小题考查一次函数和二次函数的图象与性质、相似三角形的判定与性质、三角形面积等基础知识，考查运算能力、推理能力、空间观念与几何直观、创新意识，考查函数与方程思想、数形结合思想及化归与转化思想. 满分 14 分.",
+   "kp": [
+    "shuxue.func.quad_eq",
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2021-25-2-1",
+   "no": "25(2)①",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q25",
+   "stem": "已知点 $P_1(-2,1)$，$P_2(2,-1)$，$P_3(2,1)$ 中恰有两点在抛物线上. ①求抛物线的解析式；",
+   "answer": "①因为抛物线 $y=ax^2+bx+c$ 与 $x$ 轴只有一个公共点，\n\n所以抛物线上的点只能落在 $x$ 轴的同侧.\n\n又点 $P_1(-2,1)$，$P_2(2,-1)$，$P_3(2,1)$ 中恰有两点在抛物线的图象上，\n\n所以只能是 $P_1(-2,1)$，$P_3(2,1)$ 在抛物线的图象上，\n\n由对称性可得抛物线的对称轴为 $x=0$，所以 $b=0$，\n\n即 $ac=0$，因为 $a\\neq 0$，所以 $c=0$.\n\n又点 $P_1(-2,1)$ 在抛物线的图象上，所以 $4a=1$，$a=\\frac{1}{4}$，\n\n故抛物线的解析式为 $y=\\frac{1}{4}x^2$.",
+   "kp": [
+    "shuxue.func.quad_expr",
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2021-25-2-2",
+   "no": "25(2)②",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q25",
+   "stem": "已知点 $P_1(-2,1)$，$P_2(2,-1)$，$P_3(2,1)$ 中恰有两点在抛物线上. ②设直线 $l$：$y=kx+1$ 与抛物线交于 $M$，$N$ 两点，点 $A$ 在直线 $y=-1$ 上，且 $\\angle MAN=90^\\circ$，过点 $A$ 且与 $x$ 轴垂直的直线分别交抛物线和 $l$ 于点 $B$，$C$. 求证：$\\triangle MAB$ 与 $\\triangle MBC$ 的面积相等.",
+   "answer": "②由题意设 $M(x_1,y_1)$，$N(x_2,y_2)$，$A(x_0,-1)$，则 $y_1=kx_1+1$，$y_2=kx_2+1$.\n\n![](figs/2021-25-ans.png)\n\n记直线 $y=-1$ 为 $m$，分别过 $M$，$N$ 作 $ME\\perp m$，$NF\\perp m$，垂足分别为 $E$，$F$，\n\n即 $\\angle MEA=\\angle AFN=90^\\circ$，\n\n因为 $\\angle MAN=90^\\circ$，所以 $\\angle MAE+\\angle NAF=90^\\circ$.\n\n又 $\\angle MAE+\\angle EMA=90^\\circ$，所以 $\\angle EMA=\\angle NAF$，所以 $\\triangle AME\\backsim\\triangle NAF$.\n\n所以 $\\frac{AE}{NF}=\\frac{ME}{AF}$，所以 $\\frac{x_0-x_1}{y_2+1}=\\frac{y_1+1}{x_2-x_0}$，即 $(y_1+1)(y_2+1)+(x_1-x_0)(x_2-x_0)=0$.\n\n所以 $(kx_1+2)(kx_2+2)+(x_1-x_0)(x_2-x_0)=0$，\n\n即 $(k^2+1)x_1x_2+(2k-x_0)(x_1+x_2)+x_0^2+4=0$. ①\n\n把 $y=kx+1$ 代入 $y=\\frac{1}{4}x^2$，得 $x^2-4kx-4=0$，\n\n解得 $x_1=2k-2\\sqrt{k^2+1}$，$x_2=2k+2\\sqrt{k^2+1}$，\n\n所以 $x_1+x_2=4k$，$x_1x_2=-4$. ②\n\n将②代入①，得 $-4(k^2+1)+4k(2k-x_0)+x_0^2+4=0$，\n\n即 $(x_0-2k)^2=0$，解得 $x_0=2k$，即 $A(2k,-1)$.\n\n所以过点 $A$ 且与 $x$ 轴垂直的直线为 $x=2k$，\n\n将 $x=2k$ 代入 $y=\\frac{1}{4}x^2$，得 $y=k^2$，即 $B(2k,k^2)$，\n\n将 $x=2k$ 代入 $y=kx+1$，得 $y=2k^2+1$，\n\n即 $C(2k,2k^2+1)$，\n\n所以 $AB=k^2+1$，$BC=k^2+1$，因此 $AB=BC$，\n\n所以 $\\triangle MAB$ 与 $\\triangle MBC$ 的面积相等.",
+   "kp": [
+    "shuxue.func.quad_geo",
+    "shuxue.eq.vieta",
+    "shuxue.geo.similar"
+   ],
+   "difficulty": 3
+  }
+ ]
+}

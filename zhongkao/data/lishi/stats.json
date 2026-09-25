@@ -1,0 +1,1945 @@
+{
+ "subject": "lishi",
+ "years": [
+  2019,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "kps": {
+  "lishi.c7a.prehistoric": {
+   "name": "史前时期：远古人类与原始农耕",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 6.8,
+   "qs": [
+    "lishi-2019-1",
+    "lishi-2021-1",
+    "lishi-2023-1",
+    "lishi-2024-1",
+    "lishi-2025-1",
+    "lishi-2026-1"
+   ]
+  },
+  "lishi.c7a.xia_shang_zhou": {
+   "name": "夏商西周：早期国家、甲骨文与青铜器",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2019,
+    2022,
+    2026
+   ],
+   "count": 3,
+   "score": 3.6,
+   "qs": [
+    "lishi-2019-2",
+    "lishi-2022-1",
+    "lishi-2026-1"
+   ]
+  },
+  "lishi.c7a.fengjian": {
+   "name": "分封制与春秋战国的礼崩乐坏",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2021,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 4,
+   "score": 8.0,
+   "qs": [
+    "lishi-2021-2",
+    "lishi-2023-2",
+    "lishi-2024-3",
+    "lishi-2025-2"
+   ]
+  },
+  "lishi.c7a.warring_reform": {
+   "name": "战国社会变革：铁器牛耕、商鞅变法、兼并战争",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2025,
+    2026
+   ],
+   "count": 2,
+   "score": 3.2,
+   "qs": [
+    "lishi-2025-30-1",
+    "lishi-2026-2"
+   ]
+  },
+  "lishi.c7a.dujiangyan": {
+   "name": "都江堰",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2021,
+    2023
+   ],
+   "count": 2,
+   "score": 3.6,
+   "qs": [
+    "lishi-2021-3",
+    "lishi-2023-32"
+   ]
+  },
+  "lishi.c7a.hundred_schools": {
+   "name": "百家争鸣：孔子、老子、墨子等",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 4,
+   "score": 6.4,
+   "qs": [
+    "lishi-2022-2",
+    "lishi-2023-3",
+    "lishi-2024-2",
+    "lishi-2026-11"
+   ]
+  },
+  "lishi.c7a.qin_unify": {
+   "name": "秦统一与中央集权制度",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2019,
+    2021,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 7.2,
+   "qs": [
+    "lishi-2019-3",
+    "lishi-2021-4",
+    "lishi-2025-3",
+    "lishi-2026-3"
+   ]
+  },
+  "lishi.c7a.han_wudi": {
+   "name": "西汉建立与汉武帝巩固大一统",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2021,
+    2023
+   ],
+   "count": 2,
+   "score": 4.0,
+   "qs": [
+    "lishi-2021-5",
+    "lishi-2023-4"
+   ]
+  },
+  "lishi.c7a.silk_road": {
+   "name": "张骞通西域与丝绸之路",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2019,
+    2022,
+    2024,
+    2026
+   ],
+   "count": 4,
+   "score": 6.0,
+   "qs": [
+    "lishi-2019-7",
+    "lishi-2022-4",
+    "lishi-2024-4",
+    "lishi-2026-29"
+   ]
+  },
+  "lishi.c7a.qinhan_culture": {
+   "name": "秦汉科技与文化",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2019,
+    2022,
+    2025
+   ],
+   "count": 3,
+   "score": 5.6,
+   "qs": [
+    "lishi-2019-4",
+    "lishi-2022-3",
+    "lishi-2025-30-2"
+   ]
+  },
+  "lishi.c7a.division_era": {
+   "name": "三国两晋南北朝的政权分立与江南开发",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2021,
+    2026
+   ],
+   "count": 2,
+   "score": 1.2,
+   "qs": [
+    "lishi-2021-7",
+    "lishi-2026-4"
+   ]
+  },
+  "lishi.c7a.beiwei_reform": {
+   "name": "北魏孝文帝改革与北方民族交融",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2025
+   ],
+   "count": 6,
+   "score": 11.2,
+   "qs": [
+    "lishi-2019-32-1",
+    "lishi-2019-32-2",
+    "lishi-2019-32-3",
+    "lishi-2021-7",
+    "lishi-2023-5",
+    "lishi-2025-4"
+   ]
+  },
+  "lishi.c7a.wjnb_culture": {
+   "name": "魏晋南北朝科技与文化",
+   "module": "七上 中国古代史（史前—南北朝）",
+   "years": [
+    2024
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "lishi-2024-5"
+   ]
+  },
+  "lishi.c7b.sui_canal": {
+   "name": "隋朝统一与大运河",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2021,
+    2022
+   ],
+   "count": 2,
+   "score": 3.2,
+   "qs": [
+    "lishi-2021-7",
+    "lishi-2022-6"
+   ]
+  },
+  "lishi.c7b.keju": {
+   "name": "科举制的创立与发展",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2021,
+    2023,
+    2026
+   ],
+   "count": 3,
+   "score": 6.4,
+   "qs": [
+    "lishi-2021-31-2",
+    "lishi-2023-6",
+    "lishi-2026-7"
+   ]
+  },
+  "lishi.c7b.tang_prosperity": {
+   "name": "唐朝兴盛：贞观之治、开元盛世与唐代社会",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2019,
+    2021,
+    2024,
+    2026
+   ],
+   "count": 4,
+   "score": 5.6,
+   "qs": [
+    "lishi-2019-5",
+    "lishi-2021-31-1",
+    "lishi-2024-30-2",
+    "lishi-2026-5"
+   ]
+  },
+  "lishi.c7b.tang_ethnic": {
+   "name": "唐朝的民族关系",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2022
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "lishi-2022-7"
+   ]
+  },
+  "lishi.c7b.tang_foreign": {
+   "name": "唐朝的中外文化交流",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2023,
+    2025
+   ],
+   "count": 3,
+   "score": 4.4,
+   "qs": [
+    "lishi-2023-32",
+    "lishi-2025-5",
+    "lishi-2025-19"
+   ]
+  },
+  "lishi.c7b.sui_tang_culture": {
+   "name": "隋唐文化与科技",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2021,
+    2026
+   ],
+   "count": 2,
+   "score": 1.2,
+   "qs": [
+    "lishi-2021-31-2",
+    "lishi-2026-6"
+   ]
+  },
+  "lishi.c7b.song_regimes": {
+   "name": "辽宋夏金的并立与民族交融",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2024,
+    2025
+   ],
+   "count": 2,
+   "score": 3.2,
+   "qs": [
+    "lishi-2024-8",
+    "lishi-2025-6"
+   ]
+  },
+  "lishi.c7b.song_economy": {
+   "name": "宋代经济发展与经济重心南移",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 4,
+   "score": 5.6,
+   "qs": [
+    "lishi-2019-6",
+    "lishi-2022-8",
+    "lishi-2023-7",
+    "lishi-2024-7"
+   ]
+  },
+  "lishi.c7b.yuan_unify": {
+   "name": "元朝的统一与对边疆的管辖",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2024,
+    2026
+   ],
+   "count": 2,
+   "score": 2.4,
+   "qs": [
+    "lishi-2024-9",
+    "lishi-2026-8"
+   ]
+  },
+  "lishi.c7b.song_yuan_culture": {
+   "name": "宋元时期的科技与文化",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 5,
+   "score": 6.8,
+   "qs": [
+    "lishi-2021-8",
+    "lishi-2021-9",
+    "lishi-2022-9",
+    "lishi-2023-9",
+    "lishi-2024-30-2"
+   ]
+  },
+  "lishi.c7b.ming_rule": {
+   "name": "明朝的统治与财政社会变化",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2024
+   ],
+   "count": 1,
+   "score": 2.0,
+   "qs": [
+    "lishi-2024-10"
+   ]
+  },
+  "lishi.c7b.ming_foreign": {
+   "name": "明朝对外关系：郑和下西洋与戚继光抗倭",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2021
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "lishi-2021-10"
+   ]
+  },
+  "lishi.c7b.mingqing_economy": {
+   "name": "明清经济：市镇、美洲作物与资本主义萌芽",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 6.0,
+   "qs": [
+    "lishi-2021-11",
+    "lishi-2022-10",
+    "lishi-2023-8",
+    "lishi-2025-9",
+    "lishi-2026-9"
+   ]
+  },
+  "lishi.c7b.qing_unify": {
+   "name": "清朝前期统一多民族国家的巩固",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2025
+   ],
+   "count": 5,
+   "score": 7.6,
+   "qs": [
+    "lishi-2019-8",
+    "lishi-2021-12",
+    "lishi-2022-30-1",
+    "lishi-2022-30-2",
+    "lishi-2025-8"
+   ]
+  },
+  "lishi.c7b.qing_crisis": {
+   "name": "清朝君主专制强化与闭关锁国",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "lishi.c7b.mingqing_culture": {
+   "name": "明清的科技与文学艺术",
+   "module": "七下 中国古代史（隋唐—明清）",
+   "years": [
+    2019,
+    2023,
+    2026
+   ],
+   "count": 4,
+   "score": 4.8,
+   "qs": [
+    "lishi-2019-9",
+    "lishi-2023-9",
+    "lishi-2026-9",
+    "lishi-2026-10"
+   ]
+  },
+  "lishi.c8a.opium_war": {
+   "name": "鸦片战争与《南京条约》",
+   "module": "八上 中国近代史",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 10.0,
+   "qs": [
+    "lishi-2019-10",
+    "lishi-2021-32-1",
+    "lishi-2022-11",
+    "lishi-2023-10",
+    "lishi-2025-10",
+    "lishi-2026-12",
+    "lishi-2026-13"
+   ]
+  },
+  "lishi.c8a.second_opium_taiping": {
+   "name": "第二次鸦片战争与太平天国运动",
+   "module": "八上 中国近代史",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "lishi.c8a.self_strengthening": {
+   "name": "洋务运动",
+   "module": "八上 中国近代史",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 6,
+   "score": 9.4,
+   "qs": [
+    "lishi-2019-33-1",
+    "lishi-2021-13",
+    "lishi-2022-12",
+    "lishi-2023-11",
+    "lishi-2025-10",
+    "lishi-2025-11"
+   ]
+  },
+  "lishi.c8a.sino_japanese_war": {
+   "name": "甲午中日战争与瓜分中国狂潮",
+   "module": "八上 中国近代史",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 4,
+   "score": 4.4,
+   "qs": [
+    "lishi-2022-30-1",
+    "lishi-2023-10",
+    "lishi-2024-11",
+    "lishi-2026-31-1"
+   ]
+  },
+  "lishi.c8a.reform_1898": {
+   "name": "戊戌变法",
+   "module": "八上 中国近代史",
+   "years": [
+    2026
+   ],
+   "count": 1,
+   "score": 0.4,
+   "qs": [
+    "lishi-2026-11"
+   ]
+  },
+  "lishi.c8a.boxer_crisis": {
+   "name": "八国联军侵华与《辛丑条约》；民族危机加深",
+   "module": "八上 中国近代史",
+   "years": [
+    2023,
+    2026
+   ],
+   "count": 3,
+   "score": 4.0,
+   "qs": [
+    "lishi-2023-10",
+    "lishi-2026-13",
+    "lishi-2026-31-1"
+   ]
+  },
+  "lishi.c8a.xinhai": {
+   "name": "辛亥革命与中华民国建立",
+   "module": "八上 中国近代史",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2026
+   ],
+   "count": 4,
+   "score": 6.4,
+   "qs": [
+    "lishi-2019-11",
+    "lishi-2021-14",
+    "lishi-2023-13",
+    "lishi-2026-14"
+   ]
+  },
+  "lishi.c8a.warlords": {
+   "name": "袁世凯复辟与北洋军阀统治",
+   "module": "八上 中国近代史",
+   "years": [
+    2025
+   ],
+   "count": 1,
+   "score": 2.0,
+   "qs": [
+    "lishi-2025-12"
+   ]
+  },
+  "lishi.c8a.new_culture": {
+   "name": "新文化运动",
+   "module": "八上 中国近代史",
+   "years": [
+    2022,
+    2024
+   ],
+   "count": 2,
+   "score": 2.8,
+   "qs": [
+    "lishi-2022-13",
+    "lishi-2024-12"
+   ]
+  },
+  "lishi.c8a.may4th": {
+   "name": "五四运动",
+   "module": "八上 中国近代史",
+   "years": [
+    2019,
+    2023,
+    2024
+   ],
+   "count": 3,
+   "score": 3.6,
+   "qs": [
+    "lishi-2019-12",
+    "lishi-2023-14",
+    "lishi-2024-12"
+   ]
+  },
+  "lishi.c8a.ccp_founding": {
+   "name": "中国共产党的诞生",
+   "module": "八上 中国近代史",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 5,
+   "score": 8.6,
+   "qs": [
+    "lishi-2021-15",
+    "lishi-2021-32-3",
+    "lishi-2022-32",
+    "lishi-2023-14",
+    "lishi-2025-29"
+   ]
+  },
+  "lishi.c8a.first_cooperation": {
+   "name": "国共合作与北伐战争",
+   "module": "八上 中国近代史",
+   "years": [
+    2024,
+    2025
+   ],
+   "count": 3,
+   "score": 4.8,
+   "qs": [
+    "lishi-2024-13",
+    "lishi-2025-13",
+    "lishi-2025-29"
+   ]
+  },
+  "lishi.c8a.red_regime": {
+   "name": "工农武装割据与红色政权",
+   "module": "八上 中国近代史",
+   "years": [
+    2021,
+    2024,
+    2026
+   ],
+   "count": 5,
+   "score": 5.4,
+   "qs": [
+    "lishi-2021-16",
+    "lishi-2021-32-3",
+    "lishi-2024-14",
+    "lishi-2024-29",
+    "lishi-2026-15"
+   ]
+  },
+  "lishi.c8a.long_march": {
+   "name": "红军长征与遵义会议",
+   "module": "八上 中国近代史",
+   "years": [
+    2019,
+    2025,
+    2026
+   ],
+   "count": 3,
+   "score": 3.6,
+   "qs": [
+    "lishi-2019-13",
+    "lishi-2025-13",
+    "lishi-2026-15"
+   ]
+  },
+  "lishi.c8a.japan_aggression": {
+   "name": "日本侵华与局部抗战、西安事变",
+   "module": "八上 中国近代史",
+   "years": [
+    2022,
+    2026
+   ],
+   "count": 2,
+   "score": 2.0,
+   "qs": [
+    "lishi-2022-14",
+    "lishi-2026-16"
+   ]
+  },
+  "lishi.c8a.war_resistance": {
+   "name": "全民族抗战与抗日战争胜利",
+   "module": "八上 中国近代史",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 11,
+   "score": 22.8,
+   "qs": [
+    "lishi-2019-34-1",
+    "lishi-2019-34-2",
+    "lishi-2021-32-2",
+    "lishi-2022-15",
+    "lishi-2023-30-1",
+    "lishi-2024-32-2",
+    "lishi-2025-13",
+    "lishi-2025-16",
+    "lishi-2025-32",
+    "lishi-2026-16",
+    "lishi-2026-30-1"
+   ]
+  },
+  "lishi.c8a.liberation_war": {
+   "name": "人民解放战争",
+   "module": "八上 中国近代史",
+   "years": [
+    2021,
+    2023,
+    2025
+   ],
+   "count": 3,
+   "score": 2.6,
+   "qs": [
+    "lishi-2021-32-2",
+    "lishi-2023-15",
+    "lishi-2025-15"
+   ]
+  },
+  "lishi.c8a.national_industry": {
+   "name": "近代民族工业的发展",
+   "module": "八上 中国近代史",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 6.8,
+   "qs": [
+    "lishi-2019-14",
+    "lishi-2021-33-1",
+    "lishi-2023-12",
+    "lishi-2025-14",
+    "lishi-2026-12"
+   ]
+  },
+  "lishi.c8a.modern_society": {
+   "name": "近代社会生活与教育文化事业",
+   "module": "八上 中国近代史",
+   "years": [
+    2022,
+    2025,
+    2026
+   ],
+   "count": 3,
+   "score": 2.8,
+   "qs": [
+    "lishi-2022-12",
+    "lishi-2025-11",
+    "lishi-2026-30-1"
+   ]
+  },
+  "lishi.c8b.prc_founding": {
+   "name": "中华人民共和国成立",
+   "module": "八下 中国现代史",
+   "years": [
+    2019,
+    2021
+   ],
+   "count": 2,
+   "score": 2.6,
+   "qs": [
+    "lishi-2019-15",
+    "lishi-2021-32-3"
+   ]
+  },
+  "lishi.c8b.korean_war": {
+   "name": "抗美援朝",
+   "module": "八下 中国现代史",
+   "years": [
+    2021,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 4,
+   "score": 11.0,
+   "qs": [
+    "lishi-2021-17",
+    "lishi-2023-30-2",
+    "lishi-2024-15",
+    "lishi-2025-17"
+   ]
+  },
+  "lishi.c8b.land_reform_1950": {
+   "name": "土地改革",
+   "module": "八下 中国现代史",
+   "years": [
+    2023
+   ],
+   "count": 1,
+   "score": 0.8,
+   "qs": [
+    "lishi-2023-15"
+   ]
+  },
+  "lishi.c8b.socialist_transformation": {
+   "name": "“一五”计划与三大改造",
+   "module": "八下 中国现代史",
+   "years": [
+    2019,
+    2021
+   ],
+   "count": 3,
+   "score": 7.2,
+   "qs": [
+    "lishi-2019-33-3",
+    "lishi-2021-33-2",
+    "lishi-2021-33-3"
+   ]
+  },
+  "lishi.c8b.socialist_exploration": {
+   "name": "社会主义建设的艰辛探索与建设成就",
+   "module": "八下 中国现代史",
+   "years": [
+    2019,
+    2023,
+    2026
+   ],
+   "count": 3,
+   "score": 6.0,
+   "qs": [
+    "lishi-2019-17",
+    "lishi-2023-16",
+    "lishi-2026-17"
+   ]
+  },
+  "lishi.c8b.reform_opening": {
+   "name": "改革开放",
+   "module": "八下 中国现代史",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 12,
+   "score": 22.0,
+   "qs": [
+    "lishi-2019-18",
+    "lishi-2019-19",
+    "lishi-2021-19",
+    "lishi-2021-33-3",
+    "lishi-2022-31-1",
+    "lishi-2022-31-2",
+    "lishi-2022-31-3",
+    "lishi-2023-31-2",
+    "lishi-2023-31-3",
+    "lishi-2024-17",
+    "lishi-2025-18",
+    "lishi-2026-18"
+   ]
+  },
+  "lishi.c8b.new_era": {
+   "name": "中国特色社会主义道路与新时代成就",
+   "module": "八下 中国现代史",
+   "years": [
+    2021,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 4,
+   "score": 9.2,
+   "qs": [
+    "lishi-2021-33-3",
+    "lishi-2023-31-3",
+    "lishi-2024-31-2",
+    "lishi-2026-30-2"
+   ]
+  },
+  "lishi.c8b.political_system": {
+   "name": "人民代表大会制度与民主法制建设",
+   "module": "八下 中国现代史",
+   "years": [
+    2022
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "lishi-2022-16"
+   ]
+  },
+  "lishi.c8b.ethnic_autonomy": {
+   "name": "民族团结与民族区域自治",
+   "module": "八下 中国现代史",
+   "years": [
+    2022,
+    2024
+   ],
+   "count": 2,
+   "score": 2.8,
+   "qs": [
+    "lishi-2022-16",
+    "lishi-2024-16"
+   ]
+  },
+  "lishi.c8b.one_country_two": {
+   "name": "“一国两制”与港澳回归、海峡两岸关系",
+   "module": "八下 中国现代史",
+   "years": [
+    2022,
+    2023
+   ],
+   "count": 2,
+   "score": 3.2,
+   "qs": [
+    "lishi-2022-18",
+    "lishi-2023-17"
+   ]
+  },
+  "lishi.c8b.defense": {
+   "name": "国防建设",
+   "module": "八下 中国现代史",
+   "years": [
+    2019,
+    2022,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 7.0,
+   "qs": [
+    "lishi-2019-33-2",
+    "lishi-2019-33-3",
+    "lishi-2022-17",
+    "lishi-2025-31-2",
+    "lishi-2026-19"
+   ]
+  },
+  "lishi.c8b.diplomacy": {
+   "name": "独立自主的和平外交与对外合作",
+   "module": "八下 中国现代史",
+   "years": [
+    2019,
+    2021,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 11.6,
+   "qs": [
+    "lishi-2019-16",
+    "lishi-2021-18",
+    "lishi-2024-28",
+    "lishi-2025-28",
+    "lishi-2026-28",
+    "lishi-2026-31-2"
+   ]
+  },
+  "lishi.c8b.sci_tech": {
+   "name": "现代科技成就",
+   "module": "八下 中国现代史",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 16.0,
+   "qs": [
+    "lishi-2019-33-2",
+    "lishi-2021-20",
+    "lishi-2021-33-2",
+    "lishi-2022-17",
+    "lishi-2025-31-2",
+    "lishi-2026-19",
+    "lishi-2026-30-2"
+   ]
+  },
+  "lishi.c8b.social_life": {
+   "name": "社会生活的变迁",
+   "module": "八下 中国现代史",
+   "years": [
+    2019,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 5,
+   "score": 7.2,
+   "qs": [
+    "lishi-2019-19",
+    "lishi-2023-31-1",
+    "lishi-2023-31-2",
+    "lishi-2024-17",
+    "lishi-2026-18"
+   ]
+  },
+  "lishi.c9a.egypt": {
+   "name": "古代埃及",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2022,
+    2024
+   ],
+   "count": 2,
+   "score": 3.2,
+   "qs": [
+    "lishi-2022-19",
+    "lishi-2024-18"
+   ]
+  },
+  "lishi.c9a.mesopotamia": {
+   "name": "古代两河流域",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2019,
+    2026
+   ],
+   "count": 2,
+   "score": 3.2,
+   "qs": [
+    "lishi-2019-20",
+    "lishi-2026-20"
+   ]
+  },
+  "lishi.c9a.india": {
+   "name": "古代印度",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2022
+   ],
+   "count": 1,
+   "score": 0.8,
+   "qs": [
+    "lishi-2022-19"
+   ]
+  },
+  "lishi.c9a.greece": {
+   "name": "希腊城邦与雅典民主",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2024
+   ],
+   "count": 4,
+   "score": 5.2,
+   "qs": [
+    "lishi-2019-21",
+    "lishi-2021-21",
+    "lishi-2023-18",
+    "lishi-2024-19"
+   ]
+  },
+  "lishi.c9a.rome": {
+   "name": "罗马城邦与罗马帝国",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2022,
+    2023
+   ],
+   "count": 2,
+   "score": 2.0,
+   "qs": [
+    "lishi-2022-20",
+    "lishi-2023-18"
+   ]
+  },
+  "lishi.c9a.medieval_europe": {
+   "name": "中世纪西欧：封建制度、城市与大学",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2023,
+    2026
+   ],
+   "count": 2,
+   "score": 4.0,
+   "qs": [
+    "lishi-2023-19",
+    "lishi-2026-22"
+   ]
+  },
+  "lishi.c9a.byzantine_arab": {
+   "name": "拜占庭帝国与阿拉伯帝国",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2021,
+    2022,
+    2026
+   ],
+   "count": 3,
+   "score": 3.6,
+   "qs": [
+    "lishi-2021-22",
+    "lishi-2022-20",
+    "lishi-2026-21"
+   ]
+  },
+  "lishi.c9a.asia_feudal": {
+   "name": "亚洲封建国家（日本大化改新等）",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2025
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "lishi-2025-19"
+   ]
+  },
+  "lishi.c9a.ancient_exchange": {
+   "name": "古代世界的文化交流",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2024,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 3.2,
+   "qs": [
+    "lishi-2024-19",
+    "lishi-2025-20",
+    "lishi-2026-20",
+    "lishi-2026-21"
+   ]
+  },
+  "lishi.c9a.renaissance": {
+   "name": "文艺复兴",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2019,
+    2025
+   ],
+   "count": 3,
+   "score": 5.6,
+   "qs": [
+    "lishi-2019-22",
+    "lishi-2025-21",
+    "lishi-2025-31-1"
+   ]
+  },
+  "lishi.c9a.new_route": {
+   "name": "新航路开辟",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 5,
+   "score": 8.0,
+   "qs": [
+    "lishi-2019-31-1",
+    "lishi-2019-31-2",
+    "lishi-2022-21",
+    "lishi-2023-20",
+    "lishi-2024-20"
+   ]
+  },
+  "lishi.c9a.colonial_slave": {
+   "name": "早期殖民扩张与黑奴贸易",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2019,
+    2021,
+    2025
+   ],
+   "count": 3,
+   "score": 3.2,
+   "qs": [
+    "lishi-2019-31-2",
+    "lishi-2021-23",
+    "lishi-2025-20"
+   ]
+  },
+  "lishi.c9a.british_revolution": {
+   "name": "英国资产阶级革命与君主立宪制",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2019,
+    2021,
+    2024,
+    2026
+   ],
+   "count": 4,
+   "score": 8.0,
+   "qs": [
+    "lishi-2019-23",
+    "lishi-2021-25",
+    "lishi-2024-22",
+    "lishi-2026-23"
+   ]
+  },
+  "lishi.c9a.american_independence": {
+   "name": "美国独立战争与1787年宪法",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2023
+   ],
+   "count": 1,
+   "score": 2.0,
+   "qs": [
+    "lishi-2023-21"
+   ]
+  },
+  "lishi.c9a.french_revolution": {
+   "name": "法国大革命与拿破仑帝国",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2024
+   ],
+   "count": 4,
+   "score": 4.4,
+   "qs": [
+    "lishi-2019-24",
+    "lishi-2021-26",
+    "lishi-2022-22",
+    "lishi-2024-23"
+   ]
+  },
+  "lishi.c9a.industrial_revolution1": {
+   "name": "第一次工业革命",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 10.0,
+   "qs": [
+    "lishi-2019-25",
+    "lishi-2021-34-2",
+    "lishi-2022-23",
+    "lishi-2023-22",
+    "lishi-2024-31-1",
+    "lishi-2025-22",
+    "lishi-2026-24"
+   ]
+  },
+  "lishi.c9a.marxism": {
+   "name": "马克思主义诞生与国际共产主义运动",
+   "module": "九上 世界古代史与近代史（前期）",
+   "years": [
+    2021,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 5,
+   "score": 6.4,
+   "qs": [
+    "lishi-2021-34-1",
+    "lishi-2021-34-2",
+    "lishi-2023-25",
+    "lishi-2024-24",
+    "lishi-2025-25"
+   ]
+  },
+  "lishi.c9b.latin_india": {
+   "name": "殖民地人民的反抗（拉美独立、印度民族起义）",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2023,
+    2025
+   ],
+   "count": 2,
+   "score": 2.4,
+   "qs": [
+    "lishi-2023-23",
+    "lishi-2025-25"
+   ]
+  },
+  "lishi.c9b.russia_reform": {
+   "name": "俄国农奴制改革",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2022,
+    2025
+   ],
+   "count": 3,
+   "score": 5.6,
+   "qs": [
+    "lishi-2022-29-1",
+    "lishi-2022-29-2",
+    "lishi-2025-23"
+   ]
+  },
+  "lishi.c9b.us_civil_war": {
+   "name": "美国南北战争",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2022,
+    2024,
+    2025
+   ],
+   "count": 3,
+   "score": 2.8,
+   "qs": [
+    "lishi-2022-24",
+    "lishi-2024-25",
+    "lishi-2025-23"
+   ]
+  },
+  "lishi.c9b.meiji": {
+   "name": "日本明治维新",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 4,
+   "score": 6.4,
+   "qs": [
+    "lishi-2019-26",
+    "lishi-2022-25",
+    "lishi-2023-24",
+    "lishi-2025-23"
+   ]
+  },
+  "lishi.c9b.industrial_revolution2": {
+   "name": "第二次工业革命",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 5,
+   "score": 4.8,
+   "qs": [
+    "lishi-2022-23",
+    "lishi-2023-29-1",
+    "lishi-2023-29-2",
+    "lishi-2024-31-1",
+    "lishi-2026-25"
+   ]
+  },
+  "lishi.c9b.modern_science_culture": {
+   "name": "近代科学与文化",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2021,
+    2024,
+    2025
+   ],
+   "count": 3,
+   "score": 5.6,
+   "qs": [
+    "lishi-2021-24",
+    "lishi-2024-21",
+    "lishi-2025-31-1"
+   ]
+  },
+  "lishi.c9b.wwi": {
+   "name": "第一次世界大战",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2021,
+    2023,
+    2025
+   ],
+   "count": 3,
+   "score": 7.6,
+   "qs": [
+    "lishi-2021-27",
+    "lishi-2023-29-2",
+    "lishi-2025-24"
+   ]
+  },
+  "lishi.c9b.versailles": {
+   "name": "凡尔赛—华盛顿体系",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2023
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "lishi-2023-26"
+   ]
+  },
+  "lishi.c9b.soviet": {
+   "name": "十月革命与苏联社会主义建设",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2019,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 7.6,
+   "qs": [
+    "lishi-2019-27",
+    "lishi-2023-25",
+    "lishi-2024-26",
+    "lishi-2025-26",
+    "lishi-2026-32-2"
+   ]
+  },
+  "lishi.c9b.asia_africa_movement": {
+   "name": "亚非拉民族民主运动（一战后）",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "lishi.c9b.new_deal": {
+   "name": "经济大危机与罗斯福新政",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2019,
+    2022
+   ],
+   "count": 2,
+   "score": 4.0,
+   "qs": [
+    "lishi-2019-28",
+    "lishi-2022-26"
+   ]
+  },
+  "lishi.c9b.wwii": {
+   "name": "法西斯与第二次世界大战",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 30.4,
+   "qs": [
+    "lishi-2019-34-2",
+    "lishi-2021-28",
+    "lishi-2023-27",
+    "lishi-2024-32-2",
+    "lishi-2025-27",
+    "lishi-2025-32",
+    "lishi-2026-32-1",
+    "lishi-2026-32-2"
+   ]
+  },
+  "lishi.c9b.cold_war": {
+   "name": "美苏冷战",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2021,
+    2022,
+    2024,
+    2026
+   ],
+   "count": 4,
+   "score": 8.0,
+   "qs": [
+    "lishi-2021-29",
+    "lishi-2022-27",
+    "lishi-2024-27",
+    "lishi-2026-26"
+   ]
+  },
+  "lishi.c9b.postwar_capitalism": {
+   "name": "战后资本主义新变化与欧洲一体化",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2019,
+    2023
+   ],
+   "count": 2,
+   "score": 2.4,
+   "qs": [
+    "lishi-2019-29",
+    "lishi-2023-28"
+   ]
+  },
+  "lishi.c9b.socialist_reform": {
+   "name": "社会主义国家的改革与演变",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "lishi.c9b.third_world": {
+   "name": "亚非拉国家的新发展",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2022,
+    2024,
+    2026
+   ],
+   "count": 3,
+   "score": 2.8,
+   "qs": [
+    "lishi-2022-28",
+    "lishi-2024-28",
+    "lishi-2026-28"
+   ]
+  },
+  "lishi.c9b.globalization": {
+   "name": "经济全球化与世界多极化",
+   "module": "九下 世界近代史（后期）与现代史",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 10.8,
+   "qs": [
+    "lishi-2019-30",
+    "lishi-2021-30",
+    "lishi-2022-23",
+    "lishi-2025-28",
+    "lishi-2026-25",
+    "lishi-2026-27",
+    "lishi-2026-31-2"
+   ]
+  },
+  "lishi.skill.source_type": {
+   "name": "史料类型与价值",
+   "module": "史料阅读与历史解释（能力）",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 10,
+   "score": 8.4,
+   "qs": [
+    "lishi-2019-1",
+    "lishi-2019-5",
+    "lishi-2019-12",
+    "lishi-2022-7",
+    "lishi-2023-7",
+    "lishi-2023-26",
+    "lishi-2024-19",
+    "lishi-2024-25",
+    "lishi-2024-32-1",
+    "lishi-2026-10"
+   ]
+  },
+  "lishi.skill.fact_interpretation": {
+   "name": "史实与历史解释（结论）的区分",
+   "module": "史料阅读与历史解释（能力）",
+   "years": [
+    2021,
+    2022
+   ],
+   "count": 2,
+   "score": 2.8,
+   "qs": [
+    "lishi-2021-16",
+    "lishi-2022-30-3"
+   ]
+  },
+  "lishi.skill.chronology": {
+   "name": "时空观念：纪年、年代判断与地图",
+   "module": "史料阅读与历史解释（能力）",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 12,
+   "score": 12.2,
+   "qs": [
+    "lishi-2019-14",
+    "lishi-2019-32-1",
+    "lishi-2019-34-1",
+    "lishi-2021-32-2",
+    "lishi-2021-34-1",
+    "lishi-2022-29-1",
+    "lishi-2023-13",
+    "lishi-2023-17",
+    "lishi-2024-29",
+    "lishi-2025-5",
+    "lishi-2025-15",
+    "lishi-2026-24"
+   ]
+  },
+  "lishi.skill.image_reading": {
+   "name": "图像与图表史料解读",
+   "module": "史料阅读与历史解释（能力）",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 42,
+   "score": 39.6,
+   "qs": [
+    "lishi-2019-2",
+    "lishi-2019-29",
+    "lishi-2021-3",
+    "lishi-2021-11",
+    "lishi-2021-19",
+    "lishi-2021-21",
+    "lishi-2021-26",
+    "lishi-2021-28",
+    "lishi-2021-33-1",
+    "lishi-2022-1",
+    "lishi-2022-8",
+    "lishi-2022-14",
+    "lishi-2022-15",
+    "lishi-2022-22",
+    "lishi-2022-24",
+    "lishi-2022-28",
+    "lishi-2022-31-1",
+    "lishi-2023-1",
+    "lishi-2023-7",
+    "lishi-2023-9",
+    "lishi-2023-23",
+    "lishi-2023-26",
+    "lishi-2023-28",
+    "lishi-2023-29-1",
+    "lishi-2023-31-2",
+    "lishi-2023-31-3",
+    "lishi-2024-1",
+    "lishi-2024-11",
+    "lishi-2024-21",
+    "lishi-2024-31-2",
+    "lishi-2025-1",
+    "lishi-2025-7",
+    "lishi-2025-22",
+    "lishi-2025-28",
+    "lishi-2025-31-2",
+    "lishi-2025-32",
+    "lishi-2026-6",
+    "lishi-2026-24",
+    "lishi-2026-27",
+    "lishi-2026-30-1",
+    "lishi-2026-32-1",
+    "lishi-2026-32-2"
+   ]
+  },
+  "lishi.skill.evidence_reasoning": {
+   "name": "史料实证：依据证据作判断并说服他人",
+   "module": "史料阅读与历史解释（能力）",
+   "years": [
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 12.4,
+   "qs": [
+    "lishi-2021-1",
+    "lishi-2023-30-1",
+    "lishi-2024-29",
+    "lishi-2025-9",
+    "lishi-2025-15",
+    "lishi-2026-5",
+    "lishi-2026-14",
+    "lishi-2026-29"
+   ]
+  },
+  "lishi.skill.theme_essay": {
+   "name": "提炼主题与史论结合的论述",
+   "module": "史料阅读与历史解释（能力）",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 7,
+   "score": 25.2,
+   "qs": [
+    "lishi-2019-34-2",
+    "lishi-2021-34-2",
+    "lishi-2022-31-3",
+    "lishi-2022-32",
+    "lishi-2023-32",
+    "lishi-2024-30-3",
+    "lishi-2024-32-2"
+   ]
+  },
+  "lishi.skill.historical_view": {
+   "name": "历史认识与评价",
+   "module": "史料阅读与历史解释（能力）",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 6,
+   "score": 11.2,
+   "qs": [
+    "lishi-2019-31-2",
+    "lishi-2021-31-2",
+    "lishi-2022-29-2",
+    "lishi-2023-29-2",
+    "lishi-2024-23",
+    "lishi-2025-29"
+   ]
+  },
+  "lishi.theme.ethnic_unity": {
+   "name": "统一多民族国家的形成与民族交融（跨时段）",
+   "module": "跨时段主题与地方特色",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 11.6,
+   "qs": [
+    "lishi-2019-32-2",
+    "lishi-2021-12",
+    "lishi-2022-7",
+    "lishi-2023-5",
+    "lishi-2024-8",
+    "lishi-2025-4",
+    "lishi-2025-8",
+    "lishi-2026-6",
+    "lishi-2026-29"
+   ]
+  },
+  "lishi.theme.taiwan": {
+   "name": "台湾自古以来是中国领土",
+   "module": "跨时段主题与地方特色",
+   "years": [
+    2019,
+    2022,
+    2024,
+    2025
+   ],
+   "count": 6,
+   "score": 6.0,
+   "qs": [
+    "lishi-2019-8",
+    "lishi-2022-30-1",
+    "lishi-2022-30-2",
+    "lishi-2022-30-3",
+    "lishi-2024-9",
+    "lishi-2025-8"
+   ]
+  },
+  "lishi.theme.fujian": {
+   "name": "福建乡土史与海上丝绸之路",
+   "module": "跨时段主题与地方特色",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 8,
+   "score": 8.8,
+   "qs": [
+    "lishi-2019-8",
+    "lishi-2019-33-1",
+    "lishi-2021-16",
+    "lishi-2022-11",
+    "lishi-2022-30-2",
+    "lishi-2022-32",
+    "lishi-2023-11",
+    "lishi-2024-9"
+   ]
+  },
+  "lishi.theme.agri_calendar": {
+   "name": "农耕文明：节气、农书与农业生产",
+   "module": "跨时段主题与地方特色",
+   "years": [
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 10.8,
+   "qs": [
+    "lishi-2021-6",
+    "lishi-2022-5",
+    "lishi-2024-5",
+    "lishi-2024-30-1",
+    "lishi-2025-30-1",
+    "lishi-2026-3"
+   ]
+  },
+  "lishi.theme.tech_craft": {
+   "name": "中国古代科技与手工业成就（跨时段）",
+   "module": "跨时段主题与地方特色",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 14.8,
+   "qs": [
+    "lishi-2019-5",
+    "lishi-2021-8",
+    "lishi-2021-10",
+    "lishi-2022-3",
+    "lishi-2024-30-2",
+    "lishi-2024-30-3",
+    "lishi-2025-30-1",
+    "lishi-2025-30-2",
+    "lishi-2026-10"
+   ]
+  },
+  "lishi.theme.customs_tradition": {
+   "name": "传统文化、节日习俗与家国情怀",
+   "module": "跨时段主题与地方特色",
+   "years": [
+    2019,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 6.8,
+   "qs": [
+    "lishi-2019-24",
+    "lishi-2022-11",
+    "lishi-2024-6",
+    "lishi-2025-7",
+    "lishi-2026-4",
+    "lishi-2026-11"
+   ]
+  },
+  "lishi.theme.human_env": {
+   "name": "人与自然：环境与发展",
+   "module": "跨时段主题与地方特色",
+   "years": [
+    2024
+   ],
+   "count": 4,
+   "score": 6.4,
+   "qs": [
+    "lishi-2024-20",
+    "lishi-2024-31-1",
+    "lishi-2024-31-2",
+    "lishi-2024-31-3"
+   ]
+  },
+  "lishi.theme.china_world": {
+   "name": "中外交流与中国与世界（跨时段）",
+   "module": "跨时段主题与地方特色",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 6.8,
+   "qs": [
+    "lishi-2019-7",
+    "lishi-2021-22",
+    "lishi-2022-10",
+    "lishi-2022-21",
+    "lishi-2023-20",
+    "lishi-2024-4",
+    "lishi-2025-9",
+    "lishi-2025-20",
+    "lishi-2026-8"
+   ]
+  }
+ }
+}

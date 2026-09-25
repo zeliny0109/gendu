@@ -1,0 +1,683 @@
+{
+ "subject": "huaxue",
+ "year": 2024,
+ "source": "福建省教育考试院《2024年福建省初中学业水平考试试题、参考答案》（泉州市教育局转载）https://jyj.quanzhou.gov.cn/wsbs/bgxz/202406/P020240621550310585717.pdf",
+ "total": 100,
+ "minutes": 60,
+ "note": "相对原子质量：H 1　He 4　C 12　N 14　O 16　Pb 207。非选择题小问分值为按福建阅卷惯例估算，官方只给大题总分。",
+ "materials": [
+  {
+   "id": "m11",
+   "text": "请参加社会性议题“汽车能源的变迁”的项目式学习。"
+  },
+  {
+   "id": "m12",
+   "text": "请参加“氯化钠欢乐之旅”的实践活动。"
+  },
+  {
+   "id": "m13",
+   "text": "我国正在筹建月球科考站。针对“月球上是否存在大气”，查阅资料：\n\n资料 1　当天体中气体的分子运动平均速率大于分子脱离速率的 20% 时，该气体会脱离天体逸散到宇宙中。月球表面气体分子的脱离速率均为 2.4 km·s$^{-1}$。\n\n资料 2　使用质谱仪测定，在月球黑暗处发现有极微量的气体生成，其主要成分是氢气、氦气、氖气和氩气等。日出时，月球表面有极微量的甲烷和氨气产生。"
+  },
+  {
+   "id": "m14",
+   "text": "废金属是宝贵的资源。"
+  },
+  {
+   "id": "m15",
+   "text": "氢气的发现、生产和应用极大地推动了人类社会的发展。"
+  },
+  {
+   "id": "m16",
+   "text": "氢氧化锂（LiOH）在航天器中可用于吸收 $\\mathrm{CO_2}$。工业上用电解法制得的 LiOH 溶液中含有 NaOH。在 $\\mathrm{N_2}$ 保护下将混合溶液蒸发结晶，可得到 LiOH 晶体。有关物质的溶解度如下表。\n\n| 物质＼溶解度/g＼温度/℃ | 20 | 30 | 40 | 50 | 60 |\n|---|---|---|---|---|---|\n| LiOH | 12.8 | 12.9 | 13.0 | 13.3 | 13.8 |\n| NaOH | 109 | 118 | 129 | 146 | 177 |\n\n已知：LiOH 和 NaOH 的化学性质相似，$\\mathrm{Li_2CO_3}$ 和 $\\mathrm{Na_2CO_3}$ 的化学性质相似。"
+  },
+  {
+   "id": "m17",
+   "text": "排放含磷废水会使水体富营养化。为除去废水中的磷，某小组开展下列研究。"
+  },
+  {
+   "id": "m18",
+   "text": "生产乙醇（$\\mathrm{C_2H_6O}$）的两个反应如下：\n\n① $\\mathrm{C_2H_4 + H_2O \\xlongequal{一定条件} C_2H_6O}$　　② $\\mathrm{C_6H_{12}O_6 \\xlongequal{催化剂} 2C_2H_6O + 2CO_2\\uparrow}$"
+  }
+ ],
+ "questions": [
+  {
+   "id": "huaxue-2024-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列培育新质生产力的研究领域中，**不属于**化学研究范畴的是",
+   "options": [
+    "A. 研制碳纳米管材料",
+    "B. 研制新型显示材料",
+    "C. 研发数字货币加密技术",
+    "D. 研发高纯稀土金属提取技术"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.society.frontier"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "生活中常接触到“加铁酱油”“含氟牙膏”等用品，这里的铁、氟指的是",
+   "options": [
+    "A. 单质",
+    "B. 元素",
+    "C. 原子",
+    "D. 分子"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.struct.element",
+    "huaxue.life.elements_health"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列物质可制造用于治疗癌症等疾病的纳米酶，其中属于单质的是",
+   "options": [
+    "A. 金",
+    "B. 氧化铁",
+    "C. 氧化铈",
+    "D. 四氧化三铁"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.matter.classify"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列可用于配制无土栽培营养液的物质中，属于氮肥的是",
+   "options": [
+    "A. KCl",
+    "B. $\\mathrm{NH_4NO_3}$",
+    "C. $\\mathrm{MgSO_4}$",
+    "D. $\\mathrm{Ca(H_2PO_4)_2}$"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.salt.fertilizer"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列灭火方法主要是利用“使温度降到可燃物着火点以下”原理的是",
+   "options": [
+    "A. 用灯帽盖灭酒精灯火焰",
+    "B. 关闭燃气灶阀门熄灭火焰",
+    "C. 用水浇灭炭火",
+    "D. 用锅盖盖灭油锅火焰"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.fuel.combustion"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "实验室用于高锰酸钾制取氧气的下列装置或操作中，**错误**的是",
+   "options": [
+    "A.（见图）",
+    "B.（见图）",
+    "C.（见图）",
+    "D.（见图）"
+   ],
+   "figures": [
+    "figs/2024-6-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.o2.lab_prep",
+    "huaxue.lab.gas_apparatus"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列是小明一天中的生活经历和相关解释，其中**错误**的是",
+   "options": [
+    "A. 早上用不锈钢水壶在燃气灶上烧水，利用的是金属的导电性",
+    "B. 下午体育课后喝了葡萄糖溶液，补充的糖类能为人体提供能量",
+    "C. 傍晚将塑料矿泉水瓶放入可回收垃圾桶，该塑料属于可回收的合成材料",
+    "D. 晚饭后将洗净的铁锅擦干，是为了防止铁锅生锈"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.metal.materials",
+    "huaxue.life.nutrients",
+    "huaxue.metal.corrosion"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "辣椒素（$\\mathrm{C_{18}H_{27}NO_3}$）是决定辣椒辣味的主要物质，其水溶液显弱碱性。下列说法正确的是",
+   "options": [
+    "A. 辣椒素含有臭氧分子（$\\mathrm{O_3}$）",
+    "B. 辣椒素中氢元素的质量分数最大",
+    "C. 辣椒素中碳、氮元素的质量比为 18∶1",
+    "D. 食用辣椒后，用柠檬水漱口可缓解辣味"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.formula.calc",
+    "huaxue.acid.neutralization"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "我国商代时就已经发现，贮存于铅罐的酒（含乙醇）会发酵成醋（含醋酸，醋酸的化学性质与盐酸相似），铅与醋反应生成铅霜，铅霜在空气中转化为浮粉（$\\mathrm{PbCO_3}$），加热浮粉得铅白（PbO）固体，铅白可用作白色颜料。下列说法**错误**的是",
+   "options": [
+    "A. 酒能变醋体现乙醇的化学性质",
+    "B. 铅能与醋酸反应产生氢气",
+    "C. 浮粉中铅元素的化合价为 +2 价",
+    "D. 浮粉变铅白，固体质量增大"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.eq.conservation",
+    "huaxue.acid.acids",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列基于实验事实的推理，正确的是",
+   "options": [
+    "A. 往某无色溶液中滴入几滴酚酞试液，溶液变红，可推测该溶液显碱性",
+    "B. 往 $\\mathrm{H_2O_2}$ 溶液中加入少量 CuO，迅速产生气泡，可验证 CuO 是催化剂",
+    "C. 用黄铜片刻画纯铜片，纯铜片上有划痕，可推测纯铜的硬度大于黄铜",
+    "D. 将带火星的木条伸入盛有 $\\mathrm{O_2}$ 的集气瓶中，木条复燃，可推测 $\\mathrm{O_2}$ 具有可燃性"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.inquiry.design_eval",
+    "huaxue.acid.indicator",
+    "huaxue.o2.catalyst"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-11-1",
+   "no": "11(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m11",
+   "stem": "传统汽车能源主要来自石油。\n\n①从物质分类角度看，石油属于____（填“纯净物”或“混合物”）。\n\n②汽油作汽车燃料的缺点有____（写一个）。",
+   "answer": "① 混合物\n② 汽油来自不可再生能源石油（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.fossil",
+    "huaxue.matter.classify"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-11-2",
+   "no": "11(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m11",
+   "stem": "天然气和乙醇可替代传统汽车能源。\n\n①甲烷（$\\mathrm{CH_4}$）和乙醇（$\\mathrm{C_2H_6O}$）均属于____（填“无机”或“有机”）化合物。\n\n②天然气的主要成分是甲烷，其完全燃烧的化学方程式为____。",
+   "answer": "① 有机\n② $\\mathrm{CH_4 + 2O_2 \\xlongequal{点燃} CO_2 + 2H_2O}$",
+   "kp": [
+    "huaxue.eq.writing",
+    "huaxue.life.materials",
+    "huaxue.fuel.fossil"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-11-3",
+   "no": "11(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m11",
+   "stem": "电池可给新能源汽车提供动力。\n\n①电动汽车的电池放电时，其能量转化方式为____能转化为电能。\n\n②以“使用电动汽车代替燃油车是否能减少 $\\mathrm{CO_2}$ 的排放”为题进行小组辩论，你的看法和理由是____。",
+   "answer": "① 化学\n② 不一定，需要考虑多种因素，如电力来源、电池制造和回收过程等可能排放二氧化碳（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.energy",
+    "huaxue.carbon.cycle",
+    "huaxue.society.green"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-12-1",
+   "no": "12(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m12",
+   "stem": "任务一　参观盐场\n\n利用风吹和日晒使海水不断蒸发至有晶体析出，此过程溶液中 NaCl 的质量分数逐渐____（填“增大”或“减小”）。",
+   "answer": "增大",
+   "kp": [
+    "huaxue.sol.concentration",
+    "huaxue.salt.crude_salt"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-12-2",
+   "no": "12(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m12",
+   "stem": "任务二　提纯粗盐\n\n粗盐提纯的有关操作如下图所示。\n\n①正确的操作顺序是____（填标号）。\n\n②操作 A 中，当加热到蒸发皿中出现____时，停止加热。\n\n③操作 C 中，玻璃棒的作用是____。",
+   "figures": [
+    "figs/2024-12-1.png"
+   ],
+   "answer": "① B C A\n② 较多固体\n③ 引流",
+   "kp": [
+    "huaxue.salt.crude_salt",
+    "huaxue.intro.basic_ops"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-12-3",
+   "no": "12(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m12",
+   "stem": "任务三　应用食盐\n\n农业上常用质量分数为 16% 的 NaCl 溶液选种。若在实验室中配制该溶液，需要的玻璃仪器有烧杯、玻璃棒、胶头滴管和____。",
+   "answer": "量筒",
+   "kp": [
+    "huaxue.sol.concentration"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-12-4",
+   "no": "12(4)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m12",
+   "stem": "NaCl 是一种重要的化工原料。从元素守恒的视角，以 NaCl 为基本原料，可能制取的物质有____（写一种）。",
+   "answer": "NaOH（或其他合理答案）",
+   "kp": [
+    "huaxue.eq.conservation",
+    "huaxue.salt.common"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-13-1",
+   "no": "13(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m13",
+   "stem": "氖的原子结构示意图和氩在元素周期表中的部分信息分别如下图所示。\n\n①氖原子的核外电子比氩原子的少____个。\n\n②氩的相对原子质量为____。",
+   "figures": [
+    "figs/2024-13-1.png"
+   ],
+   "answer": "① 8\n② 39.95",
+   "kp": [
+    "huaxue.struct.atom",
+    "huaxue.struct.periodic_table"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-13-2",
+   "no": "13(2)",
+   "section": "非选择题",
+   "type": "draw",
+   "score": 5,
+   "material": "m13",
+   "stem": "0 ℃ 时，氢气、氦气和氮气的分子运动示意图分别如下所示。（图中平均速率：$\\mathrm{H_2}$ 1.84 km·s$^{-1}$，He 1.31 km·s$^{-1}$，$\\mathrm{N_2}$ 0.49 km·s$^{-1}$）\n\n①由上图分析，分子运动平均速率与____有关。\n\n②日出时，月球表面产生的氨气（$\\mathrm{NH_3}$）是由氨分子（模型见本题第二张图）聚集而成的。画出氮原子和氢原子结合成氨分子的微观示意图：____\n\n③已知月球表面最高温度超过 100 ℃。月球表面因不能留住氢气、氦气等气体分子，所以不存在稳定大气，结合资料信息说明其原因：____",
+   "figures": [
+    "figs/2024-13-2.png",
+    "figs/2024-13-3.png"
+   ],
+   "answer": "① 相对分子质量（或其他合理答案）\n② ![](figs/2024-13-2-ans.png)（一个大圆 + 三个小圆 → 氨分子模型）\n③ 0 ℃ 时，氢分子、氦分子等分子运动平均速率大于分子脱离速率的 20%，且温度升高，速率更快",
+   "kp": [
+    "huaxue.struct.particles",
+    "huaxue.eq.micro_diagram",
+    "huaxue.inquiry.data_analysis"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2024-14-1",
+   "no": "14(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m14",
+   "stem": "废铜块能制成薄铜片，利用了铜的____性。",
+   "answer": "延展",
+   "kp": [
+    "huaxue.metal.materials"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-14-2",
+   "no": "14(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m14",
+   "stem": "用废铜生产硫酸铜的过程中，涉及反应：$\\mathrm{CuO + H_2SO_4 \\xlongequal{} CuSO_4 + H_2O}$，该反应的实验现象：黑色固体逐渐溶解，____。",
+   "answer": "溶液由无色变为蓝色",
+   "kp": [
+    "huaxue.acid.acids"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-14-3",
+   "no": "14(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m14",
+   "stem": "利用废锌与含硫酸镍的废液反应回收镍，反应的化学方程式：$\\mathrm{Zn + NiSO_4 \\xlongequal{} Ni + ZnSO_4}$\n\n由此判断 Zn、Ni 两种金属中，金属活动性较强的是____。",
+   "answer": "Zn",
+   "kp": [
+    "huaxue.metal.activity"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-14-4",
+   "no": "14(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m14",
+   "stem": "我国科学家利用废弃金属资源，合成了催化剂（含镍、钙、铁复合金属氢氧化物），将 $\\mathrm{CO_2}$ 和电解水产生的 $\\mathrm{H_2}$ 催化转化为 $\\mathrm{CH_4}$ 和 CO 等物质，实现 $\\mathrm{CO_2}$ 的捕集和应用。\n\n①反应 $\\mathrm{3CO_2 + 6H_2 \\xlongequal{催化剂} CH_4 + 2CO + 4X}$ 中，X 为____。\n\n②$\\mathrm{CO_2}$ 的捕集是应对气候变化的措施之一。请你提出另一种捕集 $\\mathrm{CO_2}$ 的方法：____",
+   "answer": "① $\\mathrm{H_2O}$\n② 用水吸收 $\\mathrm{CO_2}$（或其他合理答案）",
+   "kp": [
+    "huaxue.eq.conservation",
+    "huaxue.carbon.cycle",
+    "huaxue.carbon.co2_properties"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-15-1",
+   "no": "15(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m15",
+   "stem": "18 世纪，科学家利用铁和稀盐酸反应得到“易燃空气”，之后命名为氢气。\n\n①该反应的化学方程式为____。\n\n②发现氢气后，人们一直追求将氢气作为一种绿色能源，其理由是____。",
+   "answer": "① $\\mathrm{Fe + 2HCl \\xlongequal{} FeCl_2 + H_2\\uparrow}$\n② 氢气的燃烧产物是水，不会污染环境（或其他合理答案）",
+   "kp": [
+    "huaxue.metal.chem",
+    "huaxue.fuel.energy",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-15-2",
+   "no": "15(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m15",
+   "stem": "1969 年，科学家利用催化剂 $\\mathrm{TiO_2}$ 实现光分解水制氢气。\n\n①该反应的化学方程式为____。\n\n②氢气储运成本较高，原因之一是氢气易逸散而对储运容器密闭性的要求极高。从微观粒子视角分析氢气易逸散的原因：____",
+   "answer": "① $\\mathrm{2H_2O \\xlongequal{TiO_2、光} 2H_2\\uparrow + O_2\\uparrow}$\n② 氢分子很小（或其他合理答案）",
+   "kp": [
+    "huaxue.eq.writing",
+    "huaxue.water.composition",
+    "huaxue.struct.particles"
+   ],
+   "difficulty": 2,
+   "note": "官方答案中方程式条件为等号上写 TiO2、等号下写“光”，此处合写为“TiO2、光”。"
+  },
+  {
+   "id": "huaxue-2024-15-3",
+   "no": "15(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m15",
+   "stem": "2023 年我国建成首座氨制氢加氢站。氨制氢的一种生产流程图如下所示。\n\n液氨 —Ⅰ→ 氨气 —铁基催化剂、410 ℃（Ⅱ）→ 氮气、氢气、残余氨气 —分子筛（Ⅲ）→ 氢气\n\n①步骤Ⅱ的反应属于____（填基本反应类型）。\n\n②步骤Ⅲ的分子筛只让氢分子通过而阻止其他分子通过，该过程属于____（填“物理”或“化学”）变化。\n\n③利用氨生产氢气的优点有____（写一个）。",
+   "answer": "① 分解反应\n② 物理\n③ 氨储运相对容易（或其他合理答案）",
+   "kp": [
+    "huaxue.eq.reaction_types",
+    "huaxue.intro.change",
+    "huaxue.inquiry.process"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-16-1",
+   "no": "16(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m16",
+   "stem": "LiOH 溶液的 pH____（填“>”“=”或“<”）7。",
+   "answer": ">",
+   "kp": [
+    "huaxue.acid.ph",
+    "huaxue.acid.bases"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-16-2",
+   "no": "16(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m16",
+   "stem": "从电解法制得的溶液中，提取 LiOH 晶体，选用蒸发结晶法而不选用冷却结晶法的理由是____。",
+   "answer": "LiOH 的溶解度受温度变化的影响很小",
+   "kp": [
+    "huaxue.sol.saturation",
+    "huaxue.sol.solubility"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-16-3",
+   "no": "16(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 4,
+   "material": "m16",
+   "stem": "电解法制得的 1 000 g 溶液中，LiOH 的质量分数为 10%、NaOH 的质量分数为 5%。\n\n①该溶液中 LiOH 的质量为____g。\n\n②将该溶液蒸发溶剂并降低温度到 20 ℃ 时，当剩余水的质量为 100 g 时，所得溶液是 NaOH 的____（填“饱和”或“不饱和”）溶液。",
+   "answer": "① 100\n② 不饱和",
+   "kp": [
+    "huaxue.sol.concentration",
+    "huaxue.sol.saturation",
+    "huaxue.sol.solubility"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-16-4",
+   "no": "16(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m16",
+   "stem": "蒸发结晶过程中，若没有 $\\mathrm{N_2}$ 保护，LiOH 晶体中会混有 $\\mathrm{Li_2CO_3}$。检验方法：取样，加入足量稀盐酸，观察到有气泡产生。产生气泡的反应的化学方程式为____。",
+   "answer": "$\\mathrm{Li_2CO_3 + 2HCl \\xlongequal{} 2LiCl + H_2O + CO_2\\uparrow}$",
+   "kp": [
+    "huaxue.salt.common",
+    "huaxue.eq.writing",
+    "huaxue.inquiry.identify"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-17-1",
+   "no": "17(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m17",
+   "stem": "Ⅰ. 制备吸附剂\n\n【实验 1】往桑枝木炭中加入 $\\mathrm{Fe_2(SO_4)_3}$ 溶液，浸泡后再加入 NaOH 溶液，调节溶液的 pH，经系列操作制得吸附剂 A 和吸附剂 B。\n\n（1）使用____可测定溶液的 pH。",
+   "answer": "pH 试纸（或其他合理答案）",
+   "kp": [
+    "huaxue.acid.ph"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-17-2",
+   "no": "17(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m17",
+   "stem": "$\\mathrm{Fe_2(SO_4)_3}$ 溶液和 NaOH 溶液反应生成 $\\mathrm{Fe(OH)_3}$ 沉淀和 $\\mathrm{Na_2SO_4}$，反应的化学方程式为____。",
+   "answer": "$\\mathrm{Fe_2(SO_4)_3 + 6NaOH \\xlongequal{} 2Fe(OH)_3\\downarrow + 3Na_2SO_4}$",
+   "kp": [
+    "huaxue.salt.metathesis",
+    "huaxue.eq.writing",
+    "huaxue.acid.bases"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-17-3",
+   "no": "17(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m17",
+   "stem": "Ⅱ. 研究吸附剂的性能\n\n【实验 2】为比较两种吸附剂的除磷性能，25 ℃ 时，分别取含磷浓度为 7.5 mg·L$^{-1}$ 的两份等量含磷废水，将废水的 pH 均调至 6，用两种吸附剂进行控制单一变量实验，结果如下表（吸附量是指每克吸附剂吸附的废水中磷元素的质量）。\n\n| 实验编号 | 吸附剂 | 吸附剂质量/g | 废水的 pH | 吸附时间/min | 吸附率/% | 吸附量/(mg·g$^{-1}$) |\n|---|---|---|---|---|---|---|\n| ① | A | 0.2 | 6 | $x$ | 75.7 | 1.42 |\n| ② | B | $y$ | 6 | 260 | 98.1 | 1.84 |\n\n（表头：“吸附剂”至“吸附时间”为实验条件，“吸附率”“吸附量”为实验结果）\n\n（3）上表中 $x$＝____，$y$＝____。",
+   "answer": "260　0.2",
+   "kp": [
+    "huaxue.inquiry.control_variable"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-17-4",
+   "no": "17(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m17",
+   "stem": "【实验 3】为研究废水的 pH 对吸附剂 A 除磷性能的影响，设计实验方案。\n\n（4）该实验方案为____。",
+   "answer": "将废水的 pH 调成不同大小，控制其他条件相同，分别用吸附剂 A 进行除磷实验，测定吸附率和吸附量",
+   "kp": [
+    "huaxue.inquiry.control_variable",
+    "huaxue.inquiry.design_eval"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2024-17-5",
+   "no": "17(5)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m17",
+   "stem": "Ⅲ. 研究吸附剂的应用\n\n含磷废水的净化处理过程如下图所示。\n\n（5）从实验 2 数据判断，“吸附剂 X”应选择吸附剂____（填“A”或“B”），除磷效果较好。",
+   "figures": [
+    "figs/2024-17-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.inquiry.data_analysis",
+    "huaxue.water.resources"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2024-17-6",
+   "no": "17(6)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m17",
+   "stem": "从以上净水过程可以归纳出物质分离的一般思路：\n明确混合物中的物质→（____）→确定物质的分离方法。",
+   "answer": "分析各物质的性质差异",
+   "kp": [
+    "huaxue.water.purification",
+    "huaxue.inquiry.identify"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2024-18-1",
+   "no": "18(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 5,
+   "material": "m18",
+   "stem": "若用反应①制取 23 g 乙醇，理论上至少需要乙烯（$\\mathrm{C_2H_4}$）的质量是多少？",
+   "answer": "解：设制取 23 g 乙醇，理论上至少需要乙烯的质量为 $x$。\n\n$\\mathrm{C_2H_4 + H_2O \\xlongequal{一定条件} C_2H_6O}$\n\n28　　　　　　46\n\n$x$　　　　　　23 g\n\n$\\dfrac{28}{46}=\\dfrac{x}{23\\ \\mathrm{g}}$\n\n$x = 14$ g\n\n答：制取 23 g 乙醇，理论上至少需要乙烯的质量为 14 g。",
+   "kp": [
+    "huaxue.eq.calc"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2024-18-2",
+   "no": "18(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m18",
+   "stem": "原子经济性＝$\\dfrac{目标产物中所有原子的总质量}{反应物中所有原子的总质量}\\times 100\\%$，它是绿色化学的重要指标。上述两个反应中，原子经济性更好的是反应____（填“①”或“②”）。",
+   "answer": "①",
+   "kp": [
+    "huaxue.society.green",
+    "huaxue.eq.calc"
+   ],
+   "difficulty": 2
+  }
+ ]
+}

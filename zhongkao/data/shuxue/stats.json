@@ -1,0 +1,1572 @@
+{
+ "subject": "shuxue",
+ "years": [
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "kps": {
+  "shuxue.num.rational": {
+   "name": "有理数的概念",
+   "module": "数与式",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 32.8,
+   "qs": [
+    "shuxue-2019-12",
+    "shuxue-2020-1",
+    "shuxue-2020-11",
+    "shuxue-2020-14",
+    "shuxue-2022-1",
+    "shuxue-2023-1",
+    "shuxue-2023-11",
+    "shuxue-2025-6",
+    "shuxue-2025-11",
+    "shuxue-2026-1"
+   ]
+  },
+  "shuxue.num.real": {
+   "name": "实数与数轴",
+   "module": "数与式",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 33.6,
+   "qs": [
+    "shuxue-2019-12",
+    "shuxue-2020-6",
+    "shuxue-2021-1",
+    "shuxue-2021-12",
+    "shuxue-2022-5",
+    "shuxue-2023-1",
+    "shuxue-2024-1",
+    "shuxue-2025-1",
+    "shuxue-2026-5",
+    "shuxue-2026-23-1"
+   ]
+  },
+  "shuxue.num.sci_notation": {
+   "name": "科学记数法与近似数",
+   "module": "数与式",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 22.0,
+   "qs": [
+    "shuxue-2019-2",
+    "shuxue-2022-3",
+    "shuxue-2023-4",
+    "shuxue-2024-2",
+    "shuxue-2025-24-2",
+    "shuxue-2025-24-3",
+    "shuxue-2026-3"
+   ]
+  },
+  "shuxue.num.real_calc": {
+   "name": "实数的混合运算",
+   "module": "数与式",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 45.6,
+   "qs": [
+    "shuxue-2019-1",
+    "shuxue-2021-17",
+    "shuxue-2022-17",
+    "shuxue-2023-17",
+    "shuxue-2024-17",
+    "shuxue-2025-17",
+    "shuxue-2026-17"
+   ]
+  },
+  "shuxue.num.algebra_expr": {
+   "name": "代数式与整体代入求值",
+   "module": "数与式",
+   "years": [
+    2021,
+    2023,
+    2026
+   ],
+   "count": 3,
+   "score": 4.8,
+   "qs": [
+    "shuxue-2021-15",
+    "shuxue-2023-15",
+    "shuxue-2026-15"
+   ]
+  },
+  "shuxue.num.power": {
+   "name": "幂的运算",
+   "module": "数与式",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 6,
+   "score": 17.6,
+   "qs": [
+    "shuxue-2019-7",
+    "shuxue-2020-7",
+    "shuxue-2021-4",
+    "shuxue-2022-7",
+    "shuxue-2023-5",
+    "shuxue-2024-5"
+   ]
+  },
+  "shuxue.num.polynomial": {
+   "name": "整式的运算与乘法公式",
+   "module": "数与式",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2024
+   ],
+   "count": 5,
+   "score": 7.2,
+   "qs": [
+    "shuxue-2020-7",
+    "shuxue-2021-4",
+    "shuxue-2023-5",
+    "shuxue-2024-5",
+    "shuxue-2024-23-1"
+   ]
+  },
+  "shuxue.num.factorize": {
+   "name": "因式分解",
+   "module": "数与式",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 6,
+   "score": 16.0,
+   "qs": [
+    "shuxue-2019-11",
+    "shuxue-2022-15",
+    "shuxue-2023-20",
+    "shuxue-2024-11",
+    "shuxue-2024-23-1",
+    "shuxue-2026-13"
+   ]
+  },
+  "shuxue.num.fraction": {
+   "name": "分式的运算与化简求值",
+   "module": "数与式",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 32.0,
+   "qs": [
+    "shuxue-2019-19",
+    "shuxue-2020-19",
+    "shuxue-2021-15",
+    "shuxue-2022-19",
+    "shuxue-2023-15",
+    "shuxue-2023-20",
+    "shuxue-2025-19",
+    "shuxue-2025-23-2-2",
+    "shuxue-2026-15"
+   ]
+  },
+  "shuxue.num.radical": {
+   "name": "二次根式",
+   "module": "数与式",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 27.2,
+   "qs": [
+    "shuxue-2019-19",
+    "shuxue-2020-19",
+    "shuxue-2021-17",
+    "shuxue-2022-19",
+    "shuxue-2023-20",
+    "shuxue-2025-3",
+    "shuxue-2025-17",
+    "shuxue-2025-19",
+    "shuxue-2026-23-1",
+    "shuxue-2026-23-2"
+   ]
+  },
+  "shuxue.num.pattern": {
+   "name": "数与式的规律探索",
+   "module": "数与式",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "shuxue.eq.linear": {
+   "name": "一元一次方程及其应用",
+   "module": "方程与不等式",
+   "years": [
+    2019,
+    2024
+   ],
+   "count": 3,
+   "score": 9.6,
+   "qs": [
+    "shuxue-2019-8",
+    "shuxue-2019-22-1",
+    "shuxue-2024-8"
+   ]
+  },
+  "shuxue.eq.system": {
+   "name": "二元一次方程组的解法",
+   "module": "方程与不等式",
+   "years": [
+    2019,
+    2021
+   ],
+   "count": 2,
+   "score": 9.6,
+   "qs": [
+    "shuxue-2019-17",
+    "shuxue-2021-20-1"
+   ]
+  },
+  "shuxue.eq.system_app": {
+   "name": "列方程（组）解实际问题",
+   "module": "方程与不等式",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2026
+   ],
+   "count": 6,
+   "score": 17.0,
+   "qs": [
+    "shuxue-2019-8",
+    "shuxue-2020-8",
+    "shuxue-2020-20-1",
+    "shuxue-2021-20-1",
+    "shuxue-2022-22-1",
+    "shuxue-2026-16"
+   ]
+  },
+  "shuxue.eq.fractional": {
+   "name": "分式方程及其应用",
+   "module": "方程与不等式",
+   "years": [
+    2020,
+    2024
+   ],
+   "count": 2,
+   "score": 10.4,
+   "qs": [
+    "shuxue-2020-8",
+    "shuxue-2024-19"
+   ]
+  },
+  "shuxue.eq.quad_solve": {
+   "name": "一元二次方程的解法与根的判别式",
+   "module": "方程与不等式",
+   "years": [
+    2022,
+    2023,
+    2026
+   ],
+   "count": 3,
+   "score": 3.0,
+   "qs": [
+    "shuxue-2022-23-2",
+    "shuxue-2023-24-2",
+    "shuxue-2026-25-2"
+   ]
+  },
+  "shuxue.eq.vieta": {
+   "name": "一元二次方程根与系数的关系",
+   "module": "方程与不等式",
+   "years": [
+    2021
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "shuxue-2021-25-2-2"
+   ]
+  },
+  "shuxue.eq.quad_app": {
+   "name": "一元二次方程的应用",
+   "module": "方程与不等式",
+   "years": [
+    2021,
+    2023,
+    2025
+   ],
+   "count": 3,
+   "score": 12.0,
+   "qs": [
+    "shuxue-2021-6",
+    "shuxue-2023-6",
+    "shuxue-2025-8"
+   ]
+  },
+  "shuxue.ineq.solve": {
+   "name": "不等式（组）的解法",
+   "module": "方程与不等式",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 48.0,
+   "qs": [
+    "shuxue-2020-17",
+    "shuxue-2021-8",
+    "shuxue-2021-19",
+    "shuxue-2022-6",
+    "shuxue-2023-16",
+    "shuxue-2023-18",
+    "shuxue-2024-12",
+    "shuxue-2025-5",
+    "shuxue-2025-24-2",
+    "shuxue-2026-19"
+   ]
+  },
+  "shuxue.ineq.app": {
+   "name": "不等式的应用",
+   "module": "方程与不等式",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "count": 4,
+   "score": 12.2,
+   "qs": [
+    "shuxue-2019-22-2",
+    "shuxue-2020-20-2",
+    "shuxue-2021-20-2",
+    "shuxue-2022-22-2"
+   ]
+  },
+  "shuxue.func.coord": {
+   "name": "平面直角坐标系",
+   "module": "函数",
+   "years": [
+    2019
+   ],
+   "count": 1,
+   "score": 1.6,
+   "qs": [
+    "shuxue-2019-14"
+   ]
+  },
+  "shuxue.func.concept": {
+   "name": "函数的概念与图象信息",
+   "module": "函数",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "shuxue.func.linear": {
+   "name": "一次函数的图象与性质",
+   "module": "函数",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2026
+   ],
+   "count": 5,
+   "score": 9.8,
+   "qs": [
+    "shuxue-2020-25-2",
+    "shuxue-2021-8",
+    "shuxue-2022-25-2",
+    "shuxue-2023-24-2",
+    "shuxue-2026-25-3"
+   ]
+  },
+  "shuxue.func.linear_app": {
+   "name": "一次函数的应用",
+   "module": "函数",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2025
+   ],
+   "count": 4,
+   "score": 8.4,
+   "qs": [
+    "shuxue-2020-20-2",
+    "shuxue-2021-20-2",
+    "shuxue-2022-22-2",
+    "shuxue-2025-16"
+   ]
+  },
+  "shuxue.func.inverse": {
+   "name": "反比例函数的图象与性质",
+   "module": "函数",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 20.8,
+   "qs": [
+    "shuxue-2020-16",
+    "shuxue-2021-11",
+    "shuxue-2022-14",
+    "shuxue-2024-15",
+    "shuxue-2025-13",
+    "shuxue-2026-6"
+   ]
+  },
+  "shuxue.func.inverse_geo": {
+   "name": "反比例函数与几何综合",
+   "module": "函数",
+   "years": [
+    2019,
+    2023
+   ],
+   "count": 2,
+   "score": 4.8,
+   "qs": [
+    "shuxue-2019-16",
+    "shuxue-2023-9"
+   ]
+  },
+  "shuxue.func.quad_graph": {
+   "name": "二次函数的图象与性质",
+   "module": "函数",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 13,
+   "score": 23.6,
+   "qs": [
+    "shuxue-2019-10",
+    "shuxue-2019-25-1",
+    "shuxue-2020-10",
+    "shuxue-2020-25-1",
+    "shuxue-2021-10",
+    "shuxue-2021-25-1",
+    "shuxue-2021-25-2-1",
+    "shuxue-2024-10",
+    "shuxue-2025-10",
+    "shuxue-2025-23-1",
+    "shuxue-2025-23-2-2",
+    "shuxue-2026-10",
+    "shuxue-2026-25-1"
+   ]
+  },
+  "shuxue.func.quad_param": {
+   "name": "二次函数含参问题",
+   "module": "函数",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 18.8,
+   "qs": [
+    "shuxue-2019-10",
+    "shuxue-2020-10",
+    "shuxue-2021-10",
+    "shuxue-2022-16",
+    "shuxue-2023-16",
+    "shuxue-2024-10",
+    "shuxue-2025-10",
+    "shuxue-2025-23-2-1",
+    "shuxue-2026-10"
+   ]
+  },
+  "shuxue.func.quad_expr": {
+   "name": "求二次函数的解析式",
+   "module": "函数",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 7,
+   "score": 19.0,
+   "qs": [
+    "shuxue-2019-25-2-1",
+    "shuxue-2020-25-1",
+    "shuxue-2021-25-2-1",
+    "shuxue-2022-25-1",
+    "shuxue-2023-24-1",
+    "shuxue-2024-21-1",
+    "shuxue-2025-23-2-1"
+   ]
+  },
+  "shuxue.func.quad_eq": {
+   "name": "二次函数与一元二次方程（不等式）",
+   "module": "函数",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2026
+   ],
+   "count": 4,
+   "score": 9.6,
+   "qs": [
+    "shuxue-2019-25-1",
+    "shuxue-2021-25-1",
+    "shuxue-2022-16",
+    "shuxue-2026-25-2"
+   ]
+  },
+  "shuxue.func.quad_app": {
+   "name": "二次函数的实际应用",
+   "module": "函数",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "shuxue.func.quad_geo": {
+   "name": "二次函数与几何综合",
+   "module": "函数",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 10,
+   "score": 31.6,
+   "qs": [
+    "shuxue-2019-25-2-1",
+    "shuxue-2019-25-2-2",
+    "shuxue-2020-25-3",
+    "shuxue-2021-25-2-2",
+    "shuxue-2022-25-2",
+    "shuxue-2022-25-3",
+    "shuxue-2023-24-2",
+    "shuxue-2023-24-3",
+    "shuxue-2024-21-2",
+    "shuxue-2026-25-3"
+   ]
+  },
+  "shuxue.geo.line_angle": {
+   "name": "线段、角与余角补角",
+   "module": "图形的性质",
+   "years": [
+    2024,
+    2025
+   ],
+   "count": 2,
+   "score": 4.8,
+   "qs": [
+    "shuxue-2024-4",
+    "shuxue-2025-18"
+   ]
+  },
+  "shuxue.geo.parallel": {
+   "name": "相交线与平行线",
+   "module": "图形的性质",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 11.8,
+   "qs": [
+    "shuxue-2021-22-2",
+    "shuxue-2022-24-1",
+    "shuxue-2023-21-1",
+    "shuxue-2024-4",
+    "shuxue-2024-22-1",
+    "shuxue-2025-7",
+    "shuxue-2026-22-1",
+    "shuxue-2026-24-2"
+   ]
+  },
+  "shuxue.geo.triangle": {
+   "name": "三角形的基本性质",
+   "module": "图形的性质",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 12.0,
+   "qs": [
+    "shuxue-2020-15",
+    "shuxue-2021-21-1",
+    "shuxue-2023-3",
+    "shuxue-2025-7",
+    "shuxue-2025-25-1",
+    "shuxue-2026-14",
+    "shuxue-2026-24-1"
+   ]
+  },
+  "shuxue.geo.polygon": {
+   "name": "多边形的内角和与外角和",
+   "module": "图形的性质",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "count": 4,
+   "score": 12.8,
+   "qs": [
+    "shuxue-2019-5",
+    "shuxue-2020-15",
+    "shuxue-2021-7",
+    "shuxue-2022-11"
+   ]
+  },
+  "shuxue.geo.congruent": {
+   "name": "全等三角形",
+   "module": "图形的性质",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 21,
+   "score": 59.6,
+   "qs": [
+    "shuxue-2019-18",
+    "shuxue-2020-18",
+    "shuxue-2020-21-2",
+    "shuxue-2021-16",
+    "shuxue-2021-18",
+    "shuxue-2021-21-2",
+    "shuxue-2021-24-2",
+    "shuxue-2022-18",
+    "shuxue-2022-24-1",
+    "shuxue-2022-24-2",
+    "shuxue-2022-24-3",
+    "shuxue-2023-7",
+    "shuxue-2023-12",
+    "shuxue-2023-19",
+    "shuxue-2023-25-3",
+    "shuxue-2024-18",
+    "shuxue-2024-22-2",
+    "shuxue-2024-25-2",
+    "shuxue-2025-14",
+    "shuxue-2025-18",
+    "shuxue-2026-18"
+   ]
+  },
+  "shuxue.geo.bisector": {
+   "name": "角平分线与线段垂直平分线的性质",
+   "module": "图形的性质",
+   "years": [
+    2021,
+    2025
+   ],
+   "count": 2,
+   "score": 5.0,
+   "qs": [
+    "shuxue-2021-14",
+    "shuxue-2025-21-2"
+   ]
+  },
+  "shuxue.geo.isosceles": {
+   "name": "等腰三角形与等边三角形",
+   "module": "图形的性质",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 27,
+   "score": 45.8,
+   "qs": [
+    "shuxue-2019-21-1",
+    "shuxue-2019-24-1",
+    "shuxue-2019-25-2-1",
+    "shuxue-2020-5",
+    "shuxue-2020-24-1",
+    "shuxue-2020-24-2-1",
+    "shuxue-2021-7",
+    "shuxue-2021-18",
+    "shuxue-2021-21-1",
+    "shuxue-2022-9",
+    "shuxue-2022-21-1",
+    "shuxue-2022-24-2",
+    "shuxue-2023-13",
+    "shuxue-2023-21-2",
+    "shuxue-2023-25-1",
+    "shuxue-2024-9",
+    "shuxue-2024-22-2",
+    "shuxue-2025-12",
+    "shuxue-2025-21-1",
+    "shuxue-2025-21-2",
+    "shuxue-2025-25-1",
+    "shuxue-2025-25-2",
+    "shuxue-2026-18",
+    "shuxue-2026-20-2",
+    "shuxue-2026-22-1",
+    "shuxue-2026-22-2",
+    "shuxue-2026-24-1"
+   ]
+  },
+  "shuxue.geo.pythagoras": {
+   "name": "勾股定理",
+   "module": "图形的性质",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 8.4,
+   "qs": [
+    "shuxue-2019-21-2",
+    "shuxue-2021-24-3",
+    "shuxue-2023-25-3",
+    "shuxue-2024-22-2",
+    "shuxue-2025-22-2",
+    "shuxue-2026-20-2"
+   ]
+  },
+  "shuxue.geo.midline": {
+   "name": "三角形中位线",
+   "module": "图形的性质",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 17.2,
+   "qs": [
+    "shuxue-2019-20-2",
+    "shuxue-2020-3",
+    "shuxue-2021-24-1",
+    "shuxue-2022-12",
+    "shuxue-2024-14",
+    "shuxue-2025-12",
+    "shuxue-2026-12"
+   ]
+  },
+  "shuxue.geo.parallelogram": {
+   "name": "平行四边形",
+   "module": "图形的性质",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 8,
+   "score": 12.0,
+   "qs": [
+    "shuxue-2019-14",
+    "shuxue-2019-21-2",
+    "shuxue-2020-16",
+    "shuxue-2022-10",
+    "shuxue-2022-21-1",
+    "shuxue-2023-12",
+    "shuxue-2024-25-3",
+    "shuxue-2026-24-2"
+   ]
+  },
+  "shuxue.geo.special_quad": {
+   "name": "矩形、菱形、正方形",
+   "module": "图形的性质",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 17,
+   "score": 37.6,
+   "qs": [
+    "shuxue-2019-15",
+    "shuxue-2019-16",
+    "shuxue-2019-18",
+    "shuxue-2020-16",
+    "shuxue-2020-18",
+    "shuxue-2021-16",
+    "shuxue-2021-24-2",
+    "shuxue-2022-24-1",
+    "shuxue-2023-9",
+    "shuxue-2023-13",
+    "shuxue-2024-14",
+    "shuxue-2024-18",
+    "shuxue-2025-14",
+    "shuxue-2025-22-1",
+    "shuxue-2025-22-2",
+    "shuxue-2026-14",
+    "shuxue-2026-20-2"
+   ]
+  },
+  "shuxue.geo.similar": {
+   "name": "相似三角形",
+   "module": "图形的性质",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 21,
+   "score": 51.6,
+   "qs": [
+    "shuxue-2019-20-1",
+    "shuxue-2019-20-2",
+    "shuxue-2019-24-2",
+    "shuxue-2020-3",
+    "shuxue-2020-23-2",
+    "shuxue-2020-24-2-2",
+    "shuxue-2020-25-3",
+    "shuxue-2021-22-2",
+    "shuxue-2021-24-3",
+    "shuxue-2021-25-2-2",
+    "shuxue-2022-25-3",
+    "shuxue-2023-23-1",
+    "shuxue-2023-23-2",
+    "shuxue-2023-25-1",
+    "shuxue-2023-25-2",
+    "shuxue-2024-25-2",
+    "shuxue-2024-25-3",
+    "shuxue-2025-22-2",
+    "shuxue-2025-25-2",
+    "shuxue-2025-25-3",
+    "shuxue-2026-24-3"
+   ]
+  },
+  "shuxue.geo.trig": {
+   "name": "锐角三角函数",
+   "module": "图形的性质",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 13,
+   "score": 17.2,
+   "qs": [
+    "shuxue-2019-24-2",
+    "shuxue-2020-21-1",
+    "shuxue-2021-3",
+    "shuxue-2021-9",
+    "shuxue-2021-24-3",
+    "shuxue-2022-10",
+    "shuxue-2022-23-2",
+    "shuxue-2023-10",
+    "shuxue-2024-25-1",
+    "shuxue-2025-25-3",
+    "shuxue-2026-7",
+    "shuxue-2026-9",
+    "shuxue-2026-22-2"
+   ]
+  },
+  "shuxue.geo.trig_app": {
+   "name": "解直角三角形的应用",
+   "module": "图形的性质",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 5,
+   "score": 13.2,
+   "qs": [
+    "shuxue-2021-3",
+    "shuxue-2022-9",
+    "shuxue-2023-23-3",
+    "shuxue-2024-16",
+    "shuxue-2026-7"
+   ]
+  },
+  "shuxue.geo.extremum": {
+   "name": "几何最值问题",
+   "module": "图形的性质",
+   "years": [
+    2021
+   ],
+   "count": 1,
+   "score": 0.8,
+   "qs": [
+    "shuxue-2021-16"
+   ]
+  },
+  "shuxue.geo.synthesis": {
+   "name": "几何综合探究",
+   "module": "图形的性质",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2026
+   ],
+   "count": 6,
+   "score": 11.4,
+   "qs": [
+    "shuxue-2020-24-2-1",
+    "shuxue-2020-24-2-2",
+    "shuxue-2022-24-3",
+    "shuxue-2023-25-2",
+    "shuxue-2023-25-3",
+    "shuxue-2026-24-3"
+   ]
+  },
+  "shuxue.circle.basic": {
+   "name": "圆的基本性质",
+   "module": "圆",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 20,
+   "score": 36.4,
+   "qs": [
+    "shuxue-2019-9",
+    "shuxue-2019-24-1",
+    "shuxue-2019-24-2",
+    "shuxue-2020-9",
+    "shuxue-2020-21-1",
+    "shuxue-2021-9",
+    "shuxue-2022-21-1",
+    "shuxue-2022-21-2",
+    "shuxue-2023-21-1",
+    "shuxue-2023-21-2",
+    "shuxue-2024-7",
+    "shuxue-2024-25-1",
+    "shuxue-2024-25-3",
+    "shuxue-2025-9",
+    "shuxue-2025-25-1",
+    "shuxue-2025-25-2",
+    "shuxue-2025-25-3",
+    "shuxue-2026-24-1",
+    "shuxue-2026-24-2",
+    "shuxue-2026-24-3"
+   ]
+  },
+  "shuxue.circle.tangent": {
+   "name": "直线与圆的位置关系、切线",
+   "module": "圆",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 24.4,
+   "qs": [
+    "shuxue-2019-9",
+    "shuxue-2020-21-1",
+    "shuxue-2020-21-2",
+    "shuxue-2021-9",
+    "shuxue-2022-23-1",
+    "shuxue-2022-23-2",
+    "shuxue-2023-21-1",
+    "shuxue-2024-7",
+    "shuxue-2025-9",
+    "shuxue-2026-9"
+   ]
+  },
+  "shuxue.circle.polygon_arc": {
+   "name": "正多边形与圆、弧长与扇形面积",
+   "module": "圆",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023
+   ],
+   "count": 4,
+   "score": 11.2,
+   "qs": [
+    "shuxue-2019-15",
+    "shuxue-2020-13",
+    "shuxue-2022-21-2",
+    "shuxue-2023-10"
+   ]
+  },
+  "shuxue.circle.concyclic": {
+   "name": "点与圆的位置关系、四点共圆",
+   "module": "圆",
+   "years": [
+    2021,
+    2026
+   ],
+   "count": 2,
+   "score": 2.2,
+   "qs": [
+    "shuxue-2021-24-2",
+    "shuxue-2026-25-3"
+   ]
+  },
+  "shuxue.trans.symmetry": {
+   "name": "轴对称图形与中心对称图形",
+   "module": "图形的变化与视图",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 23.2,
+   "qs": [
+    "shuxue-2019-3",
+    "shuxue-2020-4",
+    "shuxue-2022-4",
+    "shuxue-2024-9",
+    "shuxue-2024-15",
+    "shuxue-2025-2",
+    "shuxue-2026-2"
+   ]
+  },
+  "shuxue.trans.fold": {
+   "name": "轴对称与折叠",
+   "module": "图形的变化与视图",
+   "years": [
+    2021,
+    2026
+   ],
+   "count": 3,
+   "score": 7.8,
+   "qs": [
+    "shuxue-2021-24-1",
+    "shuxue-2026-22-1",
+    "shuxue-2026-22-2"
+   ]
+  },
+  "shuxue.trans.translation": {
+   "name": "平移",
+   "module": "图形的变化与视图",
+   "years": [
+    2021,
+    2022,
+    2025
+   ],
+   "count": 3,
+   "score": 5.4,
+   "qs": [
+    "shuxue-2021-21-2",
+    "shuxue-2022-10",
+    "shuxue-2025-21-2"
+   ]
+  },
+  "shuxue.trans.rotation": {
+   "name": "旋转",
+   "module": "图形的变化与视图",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023
+   ],
+   "count": 7,
+   "score": 13.8,
+   "qs": [
+    "shuxue-2019-21-1",
+    "shuxue-2019-21-2",
+    "shuxue-2020-24-1",
+    "shuxue-2020-24-2-1",
+    "shuxue-2022-24-2",
+    "shuxue-2022-24-3",
+    "shuxue-2023-25-1"
+   ]
+  },
+  "shuxue.trans.homothety": {
+   "name": "位似",
+   "module": "图形的变化与视图",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "shuxue.solid.view": {
+   "name": "三视图",
+   "module": "图形的变化与视图",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 32.0,
+   "qs": [
+    "shuxue-2019-4",
+    "shuxue-2020-2",
+    "shuxue-2021-2",
+    "shuxue-2022-2",
+    "shuxue-2023-2",
+    "shuxue-2024-3",
+    "shuxue-2025-4",
+    "shuxue-2026-4"
+   ]
+  },
+  "shuxue.solid.net": {
+   "name": "立体图形与展开图",
+   "module": "图形的变化与视图",
+   "years": [
+    2024
+   ],
+   "count": 3,
+   "score": 7.8,
+   "qs": [
+    "shuxue-2024-24-1",
+    "shuxue-2024-24-2",
+    "shuxue-2024-24-3"
+   ]
+  },
+  "shuxue.construct.basic": {
+   "name": "基本尺规作图",
+   "module": "尺规作图",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2026
+   ],
+   "count": 4,
+   "score": 6.8,
+   "qs": [
+    "shuxue-2020-23-1",
+    "shuxue-2021-22-1",
+    "shuxue-2023-7",
+    "shuxue-2026-20-1"
+   ]
+  },
+  "shuxue.construct.design": {
+   "name": "尺规作图综合",
+   "module": "尺规作图",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 16.2,
+   "qs": [
+    "shuxue-2019-20-1",
+    "shuxue-2020-23-1",
+    "shuxue-2021-22-1",
+    "shuxue-2022-23-1",
+    "shuxue-2024-22-1",
+    "shuxue-2025-22-1",
+    "shuxue-2026-20-1"
+   ]
+  },
+  "shuxue.stat.collect": {
+   "name": "数据的收集与样本估计总体",
+   "module": "统计与概率",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "count": 4,
+   "score": 10.6,
+   "qs": [
+    "shuxue-2019-13",
+    "shuxue-2020-22-1",
+    "shuxue-2021-13",
+    "shuxue-2022-20-2"
+   ]
+  },
+  "shuxue.stat.chart": {
+   "name": "统计图表",
+   "module": "统计与概率",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 10,
+   "score": 18.0,
+   "qs": [
+    "shuxue-2019-6",
+    "shuxue-2020-22-1",
+    "shuxue-2020-22-3",
+    "shuxue-2021-13",
+    "shuxue-2022-8",
+    "shuxue-2022-20-1",
+    "shuxue-2022-20-2",
+    "shuxue-2023-8",
+    "shuxue-2024-13",
+    "shuxue-2026-8"
+   ]
+  },
+  "shuxue.stat.central": {
+   "name": "平均数、中位数、众数",
+   "module": "统计与概率",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 14,
+   "score": 36.0,
+   "qs": [
+    "shuxue-2019-23-2",
+    "shuxue-2020-22-2",
+    "shuxue-2021-5",
+    "shuxue-2022-20-1",
+    "shuxue-2023-8",
+    "shuxue-2023-14",
+    "shuxue-2024-13",
+    "shuxue-2024-20-1",
+    "shuxue-2024-20-2",
+    "shuxue-2025-15",
+    "shuxue-2025-20-1",
+    "shuxue-2025-20-2",
+    "shuxue-2026-8",
+    "shuxue-2026-11"
+   ]
+  },
+  "shuxue.stat.spread": {
+   "name": "方差与数据的波动",
+   "module": "统计与概率",
+   "years": [
+    2019,
+    2025
+   ],
+   "count": 2,
+   "score": 3.4,
+   "qs": [
+    "shuxue-2019-6",
+    "shuxue-2025-20-1"
+   ]
+  },
+  "shuxue.stat.decision": {
+   "name": "用统计量分析决策",
+   "module": "统计与概率",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 7,
+   "score": 15.6,
+   "qs": [
+    "shuxue-2019-23-2",
+    "shuxue-2020-22-3",
+    "shuxue-2021-5",
+    "shuxue-2023-14",
+    "shuxue-2024-20-2",
+    "shuxue-2025-20-2",
+    "shuxue-2025-20-3"
+   ]
+  },
+  "shuxue.prob.event": {
+   "name": "随机事件",
+   "module": "统计与概率",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "shuxue.prob.classical": {
+   "name": "简单事件的概率",
+   "module": "统计与概率",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 6,
+   "score": 18.0,
+   "qs": [
+    "shuxue-2020-12",
+    "shuxue-2021-23-1",
+    "shuxue-2022-13",
+    "shuxue-2023-22-1",
+    "shuxue-2024-6",
+    "shuxue-2026-21-1"
+   ]
+  },
+  "shuxue.prob.tree": {
+   "name": "列表法与树状图求概率",
+   "module": "统计与概率",
+   "years": [
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 17.6,
+   "qs": [
+    "shuxue-2021-23-2",
+    "shuxue-2023-22-2",
+    "shuxue-2024-6",
+    "shuxue-2025-6",
+    "shuxue-2026-21-2"
+   ]
+  },
+  "shuxue.prob.freq": {
+   "name": "用频率估计概率",
+   "module": "统计与概率",
+   "years": [
+    2019,
+    2025
+   ],
+   "count": 2,
+   "score": 3.6,
+   "qs": [
+    "shuxue-2019-23-1",
+    "shuxue-2025-20-2"
+   ]
+  },
+  "shuxue.prob.decision": {
+   "name": "概率的应用与决策",
+   "module": "统计与概率",
+   "years": [
+    2021,
+    2023
+   ],
+   "count": 3,
+   "score": 6.8,
+   "qs": [
+    "shuxue-2021-23-1",
+    "shuxue-2021-23-2",
+    "shuxue-2023-22-2"
+   ]
+  },
+  "shuxue.prac.modeling": {
+   "name": "跨学科实际情境建模",
+   "module": "综合与实践",
+   "years": [
+    2020,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 7.2,
+   "qs": [
+    "shuxue-2020-22-3",
+    "shuxue-2024-16",
+    "shuxue-2025-16",
+    "shuxue-2026-16"
+   ]
+  },
+  "shuxue.prac.reading": {
+   "name": "阅读材料与新定义",
+   "module": "综合与实践",
+   "years": [
+    2025,
+    2026
+   ],
+   "count": 3,
+   "score": 7.2,
+   "qs": [
+    "shuxue-2025-24-1",
+    "shuxue-2025-24-3",
+    "shuxue-2026-23-1"
+   ]
+  },
+  "shuxue.prac.reasoning": {
+   "name": "代数推理与论证",
+   "module": "综合与实践",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 14,
+   "score": 31.2,
+   "qs": [
+    "shuxue-2019-25-2-2",
+    "shuxue-2020-23-2",
+    "shuxue-2020-25-2",
+    "shuxue-2022-15",
+    "shuxue-2023-24-3",
+    "shuxue-2024-23-1",
+    "shuxue-2024-23-2",
+    "shuxue-2025-23-2-2",
+    "shuxue-2025-24-1",
+    "shuxue-2025-24-2",
+    "shuxue-2025-24-3",
+    "shuxue-2026-23-2",
+    "shuxue-2026-23-3",
+    "shuxue-2026-25-2"
+   ]
+  },
+  "shuxue.prac.project": {
+   "name": "综合实践与方案设计",
+   "module": "综合与实践",
+   "years": [
+    2023,
+    2024
+   ],
+   "count": 2,
+   "score": 6.6,
+   "qs": [
+    "shuxue-2023-23-3",
+    "shuxue-2024-24-3"
+   ]
+  }
+ }
+}

@@ -1,0 +1,509 @@
+{
+ "subject": "yuwen",
+ "modules": [
+  {
+   "id": "M1",
+   "name": "积累与运用·语言基础",
+   "kps": [
+    {
+     "id": "yuwen.jilei.zixing",
+     "name": "字音字形",
+     "grade": "?",
+     "desc": "给加点字选读音、根据拼音写（选）汉字，含正楷/行楷书写"
+    },
+    {
+     "id": "yuwen.jilei.ciyu",
+     "name": "词语辨析与运用",
+     "grade": "?",
+     "desc": "在语境中选用或填写恰当的词语（近义词、关联词、虚词）"
+    },
+    {
+     "id": "yuwen.jilei.chengyu",
+     "name": "成语运用",
+     "grade": "?",
+     "desc": "成语在语境中的正误判断、选用，或根据词典释义写出成语"
+    },
+    {
+     "id": "yuwen.jilei.bingju",
+     "name": "病句辨析与修改",
+     "grade": "?",
+     "desc": "判断病句类型、选出无语病句，或指出并修改语病（含补写缺失成分）"
+    },
+    {
+     "id": "yuwen.jilei.biaodian",
+     "name": "标点符号",
+     "grade": "?",
+     "desc": "标点符号使用正误判断与填写"
+    },
+    {
+     "id": "yuwen.jilei.paixu",
+     "name": "句子排序与衔接",
+     "grade": "?",
+     "desc": "把打乱的句子排成连贯语段，或选择衔接恰当的句子"
+    },
+    {
+     "id": "yuwen.jilei.buxie",
+     "name": "语句补写",
+     "grade": "?",
+     "desc": "在语段横线处补写语句，要求语意连贯、逻辑严密、字数限定"
+    },
+    {
+     "id": "yuwen.jilei.xiuci",
+     "name": "修辞与句式",
+     "grade": "?",
+     "desc": "修辞手法辨析、句式变换与仿写"
+    },
+    {
+     "id": "yuwen.jilei.wenchang",
+     "name": "文学常识与文化常识",
+     "grade": "?",
+     "desc": "作家作品、文体、古代文化常识判断"
+    },
+    {
+     "id": "yuwen.jilei.biaoda",
+     "name": "语言表达与综合性学习",
+     "grade": "?",
+     "desc": "在情境任务中概括、拟写、口语交际、得体表达等综合运用"
+    }
+   ]
+  },
+  {
+   "id": "M2",
+   "name": "积累与运用·古诗文默写",
+   "kps": [
+    {
+     "id": "yuwen.moxie.zhijie",
+     "name": "名句直接默写",
+     "grade": "?",
+     "desc": "给出上句或下句，直接补写课标篇目名句"
+    },
+    {
+     "id": "yuwen.moxie.lijie",
+     "name": "理解性默写",
+     "grade": "?",
+     "desc": "根据对诗文内容/情感的提示写出相应名句"
+    },
+    {
+     "id": "yuwen.moxie.qingjing",
+     "name": "情境默写",
+     "grade": "?",
+     "desc": "在生活、学习、活动等情境中写出与语境相契合的指定篇目名句"
+    },
+    {
+     "id": "yuwen.moxie.kaifang",
+     "name": "开放性默写",
+     "grade": "?",
+     "desc": "不限篇目，自选与主题、图画等相契合的古诗文名句"
+    }
+   ]
+  },
+  {
+   "id": "M3",
+   "name": "积累与运用·名著阅读",
+   "kps": [
+    {
+     "id": "yuwen.mingzhu.qingjie",
+     "name": "名著情节与人物识记",
+     "grade": "?",
+     "desc": "名著的作者、情节、人物、细节的识记与判断"
+    },
+    {
+     "id": "yuwen.mingzhu.renwu",
+     "name": "名著人物评析",
+     "grade": "?",
+     "desc": "结合情节评价名著人物形象、性格及其变化"
+    },
+    {
+     "id": "yuwen.mingzhu.fangfa",
+     "name": "名著阅读方法与体验",
+     "grade": "?",
+     "desc": "结合名著谈读书方法（精读跳读、批注、专题探究、由博返约等）与阅读收获"
+    },
+    {
+     "id": "yuwen.mingzhu.sibian",
+     "name": "名著观点思辨与表达",
+     "grade": "?",
+     "desc": "结合名著内容表达、论证或反驳某种观点，写阅读心得/交流发言"
+    }
+   ]
+  },
+  {
+   "id": "M4",
+   "name": "古诗词鉴赏",
+   "kps": [
+    {
+     "id": "yuwen.shici.neirong",
+     "name": "诗词内容理解",
+     "grade": "?",
+     "desc": "对诗句内容、情感、手法的综合理解判断（常为选择题）"
+    },
+    {
+     "id": "yuwen.shici.yixiang",
+     "name": "意象与画面",
+     "grade": "?",
+     "desc": "分析意象、描绘或改写诗句所展现的画面、意境"
+    },
+    {
+     "id": "yuwen.shici.qinggan",
+     "name": "思想情感与主旨",
+     "grade": "?",
+     "desc": "体会诗人表达的思想感情、志趣或诗歌主旨"
+    },
+    {
+     "id": "yuwen.shici.shoufa",
+     "name": "表现手法",
+     "grade": "?",
+     "desc": "借景抒情、对比、衬托、虚实、用典、动静结合、以小见大等手法的作用"
+    },
+    {
+     "id": "yuwen.shici.lianzi",
+     "name": "炼字与语言赏析",
+     "grade": "?",
+     "desc": "赏析关键字词、诗句的表达效果"
+    },
+    {
+     "id": "yuwen.shici.xiuci",
+     "name": "修辞与描写角度",
+     "grade": "?",
+     "desc": "诗中修辞（夸张、比喻、拟人等）、描写角度及其效果"
+    },
+    {
+     "id": "yuwen.shici.langdu",
+     "name": "诗词朗读",
+     "grade": "?",
+     "desc": "朗读节奏、重音、语调、语速处理及理由"
+    },
+    {
+     "id": "yuwen.shici.bijiao",
+     "name": "诗歌比较阅读",
+     "grade": "?",
+     "desc": "两首诗在内容、情感、写法上的异同比较"
+    },
+    {
+     "id": "yuwen.shici.zheli",
+     "name": "哲理与启示",
+     "grade": "?",
+     "desc": "理解诗句蕴含的哲理，联系生活谈启示"
+    }
+   ]
+  },
+  {
+   "id": "M5",
+   "name": "文言文阅读",
+   "kps": [
+    {
+     "id": "yuwen.wenyan.shici",
+     "name": "文言实词释义",
+     "grade": "?",
+     "desc": "解释文言实词（含语境推断、通假、古今异义、词类活用）"
+    },
+    {
+     "id": "yuwen.wenyan.qianyi",
+     "name": "课内迁移与字典义项",
+     "grade": "?",
+     "desc": "联系课文语句解释词义、查字典选择义项等“方法提示”类释词"
+    },
+    {
+     "id": "yuwen.wenyan.xuci",
+     "name": "文言虚词",
+     "grade": "?",
+     "desc": "之、而、以、其、于等虚词的意义和用法辨析"
+    },
+    {
+     "id": "yuwen.wenyan.duanju",
+     "name": "文言断句",
+     "grade": "?",
+     "desc": "根据句意、语法为文言句子断句（选择或写标号）"
+    },
+    {
+     "id": "yuwen.wenyan.fanyi",
+     "name": "文言句子翻译",
+     "grade": "?",
+     "desc": "把文言句子翻译成现代汉语，落实关键词和句式"
+    },
+    {
+     "id": "yuwen.wenyan.neirong",
+     "name": "文意理解与信息筛选",
+     "grade": "?",
+     "desc": "概括文言文内容、筛选信息、判断内容理解正误"
+    },
+    {
+     "id": "yuwen.wenyan.renwu",
+     "name": "文言人物形象",
+     "grade": "?",
+     "desc": "结合文本分析文言文中人物的品质、形象"
+    },
+    {
+     "id": "yuwen.wenyan.zhuzhi",
+     "name": "文言主旨与启示",
+     "grade": "?",
+     "desc": "理解文章观点、主旨，谈感悟与现实启示"
+    },
+    {
+     "id": "yuwen.wenyan.xiefa",
+     "name": "文言写法赏析",
+     "grade": "?",
+     "desc": "文言文中的写作手法（衬托、对比、移步换景等）与语言赏析"
+    },
+    {
+     "id": "yuwen.wenyan.bijiao",
+     "name": "课内外比较阅读",
+     "grade": "?",
+     "desc": "课外文言与课内篇目或多则材料在内容、观点、写法上的比较"
+    },
+    {
+     "id": "yuwen.wenyan.shiwen",
+     "name": "诗文联读",
+     "grade": "?",
+     "desc": "古诗与文言文对读，诗文互证、整合理解（2026 年新题型）"
+    },
+    {
+     "id": "yuwen.wenyan.yingyong",
+     "name": "文言情境任务运用",
+     "grade": "?",
+     "desc": "依据文言内容完成拍摄脚本、导游词、推介等实践任务"
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "name": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "kps": [
+    {
+     "id": "yuwen.jixu.neirong",
+     "name": "文学类文本内容理解",
+     "grade": "?",
+     "desc": "对文章内容、情感、写法的综合判断（常为 3 分选择题）"
+    },
+    {
+     "id": "yuwen.jixu.qingjie",
+     "name": "情节梳理与内容概括",
+     "grade": "?",
+     "desc": "概括事件、梳理情节发展或情感变化线索"
+    },
+    {
+     "id": "yuwen.jixu.renwu",
+     "name": "人物形象分析",
+     "grade": "?",
+     "desc": "结合描写与情节分析人物性格、品质、形象"
+    },
+    {
+     "id": "yuwen.jixu.juzi",
+     "name": "句子赏析",
+     "grade": "?",
+     "desc": "从修辞、描写方法、语言特点等角度赏析句子表达效果"
+    },
+    {
+     "id": "yuwen.jixu.ciyu",
+     "name": "词语品析",
+     "grade": "?",
+     "desc": "品味关键词语（叠词、动词、修饰语等）的含义和表达效果"
+    },
+    {
+     "id": "yuwen.jixu.hanyi",
+     "name": "重要语句含意",
+     "grade": "?",
+     "desc": "理解文中关键句的深层含意"
+    },
+    {
+     "id": "yuwen.jixu.huanjing",
+     "name": "环境描写作用",
+     "grade": "?",
+     "desc": "分析自然环境、社会环境描写的作用"
+    },
+    {
+     "id": "yuwen.jixu.zuoyong",
+     "name": "段落、情节与细节的作用",
+     "grade": "?",
+     "desc": "分析开头、过渡段、插叙、细节、物象等在结构和内容上的作用"
+    },
+    {
+     "id": "yuwen.jixu.biaoti",
+     "name": "标题含意与作用",
+     "grade": "?",
+     "desc": "理解标题含义、分析标题作用或拟换标题"
+    },
+    {
+     "id": "yuwen.jixu.jiewei",
+     "name": "结尾的作用与意蕴",
+     "grade": "?",
+     "desc": "分析结尾的表达效果、意蕴，或比较不同结尾"
+    },
+    {
+     "id": "yuwen.jixu.xiefa",
+     "name": "写作手法",
+     "grade": "?",
+     "desc": "伏笔照应、对比衬托、线索、叙述视角、以小见大、托物言志等"
+    },
+    {
+     "id": "yuwen.jixu.zhuzhi",
+     "name": "主旨与情感",
+     "grade": "?",
+     "desc": "把握文章主旨、作者情感态度"
+    },
+    {
+     "id": "yuwen.jixu.bijiao",
+     "name": "与课文比较阅读",
+     "grade": "?",
+     "desc": "与教材篇目在人物、情节、写法、主题上的比较"
+    },
+    {
+     "id": "yuwen.jixu.ganwu",
+     "name": "个性化感悟与拓展",
+     "grade": "?",
+     "desc": "结合文本和生活谈感悟、写随感、完成活动任务"
+    }
+   ]
+  },
+  {
+   "id": "M7",
+   "name": "现代文阅读·议论性文本",
+   "kps": [
+    {
+     "id": "yuwen.yilun.neirong",
+     "name": "议论性文本内容理解",
+     "grade": "?",
+     "desc": "对论点、论据、论证等内容的综合判断（常为选择题）"
+    },
+    {
+     "id": "yuwen.yilun.lundian",
+     "name": "论点提取与观点理解",
+     "grade": "九上",
+     "desc": "找出或概括中心论点、分论点，理解作者观点"
+    },
+    {
+     "id": "yuwen.yilun.lunju",
+     "name": "论据分析与选用",
+     "grade": "九上",
+     "desc": "分析论据作用、判断论据能否支撑论点、补充或选择论据"
+    },
+    {
+     "id": "yuwen.yilun.fangfa",
+     "name": "论证方法及作用",
+     "grade": "九上",
+     "desc": "举例、道理、对比、比喻论证等的识别和作用分析"
+    },
+    {
+     "id": "yuwen.yilun.silu",
+     "name": "论证思路与结构",
+     "grade": "九上",
+     "desc": "梳理文章/段落论证思路和结构"
+    },
+    {
+     "id": "yuwen.yilun.yuyan",
+     "name": "议论语言",
+     "grade": "九上",
+     "desc": "分析议论文语言的准确性、严密性，关键词语的作用"
+    },
+    {
+     "id": "yuwen.yilun.qianyi",
+     "name": "迁移运用与思辨表达",
+     "grade": "九上",
+     "desc": "运用文中观点分析现象、写发言稿、驳论或提出见解"
+    }
+   ]
+  },
+  {
+   "id": "M8",
+   "name": "现代文阅读·说明文与非连续性文本",
+   "kps": [
+    {
+     "id": "yuwen.shuoming.duixiang",
+     "name": "说明对象与特征",
+     "grade": "八上",
+     "desc": "把握说明对象及其特征、说明顺序"
+    },
+    {
+     "id": "yuwen.shuoming.fangfa",
+     "name": "说明方法及作用",
+     "grade": "八上",
+     "desc": "列数字、举例子、打比方、作比较等说明方法的作用"
+    },
+    {
+     "id": "yuwen.shuoming.yuyan",
+     "name": "说明语言准确性",
+     "grade": "八上",
+     "desc": "分析说明文语言的准确性、生动性"
+    },
+    {
+     "id": "yuwen.feilianxu.neirong",
+     "name": "非连续性文本内容判断",
+     "grade": "?",
+     "desc": "对多则材料（文字、图表、访谈）信息的理解判断（常为选择题）"
+    },
+    {
+     "id": "yuwen.feilianxu.xinxi",
+     "name": "信息筛选与概括",
+     "grade": "?",
+     "desc": "从材料中提取、概括关键信息"
+    },
+    {
+     "id": "yuwen.feilianxu.tubiao",
+     "name": "图表解读",
+     "grade": "?",
+     "desc": "读懂图表、数据、思维导图、示意图并得出结论"
+    },
+    {
+     "id": "yuwen.feilianxu.zhenghe",
+     "name": "材料比较整合与推断",
+     "grade": "?",
+     "desc": "多则材料互相印证、比较、整合，并作出推断或解释原因"
+    },
+    {
+     "id": "yuwen.feilianxu.jianyi",
+     "name": "解决实际问题与提建议",
+     "grade": "?",
+     "desc": "依据材料提出建议、方案或解决实际问题"
+    },
+    {
+     "id": "yuwen.feilianxu.yingyong",
+     "name": "实用文写作",
+     "grade": "?",
+     "desc": "依据材料写邀请函、解说词、开场白、推介语、倡议等"
+    }
+   ]
+  },
+  {
+   "id": "M9",
+   "name": "写作",
+   "kps": [
+    {
+     "id": "yuwen.xiezuo.mingti",
+     "name": "命题作文",
+     "grade": "?",
+     "desc": "按给定题目写作（含材料引入的命题作文）"
+    },
+    {
+     "id": "yuwen.xiezuo.banmingti",
+     "name": "半命题作文",
+     "grade": "?",
+     "desc": "补全题目后写作"
+    },
+    {
+     "id": "yuwen.xiezuo.cailiao",
+     "name": "材料作文",
+     "grade": "?",
+     "desc": "依据材料自拟题目写作"
+    },
+    {
+     "id": "yuwen.xiezuo.shenti",
+     "name": "审题立意",
+     "grade": "?",
+     "desc": "理解题目/材料关键词，确定立意与角度"
+    },
+    {
+     "id": "yuwen.xiezuo.wenti",
+     "name": "文体意识与实用文体",
+     "grade": "?",
+     "desc": "按要求写记叙文、议论文或演讲稿等特定文体，符合文体规范"
+    },
+    {
+     "id": "yuwen.xiezuo.xuancai",
+     "name": "选材与联系生活",
+     "grade": "?",
+     "desc": "围绕立意选材，联系个人经历、时代主题（科技、传统文化、红色精神等）"
+    }
+   ]
+  }
+ ]
+}
