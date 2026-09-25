@@ -2,3 +2,6 @@
 android/*
 !android/twa-manifest.json
 !android/README.md
+
+# 课本原件不入库（版权）
+*.pdf

@@ -122,7 +122,10 @@ body.m-sent .only-file, body.m-file .only-sent{display:none !important}
 .stars{color:#F5A623;letter-spacing:1px}
 .listhead{display:flex;align-items:center;gap:10px;margin:16px 2px 8px;flex-wrap:wrap}
 .listhead h2{margin:0}
-.listhead select{font:inherit;font-size:.85rem;padding:5px 8px;border-radius:10px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);max-width:55%}
+.listhead select{font:inherit;font-size:.85rem;padding:5px 8px;border-radius:10px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);max-width:40%}
+.who{font-weight:600;color:var(--muted);font-size:.8rem;min-width:0;max-width:5.5em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:440px){ li .badge:not(:last-child){display:none} .who{max-width:4.2em} li>button.it{gap:8px;padding:10px 12px} }
+li.sec-h{padding:6px 14px;font-size:.78rem;color:var(--muted);background:var(--bg);font-weight:500}
 .prog{margin-left:auto;font-size:.8rem;color:var(--muted)}
 [hidden]{display:none !important}
 body.nosrc .needs-src{opacity:.35;pointer-events:none}
@@ -182,7 +185,7 @@ body.nosrc .needs-src{opacity:.35;pointer-events:none}
 
   <p class="msg" id="msg" role="status"></p>
 
-  <div class="listhead"><h2>句子</h2><select id="unitSel" class="only-sent" aria-label="选择单元"></select><span class="prog" id="prog"></span></div>
+  <div class="listhead"><h2>句子</h2><select id="unitSel" class="only-sent" aria-label="选择单元"></select><select id="secSel" class="only-sent" aria-label="选择板块"></select><span class="prog" id="prog"></span></div>
   <ol id="list"></ol>
 
   <details class="only-sent add">
@@ -361,7 +364,9 @@ let unit=localStorage.getItem('gd:unit')||'', GAIN=+(localStorage.getItem('gd:ga
 let recStop=null, stopPlay=null, busy=false, cancelFlow=false, head=null;
 const aOrig=new Audio(), aModel=new Audio(), aMine=new Audio();
 [aOrig,aModel,aMine].forEach(a=>{a.preservesPitch=true; a.webkitPreservesPitch=true; a.mozPreservesPitch=true;});
-const list=()=>mode==='sent'?(unit==='all'?sents:sents.filter(x=>x.unit===unit)):fileSegs;
+let sec=localStorage.getItem('gd:sec')||'';
+const inUnit=()=>unit==='all'?sents:sents.filter(x=>x.unit===unit);
+const list=()=>mode==='sent'?inUnit().filter(x=>!sec||x.sec===sec):fileSegs;
 const seg=()=>list()[curI[mode]];
 function msg(t){ $('msg').textContent=t||''; }
 const fmt=t=>Math.floor(t/60)+':'+String(Math.floor(t%60)).padStart(2,'0');
@@ -566,12 +571,12 @@ async function select(i){
     $('sentText').textContent=getNote(S);
   }else{
     $('sent').innerHTML=rich(S.t); $('zh').textContent=S.zh||''; $('zh').hidden=!$('showZh').checked;
-    $('meta').innerHTML=`<span class="pill">${esc(S.type||'')}</span><span class="pill tone">${TONE[S.tone]}</span>`+(S.tip?`<span>${esc(S.tip)}</span>`:'');
+    $('meta').innerHTML=[S.sec||S.type,S.who].filter(Boolean).map(v=>`<span class="pill">${esc(v)}</span>`).join('')+`<span class="pill tone">${TONE[S.tone]}</span>`+(S.tip?`<span>${esc(S.tip)}</span>`:'');
   }
   $('segLabel').textContent='第 '+(curI[mode]+1)+' / '+L.length+' 句';
   $('prev').disabled=curI[mode]===0; $('next').disabled=curI[mode]===L.length-1;
   showResult(); teachUI(); draw();
-  document.querySelectorAll('#list li').forEach((li,k)=>{ li.classList.toggle('on',k===curI[mode]); if(k===curI[mode]) li.scrollIntoView({block:'nearest'}); });
+  document.querySelectorAll('#list li:not(.sec-h)').forEach((li,k)=>{ li.classList.toggle('on',k===curI[mode]); if(k===curI[mode]) li.scrollIntoView({block:'nearest'}); });
   if(mode==='sent'&&S.model===undefined){ await ensureModel(S); if(seg()===S){ teachUI(); showResult(); draw(); renderList(); } }
 }
 function badge(S){
@@ -585,13 +590,22 @@ function buildUnitSel(){
   opts.forEach(([v,n])=>{ const o=document.createElement('option'); o.value=v; o.textContent=n; sel.appendChild(o); });
   if(!opts.some(([v])=>v===unit)) unit=BOOK.units.length?BOOK.units[0].id:'all';
   sel.value=unit;
-  sel.onchange=()=>{ stopAll(); unit=sel.value; try{localStorage.setItem('gd:unit',unit);}catch(e){} curI.sent=0; renderList(); select(0); };
+  sel.onchange=()=>{ stopAll(); unit=sel.value; try{localStorage.setItem('gd:unit',unit);}catch(e){} buildSecSel(); curI.sent=0; renderList(); select(0); };
+  buildSecSel();
+}
+function buildSecSel(){
+  const sel=$('secSel'); const secs=[...new Set(inUnit().map(x=>x.sec).filter(Boolean))];
+  sel.innerHTML=''; sel.hidden=secs.length<2;
+  [['','全部板块'],...secs.map(x=>[x,x])].forEach(([v,n])=>{ const o=document.createElement('option'); o.value=v; o.textContent=n; sel.appendChild(o); });
+  if(!secs.includes(sec)) sec=''; sel.value=sec;
+  sel.onchange=()=>{ stopAll(); sec=sel.value; try{localStorage.setItem('gd:sec',sec);}catch(e){} curI.sent=0; renderList(); select(0); };
 }
 function renderList(){
   const ol=$('list'); ol.innerHTML='';
   list().forEach((S,i)=>{ const li=document.createElement('li'), b=document.createElement('button'); b.className='it';
     if(i===curI[mode]) li.className='on';
-    if(mode==='sent') b.innerHTML=`<span class="n">${i+1}</span><span class="pv">${esc(plain(S.t))}</span><span class="ar">${ARROW[S.tone]}</span>${badge(S)}`;
+    if(mode==='sent'){ const L=list(); if(!sec&&S.sec&&(i===0||L[i-1].sec!==S.sec)){ const h=document.createElement('li'); h.className='sec-h'; h.textContent=S.sec; ol.appendChild(h); }
+      b.innerHTML=`<span class="n">${i+1}</span>${S.who?`<span class="who">${esc(S.who)}</span>`:''}<span class="pv">${esc(plain(S.t))}</span><span class="ar">${ARROW[S.tone]}</span>${badge(S)}`; }
     else { b.innerHTML=`<span class="n">${i+1}</span><span class="tm">${fmt(S.s)}</span><span class="pv"></span>${badge(S)}`; b.querySelector('.pv').textContent=getNote(S); }
     b.onclick=()=>select(i); li.appendChild(b);
     if(mode==='sent'&&S.custom){ const x=document.createElement('button'); x.className='x'; x.textContent='✕'; x.setAttribute('aria-label','删除这句');
@@ -631,7 +645,7 @@ $('addBtn').onclick=()=>{
   t=t.replace(/\s*_\s*/g,'‿');
   const s={id:'c'+Date.now(),t,zh:$('addZh').value.trim(),tone:$('addTone').value,custom:true,unit:'custom',type:'自己添加'};
   sents.push(s); saveCustom(); $('addTxt').value=''; $('addZh').value=''; msg('');
-  if(mode==='sent'){ if(unit!=='all'){ unit='custom'; $('unitSel').value=unit; } renderList(); select(list().length-1); }
+  if(mode==='sent'){ if(unit!=='all'){ unit='custom'; $('unitSel').value=unit; } buildSecSel(); renderList(); select(list().length-1); }
 };
 document.addEventListener('keydown',e=>{
   if(e.target.isContentEditable||['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)) return;

@@ -52,24 +52,26 @@ tailscale serve --bg 8000        # 输出形如 https://zelin.tailc23635.ts.net/
 
 ## 数据存储
 
-- 内置 10 句的示范音频在 audio/ 目录（用 edge-tts 的 en-US-JennyNeural 生成，见 CLAUDE.md），随网页发布，不依赖手机的朗读引擎
+- 全书示范音频在 audio/ 目录（播放过的句子会缓存到手机，之后离线可用）（用 edge-tts 的 en-US-JennyNeural 生成，见 CLAUDE.md），随网页发布，不依赖手机的朗读引擎
 - 老师录的示范：存在浏览器 IndexedDB（按设备、按浏览器分别保存），优先于内置音频
 - 自己添加的句子、课文音频的句子备注：存在 localStorage
 
 ## 修改句子库（整本书）
 
+当前内容：仁爱科普版英语九年级上册，6 个单元共 909 句。来自课本中所有完整的对话和短文（听说、听力原文、功能对话、语音、思维技能、阅读策略、主题阅读、语法、口头交际、以读促写、复习），带填空的练习题没有收录。课本 PDF 只放在本地，`.gitignore` 已排除，不会上传。
+
 句子放在 `book.json`，按单元组织：
 
 ```json
 { "id": "u1", "name": "Unit 1", "sentences": [
-  { "id": "p1", "t": "My hometown has *changed*‿a *lot*.", "zh": "我的家乡变化很大。", "tone": "down", "type": "陈述句", "tip": "可选提示", "audio": "audio/p1.mp3" }
+  { "id": "u1-001", "t": "What was *communication* like in the *past*?", "zh": "过去的通讯是什么样的？", "tone": "down", "sec": "听说", "who": "A", "voice": "f", "tip": "可选提示", "audio": "audio/u1-001.mp3" }
 ]}
 ```
 
-- `*单词*` 标重读，`‿` 标连读；`zh` 是中文意思
+- `*单词*` 标重读，`‿` 标连读；`zh` 是中文意思；`sec` 是板块（页面上可按板块筛选）；`who` 是说话人；`voice` 为 `m`/`f`，生成音频时分别用男声 Guy、女声 Jenny
 - `tone`：`up` 结尾升调，`down` 结尾降调，`updown` 先升后降（选择疑问句）
 - `id` 全书唯一，老师示范录音和最高分都按 id 保存
-- 加完句子运行 `python3 tools/gen_audio.py`，会给没有音频的句子生成示范 mp3（需要 `pip install edge-tts` 和 ffmpeg）并写回 `audio` 字段
+- 加完句子运行 `python3 tools/gen_audio.py`，会给没有音频的句子生成示范 mp3（需要 `pip install edge-tts` 和 ffmpeg）并写回 `audio` 字段；中断后重跑会接着生成
 - 改完把 `sw.js` 里的 `VERSION` 加一
 
 ## 打分
