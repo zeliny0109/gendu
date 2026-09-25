@@ -20,7 +20,7 @@ python3 -m http.server 8000
 **https://zeliny0109.github.io/gendu/**
 
 - 手机浏览器打开后，可"添加到主屏幕"（iPhone 用 Safari 分享菜单；Android 用 Chrome 菜单里的"安装应用"），之后像普通 App 一样点图标打开，离线也能用。
-- 代码放在 https://github.com/zeliny0109/gendu ，推送到 main 分支后 GitHub Actions 会自动重新部署（见 .github/workflows/pages.yml）。
+- 代码放在 https://github.com/zeliny0109/gendu ，推送到 main 分支后 GitHub Actions 会自动把内容同步到 gh-pages 分支并重新发布（见 .github/workflows/pages.yml）。
 
 ### 更新方法
 
