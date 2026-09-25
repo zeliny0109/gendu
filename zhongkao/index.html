@@ -96,6 +96,11 @@ button{font:inherit;color:inherit}
 .mat{background:var(--soft);border-radius:12px;padding:10px 12px;margin-bottom:10px;font-size:.95rem;max-height:50vh;overflow:auto}
 .mat.open{max-height:none}
 .md p{margin:6px 0}
+.md h3{margin:16px 0 4px;font-size:1.02rem}
+.md h3:first-child{margin-top:0}
+.md ul,.md ol{margin:6px 0;padding-left:1.4em}
+.md li{margin:3px 0}
+.qlink{display:inline-block;font-size:.85rem;border:1px solid var(--pri);border-radius:999px;padding:0 10px;text-decoration:none;margin-left:4px}
 .md img{max-width:100%;height:auto;display:block;margin:8px auto;border-radius:6px;background:#fff}
 .md table{border-collapse:collapse;margin:8px 0;font-size:.9rem;display:block;overflow-x:auto}
 .md th,.md td{border:1px solid var(--line);padding:4px 8px}
@@ -162,7 +167,7 @@ function learned(kp) {
 /* ================= 数据 ================= */
 let INDEX = null;
 const SUBJ = {};   // id → {meta, kp, stats, kpMap, papers:{year:paper}, qMap}
-async function getJSON(u) { const r = await fetch(u); if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); }
+async function getJSON(u) { const r = await fetch(u, { cache: 'no-cache' }); if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); }
 async function loadIndex() { if (!INDEX) INDEX = await getJSON('data/index.json'); return INDEX; }
 async function loadSubject(id) {
   if (SUBJ[id]) return SUBJ[id];
@@ -227,6 +232,15 @@ function md(text, base) {
       return '<table><tr>' + cells(lines[0]).map(c => `<th>${c}</th>`).join('') + '</tr>'
         + lines.slice(2).filter(l => l.trim()).map(l => '<tr>' + cells(l).map(c => `<td>${c}</td>`).join('') + '</tr>').join('') + '</table>';
     }
+    if (/^#{2,4} /.test(lines[0])) {
+      const h = `<h3>${inline(lines[0].replace(/^#+ /, ''), base)}</h3>`;
+      return lines.length > 1 ? h + md(lines.slice(1).join('\n'), base) : h;
+    }
+    if (lines.every(l => /^\s*([-*]|\d+\.) /.test(l) || /^\s{2,}\S/.test(l))) {
+      const ol = /^\s*\d+\. /.test(lines[0]);
+      const items = []; lines.forEach(l => /^\s*([-*]|\d+\.) /.test(l) ? items.push(l.replace(/^\s*([-*]|\d+\.) /, '')) : items[items.length - 1] += '<br>' + l.trim());
+      return `<${ol ? 'ol' : 'ul'}>${items.map(i => `<li>${inline(i, base).replace(/&lt;br&gt;/g, '<br>')}</li>`).join('')}</${ol ? 'ol' : 'ul'}>`;
+    }
     return '<p>' + lines.map(l => inline(l, base)).join('<br>') + '</p>';
   }).join('');
 }
@@ -234,6 +248,7 @@ function inline(s, base) {
   return esc(s)
     .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => `<img src="${base}${src}" alt="${alt}" loading="lazy">`)
     .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
+    .replace(/\[\[q:([a-z]+-\d{4}-[\w-]+)\]\]/g, (_, id) => `<a class="qlink" href="#/practice/q/${id}">做这道真题 ›</a>`)
     .replace(/&lt;(\/?)u&gt;/g, '<$1u>').replace(/&lt;br\s*\/?&gt;/g, '<br>');
 }
 function figs(list, base) { return (list || []).map(f => `<img src="${base}${f}" alt="" loading="lazy">`).join(''); }

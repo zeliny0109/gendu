@@ -1037,7 +1037,7 @@
    "type": "choice",
    "score": 2,
    "material": "B",
-   "stem": "What is the right order of \"making the cloud\"?\n\n（图①：盛冰块的盖子；②：盖上盖子、罐中形成云；③：往罐中倒热水；④：罐中有烟；⑤：吹灭火柴）",
+   "stem": "What is the right order of \"making the cloud\"?\n\n（图①：盛冰块的盖子；②：盖上放冰块的盖子，罐中形成云；③：往罐中倒热水；④：揭开盖子，云雾从罐口飘出；⑤：吹灭火柴）",
    "options": [
     "A. ①②③⑤④",
     "B. ①③⑤②④",

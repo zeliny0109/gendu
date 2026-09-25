@@ -340,7 +340,8 @@
     "huaxue.o2.catalyst",
     "huaxue.eq.conservation"
    ],
-   "difficulty": 2
+   "difficulty": 2,
+   "note": "官方答案②是两个相连的白球（白球为 N 原子），即一个 N₂ 分子。"
   },
   {
    "id": "huaxue-2026-12-3",

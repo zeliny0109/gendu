@@ -8,3 +8,4 @@ android/*
 
 # 中考原始资料（大文件、第三方文件），只提交整理后的数据
 zhongkao/raw/
+zhongkao/tmp/
