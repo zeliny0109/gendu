@@ -63,13 +63,31 @@ button{font:inherit;color:inherit}
 .sub{display:block;text-align:left;cursor:pointer;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;color:var(--ink);text-decoration:none}
 .sub b{font-size:1.05rem;font-weight:600}
 .sub .w{float:right;font-size:.78rem;color:var(--muted)}
-.sub .m{font-size:.8rem;color:var(--muted);margin:6px 0 4px}
-.task{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line);cursor:pointer;text-decoration:none;color:var(--ink)}
+.sub .m{font-size:.8rem;color:var(--muted);margin:8px 0 8px;line-height:1.4}
+.sub .mv{font-size:1.25rem;font-weight:600;color:var(--ink)}
+.task{display:flex;align-items:center;gap:12px;padding:12px 2px;border-top:1px solid var(--line);cursor:pointer;text-decoration:none;color:var(--ink)}
 .task:first-of-type{border-top:none}
-.task.card{padding:12px 14px;border-top:1px solid var(--line)}
+.task.card{padding:14px 16px;border:1px solid var(--line);margin-bottom:10px}
 .task .tt{flex:1;min-width:0}
-.task .tt b{font-weight:500}
-.task .tt span{display:block;font-size:.8rem;color:var(--muted)}
+.task .tt b{font-weight:500;display:block;line-height:1.4}
+.task .tt>span{display:block;font-size:.8rem;color:var(--muted);margin-top:2px;line-height:1.5}
+.chev{flex:none;width:8px;height:8px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg);color:var(--muted);opacity:.55;margin:0 4px 0 2px}
+.task:active{opacity:.7}
+/* 题型卡列表 */
+.tcard{display:flex;align-items:center;gap:14px;padding:16px 16px 14px;background:var(--card);border:1px solid var(--line);border-radius:16px;margin-bottom:10px;text-decoration:none;color:var(--ink)}
+.tcard .no{flex:none;width:30px;height:30px;border-radius:50%;background:var(--pri-soft);color:var(--pri);display:grid;place-items:center;font-size:.85rem;font-weight:600;align-self:flex-start}
+.tcard .tt{flex:1;min-width:0}
+.tcard .tt b{display:block;font-size:1.02rem;font-weight:600;line-height:1.4}
+.tcard .pos{display:block;font-size:.8rem;color:var(--muted);margin:4px 0 8px;line-height:1.5}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{font-size:.75rem;padding:1px 9px;border-radius:999px;background:var(--soft);color:var(--muted);white-space:nowrap}
+.chips span.hi{background:var(--pri-soft);color:var(--pri)}
+.tcard .bar{margin-top:10px;height:4px}
+/* 折叠卡片 */
+details.card>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::after{content:"";margin-left:auto;width:8px;height:8px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);opacity:.55;transition:transform .15s}
+details.card[open]>summary::after{transform:rotate(-135deg)}
 .tag{flex:none;min-width:40px;height:40px;padding:0 6px;border-radius:12px;display:grid;place-items:center;font-weight:600;font-size:.85rem;background:var(--pri-soft);color:var(--pri)}
 
 /* 考点地图 */
@@ -97,8 +115,11 @@ button{font:inherit;color:inherit}
 .mat{background:var(--soft);border-radius:12px;padding:10px 12px;margin-bottom:10px;font-size:.95rem;max-height:50vh;overflow:auto}
 .mat.open{max-height:none}
 .md p{margin:6px 0}
-.md h3{margin:16px 0 4px;font-size:1.02rem}
+.md h3{margin:22px 0 8px;font-size:1.05rem;padding-left:10px;border-left:4px solid var(--pri);line-height:1.3}
 .md h3:first-child{margin-top:0}
+.md h4{margin:16px 0 6px;font-size:.98rem;display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.md .katex-display{margin:6px 0;overflow-x:auto;overflow-y:hidden}
+.nw{white-space:nowrap}
 .md ul,.md ol{margin:6px 0;padding-left:1.4em}
 .md li{margin:3px 0}
 .qlink{display:inline-block;font-size:.85rem;border:1px solid var(--pri);border-radius:999px;padding:0 10px;text-decoration:none;margin-left:4px}
@@ -238,7 +259,7 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
 // 极简 Markdown：图片、表格、粗体、换行；公式交给 KaTeX
 function md(text, base) {
-  const blocks = String(text || '').split(/\n{2,}/);
+  const blocks = tidyMath(String(text || '')).split(/\n{2,}/);
   return blocks.map(b => {
     const lines = b.split('\n');
     if (lines.length >= 2 && /^\s*\|.*\|\s*$/.test(lines[0]) && /^\s*\|[\s:|-]+\|\s*$/.test(lines[1])) {
@@ -247,21 +268,41 @@ function md(text, base) {
         + lines.slice(2).filter(l => l.trim()).map(l => '<tr>' + cells(l).map(c => `<td>${c}</td>`).join('') + '</tr>').join('') + '</table>';
     }
     if (/^#{2,4} /.test(lines[0])) {
-      const h = `<h3>${inline(lines[0].replace(/^#+ /, ''), base)}</h3>`;
+      const lv = lines[0].match(/^#+/)[0].length === 2 ? 'h3' : 'h4';
+      const h = `<${lv}>${inline(lines[0].replace(/^#+ /, ''), base)}</${lv}>`;
       return lines.length > 1 ? h + md(lines.slice(1).join('\n'), base) : h;
     }
-    if (lines.every(l => /^\s*([-*]|\d+\.) /.test(l) || /^\s{2,}\S/.test(l))) {
+    const ITEM = /^\s*([-*]|\d+\.) /;
+    if (ITEM.test(lines[0])) {
+      // 列表：不以“- / 1.”开头的行都算上一项的续行
       const ol = /^\s*\d+\. /.test(lines[0]);
-      const items = []; lines.forEach(l => /^\s*([-*]|\d+\.) /.test(l) ? items.push(l.replace(/^\s*([-*]|\d+\.) /, '')) : items[items.length - 1] += '<br>' + l.trim());
-      return `<${ol ? 'ol' : 'ul'}>${items.map(i => `<li>${inline(i, base).replace(/&lt;br&gt;/g, '<br>')}</li>`).join('')}</${ol ? 'ol' : 'ul'}>`;
+      const items = [];
+      lines.forEach(l => ITEM.test(l) ? items.push([l.replace(ITEM, '')]) : items[items.length - 1].push(l.trim()));
+      return `<${ol ? 'ol' : 'ul'}>${items.map(i => `<li>${joinLines(i, base)}</li>`).join('')}</${ol ? 'ol' : 'ul'}>`;
     }
-    return '<p>' + lines.map(l => inline(l, base)).join('<br>') + '</p>';
+    return '<p>' + joinLines(lines, base) + '</p>';
   }).join('');
+}
+// 行与行之间用 <br>，但独占一行的 $$…$$ 本身就是块，不再加换行
+function joinLines(lines, base) {
+  const isDisp = l => /^\s*\$\$[\s\S]*\$\$\s*$/.test(l);
+  return lines.filter(l => l.trim() !== '').map((l, i, arr) => (i && !isDisp(l) && !isDisp(arr[i - 1]) ? '<br>' : '') + inline(l, base)).join('');
+}
+// 数理化书写：“∵”“∴”另起一行（公式内外都处理）；大括号方程组单独成块
+function tidyMath(t) {
+  if (!t.includes('$')) return t;
+  return t
+    .replace(/(?<!\$)\$([^$]+)\$(?!\$)/g, (m, x) => x.split(/\s*(?:[,，;；]|\\quad)\s*(?=\\(?:therefore|because)\b)/).filter(p => p.trim()).map(p => '$' + p + '$').join('，\n'))
+    .replace(/([，。；：,;:])\s*(\$\\(?:because|therefore))/g, '$1\n$2')
+    .replace(/([，。；,;])\s*([∵∴])/g, '$1\n$2')
+    .replace(/[，,]?\s*(?<!\$)\$(\\begin\{cases\}[\s\S]*?\\end\{cases\})\$(?!\$)\s*[，,]?\s*/g, (m, c) => '\n$$' + c + '$$\n');
 }
 function inline(s, base) {
   return esc(s)
     .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => `<img src="${base}${src}" alt="${alt}" loading="lazy">`)
     .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
+    .replace(/([∵∴])\s*((?<!\$)\$[^$\n]+\$(?!\$))/g, '<span class="nw">$1 $2</span>')
+    .replace(/((?<!\$)\$[^$\n]+\$(?!\$))([，。、；：！？）”’,.;:!?)]+)/g, '<span class="nw">$1$2</span>')
     .replace(/\[\[q:([a-z]+-\d{4}-[\w-]+)\]\]/g, (_, id) => `<a class="qlink" href="#/practice/q/${id}">做这道真题 ›</a>`)
     .replace(/&lt;(\/?)u&gt;/g, '<$1u>').replace(/&lt;br\s*\/?&gt;/g, '<br>');
 }
@@ -326,22 +367,22 @@ async function home() {
     <div class="card">${tasks.map(({ S, k }) => {
       const m = mastery(S, k.id);
       return `<a class="task" href="#/k/${k.id}"><span class="tag">${S.meta.name.slice(0, 1)}</span><span class="tt"><b>${esc(k.name)}</b>
-        <span>${esc(k.module)} · ${k.st.years.length}/${S.stats.years.length} 年考过 · ${m === null ? '还没测' : LEVEL_NAME[level(m)] + ' ' + pct(m)}</span></span>›</a>`;
+        <span>${esc(k.module)} · ${k.st.years.length}/${S.stats.years.length} 年考过 · ${m === null ? '还没测' : LEVEL_NAME[level(m)] + ' ' + pct(m)}</span></span><i class="chev"></i></a>`;
     }).join('') || '<p class="muted small">还没有数据</p>'}</div>
-    ${due ? `<a class="card task" href="#/practice/srs/all" style="display:flex"><span class="tag" style="background:var(--bad-soft);color:var(--bad)">错</span><span class="tt"><b>错题复习 ${due} 道到期</b><span>隔几天再做一遍，做对才算真会</span></span>›</a>` : ''}
+    ${due ? `<a class="card task" href="#/practice/srs/all"><span class="tag" style="background:var(--bad-soft);color:var(--bad)">错</span><span class="tt"><b>错题复习 ${due} 道到期</b><span>隔几天再做一遍，做对才算真会</span></span><i class="chev"></i></a>` : ''}
     <h2>各科</h2>
     <div class="subs">${INDEX.subjects.map(s => {
       if (!s.ready) return `<div class="sub" style="opacity:.5"><b>${s.name}</b><span class="w">${s.weight} 分</span><div class="m">题库整理中</div></div>`;
       const sm = subjSummary(SUBJ[s.id]);
       return `<a class="sub" href="#/s/${s.id}"><b>${s.name}</b><span class="w">${s.weight} 分</span>
-        <div class="m">测过 ${sm.tested}/${sm.n} 考点${sm.avg !== null ? ' · 掌握 ' + pct(sm.avg) : ''}</div>
+        <div class="m"><span class="mv">${sm.avg !== null ? pct(sm.avg) : '—'}</span> 掌握<br><span class="tiny">已测 ${sm.tested}/${sm.n} 个考点</span></div>
         <div class="bar"><i style="width:${sm.avg === null ? 0 : sm.avg * sm.tested / sm.n * 100}%"></i></div></a>`;
     }).join('')}</div>
     <h2>工具</h2>
     <div class="card">
-      <a class="task" href="#/wrong"><span class="tag">本</span><span class="tt"><b>错题本</b><span>所有科目做错的题</span></span>›</a>
-      <a class="task" href="../"><span class="tag">读</span><span class="tt"><b>英语跟读</b><span>课文句子跟读、语调对比</span></span>›</a>
-      <a class="task" href="../grammar/"><span class="tag">语</span><span class="tt"><b>九上英语语法</b><span>现在完成时、被动语态、定语从句……</span></span>›</a>
+      <a class="task" href="#/wrong"><span class="tag">本</span><span class="tt"><b>错题本</b><span>所有科目做错的题</span></span><i class="chev"></i></a>
+      <a class="task" href="../"><span class="tag">读</span><span class="tt"><b>英语跟读</b><span>课文句子跟读、语调对比</span></span><i class="chev"></i></a>
+      <a class="task" href="../grammar/"><span class="tag">语</span><span class="tt"><b>九上英语语法</b><span>现在完成时、被动语态、定语从句……</span></span><i class="chev"></i></a>
     </div>`;
 }
 
@@ -374,13 +415,18 @@ async function subjectPage(id, tab) {
     }
   } else if (tab === 'types') {
     const T = await loadTypes(id);
-    const acc = t => { const r = t.qs.map(lastRes).filter(x => x !== null); return r.length ? `做过 ${r.length}/${t.qs.length} · 得分率 ${pct(r.reduce((a, b) => a + b, 0) / r.length)}` : `${t.qs.length} 道历年真题`; };
-    body = `<p class="small muted" style="margin:0 2px 10px">按试卷顺序，一张卡讲一个固定题位怎么拿分，可以把历年同一位置的题连着练。</p>
-      ${T.strategy ? `<details class="card"><summary><b>整卷策略</b> <span class="small muted">时间分配 · 做题顺序 · 检查</span></summary><div class="md" id="strat" style="margin-top:8px">${md(T.strategy, `data/${id}/`)}</div></details>` : ''}
-      ${T.types.map(t => `<a class="task card" style="display:flex" href="#/t/${t.id}"><span class="tt"><b>${esc(t.name)}</b><span>${esc(t.pos || '')}${t.score && !/分/.test(t.pos || '') ? ' · ' + t.score + ' 分' : ''}${t.minutes ? ' · 建议 ' + t.minutes + ' 分钟' : ''}</span><span>${acc(t)}</span></span>›</a>`).join('')}`;
+        body = `<p class="small muted" style="margin:0 2px 10px">按试卷顺序，一张卡讲一个固定题位怎么拿分，可以把历年同一位置的题连着练。</p>
+      ${T.strategy ? `<details class="card"><summary><span class="tag" style="width:40px">策</span><span class="tt"><b>整卷策略</b><span class="small muted" style="display:block">时间分配 · 做题顺序 · 最后检查</span></span></summary><div class="md" id="strat" style="margin-top:8px">${md(T.strategy, `data/${id}/`)}</div></details>` : ''}
+      ${T.types.map((t, i) => {
+        const r = t.qs.map(lastRes).filter(x => x !== null), rate = r.length ? r.reduce((a, b) => a + b, 0) / r.length : null;
+        return `<a class="tcard" href="#/t/${t.id}"><span class="no">${i + 1}</span><span class="tt"><b>${esc(t.name)}</b>
+          <span class="pos">${esc(t.pos || '')}</span>
+          <span class="chips">${t.score ? `<span class="hi">${t.score} 分${/每/.test(t.pos || '') ? '/题' : ''}</span>` : ''}${t.minutes ? `<span>约 ${t.minutes} 分钟</span>` : ''}<span>${t.qs.length} 道真题</span>${r.length ? `<span>做过 ${r.length} · 得分率 ${pct(rate)}</span>` : ''}</span>
+          ${r.length ? `<span class="bar"><i style="width:${r.length / t.qs.length * 100}%"></i></span>` : ''}</span><i class="chev"></i></a>`;
+      }).join('')}`;
   } else {
-    body = S.meta.years.slice().reverse().map(y => `<a class="task card" style="display:flex" href="#/practice/paper/${id}/${y.year}"><span class="tag">${String(y.year).slice(2)}</span>
-      <span class="tt"><b>${y.year} 年福建中考${S.meta.name}</b><span>${y.n} 题${y.total ? ' · ' + y.total + ' 分' : ''}${y.minutes ? ' · ' + y.minutes + ' 分钟' : ''}</span></span>›</a>
+    body = S.meta.years.slice().reverse().map(y => `<a class="task card" href="#/practice/paper/${id}/${y.year}"><span class="tag">${String(y.year).slice(2)}</span>
+      <span class="tt"><b>${y.year} 年福建中考${S.meta.name}</b><span>${y.n} 题${y.total ? ' · ' + y.total + ' 分' : ''}${y.minutes ? ' · ' + y.minutes + ' 分钟' : ''}</span></span><i class="chev"></i></a>
       ${(S.meta.listening || []).includes(y.year) ? `<a class="btn sm" style="margin:-6px 0 14px" href="#/practice/listen/${id}/${y.year}">🎧 只做这一年的听力（20 题）</a>` : ''}`).join('');
   }
   view.innerHTML = tabs + body;
@@ -394,7 +440,7 @@ async function kpPage(kpid) {
   const id = subjOfKp(kpid);
   const S = await loadSubject(id);
   const k = S.kpMap[kpid];
-  if (!k) { view.innerHTML = '<p class="empty">没有这个考点</p>'; return; }
+  if (!k) { setTop('考点', true); view.innerHTML = '<p class="empty">没有这个考点</p>'; return; }
   setTop(k.name, true);
   const lessons = await loadLessons(id);
   const m = mastery(S, kpid), done = k.st.qs.filter(q => lastRes(q) !== null).length;
@@ -402,7 +448,7 @@ async function kpPage(kpid) {
   view.innerHTML = `
     <div class="card"><div class="small muted">${S.meta.name} · ${esc(k.module)} · ${k.grade || ''}</div>
       <p style="margin:6px 0">${esc(k.desc || '')}</p>
-      <div class="row small"><span>历年：${heat(S, k)}</span><span class="muted">${k.st.years.length}/${S.stats.years.length} 年考过，共 ${k.st.count} 题，约 ${(k.st.score / S.stats.years.length).toFixed(1)} 分/年</span></div>
+      <div class="row small"><span class="row" style="gap:6px;flex-wrap:nowrap">历年 ${heat(S, k)}</span><span class="muted">${k.st.years.length}/${S.stats.years.length} 年考过，共 ${k.st.count} 题，约 ${(k.st.score / S.stats.years.length).toFixed(1)} 分/年</span></div>
       <div class="row small" style="margin-top:6px"><span class="dot ${level(m) >= 0 ? 's' + level(m) : ''}"></span>${m === null ? '还没做过这个考点的题' : `掌握度 ${pct(m)}（${LEVEL_NAME[level(m)]}，做过 ${done}/${k.st.qs.length} 题）`}</div>
       <label class="row small" style="margin-top:8px"><input type="checkbox" id="lrn" ${learned(k) ? 'checked' : ''}> 学校已经学过（没学过的不排进每日任务）</label>
     </div>
@@ -420,7 +466,7 @@ async function typePage(tid) {
   const id = subjOfKp(tid);
   const T = await loadTypes(id), S = SUBJ[id];
   const t = T.types.find(x => x.id === tid);
-  if (!t) { view.innerHTML = '<p class="empty">没有这个题型</p>'; return; }
+  if (!t) { setTop('题型', true); view.innerHTML = '<p class="empty">没有这个题型</p>'; return; }
   setTop(t.name, true);
   const done = t.qs.filter(q => lastRes(q) !== null);
   view.innerHTML = `<div class="card small muted">${S.meta.name} · ${esc(t.pos || '')}${t.score ? ' · ' + t.score + ' 分' : ''}${t.minutes ? ' · 建议用时 ' + t.minutes + ' 分钟' : ''}<br>
@@ -549,7 +595,7 @@ function practiceDone() {
       ${P.mode === 'paper' ? `<div>按自评估分：约 ${Math.round(P.got)} / ${P.score} 分</div>` : ''}
     </div>
     <h2>这一轮涉及的考点</h2>
-    <div class="card">${rows.map(({ S, k, m }) => `<a class="task" href="#/k/${k}"><span class="dot s${level(m)}"></span><span class="tt"><b>${esc(S.kpMap[k].name)}</b><span>${S.meta.name} · 本轮 ${pct(m)}</span></span>›</a>`).join('')}</div>
+    <div class="card">${rows.map(({ S, k, m }) => `<a class="task" href="#/k/${k}"><span class="dot s${level(m)}"></span><span class="tt"><b>${esc(S.kpMap[k].name)}</b><span>${S.meta.name} · 本轮 ${pct(m)}</span></span><i class="chev"></i></a>`).join('')}</div>
     <div class="row"><a class="btn pri" href="#/">回首页</a><button class="btn" onclick="history.back()">返回</button></div>`;
 }
 
@@ -566,7 +612,7 @@ async function wrongPage() {
   view.innerHTML = `<div class="row" style="margin-bottom:12px">${due ? `<a class="btn pri" href="#/practice/srs/all">复习到期的 ${due} 道</a>` : '<span class="muted small">今天没有到期的错题</span>'}</div>`
     + Object.entries(bySub).map(([sid, qs]) => `<h2>${SUBJ[sid].meta.name}（${qs.length}）</h2><div class="card">${qs.map(q => {
       const Q = SUBJ[sid].qMap[q]; const d = Math.round((S0[q].due - today()) / DAY);
-      return `<a class="task" href="#/practice/q/${q}"><span class="tt"><b>${Q ? qLabel(Q) : q}</b><span>${Q ? esc((Q.kp || []).map(k => SUBJ[sid].kpMap[k]?.name).filter(Boolean).join('、')) : ''} · ${d <= 0 ? '今天复习' : d + ' 天后复习'}</span></span>›</a>`;
+      return `<a class="task" href="#/practice/q/${q}"><span class="tt"><b>${Q ? qLabel(Q) : q}</b><span>${Q ? esc((Q.kp || []).map(k => SUBJ[sid].kpMap[k]?.name).filter(Boolean).join('、')) : ''} · ${d <= 0 ? '今天复习' : d + ' 天后复习'}</span></span><i class="chev"></i></a>`;
     }).join('')}</div>`).join('');
 }
 
