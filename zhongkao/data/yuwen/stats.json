@@ -1,0 +1,1370 @@
+{
+ "subject": "yuwen",
+ "years": [
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "kps": {
+  "yuwen.jilei.zixing": {
+   "name": "字音字形",
+   "module": "积累与运用·语言基础",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 21.0,
+   "qs": [
+    "yuwen-2019-3-1",
+    "yuwen-2020-3-1",
+    "yuwen-2021-2-1",
+    "yuwen-2022-2-1",
+    "yuwen-2023-2-1",
+    "yuwen-2024-2-1",
+    "yuwen-2025-2-1",
+    "yuwen-2026-2-1"
+   ]
+  },
+  "yuwen.jilei.ciyu": {
+   "name": "词语辨析与运用",
+   "module": "积累与运用·语言基础",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "count": 5,
+   "score": 6.2,
+   "qs": [
+    "yuwen-2019-3-2",
+    "yuwen-2020-3-2",
+    "yuwen-2021-2-2",
+    "yuwen-2022-2-2",
+    "yuwen-2023-2-2"
+   ]
+  },
+  "yuwen.jilei.chengyu": {
+   "name": "成语运用",
+   "module": "积累与运用·语言基础",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 12.8,
+   "qs": [
+    "yuwen-2019-3-2",
+    "yuwen-2020-3-2",
+    "yuwen-2021-2-2",
+    "yuwen-2022-2-2",
+    "yuwen-2023-2-2",
+    "yuwen-2024-2-2",
+    "yuwen-2025-2-2",
+    "yuwen-2026-2-2"
+   ]
+  },
+  "yuwen.jilei.bingju": {
+   "name": "病句辨析与修改",
+   "module": "积累与运用·语言基础",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 7,
+   "score": 20.0,
+   "qs": [
+    "yuwen-2019-3-3",
+    "yuwen-2020-2",
+    "yuwen-2021-2-3",
+    "yuwen-2022-2-3",
+    "yuwen-2023-2-3",
+    "yuwen-2024-2-3",
+    "yuwen-2025-2-3"
+   ]
+  },
+  "yuwen.jilei.biaodian": {
+   "name": "标点符号",
+   "module": "积累与运用·语言基础",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.jilei.paixu": {
+   "name": "句子排序与衔接",
+   "module": "积累与运用·语言基础",
+   "years": [
+    2020,
+    2021
+   ],
+   "count": 2,
+   "score": 6.0,
+   "qs": [
+    "yuwen-2020-3-3",
+    "yuwen-2021-2-4"
+   ]
+  },
+  "yuwen.jilei.buxie": {
+   "name": "语句补写",
+   "module": "积累与运用·语言基础",
+   "years": [
+    2026
+   ],
+   "count": 1,
+   "score": 2.0,
+   "qs": [
+    "yuwen-2026-2-3"
+   ]
+  },
+  "yuwen.jilei.xiuci": {
+   "name": "修辞与句式",
+   "module": "积累与运用·语言基础",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.jilei.wenchang": {
+   "name": "文学常识与文化常识",
+   "module": "积累与运用·语言基础",
+   "years": [
+    2019
+   ],
+   "count": 1,
+   "score": 2.0,
+   "qs": [
+    "yuwen-2019-2"
+   ]
+  },
+  "yuwen.jilei.biaoda": {
+   "name": "语言表达与综合性学习",
+   "module": "积累与运用·语言基础",
+   "years": [
+    2022,
+    2026
+   ],
+   "count": 2,
+   "score": 4.0,
+   "qs": [
+    "yuwen-2022-17",
+    "yuwen-2026-18"
+   ]
+  },
+  "yuwen.moxie.zhijie": {
+   "name": "名句直接默写",
+   "module": "积累与运用·古诗文默写",
+   "years": [
+    2019,
+    2020
+   ],
+   "count": 14,
+   "score": 14.0,
+   "qs": [
+    "yuwen-2019-1-1",
+    "yuwen-2019-1-2",
+    "yuwen-2019-1-3",
+    "yuwen-2019-1-4",
+    "yuwen-2019-1-5",
+    "yuwen-2019-1-6",
+    "yuwen-2019-1-7",
+    "yuwen-2019-1-8",
+    "yuwen-2020-1-1",
+    "yuwen-2020-1-2",
+    "yuwen-2020-1-3",
+    "yuwen-2020-1-4",
+    "yuwen-2020-1-5",
+    "yuwen-2020-1-6"
+   ]
+  },
+  "yuwen.moxie.lijie": {
+   "name": "理解性默写",
+   "module": "积累与运用·古诗文默写",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 14,
+   "score": 30.0,
+   "qs": [
+    "yuwen-2019-1-9",
+    "yuwen-2019-1-10",
+    "yuwen-2020-1-7",
+    "yuwen-2020-1-8",
+    "yuwen-2021-1",
+    "yuwen-2022-1",
+    "yuwen-2023-1-1",
+    "yuwen-2023-1-3",
+    "yuwen-2023-1-4",
+    "yuwen-2023-1-5",
+    "yuwen-2024-1-1",
+    "yuwen-2024-1-2",
+    "yuwen-2024-1-3",
+    "yuwen-2024-1-4"
+   ]
+  },
+  "yuwen.moxie.qingjing": {
+   "name": "情境默写",
+   "module": "积累与运用·古诗文默写",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 28.0,
+   "qs": [
+    "yuwen-2021-1",
+    "yuwen-2022-1",
+    "yuwen-2023-1-2",
+    "yuwen-2025-1-1",
+    "yuwen-2025-1-2",
+    "yuwen-2025-1-3",
+    "yuwen-2025-1-4",
+    "yuwen-2026-1-1",
+    "yuwen-2026-1-2",
+    "yuwen-2026-1-3"
+   ]
+  },
+  "yuwen.moxie.kaifang": {
+   "name": "开放性默写",
+   "module": "积累与运用·古诗文默写",
+   "years": [
+    2026
+   ],
+   "count": 1,
+   "score": 2.0,
+   "qs": [
+    "yuwen-2026-1-4"
+   ]
+  },
+  "yuwen.mingzhu.qingjie": {
+   "name": "名著情节与人物识记",
+   "module": "积累与运用·名著阅读",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "count": 6,
+   "score": 17.0,
+   "qs": [
+    "yuwen-2019-21",
+    "yuwen-2019-22",
+    "yuwen-2020-21",
+    "yuwen-2020-22",
+    "yuwen-2021-20",
+    "yuwen-2022-3"
+   ]
+  },
+  "yuwen.mingzhu.renwu": {
+   "name": "名著人物评析",
+   "module": "积累与运用·名著阅读",
+   "years": [
+    2021,
+    2025
+   ],
+   "count": 2,
+   "score": 4.2,
+   "qs": [
+    "yuwen-2021-20",
+    "yuwen-2025-2-4"
+   ]
+  },
+  "yuwen.mingzhu.fangfa": {
+   "name": "名著阅读方法与体验",
+   "module": "积累与运用·名著阅读",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 4,
+   "score": 16.2,
+   "qs": [
+    "yuwen-2022-3",
+    "yuwen-2023-3",
+    "yuwen-2024-3",
+    "yuwen-2026-2-4"
+   ]
+  },
+  "yuwen.mingzhu.sibian": {
+   "name": "名著观点思辨与表达",
+   "module": "积累与运用·名著阅读",
+   "years": [
+    2021,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 7.6,
+   "qs": [
+    "yuwen-2021-20",
+    "yuwen-2024-3",
+    "yuwen-2025-2-4",
+    "yuwen-2026-2-4"
+   ]
+  },
+  "yuwen.shici.neirong": {
+   "name": "诗词内容理解",
+   "module": "古诗词鉴赏",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025
+   ],
+   "count": 6,
+   "score": 14.6,
+   "qs": [
+    "yuwen-2019-4",
+    "yuwen-2020-4",
+    "yuwen-2021-3",
+    "yuwen-2022-4",
+    "yuwen-2024-4",
+    "yuwen-2025-4"
+   ]
+  },
+  "yuwen.shici.yixiang": {
+   "name": "意象与画面",
+   "module": "古诗词鉴赏",
+   "years": [
+    2020,
+    2023,
+    2025
+   ],
+   "count": 4,
+   "score": 9.0,
+   "qs": [
+    "yuwen-2020-5",
+    "yuwen-2023-4",
+    "yuwen-2023-5",
+    "yuwen-2025-5"
+   ]
+  },
+  "yuwen.shici.qinggan": {
+   "name": "思想情感与主旨",
+   "module": "古诗词鉴赏",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 6,
+   "score": 11.6,
+   "qs": [
+    "yuwen-2019-5",
+    "yuwen-2020-5",
+    "yuwen-2021-4",
+    "yuwen-2022-5",
+    "yuwen-2023-4",
+    "yuwen-2024-5"
+   ]
+  },
+  "yuwen.shici.shoufa": {
+   "name": "表现手法",
+   "module": "古诗词鉴赏",
+   "years": [
+    2019,
+    2021,
+    2026
+   ],
+   "count": 3,
+   "score": 4.4,
+   "qs": [
+    "yuwen-2019-5",
+    "yuwen-2021-4",
+    "yuwen-2026-6"
+   ]
+  },
+  "yuwen.shici.lianzi": {
+   "name": "炼字与语言赏析",
+   "module": "古诗词鉴赏",
+   "years": [
+    2025
+   ],
+   "count": 1,
+   "score": 0.8,
+   "qs": [
+    "yuwen-2025-3"
+   ]
+  },
+  "yuwen.shici.xiuci": {
+   "name": "修辞与描写角度",
+   "module": "古诗词鉴赏",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.shici.langdu": {
+   "name": "诗词朗读",
+   "module": "古诗词鉴赏",
+   "years": [
+    2025
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "yuwen-2025-3"
+   ]
+  },
+  "yuwen.shici.bijiao": {
+   "name": "诗歌比较阅读",
+   "module": "古诗词鉴赏",
+   "years": [
+    2020,
+    2025
+   ],
+   "count": 3,
+   "score": 4.2,
+   "qs": [
+    "yuwen-2020-4",
+    "yuwen-2020-5",
+    "yuwen-2025-4"
+   ]
+  },
+  "yuwen.shici.zheli": {
+   "name": "哲理与启示",
+   "module": "古诗词鉴赏",
+   "years": [
+    2022,
+    2026
+   ],
+   "count": 2,
+   "score": 2.6,
+   "qs": [
+    "yuwen-2022-5",
+    "yuwen-2026-8"
+   ]
+  },
+  "yuwen.wenyan.shici": {
+   "name": "文言实词释义",
+   "module": "文言文阅读",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 14.6,
+   "qs": [
+    "yuwen-2019-6",
+    "yuwen-2020-6",
+    "yuwen-2021-5",
+    "yuwen-2022-6",
+    "yuwen-2023-7",
+    "yuwen-2024-7",
+    "yuwen-2025-7",
+    "yuwen-2026-4"
+   ]
+  },
+  "yuwen.wenyan.qianyi": {
+   "name": "课内迁移与字典义项",
+   "module": "文言文阅读",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 11.4,
+   "qs": [
+    "yuwen-2020-6",
+    "yuwen-2022-6",
+    "yuwen-2023-7",
+    "yuwen-2024-7",
+    "yuwen-2025-7",
+    "yuwen-2026-4"
+   ]
+  },
+  "yuwen.wenyan.xuci": {
+   "name": "文言虚词",
+   "module": "文言文阅读",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.wenyan.duanju": {
+   "name": "文言断句",
+   "module": "文言文阅读",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 23.0,
+   "qs": [
+    "yuwen-2019-7",
+    "yuwen-2020-7",
+    "yuwen-2021-6",
+    "yuwen-2022-7",
+    "yuwen-2023-6",
+    "yuwen-2024-6",
+    "yuwen-2025-6",
+    "yuwen-2026-3"
+   ]
+  },
+  "yuwen.wenyan.fanyi": {
+   "name": "文言句子翻译",
+   "module": "文言文阅读",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 46.0,
+   "qs": [
+    "yuwen-2019-8",
+    "yuwen-2020-8",
+    "yuwen-2021-7",
+    "yuwen-2022-8",
+    "yuwen-2023-8",
+    "yuwen-2024-8",
+    "yuwen-2025-8",
+    "yuwen-2026-5"
+   ]
+  },
+  "yuwen.wenyan.neirong": {
+   "name": "文意理解与信息筛选",
+   "module": "文言文阅读",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 8.8,
+   "qs": [
+    "yuwen-2020-9",
+    "yuwen-2021-8",
+    "yuwen-2022-9",
+    "yuwen-2024-9",
+    "yuwen-2025-9",
+    "yuwen-2026-7"
+   ]
+  },
+  "yuwen.wenyan.renwu": {
+   "name": "文言人物形象",
+   "module": "文言文阅读",
+   "years": [
+    2020,
+    2021,
+    2022
+   ],
+   "count": 3,
+   "score": 5.6,
+   "qs": [
+    "yuwen-2020-9",
+    "yuwen-2021-8",
+    "yuwen-2022-9"
+   ]
+  },
+  "yuwen.wenyan.zhuzhi": {
+   "name": "文言主旨与启示",
+   "module": "文言文阅读",
+   "years": [
+    2019,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 6.6,
+   "qs": [
+    "yuwen-2019-9",
+    "yuwen-2023-9",
+    "yuwen-2025-9",
+    "yuwen-2026-8"
+   ]
+  },
+  "yuwen.wenyan.xiefa": {
+   "name": "文言写法赏析",
+   "module": "文言文阅读",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.wenyan.bijiao": {
+   "name": "课内外比较阅读",
+   "module": "文言文阅读",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2024
+   ],
+   "count": 4,
+   "score": 9.6,
+   "qs": [
+    "yuwen-2019-9",
+    "yuwen-2021-8",
+    "yuwen-2023-9",
+    "yuwen-2024-9"
+   ]
+  },
+  "yuwen.wenyan.shiwen": {
+   "name": "诗文联读",
+   "module": "文言文阅读",
+   "years": [
+    2026
+   ],
+   "count": 2,
+   "score": 4.6,
+   "qs": [
+    "yuwen-2026-6",
+    "yuwen-2026-8"
+   ]
+  },
+  "yuwen.wenyan.yingyong": {
+   "name": "文言情境任务运用",
+   "module": "文言文阅读",
+   "years": [
+    2026
+   ],
+   "count": 1,
+   "score": 2.4,
+   "qs": [
+    "yuwen-2026-7"
+   ]
+  },
+  "yuwen.jixu.neirong": {
+   "name": "文学类文本内容理解",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 22.8,
+   "qs": [
+    "yuwen-2019-10",
+    "yuwen-2020-10",
+    "yuwen-2021-9",
+    "yuwen-2022-10",
+    "yuwen-2023-10",
+    "yuwen-2024-10",
+    "yuwen-2025-10",
+    "yuwen-2026-9"
+   ]
+  },
+  "yuwen.jixu.qingjie": {
+   "name": "情节梳理与内容概括",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2020,
+    2026
+   ],
+   "count": 2,
+   "score": 5.0,
+   "qs": [
+    "yuwen-2020-13",
+    "yuwen-2026-11"
+   ]
+  },
+  "yuwen.jixu.renwu": {
+   "name": "人物形象分析",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2026
+   ],
+   "count": 7,
+   "score": 14.0,
+   "qs": [
+    "yuwen-2019-11",
+    "yuwen-2020-11",
+    "yuwen-2020-12-2",
+    "yuwen-2022-11",
+    "yuwen-2023-11",
+    "yuwen-2023-12",
+    "yuwen-2026-10"
+   ]
+  },
+  "yuwen.jixu.juzi": {
+   "name": "句子赏析",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2026
+   ],
+   "count": 7,
+   "score": 17.4,
+   "qs": [
+    "yuwen-2019-13-2",
+    "yuwen-2020-12-2",
+    "yuwen-2021-11-2",
+    "yuwen-2022-12-1",
+    "yuwen-2022-12-2",
+    "yuwen-2024-12-2",
+    "yuwen-2026-10"
+   ]
+  },
+  "yuwen.jixu.ciyu": {
+   "name": "词语品析",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "count": 4,
+   "score": 8.8,
+   "qs": [
+    "yuwen-2019-13-1",
+    "yuwen-2020-12-1",
+    "yuwen-2021-11-1",
+    "yuwen-2022-12-1"
+   ]
+  },
+  "yuwen.jixu.hanyi": {
+   "name": "重要语句含意",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 16.6,
+   "qs": [
+    "yuwen-2019-14",
+    "yuwen-2020-14",
+    "yuwen-2022-11",
+    "yuwen-2022-12-2",
+    "yuwen-2023-12",
+    "yuwen-2024-11",
+    "yuwen-2025-11",
+    "yuwen-2026-10"
+   ]
+  },
+  "yuwen.jixu.huanjing": {
+   "name": "环境描写作用",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2021,
+    2024,
+    2026
+   ],
+   "count": 3,
+   "score": 7.0,
+   "qs": [
+    "yuwen-2021-10",
+    "yuwen-2024-12-1",
+    "yuwen-2026-9"
+   ]
+  },
+  "yuwen.jixu.zuoyong": {
+   "name": "段落、情节与细节的作用",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 6,
+   "score": 11.8,
+   "qs": [
+    "yuwen-2019-12",
+    "yuwen-2020-11",
+    "yuwen-2021-12",
+    "yuwen-2022-13",
+    "yuwen-2023-13",
+    "yuwen-2025-11"
+   ]
+  },
+  "yuwen.jixu.biaoti": {
+   "name": "标题含意与作用",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2021,
+    2025,
+    2026
+   ],
+   "count": 3,
+   "score": 9.0,
+   "qs": [
+    "yuwen-2021-13",
+    "yuwen-2025-12",
+    "yuwen-2026-12"
+   ]
+  },
+  "yuwen.jixu.jiewei": {
+   "name": "结尾的作用与意蕴",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024
+   ],
+   "count": 5,
+   "score": 12.8,
+   "qs": [
+    "yuwen-2019-14",
+    "yuwen-2020-14",
+    "yuwen-2021-13",
+    "yuwen-2022-14",
+    "yuwen-2024-13"
+   ]
+  },
+  "yuwen.jixu.xiefa": {
+   "name": "写作手法",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 13.4,
+   "qs": [
+    "yuwen-2019-12",
+    "yuwen-2020-11",
+    "yuwen-2022-13",
+    "yuwen-2023-13",
+    "yuwen-2023-14",
+    "yuwen-2024-11",
+    "yuwen-2025-12",
+    "yuwen-2026-11"
+   ]
+  },
+  "yuwen.jixu.zhuzhi": {
+   "name": "主旨与情感",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 10.2,
+   "qs": [
+    "yuwen-2019-14",
+    "yuwen-2020-14",
+    "yuwen-2021-10",
+    "yuwen-2022-14",
+    "yuwen-2024-13",
+    "yuwen-2025-12",
+    "yuwen-2026-12"
+   ]
+  },
+  "yuwen.jixu.bijiao": {
+   "name": "与课文比较阅读",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2021,
+    2022,
+    2023
+   ],
+   "count": 3,
+   "score": 7.2,
+   "qs": [
+    "yuwen-2021-12",
+    "yuwen-2022-14",
+    "yuwen-2023-14"
+   ]
+  },
+  "yuwen.jixu.ganwu": {
+   "name": "个性化感悟与拓展",
+   "module": "现代文阅读·文学类文本（记叙文/散文/小说）",
+   "years": [
+    2025
+   ],
+   "count": 1,
+   "score": 6.0,
+   "qs": [
+    "yuwen-2025-13"
+   ]
+  },
+  "yuwen.yilun.neirong": {
+   "name": "议论性文本内容理解",
+   "module": "现代文阅读·议论性文本",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 7,
+   "score": 17.4,
+   "qs": [
+    "yuwen-2019-15",
+    "yuwen-2020-15",
+    "yuwen-2021-14",
+    "yuwen-2022-15",
+    "yuwen-2023-15",
+    "yuwen-2024-14",
+    "yuwen-2025-14"
+   ]
+  },
+  "yuwen.yilun.lundian": {
+   "name": "论点提取与观点理解",
+   "module": "现代文阅读·议论性文本",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 15.2,
+   "qs": [
+    "yuwen-2019-16",
+    "yuwen-2020-16",
+    "yuwen-2020-17",
+    "yuwen-2021-16",
+    "yuwen-2023-16",
+    "yuwen-2025-15",
+    "yuwen-2026-13"
+   ]
+  },
+  "yuwen.yilun.lunju": {
+   "name": "论据分析与选用",
+   "module": "现代文阅读·议论性文本",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 17.8,
+   "qs": [
+    "yuwen-2019-17",
+    "yuwen-2021-15",
+    "yuwen-2022-15",
+    "yuwen-2023-16",
+    "yuwen-2024-15",
+    "yuwen-2025-15",
+    "yuwen-2026-14"
+   ]
+  },
+  "yuwen.yilun.fangfa": {
+   "name": "论证方法及作用",
+   "module": "现代文阅读·议论性文本",
+   "years": [
+    2026
+   ],
+   "count": 1,
+   "score": 1.6,
+   "qs": [
+    "yuwen-2026-14"
+   ]
+  },
+  "yuwen.yilun.silu": {
+   "name": "论证思路与结构",
+   "module": "现代文阅读·议论性文本",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2026
+   ],
+   "count": 8,
+   "score": 18.0,
+   "qs": [
+    "yuwen-2019-15",
+    "yuwen-2019-16",
+    "yuwen-2020-16",
+    "yuwen-2020-17",
+    "yuwen-2021-16",
+    "yuwen-2022-16",
+    "yuwen-2023-15",
+    "yuwen-2026-13"
+   ]
+  },
+  "yuwen.yilun.yuyan": {
+   "name": "议论语言",
+   "module": "现代文阅读·议论性文本",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.yilun.qianyi": {
+   "name": "迁移运用与思辨表达",
+   "module": "现代文阅读·议论性文本",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 25.6,
+   "qs": [
+    "yuwen-2022-17",
+    "yuwen-2023-17",
+    "yuwen-2024-16",
+    "yuwen-2025-16",
+    "yuwen-2026-15"
+   ]
+  },
+  "yuwen.shuoming.duixiang": {
+   "name": "说明对象与特征",
+   "module": "现代文阅读·说明文与非连续性文本",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.shuoming.fangfa": {
+   "name": "说明方法及作用",
+   "module": "现代文阅读·说明文与非连续性文本",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.shuoming.yuyan": {
+   "name": "说明语言准确性",
+   "module": "现代文阅读·说明文与非连续性文本",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.feilianxu.neirong": {
+   "name": "非连续性文本内容判断",
+   "module": "现代文阅读·说明文与非连续性文本",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 20.4,
+   "qs": [
+    "yuwen-2019-18",
+    "yuwen-2020-18",
+    "yuwen-2021-17",
+    "yuwen-2022-18",
+    "yuwen-2023-18",
+    "yuwen-2024-19",
+    "yuwen-2025-17",
+    "yuwen-2026-16"
+   ]
+  },
+  "yuwen.feilianxu.xinxi": {
+   "name": "信息筛选与概括",
+   "module": "现代文阅读·说明文与非连续性文本",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 7,
+   "score": 12.4,
+   "qs": [
+    "yuwen-2019-19",
+    "yuwen-2019-20",
+    "yuwen-2021-18",
+    "yuwen-2022-18",
+    "yuwen-2023-19",
+    "yuwen-2024-18",
+    "yuwen-2025-19"
+   ]
+  },
+  "yuwen.feilianxu.tubiao": {
+   "name": "图表解读",
+   "module": "现代文阅读·说明文与非连续性文本",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 8,
+   "score": 17.8,
+   "qs": [
+    "yuwen-2019-19",
+    "yuwen-2020-18",
+    "yuwen-2020-19",
+    "yuwen-2021-19",
+    "yuwen-2022-19",
+    "yuwen-2023-20",
+    "yuwen-2024-17",
+    "yuwen-2025-18"
+   ]
+  },
+  "yuwen.feilianxu.zhenghe": {
+   "name": "材料比较整合与推断",
+   "module": "现代文阅读·说明文与非连续性文本",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 17.0,
+   "qs": [
+    "yuwen-2020-20",
+    "yuwen-2021-18",
+    "yuwen-2022-19",
+    "yuwen-2023-19",
+    "yuwen-2024-18",
+    "yuwen-2024-19",
+    "yuwen-2025-18",
+    "yuwen-2026-17"
+   ]
+  },
+  "yuwen.feilianxu.jianyi": {
+   "name": "解决实际问题与提建议",
+   "module": "现代文阅读·说明文与非连续性文本",
+   "years": [
+    2020,
+    2021
+   ],
+   "count": 2,
+   "score": 4.8,
+   "qs": [
+    "yuwen-2020-20",
+    "yuwen-2021-19"
+   ]
+  },
+  "yuwen.feilianxu.yingyong": {
+   "name": "实用文写作",
+   "module": "现代文阅读·说明文与非连续性文本",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 16.0,
+   "qs": [
+    "yuwen-2022-20",
+    "yuwen-2023-20",
+    "yuwen-2024-17",
+    "yuwen-2025-19",
+    "yuwen-2026-18"
+   ]
+  },
+  "yuwen.xiezuo.mingti": {
+   "name": "命题作文",
+   "module": "写作",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 288.0,
+   "qs": [
+    "yuwen-2019-23",
+    "yuwen-2020-23",
+    "yuwen-2021-21",
+    "yuwen-2022-21",
+    "yuwen-2023-21",
+    "yuwen-2024-20",
+    "yuwen-2025-20",
+    "yuwen-2026-19"
+   ]
+  },
+  "yuwen.xiezuo.banmingti": {
+   "name": "半命题作文",
+   "module": "写作",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.xiezuo.cailiao": {
+   "name": "材料作文",
+   "module": "写作",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "yuwen.xiezuo.shenti": {
+   "name": "审题立意",
+   "module": "写作",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 72.0,
+   "qs": [
+    "yuwen-2020-23",
+    "yuwen-2022-21",
+    "yuwen-2023-21",
+    "yuwen-2024-20",
+    "yuwen-2025-20",
+    "yuwen-2026-19"
+   ]
+  },
+  "yuwen.xiezuo.wenti": {
+   "name": "文体意识与实用文体",
+   "module": "写作",
+   "years": [
+    2019,
+    2021
+   ],
+   "count": 2,
+   "score": 24.0,
+   "qs": [
+    "yuwen-2019-23",
+    "yuwen-2021-21"
+   ]
+  },
+  "yuwen.xiezuo.xuancai": {
+   "name": "选材与联系生活",
+   "module": "写作",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 96.0,
+   "qs": [
+    "yuwen-2019-23",
+    "yuwen-2020-23",
+    "yuwen-2021-21",
+    "yuwen-2022-21",
+    "yuwen-2023-21",
+    "yuwen-2024-20",
+    "yuwen-2025-20",
+    "yuwen-2026-19"
+   ]
+  }
+ }
+}

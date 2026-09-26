@@ -1,0 +1,625 @@
+{
+ "subject": "shuxue",
+ "year": 2026,
+ "source": "福建省教育考试院《试题、参考答案》合订本（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/tzgg/202606/t20260623_5337122.htm",
+ "total": 150,
+ "minutes": 120,
+ "materials": [
+  {
+   "id": "q20",
+   "text": "如图，四边形 $ABCD$ 是矩形，$AB<BC$，点 $E$ 在 $AD$ 的延长线上。",
+   "figures": [
+    "figs/2026-20-1.png"
+   ]
+  },
+  {
+   "id": "q21",
+   "text": "一个不透明的盒子中有 1 个标号为 0 的黄球 $a_0$，2 个标号分别为 1，2 的红球 $b_1,b_2$，1 个标号为 3 的白球 $c_3$，这些球除颜色和标号外无其他差别。"
+  },
+  {
+   "id": "q22",
+   "text": "如图，在四边形 $ABCD$ 中，$E$ 是 $AB$ 上的一点，$\\angle ADC=\\angle BCD=\\angle CED=90^\\circ$，$CE=DE$。四边形 $A'B'CD$ 由四边形 $ABCD$ 沿 $CD$ 翻折得到，点 $A$，$B$，$E$ 的对应点分别为 $A'$，$B'$，$E'$。$F$ 是 $AD$ 延长线上的一点，且 $FE'\\parallel AB$。",
+   "figures": [
+    "figs/2026-22-1.png"
+   ]
+  },
+  {
+   "id": "q23",
+   "text": "阅读下列材料，回答问题。\n\n**主题**　探究形如 $(\\sqrt{2}a+b)^2$ 的数的整数部分与小数部分的特征\n\n**提出问题**　学过“二次根式”，我们知道许多二次根式 $\\sqrt{p}$ 为无理数，且均可表示为整数部分与小数部分的和，即 $\\sqrt{p}=m+n$，其中 $m$ 为整数，$0<n<1$。如 $\\sqrt{2}=1+(\\sqrt{2}-1)$，$1-\\sqrt{5}=-2+(3-\\sqrt{5})$。那么形如 $(\\sqrt{2}a+b)^2$ 的数，其整数部分 $m$ 与小数部分 $n$ 各有什么特征呢？\n\n**探究发现**　小华对此展开研究，其探究过程如下：\n\n(1) $(\\sqrt{2}-1)^2=0+(3-2\\sqrt{2})$；　(2) $(\\sqrt{2}+1)^2=3+2\\sqrt{2}=$ __①__ $+(2\\sqrt{2}-2)$；\n\n(3) $(2\\sqrt{2}-2)^2=0+(12-8\\sqrt{2})$；　(4) $(2\\sqrt{2}+2)^2=12+8\\sqrt{2}=23+$ __②__；\n\n(5) $(3\\sqrt{2}-4)^2=0+(34-24\\sqrt{2})$；　(6) $(3\\sqrt{2}+4)^2=34+24\\sqrt{2}=67+(24\\sqrt{2}-33)$。\n\n据此，小华提出并证明了以下命题。\n\n**命题：若整数 $a$，$b$ 满足 $0<\\sqrt{2}a-b<1$，且 $(\\sqrt{2}a+b)^2$ 的整数部分为 $m$，小数部分为 $n$，则 $m$ 必为奇数，且 $(\\sqrt{2}a-b)^2=1-n$。**\n\n**命题证明**　证明：因为 $(\\sqrt{2}a+b)^2=2a^2+2\\sqrt{2}ab+b^2$，$(\\sqrt{2}a-b)^2=2a^2-2\\sqrt{2}ab+b^2$，\n所以 $(\\sqrt{2}a+b)^2+(\\sqrt{2}a-b)^2=4a^2+2b^2$，即 $(\\sqrt{2}a+b)^2=4a^2+2b^2-(\\sqrt{2}a-b)^2$。\n又因为 $(\\sqrt{2}a+b)^2=m+n$，且 $0<n<1$，\n所以 $4a^2+2b^2-(\\sqrt{2}a-b)^2=m+n$。\n又根据 $0<\\sqrt{2}a-b<1$，可得 $0<(\\sqrt{2}a-b)^2<1$。\n因此，$m=$ __③__，$n=$ __④__。\n又因为 $a$，$b$ 均为整数，所以 $4a^2+2b^2$ 为偶数，\n故 $m$ 必为奇数，且 $(\\sqrt{2}a-b)^2=1-n$。\n\n**拓展延伸**\n\n问题 1　若整数 $a$，$b$ 满足 $1<\\sqrt{2}a-b<\\sqrt{2}$，那么 $(\\sqrt{2}a+b)^2$ 的整数部分 $m$ 是否仍为奇数？证明你的结论；\n\n问题 2　若整数 $a$，$b$ 满足 $\\sqrt{k}<\\sqrt{2}a-b<\\sqrt{k+1}$，其中 $k$ 为整数，且 $k\\geqslant2$，试探究：$(\\sqrt{2}a+b)^2$ 的整数部分 $m$ 是奇数还是偶数？直接写出结论，不必证明。"
+  },
+  {
+   "id": "q24",
+   "text": "如图，四边形 $ABCD$ 内接于 $\\odot O$，$E$ 是 $DC$ 延长线上的一点，$EB$ 的延长线交 $\\odot O$ 于点 $F$，$AB=BD$，$\\angle CBE=\\angle ABD=60^\\circ$。",
+   "figures": [
+    "figs/2026-24-1.png"
+   ]
+  },
+  {
+   "id": "q25",
+   "text": "已知抛物线 $y=-x^2+bx+c$。"
+  }
+ ],
+ "questions": [
+  {
+   "id": "shuxue-2026-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "福建省首届“闽超”足球比赛正如火如荼进行中，在某轮比赛中甲队与乙队的比赛结果为 $0:1$，丙队与丁队的比赛结果为 $2:0$。若把这轮比赛中甲队的净胜球数记作 $-1$，则丙队的净胜球数应记作",
+   "options": [
+    "A. $-2$",
+    "B. $-1$",
+    "C. $+1$",
+    "D. $+2$"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.num.rational"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列图形中，既是轴对称图形又是中心对称图形的是",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "figures": [
+    "figs/2026-2-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.trans.symmetry"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "2026 年 5 月 24 日，神舟二十三号飞船成功发射，彰显了我国航空航天事业取得巨大成就。飞船在轨飞行速度接近地球第一宇宙速度 7 900 米/秒。数据 7 900 用科学记数法表示为",
+   "options": [
+    "A. $0.79\\times10^{4}$",
+    "B. $7.9\\times10^{3}$",
+    "C. $7.9\\times10^{2}$",
+    "D. $79\\times10^{2}$"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.num.sci_notation"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "福建土楼产生于宋元，成熟于明末、清代和民国时期。土楼或方或圆，以圆为主，如珍珠般洒落在闽西南的绿水青山间，遵循“天人合一”的东方哲学理念。图 1 是福建众多土楼中的一座圆形土楼。图 2 为其示意图，关于它的三视图的描述，下列说法正确的是",
+   "options": [
+    "A. 主视图和左视图相同",
+    "B. 主视图和俯视图相同",
+    "C. 左视图和俯视图相同",
+    "D. 三种视图都相同"
+   ],
+   "figures": [
+    "figs/2026-4-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.solid.view"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "实数 $a$，$b$ 在数轴上的对应点的位置如图所示，下列结论正确的是",
+   "options": [
+    "A. $a+b>0$",
+    "B. $a-b<0$",
+    "C. $ab>0$",
+    "D. $\\dfrac{a}{b}<0$"
+   ],
+   "figures": [
+    "figs/2026-5-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.num.real"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列各点中，在函数 $y=\\dfrac{1}{x}$ 图象上的点是",
+   "options": [
+    "A. $(1,1)$",
+    "B. $(1,2)$",
+    "C. $(2,1)$",
+    "D. $(2,2)$"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.func.inverse"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "古算诗词题融数学于诗词之中，是前人智慧的结晶。如图是古算诗词题“争荡秋千”所描绘的示意图。已知秋千的绳索长 $OA=6$ 尺，且秋千的绳索始终保持直线状态，踏板的起始位置在点 $A$ 处，$OA$ 与地面 $BD$ 垂直，踏板离地面的高度 $AB=1$ 尺。当踏板从 $A$ 处绕点 $O$ 运动到 $C$ 处时，踏板离地面的高度 $CD=4$ 尺，则秋千的绳索荡过的 $\\angle AOC$ 的大小为",
+   "options": [
+    "A. $30^\\circ$",
+    "B. $45^\\circ$",
+    "C. $60^\\circ$",
+    "D. $75^\\circ$"
+   ],
+   "figures": [
+    "figs/2026-7-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.geo.trig_app",
+    "shuxue.geo.trig"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "为庆祝“中俄教育年”正式启动，某校 8 个班级分别制作了若干张宣传图片，图片数的条形统计图如图所示。这 8 个班级宣传图片数的中位数与平均数分别是",
+   "options": [
+    "A. $7$，$7$",
+    "B. $7$，$7.5$",
+    "C. $7.5$，$7$",
+    "D. $7.5$，$7.5$"
+   ],
+   "figures": [
+    "figs/2026-8-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.stat.central",
+    "shuxue.stat.chart"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，$AB$ 是 $\\odot O$ 的直径，$BC$ 是 $\\odot O$ 的切线，$AC$ 交 $\\odot O$ 于点 $D$。若 $AD=CD$，则 $\\tan A$ 的值是",
+   "options": [
+    "A. $\\dfrac{\\sqrt{2}}{2}$",
+    "B. $1$",
+    "C. $\\sqrt{2}$",
+    "D. $2$"
+   ],
+   "figures": [
+    "figs/2026-9-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.circle.tangent",
+    "shuxue.geo.trig"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "已知抛物线 $y=x^2-2nx$ 经过点 $A(3,a)$，$B(5,b)$。若 $a<b$，且 $ab<0$，则 $n$ 的取值可以是",
+   "options": [
+    "A. $0$",
+    "B. $1$",
+    "C. $2$",
+    "D. $3$"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.func.quad_param",
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2026-11",
+   "no": "11",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "一组数据 $9,8,5,2,1,1$ 的众数是____。",
+   "answer": "1",
+   "kp": [
+    "shuxue.stat.central"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-12",
+   "no": "12",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，$A$，$B$ 两点被池塘隔开，在 $AB$ 外选择一点 $C$，连接 $AC$ 和 $BC$，分别取 $AC$ 和 $BC$ 中点 $M$，$N$，测得 $MN=100$ 米，则 $A$，$B$ 两点间的距离是____米。",
+   "figures": [
+    "figs/2026-12-1.png"
+   ],
+   "answer": "200",
+   "kp": [
+    "shuxue.geo.midline"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-13",
+   "no": "13",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "因式分解：$x^2-y^2=$____。",
+   "answer": "$(x+y)(x-y)$",
+   "kp": [
+    "shuxue.num.factorize"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-14",
+   "no": "14",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "某数学兴趣小组成员把一副三角板按如图所示的方式摆放，其中 $\\angle B=\\angle DFC=90^\\circ$，$\\angle BAE=30^\\circ$，$\\angle CDF=45^\\circ$，四边形 $ABCD$ 恰好为矩形，点 $E$，$F$ 分别在 $BC$，$AE$ 上，则 $\\angle AFD$ 等于____度。",
+   "figures": [
+    "figs/2026-14-1.png"
+   ],
+   "answer": "75",
+   "kp": [
+    "shuxue.geo.triangle",
+    "shuxue.geo.special_quad"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "已知实数 $p$，$q$ 满足 $\\dfrac{1}{p}+\\dfrac{1}{q}=1$，则 $(p-1)(q-1)$ 的值为____。",
+   "answer": "1",
+   "kp": [
+    "shuxue.num.fraction",
+    "shuxue.num.algebra_expr"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "由于水对物体的浮力作用，实心的纯金和纯银浸没水中称重时，弹簧测力计的示数分别约为原来的 $\\dfrac{19}{20}$ 和 $\\dfrac{9}{10}$。一件重 80 克的实心金银饰品，浸没水中称重，弹簧测力计的示数为原来的 $\\dfrac{15}{16}$，若实心的纯金和纯银浸没水中称重，弹簧测力计的示数分别按原来的 $\\dfrac{19}{20}$ 和 $\\dfrac{9}{10}$ 计算，则这件金银饰品中含金____克。",
+   "answer": "60",
+   "kp": [
+    "shuxue.prac.modeling",
+    "shuxue.eq.system_app"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2026-17",
+   "no": "17",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "计算：$\\sqrt{4}+|-3|-2^2$。",
+   "answer": "解：$\\sqrt{4}+|-3|-2^2$\n$=2+3-4$\n$=1$。\n说明：本参考答案仅给出一种解法供参考。",
+   "rubric": "本小题考查算术平方根、绝对值、乘方运算等基础知识，考查运算能力。满分 8 分。",
+   "kp": [
+    "shuxue.num.real_calc"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-18",
+   "no": "18",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "如图，$\\triangle ABC$ 是等边三角形，$BD\\perp BC$，$CE\\perp BC$，$BD=CE$。求证：$AD=AE$。",
+   "figures": [
+    "figs/2026-18-1.png"
+   ],
+   "answer": "证明：$\\because BD\\perp BC$，$CE\\perp BC$，\n$\\therefore \\angle CBD=\\angle BCE=90^\\circ$。\n$\\because \\triangle ABC$ 是等边三角形，\n$\\therefore AB=AC$，$\\angle ABC=\\angle ACB=60^\\circ$。\n$\\therefore \\angle ABD=\\angle ACE=150^\\circ$。\n在 $\\triangle ABD$ 和 $\\triangle ACE$ 中，\n$\\begin{cases}AB=AC,\\\\ \\angle ABD=\\angle ACE,\\\\ BD=CE,\\end{cases}$\n$\\therefore \\triangle ABD\\cong\\triangle ACE$。\n$\\therefore AD=AE$。\n说明：本参考答案仅给出一种解法供参考。",
+   "rubric": "本小题考查全等三角形的判定与性质、等边三角形的性质、垂直的定义、等式的基本性质等基础知识，考查推理能力、几何直观等。满分 8 分。",
+   "kp": [
+    "shuxue.geo.congruent",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-19",
+   "no": "19",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "解不等式组：$\\begin{cases}x-2>1, & ①\\\\ 3x-5<2(x+1). & ②\\end{cases}$",
+   "answer": "解：解不等式①，得 $x>3$。\n解不等式②，得 $x<7$。\n所以，原不等式组的解集为 $3<x<7$。\n说明：本参考答案仅给出一种解法供参考。",
+   "rubric": "本小题考查一元一次不等式（组）的解法等基础知识，考查运算能力，考查化归与转化思想等。满分 8 分。",
+   "kp": [
+    "shuxue.ineq.solve"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-20-1",
+   "no": "20(1)",
+   "section": "解答题",
+   "type": "draw",
+   "score": 3,
+   "material": "q20",
+   "stem": "求作点 $F$，使点 $F$ 在 $AD$ 边上，且 $\\angle AFB=2\\angle EBC$；（要求：尺规作图，不写作法，保留作图痕迹）",
+   "answer": "解：（1）![](figs/2026-20-ans.png)\n如图，$F$ 是所求作的点。",
+   "rubric": "本小题考查尺规作图、勾股定理、矩形的性质、平行线的性质、等腰三角形的判定与性质、线段垂直平分线的判定与性质、全等三角形的判定与性质、解直角三角形等基础知识，考查推理能力、运算能力、几何直观、空间观念，考查化归与转化思想、数形结合思想、函数与方程思想等。满分 8 分。",
+   "kp": [
+    "shuxue.construct.design",
+    "shuxue.construct.basic"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-20-2",
+   "no": "20(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q20",
+   "stem": "在(1)的条件下，若 $AB=4$，$BC=6$，$DE=2$，求 $AF$ 的长。",
+   "answer": "（2）$\\because$ 四边形 $ABCD$ 是矩形，$BC=6$，\n$\\therefore AD\\parallel BC$，$AD=BC=6$。\n$\\therefore \\angle E=\\angle EBC$，$\\angle AFB=\\angle FBC$。\n$\\because \\angle AFB=2\\angle EBC$，\n$\\therefore \\angle FBE=\\angle EBC=\\angle E$。\n$\\therefore BF=EF$。\n$\\because DE=2$，\n$\\therefore AE=AD+DE=8$。\n设 $AF=x$，则 $BF=EF=8-x$。\n在 $\\mathrm{Rt}\\triangle ABF$ 中，$\\angle A=90^\\circ$，$AB=4$，\n由勾股定理得 $AF^2+AB^2=BF^2$，\n$\\therefore x^2+4^2=(8-x)^2$，解得 $x=3$。\n$\\therefore AF=3$。\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.geo.pythagoras",
+    "shuxue.geo.isosceles",
+    "shuxue.geo.special_quad"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-21-1",
+   "no": "21(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q21",
+   "stem": "从盒子中随机摸出 1 个球，求摸出的球是黄球的概率；",
+   "answer": "解：（1）从盒子中随机摸出 1 个球共有 4 种结果，且每种结果出现的可能性相同，其中，摸出的球是黄球（记为事件 $A$）的结果有 1 种，所以 $P(A)=\\dfrac{1}{4}$。",
+   "rubric": "本小题考查随机事件的概率等基础知识，考查抽象能力、运算能力、推理能力、数据观念、模型观念、应用意识、创新意识等，考查统计与概率思想等。满分 8 分。",
+   "kp": [
+    "shuxue.prob.classical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-21-2",
+   "no": "21(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q21",
+   "stem": "从盒子中随机摸出 1 个球，不放回，再从中随机摸出 1 个球。求摸出的 2 个球颜色不同且标号之和小于 4 的概率。",
+   "answer": "（2）从盒子中随机摸出 1 个球，不放回，再从中随机摸出 1 个球，列表如下：\n\n| 第一次＼第二次 | 黄球 $a_0$ | 红球 $b_1$ | 红球 $b_2$ | 白球 $c_3$ |\n|---|---|---|---|---|\n| 黄球 $a_0$ |  | $(a_0,b_1)$ | $(a_0,b_2)$ | $(a_0,c_3)$ |\n| 红球 $b_1$ | $(b_1,a_0)$ |  | $(b_1,b_2)$ | $(b_1,c_3)$ |\n| 红球 $b_2$ | $(b_2,a_0)$ | $(b_2,b_1)$ |  | $(b_2,c_3)$ |\n| 白球 $c_3$ | $(c_3,a_0)$ | $(c_3,b_1)$ | $(c_3,b_2)$ |  |\n\n共有 12 种结果，且每种结果出现的可能性相同，其中，摸出 2 个球的颜色不同且标号之和小于 4（记为事件 $B$）的结果共有 6 种：$(a_0,b_1)$，$(a_0,b_2)$，$(a_0,c_3)$，$(b_1,a_0)$，$(b_2,a_0)$，$(c_3,a_0)$，所以 $P(B)=\\dfrac{6}{12}=\\dfrac{1}{2}$。\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.prob.tree"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-22-1",
+   "no": "22(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q22",
+   "stem": "求证：$E'A'=E'F$；",
+   "answer": "解：（1）$\\because FE'\\parallel AB$，\n$\\therefore \\angle A+\\angle F=180^\\circ$。\n$\\because$ 四边形 $A'B'CD$ 由四边形 $ABCD$ 翻折得到，点 $E$ 的对应点为 $E'$，\n$\\therefore \\angle A=\\angle DA'E'$。\n$\\because \\angle DA'E'+\\angle FA'E'=180^\\circ$，\n$\\therefore \\angle F=\\angle FA'E'$。\n$\\therefore E'A'=E'F$。",
+   "rubric": "本小题考查轴对称的性质、平行线的判定与性质、平行四边形的判定与性质、等腰三角形的判定与性质、补角的性质、勾股定理、解直角三角形等基础知识，考查空间观念、几何直观、推理能力与运算能力，考查化归与转化思想等。满分 10 分。",
+   "kp": [
+    "shuxue.trans.fold",
+    "shuxue.geo.isosceles",
+    "shuxue.geo.parallel"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-22-2",
+   "no": "22(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q22",
+   "stem": "若 $AD=\\sqrt{2}$，$DE=4$，求 $A'F$ 的长。",
+   "answer": "（2）过点 $E'$ 作 $E'G\\perp A'F$，垂足为 $G$。\n![](figs/2026-22-ans.png)\n$\\because CE=DE$，$\\angle CED=90^\\circ$，\n$\\therefore \\angle EDC=\\angle ECD=45^\\circ$。\n$\\because \\angle ADC=90^\\circ$，\n$\\therefore \\angle ADE=45^\\circ$。\n$\\because$ 四边形 $A'B'CD$ 由四边形 $ABCD$ 翻折得到，点 $E$ 的对应点为 $E'$，\n$\\therefore \\angle A'DE'=\\angle ADE=45^\\circ$，$A'D=AD=\\sqrt{2}$，$DE'=DE=4$。\n在 $\\mathrm{Rt}\\triangle DE'G$ 中，$DG=DE'\\cdot\\cos\\angle E'DG=4\\cos45^\\circ=2\\sqrt{2}$，\n$\\therefore A'G=DG-A'D=\\sqrt{2}$。\n$\\because E'A'=E'F$，$E'G\\perp A'F$，\n$\\therefore A'F=2A'G=2\\sqrt{2}$。\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.trans.fold",
+    "shuxue.geo.trig",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-23-1",
+   "no": "23(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q23",
+   "stem": "补全①②③④所缺的内容；",
+   "answer": "解：（1）① $5$；② $8\\sqrt{2}-11$；③ $4a^2+2b^2-1$；④ $1-(\\sqrt{2}a-b)^2$。",
+   "rubric": "本小题考查代数推理、无理数的估算、完全平方公式、二次根式的运算、等式的性质、不等式的基本性质等基础知识，考查抽象能力、推理能力、运算能力、应用意识与创新意识，考查应用所学知识分析、解决问题的综合实践能力，考查特殊与一般思想、化归与转化思想、分类与整合思想等。满分 10 分。",
+   "kp": [
+    "shuxue.prac.reading",
+    "shuxue.num.radical",
+    "shuxue.num.real"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-23-2",
+   "no": "23(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q23",
+   "stem": "解决问题 1；",
+   "answer": "（2）$m$ 不是奇数，证明如下：\n因为 $(\\sqrt{2}a+b)^2=2a^2+2\\sqrt{2}ab+b^2$，$(\\sqrt{2}a-b)^2=2a^2-2\\sqrt{2}ab+b^2$，\n所以 $(\\sqrt{2}a+b)^2+(\\sqrt{2}a-b)^2=4a^2+2b^2$，即 $(\\sqrt{2}a+b)^2=4a^2+2b^2-(\\sqrt{2}a-b)^2$。\n又因为 $(\\sqrt{2}a+b)^2=m+n$，且 $0<n<1$，\n所以 $4a^2+2b^2-(\\sqrt{2}a-b)^2=m+n$。\n又根据 $1<\\sqrt{2}a-b<\\sqrt{2}$，可得 $1<(\\sqrt{2}a-b)^2<2$。\n所以 $m+n=4a^2+2b^2-2+2-(\\sqrt{2}a-b)^2$。\n故 $m=4a^2+2b^2-2$。\n又因为 $a$，$b$ 均为整数，所以 $4a^2+2b^2-2$ 为偶数，故 $m$ 不是奇数。",
+   "kp": [
+    "shuxue.prac.reasoning",
+    "shuxue.num.radical"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2026-23-3",
+   "no": "23(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 2,
+   "material": "q23",
+   "stem": "解决问题 2。",
+   "answer": "（3）当 $k$ 为偶数，且 $k\\geqslant2$ 时，$m$ 为奇数；\n当 $k$ 为奇数，且 $k\\geqslant2$ 时，$m$ 为偶数。\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.prac.reasoning"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2026-24-1",
+   "no": "24(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q24",
+   "stem": "求 $\\angle E$ 的度数；",
+   "answer": "解：（1）$\\because AB=BD$，$\\angle ABD=60^\\circ$，\n$\\therefore \\triangle ABD$ 是等边三角形。\n$\\therefore \\angle BAD=\\angle BDA=60^\\circ$。\n$\\because$ 四边形 $ABCD$ 是 $\\odot O$ 的内接四边形，\n$\\therefore \\angle BAD+\\angle BCD=180^\\circ$。\n又 $\\because \\angle BCE+\\angle BCD=180^\\circ$，\n$\\therefore \\angle BCE=\\angle BAD=60^\\circ$。\n$\\because \\angle CBE=60^\\circ$，\n$\\therefore \\angle E=180^\\circ-\\angle CBE-\\angle BCE=60^\\circ$。",
+   "rubric": "本小题考查圆的有关性质、等边三角形的判定与性质、平行四边形的判定与性质、全等三角形的判定与性质、相似三角形的判定与性质、解直角三角形、三角形内角和定理及其推论等基础知识，考查推理能力、几何直观、空间观念、运算能力与创新意识，考查数形结合思想、函数与方程思想、化归与转化思想等。满分 12 分。",
+   "kp": [
+    "shuxue.circle.basic",
+    "shuxue.geo.isosceles",
+    "shuxue.geo.triangle"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-24-2",
+   "no": "24(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q24",
+   "stem": "求证：四边形 $AFEC$ 是平行四边形；",
+   "answer": "（2）$\\because \\angle ACD=\\angle ABD=60^\\circ$，\n$\\therefore \\angle ACD=\\angle E$。\n$\\therefore AC\\parallel EF$。\n$\\because$ 四边形 $AFBD$ 是 $\\odot O$ 的内接四边形，\n$\\therefore \\angle AFB+\\angle ADB=180^\\circ$。\n$\\therefore \\angle AFB=120^\\circ$。\n$\\therefore \\angle AFB+\\angle E=180^\\circ$。\n$\\therefore AF\\parallel CE$。\n$\\therefore$ 四边形 $AFEC$ 是平行四边形。",
+   "kp": [
+    "shuxue.circle.basic",
+    "shuxue.geo.parallelogram",
+    "shuxue.geo.parallel"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-24-3",
+   "no": "24(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q24",
+   "stem": "设 $CF$ 交 $BD$ 于点 $G$，且 $\\dfrac{CG}{FG}=\\dfrac{2}{3}$，求 $\\dfrac{BD}{AC}$ 的值。",
+   "answer": "（3）过点 $C$ 作 $CH\\perp BE$，垂足为 $H$，连接 $DF$，设 $CD=a$。\n![](figs/2026-24-ans.png)\n$\\because \\angle E=\\angle CBE=\\angle BCE=60^\\circ$，\n$\\therefore \\triangle BCE$ 是等边三角形。\n$\\therefore BE=CE$。\n又 $\\because \\angle CFB=\\angle CDB$，$\\angle E=\\angle E$，\n$\\therefore \\triangle CFE\\cong\\triangle BDE$。\n$\\therefore EF=ED$。\n$\\therefore BF=CD=a$。\n$\\because \\angle E=60^\\circ$，\n$\\therefore \\triangle DEF$ 是等边三角形。\n$\\therefore \\angle FDE=\\angle BCE=60^\\circ$。\n$\\therefore BC\\parallel DF$。\n$\\therefore \\triangle BCG\\backsim\\triangle DFG$。\n$\\therefore \\dfrac{BC}{DF}=\\dfrac{CG}{FG}=\\dfrac{2}{3}$。\n$\\because BC\\parallel DF$，\n$\\therefore \\triangle BCE\\backsim\\triangle FDE$。\n$\\therefore \\dfrac{BE}{FE}=\\dfrac{BC}{FD}=\\dfrac{2}{3}$。\n$\\therefore BE=2a$，$EF=3a$。\n$\\because$ 四边形 $AFEC$ 是平行四边形，\n$\\therefore AC=EF=3a$。\n$\\because \\triangle BCE$ 是等边三角形，$CH\\perp BE$，\n$\\therefore BH=\\dfrac{1}{2}BE=a$。\n在 $\\mathrm{Rt}\\triangle BCH$ 中，$\\tan\\angle CBE=\\dfrac{CH}{BH}=\\sqrt{3}$，\n$\\therefore CH=\\sqrt{3}BH=\\sqrt{3}a$。\n$\\because FH=BF+BH=2a$，\n$\\therefore CF=\\sqrt{FH^2+CH^2}=\\sqrt{(2a)^2+(\\sqrt{3}a)^2}=\\sqrt{7}a$。\n$\\because \\triangle CFE\\cong\\triangle BDE$，\n$\\therefore BD=CF=\\sqrt{7}a$。\n$\\therefore \\dfrac{BD}{AC}=\\dfrac{\\sqrt{7}a}{3a}=\\dfrac{\\sqrt{7}}{3}$。\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.geo.synthesis",
+    "shuxue.circle.basic"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2026-25-1",
+   "no": "25(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q25",
+   "stem": "若 $b=1$，$c=2$，求抛物线的顶点坐标；",
+   "answer": "解：（1）因为 $b=1$，$c=2$，\n所以 $y=-x^2+x+2=-\\left(x-\\dfrac{1}{2}\\right)^2+\\dfrac{9}{4}$。\n所以抛物线的顶点坐标为 $\\left(\\dfrac{1}{2},\\dfrac{9}{4}\\right)$。",
+   "rubric": "本小题考查代数推理、一次函数的图象与性质、二次函数的图象与性质、勾股定理、一元二次方程、不等式的性质、线段垂直平分线的判定与性质等基础知识，考查运算能力、推理能力、几何直观、空间观念、应用意识和创新意识，考查函数与方程思想、数形结合思想、化归与转化思想等。满分 14 分。",
+   "kp": [
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2026-25-2",
+   "no": "25(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q25",
+   "stem": "若抛物线上存在一点 $P(x_0,y_0)$ 在 $x$ 轴上方，求证：抛物线与 $x$ 轴有两个交点；",
+   "answer": "（2）因为抛物线上的点 $P(x_0,y_0)$ 在 $x$ 轴上方，\n所以 $y_0=-x_0^2+bx_0+c>0$。\n所以 $c=x_0^2-bx_0+y_0$。\n所以 $b^2+4c=b^2+4x_0^2-4bx_0+4y_0=(2x_0-b)^2+4y_0>0$，\n即方程 $-x^2+bx+c=0$ 有两个不相等的实数根，\n所以抛物线与 $x$ 轴有两个交点。",
+   "kp": [
+    "shuxue.func.quad_eq",
+    "shuxue.prac.reasoning",
+    "shuxue.eq.quad_solve"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2026-25-3",
+   "no": "25(3)",
+   "section": "解答题",
+   "type": "short",
+   "score": 7,
+   "material": "q25",
+   "stem": "抛物线与 $x$ 轴交于 $A$，$B$ 两点，与 $y$ 轴交于点 $C(0,2)$，直线 $y=bx+2$ 与 $y=-bx-1$ 相交于点 $D$，$E$ 是 $y$ 轴上不与点 $C$ 重合的点。若坐标平面内存在点 $M$ 满足 $MA=MB=MC=ME$，试探究 $CD$ 和 $DE$ 的数量关系，并证明。",
+   "answer": "（3）$CD$ 和 $DE$ 的数量关系是 $CD=DE$，理由如下：\n因为抛物线 $y=-x^2+bx+c$ 与 $x$ 轴交于 $A$，$B$ 两点，与 $y$ 轴交于点 $C(0,2)$，\n故可设 $A(x_1,0)$，$B(x_2,0)$，$x_1>x_2$。\n则 $x_1$，$x_2$ 是方程 $-x^2+bx+2=0$ 的两根，\n由求根公式可得 $x_1=\\dfrac{b+\\sqrt{b^2+8}}{2}$，$x_2=\\dfrac{b-\\sqrt{b^2+8}}{2}$。\n又坐标平面内存在点 $M$ 满足 $MA=MB=MC$，\n由对称性可设 $M\\left(\\dfrac{b}{2},m\\right)$，\n![](figs/2026-25-ans.png)\n由勾股定理可得\n$MA^2=\\left(\\dfrac{b}{2}-\\dfrac{b+\\sqrt{b^2+8}}{2}\\right)^2+(m-0)^2$，\n$MC^2=\\left(\\dfrac{b}{2}\\right)^2+(m-2)^2$，\n所以 $\\left(\\dfrac{b}{2}-\\dfrac{b+\\sqrt{b^2+8}}{2}\\right)^2+(m-0)^2=\\left(\\dfrac{b}{2}\\right)^2+(m-2)^2$，解得 $m=\\dfrac{1}{2}$。\n所以点 $M$ 的坐标为 $\\left(\\dfrac{b}{2},\\dfrac{1}{2}\\right)$。\n因为直线 $y=bx+2$ 与 $y=-bx-1$ 相交于点 $D$，所以 $b\\neq0$。\n联立 $\\begin{cases}y=bx+2,\\\\ y=-bx-1,\\end{cases}$ 解得 $\\begin{cases}x=-\\dfrac{3}{2b},\\\\ y=\\dfrac{1}{2}.\\end{cases}$\n所以点 $D$ 的坐标为 $\\left(-\\dfrac{3}{2b},\\dfrac{1}{2}\\right)$。\n由 $M\\left(\\dfrac{b}{2},\\dfrac{1}{2}\\right)$，$D\\left(-\\dfrac{3}{2b},\\dfrac{1}{2}\\right)$ 可知 $MD\\perp CE$，\n又因为 $MC=ME$，所以 $MD$ 垂直平分 $CE$，\n所以 $CD=DE$。\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.func.quad_geo",
+    "shuxue.circle.concyclic",
+    "shuxue.func.linear"
+   ],
+   "difficulty": 3
+  }
+ ]
+}

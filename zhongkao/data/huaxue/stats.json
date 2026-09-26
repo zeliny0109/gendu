@@ -1,0 +1,1578 @@
+{
+ "subject": "huaxue",
+ "years": [
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "kps": {
+  "huaxue.intro.change": {
+   "name": "物理变化与化学变化",
+   "module": "走进化学世界",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 9.4,
+   "qs": [
+    "huaxue-2020-1",
+    "huaxue-2021-12-2",
+    "huaxue-2023-4",
+    "huaxue-2023-12-1",
+    "huaxue-2024-15-3",
+    "huaxue-2025-8",
+    "huaxue-2026-2"
+   ]
+  },
+  "huaxue.intro.property_use": {
+   "name": "物理性质、化学性质与用途",
+   "module": "走进化学世界",
+   "years": [
+    2020,
+    2023,
+    2026
+   ],
+   "count": 6,
+   "score": 6.6,
+   "qs": [
+    "huaxue-2020-6",
+    "huaxue-2023-13-1",
+    "huaxue-2023-13-2",
+    "huaxue-2023-13-4",
+    "huaxue-2023-13-5",
+    "huaxue-2026-14-1"
+   ]
+  },
+  "huaxue.intro.lab_safety": {
+   "name": "实验室规则与安全",
+   "module": "走进化学世界",
+   "years": [
+    2023,
+    2025
+   ],
+   "count": 2,
+   "score": 4.2,
+   "qs": [
+    "huaxue-2023-7",
+    "huaxue-2025-6"
+   ]
+  },
+  "huaxue.intro.basic_ops": {
+   "name": "化学实验基本操作",
+   "module": "走进化学世界",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 17,
+   "score": 18.8,
+   "qs": [
+    "huaxue-2020-3",
+    "huaxue-2020-16-1",
+    "huaxue-2020-17-1",
+    "huaxue-2021-5",
+    "huaxue-2021-16-1",
+    "huaxue-2021-16-3",
+    "huaxue-2022-5",
+    "huaxue-2022-16-2",
+    "huaxue-2023-5",
+    "huaxue-2023-16-2",
+    "huaxue-2023-16-4",
+    "huaxue-2024-12-2",
+    "huaxue-2025-7",
+    "huaxue-2025-14-2",
+    "huaxue-2026-5",
+    "huaxue-2026-15-1",
+    "huaxue-2026-17-1"
+   ]
+  },
+  "huaxue.air.composition": {
+   "name": "空气的成分及用途",
+   "module": "空气和氧气",
+   "years": [
+    2021,
+    2022,
+    2026
+   ],
+   "count": 3,
+   "score": 2.4,
+   "qs": [
+    "huaxue-2021-11-3",
+    "huaxue-2022-14-1",
+    "huaxue-2026-16-1"
+   ]
+  },
+  "huaxue.air.pollution": {
+   "name": "空气污染与保护",
+   "module": "空气和氧气",
+   "years": [
+    2023,
+    2026
+   ],
+   "count": 2,
+   "score": 2.6,
+   "qs": [
+    "huaxue-2023-6",
+    "huaxue-2026-16-5"
+   ]
+  },
+  "huaxue.o2.properties": {
+   "name": "氧气的性质与氧化反应",
+   "module": "空气和氧气",
+   "years": [
+    2021,
+    2022,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 3.2,
+   "qs": [
+    "huaxue-2021-16-2",
+    "huaxue-2022-13-3",
+    "huaxue-2025-17-3",
+    "huaxue-2026-5"
+   ]
+  },
+  "huaxue.o2.lab_prep": {
+   "name": "氧气的实验室制取",
+   "module": "空气和氧气",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 10,
+   "score": 18.4,
+   "qs": [
+    "huaxue-2020-16-1",
+    "huaxue-2021-15-2",
+    "huaxue-2021-16-3",
+    "huaxue-2022-16-1",
+    "huaxue-2022-16-2",
+    "huaxue-2022-16-3",
+    "huaxue-2023-5",
+    "huaxue-2024-6",
+    "huaxue-2026-5",
+    "huaxue-2026-14-2"
+   ]
+  },
+  "huaxue.o2.catalyst": {
+   "name": "催化剂与催化作用",
+   "module": "空气和氧气",
+   "years": [
+    2023,
+    2024,
+    2026
+   ],
+   "count": 3,
+   "score": 1.8,
+   "qs": [
+    "huaxue-2023-10",
+    "huaxue-2024-10",
+    "huaxue-2026-12-2"
+   ]
+  },
+  "huaxue.struct.particles": {
+   "name": "分子的性质及微粒观解释现象",
+   "module": "物质构成的奥秘",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 12.6,
+   "qs": [
+    "huaxue-2020-7",
+    "huaxue-2021-7",
+    "huaxue-2022-7",
+    "huaxue-2023-8",
+    "huaxue-2024-13-2",
+    "huaxue-2024-15-2",
+    "huaxue-2025-9",
+    "huaxue-2026-11-2",
+    "huaxue-2026-16-3",
+    "huaxue-2026-16-6"
+   ]
+  },
+  "huaxue.struct.molecule_atom": {
+   "name": "分子、原子与化学变化的实质",
+   "module": "物质构成的奥秘",
+   "years": [
+    2020,
+    2022
+   ],
+   "count": 3,
+   "score": 3.0,
+   "qs": [
+    "huaxue-2020-7",
+    "huaxue-2020-11-3",
+    "huaxue-2022-12-1"
+   ]
+  },
+  "huaxue.struct.atom": {
+   "name": "原子结构与离子",
+   "module": "物质构成的奥秘",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 7,
+   "score": 6.6,
+   "qs": [
+    "huaxue-2020-11-1",
+    "huaxue-2020-11-3",
+    "huaxue-2021-11-1",
+    "huaxue-2022-11-1",
+    "huaxue-2023-11-4",
+    "huaxue-2024-13-1",
+    "huaxue-2026-4"
+   ]
+  },
+  "huaxue.struct.element": {
+   "name": "元素",
+   "module": "物质构成的奥秘",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 5,
+   "score": 5.6,
+   "qs": [
+    "huaxue-2020-5",
+    "huaxue-2022-11-2",
+    "huaxue-2023-11-3",
+    "huaxue-2023-12-2",
+    "huaxue-2024-2"
+   ]
+  },
+  "huaxue.struct.periodic_table": {
+   "name": "元素周期表",
+   "module": "物质构成的奥秘",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 8.0,
+   "qs": [
+    "huaxue-2020-11-1",
+    "huaxue-2021-11-1",
+    "huaxue-2022-11-1",
+    "huaxue-2023-11-4",
+    "huaxue-2024-13-1",
+    "huaxue-2025-11-1",
+    "huaxue-2026-4"
+   ]
+  },
+  "huaxue.water.purification": {
+   "name": "水的净化",
+   "module": "自然界的水与化学式",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 5,
+   "score": 7.8,
+   "qs": [
+    "huaxue-2020-9",
+    "huaxue-2022-7",
+    "huaxue-2023-1",
+    "huaxue-2024-17-6",
+    "huaxue-2025-3"
+   ]
+  },
+  "huaxue.water.hard_soft": {
+   "name": "硬水与软水",
+   "module": "自然界的水与化学式",
+   "years": [
+    2021,
+    2022
+   ],
+   "count": 2,
+   "score": 1.8,
+   "qs": [
+    "huaxue-2021-8",
+    "huaxue-2022-5"
+   ]
+  },
+  "huaxue.water.composition": {
+   "name": "水的组成（电解水）",
+   "module": "自然界的水与化学式",
+   "years": [
+    2021,
+    2022,
+    2024
+   ],
+   "count": 3,
+   "score": 4.4,
+   "qs": [
+    "huaxue-2021-11-2",
+    "huaxue-2022-14-2",
+    "huaxue-2024-15-2"
+   ]
+  },
+  "huaxue.water.resources": {
+   "name": "爱护水资源",
+   "module": "自然界的水与化学式",
+   "years": [
+    2024,
+    2025
+   ],
+   "count": 2,
+   "score": 1.0,
+   "qs": [
+    "huaxue-2024-17-5",
+    "huaxue-2025-10"
+   ]
+  },
+  "huaxue.matter.classify": {
+   "name": "物质的分类",
+   "module": "自然界的水与化学式",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 11,
+   "score": 19.8,
+   "qs": [
+    "huaxue-2020-2",
+    "huaxue-2021-2",
+    "huaxue-2021-15-1",
+    "huaxue-2022-2",
+    "huaxue-2023-3",
+    "huaxue-2023-11-1",
+    "huaxue-2024-3",
+    "huaxue-2024-11-1",
+    "huaxue-2025-4",
+    "huaxue-2025-16-1",
+    "huaxue-2026-7"
+   ]
+  },
+  "huaxue.formula.symbols": {
+   "name": "化学用语",
+   "module": "自然界的水与化学式",
+   "years": [
+    2021,
+    2023
+   ],
+   "count": 2,
+   "score": 2.6,
+   "qs": [
+    "huaxue-2021-15-1",
+    "huaxue-2023-15-2"
+   ]
+  },
+  "huaxue.formula.valence": {
+   "name": "化合价",
+   "module": "自然界的水与化学式",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 4.6,
+   "qs": [
+    "huaxue-2020-15-5",
+    "huaxue-2021-12-1",
+    "huaxue-2023-15-3",
+    "huaxue-2025-11-1",
+    "huaxue-2026-15-1"
+   ]
+  },
+  "huaxue.formula.calc": {
+   "name": "化学式的意义与计算",
+   "module": "自然界的水与化学式",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 13,
+   "score": 20.4,
+   "qs": [
+    "huaxue-2020-14-1",
+    "huaxue-2021-4",
+    "huaxue-2021-11-1",
+    "huaxue-2022-8",
+    "huaxue-2022-12-4",
+    "huaxue-2023-11-2",
+    "huaxue-2023-12-2",
+    "huaxue-2023-12-3",
+    "huaxue-2024-8",
+    "huaxue-2025-4",
+    "huaxue-2025-15-3",
+    "huaxue-2025-17-6",
+    "huaxue-2026-6"
+   ]
+  },
+  "huaxue.eq.conservation": {
+   "name": "质量守恒定律",
+   "module": "化学反应的定量关系（化学方程式）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 21,
+   "score": 21.2,
+   "qs": [
+    "huaxue-2020-11-2",
+    "huaxue-2020-13-2",
+    "huaxue-2020-15-5",
+    "huaxue-2021-11-3",
+    "huaxue-2021-14-3",
+    "huaxue-2021-15-1",
+    "huaxue-2022-12-3",
+    "huaxue-2022-14-5",
+    "huaxue-2022-17-3",
+    "huaxue-2023-9",
+    "huaxue-2023-10",
+    "huaxue-2023-15-5",
+    "huaxue-2024-9",
+    "huaxue-2024-12-4",
+    "huaxue-2024-14-4",
+    "huaxue-2025-7",
+    "huaxue-2025-12-2",
+    "huaxue-2025-17-6",
+    "huaxue-2026-6",
+    "huaxue-2026-12-2",
+    "huaxue-2026-13-1"
+   ]
+  },
+  "huaxue.eq.writing": {
+   "name": "化学方程式的书写与意义",
+   "module": "化学反应的定量关系（化学方程式）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 33,
+   "score": 41.8,
+   "qs": [
+    "huaxue-2020-14-3",
+    "huaxue-2020-15-3",
+    "huaxue-2020-16-1",
+    "huaxue-2021-11-2",
+    "huaxue-2021-14-1",
+    "huaxue-2021-14-3",
+    "huaxue-2021-16-4",
+    "huaxue-2021-17-1",
+    "huaxue-2022-11-3",
+    "huaxue-2022-12-1",
+    "huaxue-2022-13-2",
+    "huaxue-2022-13-5",
+    "huaxue-2022-14-2",
+    "huaxue-2022-14-4",
+    "huaxue-2022-15-2",
+    "huaxue-2022-16-1",
+    "huaxue-2023-13-3",
+    "huaxue-2023-14-1",
+    "huaxue-2023-15-4",
+    "huaxue-2023-17-1",
+    "huaxue-2024-11-2",
+    "huaxue-2024-15-1",
+    "huaxue-2024-15-2",
+    "huaxue-2024-16-4",
+    "huaxue-2024-17-2",
+    "huaxue-2025-11-2",
+    "huaxue-2025-13-3",
+    "huaxue-2025-15-4",
+    "huaxue-2025-17-4",
+    "huaxue-2026-12-1",
+    "huaxue-2026-13-2",
+    "huaxue-2026-14-2",
+    "huaxue-2026-17-6"
+   ]
+  },
+  "huaxue.eq.micro_diagram": {
+   "name": "微观反应示意图",
+   "module": "化学反应的定量关系（化学方程式）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 18.2,
+   "qs": [
+    "huaxue-2020-11-2",
+    "huaxue-2021-14-4",
+    "huaxue-2022-12-1",
+    "huaxue-2022-12-2",
+    "huaxue-2023-15-2",
+    "huaxue-2023-15-4",
+    "huaxue-2023-15-5",
+    "huaxue-2024-13-2",
+    "huaxue-2025-11-2",
+    "huaxue-2026-12-2"
+   ]
+  },
+  "huaxue.eq.reaction_types": {
+   "name": "基本反应类型",
+   "module": "化学反应的定量关系（化学方程式）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024,
+    2025
+   ],
+   "count": 6,
+   "score": 7.4,
+   "qs": [
+    "huaxue-2020-12-2",
+    "huaxue-2020-14-3",
+    "huaxue-2021-14-2",
+    "huaxue-2022-13-1",
+    "huaxue-2024-15-3",
+    "huaxue-2025-15-1"
+   ]
+  },
+  "huaxue.eq.calc": {
+   "name": "根据化学方程式的计算",
+   "module": "化学反应的定量关系（化学方程式）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 13,
+   "score": 38.4,
+   "qs": [
+    "huaxue-2020-18",
+    "huaxue-2021-17-6",
+    "huaxue-2021-18",
+    "huaxue-2022-18-1",
+    "huaxue-2022-18-2",
+    "huaxue-2023-18-1",
+    "huaxue-2023-18-2",
+    "huaxue-2024-18-1",
+    "huaxue-2024-18-2",
+    "huaxue-2025-18-1",
+    "huaxue-2025-18-2",
+    "huaxue-2026-18-1",
+    "huaxue-2026-18-2"
+   ]
+  },
+  "huaxue.carbon.allotropes": {
+   "name": "碳单质",
+   "module": "碳和碳的氧化物",
+   "years": [
+    2020,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 5.2,
+   "qs": [
+    "huaxue-2020-6",
+    "huaxue-2020-14-3",
+    "huaxue-2025-3",
+    "huaxue-2025-4",
+    "huaxue-2025-8",
+    "huaxue-2026-15-2"
+   ]
+  },
+  "huaxue.carbon.co2_properties": {
+   "name": "二氧化碳的性质与用途",
+   "module": "碳和碳的氧化物",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 13,
+   "score": 11.8,
+   "qs": [
+    "huaxue-2020-17-2",
+    "huaxue-2020-17-3",
+    "huaxue-2022-14-3",
+    "huaxue-2023-6",
+    "huaxue-2023-16-4",
+    "huaxue-2024-14-4",
+    "huaxue-2026-8",
+    "huaxue-2026-16-1",
+    "huaxue-2026-16-2",
+    "huaxue-2026-16-3",
+    "huaxue-2026-16-5",
+    "huaxue-2026-16-6",
+    "huaxue-2026-17-6"
+   ]
+  },
+  "huaxue.carbon.co": {
+   "name": "一氧化碳",
+   "module": "碳和碳的氧化物",
+   "years": [
+    2026
+   ],
+   "count": 1,
+   "score": 0.6,
+   "qs": [
+    "huaxue-2026-13-2"
+   ]
+  },
+  "huaxue.carbon.co2_prep": {
+   "name": "二氧化碳的实验室制取",
+   "module": "碳和碳的氧化物",
+   "years": [
+    2020,
+    2023,
+    2026
+   ],
+   "count": 3,
+   "score": 7.2,
+   "qs": [
+    "huaxue-2020-10",
+    "huaxue-2023-16-4",
+    "huaxue-2026-14-3"
+   ]
+  },
+  "huaxue.lab.gas_apparatus": {
+   "name": "气体制取装置的选择与改进",
+   "module": "碳和碳的氧化物",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 8,
+   "score": 9.4,
+   "qs": [
+    "huaxue-2020-3",
+    "huaxue-2021-16-2",
+    "huaxue-2021-16-4",
+    "huaxue-2021-17-2",
+    "huaxue-2022-16-2",
+    "huaxue-2023-5",
+    "huaxue-2024-6",
+    "huaxue-2026-16-4"
+   ]
+  },
+  "huaxue.carbon.cycle": {
+   "name": "碳循环、温室效应与碳中和",
+   "module": "碳和碳的氧化物",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 10.8,
+   "qs": [
+    "huaxue-2020-14-2",
+    "huaxue-2021-14-5",
+    "huaxue-2022-14-4",
+    "huaxue-2022-18-2",
+    "huaxue-2024-11-3",
+    "huaxue-2024-14-4",
+    "huaxue-2025-12-1",
+    "huaxue-2025-12-2",
+    "huaxue-2025-12-4",
+    "huaxue-2026-12-3"
+   ]
+  },
+  "huaxue.fuel.combustion": {
+   "name": "燃烧的条件与灭火原理",
+   "module": "燃料及其利用（能源）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 12,
+   "score": 18.4,
+   "qs": [
+    "huaxue-2020-12-1",
+    "huaxue-2020-12-3",
+    "huaxue-2021-18",
+    "huaxue-2022-17-1",
+    "huaxue-2022-17-4",
+    "huaxue-2023-8",
+    "huaxue-2024-5",
+    "huaxue-2025-13-1",
+    "huaxue-2025-13-4",
+    "huaxue-2026-11-2",
+    "huaxue-2026-12-4",
+    "huaxue-2026-13-3"
+   ]
+  },
+  "huaxue.fuel.safety": {
+   "name": "易燃易爆物安全",
+   "module": "燃料及其利用（能源）",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 8.8,
+   "qs": [
+    "huaxue-2020-12-3",
+    "huaxue-2021-7",
+    "huaxue-2023-8",
+    "huaxue-2025-13-2",
+    "huaxue-2025-13-3",
+    "huaxue-2025-13-4",
+    "huaxue-2026-11-3",
+    "huaxue-2026-13-2",
+    "huaxue-2026-16-6"
+   ]
+  },
+  "huaxue.fuel.fossil": {
+   "name": "化石燃料及燃料的充分燃烧",
+   "module": "燃料及其利用（能源）",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 8,
+   "score": 7.4,
+   "qs": [
+    "huaxue-2020-14-2",
+    "huaxue-2020-14-4",
+    "huaxue-2021-14-1",
+    "huaxue-2023-15-1",
+    "huaxue-2024-11-1",
+    "huaxue-2024-11-2",
+    "huaxue-2025-12-3",
+    "huaxue-2025-13-3"
+   ]
+  },
+  "huaxue.fuel.energy": {
+   "name": "化学反应中的能量变化与新能源",
+   "module": "燃料及其利用（能源）",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 11,
+   "score": 13.6,
+   "qs": [
+    "huaxue-2020-14-4",
+    "huaxue-2022-18-2",
+    "huaxue-2023-4",
+    "huaxue-2024-11-3",
+    "huaxue-2024-15-1",
+    "huaxue-2025-11-2",
+    "huaxue-2025-12-3",
+    "huaxue-2026-10",
+    "huaxue-2026-12-1",
+    "huaxue-2026-12-3",
+    "huaxue-2026-12-4"
+   ]
+  },
+  "huaxue.metal.materials": {
+   "name": "金属材料与合金",
+   "module": "金属和金属材料",
+   "years": [
+    2021,
+    2022,
+    2024,
+    2025
+   ],
+   "count": 5,
+   "score": 8.2,
+   "qs": [
+    "huaxue-2021-6",
+    "huaxue-2022-1",
+    "huaxue-2024-7",
+    "huaxue-2024-14-1",
+    "huaxue-2025-9"
+   ]
+  },
+  "huaxue.metal.chem": {
+   "name": "金属的化学性质",
+   "module": "金属和金属材料",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 9.6,
+   "qs": [
+    "huaxue-2020-15-1",
+    "huaxue-2021-17-1",
+    "huaxue-2022-13-2",
+    "huaxue-2023-17-1",
+    "huaxue-2024-15-1",
+    "huaxue-2025-9",
+    "huaxue-2026-10"
+   ]
+  },
+  "huaxue.metal.activity": {
+   "name": "金属活动性顺序",
+   "module": "金属和金属材料",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024,
+    2026
+   ],
+   "count": 5,
+   "score": 4.6,
+   "qs": [
+    "huaxue-2020-15-4",
+    "huaxue-2021-6",
+    "huaxue-2022-9",
+    "huaxue-2024-14-3",
+    "huaxue-2026-9"
+   ]
+  },
+  "huaxue.metal.smelting": {
+   "name": "金属的冶炼",
+   "module": "金属和金属材料",
+   "years": [
+    2021,
+    2022,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 7.2,
+   "qs": [
+    "huaxue-2021-12-1",
+    "huaxue-2022-9",
+    "huaxue-2025-15-4",
+    "huaxue-2026-9"
+   ]
+  },
+  "huaxue.metal.corrosion": {
+   "name": "金属的锈蚀与防护",
+   "module": "金属和金属材料",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 8,
+   "score": 9.0,
+   "qs": [
+    "huaxue-2020-15-5",
+    "huaxue-2021-12-2",
+    "huaxue-2022-13-3",
+    "huaxue-2023-17-2",
+    "huaxue-2023-17-5",
+    "huaxue-2023-17-6",
+    "huaxue-2024-7",
+    "huaxue-2026-7"
+   ]
+  },
+  "huaxue.sol.formation": {
+   "name": "溶液的形成",
+   "module": "溶液",
+   "years": [
+    2022,
+    2023,
+    2025
+   ],
+   "count": 3,
+   "score": 1.6,
+   "qs": [
+    "huaxue-2022-15-1",
+    "huaxue-2023-16-1",
+    "huaxue-2025-14-1"
+   ]
+  },
+  "huaxue.sol.saturation": {
+   "name": "饱和溶液与结晶",
+   "module": "溶液",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 11,
+   "score": 10.0,
+   "qs": [
+    "huaxue-2020-8",
+    "huaxue-2021-13-1",
+    "huaxue-2022-15-4",
+    "huaxue-2022-15-5",
+    "huaxue-2023-14-4",
+    "huaxue-2023-14-5",
+    "huaxue-2024-16-2",
+    "huaxue-2024-16-3",
+    "huaxue-2025-16-1",
+    "huaxue-2025-16-2",
+    "huaxue-2026-10"
+   ]
+  },
+  "huaxue.sol.solubility": {
+   "name": "溶解度与溶解度曲线",
+   "module": "溶液",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 11,
+   "score": 16.0,
+   "qs": [
+    "huaxue-2020-8",
+    "huaxue-2021-13-2",
+    "huaxue-2022-15-3",
+    "huaxue-2023-14-2",
+    "huaxue-2023-14-3",
+    "huaxue-2023-14-4",
+    "huaxue-2023-14-5",
+    "huaxue-2024-16-2",
+    "huaxue-2024-16-3",
+    "huaxue-2025-16-1",
+    "huaxue-2026-17-2"
+   ]
+  },
+  "huaxue.sol.concentration": {
+   "name": "溶质质量分数与溶液配制",
+   "module": "溶液",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 12,
+   "score": 15.8,
+   "qs": [
+    "huaxue-2020-8",
+    "huaxue-2020-13-2",
+    "huaxue-2020-17-1",
+    "huaxue-2021-13-2",
+    "huaxue-2022-3",
+    "huaxue-2023-14-3",
+    "huaxue-2024-12-1",
+    "huaxue-2024-12-3",
+    "huaxue-2024-16-3",
+    "huaxue-2025-18-1",
+    "huaxue-2026-17-1",
+    "huaxue-2026-17-2"
+   ]
+  },
+  "huaxue.acid.indicator": {
+   "name": "酸碱指示剂",
+   "module": "常见的酸和碱",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 7,
+   "score": 5.4,
+   "qs": [
+    "huaxue-2020-16-2",
+    "huaxue-2022-13-4",
+    "huaxue-2023-16-1",
+    "huaxue-2023-16-3",
+    "huaxue-2024-10",
+    "huaxue-2025-14-1",
+    "huaxue-2025-14-3"
+   ]
+  },
+  "huaxue.acid.acids": {
+   "name": "常见的酸",
+   "module": "常见的酸和碱",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 11.4,
+   "qs": [
+    "huaxue-2020-15-3",
+    "huaxue-2021-5",
+    "huaxue-2021-10",
+    "huaxue-2022-13-1",
+    "huaxue-2022-13-2",
+    "huaxue-2024-9",
+    "huaxue-2024-14-2",
+    "huaxue-2025-10",
+    "huaxue-2026-15-2"
+   ]
+  },
+  "huaxue.acid.bases": {
+   "name": "常见的碱",
+   "module": "常见的酸和碱",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 9.8,
+   "qs": [
+    "huaxue-2020-15-2",
+    "huaxue-2020-17-2",
+    "huaxue-2020-17-5",
+    "huaxue-2021-8",
+    "huaxue-2023-9",
+    "huaxue-2024-16-1",
+    "huaxue-2024-17-2",
+    "huaxue-2025-6",
+    "huaxue-2026-17-6"
+   ]
+  },
+  "huaxue.acid.neutralization": {
+   "name": "中和反应及其应用",
+   "module": "常见的酸和碱",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 6,
+   "score": 11.2,
+   "qs": [
+    "huaxue-2020-13-1",
+    "huaxue-2020-16-2",
+    "huaxue-2022-13-5",
+    "huaxue-2023-14-1",
+    "huaxue-2024-8",
+    "huaxue-2025-14-3"
+   ]
+  },
+  "huaxue.acid.ph": {
+   "name": "溶液的酸碱度（pH）",
+   "module": "常见的酸和碱",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 9.4,
+   "qs": [
+    "huaxue-2020-10",
+    "huaxue-2020-13-1",
+    "huaxue-2021-5",
+    "huaxue-2022-13-4",
+    "huaxue-2023-16-3",
+    "huaxue-2024-16-1",
+    "huaxue-2024-17-1",
+    "huaxue-2025-14-3",
+    "huaxue-2026-8"
+   ]
+  },
+  "huaxue.salt.common": {
+   "name": "常见的盐",
+   "module": "盐和化肥",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 13.6,
+   "qs": [
+    "huaxue-2020-12-2",
+    "huaxue-2020-17-5",
+    "huaxue-2021-15-2",
+    "huaxue-2022-11-3",
+    "huaxue-2024-12-4",
+    "huaxue-2024-16-4",
+    "huaxue-2025-10",
+    "huaxue-2025-17-4",
+    "huaxue-2026-17-3"
+   ]
+  },
+  "huaxue.salt.metathesis": {
+   "name": "复分解反应及其条件",
+   "module": "盐和化肥",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024,
+    2025
+   ],
+   "count": 7,
+   "score": 7.2,
+   "qs": [
+    "huaxue-2020-15-2",
+    "huaxue-2020-17-4",
+    "huaxue-2021-10",
+    "huaxue-2021-15-2",
+    "huaxue-2022-15-2",
+    "huaxue-2024-17-2",
+    "huaxue-2025-17-4"
+   ]
+  },
+  "huaxue.salt.fertilizer": {
+   "name": "化学肥料",
+   "module": "盐和化肥",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 12.4,
+   "qs": [
+    "huaxue-2021-3",
+    "huaxue-2022-10",
+    "huaxue-2023-12-3",
+    "huaxue-2024-4",
+    "huaxue-2025-5",
+    "huaxue-2026-3"
+   ]
+  },
+  "huaxue.salt.crude_salt": {
+   "name": "粗盐提纯与海水晒盐",
+   "module": "盐和化肥",
+   "years": [
+    2021,
+    2024,
+    2025
+   ],
+   "count": 4,
+   "score": 8.0,
+   "qs": [
+    "huaxue-2021-13-2",
+    "huaxue-2024-12-1",
+    "huaxue-2024-12-2",
+    "huaxue-2025-16-2"
+   ]
+  },
+  "huaxue.life.nutrients": {
+   "name": "人类重要的营养物质",
+   "module": "化学与生活",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "count": 5,
+   "score": 9.2,
+   "qs": [
+    "huaxue-2020-4",
+    "huaxue-2021-1",
+    "huaxue-2022-6",
+    "huaxue-2023-11-1",
+    "huaxue-2024-7"
+   ]
+  },
+  "huaxue.life.elements_health": {
+   "name": "化学元素与人体健康",
+   "module": "化学与生活",
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 12.6,
+   "qs": [
+    "huaxue-2020-5",
+    "huaxue-2020-13-2",
+    "huaxue-2022-11-3",
+    "huaxue-2023-11-3",
+    "huaxue-2023-18-2",
+    "huaxue-2024-2",
+    "huaxue-2025-1",
+    "huaxue-2026-1",
+    "huaxue-2026-18-2"
+   ]
+  },
+  "huaxue.life.materials": {
+   "name": "有机物与化学材料",
+   "module": "化学与生活",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 13.2,
+   "qs": [
+    "huaxue-2020-2",
+    "huaxue-2021-4",
+    "huaxue-2022-1",
+    "huaxue-2022-8",
+    "huaxue-2023-2",
+    "huaxue-2024-11-2",
+    "huaxue-2025-2",
+    "huaxue-2026-6",
+    "huaxue-2026-11-1"
+   ]
+  },
+  "huaxue.inquiry.control_variable": {
+   "name": "控制变量与对比实验",
+   "module": "科学探究与化学实验（综合）",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 13,
+   "score": 16.8,
+   "qs": [
+    "huaxue-2021-9",
+    "huaxue-2022-17-2",
+    "huaxue-2022-17-5",
+    "huaxue-2023-17-3",
+    "huaxue-2023-17-4",
+    "huaxue-2023-17-5",
+    "huaxue-2024-17-3",
+    "huaxue-2024-17-4",
+    "huaxue-2025-17-1",
+    "huaxue-2025-17-2",
+    "huaxue-2026-17-3",
+    "huaxue-2026-17-4",
+    "huaxue-2026-17-5"
+   ]
+  },
+  "huaxue.inquiry.data_analysis": {
+   "name": "实验数据与图像分析",
+   "module": "科学探究与化学实验（综合）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 20,
+   "score": 20.6,
+   "qs": [
+    "huaxue-2020-10",
+    "huaxue-2020-15-1",
+    "huaxue-2021-9",
+    "huaxue-2021-10",
+    "huaxue-2021-17-4",
+    "huaxue-2021-17-5",
+    "huaxue-2021-17-6",
+    "huaxue-2022-6",
+    "huaxue-2022-17-4",
+    "huaxue-2023-10",
+    "huaxue-2023-17-2",
+    "huaxue-2023-17-4",
+    "huaxue-2024-13-2",
+    "huaxue-2024-17-5",
+    "huaxue-2025-15-4",
+    "huaxue-2025-17-2",
+    "huaxue-2025-17-7",
+    "huaxue-2026-12-4",
+    "huaxue-2026-15-2",
+    "huaxue-2026-17-4"
+   ]
+  },
+  "huaxue.inquiry.design_eval": {
+   "name": "实验方案设计与评价、证据推理",
+   "module": "科学探究与化学实验（综合）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 21,
+   "score": 20.4,
+   "qs": [
+    "huaxue-2020-9",
+    "huaxue-2020-17-3",
+    "huaxue-2020-17-4",
+    "huaxue-2021-17-2",
+    "huaxue-2021-17-5",
+    "huaxue-2021-17-6",
+    "huaxue-2021-17-7",
+    "huaxue-2022-10",
+    "huaxue-2022-16-3",
+    "huaxue-2022-17-3",
+    "huaxue-2022-17-5",
+    "huaxue-2023-6",
+    "huaxue-2023-9",
+    "huaxue-2023-17-5",
+    "huaxue-2023-17-6",
+    "huaxue-2024-10",
+    "huaxue-2024-17-4",
+    "huaxue-2025-17-5",
+    "huaxue-2025-17-6",
+    "huaxue-2026-14-3",
+    "huaxue-2026-17-5"
+   ]
+  },
+  "huaxue.inquiry.identify": {
+   "name": "物质的检验、鉴别与除杂",
+   "module": "科学探究与化学实验（综合）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024,
+    2025
+   ],
+   "count": 13,
+   "score": 13.4,
+   "qs": [
+    "huaxue-2020-9",
+    "huaxue-2020-15-4",
+    "huaxue-2020-17-5",
+    "huaxue-2021-8",
+    "huaxue-2021-11-3",
+    "huaxue-2021-17-3",
+    "huaxue-2021-17-7",
+    "huaxue-2022-10",
+    "huaxue-2022-14-3",
+    "huaxue-2024-16-4",
+    "huaxue-2024-17-6",
+    "huaxue-2025-17-3",
+    "huaxue-2025-17-5"
+   ]
+  },
+  "huaxue.inquiry.process": {
+   "name": "工艺流程分析",
+   "module": "科学探究与化学实验（综合）",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "count": 8,
+   "score": 3.8,
+   "qs": [
+    "huaxue-2022-15-1",
+    "huaxue-2022-15-2",
+    "huaxue-2022-15-3",
+    "huaxue-2022-15-5",
+    "huaxue-2023-14-4",
+    "huaxue-2023-14-5",
+    "huaxue-2024-15-3",
+    "huaxue-2026-9"
+   ]
+  },
+  "huaxue.society.culture": {
+   "name": "中华传统文化与化学史",
+   "module": "化学与社会·跨学科实践（综合）",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 15,
+   "score": 12.4,
+   "qs": [
+    "huaxue-2020-1",
+    "huaxue-2020-11-3",
+    "huaxue-2020-12-2",
+    "huaxue-2021-12-1",
+    "huaxue-2021-13-1",
+    "huaxue-2022-9",
+    "huaxue-2022-15-5",
+    "huaxue-2023-13-3",
+    "huaxue-2023-13-5",
+    "huaxue-2024-9",
+    "huaxue-2025-8",
+    "huaxue-2025-16-2",
+    "huaxue-2025-17-7",
+    "huaxue-2026-3",
+    "huaxue-2026-7"
+   ]
+  },
+  "huaxue.society.frontier": {
+   "name": "科技前沿与新材料中的化学",
+   "module": "化学与社会·跨学科实践（综合）",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 14.0,
+   "qs": [
+    "huaxue-2022-4",
+    "huaxue-2022-12-3",
+    "huaxue-2022-14-5",
+    "huaxue-2023-12-3",
+    "huaxue-2024-1",
+    "huaxue-2025-15-2",
+    "huaxue-2025-15-5",
+    "huaxue-2026-2",
+    "huaxue-2026-13-3",
+    "huaxue-2026-13-4"
+   ]
+  },
+  "huaxue.society.green": {
+   "name": "绿色化学与可持续发展",
+   "module": "化学与社会·跨学科实践（综合）",
+   "years": [
+    2024,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 3.2,
+   "qs": [
+    "huaxue-2024-11-3",
+    "huaxue-2024-18-2",
+    "huaxue-2025-12-4",
+    "huaxue-2026-13-4"
+   ]
+  },
+  "huaxue.society.project": {
+   "name": "跨学科实践与项目式学习",
+   "module": "化学与社会·跨学科实践（综合）",
+   "years": [
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 4.2,
+   "qs": [
+    "huaxue-2025-13-1",
+    "huaxue-2026-14-1",
+    "huaxue-2026-14-3",
+    "huaxue-2026-16-4"
+   ]
+  }
+ }
+}

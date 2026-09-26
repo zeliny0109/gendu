@@ -1,0 +1,995 @@
+{
+ "subject": "wuli",
+ "year": 2025,
+ "source": "福建省教育考试院《2025年福建省初中学业水平考试 试题、参考答案》合订本（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/tzgg/202506/t20250621_5036744.htm",
+ "total": 100,
+ "minutes": 90,
+ "materials": [
+  {
+   "id": "m1",
+   "text": "为了提高学生户外生存技能，学校开展取火和自制指南针实践活动，据此完成15～16题。",
+   "figures": []
+  },
+  {
+   "id": "m24",
+   "text": "（4分）防冻液是一种用于汽车发动机冷却系统的特殊液体。为判断某防冻液在最低气温为 $-25\\ ℃$ 的某地区能否使用，利用图18甲装置进行实验。",
+   "figures": [
+    "figs/2025-m24-1.png"
+   ]
+  },
+  {
+   "id": "m25",
+   "text": "（5分）探究平面镜成像的特点，实验装置如图19甲。",
+   "figures": [
+    "figs/2025-m25-1.png"
+   ]
+  },
+  {
+   "id": "m26",
+   "text": "（8分）用伏安法测量额定电压为 $2.5\\ \\text{V}$ 小灯泡的电阻，实验装置如图20甲。",
+   "figures": [
+    "figs/2025-m26-1.png"
+   ]
+  },
+  {
+   "id": "m27",
+   "text": "（6分）探究液体压强与哪些因素有关，完成下列任务。",
+   "figures": [
+    "figs/2025-m27-1.png"
+   ]
+  },
+  {
+   "id": "m28",
+   "text": "（7分）降水量是指一段时间内，雨水（或融化后的固体降水）未经蒸发、渗透和流失所积聚起来的水层深度。为了监测降水量，科创小组制作了“翻斗式雨量计”，装置外观是上端开口的圆柱体，如图22甲。内部结构示意图如图22乙。装置核心部件如图22丙，它是用中间隔板分开的两个完全对称的三角形容器，可绕 $O$ 点处的水平轴转动，从而使两侧容器轮流接水，当一侧容器接满 $10\\ \\text{mL}$ 雨水时会发生翻转，将水倒出，随着降雨持续，翻斗左右翻转，过程如图22丁。磁铁与配重通过连杆安装在翻斗上并随翻斗左右摆动，当磁铁经过磁感应开关（两者相互作用力忽略不计）时，磁感应开关通过电流传感器将翻斗翻转信息变成电信号，从而推算降水量。",
+   "figures": [
+    "figs/2025-m28-1.png",
+    "figs/2025-m28-2.png"
+   ]
+  },
+  {
+   "id": "m29",
+   "text": "（6分）某电水壶的部分参数如下表所示。该电水壶正常工作时，可将质量为 $1\\ \\text{kg}$ 的水从 $20\\ ℃$ 加热到 $100\\ ℃$，用时 $420\\ \\text{s}$。已知 $c_{水}=4.2\\times10^{3}\\ \\text{J/(kg·℃)}$。求：\n\n| 额定电压 | 220 V |\n|---|---|\n| 额定功率 | 1 000 W |",
+   "figures": []
+  },
+  {
+   "id": "m30",
+   "text": "（7分）运-20是我国自主研制的重型运输机，如图24。飞机获得的升力 $F$ 与其在平直跑道上滑行速度 $v$ 的平方成正比，即 $F=kv^2$，$k$ 为定值（未知）。飞机在平直跑道上从静止开始加速，当速度达到 $v_1$ 时，飞机即将离地起飞，此时飞机所受升力与重力相等。升空后，飞机若以速度 $800\\ \\text{km/h}$ 沿水平直线匀速飞行 $0.5\\ \\text{h}$，其发动机在水平方向的牵引力大小为 $3.6\\times10^{5}\\ \\text{N}$。",
+   "figures": [
+    "figs/2025-m30-1.png"
+   ]
+  },
+  {
+   "id": "m31",
+   "text": "（9分）图25为科创小组测量大气压和海拔的简易装置原理图，$R_0$ 为定值电阻，$R_F$ 为力敏电阻，$R_F$ 置于圆柱体容器底部，可自由滑动的活塞通过轻杆压在力敏电阻上。容器内抽成真空，装置气密性良好。该装置通过两电表示数分别转换测出大气压值和海拔，且示数均随测量值增大而增大。电源电压恒为 $6\\ \\text{V}$，$R_0=30\\ \\Omega$，$R_F$ 的阻值与压力大小 $F$ 的关系为 $R_F=1\\ 030-2.5F$，电压表量程为 $0\\sim3\\ \\text{V}$，电流表量程为 $0\\sim0.6\\ \\text{A}$。活塞横截面积为 $4\\times10^{-3}\\ \\text{m}^2$，忽略摩擦，不计活塞质量。查阅资料，大气压 $p$ 与海拔 $h$ 的关系如下表。\n\n| 海拔 $h$/m | 0 | 100 | 200 | 300 | 400 | 500 | …… | 1 000 | 2 000 | …… |\n|---|---|---|---|---|---|---|---|---|---|---|\n| 大气压 $p$/$\\times10^{3}$ Pa | 101 | 100 | 99 | 98 | 97 | 96 | …… | 90 | 80 | …… |",
+   "figures": [
+    "figs/2025-m31-1.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "wuli-2025-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列属于可再生能源的是",
+   "options": [
+    "A. 煤",
+    "B. 核能",
+    "C. 风能",
+    "D. 天然气"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.energy.sources"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "用智能手机监测噪声，显示的“$50.6\\ \\text{dB}$”是指声音的",
+   "options": [
+    "A. 音调",
+    "B. 响度",
+    "C. 音色",
+    "D. 频率"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.sound.features",
+    "wuli.sound.noise"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "人体肺泡极多，图1是记录人体单个肺泡直径的数据，其单位是",
+   "options": [
+    "A. 微米",
+    "B. 毫米",
+    "C. 厘米",
+    "D. 分米"
+   ],
+   "figures": [
+    "figs/2025-3-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.motion.estimate",
+    "wuli.motion.measure"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "空间站中，发光二极管为金鱼藻提供光照，其主要材料属于",
+   "options": [
+    "A. 导体",
+    "B. 半导体",
+    "C. 绝缘体",
+    "D. 超导体"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.energy.materials"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "《考工记》记载：“马力既竭，辀犹能一取焉。”展现出古人观察到马已停止用力，车还能前进一段距离。车继续前进的主要原因是其",
+   "options": [
+    "A. 具有惯性",
+    "B. 受到推力",
+    "C. 受力平衡",
+    "D. 受到摩擦力"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.mf.inertia"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "图2为搭乘“天舟八号”前往中国空间站的月壤砖的模型，该模型等同于由四个相同正方体组合而成。将其放在地球水平桌面上，如图3，对桌面压强最小的是",
+   "options": [
+    "A. （见图3）",
+    "B. （见图3）",
+    "C. （见图3）",
+    "D. （见图3）"
+   ],
+   "figures": [
+    "figs/2025-6-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.pressure.solid"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "关于新能源电动汽车充电桩的安装和使用，下列符合安全用电要求的是",
+   "options": [
+    "A. 用湿抹布擦拭充电插口",
+    "B. 充电桩需要安装接地线",
+    "C. 充电桩起火立即泼水救火",
+    "D. 充电桩无需安装保险装置"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.home.safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "在体育运动中，图4中的做法为了减小摩擦的是",
+   "options": [
+    "A. 穿轮滑鞋",
+    "B. 手涂防滑粉",
+    "C. 戴手套接球",
+    "D. 用力捏车闸"
+   ],
+   "figures": [
+    "figs/2025-8-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.force.friction"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图5，大头针插在玻璃瓶的软木塞上，把金属箔悬挂在大头针上。带电体接触大头针后，金属箔张开，此过程",
+   "options": [
+    "A. 正电荷发生转移",
+    "B. 可检验带电体的电性",
+    "C. 金属箔带上同种电荷",
+    "D. 张开角度越小，所带电荷越多"
+   ],
+   "figures": [
+    "figs/2025-9-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.circuit.charge"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "小闽为康养中心的老人设计服务信号电路图，灯亮表示提醒卫生服务，电铃响表示呼叫医疗服务。图6中**不符合**要求的是",
+   "options": [
+    "A. （见图6）",
+    "B. （见图6）",
+    "C. （见图6）",
+    "D. （见图6）"
+   ],
+   "figures": [
+    "figs/2025-10-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.circuit.design"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2025-11",
+   "no": "11",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图7，修表师傅可通过“寸镜”看清手表微小结构。“寸镜”内部有一个凸透镜，使用时手表到凸透镜的距离应",
+   "options": [
+    "A. 小于1倍焦距",
+    "B. 等于1倍焦距",
+    "C. 大于2倍焦距",
+    "D. 在2倍焦距与1倍焦距之间"
+   ],
+   "figures": [
+    "figs/2025-11-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.lens.imaging"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-12",
+   "no": "12",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图8，红茶加工包含“萎凋”“揉捻”“发酵”“烘干”等工序。下列说法**错误**的是",
+   "options": [
+    "A. “萎凋”时摊开茶叶可加快水分蒸发",
+    "B. “揉捻”使茶叶卷缩，说明力可改变物体的形状",
+    "C. “发酵”时闻到气味是因为分子在永不停息地运动",
+    "D. “烘干”是通过做功减小茶叶的内能"
+   ],
+   "figures": [
+    "figs/2025-12-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.thermal.internal_energy",
+    "wuli.heat.vaporization",
+    "wuli.thermal.molecule"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-13",
+   "no": "13",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "抽水蓄能电站被称为“超级充电宝”，用电低谷时段利用电网多余电能抽水至上水库，用电高峰时段再放水至下水库发电，如图9。关于抽水蓄能电站，下列说法正确的是",
+   "options": [
+    "A. 用电低谷时，以电能的形式储能",
+    "B. 用电高峰时，机械能转化为电能",
+    "C. 选址时，上下水库的高度差要小",
+    "D. 存储的能量可以全部转化为电能"
+   ],
+   "figures": [
+    "figs/2025-13-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.thermal.conservation",
+    "wuli.work.mech_energy"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2025-14",
+   "no": "14",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "光照强度会影响花卉生长。图10甲为光照强度过大时触发报警的电路，电源电压不变，$R_0$ 为阻值可调的电阻箱，$R$ 为光敏电阻，其阻值随光照强度变化关系如图10乙。当电流表示数大于某一值 $I_0$ 时触发报警，$I_0$ 时的光照强度为警戒光照强度。闭合开关S，下列说法正确的是",
+   "options": [
+    "A. $R$ 的阻值随光照强度增大而增大",
+    "B. 增大 $R_0$ 阻值可增大警戒光照强度",
+    "C. $R_0$ 一定时，光照强度越大，通过 $R_0$ 的电流越大",
+    "D. $R_0$ 一定时，光照强度越大，电流表示数越小"
+   ],
+   "figures": [
+    "figs/2025-14-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.ohm.dynamic"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2025-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "material": "m1",
+   "stem": "将包装口香糖的锡箔纸剪成如图11形状，其他条件相同时，$C$ 处的横截面积小，电阻____。$A$、$B$ 两端分别与电池正负极接触，观察到 $C$ 处起火，该现象利用了电流的____效应。",
+   "figures": [
+    "figs/2025-15-1.png"
+   ],
+   "answer": "大　热",
+   "kp": [
+    "wuli.circuit.resistance",
+    "wuli.power.joule"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "material": "m1",
+   "stem": "将回形针掰直，磁化后放在树叶上，漂浮于水面，如图12，回形针在地球____的作用下，静止后指向南北。参照冬季午间小草的影子偏向北方，进一步推测 $A$ 端是回形针磁体的____极。",
+   "figures": [
+    "figs/2025-16-1.png"
+   ],
+   "answer": "磁场（地磁场）　S（南）",
+   "kp": [
+    "wuli.magnet.basics",
+    "wuli.light.propagation"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2025-17",
+   "no": "17",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "仿生海洋机器鱼模仿鱼类的游动方式，与螺旋桨推进方式相比，噪声小，这是在____处减弱噪声。机器鱼游动时，相对于海岸是____的。",
+   "answer": "声源　运动",
+   "kp": [
+    "wuli.sound.noise",
+    "wuli.motion.relative"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-18",
+   "no": "18",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "科创小组制作遥控“泵喷式”船模，当船向后喷水时，船获得向前的推力，表明物体间力的作用是____的。遥控发射器利用____波控制船。",
+   "answer": "相互　电磁",
+   "kp": [
+    "wuli.force.concept",
+    "wuli.energy.em_wave"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-19",
+   "no": "19",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "图13为电学知识部分结构图，请补充完整。（①____　②____）",
+   "figures": [
+    "figs/2025-19-1.png"
+   ],
+   "answer": "①电能　②电流 $I$",
+   "kp": [
+    "wuli.power.energy",
+    "wuli.ohm.law",
+    "wuli.circuit.current"
+   ],
+   "difficulty": 1,
+   "note": "原题空位在图13的方框①②中，题干括号内的空为转录时添加。"
+  },
+  {
+   "id": "wuli-2025-20",
+   "no": "20",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "图14为探究摩擦力的实验装置。当桶和沙的总质量为 $0.24\\ \\text{kg}$ 时，木块和木板在水平桌面上保持静止，力传感器示数为 $0.4\\ \\text{N}$。$a$、$b$ 两段轻绳均与桌面平行。图中滑轮的作用是____。不计绳与滑轮间的摩擦，桌面对木板的摩擦力大小为____N。",
+   "figures": [
+    "figs/2025-20-1.png"
+   ],
+   "answer": "改变力的方向　2",
+   "kp": [
+    "wuli.force.friction",
+    "wuli.mf.balance",
+    "wuli.machine.pulley"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2025-21",
+   "no": "21",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "在图15中，画出悬浮在水中的潜水艇模型受到的重力和浮力的示意图。",
+   "figures": [
+    "figs/2025-21-1.png"
+   ],
+   "answer": "如答图1",
+   "answer_figures": [
+    "figs/2025-21-ans.png"
+   ],
+   "kp": [
+    "wuli.force.diagram",
+    "wuli.buoyancy.float_sink"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-22",
+   "no": "22",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "在图16中，画出入射光线的反射光线和折射光线的大致位置。",
+   "figures": [
+    "figs/2025-22-1.png"
+   ],
+   "answer": "如答图2",
+   "answer_figures": [
+    "figs/2025-22-ans.png"
+   ],
+   "kp": [
+    "wuli.light.ray_drawing",
+    "wuli.light.refraction",
+    "wuli.light.reflection"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-23",
+   "no": "23",
+   "section": "简答题",
+   "type": "short",
+   "score": 4,
+   "stem": "“七星漂”钓法是我国传统钓鱼方法之一，钓组由浮子、钓线、坠子、鱼钩和鱼饵组成，如图17。请用物理知识回答：\n\n（1）浮子常用轻质鹅毛羽轴或泡沫制作的原因。\n\n（2）钓组入水后，坠子将鱼饵快速拉向水底。为了减小水的阻力，坠子体积宜小。若有铝和铅两种材料，在其他条件相同时，选择哪种材料制作坠子更合适？分析选择的理由。（$\\rho_{铝}=2.7\\ \\text{g/cm}^3$，$\\rho_{铅}=11.3\\ \\text{g/cm}^3$）",
+   "figures": [
+    "figs/2025-23-1.png"
+   ],
+   "answer": "（1）轻质鹅毛羽轴或泡沫的密度小于水的密度，能漂浮在水面。\n（2）选择铅制作坠子更合适。在质量 $m$ 相同时，$\\rho_{铅}>\\rho_{铝}$，由 $\\rho=\\dfrac{m}{V}$ 可知，$V_{铅}<V_{铝}$，铅坠子在水中运动时的阻力小。",
+   "kp": [
+    "wuli.buoyancy.float_sink",
+    "wuli.density.application"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2025-24-1",
+   "no": "24(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 3,
+   "material": "m24",
+   "stem": "烧杯中装有适量防冻液，置于制冷剂中，用温度传感器每隔 $1\\ \\text{min}$ 记录防冻液的温度，绘制温度随时间变化的图像，如图18乙。观察到 $14\\sim20\\ \\text{min}$ 防冻液处于固液共存状态，分析图像可知：防冻液在凝固过程中温度____，凝固点为____℃，由此判断该防冻液____在该地区使用；",
+   "answer": "保持不变（不变）　$-35$　能（可以）",
+   "kp": [
+    "wuli.heat.exp_melting",
+    "wuli.heat.melting"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-24-2",
+   "no": "24(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m24",
+   "stem": "装制冷剂的容器外壁出现霜，这是空气中水蒸气____形成的小冰晶。",
+   "answer": "凝华",
+   "kp": [
+    "wuli.heat.sublimation"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-25-1",
+   "no": "25(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m25",
+   "stem": "实验前，将白纸平铺在水平桌面上，玻璃板____架在纸上。",
+   "answer": "垂直（竖直、竖立）",
+   "kp": [
+    "wuli.light.exp_plane_mirror"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-25-2",
+   "no": "25(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m25",
+   "stem": "在玻璃板前放置点燃的蜡烛 $A$，在玻璃板后移动完全相同但未点燃的蜡烛 $B$，直到 $B$ 与 $A$ 的像 $A'$ 完全重合，说明像与物的____相等。在纸上描出蜡烛、玻璃板和像的位置，处理数据如图19乙。",
+   "answer": "大小",
+   "kp": [
+    "wuli.light.exp_plane_mirror"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-25-3",
+   "no": "25(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m25",
+   "stem": "得出结论：像与物关于平面镜对称。为使该结论具有普遍性，提出一条改进建议：____。",
+   "answer": "改变蜡烛 $A$ 的位置，多次实验（答案合理即可）",
+   "kp": [
+    "wuli.light.exp_plane_mirror",
+    "wuli.method.inquiry"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-25-4",
+   "no": "25(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m25",
+   "stem": "利用茶色薄玻璃板制作如图19丙的“临摹神器”，可在白纸上临摹手机画面。如图19丁，当手机屏幕与白纸的夹角为 $80°$，若要使手机画面通过玻璃板所成像的位置在白纸上，玻璃板与桌面的夹角 $\\theta$ 应为____°，临摹时要在____（填“①”或“②”）位置观察。",
+   "answer": "50　①",
+   "kp": [
+    "wuli.light.exp_plane_mirror",
+    "wuli.light.plane_mirror"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-26-1",
+   "no": "26(1)",
+   "section": "实验题",
+   "type": "draw",
+   "score": 2,
+   "material": "m26",
+   "stem": "用笔画线代替导线将图20甲电路连接正确。（2分）",
+   "answer": "如答图3（2分）",
+   "answer_figures": [
+    "figs/2025-26-1-ans.png"
+   ],
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.circuit.drawing"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2025-26-2",
+   "no": "26(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "闭合开关前，应将滑动变阻器的滑片P置于最____端。",
+   "answer": "右",
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.circuit.resistance"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-26-3",
+   "no": "26(3)",
+   "section": "实验题",
+   "type": "choice",
+   "score": 1,
+   "material": "m26",
+   "stem": "闭合开关，定向移动滑片P，发现电表指针示数忽大忽小，且变化幅度较大。经检查，故障只发生在滑动变阻器，故障的原因可能是____。",
+   "options": [
+    "A. 滑动变阻器短路",
+    "B. 滑动变阻器的滑片P与电阻丝接触不良"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.ohm.fault"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-26-4",
+   "no": "26(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 4,
+   "material": "m26",
+   "stem": "排除故障，继续实验。实验小组设计如下表格并记录部分实验数据。\n\n| 实验次序 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| 电压 $U$/V | 0.9 | 1.3 | 1.7 | 2.1 | 2.5 |\n| 电流 $I$/A | 0.20 | 0.22 |  | 0.28 | 0.30 |\n| 电阻 $R$/Ω | 4.5 | 5.9 |  | 7.5 |  |\n| 电阻平均值 $\\overline{R}$/Ω | | | | | |\n\n①电压表示数为 $1.7\\ \\text{V}$ 时，电流表示数如图20乙所示，读数为____A。\n\n②小灯泡正常发光时电阻为____Ω。（保留一位小数）\n\n③表格中设计不合理的一项是____，原因是____。",
+   "answer": "①0.26　②8.3　③电阻平均值 $\\overline{R}$/Ω　小灯泡的电阻会随温度变化而变化（答案合理即可）",
+   "kp": [
+    "wuli.ohm.exp_measure_r",
+    "wuli.circuit.current"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定。表格末行“电阻平均值”一栏在原卷中为合并单元格。"
+  },
+  {
+   "id": "wuli-2025-27-1",
+   "no": "27(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "**任务一　测量盐水、水和酒精的密度**\n\n将天平放在水平台上，把游码移至标尺左端____处，并调节好天平。",
+   "answer": "零刻度线",
+   "kp": [
+    "wuli.density.exp_liquid",
+    "wuli.density.mass"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-27-2",
+   "no": "27(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "用注射器抽取 $5\\ \\text{mL}$ 盐水，用天平测得注射器和盐水的总质量，如图21甲所示，为____g。",
+   "answer": "15.8",
+   "kp": [
+    "wuli.density.exp_liquid",
+    "wuli.density.mass"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-27-3",
+   "no": "27(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "用注射器继续抽取盐水，活塞移至 $15\\ \\text{mL}$ 处，测得注射器和盐水的总质量为 $27.4\\ \\text{g}$，盐水的密度为____$\\text{g/cm}^3$。继续测出水和酒精的密度。",
+   "answer": "1.16",
+   "kp": [
+    "wuli.density.exp_liquid",
+    "wuli.density.concept"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-27-4",
+   "no": "27(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "**任务二　探究液体内部的压强**\n\n图21乙是U形管压强计，实验时通过两侧液面的高度差来反映____的大小。",
+   "answer": "液体压强（压强）",
+   "kp": [
+    "wuli.pressure.exp_liquid"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-27-5",
+   "no": "27(5)",
+   "section": "实验题",
+   "type": "short",
+   "score": 2,
+   "material": "m27",
+   "stem": "三个容器分别装有适量的盐水、水和酒精，改变探头在液体中的深度，记录探头的深度 $h$ 与U形管两侧液面的高度差 $\\Delta h$，绘制 $\\Delta h$-$h$ 图像如图21丙，分析图像可知：\n\n①液体压强与液体的深度有关，在相同液体内部，深度越深，压强越____。\n\n②液体压强与液体的密度有关。\n\n根据图像，陈述得出结论②的理由：____。",
+   "answer": "①大　②深度相同时，液体密度不同，U形管压强计两侧液面的高度差不同，液体压强不同（答案合理即可）",
+   "kp": [
+    "wuli.pressure.exp_liquid",
+    "wuli.pressure.liquid"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-28-1",
+   "no": "28(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m28",
+   "stem": "翻斗在水平位置时是等臂杠杆，实验器材中属于等臂杠杆的有____。",
+   "answer": "托盘天平（天平、定滑轮）",
+   "kp": [
+    "wuli.machine.lever",
+    "wuli.method.project"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-28-2",
+   "no": "28(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m28",
+   "stem": "连杆上装有可调高度的配重。校准过程，若倒入的水量总是大于 $10\\ \\text{mL}$ 时翻斗才发生翻转，可通过____（填“降低”或“升高”）配重在连杆上的位置进行调整。",
+   "answer": "降低",
+   "kp": [
+    "wuli.machine.lever",
+    "wuli.method.project"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-28-3",
+   "no": "28(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 4,
+   "material": "m28",
+   "stem": "图23甲是翻斗翻转信息变为电信号的工作电路，电源电压不变，$R_1$、$R_2$ 为定值电阻，$R_1=800\\ \\Omega$。某次降雨，电流传感器（电阻不计）测得电流随时间变化关系如图23乙。\n\n①当磁铁每次经过磁感应开关时，开关状态是____。\n\n②“翻斗式雨量计”顶端开口面积为 $0.1\\ \\text{m}^2$，由图23乙可知该地区 $30\\ \\text{min}$ 内降水量约为____mm，降水量变化趋势是____。（测量前翻斗内无水）\n\n③由图23可知，$R_2=$____Ω。",
+   "figures": [
+    "figs/2025-28-3-1.png"
+   ],
+   "answer": "①闭合　②1.2　减弱（减缓、变小）　③200",
+   "kp": [
+    "wuli.ohm.law",
+    "wuli.method.project",
+    "wuli.density.concept"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-28-4",
+   "no": "28(4)",
+   "section": "实验题",
+   "type": "short",
+   "score": 1,
+   "material": "m28",
+   "stem": "若该装置在我国北方地区使用，可改进的措施是____。",
+   "answer": "低温天气，增加加热装置\n另答：若降水量偏小，可以降低配重的高度并重新校准参数\n（答案合理即可）",
+   "kp": [
+    "wuli.method.project",
+    "wuli.heat.melting"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2025-29-1",
+   "no": "29(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m29",
+   "stem": "水吸收的热量。",
+   "answer": "解：（1）水吸收的热量\n$Q=cm(t_2-t_1)=4.2\\times10^{3}\\ \\text{J/(kg·℃)}\\times1\\ \\text{kg}\\times(100\\ ℃-20\\ ℃)=3.36\\times10^{5}\\ \\text{J}$",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题2分。",
+   "kp": [
+    "wuli.thermal.specific_heat"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-29-2",
+   "no": "29(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m29",
+   "stem": "电水壶消耗的电能。",
+   "answer": "（2）电水壶消耗的电能\n$W=Pt=1\\ 000\\ \\text{W}\\times420\\ \\text{s}=4.2\\times10^{5}\\ \\text{J}$",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题2分。",
+   "kp": [
+    "wuli.power.energy",
+    "wuli.power.power"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-29-3",
+   "no": "29(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m29",
+   "stem": "电水壶的热效率。",
+   "answer": "（3）电水壶的热效率\n$\\eta=\\dfrac{Q}{W}\\times100\\%=\\dfrac{3.36\\times10^{5}\\ \\text{J}}{4.2\\times10^{5}\\ \\text{J}}\\times100\\%=80\\%$",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题2分。",
+   "kp": [
+    "wuli.thermal.efficiency"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-30-1",
+   "no": "30(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m30",
+   "stem": "求升空后飞机在上述 $0.5\\ \\text{h}$ 内通过的路程。",
+   "answer": "解：（1）飞机在 $0.5\\ \\text{h}$ 内通过的路程\n$s=vt=800\\ \\text{km/h}\\times0.5\\ \\text{h}=400\\ \\text{km}$",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题3分。",
+   "kp": [
+    "wuli.motion.speed"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-30-2",
+   "no": "30(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m30",
+   "stem": "求升空后飞机在上述 $0.5\\ \\text{h}$ 内水平方向牵引力做的功。",
+   "answer": "（2）$s=400\\ \\text{km}=4\\times10^{5}\\ \\text{m}$\n飞机在 $0.5\\ \\text{h}$ 内水平方向牵引力做的功\n$W=Fs=3.6\\times10^{5}\\ \\text{N}\\times4\\times10^{5}\\ \\text{m}=1.44\\times10^{11}\\ \\text{J}$",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题3分。",
+   "kp": [
+    "wuli.work.work"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2025-30-3",
+   "no": "30(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m30",
+   "stem": "已知飞机重力为 $G$，求飞机在跑道上滑行速度为 $0.5v_1$ 时受到的支持力。",
+   "answer": "（3）当速度达到 $v_1$ 时，飞机即将离地起飞\n$F_1=G$\n$F_1=kv_1^2$\n可得 $k=\\dfrac{G}{v_1^2}$\n当飞机以 $0.5v_1$ 速度滑行时\n$F_2=k(0.5v_1)^2=\\dfrac{1}{4}G$\n飞机在水平跑道上滑行，竖直方向上受力平衡\n$F_{支}+F_2=G$\n$F_{支}=G-F_2=G-\\dfrac{1}{4}G=\\dfrac{3}{4}G$\n可得 $F_{支}=\\dfrac{3}{4}G$\n\n另解：当速度达到 $v_1$ 时，飞机即将离地起飞\n$F_1=G$\n$F_1=kv_1^2$\n当飞机以 $0.5v_1$ 速度滑行时\n$F_2=k(0.5v_1)^2$\n$\\dfrac{F_1}{F_2}=\\dfrac{kv_1^2}{k(0.5v_1)^2}=4$\n$F_2=\\dfrac{1}{4}G$\n飞机在水平跑道上滑行，竖直方向上受力平衡\n$F_{支}+F_2=G$\n$F_{支}=\\dfrac{3}{4}G$",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题3分。",
+   "kp": [
+    "wuli.mf.balance"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2025-31-1",
+   "no": "31(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m31",
+   "stem": "求 $h=0$ 时活塞受到的压力。",
+   "answer": "解：（1）当 $h=0$ 时，大气压 $p_0=101\\times10^{3}\\ \\text{Pa}$\n由 $p_0=\\dfrac{F_0}{S}$ 可知，活塞受到的压力 $F_0=p_0S=101\\times10^{3}\\ \\text{Pa}\\times4\\times10^{-3}\\ \\text{m}^2=404\\ \\text{N}$",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题2分，第(4)小题3分。",
+   "kp": [
+    "wuli.pressure.atmosphere",
+    "wuli.pressure.solid"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2025-31-2",
+   "no": "31(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m31",
+   "stem": "求 $h=0$ 时通过 $R_0$ 的电流。",
+   "answer": "（2）当 $h=0$ 时，$R_F=1\\ 030-2.5F_0=(1\\ 030-2.5\\times404)\\ \\Omega=20\\ \\Omega$\n$U_{总}=U_0+U_F=IR_0+IR_F$\n可得 $I=\\dfrac{U_{总}}{R_0+R_F}=\\dfrac{6\\ \\text{V}}{30\\ \\Omega+20\\ \\Omega}=0.12\\ \\text{A}$",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题2分，第(4)小题3分。",
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.ohm.law"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2025-31-3",
+   "no": "31(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m31",
+   "stem": "求该装置能测量的最高海拔。",
+   "answer": "（3）分析题意可知，选择电压表示数转换测出海拔。\n当电压表示数为 $3\\ \\text{V}$ 时，所测的海拔最高为 $h_{\\max}$\n$U_0'=U_{总}-U_F'=6\\ \\text{V}-3\\ \\text{V}=3\\ \\text{V}$\n由 $I'=\\dfrac{U_F'}{R_F'}=\\dfrac{U_0'}{R_0}$ 得\n$R_F'=\\dfrac{U_F'}{U_0'}R_0=\\dfrac{3\\ \\text{V}}{3\\ \\text{V}}\\times30\\ \\Omega=30\\ \\Omega$\n又 $R_F'=1\\ 030-2.5F'$\n解得：$F'=400\\ \\text{N}$\n大气压 $p=\\dfrac{F'}{S}=\\dfrac{400\\ \\text{N}}{4\\times10^{-3}\\ \\text{m}^2}=1.0\\times10^{5}\\ \\text{Pa}$\n查表可知，$h_{\\max}=100\\ \\text{m}$",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题2分，第(4)小题3分。",
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.pressure.atmosphere",
+    "wuli.ohm.law"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2025-31-4",
+   "no": "31(4)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m31",
+   "stem": "指出该装置测量时的一项不足之处，针对该不足，就电源和电流表中任选1个，提出相应问题的解决方案，并说明理由。",
+   "answer": "问题1　该装置所测的最高海拔太低。\n方案　适当降低电源电压 $U_{总}$。\n理由：根据欧姆定律和串联电路知识可知 $\\dfrac{R_F}{R_0}=\\dfrac{U_F}{U_0}=\\dfrac{U_F}{U_{总}-U_F}$，得 $R_F=\\dfrac{U_F}{U_{总}-U_F}\\cdot R_0$\n① 当电源电压降低到 $3\\ \\text{V}\\sim6\\ \\text{V}$ 时，$U_F$ 最大值为 $3\\ \\text{V}$ 不变，适当减小电源电压 $U_{总}$，可以增大 $R_F$，可测的气压减小，可测的海拔增加。\n② 当电源电压降低到 $3\\ \\text{V}$ 以下时，$U_F$ 最大值小于 $3\\ \\text{V}$ 且在电压表量程内，可以继续增大 $R_F$，可测的气压减小，可测的海拔增加。\n说明：理由分析时，如没有对电源电压的大小分类讨论，答案合理同样给分。\n\n问题2　电流表指针偏转角度太小，测量误差大。\n方案　将电流表换成适当小量程的电流表。\n理由：由第二问计算可知，电路的最大电流为 $0.12\\ \\text{A}$，只占电流表量程（$0\\sim0.6\\ \\text{A}$）的五分之一，所以适当减小电流表量程（最大值不小于 $120\\ \\text{mA}$）以便减小测量误差。",
+   "rubric": "官方：第(1)小题2分，第(2)小题2分，第(3)小题2分，第(4)小题3分。(4)开放性问题，作答参照如下等级标准评分。\n\n| 等级水平 | 分值 | 等级描述 |\n|---|---|---|\n| 水平4 | 3分 | ①发现不足，问题合理，表述正确。②设计方案可以解决所提出的问题。③理由分析科学、合理，逻辑推理过程完整。 |\n| 水平3 | 2分 | 只体现等级水平4中①、②要求，理由分析不合理或出现错误。只体现等级水平4中①、③要求，无设计方案或设计方案不科学，无法解决问题。 |\n| 水平2 | 1分 | 只体现等级水平4中①、②、③中任意一个要求。 |\n| 水平1 | 0分 | 不能体现等级水平4中①、②、③中任意一个要求。 |",
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.method.inquiry"
+   ],
+   "difficulty": 3
+  }
+ ]
+}

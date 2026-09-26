@@ -1,0 +1,648 @@
+{
+ "subject": "huaxue",
+ "year": 2020,
+ "source": "福建省教育考试院《2020年福建省初中学业水平考试试题、参考答案》（泉州市教育局转载）http://jyj.quanzhou.gov.cn/wsbs/bgxz/202007/W020200720463267194267.pdf",
+ "total": 100,
+ "minutes": 60,
+ "note": "相对原子质量：H 1　C 12　O 16。卷面分“第Ⅰ卷（选择题）”“第Ⅱ卷（非选择题）”，section 统一写为“选择题/非选择题”。非选择题小问分值为按福建阅卷惯例估算，官方只给大题总分。",
+ "materials": [
+  {
+   "id": "m11",
+   "text": "模型认知是建立宏观与微观联系的思维方法。"
+  },
+  {
+   "id": "m12",
+   "text": "燃烧与人类生产、生活有着密切的关系。"
+  },
+  {
+   "id": "m13",
+   "text": "科学使用化学物质，可以保障人体健康。"
+  },
+  {
+   "id": "m14",
+   "text": "合理利用化石燃料资源，是人类不断探索的课题。某城市家用燃料的使用经历了下图所示的过程，并将逐步向理想燃料发展。（注：括号中的物质是对应燃料的主要成分）",
+   "figures": [
+    "figs/2020-m14-1.png"
+   ]
+  },
+  {
+   "id": "m15",
+   "text": "“铜的循环”如下图所示。其中，箭头表示能一步实现的物质转化方向，X、Y、Z 是初中化学常见的物质。",
+   "figures": [
+    "figs/2020-m15-1.png"
+   ]
+  },
+  {
+   "id": "m16",
+   "text": "请将下列实验报告补充完整。"
+  },
+  {
+   "id": "m17",
+   "text": "欲证明“$\\mathrm{CO_2}$ 与 NaOH 发生了化学反应”，某化学兴趣小组进行以下探究实验（实验装置中夹持仪器已略去）。"
+  }
+ ],
+ "questions": [
+  {
+   "id": "huaxue-2020-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "远古时期，半坡人从事的下列生活、生产活动中，一定有化学变化的是",
+   "options": [
+    "A. 夯筑土屋",
+    "B. 结绳记事",
+    "C. 磨制石器",
+    "D. 烧制彩陶"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.intro.change",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列物质均可用于配制灭活新型冠状病毒的消毒剂，其中属于无机化合物的是",
+   "options": [
+    "A. 过氧化氢（$\\mathrm{H_2O_2}$）",
+    "B. 乙醇（$\\mathrm{C_2H_6O}$）",
+    "C. 三氯甲烷（$\\mathrm{CHCl_3}$）",
+    "D. 过氧乙酸（$\\mathrm{C_2H_4O_3}$）"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.matter.classify",
+    "huaxue.life.materials"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "在制取氢气（$\\mathrm{Zn + H_2SO_4 \\xlongequal{} ZnSO_4 + H_2\\uparrow}$）的实验中，下列操作正确的是",
+   "options": [
+    "A. 检查气密性",
+    "B. 加入锌粒",
+    "C. 加入稀硫酸",
+    "D. 收集氢气"
+   ],
+   "figures": [
+    "figs/2020-3-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.intro.basic_ops",
+    "huaxue.lab.gas_apparatus"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列食物中，蛋白质含量最高的是",
+   "options": [
+    "A. 米饭",
+    "B. 瘦肉",
+    "C. 青菜",
+    "D. 玉米油"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.life.nutrients"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "“加铁酱油”“高锌奶粉”“富硒茶叶”中，“铁、锌、硒”指的是",
+   "options": [
+    "A. 单质",
+    "B. 元素",
+    "C. 金属",
+    "D. 维生素"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.struct.element",
+    "huaxue.life.elements_health"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列物质的性质与其用途**不匹配**的是",
+   "options": [
+    "A. 石墨质软——用作电池的电极材料",
+    "B. 不锈钢耐腐蚀——制造医疗器械",
+    "C. 熟石灰显碱性——用来改良酸性土壤",
+    "D. 干冰易升华——用于人工降雨"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.intro.property_use",
+    "huaxue.carbon.allotropes"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "2020 年 6 月 23 日，我国“长三乙”火箭将第 55 颗北斗卫星送入预定轨道，完成北斗卫星导航系统的组网。该火箭第三级的推进剂为液氢和液氧组合，下列说法正确的是",
+   "options": [
+    "A. 氢气液化过程中，氢分子之间的间隔保持不变",
+    "B. 分离液态空气得到液氧的过程中，氧分子静止不动",
+    "C. 液氧变成气态氧时，放出热量",
+    "D. 氢气与氧气反应的本质是氢、氧原子的重新组合"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.struct.molecule_atom",
+    "huaxue.struct.particles"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "NaCl 和 $\\mathrm{KNO_3}$ 在不同温度时的溶解度如下表。下列说法**错误**的是\n\n| 温度/℃ | 0 | 20 | 40 | 60 |\n|---|---|---|---|---|\n| NaCl 的溶解度/g | 35.7 | 36.0 | 36.6 | 37.3 |\n| $\\mathrm{KNO_3}$ 的溶解度/g | 13.3 | 31.6 | 63.9 | 110 |",
+   "options": [
+    "A. 20 ℃ 时，100 g $\\mathrm{H_2O}$ 最多能溶解 36.0 g NaCl",
+    "B. 40 ℃ 时，$\\mathrm{KNO_3}$ 饱和溶液的溶质质量分数小于 63.9%",
+    "C. 可用冷却海水的方法获取大量食盐",
+    "D. 其他条件不变，升温可将 $\\mathrm{KNO_3}$ 饱和溶液变为不饱和溶液"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.sol.solubility",
+    "huaxue.sol.saturation",
+    "huaxue.sol.concentration"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列实验操作能达到实验目的的是\n\n| | 实验目的 | 实验操作 |\n|---|---|---|\n| A | 测定某废水的酸碱度 | 取样，将湿润的 pH 试纸浸入样品中 |\n| B | 除去水中的色素 | 将水通过装有活性炭的净化装置 |\n| C | 除去粗盐中的难溶性杂质 | 溶解，蒸发结晶 |\n| D | 检验某固体是否为铵态氮肥 | 取样，加稀盐酸，闻气味 |",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.inquiry.design_eval",
+    "huaxue.water.purification",
+    "huaxue.inquiry.identify"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "将一定浓度的稀盐酸、稀硫酸分别加入装有等质量 $\\mathrm{CaCO_3}$ 粉末的容器中，相同条件下测得两者产生的 $\\mathrm{CO_2}$ 体积（$V$）与反应时间（$t$）的关系如下图所示。下列判断**错误**的是",
+   "options": [
+    "A. 0～300 s 内，两个容器内溶液的 pH 均逐渐增大",
+    "B. 0～100 s 内，反应Ⅰ、Ⅱ生成 $\\mathrm{CO_2}$ 的速率均先慢后快",
+    "C. 反应Ⅱ中，0～100 s 内产生的 $\\mathrm{CO_2}$ 体积比 100～200 s 内的少 5$a$ mL",
+    "D. 实验室可以用一定浓度的稀硫酸与 $\\mathrm{CaCO_3}$ 粉末反应制备 $\\mathrm{CO_2}$"
+   ],
+   "figures": [
+    "figs/2020-10-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.inquiry.data_analysis",
+    "huaxue.carbon.co2_prep",
+    "huaxue.acid.ph"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2020-11-1",
+   "no": "11(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m11",
+   "stem": "①图 1 为硅在元素周期表中的部分信息，硅的相对原子质量为____。\n\n②图 2 为氧原子结构示意图，$x$ 的数值为____。在化学变化中，氧原子容易____（填“得到”或“失去”）电子。",
+   "figures": [
+    "figs/2020-11-1.png"
+   ],
+   "answer": "① 28.09\n② 8　得到",
+   "kp": [
+    "huaxue.struct.periodic_table",
+    "huaxue.struct.atom"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-11-2",
+   "no": "11(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 4,
+   "material": "m11",
+   "stem": "某化学反应的微观示意图如下（图例：大黑球为 O，白球为 C，小黑点为 H）：\n\n①生成物中右侧分子（见图，白球 C 连有氢原子和氧原子）所表示的微粒中，碳、氢、氧原子的个数比为____。\n\n②虚线方框处的微粒是____（填化学式）。",
+   "figures": [
+    "figs/2020-11-2.png"
+   ],
+   "answer": "① 1∶4∶1\n② $\\mathrm{H_2O}$",
+   "kp": [
+    "huaxue.eq.micro_diagram",
+    "huaxue.eq.conservation"
+   ],
+   "difficulty": 2,
+   "note": "题①原文以该分子的微粒图形代替文字，此处改为文字描述，图形以裁图为准。"
+  },
+  {
+   "id": "huaxue-2020-11-3",
+   "no": "11(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m11",
+   "stem": "道尔顿原子学说的部分观点如下：\n\n①原子是不可分割的实心球体；\n②物质都是由原子构成的；\n③同种元素的所有原子的质量完全相同。\n\n现代科学证实以上观点均不确切，请选择其中一个观点简要说明：____",
+   "answer": "①原子由原子核与核外电子构成（或“②物质也可以由分子或离子构成”“③同种元素的原子，若中子数不同，则质量也不同”等其他合理答案）",
+   "kp": [
+    "huaxue.struct.atom",
+    "huaxue.struct.molecule_atom",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-12-1",
+   "no": "12(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m12",
+   "stem": "下列成语的原意与燃烧不相关的是____（填标号）。\n\nA. 卧薪尝胆　B. 釜底抽薪　C. 火上浇油　D. 煽风点火",
+   "answer": "A",
+   "kp": [
+    "huaxue.fuel.combustion"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-12-2",
+   "no": "12(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 6,
+   "material": "m12",
+   "stem": "古籍《天工开物》就有“煤饼烧石成灰”的记载。“烧石成灰”指高温条件下碳酸钙转化为生石灰。\n\n①“煤饼烧石成灰”的过程中，能量转化的主要方式是____。\n\n②“石”转化为“灰”的反应属于____（填基本反应类型）。\n\n③“灰”遇水成浆，该反应的化学方程式为____。",
+   "answer": "① 化学能→热能→化学能（或“化学能→热能、热能→化学能”）\n② 分解反应\n③ $\\mathrm{CaO + H_2O \\xlongequal{} Ca(OH)_2}$",
+   "kp": [
+    "huaxue.salt.common",
+    "huaxue.eq.reaction_types",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-12-3",
+   "no": "12(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m12",
+   "stem": "室内起火时，如果急于打开门窗，火反而会烧得更旺。原因是____。",
+   "answer": "打开门窗，为可燃物提供更多氧气，使火势更猛（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.combustion",
+    "huaxue.fuel.safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-13-1",
+   "no": "13(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m13",
+   "stem": "某同学的部分体液的 pH 如右图所示（唾液 pH＝6.8，胃液 pH＝0.7，胰液 pH＝8.0，小肠液 pH＝7.3）。\n\n①图中碱性最强的体液是____。\n\n②该同学胃酸（主要成分为盐酸）过多，可服用胃舒平［主要成分为 $\\mathrm{Al(OH)_3}$］治疗，其原理是____（用化学方程式表示）。",
+   "figures": [
+    "figs/2020-13-1.png"
+   ],
+   "answer": "① 胰液\n② $\\mathrm{Al(OH)_3 + 3HCl \\xlongequal{} AlCl_3 + 3H_2O}$",
+   "kp": [
+    "huaxue.acid.ph",
+    "huaxue.acid.neutralization"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-13-2",
+   "no": "13(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m13",
+   "stem": "某 84 消毒液产品的部分说明如下表。\n\n> **84 消毒液**\n> ［产品特点］主要成分为次氯酸钠（NaClO），有效氯的质量分数为 5.1%～6.9%。\n> ［餐具消毒］用有效氯的质量分数为 0.04% 的消毒液浸泡，20 min 后用生活饮用水冲净。\n> ［注意事项］①外用消毒剂，须稀释后使用。②不得将本产品与酸性产品（如洁厕类清洁产品）同时使用。\n\n①依据表中信息，将有效氯的质量分数为 6.0% 的 84 消毒液与水按质量比为 1∶____进行稀释，即可用于餐具消毒。\n\n②洁厕灵（主要成分为盐酸）与 84 消毒液混合会产生有毒的氯气（$\\mathrm{Cl_2}$）。请将该反应的化学方程式补充完整：$\\mathrm{2HCl + NaClO \\xlongequal{}}$ ____ $\\mathrm{+ Cl_2\\uparrow + H_2O}$",
+   "answer": "① 149\n② NaCl",
+   "kp": [
+    "huaxue.sol.concentration",
+    "huaxue.eq.conservation",
+    "huaxue.life.elements_health"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-14-1",
+   "no": "14(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m14",
+   "stem": "$\\mathrm{CH_4}$、$\\mathrm{C_3H_8}$ 两种物质中，氢元素的质量分数较大的是____（填化学式）。",
+   "answer": "$\\mathrm{CH_4}$",
+   "kp": [
+    "huaxue.formula.calc"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-14-2",
+   "no": "14(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m14",
+   "stem": "倡导“家用燃料低碳化”的意义是____。",
+   "answer": "缓解温室效应（或其他合理答案）",
+   "kp": [
+    "huaxue.carbon.cycle",
+    "huaxue.fuel.fossil"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-14-3",
+   "no": "14(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m14",
+   "stem": "一定条件下，仅用一个置换反应即可制得 CO 和 $\\mathrm{H_2}$，反应的化学方程式为____。",
+   "answer": "$\\mathrm{C + H_2O \\xlongequal{一定条件} CO + H_2}$（或“$\\mathrm{2CH_4 + O_2 \\xlongequal{一定条件} 2CO + 4H_2}$”等其他合理答案）",
+   "kp": [
+    "huaxue.eq.reaction_types",
+    "huaxue.eq.writing",
+    "huaxue.carbon.allotropes"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2020-14-4",
+   "no": "14(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m14",
+   "stem": "随着全球能源使用量的增长，化石燃料等不可再生能源将日趋枯竭。请提出一个缓解能源危机的设想：____",
+   "answer": "开发使用新能源（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.energy",
+    "huaxue.fuel.fossil"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-15-1",
+   "no": "15(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m15",
+   "stem": "若反应①为 $\\mathrm{3Cu + 8HNO_3(稀) \\xlongequal{} 3Cu(NO_3)_2 + 4H_2O + 2NO\\uparrow}$，预测该反应可能观察到的实验现象：____（写一个）。",
+   "answer": "有气泡产生（或“溶液变为蓝色”“铜片变小”“铜片溶解”等其他合理答案）",
+   "kp": [
+    "huaxue.metal.chem",
+    "huaxue.inquiry.data_analysis"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-15-2",
+   "no": "15(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m15",
+   "stem": "反应②中，X 的化学式是____（写一个）。",
+   "answer": "NaOH（或其他合理答案）",
+   "kp": [
+    "huaxue.salt.metathesis",
+    "huaxue.acid.bases"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-15-3",
+   "no": "15(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m15",
+   "stem": "Y 是黑色固体，反应④的化学方程式为____。",
+   "answer": "$\\mathrm{CuO + H_2SO_4 \\xlongequal{} CuSO_4 + H_2O}$",
+   "kp": [
+    "huaxue.acid.acids",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-15-4",
+   "no": "15(4)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m15",
+   "stem": "利用反应⑤的转化原理，除去 $\\mathrm{FeSO_4}$ 溶液中的少量 $\\mathrm{CuSO_4}$。需要的药品和分离方法分别是____、____。",
+   "answer": "铁粉　过滤",
+   "kp": [
+    "huaxue.metal.activity",
+    "huaxue.inquiry.identify"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-15-5",
+   "no": "15(5)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m15",
+   "stem": "已知：同一化学反应中，若有元素的化合价升高，则必有元素的化合价降低。铜曝露在空气中生成铜锈［主要成分为 $\\mathrm{Cu_2(OH)_2CO_3}$］的过程中，空气中参与反应的物质是____。",
+   "answer": "$\\mathrm{O_2}$、$\\mathrm{H_2O}$、$\\mathrm{CO_2}$（或“氧气、水、二氧化碳”）",
+   "kp": [
+    "huaxue.metal.corrosion",
+    "huaxue.eq.conservation",
+    "huaxue.formula.valence"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2020-16-1",
+   "no": "16(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 6,
+   "material": "m16",
+   "stem": "| 实验内容 | 现象 | 说明、解释或结论 |\n|---|---|---|\n| 用高锰酸钾制取氧气。连接仪器，检查装置气密性。用 __①__（填仪器名称）取少量高锰酸钾装入试管中，并在试管口放一团棉花，固定好装置，加热试管，用排水法收集 $\\mathrm{O_2}$。 | 当观察到 __②__ 时，开始收集气体。 | 收集 $\\mathrm{O_2}$ 之前，将集气瓶内空气完全排净的方法是 __③__。产生 $\\mathrm{O_2}$ 的化学方程式为 __④__。 |",
+   "answer": "①药匙\n②导管口有连续并比较均匀的气泡冒出\n③将集气瓶装满水\n④$\\mathrm{2KMnO_4 \\xlongequal{\\triangle } K_2MnO_4 + MnO_2 + O_2\\uparrow}$",
+   "kp": [
+    "huaxue.o2.lab_prep",
+    "huaxue.intro.basic_ops",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-16-2",
+   "no": "16(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m16",
+   "stem": "| 实验内容 | 现象 | 说明、解释或结论 |\n|---|---|---|\n| 酸与碱发生中和反应。i. 取少量稀 NaOH 溶液于试管中，滴入 2 滴酚酞溶液，再逐滴加入稀盐酸，边滴边振荡，至溶液的颜色恰好变为无色。ii. 往上述无色溶液中再滴入 1 滴稀 NaOH 溶液，观察现象。 | 步骤 ii 中观察到 __①__。 | 步骤 i 中“边滴边振荡”的目的是 __②__。 |",
+   "answer": "①溶液变红色\n②使反应充分进行（或“使反应物充分混合”等其他合理答案）",
+   "kp": [
+    "huaxue.acid.neutralization",
+    "huaxue.acid.indicator"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-17-1",
+   "no": "17(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m17",
+   "stem": "【实验 1】配制溶液。\n\n（1）用 NaOH 固体配制 20 g 20% NaOH 溶液，无需用到的玻璃仪器有____（填标号）。\n\nA. 胶头滴管　B. 酒精灯　C. 量筒　D. 烧杯　E. 玻璃棒",
+   "answer": "B",
+   "kp": [
+    "huaxue.sol.concentration",
+    "huaxue.intro.basic_ops"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2020-17-2",
+   "no": "17(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m17",
+   "stem": "【实验 2】按图 1 所示装置进行实验。\n\n实验前 U 型管两端液面相平，将 NaOH 溶液滴入试管中，恢复到室温后，U 型管中的液面左高右低。据此，甲同学得出“$\\mathrm{CO_2}$ 与 NaOH 发生了化学反应”的结论。\n\n（2）U 型管中液面高度发生变化的原因是____。",
+   "figures": [
+    "figs/2020-17-2.png"
+   ],
+   "answer": "试管内气体压强减小",
+   "kp": [
+    "huaxue.acid.bases",
+    "huaxue.carbon.co2_properties"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-17-3",
+   "no": "17(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "上述结论的证据不充足，理由是____。",
+   "answer": "没有证明有新物质生成（或“$\\mathrm{CO_2}$ 溶于水或与水反应也会造成试管内气压减小”等其他合理答案）",
+   "kp": [
+    "huaxue.inquiry.design_eval",
+    "huaxue.carbon.co2_properties"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-17-4",
+   "no": "17(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "【实验 3】按图 2 所示装置进行实验。\n\n查阅资料：i. $\\mathrm{CaCl_2}$ 溶液呈中性；ii. $\\mathrm{CaCl_2 + 2NaOH \\xlongequal{} Ca(OH)_2\\downarrow + 2NaCl}$。\n\n实验步骤如下：\n①检查装置的气密性，往装置中加入药品；\n②关闭 $\\mathrm{K_1}$、$\\mathrm{K_2}$，将注射器中的 NaOH 溶液缓缓推入 A 中；\n③A 中物质充分作用后，打开 $\\mathrm{K_1}$，B 中无色溶液倒吸入 A 中，A 中产生沉淀且溶液显红色；\n④关闭 $\\mathrm{K_1}$，打开 $\\mathrm{K_2}$，将注射器活塞向上拉，C 中溶液倒吸入 A 中。\n\n（4）步骤③“产生沉淀”的现象仍不足以证明 $\\mathrm{CO_2}$ 与 NaOH 发生了化学反应，理由是____。",
+   "figures": [
+    "figs/2020-17-4.png"
+   ],
+   "answer": "$\\mathrm{CaCl_2}$ 与 NaOH 溶液反应也会产生沉淀［或“$\\mathrm{CaCl_2 + 2NaOH \\xlongequal{} Ca(OH)_2\\downarrow + 2NaCl}$”等其他合理答案］",
+   "kp": [
+    "huaxue.inquiry.design_eval",
+    "huaxue.salt.metathesis"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2020-17-5",
+   "no": "17(5)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m17",
+   "stem": "步骤④中，若观察到____（填现象），证明 $\\mathrm{CO_2}$ 与 NaOH 发生了化学反应。$\\mathrm{CO_2}$ 与 NaOH 反应的化学方程式为____。",
+   "answer": "A 中有气泡冒出\n$\\mathrm{CO_2 + 2NaOH \\xlongequal{} Na_2CO_3 + H_2O}$",
+   "kp": [
+    "huaxue.acid.bases",
+    "huaxue.salt.common",
+    "huaxue.inquiry.identify"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2020-18",
+   "no": "18",
+   "section": "非选择题",
+   "type": "short",
+   "score": 6,
+   "stem": "推广车用乙醇汽油，可以减少汽车尾气污染。利用秸秆为原料可生产乙醇（$\\mathrm{C_2H_6O}$），其中包含葡萄糖（$\\mathrm{C_6H_{12}O_6}$）转化为乙醇的反应（$\\mathrm{C_6H_{12}O_6 \\xlongequal{催化剂} 2C_2H_6O + 2CO_2\\uparrow}$）。每生产 2.3 t 乙醇，理论上参加反应的葡萄糖的质量是多少？（写出计算过程）",
+   "answer": "解：设参加反应的葡萄糖的质量为 $x$。\n\n$\\mathrm{C_6H_{12}O_6 \\xlongequal{催化剂} 2C_2H_6O + 2CO_2\\uparrow}$\n\n180　　　　92\n\n$x$　　　　 2.3 t\n\n$\\dfrac{180}{92}=\\dfrac{x}{2.3\\ \\mathrm{t}}$\n\n$x = 4.5$ t\n\n答：参加反应的葡萄糖的质量为 4.5 t。",
+   "kp": [
+    "huaxue.eq.calc"
+   ],
+   "difficulty": 1
+  }
+ ]
+}

@@ -1,0 +1,510 @@
+{
+ "subject": "shuxue",
+ "grade_basis": "年级学期按人教版（2024 修订版前的通行版本）标注；华东师大版对应关系见 README",
+ "modules": [
+  {
+   "id": "M1",
+   "name": "数与式",
+   "kps": [
+    {
+     "id": "shuxue.num.rational",
+     "name": "有理数的概念",
+     "grade": "七上",
+     "desc": "正负数表示相反意义的量、相反数、绝对值、倒数"
+    },
+    {
+     "id": "shuxue.num.real",
+     "name": "实数与数轴",
+     "grade": "七下",
+     "desc": "平方根、立方根、无理数识别、用数轴表示实数、实数大小比较与符号判断"
+    },
+    {
+     "id": "shuxue.num.sci_notation",
+     "name": "科学记数法与近似数",
+     "grade": "七上",
+     "desc": "大数/小数的科学记数法、近似数"
+    },
+    {
+     "id": "shuxue.num.real_calc",
+     "name": "实数的混合运算",
+     "grade": "七下",
+     "desc": "含绝对值、乘方、零指数幂、负整数指数幂、根式的计算"
+    },
+    {
+     "id": "shuxue.num.algebra_expr",
+     "name": "代数式与整体代入求值",
+     "grade": "七上",
+     "desc": "列代数式、代数式求值（含整体代入）"
+    },
+    {
+     "id": "shuxue.num.power",
+     "name": "幂的运算",
+     "grade": "八上",
+     "desc": "同底数幂乘除、幂的乘方、积的乘方"
+    },
+    {
+     "id": "shuxue.num.polynomial",
+     "name": "整式的运算与乘法公式",
+     "grade": "八上",
+     "desc": "整式加减乘除、平方差/完全平方公式、整式化简求值"
+    },
+    {
+     "id": "shuxue.num.factorize",
+     "name": "因式分解",
+     "grade": "八上",
+     "desc": "提公因式法、公式法"
+    },
+    {
+     "id": "shuxue.num.fraction",
+     "name": "分式的运算与化简求值",
+     "grade": "八上",
+     "desc": "分式有意义条件、分式化简求值"
+    },
+    {
+     "id": "shuxue.num.radical",
+     "name": "二次根式",
+     "grade": "八下",
+     "desc": "二次根式有意义条件、性质与运算"
+    },
+    {
+     "id": "shuxue.num.pattern",
+     "name": "数与式的规律探索",
+     "grade": "七上",
+     "desc": "数列/图形规律、归纳猜想"
+    }
+   ]
+  },
+  {
+   "id": "M2",
+   "name": "方程与不等式",
+   "kps": [
+    {
+     "id": "shuxue.eq.linear",
+     "name": "一元一次方程及其应用",
+     "grade": "七上",
+     "desc": "解一元一次方程、列方程解应用题"
+    },
+    {
+     "id": "shuxue.eq.system",
+     "name": "二元一次方程组的解法",
+     "grade": "七下",
+     "desc": "代入消元、加减消元"
+    },
+    {
+     "id": "shuxue.eq.system_app",
+     "name": "列方程（组）解实际问题",
+     "grade": "七下",
+     "desc": "列一次方程（组）解应用题，含数学文化（古算题）列方程"
+    },
+    {
+     "id": "shuxue.eq.fractional",
+     "name": "分式方程及其应用",
+     "grade": "八上",
+     "desc": "解分式方程、检验增根、列分式方程"
+    },
+    {
+     "id": "shuxue.eq.quad_solve",
+     "name": "一元二次方程的解法与根的判别式",
+     "grade": "九上",
+     "desc": "配方法、公式法、因式分解法；判别式判断根的情况"
+    },
+    {
+     "id": "shuxue.eq.vieta",
+     "name": "一元二次方程根与系数的关系",
+     "grade": "九上",
+     "desc": "韦达定理及其在代数推理中的应用"
+    },
+    {
+     "id": "shuxue.eq.quad_app",
+     "name": "一元二次方程的应用",
+     "grade": "九上",
+     "desc": "增长率、面积等问题列一元二次方程"
+    },
+    {
+     "id": "shuxue.ineq.solve",
+     "name": "不等式（组）的解法",
+     "grade": "七下",
+     "desc": "不等式性质、解一元一次不等式（组）、在数轴上表示解集"
+    },
+    {
+     "id": "shuxue.ineq.app",
+     "name": "不等式的应用",
+     "grade": "七下",
+     "desc": "列不等式（组）解决方案选择、最值问题"
+    }
+   ]
+  },
+  {
+   "id": "M3",
+   "name": "函数",
+   "kps": [
+    {
+     "id": "shuxue.func.coord",
+     "name": "平面直角坐标系",
+     "grade": "七下",
+     "desc": "点的坐标特征、平移/对称后的坐标"
+    },
+    {
+     "id": "shuxue.func.concept",
+     "name": "函数的概念与图象信息",
+     "grade": "八下",
+     "desc": "变量与函数、函数图象的识别与读图"
+    },
+    {
+     "id": "shuxue.func.linear",
+     "name": "一次函数的图象与性质",
+     "grade": "八下",
+     "desc": "k、b 的意义，增减性，交点，与方程（组）/不等式的关系"
+    },
+    {
+     "id": "shuxue.func.linear_app",
+     "name": "一次函数的应用",
+     "grade": "八下",
+     "desc": "列一次函数解析式解决实际问题、方案最优"
+    },
+    {
+     "id": "shuxue.func.inverse",
+     "name": "反比例函数的图象与性质",
+     "grade": "九下",
+     "desc": "图象上点的坐标、增减性、比较函数值"
+    },
+    {
+     "id": "shuxue.func.inverse_geo",
+     "name": "反比例函数与几何综合",
+     "grade": "九下",
+     "desc": "k 的几何意义、与三角形/四边形结合"
+    },
+    {
+     "id": "shuxue.func.quad_graph",
+     "name": "二次函数的图象与性质",
+     "grade": "九上",
+     "desc": "顶点、对称轴、开口、增减性、平移"
+    },
+    {
+     "id": "shuxue.func.quad_param",
+     "name": "二次函数含参问题",
+     "grade": "九上",
+     "desc": "含参数的函数值比较、参数取值范围"
+    },
+    {
+     "id": "shuxue.func.quad_expr",
+     "name": "求二次函数的解析式",
+     "grade": "九上",
+     "desc": "待定系数法"
+    },
+    {
+     "id": "shuxue.func.quad_eq",
+     "name": "二次函数与一元二次方程（不等式）",
+     "grade": "九上",
+     "desc": "图象与坐标轴交点、根的分布"
+    },
+    {
+     "id": "shuxue.func.quad_app",
+     "name": "二次函数的实际应用",
+     "grade": "九上",
+     "desc": "实际情境中的二次函数建模与最值"
+    },
+    {
+     "id": "shuxue.func.quad_geo",
+     "name": "二次函数与几何综合",
+     "grade": "九上",
+     "desc": "抛物线上的几何问题：面积、定值、共线、平行、四点共圆等代数推理"
+    }
+   ]
+  },
+  {
+   "id": "M4",
+   "name": "图形的性质",
+   "kps": [
+    {
+     "id": "shuxue.geo.line_angle",
+     "name": "线段、角与余角补角",
+     "grade": "七上",
+     "desc": "线段和差、角的度量、余角补角"
+    },
+    {
+     "id": "shuxue.geo.parallel",
+     "name": "相交线与平行线",
+     "grade": "七下",
+     "desc": "对顶角、垂线、平行线的判定与性质"
+    },
+    {
+     "id": "shuxue.geo.triangle",
+     "name": "三角形的基本性质",
+     "grade": "八上",
+     "desc": "三边关系、内角和、外角性质"
+    },
+    {
+     "id": "shuxue.geo.polygon",
+     "name": "多边形的内角和与外角和",
+     "grade": "八上",
+     "desc": "多边形内角和、外角和、正多边形内角"
+    },
+    {
+     "id": "shuxue.geo.congruent",
+     "name": "全等三角形",
+     "grade": "八上",
+     "desc": "全等三角形的判定与性质证明"
+    },
+    {
+     "id": "shuxue.geo.bisector",
+     "name": "角平分线与线段垂直平分线的性质",
+     "grade": "八上",
+     "desc": "角平分线性质定理、垂直平分线性质"
+    },
+    {
+     "id": "shuxue.geo.isosceles",
+     "name": "等腰三角形与等边三角形",
+     "grade": "八上",
+     "desc": "等边对等角、三线合一、等边三角形性质"
+    },
+    {
+     "id": "shuxue.geo.pythagoras",
+     "name": "勾股定理",
+     "grade": "八下",
+     "desc": "勾股定理及逆定理、直角三角形性质（含 30° 角、斜边中线）"
+    },
+    {
+     "id": "shuxue.geo.midline",
+     "name": "三角形中位线",
+     "grade": "八下",
+     "desc": "中位线定理"
+    },
+    {
+     "id": "shuxue.geo.parallelogram",
+     "name": "平行四边形",
+     "grade": "八下",
+     "desc": "平行四边形的判定与性质"
+    },
+    {
+     "id": "shuxue.geo.special_quad",
+     "name": "矩形、菱形、正方形",
+     "grade": "八下",
+     "desc": "特殊平行四边形的判定与性质、面积"
+    },
+    {
+     "id": "shuxue.geo.similar",
+     "name": "相似三角形",
+     "grade": "九下",
+     "desc": "相似的判定与性质、比例线段、比例中项"
+    },
+    {
+     "id": "shuxue.geo.trig",
+     "name": "锐角三角函数",
+     "grade": "九下",
+     "desc": "锐角三角函数定义、特殊角三角函数值、解直角三角形"
+    },
+    {
+     "id": "shuxue.geo.trig_app",
+     "name": "解直角三角形的应用",
+     "grade": "九下",
+     "desc": "仰角俯角、坡度、方位角及实际情境测量"
+    },
+    {
+     "id": "shuxue.geo.extremum",
+     "name": "几何最值问题",
+     "grade": "?",
+     "desc": "垂线段最短、两点之间线段最短、定弦定角/隐圆等最值"
+    },
+    {
+     "id": "shuxue.geo.synthesis",
+     "name": "几何综合探究",
+     "grade": "?",
+     "desc": "多知识点综合的几何证明/计算压轴（旋转、相似、圆等交汇）"
+    }
+   ]
+  },
+  {
+   "id": "M5",
+   "name": "圆",
+   "kps": [
+    {
+     "id": "shuxue.circle.basic",
+     "name": "圆的基本性质",
+     "grade": "九上",
+     "desc": "垂径定理、圆心角与圆周角、圆内接四边形"
+    },
+    {
+     "id": "shuxue.circle.tangent",
+     "name": "直线与圆的位置关系、切线",
+     "grade": "九上",
+     "desc": "切线的判定与性质、切线长"
+    },
+    {
+     "id": "shuxue.circle.polygon_arc",
+     "name": "正多边形与圆、弧长与扇形面积",
+     "grade": "九上",
+     "desc": "正多边形与圆、弧长、扇形面积、圆锥侧面积"
+    },
+    {
+     "id": "shuxue.circle.concyclic",
+     "name": "点与圆的位置关系、四点共圆",
+     "grade": "九上",
+     "desc": "三角形外接圆、点与圆位置关系、四点共圆的判定与应用"
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "name": "图形的变化与视图",
+   "kps": [
+    {
+     "id": "shuxue.trans.symmetry",
+     "name": "轴对称图形与中心对称图形",
+     "grade": "八上",
+     "desc": "识别轴对称图形、中心对称图形"
+    },
+    {
+     "id": "shuxue.trans.fold",
+     "name": "轴对称与折叠",
+     "grade": "八上",
+     "desc": "轴对称性质、折叠（翻折）问题"
+    },
+    {
+     "id": "shuxue.trans.translation",
+     "name": "平移",
+     "grade": "七下",
+     "desc": "平移的性质与作图"
+    },
+    {
+     "id": "shuxue.trans.rotation",
+     "name": "旋转",
+     "grade": "九上",
+     "desc": "旋转的性质、旋转作图与旋转综合"
+    },
+    {
+     "id": "shuxue.trans.homothety",
+     "name": "位似",
+     "grade": "九下",
+     "desc": "位似图形与位似作图"
+    },
+    {
+     "id": "shuxue.solid.view",
+     "name": "三视图",
+     "grade": "九下",
+     "desc": "几何体的三视图（主视图、左视图、俯视图）"
+    },
+    {
+     "id": "shuxue.solid.net",
+     "name": "立体图形与展开图",
+     "grade": "七上",
+     "desc": "立体图形识别、展开图"
+    }
+   ]
+  },
+  {
+   "id": "M7",
+   "name": "尺规作图",
+   "kps": [
+    {
+     "id": "shuxue.construct.basic",
+     "name": "基本尺规作图",
+     "grade": "八上",
+     "desc": "作等线段、等角、角平分线、垂直平分线、过一点作垂线"
+    },
+    {
+     "id": "shuxue.construct.design",
+     "name": "尺规作图综合",
+     "grade": "?",
+     "desc": "按给定条件设计作图（作点、作三角形/圆/切线等）并说明理由"
+    }
+   ]
+  },
+  {
+   "id": "M8",
+   "name": "统计与概率",
+   "kps": [
+    {
+     "id": "shuxue.stat.collect",
+     "name": "数据的收集与样本估计总体",
+     "grade": "七下",
+     "desc": "普查与抽样调查、用样本估计总体"
+    },
+    {
+     "id": "shuxue.stat.chart",
+     "name": "统计图表",
+     "grade": "七下",
+     "desc": "条形图、扇形图、折线图、频数分布直方图的读图与补全"
+    },
+    {
+     "id": "shuxue.stat.central",
+     "name": "平均数、中位数、众数",
+     "grade": "八下",
+     "desc": "集中趋势量（含加权平均数）的计算与意义"
+    },
+    {
+     "id": "shuxue.stat.spread",
+     "name": "方差与数据的波动",
+     "grade": "八下",
+     "desc": "方差、极差的计算与意义"
+    },
+    {
+     "id": "shuxue.stat.decision",
+     "name": "用统计量分析决策",
+     "grade": "八下",
+     "desc": "综合统计量比较方案、作出决策"
+    },
+    {
+     "id": "shuxue.prob.event",
+     "name": "随机事件",
+     "grade": "九上",
+     "desc": "必然/不可能/随机事件、可能性大小"
+    },
+    {
+     "id": "shuxue.prob.classical",
+     "name": "简单事件的概率",
+     "grade": "九上",
+     "desc": "等可能事件概率的计算"
+    },
+    {
+     "id": "shuxue.prob.tree",
+     "name": "列表法与树状图求概率",
+     "grade": "九上",
+     "desc": "两步及以上试验的概率"
+    },
+    {
+     "id": "shuxue.prob.freq",
+     "name": "用频率估计概率",
+     "grade": "九上",
+     "desc": "频率稳定性、用频率估计概率"
+    },
+    {
+     "id": "shuxue.prob.decision",
+     "name": "概率的应用与决策",
+     "grade": "九上",
+     "desc": "游戏公平性、方案收益（期望）比较等概率决策"
+    }
+   ]
+  },
+  {
+   "id": "M9",
+   "name": "综合与实践",
+   "kps": [
+    {
+     "id": "shuxue.prac.modeling",
+     "name": "跨学科实际情境建模",
+     "grade": "?",
+     "desc": "物理/工程等情境中抽象出数学模型求解（如受力、浮力、弹簧秤）"
+    },
+    {
+     "id": "shuxue.prac.reading",
+     "name": "阅读材料与新定义",
+     "grade": "?",
+     "desc": "阅读理解新概念/新方法并迁移应用"
+    },
+    {
+     "id": "shuxue.prac.reasoning",
+     "name": "代数推理与论证",
+     "grade": "?",
+     "desc": "奇偶性、整数性、非负性等代数推理，补全证明"
+    },
+    {
+     "id": "shuxue.prac.project",
+     "name": "综合实践与方案设计",
+     "grade": "?",
+     "desc": "测量、设计类综合实践活动方案"
+    }
+   ]
+  }
+ ]
+}

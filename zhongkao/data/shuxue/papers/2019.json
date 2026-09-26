@@ -1,0 +1,588 @@
+{
+ "subject": "shuxue",
+ "year": 2019,
+ "source": "福建省教育考试院《试题、参考答案》合订本（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/zlxz/201906/t20190623_2922791.htm",
+ "total": 150,
+ "minutes": 120,
+ "materials": [
+  {
+   "id": "q20",
+   "text": "已知 $\\triangle ABC$ 和点 $A'$，如图.",
+   "figures": [
+    "figs/2019-20-1.png"
+   ]
+  },
+  {
+   "id": "q21",
+   "text": "在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle ABC=90^\\circ$，$\\angle ACB=30^\\circ$．将 $\\triangle ABC$ 绕点 $C$ 顺时针旋转一个角度 $\\alpha$ 得到 $\\triangle DEC$，点 $A$，$B$ 的对应点分别为 $D$，$E$.",
+   "figures": [
+    "figs/2019-21-1.png",
+    "figs/2019-21-2.png"
+   ]
+  },
+  {
+   "id": "q22",
+   "text": "某工厂为贯彻落实“绿水青山就是金山银山”的发展理念，投资组建了日废水处理量为 $m$ 吨的废水处理车间，对该厂工业废水进行无害化处理．但随着工厂生产规模的扩大，该车间经常无法完成当天工业废水的处理任务，需要将超出日废水处理量的废水交给第三方企业处理．已知该车间处理废水，每天需固定成本 30 元，并且每处理一吨废水还需其他费用 8 元；将废水交给第三方企业处理，每吨需支付 12 元．根据记录，5 月 21 日，该厂产生工业废水 35 吨，共花费废水处理费 370 元."
+  },
+  {
+   "id": "q23",
+   "text": "某种机器使用期为三年，买方在购进机器时，可以给各台机器分别一次性额外购买若干次维修服务，每次维修服务费为 2 000 元．每台机器在使用期间，如果维修次数未超过购机时购买的维修服务次数，每次实际维修还需向维修人员支付工时费 500 元；如果维修次数超过购机时购买的维修服务次数，超出部分每次维修需支付维修服务费 5 000 元，但无需支付工时费．某公司计划购买 1 台该种机器，为决策在购买机器时应同时一次性额外购买几次维修服务，搜集并整理了 100 台这种机器在三年使用期内的维修次数，整理得下表：\n\n| 维修次数 | 8 | 9 | 10 | 11 | 12 |\n|---|---|---|---|---|---|\n| 频数（台数） | 10 | 20 | 30 | 30 | 10 |"
+  },
+  {
+   "id": "q24",
+   "text": "如图，四边形 $ABCD$ 内接于 $\\odot O$，$AB=AC$，$AC\\perp BD$，垂足为 $E$，点 $F$ 在 $BD$ 的延长线上，且 $DF=DC$，连接 $AF$，$CF$.",
+   "figures": [
+    "figs/2019-24-1.png"
+   ]
+  },
+  {
+   "id": "q25",
+   "text": "已知抛物线 $y=ax^2+bx+c\\ (b<0)$ 与 $x$ 轴只有一个公共点."
+  }
+ ],
+ "questions": [
+  {
+   "id": "shuxue-2019-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "计算 $2^2+(-1)^0$ 的结果是",
+   "options": [
+    "A. $5$",
+    "B. $4$",
+    "C. $3$",
+    "D. $2$"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.num.real_calc"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "北京故宫的占地面积约为 $720\\,000\\ \\mathrm{m}^2$，将 $720\\,000$ 用科学记数法表示为",
+   "options": [
+    "A. $72\\times10^4$",
+    "B. $7.2\\times10^5$",
+    "C. $7.2\\times10^6$",
+    "D. $0.72\\times10^6$"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.num.sci_notation"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列图形中，一定既是轴对称图形又是中心对称图形的是",
+   "options": [
+    "A. 等边三角形",
+    "B. 直角三角形",
+    "C. 平行四边形",
+    "D. 正方形"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.trans.symmetry"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "右图是由一个长方体和一个球组成的几何体，它的主视图是",
+   "options": [
+    "A. A",
+    "B. B",
+    "C. C",
+    "D. D"
+   ],
+   "answer": "C",
+   "kp": [
+    "shuxue.solid.view"
+   ],
+   "difficulty": 1,
+   "figures": [
+    "figs/2019-4-1.png",
+    "figs/2019-4-2.png"
+   ]
+  },
+  {
+   "id": "shuxue-2019-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "已知正多边形的一个外角是 $36^\\circ$，则该正多边形的边数为",
+   "options": [
+    "A. $12$",
+    "B. $10$",
+    "C. $8$",
+    "D. $6$"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.geo.polygon"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图是某班甲、乙、丙三位同学最近 5 次数学成绩及其所在班级相应平均分的折线统计图，则下列判断错误的是",
+   "options": [
+    "A. 甲的数学成绩高于班级平均分，且成绩比较稳定",
+    "B. 乙的数学成绩在班级平均分附近波动，且比丙好",
+    "C. 丙的数学成绩低于班级平均分，但成绩逐次提高",
+    "D. 就甲、乙、丙三个人而言，乙的数学成绩最不稳定"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.stat.chart",
+    "shuxue.stat.spread"
+   ],
+   "difficulty": 1,
+   "figures": [
+    "figs/2019-6-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2019-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "下列运算正确的是",
+   "options": [
+    "A. $a\\cdot a^3=a^3$",
+    "B. $(2a)^3=6a^3$",
+    "C. $a^6\\div a^3=a^2$",
+    "D. $(a^2)^3-(-a^3)^2=0$"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.num.power"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "《增删算法统宗》记载：“有个学生资性好，一部孟子三日了，每日增添一倍多，问君每日读多少？”其大意是：有个学生天资聪慧，三天读完一部《孟子》，每天阅读的字数是前一天的两倍，问他每天各读多少个字？已知《孟子》一书共有 $34\\,685$ 个字，设他第一天读 $x$ 个字，则下面所列方程正确的是",
+   "options": [
+    "A. $x+2x+4x=34\\,685$",
+    "B. $x+2x+3x=34\\,685$",
+    "C. $x+2x+2x=34\\,685$",
+    "D. $x+\\frac{1}{2}x+\\frac{1}{4}x=34\\,685$"
+   ],
+   "answer": "A",
+   "kp": [
+    "shuxue.eq.system_app",
+    "shuxue.eq.linear"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "如图，$PA$，$PB$ 是 $\\odot O$ 的两条切线，$A$，$B$ 为切点，点 $C$ 在 $\\odot O$ 上，且 $\\angle ACB=55^\\circ$，则 $\\angle APB$ 等于",
+   "options": [
+    "A. $55^\\circ$",
+    "B. $70^\\circ$",
+    "C. $110^\\circ$",
+    "D. $125^\\circ$"
+   ],
+   "answer": "B",
+   "kp": [
+    "shuxue.circle.tangent",
+    "shuxue.circle.basic"
+   ],
+   "difficulty": 2,
+   "figures": [
+    "figs/2019-9-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2019-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 4,
+   "stem": "若二次函数 $y=|a|x^2+bx+c$ 的图象过不同的五点 $A(m,n)$，$B(0,y_1)$，$C(3-m,n)$，$D(\\sqrt{2},y_2)$，$E(2,y_3)$，则 $y_1$，$y_2$，$y_3$ 的大小关系是",
+   "options": [
+    "A. $y_1<y_2<y_3$",
+    "B. $y_1<y_3<y_2$",
+    "C. $y_3<y_2<y_1$",
+    "D. $y_2<y_3<y_1$"
+   ],
+   "answer": "D",
+   "kp": [
+    "shuxue.func.quad_param",
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2019-11",
+   "no": "11",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "因式分解：$x^2-9=$ ____.",
+   "answer": "$(x+3)(x-3)$",
+   "kp": [
+    "shuxue.num.factorize"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-12",
+   "no": "12",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，数轴上 $A$，$B$ 两点所表示的数分别是 $-4$ 和 $2$，$C$ 是线段 $AB$ 的中点，则点 $C$ 表示的数是 ____.",
+   "answer": "$-1$",
+   "kp": [
+    "shuxue.num.real",
+    "shuxue.num.rational"
+   ],
+   "difficulty": 1,
+   "figures": [
+    "figs/2019-12-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2019-13",
+   "no": "13",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "某校征集校运会会徽图案，遴选出甲、乙、丙三种图案．为了解何种图案更受欢迎，随机调查了该校 100 位学生，其中有 60 位学生喜欢甲图案．若该校共有学生 2 000 人，根据所学的统计知识可以估计该校喜欢甲图案的学生有 ____ 人.",
+   "answer": "$1\\,200$",
+   "kp": [
+    "shuxue.stat.collect"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-14",
+   "no": "14",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "在平面直角坐标系 $xOy$ 中，$\\square OABC$ 的三个顶点分别为 $O(0,0)$，$A(3,0)$，$B(4,2)$，则其第四个顶点 $C$ 的坐标是 ____.",
+   "answer": "$(1,2)$",
+   "kp": [
+    "shuxue.geo.parallelogram",
+    "shuxue.func.coord"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-15",
+   "no": "15",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，边长为 2 的正方形 $ABCD$ 的中心与半径为 2 的 $\\odot O$ 的圆心重合，$E$，$F$ 分别是 $AD$，$BA$ 的延长线与 $\\odot O$ 的交点，则图中阴影部分的面积为 ____．（结果保留 $\\pi$）",
+   "answer": "$\\pi-1$",
+   "kp": [
+    "shuxue.circle.polygon_arc",
+    "shuxue.geo.special_quad"
+   ],
+   "difficulty": 2,
+   "figures": [
+    "figs/2019-15-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2019-16",
+   "no": "16",
+   "section": "填空题",
+   "type": "blank",
+   "score": 4,
+   "stem": "如图，菱形 $ABCD$ 的顶点 $A$ 在函数 $y=\\frac{3}{x}\\ (x>0)$ 的图象上，函数 $y=\\frac{k}{x}\\ (k>3,\\ x>0)$ 的图象关于直线 $AC$ 对称，且过 $B$，$D$ 两点．若 $AB=2$，$\\angle BAD=30^\\circ$，则 $k=$ ____.",
+   "answer": "$6+2\\sqrt{3}$",
+   "kp": [
+    "shuxue.func.inverse_geo",
+    "shuxue.geo.special_quad"
+   ],
+   "difficulty": 3,
+   "figures": [
+    "figs/2019-16-1.png"
+   ]
+  },
+  {
+   "id": "shuxue-2019-17",
+   "no": "17",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "解方程组：$\\begin{cases}x-y=5,\\\\2x+y=4.\\end{cases}$",
+   "answer": "解：$\\begin{cases}x-y=5,&①\\\\2x+y=4.&②\\end{cases}$\n\n①+②，得 $(x-y)+(2x+y)=5+4$，\n\n即 $3x=9$，\n\n解得 $x=3$，\n\n将 $x=3$ 代入②，得 $2\\times3+y=4$，\n\n解得 $y=-2$.\n\n所以原方程组的解为 $\\begin{cases}x=3,\\\\y=-2.\\end{cases}$\n\n说明：本参考答案仅给出一种解法供参考。",
+   "rubric": "本小题考查二元一次方程组的解法等基础知识，考查运算能力，考查化归与转化思想，满分8分.",
+   "kp": [
+    "shuxue.eq.system"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-18",
+   "no": "18",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "如图，点 $E$，$F$ 分别在矩形 $ABCD$ 的边 $AB$，$CD$ 上，且 $DF=BE$.\n\n求证：$AF=CE$.",
+   "figures": [
+    "figs/2019-18-1.png"
+   ],
+   "answer": "证明：$\\because$ 四边形 $ABCD$ 是矩形，\n\n$\\therefore \\angle D=\\angle B=90^\\circ$，$AD=CB$.\n\n在 $\\triangle ADF$ 和 $\\triangle CBE$ 中，$\\begin{cases}AD=CB,\\\\\\angle D=\\angle B,\\\\DF=BE,\\end{cases}$\n\n$\\therefore \\triangle ADF\\cong\\triangle CBE$，\n\n$\\therefore AF=CE$.\n\n说明：本参考答案仅给出一种解法供参考。",
+   "rubric": "本小题考查矩形的性质、全等三角形的判定与性质、勾股定理、平行四边形的判定与性质等基础知识，考查推理能力、空间观念与几何直观，满分8分.",
+   "kp": [
+    "shuxue.geo.congruent",
+    "shuxue.geo.special_quad"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-19",
+   "no": "19",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "stem": "先化简，再求值：$(x-1)\\div\\left(x-\\frac{2x-1}{x}\\right)$，其中 $x=\\sqrt{2}+1$.",
+   "answer": "解：原式 $=(x-1)\\div\\frac{x^2-(2x-1)}{x}$\n\n$=(x-1)\\div\\frac{x^2-2x+1}{x}$\n\n$=(x-1)\\div\\frac{(x-1)^2}{x}$\n\n$=(x-1)\\cdot\\frac{x}{(x-1)^2}$\n\n$=\\frac{x}{x-1}$.\n\n当 $x=\\sqrt{2}+1$ 时，\n\n原式 $=\\frac{\\sqrt{2}+1}{(\\sqrt{2}+1)-1}=\\frac{\\sqrt{2}+1}{\\sqrt{2}}=1+\\frac{\\sqrt{2}}{2}$.\n\n说明：本参考答案仅给出一种解法供参考。",
+   "rubric": "本小题考查分式的混合运算、因式分解、二次根式的运算等基础知识，考查运算能力，考查化归与转化思想，满分8分.",
+   "kp": [
+    "shuxue.num.fraction",
+    "shuxue.num.radical"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-20-1",
+   "no": "20(1)",
+   "section": "解答题",
+   "type": "draw",
+   "score": 4,
+   "material": "q20",
+   "stem": "以点 $A'$ 为一个顶点作 $\\triangle A'B'C'$，使得 $\\triangle A'B'C'\\backsim\\triangle ABC$，且 $\\triangle A'B'C'$ 的面积等于 $\\triangle ABC$ 面积的 4 倍；（要求：尺规作图，不写作法，保留作图痕迹）",
+   "answer": "解：(1)\n\n![](figs/2019-20-ans.png)\n\n$\\triangle A'B'C'$ 为所求作的三角形.",
+   "rubric": "本小题考查尺规作图、相似三角形的性质与判定、三角形中位线定理等基础知识，考查推理能力、空间观念与几何直观，考查化归与转化思想，满分8分.",
+   "kp": [
+    "shuxue.construct.design",
+    "shuxue.geo.similar"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2019-20-2",
+   "no": "20(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q20",
+   "stem": "设 $D$，$E$，$F$ 分别是 $\\triangle ABC$ 三边 $AB$，$BC$，$CA$ 的中点，$D'$，$E'$，$F'$ 分别是你所作的 $\\triangle A'B'C'$ 三边 $A'B'$，$B'C'$，$C'A'$ 的中点，求证：$\\triangle DEF\\backsim\\triangle D'E'F'$.",
+   "answer": "![](figs/2019-20-ans-2.png)\n\n(2)证明：$\\because D,E,F$ 分别是 $\\triangle ABC$ 三边 $AB,BC,CA$ 的中点，\n\n$\\therefore DE=\\frac12AC$，$EF=\\frac12AB$，$FD=\\frac12BC$，\n\n同理，$D'E'=\\frac12A'C'$，$E'F'=\\frac12A'B'$，$F'D'=\\frac12B'C'$.\n\n$\\because \\triangle ABC\\backsim\\triangle A'B'C'$，\n\n$\\therefore \\frac{AC}{A'C'}=\\frac{AB}{A'B'}=\\frac{BC}{B'C'}$，\n\n$\\therefore \\frac{\\frac12AC}{\\frac12A'C'}=\\frac{\\frac12AB}{\\frac12A'B'}=\\frac{\\frac12BC}{\\frac12B'C'}$，即 $\\frac{DE}{D'E'}=\\frac{EF}{E'F'}=\\frac{FD}{F'D'}$，\n\n$\\therefore \\triangle DEF\\backsim\\triangle D'E'F'$.\n\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.geo.similar",
+    "shuxue.geo.midline"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2019-21-1",
+   "no": "21(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q21",
+   "stem": "若点 $E$ 恰好落在边 $AC$ 上，如图 1，求 $\\angle ADE$ 的大小；",
+   "answer": "解：(1)在 $\\triangle ABC$ 中，$\\angle ABC=90^\\circ$，$\\angle ACB=30^\\circ$，\n\n$\\therefore \\angle BAC=60^\\circ$.\n\n由旋转性质得，$DC=AC$，$\\angle DCE=\\angle ACB=30^\\circ$.\n\n$\\therefore \\angle DAC=\\angle ADC=\\frac12(180^\\circ-\\angle DCE)=75^\\circ$，\n\n又 $\\angle EDC=\\angle BAC=60^\\circ$，\n\n$\\therefore \\angle ADE=\\angle ADC-\\angle EDC=15^\\circ$.",
+   "rubric": "本小题考查图形的旋转、直角三角形、等腰三角形、等边三角形、三角形内角和、平行四边形的判定等基础知识，考查运算能力、推理能力、空间观念与几何直观，考查化归与转化思想，满分8分.",
+   "kp": [
+    "shuxue.trans.rotation",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2019-21-2",
+   "no": "21(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 5,
+   "material": "q21",
+   "stem": "若 $\\alpha=60^\\circ$，$F$ 为 $AC$ 的中点，如图 2，求证：四边形 $BEDF$ 是平行四边形.",
+   "answer": "![](figs/2019-21-ans.png)\n\n(2)在 $\\triangle ABC$ 中，$\\angle ABC=90^\\circ$，$\\angle ACB=30^\\circ$，\n\n$\\therefore AB=\\frac12AC$，\n\n$\\because F$ 是 $AC$ 的中点，\n\n$\\therefore BF=FC=\\frac12AC$，\n\n$\\therefore \\angle FBC=\\angle ACB=30^\\circ$.\n\n由旋转性质得 $AB=DE$，$\\angle DEC=\\angle ABC=90^\\circ$，$\\angle BCE=\\angle ACD=60^\\circ$，\n\n$\\therefore DE=BF$，\n\n延长 $BF$ 交 $EC$ 于点 $G$，则 $\\angle BGE=\\angle GBC+\\angle GCB=90^\\circ$，\n\n$\\therefore \\angle BGE=\\angle DEC$，\n\n$\\therefore DE\\parallel BF$，\n\n$\\therefore$ 四边形 $BEDF$ 是平行四边形.\n\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.trans.rotation",
+    "shuxue.geo.parallelogram",
+    "shuxue.geo.pythagoras"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2019-22-1",
+   "no": "22(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q22",
+   "stem": "求该车间的日废水处理量 $m$；",
+   "answer": "解：(1)因为工厂产生工业废水 35 吨，共花费废水处理费 370 元，\n\n又 $\\frac{370-30}{35}=\\frac{68}{7}>8$，所以 $m<35$，\n\n依题意得，$30+8m+12(35-m)=370$，\n\n解得 $m=20$，\n\n故该车间的日废水处理量为 20 吨.",
+   "rubric": "本小题考查一元一次方程、一元一次不等式、反比例函数的性质、平均数的概念等基础知识，考查运算能力、推理能力、应用意识、创新意识，考查函数与方程思想、分类与整合思想、化归与转化思想，满分10分.",
+   "kp": [
+    "shuxue.eq.linear"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2019-22-2",
+   "no": "22(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q22",
+   "stem": "为实现可持续发展，走绿色发展之路，工厂合理控制了生产规模，使得每天废水处理的平均费用不超过 10 元/吨，试计算该厂一天产生的工业废水量的范围.",
+   "answer": "(2)设该厂一天产生的工业废水量为 $x$ 吨.\n\n①当 $0<x\\le20$ 时，依题意得，$8x+30\\le10x$，\n\n解得 $x\\ge15$，所以 $15\\le x\\le20$.\n\n②当 $x>20$ 时，依题意得，$12(x-20)+20\\times8+30\\le10x$，\n\n解得 $x\\le25$，所以 $20<x\\le25$.\n\n综上所述，$15\\le x\\le25$，\n\n故该厂一天产生的工业废水量的范围在 15 吨到 25 吨之间.\n\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.ineq.app"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2019-23-1",
+   "no": "23(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 3,
+   "material": "q23",
+   "stem": "以这 100 台机器为样本，估计“1 台机器在三年使用期内维修次数不大于 10”的概率；",
+   "answer": "解：(1)因为“100 台机器在三年使用期内维修次数不大于 10”的台数为 $10+20+30=60$，\n\n所以“100 台机器在三年使用期内维修次数不大于 10”的频率为 $\\frac{60}{100}=0.6$，\n\n故可估计“1 台机器在三年使用期内维修次数不大于 10”的概率为 $0.6$.",
+   "rubric": "本小题考查概率、加权平均数、统计表等基础知识，考查运算能力、推理能力、数据分析观念、应用意识，考查统计与概率思想，满分10分.",
+   "kp": [
+    "shuxue.prob.freq"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "shuxue-2019-23-2",
+   "no": "23(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 7,
+   "material": "q23",
+   "stem": "试以这 100 台机器维修费用的平均数作为决策依据，说明购买 1 台该机器的同时应一次性额外购买 10 次还是 11 次维修服务？",
+   "answer": "(2)若每台都购买 10 次维修服务，则有下表：\n\n| 某台机器使用期内维修次数 | 8 | 9 | 10 | 11 | 12 |\n|---|---|---|---|---|---|\n| 该台机器的维修费用 | 24 000 | 24 500 | 25 000 | 30 000 | 35 000 |\n\n此时这 100 台机器维修费用的平均数\n\n$y_1=\\frac{24\\,000\\times10+24\\,500\\times20+25\\,000\\times30+30\\,000\\times30+35\\,000\\times10}{100}=27\\,300$，\n\n若每台都购买 11 次维修服务，则有下表：\n\n| 某台机器使用期内维修次数 | 8 | 9 | 10 | 11 | 12 |\n|---|---|---|---|---|---|\n| 该台机器的维修费用 | 26 000 | 26 500 | 27 000 | 27 500 | 32 500 |\n\n此时这 100 台机器维修费用的平均数\n\n$y_2=\\frac{26\\,000\\times10+26\\,500\\times20+27\\,000\\times30+27\\,500\\times30+32\\,500\\times10}{100}=27\\,500$，\n\n因为 $y_1<y_2$，所以购买 1 台该机器的同时应一次性额外购买 10 次维修服务.\n\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.stat.decision",
+    "shuxue.stat.central"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2019-24-1",
+   "no": "24(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q24",
+   "stem": "求证：$\\angle BAC=2\\angle CAD$；",
+   "answer": "证明：(1)$\\because AC\\perp BD$，\n\n$\\therefore \\angle AED=90^\\circ$，\n\n在 $\\mathrm{Rt}\\triangle AED$ 中，$\\angle ADE=90^\\circ-\\angle CAD$.\n\n$\\because AB=AC$，\n\n$\\therefore \\overset{\\frown}{AB}=\\overset{\\frown}{AC}$，\n\n$\\therefore \\angle ACB=\\angle ABC=\\angle ADE=90^\\circ-\\angle CAD$.\n\n在 $\\triangle ABC$ 中，$\\angle BAC+\\angle ABC+\\angle ACB=180^\\circ$，\n\n$\\therefore \\angle BAC=180^\\circ-(\\angle ABC+\\angle ACB)=180^\\circ-2(90^\\circ-\\angle CAD)$，\n\n即 $\\angle BAC=2\\angle CAD$.",
+   "rubric": "本小题考查圆的有关性质、等腰三角形的判定与性质、线段垂直平分线的判定与性质、解直角三角形、相似三角形的判定与性质、三角形面积等基础知识，考查运算能力、推理能力、空间观念与几何直观，考查化归与转化思想、函数与方程思想，满分12分.",
+   "kp": [
+    "shuxue.circle.basic",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2019-24-2",
+   "no": "24(2)",
+   "section": "解答题",
+   "type": "short",
+   "score": 8,
+   "material": "q24",
+   "stem": "若 $AF=10$，$BC=4\\sqrt{5}$，求 $\\tan\\angle BAD$ 的值.",
+   "answer": "![](figs/2019-24-ans.png)\n\n(2)$\\because DF=DC$，\n\n$\\therefore \\angle FCD=\\angle CFD$，\n\n$\\because \\angle BDC=\\angle FCD+\\angle CFD$，\n\n$\\therefore \\angle BDC=2\\angle CFD$.\n\n$\\because \\angle BDC=\\angle BAC$，且由(1)知 $\\angle BAC=2\\angle CAD$，\n\n$\\therefore \\angle CFD=\\angle CAD$，\n\n$\\because \\angle CAD=\\angle CBD$，\n\n$\\therefore \\angle CFD=\\angle CBD$，\n\n$\\therefore CF=CB$，\n\n$\\because AC\\perp BF$，\n\n$\\therefore BE=EF$，故 $CA$ 垂直平分 $BF$，\n\n$\\therefore AC=AB=AF=10$，\n\n设 $AE=x$，则 $CE=10-x$，\n\n在 $\\mathrm{Rt}\\triangle ABE$ 和 $\\mathrm{Rt}\\triangle BCE$ 中，$AB^2-AE^2=BE^2=BC^2-CE^2$，\n\n又 $\\because BC=4\\sqrt{5}$，\n\n$\\therefore 10^2-x^2=(4\\sqrt{5})^2-(10-x)^2$，解得 $x=6$，\n\n$\\therefore AE=6$，$CE=4$，\n\n$\\therefore BE=\\sqrt{AB^2-AE^2}=8$，\n\n$\\because \\angle DAE=\\angle CBE$，$\\angle ADE=\\angle BCE$，\n\n$\\therefore \\triangle ADE\\backsim\\triangle BCE$.\n\n$\\therefore \\frac{AE}{BE}=\\frac{DE}{CE}=\\frac{AD}{BC}$，\n\n$\\therefore DE=3$，$AD=3\\sqrt{5}$.\n\n过点 $D$ 作 $DH\\perp AB$，垂足为 $H$.\n\n$\\because S_{\\triangle ABD}=\\frac12AB\\cdot DH=\\frac12BD\\cdot AE$，$BD=BE+DE=11$，\n\n$\\therefore 10DH=11\\times6$，故 $DH=\\frac{33}{5}$，\n\n在 $\\mathrm{Rt}\\triangle ADH$ 中，$AH=\\sqrt{AD^2-DH^2}=\\frac65$，\n\n$\\therefore \\tan\\angle BAD=\\frac{DH}{AH}=\\frac{11}{2}$.\n\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.circle.basic",
+    "shuxue.geo.similar",
+    "shuxue.geo.trig"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2019-25-1",
+   "no": "25(1)",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q25",
+   "stem": "若抛物线与 $x$ 轴的公共点坐标为 $(2,0)$，求 $a$，$c$ 满足的关系式；",
+   "answer": "解：(1)依题意，$\\Delta=b^2-4ac=0$，$-\\frac{b}{2a}=2$，\n\n所以 $(-4a)^2-4ac=0$，\n\n因为 $a\\ne0$，所以 $c=4a$，即 $a$，$c$ 满足的关系式为 $c=4a$.",
+   "rubric": "本小题考查一次函数和二次函数的图象与性质、等腰直角三角形的性质、相似三角形的性质与判定、图形的对称等基础知识，考查运算能力、推理能力、空间观念与几何直观、创新意识，考查函数与方程思想、数形结合思想、化归与转化思想，满分14分.",
+   "kp": [
+    "shuxue.func.quad_eq",
+    "shuxue.func.quad_graph"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "shuxue-2019-25-2-1",
+   "no": "25(2)①",
+   "section": "解答题",
+   "type": "short",
+   "score": 4,
+   "material": "q25",
+   "stem": "(2)设 $A$ 为抛物线上的一个定点，直线 $l$：$y=kx+1-k$ 与抛物线交于点 $B$，$C$，直线 $BD$ 垂直于直线 $y=-1$，垂足为 $D$．当 $k=0$ 时，直线 $l$ 与抛物线的一个交点在 $y$ 轴上，且 $\\triangle ABC$ 是等腰直角三角形.\n\n①求点 $A$ 的坐标和抛物线的解析式；",
+   "answer": "(2)①当 $k=0$ 时，直线 $l$ 为 $y=1$，它与 $y$ 轴的交点为 $(0,1)$.\n\n因为直线 $y=1$ 与 $x$ 轴平行，所以等腰直角 $\\triangle ABC$ 的直角顶点只能是 $A$，且 $A$ 是抛物线的顶点.\n\n过 $A$ 作 $AM\\perp BC$，垂足为 $M$，则 $AM=1$，\n\n所以 $BM=MC=AM=1$，\n\n故点 $A$ 坐标为 $(1,0)$，\n\n所以抛物线的解析式可改写为 $y=a(x-1)^2$，\n\n因为抛物线过点 $(0,1)$，所以 $1=a(0-1)^2$，解得 $a=1$.\n\n所以抛物线的解析式为 $y=(x-1)^2$，即 $y=x^2-2x+1$.",
+   "kp": [
+    "shuxue.func.quad_expr",
+    "shuxue.func.quad_geo",
+    "shuxue.geo.isosceles"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "shuxue-2019-25-2-2",
+   "no": "25(2)②",
+   "section": "解答题",
+   "type": "short",
+   "score": 6,
+   "material": "q25",
+   "stem": "(2)设 $A$ 为抛物线上的一个定点，直线 $l$：$y=kx+1-k$ 与抛物线交于点 $B$，$C$，直线 $BD$ 垂直于直线 $y=-1$，垂足为 $D$．当 $k=0$ 时，直线 $l$ 与抛物线的一个交点在 $y$ 轴上，且 $\\triangle ABC$ 是等腰直角三角形.\n\n②证明：对于每个给定的实数 $k$，都有 $A$，$C$，$D$ 三点共线.",
+   "answer": "![](figs/2019-25-ans.png)\n\n②设 $B(x_1,y_1)$，$C(x_2,y_2)$，则 $D(x_1,-1)$.\n\n由 $\\begin{cases}y=kx+1-k,\\\\y=x^2-2x+1\\end{cases}$ 得 $x^2-(k+2)x+k=0$，\n\n因为 $\\Delta=(k+2)^2-4k=k^2+4>0$，\n\n由抛物线的对称性，不妨设 $x_1<x_2$，则\n\n$x_1=\\frac{k+2-\\sqrt{k^2+4}}{2}$，$x_2=\\frac{k+2+\\sqrt{k^2+4}}{2}$，\n\n所以 $x_1<1<x_2$.\n\n设直线 $AD$ 的解析式为 $y=mx+n$，则有 $\\begin{cases}0=m+n,\\\\-1=mx_1+n,\\end{cases}$\n\n解得 $\\begin{cases}m=-\\frac{1}{x_1-1},\\\\n=\\frac{1}{x_1-1}.\\end{cases}$\n\n所以直线 $AD$ 的解析式为 $y=-\\frac{1}{x_1-1}x+\\frac{1}{x_1-1}$.\n\n因为 $y_2-\\left(-\\frac{1}{x_1-1}x_2+\\frac{1}{x_1-1}\\right)=(x_2-1)^2+\\frac{x_2-1}{x_1-1}$\n\n$=\\frac{(x_2-1)[(x_1-1)(x_2-1)+1]}{x_1-1}$\n\n$=\\frac{(x_2-1)\\left(\\frac{k-\\sqrt{k^2+4}}{2}\\cdot\\frac{k+\\sqrt{k^2+4}}{2}+1\\right)}{x_1-1}$\n\n$=0$，\n\n即 $y_2=-\\frac{1}{x_1-1}x_2+\\frac{1}{x_1-1}$，所以点 $C(x_2,y_2)$ 在直线 $AD$ 上.\n\n故对于每个给定的实数 $k$，都有 $A$，$C$，$D$ 三点共线.\n\n说明：本参考答案仅给出一种解法供参考。",
+   "kp": [
+    "shuxue.func.quad_geo",
+    "shuxue.prac.reasoning"
+   ],
+   "difficulty": 3
+  }
+ ]
+}

@@ -1,0 +1,731 @@
+{
+ "subject": "huaxue",
+ "year": 2026,
+ "source": "福建省教育考试院《2026年福建省初中学业水平考试试题、参考答案》（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/tzgg/202606/t20260623_5337122.htm",
+ "total": 100,
+ "minutes": 60,
+ "note": "相对原子质量：H 1　C 12　Na 23　Cl 35.5　Ag 108。非选择题小问分值为按福建阅卷惯例估算，官方只给大题总分。",
+ "materials": [
+  {
+   "id": "m11",
+   "text": "“小工具，大智慧”。学习小组围绕“压电式打火机的工作原理及安全使用”开展实践活动。",
+   "figures": [
+    "figs/2026-m11-1.png"
+   ]
+  },
+  {
+   "id": "m12",
+   "text": "2026 年 4 月，全球首台大排量混动专用、高压直喷纯氨内燃机成功点火并稳定运行，标志着我国在零碳燃料内燃机领域迈出了重要一步。"
+  },
+  {
+   "id": "m13",
+   "text": "“小临”是我国自主研制的“机器化学家”，在与科学家协同作用下，通过梳理锂电池热失控三阶段（SEI 膜分解、隔膜熔融、全面失控）机理、数据挖掘和自动化实验等工作，成功研发出优良控热材料，满足车用电池热失控后两小时“不起火、不爆炸”的强制性要求。"
+  },
+  {
+   "id": "m14",
+   "text": "用于海事、水上作业等活动的充气式气胀救生衣，充气后必须产生足够大的浮力以保证人身安全。某救生衣示意图及其说明书如下。\n\n（图中说明书：将救生衣从头部、肩部套入，穿于上半身。落水时，手拉充气绳，气瓶中的高压二氧化碳将迅速充满救生衣，产生约 150 N 浮力，使头部、肩部露出水面。）",
+   "figures": [
+    "figs/2026-m14-1.png"
+   ]
+  },
+  {
+   "id": "m15",
+   "text": "2025 年诺贝尔化学奖授予在“金属有机框架”领域作出开创性贡献的科学家。已知：金属有机框架 MOF-5 的化学式为 $\\mathrm{C_{24}H_{12}O_{13}Zn_4}$。"
+  },
+  {
+   "id": "m16",
+   "text": "项目小组欲创设影视剧中云雾缭绕的场景，以营造班级晚会氛围，决定自制能较长时间、持续产生“浓雾”的简易干冰造雾机，并开展如下活动。\n\n【查阅资料】\n雾是水蒸气凝结成小液滴并分散于空气形成的；干冰沸点（即升华温度）为 -78.5 ℃，常用于造雾。"
+  },
+  {
+   "id": "m17",
+   "text": "兴趣小组通过查阅资料，了解到温度、湿度、酸度、盐度（盐溶液中溶质的质量分数）等是石质文物腐蚀的重要影响因素。兴趣小组在 28 ℃ 恒温环境下，以石雕为研究对象，利用制造石雕的四份相同材料样品开展如下探究活动。\n\n【配制溶液】\n配制 28 ℃ NaCl 饱和溶液 50 g（溶解度曲线如右图所示，图中标注 NaCl 与 $\\mathrm{Na_2SO_4}$ 曲线交点 (28, 36.1)）。",
+   "figures": [
+    "figs/2026-m17-1.png"
+   ]
+  },
+  {
+   "id": "m18",
+   "text": "某检测机构利用下列反应测定食品添加剂葡萄糖酸钙样品中氯化物（以 NaCl 计）的含量：$\\mathrm{NaCl + AgNO_3 \\xlongequal{} AgCl\\downarrow + NaNO_3}$。结果表明，2.00 g 样品参加反应，生成 AgCl 2.87 mg。"
+  }
+ ],
+ "questions": [
+  {
+   "id": "huaxue-2026-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "人体因长期缺乏某种元素而导致贫血，该元素是",
+   "options": [
+    "A. 钙",
+    "B. 铁",
+    "C. 碘",
+    "D. 钾"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.life.elements_health"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "我国科学家利用火星陨石（含多种金属氧化物）研发制氧催化剂的流程如下：\n\n陨石 —机械粉碎①→ 陨石粉末 —酸溶液②→ 盐溶液 —碱溶液③→ 沉淀 ——→ 催化剂 —催化电解水④→ 氧气\n\n编号对应的过程不涉及化学变化的是",
+   "options": [
+    "A. ①",
+    "B. ②",
+    "C. ③",
+    "D. ④"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.intro.change",
+    "huaxue.society.frontier"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "《齐民要术》记载了许多农作物增产的做法，体现生态农业的思想。下列有关农作物增产做法的认识，**错误**的是",
+   "options": [
+    "A. 适时翻耕土地",
+    "B. 调节土壤的 pH",
+    "C. 大量施用化肥",
+    "D. 合理灌溉农田"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.salt.fertilizer",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "我国科学家在空间站通过“悬浮熔炼”得到的铌合金，是制造航空发动机的理想材料。铌在元素周期表中的部分信息如右图所示，铌原子的核外电子数为",
+   "options": [
+    "A. 134",
+    "B. 93",
+    "C. 52",
+    "D. 41"
+   ],
+   "figures": [
+    "figs/2026-4-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.struct.periodic_table",
+    "huaxue.struct.atom"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "利用高锰酸钾制取氧气并验证氧气性质的实验中，下列操作或装置**错误**的是",
+   "options": [
+    "A. 检查气密性",
+    "B. 发生装置",
+    "C. 准备收集",
+    "D. 验证性质"
+   ],
+   "figures": [
+    "figs/2026-5-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.o2.lab_prep",
+    "huaxue.intro.basic_ops",
+    "huaxue.o2.properties"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "迄今为止，$\\mathrm{C_6H_6S}$ 是科学家在太空中发现的最大含硫分子。下列有关 $\\mathrm{C_6H_6S}$ 的说法中，正确的是",
+   "options": [
+    "A. 属于有机物",
+    "B. $\\mathrm{C_6H_6S}$ 含有 3 个氢分子",
+    "C. 碳、氢元素的质量比为 1∶1",
+    "D. 与 $\\mathrm{O_2}$ 反应只生成 $\\mathrm{H_2O}$"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.formula.calc",
+    "huaxue.life.materials",
+    "huaxue.eq.conservation"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "《粗谈·器用》记载了清洗铜器表面铜锈［主要成分是 $\\mathrm{Cu_2(OH)_2CO_3}$］的方法：“以醋浸过，洗之自落”。已知：醋中含有醋酸（$\\mathrm{CH_3COOH}$）；“醋浸”时，铜锈溶解而铜不溶解。下列说法正确的是",
+   "options": [
+    "A. $\\mathrm{Cu_2(OH)_2CO_3}$ 属于氧化物",
+    "B. 铜器生锈是 Cu、$\\mathrm{O_2}$ 和 $\\mathrm{H_2O}$ 共同作用的结果",
+    "C. “醋浸”时，醋酸与 $\\mathrm{Cu_2(OH)_2CO_3}$ 发生置换反应",
+    "D. 铜锈溶解而铜不溶解，是因为二者组成不同"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.metal.corrosion",
+    "huaxue.matter.classify",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "某患者受强烈刺激后呼吸急促，导致体内 $\\mathrm{CO_2}$ 排出过多而使血液碱性增强，出现胸闷等呼吸性碱中毒症状。医生建议患者用纸袋罩住口鼻呼吸，以缓解症状。下列说法**错误**的是",
+   "options": [
+    "A. 碱中毒时，患者血液的 pH 比其正常状态的低",
+    "B. “用纸袋罩住口鼻”是为了吸入含 $\\mathrm{CO_2}$ 浓度较高的气体",
+    "C. 葡萄糖在人体内缓慢氧化，最终有 $\\mathrm{CO_2}$ 生成",
+    "D. 情绪激动、紧张焦虑是碱中毒的可能诱因"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.acid.ph",
+    "huaxue.carbon.co2_properties"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "抗战时期，为满足电台通讯的迫切需求，革命圣地延安用民间收集来的铜钱为原料生产锌锭，以制作干电池。生产锌锭的部分工艺示意图如下，下列说法**错误**的是",
+   "options": [
+    "A. 铜的沸点比锌的沸点高",
+    "B. 生产过程应避免金属被氧化",
+    "C. 生产时需控制土窑炉的炉温",
+    "D. 该工艺体现了锌的金属活动性比铜的强"
+   ],
+   "figures": [
+    "figs/2026-9-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.metal.smelting",
+    "huaxue.metal.activity",
+    "huaxue.inquiry.process"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "镁、铝、锌等金属和水反应可生成氢气，但这些金属表面易形成氧化膜而阻碍反应顺利进行。科研小组设计如下图所示装置进行制氢模拟实验：加热海水产生的高温水蒸气，使颗粒状金属不断翻滚碰撞并与水发生反应；停止加热，装置中仍有持续、稳定的氢气流产生。下列说法**错误**的是",
+   "options": [
+    "A. 实验开始时，装置先充满水蒸气以排出空气",
+    "B. 金属颗粒“翻滚碰撞”有利于氢气持续产生",
+    "C. 实验所用的金属与水的反应，吸收热量",
+    "D. 制氢过程中，装置内食盐晶体逐渐析出"
+   ],
+   "figures": [
+    "figs/2026-10-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.fuel.energy",
+    "huaxue.metal.chem",
+    "huaxue.sol.saturation"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2026-11-1",
+   "no": "11(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m11",
+   "stem": "了解打火机构造\n\n某打火机如右图所示。其塑料外壳属于____（填“金属材料”或“有机合成材料”）。",
+   "answer": "有机合成材料",
+   "kp": [
+    "huaxue.life.materials"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-11-2",
+   "no": "11(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m11",
+   "stem": "探析点火过程\n\n按下打火机按手，阀门开启，丁烷经引流芯至喷气嘴后被点燃。\n\n①液态丁烷的汽化过程，分子间的间隔____（填“增大”或“减小”）。\n\n②火焰大小可通过调火环调控，其化学原理是____。",
+   "answer": "① 增大\n② 调控可燃物的量",
+   "kp": [
+    "huaxue.struct.particles",
+    "huaxue.fuel.combustion"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-11-3",
+   "no": "11(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m11",
+   "stem": "保存与使用\n\n打火机易燃易爆。写出安全保存或使用打火机的一条合理建议：____。",
+   "answer": "远离火源（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-12-1",
+   "no": "12(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m12",
+   "stem": "纯氨内燃机工作时，液氨转化为氨气，氨气进一步分解成氮气和氢气，氢气燃烧对外做功。\n\n①一定条件下，氨气（$\\mathrm{NH_3}$）分解的化学方程式为____。\n\n②氢气燃烧对外做功时，氢气的____能最终转化为机械能。",
+   "answer": "① $\\mathrm{2NH_3 \\xlongequal{一定条件} 3H_2 + N_2}$\n② 化学",
+   "kp": [
+    "huaxue.eq.writing",
+    "huaxue.fuel.energy"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-12-2",
+   "no": "12(2)",
+   "section": "非选择题",
+   "type": "draw",
+   "score": 3,
+   "material": "m12",
+   "stem": "纯氨内燃机工作时，产生的氮氧化物（如 NO）和未燃烧的 $\\mathrm{NH_3}$ 通过催化技术转化为 $\\mathrm{H_2O}$ 和一种单质 M。转化过程的微观示意图如下。（图例：小灰球为 H，斜线球为 O，白球为 N）\n\n①催化剂制成蜂窝状的主要目的是____。\n\n②图中虚线方框内应填入 M 粒子，M 粒子的示意图是____。",
+   "figures": [
+    "figs/2026-12-1.png"
+   ],
+   "answer": "① 利于吸附反应物（或其他合理答案）\n② ◯◯",
+   "kp": [
+    "huaxue.eq.micro_diagram",
+    "huaxue.o2.catalyst",
+    "huaxue.eq.conservation"
+   ],
+   "difficulty": 2,
+   "note": "官方答案②是两个相连的白球（白球为 N 原子），即一个 N₂ 分子。"
+  },
+  {
+   "id": "huaxue-2026-12-3",
+   "no": "12(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m12",
+   "stem": "纯氨作为内燃机燃料，具有的优点是____（写一点）。",
+   "answer": "燃烧不产生二氧化碳（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.energy",
+    "huaxue.carbon.cycle"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-12-4",
+   "no": "12(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m12",
+   "stem": "液氨和汽油的相关特性如下表所示。\n\n| 燃料 | 液氨 | 汽油 |\n|---|---|---|\n| 存储压力/kPa | 1 030.0 | 101.3 |\n| 自燃温度（着火点）/℃ | 651 | 440 |\n\n与汽油相比，液氨作为内燃机燃料，缺点（或应克服的困难）是____（写一点）。",
+   "answer": "存储压力大（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.energy",
+    "huaxue.inquiry.data_analysis",
+    "huaxue.fuel.combustion"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-13-1",
+   "no": "13(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m13",
+   "stem": "“SEI 膜分解”反应：$\\mathrm{2C_4H_4O_6Li_2 \\xlongequal{\\triangle } 2Li_2CO_3 + 2C_2H_4\\uparrow + X\\uparrow + 2CO_2\\uparrow}$，X 为____。",
+   "answer": "$\\mathrm{O_2}$",
+   "kp": [
+    "huaxue.eq.conservation"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-13-2",
+   "no": "13(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m13",
+   "stem": "“全面失控”时，电解液产生大量 CO、$\\mathrm{H_2}$、$\\mathrm{O_2}$，可能引发燃烧甚至爆炸。燃烧时反应的化学方程式为____（写出其中一个即可）。",
+   "answer": "$\\mathrm{2CO + O_2 \\xlongequal{点燃} 2CO_2}$（或 $\\mathrm{2H_2 + O_2 \\xlongequal{点燃} 2H_2O}$）",
+   "kp": [
+    "huaxue.eq.writing",
+    "huaxue.carbon.co",
+    "huaxue.fuel.safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-13-3",
+   "no": "13(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m13",
+   "stem": "控热材料的有关组分通过相变（即物质状态变化），吸收电池热失控产生的热量，分解为金属氧化物、$\\mathrm{CO_2}$ 和 $\\mathrm{H_2O}$，有效抑制事故的发生。\n\n①列举相变吸热的一个生活实例：____。\n\n②控热材料在抑制燃烧方面的优势除吸收热量外，还有____。",
+   "answer": "① 水的蒸发（或其他合理答案）\n② 生成物能隔绝氧气",
+   "kp": [
+    "huaxue.fuel.combustion",
+    "huaxue.society.frontier"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-13-4",
+   "no": "13(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m13",
+   "stem": "为助力社会可持续发展，请提出一个希望未来“机器化学家”解决的化学问题：____。",
+   "answer": "如何高效降解塑料（或其他合理答案）",
+   "kp": [
+    "huaxue.society.green",
+    "huaxue.society.frontier"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-14-1",
+   "no": "14(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m14",
+   "stem": "落水后，LED 灯的电极接触海水或河水时立即发光。\n\n①LED 灯能发光，是因为海水或河水具有____（填性质）。\n\n②救生衣安装 LED 灯的意义是____。",
+   "answer": "① 导电性\n② 便于落水者被发现",
+   "kp": [
+    "huaxue.intro.property_use",
+    "huaxue.society.project"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-14-2",
+   "no": "14(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m14",
+   "stem": "有些救生衣自带供氧装置，内置的供氧剂可转化为 $\\mathrm{H_2O_2}$。写出 $\\mathrm{H_2O_2}$ 在催化剂作用下制氧的化学方程式：____。",
+   "answer": "$\\mathrm{2H_2O_2 \\xlongequal{催化剂} 2H_2O + O_2\\uparrow}$",
+   "kp": [
+    "huaxue.o2.lab_prep",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-14-3",
+   "no": "14(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m14",
+   "stem": "经折算：充入 4.4 g $\\mathrm{CO_2}$，救生衣膨胀后产生 22 N 浮力。\n\n①相同条件下，要产生 150 N 浮力，内置气瓶至少应充入____g $\\mathrm{CO_2}$。\n\n②有同学认为：可在救生衣内配备盛稀盐酸、碳酸钙的独立装置，替代内置的二氧化碳气瓶提供气源。请评析该同学的观点：____。",
+   "answer": "① 30.0\n② 虽然二者反应能产生 $\\mathrm{CO_2}$，但存在安全隐患（或其他合理答案）",
+   "kp": [
+    "huaxue.carbon.co2_prep",
+    "huaxue.inquiry.design_eval",
+    "huaxue.society.project"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-15-1",
+   "no": "15(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m15",
+   "stem": "以 $\\mathrm{Zn(NO_3)_2}$ 为锌源制 MOF-5。\n\n①$\\mathrm{Zn(NO_3)_2}$ 中硝酸根离子的化合价为 -1 价，则锌元素的化合价为____价。\n\n②$\\mathrm{Zn(NO_3)_2}$ 溶解后和某有机物充分反应，经结晶、____（填实验操作名称）、洗涤、干燥等步骤，得到 MOF-5 固体。",
+   "answer": "① +2\n② 过滤",
+   "kp": [
+    "huaxue.formula.valence",
+    "huaxue.intro.basic_ops"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-15-2",
+   "no": "15(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 5,
+   "material": "m15",
+   "stem": "加热分解 MOF-5 生产性能优良的碳材料。\n\n①MOF-5 在一定温度下分解，得到固体产物 C 和 ZnO。可用稀硫酸除去固体产物中的 ZnO，反应的化学方程式为____。\n\n②MC-1、MC-2 和 MC-3 是 MOF-5 分别在 600 ℃、800 ℃ 和 1 000 ℃ 时分解得到的碳材料。相同条件下，分别利用它们吸附水中残留的盐酸金霉素（一种抗生素），结果如右图所示。根据实验结果，可得出结论：____。",
+   "figures": [
+    "figs/2026-15-1.png"
+   ],
+   "answer": "① $\\mathrm{ZnO + H_2SO_4 \\xlongequal{} ZnSO_4 + H_2O}$\n② 温度越高分解得到的碳材料吸附速率越大，三种碳材料的最终吸附量相近（或其他合理答案）",
+   "kp": [
+    "huaxue.acid.acids",
+    "huaxue.inquiry.data_analysis",
+    "huaxue.carbon.allotropes"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-16-1",
+   "no": "16(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m16",
+   "stem": "【活动探究】\n实验 1：用镊子夹取适量干冰放入干燥烧杯，仅杯底出现微弱薄雾。\n\n（1）未观察到“浓雾”是因为空气中的____。",
+   "answer": "水蒸气含量较低",
+   "kp": [
+    "huaxue.air.composition",
+    "huaxue.carbon.co2_properties"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-16-2",
+   "no": "16(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m16",
+   "stem": "实验 2：取足量干冰放入盛热水的烧杯中，瞬间产生“浓雾”。\n\n（2）不考虑空气成分，“浓雾”除含 $\\mathrm{H_2O}$、$\\mathrm{CO_2}$ 外，还含有的物质是____。",
+   "answer": "碳酸（或“$\\mathrm{H_2CO_3}$”）",
+   "kp": [
+    "huaxue.carbon.co2_properties"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-16-3",
+   "no": "16(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m16",
+   "stem": "热水冷却到室温后，“浓雾”将____（填“保持不变”或“逐渐变薄”）。",
+   "answer": "逐渐变薄",
+   "kp": [
+    "huaxue.carbon.co2_properties",
+    "huaxue.struct.particles"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-16-4",
+   "no": "16(4)",
+   "section": "非选择题",
+   "type": "draw",
+   "score": 3,
+   "material": "m16",
+   "stem": "【设计造雾机】\n在答题卡相应方框中画出简易干冰造雾机的示意图（需在相应位置标注干冰等物品；作图可先使用 2B 铅笔画出，确定后使用 0.5 毫米黑色字迹签字笔描黑）。",
+   "answer": "![参考答案示意图](figs/2026-16-4-ans.png)\n（图示：上方盛热水的容器经调节阀门连接下方盛干冰的容器，下方容器侧管导出白雾）（或其他合理答案）",
+   "kp": [
+    "huaxue.society.project",
+    "huaxue.lab.gas_apparatus"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2026-16-5",
+   "no": "16(5)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m16",
+   "stem": "【交流研讨】\n使用干冰造雾的场所要注意通风透气，理由是____。",
+   "answer": "避免 $\\mathrm{CO_2}$ 浓度过高对人体产生危害（或其他合理答案）",
+   "kp": [
+    "huaxue.carbon.co2_properties",
+    "huaxue.air.pollution"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-16-6",
+   "no": "16(6)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m16",
+   "stem": "消防部门提醒：严禁将干冰存放于普通冰箱（最低贮存温度约为 -20 ℃）。理由是____。",
+   "answer": "干冰沸点远低于冰箱最低贮存温度，易升华，体积膨胀，有安全隐患",
+   "kp": [
+    "huaxue.carbon.co2_properties",
+    "huaxue.struct.particles",
+    "huaxue.fuel.safety"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-17-1",
+   "no": "17(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m17",
+   "stem": "配制溶液的过程如下图所示，请按操作顺序进行排序：____（填字母）。",
+   "figures": [
+    "figs/2026-17-1.png"
+   ],
+   "answer": "a c e b d",
+   "kp": [
+    "huaxue.sol.concentration",
+    "huaxue.intro.basic_ops"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2026-17-2",
+   "no": "17(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m17",
+   "stem": "28 ℃ NaCl 饱和溶液中溶质的质量分数为____（列出计算式即可）。",
+   "answer": "$\\dfrac{36.1\\ \\mathrm{g}}{100\\ \\mathrm{g}+36.1\\ \\mathrm{g}}\\times 100\\%$",
+   "kp": [
+    "huaxue.sol.concentration",
+    "huaxue.sol.solubility"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-17-3",
+   "no": "17(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 1,
+   "material": "m17",
+   "stem": "【活动探究】\n活动 1：将样品放入稀盐酸中浸泡，样品表面有气泡产生。\n活动 2：将样品放入 28 ℃ 水中浸泡 12 h，取出并晾干，浸泡后的样品（编号为“甲”）的孔隙比 28 ℃ 时未用水浸泡的大。\n活动 3：将样品放入 28 ℃ NaCl 饱和溶液中浸泡 12 h，取出并晾干，浸泡后的样品（编号为“乙”）的孔隙比“活动 2”中样品甲的大。\n\n【交流研讨】\n（3）“活动 1”的目的是____。",
+   "answer": "探究稀盐酸是否会腐蚀样品",
+   "kp": [
+    "huaxue.inquiry.control_variable",
+    "huaxue.salt.common"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-17-4",
+   "no": "17(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "“活动 2”能得出的结论是____。",
+   "answer": "水会加速样品腐蚀（或其他合理答案）",
+   "kp": [
+    "huaxue.inquiry.data_analysis",
+    "huaxue.inquiry.control_variable"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-17-5",
+   "no": "17(5)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "为探究不同种类的盐对样品腐蚀的影响，补充并完善如下实验方案：\n将样品放入 28 ℃ $\\mathrm{Na_2SO_4}$ 饱和溶液中浸泡 12 h，取出并晾干，____。",
+   "answer": "与“活动 3”浸泡后的样品乙对比，比较孔隙大小",
+   "kp": [
+    "huaxue.inquiry.control_variable",
+    "huaxue.inquiry.design_eval"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2026-17-6",
+   "no": "17(6)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m17",
+   "stem": "【拓展应用】\n为修护某石质文物，研究人员使用纳米氢氧化钙渗透进文物缝隙，从而形成坚硬的固体。其反应的化学方程式为____。",
+   "answer": "$\\mathrm{CO_2 + Ca(OH)_2 \\xlongequal{} CaCO_3 + H_2O}$",
+   "kp": [
+    "huaxue.acid.bases",
+    "huaxue.eq.writing",
+    "huaxue.carbon.co2_properties"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-18-1",
+   "no": "18(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 5,
+   "material": "m18",
+   "stem": "计算 2.00 g 样品中 NaCl 的质量（写出计算过程）。",
+   "answer": "解：设 2.00 g 样品中 NaCl 的质量为 $x$。\n\n$\\mathrm{NaCl + AgNO_3 \\xlongequal{} AgCl\\downarrow + NaNO_3}$\n\n58.5　　　143.5\n\n$x$　　　　2.87 mg\n\n$\\dfrac{58.5}{143.5}=\\dfrac{x}{2.87\\ \\mathrm{mg}}$\n\n$x = 1.17$ mg\n\n答：2.00 g 样品中 NaCl 的质量为 1.17 mg。",
+   "kp": [
+    "huaxue.eq.calc"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2026-18-2",
+   "no": "18(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m18",
+   "stem": "依据食品安全国家标准，葡萄糖酸钙中氯化物（以 NaCl 计）的含量应低于 0.08%。结合计算结果判断，该样品中氯化物的含量____（填“符合”或“不符合”）国家标准。",
+   "answer": "符合",
+   "kp": [
+    "huaxue.eq.calc",
+    "huaxue.life.elements_health"
+   ],
+   "difficulty": 2
+  }
+ ]
+}

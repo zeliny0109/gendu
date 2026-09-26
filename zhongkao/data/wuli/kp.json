@@ -1,0 +1,780 @@
+{
+ "subject": "wuli",
+ "note": "grade 按沪科版（福建多数地市使用）章节所在学期：八年级全一册分八上/八下，九年级全一册写“九年级”。人教版中物态变化在八上。",
+ "modules": [
+  {
+   "id": "M1",
+   "name": "机械运动与测量",
+   "kps": [
+    {
+     "id": "wuli.motion.measure",
+     "name": "长度和时间的测量",
+     "grade": "八上",
+     "desc": "刻度尺/停表读数、分度值、误差"
+    },
+    {
+     "id": "wuli.motion.estimate",
+     "name": "常见物理量估测",
+     "grade": "八上",
+     "desc": "对长度、质量、温度、速度、功率等的生活估测"
+    },
+    {
+     "id": "wuli.motion.relative",
+     "name": "运动的描述与参照物",
+     "grade": "八上",
+     "desc": "判断运动/静止、相对运动"
+    },
+    {
+     "id": "wuli.motion.speed",
+     "name": "速度及其计算",
+     "grade": "八上",
+     "desc": "v=s/t 计算、s-t/v-t 图像、平均速度"
+    },
+    {
+     "id": "wuli.motion.exp_avg_speed",
+     "name": "实验：测量平均速度",
+     "grade": "八上",
+     "desc": "斜面小车测平均速度"
+    }
+   ]
+  },
+  {
+   "id": "M2",
+   "name": "声现象",
+   "kps": [
+    {
+     "id": "wuli.sound.production",
+     "name": "声音的产生与传播",
+     "grade": "八上",
+     "desc": "振动发声、介质、声速"
+    },
+    {
+     "id": "wuli.sound.features",
+     "name": "声音的特性",
+     "grade": "八上",
+     "desc": "音调（频率）、响度（振幅、分贝）、音色的辨析"
+    },
+    {
+     "id": "wuli.sound.use",
+     "name": "声的利用",
+     "grade": "八上",
+     "desc": "超声波、次声波、声传递信息和能量"
+    },
+    {
+     "id": "wuli.sound.noise",
+     "name": "噪声的控制",
+     "grade": "八上",
+     "desc": "声源处/传播过程中/人耳处减弱噪声"
+    }
+   ]
+  },
+  {
+   "id": "M3",
+   "name": "光现象",
+   "kps": [
+    {
+     "id": "wuli.light.propagation",
+     "name": "光的直线传播",
+     "grade": "八上",
+     "desc": "影子、小孔成像、日月食、光速"
+    },
+    {
+     "id": "wuli.light.reflection",
+     "name": "光的反射",
+     "grade": "八上",
+     "desc": "反射定律、镜面反射与漫反射、光路可逆"
+    },
+    {
+     "id": "wuli.light.plane_mirror",
+     "name": "平面镜成像",
+     "grade": "八上",
+     "desc": "平面镜成像特点与应用、倒影"
+    },
+    {
+     "id": "wuli.light.refraction",
+     "name": "光的折射",
+     "grade": "八上",
+     "desc": "折射现象、折射规律（看水中物体变浅等）"
+    },
+    {
+     "id": "wuli.light.dispersion",
+     "name": "光的色散与看不见的光",
+     "grade": "八上",
+     "desc": "色散、色光与物体颜色、红外线、紫外线"
+    },
+    {
+     "id": "wuli.light.ray_drawing",
+     "name": "光路作图",
+     "grade": "八上",
+     "desc": "反射、折射、平面镜、透镜光路作图"
+    },
+    {
+     "id": "wuli.light.exp_reflection",
+     "name": "实验：探究光的反射定律",
+     "grade": "八上",
+     "desc": "纸板、入射角与反射角关系、三线共面"
+    },
+    {
+     "id": "wuli.light.exp_plane_mirror",
+     "name": "实验：探究平面镜成像的特点",
+     "grade": "八上",
+     "desc": "玻璃板、等效替代、像距物距、虚像"
+    }
+   ]
+  },
+  {
+   "id": "M4",
+   "name": "透镜及其应用",
+   "kps": [
+    {
+     "id": "wuli.lens.basics",
+     "name": "透镜及对光的作用",
+     "grade": "八上",
+     "desc": "凸透镜会聚、凹透镜发散、焦点焦距、三条特殊光线"
+    },
+    {
+     "id": "wuli.lens.imaging",
+     "name": "凸透镜成像规律及应用",
+     "grade": "八上",
+     "desc": "照相机、投影仪、放大镜，物距像距与成像性质"
+    },
+    {
+     "id": "wuli.lens.eye",
+     "name": "眼睛与眼镜",
+     "grade": "八上",
+     "desc": "近视眼、远视眼成因及矫正"
+    },
+    {
+     "id": "wuli.lens.exp_convex",
+     "name": "实验：探究凸透镜成像的规律",
+     "grade": "八上",
+     "desc": "光具座、测焦距、物距像距变化与像的变化"
+    }
+   ]
+  },
+  {
+   "id": "M5",
+   "name": "质量与密度",
+   "kps": [
+    {
+     "id": "wuli.density.mass",
+     "name": "质量与天平",
+     "grade": "八上",
+     "desc": "质量的概念、托盘天平的使用与读数"
+    },
+    {
+     "id": "wuli.density.concept",
+     "name": "密度及其计算",
+     "grade": "八上",
+     "desc": "ρ=m/V、密度是物质属性、m-V 图像"
+    },
+    {
+     "id": "wuli.density.application",
+     "name": "密度的应用",
+     "grade": "八上",
+     "desc": "鉴别物质、间接测量、密度与温度、空心问题"
+    },
+    {
+     "id": "wuli.density.exp_solid",
+     "name": "实验：测量固体的密度",
+     "grade": "八上",
+     "desc": "天平+量筒、排水法、误差分析、特殊方法"
+    },
+    {
+     "id": "wuli.density.exp_liquid",
+     "name": "实验：测量液体的密度",
+     "grade": "八上",
+     "desc": "剩余法、误差分析、特殊方法测液体密度"
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "name": "力",
+   "kps": [
+    {
+     "id": "wuli.force.concept",
+     "name": "力及其作用效果",
+     "grade": "八上",
+     "desc": "力的作用效果、三要素、物体间力的作用是相互的"
+    },
+    {
+     "id": "wuli.force.elastic",
+     "name": "弹力与弹簧测力计",
+     "grade": "八上",
+     "desc": "弹性形变、弹簧测力计使用与读数"
+    },
+    {
+     "id": "wuli.force.gravity",
+     "name": "重力",
+     "grade": "八上",
+     "desc": "G=mg、重力方向、重心"
+    },
+    {
+     "id": "wuli.force.friction",
+     "name": "摩擦力",
+     "grade": "八上",
+     "desc": "摩擦力方向、影响因素、增大/减小摩擦"
+    },
+    {
+     "id": "wuli.force.diagram",
+     "name": "力的示意图",
+     "grade": "八上",
+     "desc": "受力分析并画力的示意图（作图题）"
+    },
+    {
+     "id": "wuli.force.exp_friction",
+     "name": "实验：探究滑动摩擦力大小的影响因素",
+     "grade": "八上",
+     "desc": "匀速拉动、二力平衡、控制变量、装置改进"
+    }
+   ]
+  },
+  {
+   "id": "M7",
+   "name": "运动和力",
+   "kps": [
+    {
+     "id": "wuli.mf.newton1",
+     "name": "牛顿第一定律",
+     "grade": "八下",
+     "desc": "力不是维持运动的原因、理想实验推理"
+    },
+    {
+     "id": "wuli.mf.inertia",
+     "name": "惯性",
+     "grade": "八下",
+     "desc": "惯性现象解释、惯性只与质量有关"
+    },
+    {
+     "id": "wuli.mf.balance",
+     "name": "二力平衡",
+     "grade": "八下",
+     "desc": "平衡力与相互作用力辨析、平衡状态受力"
+    },
+    {
+     "id": "wuli.mf.force_motion",
+     "name": "力与运动的关系",
+     "grade": "八下",
+     "desc": "受力分析、合力、运动状态变化"
+    },
+    {
+     "id": "wuli.mf.exp_newton1",
+     "name": "实验：探究阻力对物体运动的影响",
+     "grade": "八下",
+     "desc": "斜面小车、同一高度释放、推理"
+    },
+    {
+     "id": "wuli.mf.exp_balance",
+     "name": "实验：探究二力平衡的条件",
+     "grade": "八下",
+     "desc": "小卡片/小车、大小方向作用线"
+    }
+   ]
+  },
+  {
+   "id": "M8",
+   "name": "压强",
+   "kps": [
+    {
+     "id": "wuli.pressure.solid",
+     "name": "固体压强",
+     "grade": "八下",
+     "desc": "p=F/S 计算、增大/减小压强的方法"
+    },
+    {
+     "id": "wuli.pressure.liquid",
+     "name": "液体压强",
+     "grade": "八下",
+     "desc": "液体压强特点、p=ρgh 计算"
+    },
+    {
+     "id": "wuli.pressure.connector",
+     "name": "连通器",
+     "grade": "八下",
+     "desc": "连通器原理及应用（船闸、茶壶、U形管）"
+    },
+    {
+     "id": "wuli.pressure.atmosphere",
+     "name": "大气压强",
+     "grade": "八下",
+     "desc": "大气压现象、托里拆利实验、大气压与海拔/沸点"
+    },
+    {
+     "id": "wuli.pressure.fluid_speed",
+     "name": "流体压强与流速的关系",
+     "grade": "八下",
+     "desc": "流速大压强小、升力"
+    },
+    {
+     "id": "wuli.pressure.exp_solid",
+     "name": "实验：探究压力的作用效果",
+     "grade": "八下",
+     "desc": "海绵凹陷、转换法、控制变量"
+    },
+    {
+     "id": "wuli.pressure.exp_liquid",
+     "name": "实验：探究液体压强的特点",
+     "grade": "八下",
+     "desc": "U 形管压强计、深度、密度、方向"
+    }
+   ]
+  },
+  {
+   "id": "M9",
+   "name": "浮力",
+   "kps": [
+    {
+     "id": "wuli.buoyancy.archimedes",
+     "name": "浮力与阿基米德原理",
+     "grade": "八下",
+     "desc": "称重法、F浮=ρ液gV排 计算"
+    },
+    {
+     "id": "wuli.buoyancy.float_sink",
+     "name": "物体的浮沉条件及应用",
+     "grade": "八下",
+     "desc": "漂浮悬浮、潜水艇、轮船、密度计、盐水选种"
+    },
+    {
+     "id": "wuli.buoyancy.exp",
+     "name": "实验：探究浮力大小的影响因素/阿基米德原理",
+     "grade": "八下",
+     "desc": "弹簧测力计、溢水杯、控制变量"
+    }
+   ]
+  },
+  {
+   "id": "M10",
+   "name": "功和机械能",
+   "kps": [
+    {
+     "id": "wuli.work.work",
+     "name": "功",
+     "grade": "八下",
+     "desc": "做功的两个必要因素、W=Fs、W=Gh"
+    },
+    {
+     "id": "wuli.work.power",
+     "name": "功率",
+     "grade": "八下",
+     "desc": "P=W/t、P=Fv"
+    },
+    {
+     "id": "wuli.work.mech_energy",
+     "name": "动能、势能与机械能转化",
+     "grade": "八下",
+     "desc": "影响因素、机械能守恒与转化"
+    },
+    {
+     "id": "wuli.work.exp_kinetic",
+     "name": "实验：探究动能大小的影响因素",
+     "grade": "八下",
+     "desc": "钢球撞木块、转换法、控制变量"
+    }
+   ]
+  },
+  {
+   "id": "M11",
+   "name": "简单机械",
+   "kps": [
+    {
+     "id": "wuli.machine.lever",
+     "name": "杠杆",
+     "grade": "八下",
+     "desc": "杠杆平衡条件、杠杆分类、力臂与最小力作图"
+    },
+    {
+     "id": "wuli.machine.pulley",
+     "name": "滑轮、滑轮组与斜面",
+     "grade": "八下",
+     "desc": "定滑轮、动滑轮、滑轮组绕线与拉力、轮轴斜面"
+    },
+    {
+     "id": "wuli.machine.efficiency",
+     "name": "机械效率",
+     "grade": "八下",
+     "desc": "有用功、额外功、总功，η 计算与提高方法"
+    },
+    {
+     "id": "wuli.machine.exp_lever",
+     "name": "实验：探究杠杆的平衡条件",
+     "grade": "八下",
+     "desc": "调平、多次测量、动力×动力臂"
+    },
+    {
+     "id": "wuli.machine.exp_efficiency",
+     "name": "实验：测量机械效率",
+     "grade": "八下",
+     "desc": "滑轮组/斜面机械效率及影响因素"
+    }
+   ]
+  },
+  {
+   "id": "M12",
+   "name": "物态变化",
+   "kps": [
+    {
+     "id": "wuli.heat.temperature",
+     "name": "温度与温度计",
+     "grade": "九年级",
+     "desc": "摄氏温度、温度计使用与读数、体温计"
+    },
+    {
+     "id": "wuli.heat.melting",
+     "name": "熔化和凝固",
+     "grade": "九年级",
+     "desc": "晶体与非晶体、熔点凝固点、图像"
+    },
+    {
+     "id": "wuli.heat.vaporization",
+     "name": "汽化和液化",
+     "grade": "九年级",
+     "desc": "蒸发与沸腾、影响蒸发快慢的因素、液化方法"
+    },
+    {
+     "id": "wuli.heat.sublimation",
+     "name": "升华和凝华",
+     "grade": "九年级",
+     "desc": "升华凝华现象（霜、雾凇、樟脑丸）"
+    },
+    {
+     "id": "wuli.heat.phase_change",
+     "name": "物态变化辨析与吸放热",
+     "grade": "九年级",
+     "desc": "生活/诗词现象中的物态变化判断及吸放热"
+    },
+    {
+     "id": "wuli.heat.exp_melting",
+     "name": "实验：探究固体熔化（凝固）时温度的变化规律",
+     "grade": "九年级",
+     "desc": "水浴加热、温度-时间图像"
+    },
+    {
+     "id": "wuli.heat.exp_boiling",
+     "name": "实验：探究水沸腾时温度变化的特点",
+     "grade": "九年级",
+     "desc": "沸点、沸腾条件、气泡、图像"
+    }
+   ]
+  },
+  {
+   "id": "M13",
+   "name": "内能及其利用",
+   "kps": [
+    {
+     "id": "wuli.thermal.molecule",
+     "name": "分子动理论",
+     "grade": "九年级",
+     "desc": "扩散现象、分子无规则运动、分子间作用力"
+    },
+    {
+     "id": "wuli.thermal.internal_energy",
+     "name": "内能及其改变",
+     "grade": "九年级",
+     "desc": "内能、温度与热量、做功和热传递"
+    },
+    {
+     "id": "wuli.thermal.specific_heat",
+     "name": "比热容",
+     "grade": "九年级",
+     "desc": "比热容概念、水比热容大的应用、Q=cmΔt"
+    },
+    {
+     "id": "wuli.thermal.exp_specific_heat",
+     "name": "实验：比较不同物质的吸热能力",
+     "grade": "九年级",
+     "desc": "相同加热器、加热时间转换、控制变量"
+    },
+    {
+     "id": "wuli.thermal.fuel",
+     "name": "热值",
+     "grade": "九年级",
+     "desc": "Q放=mq、Q放=Vq"
+    },
+    {
+     "id": "wuli.thermal.engine",
+     "name": "热机",
+     "grade": "九年级",
+     "desc": "汽油机四冲程、能量转化"
+    },
+    {
+     "id": "wuli.thermal.efficiency",
+     "name": "热效率与能量转化效率",
+     "grade": "九年级",
+     "desc": "热机效率、加热效率、电能/光能利用率计算"
+    },
+    {
+     "id": "wuli.thermal.conservation",
+     "name": "能量的转化与守恒",
+     "grade": "九年级",
+     "desc": "能量转化形式判断、能量守恒、能量转移方向性"
+    }
+   ]
+  },
+  {
+   "id": "M14",
+   "name": "电流和电路、电压、电阻",
+   "kps": [
+    {
+     "id": "wuli.circuit.charge",
+     "name": "电荷与摩擦起电",
+     "grade": "九年级",
+     "desc": "两种电荷、电荷间相互作用、验电器、导体与绝缘体"
+    },
+    {
+     "id": "wuli.circuit.basics",
+     "name": "电路的组成与状态",
+     "grade": "九年级",
+     "desc": "电源用电器开关、通路断路短路、电流方向"
+    },
+    {
+     "id": "wuli.circuit.design",
+     "name": "串并联电路识别与设计",
+     "grade": "九年级",
+     "desc": "判断串并联、按要求设计电路（开关控制）"
+    },
+    {
+     "id": "wuli.circuit.current",
+     "name": "电流及其测量",
+     "grade": "九年级",
+     "desc": "电流表使用、串并联电路电流规律"
+    },
+    {
+     "id": "wuli.circuit.voltage",
+     "name": "电压及其测量",
+     "grade": "九年级",
+     "desc": "电压表使用、串并联电路电压规律"
+    },
+    {
+     "id": "wuli.circuit.resistance",
+     "name": "电阻与变阻器",
+     "grade": "九年级",
+     "desc": "影响电阻的因素、滑动变阻器、电阻箱"
+    },
+    {
+     "id": "wuli.circuit.drawing",
+     "name": "电路作图与实物连接",
+     "grade": "九年级",
+     "desc": "画电路图、连接实物图、改错"
+    },
+    {
+     "id": "wuli.circuit.exp_series_parallel",
+     "name": "实验：探究串/并联电路的电流、电压规律",
+     "grade": "九年级",
+     "desc": "换不同规格灯泡、多次实验"
+    },
+    {
+     "id": "wuli.circuit.exp_resistance",
+     "name": "实验：探究影响导体电阻大小的因素",
+     "grade": "九年级",
+     "desc": "材料、长度、横截面积、转换法"
+    }
+   ]
+  },
+  {
+   "id": "M15",
+   "name": "欧姆定律",
+   "kps": [
+    {
+     "id": "wuli.ohm.law",
+     "name": "欧姆定律及其计算",
+     "grade": "九年级",
+     "desc": "I=U/R、串联分压、并联分流、U-I 图像"
+    },
+    {
+     "id": "wuli.ohm.dynamic",
+     "name": "动态电路分析",
+     "grade": "九年级",
+     "desc": "滑动变阻器或开关引起的电表示数变化"
+    },
+    {
+     "id": "wuli.ohm.fault",
+     "name": "电路故障分析",
+     "grade": "九年级",
+     "desc": "断路、短路故障判断"
+    },
+    {
+     "id": "wuli.ohm.sensor",
+     "name": "敏感电阻与传感器电路",
+     "grade": "九年级",
+     "desc": "压敏/光敏/热敏/气敏/力敏电阻电路的分析、计算与改进"
+    },
+    {
+     "id": "wuli.ohm.exp_iv",
+     "name": "实验：探究电流与电压、电阻的关系",
+     "grade": "九年级",
+     "desc": "控制变量、更换电阻后调节变阻器、图像"
+    },
+    {
+     "id": "wuli.ohm.exp_measure_r",
+     "name": "实验：伏安法测电阻",
+     "grade": "九年级",
+     "desc": "测定值电阻或小灯泡电阻、连线、读数、误差"
+    },
+    {
+     "id": "wuli.ohm.exp_special_r",
+     "name": "实验：特殊方法测电阻",
+     "grade": "九年级",
+     "desc": "电阻箱等效替代、单表测电阻"
+    }
+   ]
+  },
+  {
+   "id": "M16",
+   "name": "电功和电功率",
+   "kps": [
+    {
+     "id": "wuli.power.energy",
+     "name": "电能与电功",
+     "grade": "九年级",
+     "desc": "W=UIt、电能表读数与计算"
+    },
+    {
+     "id": "wuli.power.power",
+     "name": "电功率",
+     "grade": "九年级",
+     "desc": "P=UI、额定与实际功率、I²R 与 U²/R 计算"
+    },
+    {
+     "id": "wuli.power.joule",
+     "name": "焦耳定律与电热",
+     "grade": "九年级",
+     "desc": "Q=I²Rt、电流热效应及应用、导线发热"
+    },
+    {
+     "id": "wuli.power.gears",
+     "name": "多挡位用电器",
+     "grade": "九年级",
+     "desc": "电热器高低挡判断与计算"
+    },
+    {
+     "id": "wuli.power.exp_lamp",
+     "name": "实验：测量小灯泡的电功率",
+     "grade": "九年级",
+     "desc": "额定功率、U-I 图像、特殊方法测功率"
+    },
+    {
+     "id": "wuli.power.exp_joule",
+     "name": "实验：探究电流通过导体产生热量的影响因素",
+     "grade": "九年级",
+     "desc": "U 形管、转换法、控制变量"
+    }
+   ]
+  },
+  {
+   "id": "M17",
+   "name": "家庭电路与安全用电",
+   "kps": [
+    {
+     "id": "wuli.home.circuit",
+     "name": "家庭电路",
+     "grade": "九年级",
+     "desc": "组成与连接、三孔插座、开关接火线、保险丝/空气开关、试电笔"
+    },
+    {
+     "id": "wuli.home.safety",
+     "name": "安全用电",
+     "grade": "九年级",
+     "desc": "触电类型、电流过大原因、安全用电原则"
+    }
+   ]
+  },
+  {
+   "id": "M18",
+   "name": "电与磁",
+   "kps": [
+    {
+     "id": "wuli.magnet.basics",
+     "name": "磁现象与磁场",
+     "grade": "九年级",
+     "desc": "磁极间作用、磁化、磁感线、地磁场、指南针"
+    },
+    {
+     "id": "wuli.magnet.current_field",
+     "name": "电流的磁场",
+     "grade": "九年级",
+     "desc": "奥斯特实验、通电螺线管、安培定则"
+    },
+    {
+     "id": "wuli.magnet.electromagnet",
+     "name": "电磁铁与电磁继电器",
+     "grade": "九年级",
+     "desc": "电磁铁磁性影响因素、电磁继电器自动控制"
+    },
+    {
+     "id": "wuli.magnet.motor",
+     "name": "磁场对电流的作用与电动机",
+     "grade": "九年级",
+     "desc": "通电导体受力方向、电动机原理与能量转化"
+    },
+    {
+     "id": "wuli.magnet.induction",
+     "name": "电磁感应与发电机",
+     "grade": "九年级",
+     "desc": "感应电流条件、发电机、动圈式话筒"
+    },
+    {
+     "id": "wuli.magnet.exp",
+     "name": "实验：电与磁的探究",
+     "grade": "九年级",
+     "desc": "通电螺线管磁场、电磁铁磁性强弱、感应电流产生条件等实验"
+    }
+   ]
+  },
+  {
+   "id": "M19",
+   "name": "信息、能源与材料",
+   "kps": [
+    {
+     "id": "wuli.energy.em_wave",
+     "name": "电磁波与信息传递",
+     "grade": "九年级",
+     "desc": "电磁波传播、波速波长频率、卫星/5G/北斗通信"
+    },
+    {
+     "id": "wuli.energy.sources",
+     "name": "能源与可持续发展",
+     "grade": "九年级",
+     "desc": "可再生/不可再生能源、一次/二次能源、核能、太阳能"
+    },
+    {
+     "id": "wuli.energy.materials",
+     "name": "物质的属性与新材料",
+     "grade": "九年级",
+     "desc": "弹性导热性等物理属性、半导体、超导、纳米材料"
+    },
+    {
+     "id": "wuli.energy.universe",
+     "name": "从粒子到宇宙",
+     "grade": "九年级",
+     "desc": "原子结构、宇宙与天体尺度"
+    }
+   ]
+  },
+  {
+   "id": "M20",
+   "name": "科学探究与跨学科实践",
+   "kps": [
+    {
+     "id": "wuli.method.inquiry",
+     "name": "科学探究方法",
+     "grade": "?",
+     "desc": "控制变量法、转换法、等效替代、多次实验目的、评估与改进"
+    },
+    {
+     "id": "wuli.method.project",
+     "name": "项目式与跨学科实践",
+     "grade": "?",
+     "desc": "科创小组装置的原理、设计、评价与改进（开放作答）"
+    },
+    {
+     "id": "wuli.method.history",
+     "name": "物理学史",
+     "grade": "?",
+     "desc": "科学家及其贡献"
+    }
+   ]
+  }
+ ]
+}

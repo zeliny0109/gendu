@@ -1,0 +1,1919 @@
+{
+ "subject": "daofa",
+ "years": [
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "kps": {
+  "daofa.g7a.middle_school": {
+   "name": "中学时代与少年有梦",
+   "module": "七上·成长的节拍",
+   "years": [
+    2023,
+    2024
+   ],
+   "count": 2,
+   "score": 4.4,
+   "qs": [
+    "daofa-2023-28-2",
+    "daofa-2024-6"
+   ]
+  },
+  "daofa.g7a.learning": {
+   "name": "学习新天地",
+   "module": "七上·成长的节拍",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2026
+   ],
+   "count": 7,
+   "score": 10.0,
+   "qs": [
+    "daofa-2019-11",
+    "daofa-2020-1",
+    "daofa-2020-27-1",
+    "daofa-2021-14",
+    "daofa-2022-7",
+    "daofa-2023-6",
+    "daofa-2026-6"
+   ]
+  },
+  "daofa.g7a.self_knowledge": {
+   "name": "认识自己与做更好的自己",
+   "module": "七上·成长的节拍",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 12.0,
+   "qs": [
+    "daofa-2019-9",
+    "daofa-2020-6",
+    "daofa-2021-6",
+    "daofa-2022-6",
+    "daofa-2025-6",
+    "daofa-2025-8",
+    "daofa-2026-10",
+    "daofa-2026-26-1"
+   ]
+  },
+  "daofa.g7a.friendship": {
+   "name": "友谊的力量与特质",
+   "module": "七上·友谊的天空",
+   "years": [
+    2021,
+    2023,
+    2024
+   ],
+   "count": 3,
+   "score": 6.4,
+   "qs": [
+    "daofa-2021-7",
+    "daofa-2023-26-1",
+    "daofa-2024-9"
+   ]
+  },
+  "daofa.g7a.friend_wisdom": {
+   "name": "交友的智慧",
+   "module": "七上·友谊的天空",
+   "years": [
+    2020,
+    2025,
+    2026
+   ],
+   "count": 3,
+   "score": 6.4,
+   "qs": [
+    "daofa-2020-7",
+    "daofa-2025-26-2",
+    "daofa-2026-7"
+   ]
+  },
+  "daofa.g7a.teacher": {
+   "name": "师生之间",
+   "module": "七上·师长情谊",
+   "years": [
+    2019,
+    2022,
+    2024
+   ],
+   "count": 4,
+   "score": 5.6,
+   "qs": [
+    "daofa-2019-13",
+    "daofa-2022-7",
+    "daofa-2022-11",
+    "daofa-2024-14"
+   ]
+  },
+  "daofa.g7a.family": {
+   "name": "亲情之爱与家庭",
+   "module": "七上·师长情谊",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 16.8,
+   "qs": [
+    "daofa-2019-8",
+    "daofa-2020-8",
+    "daofa-2021-8",
+    "daofa-2022-26-1",
+    "daofa-2023-17",
+    "daofa-2024-8",
+    "daofa-2025-28-1",
+    "daofa-2026-26-2"
+   ]
+  },
+  "daofa.g7a.life_nature": {
+   "name": "探问生命与敬畏生命",
+   "module": "七上·生命的思考",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "daofa.g7a.life_safety": {
+   "name": "守护生命与安全",
+   "module": "七上·生命的思考",
+   "years": [
+    2019,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 4,
+   "score": 5.6,
+   "qs": [
+    "daofa-2019-27-1",
+    "daofa-2023-8",
+    "daofa-2024-26-1",
+    "daofa-2025-9"
+   ]
+  },
+  "daofa.g7a.resilience": {
+   "name": "增强生命的韧性",
+   "module": "七上·生命的思考",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 7,
+   "score": 10.8,
+   "qs": [
+    "daofa-2019-12",
+    "daofa-2020-9",
+    "daofa-2021-9",
+    "daofa-2022-8",
+    "daofa-2023-7",
+    "daofa-2023-26-2",
+    "daofa-2025-12"
+   ]
+  },
+  "daofa.g7a.life_meaning": {
+   "name": "生命的意义与价值",
+   "module": "七上·生命的思考",
+   "years": [
+    2021,
+    2025,
+    2026
+   ],
+   "count": 3,
+   "score": 6.0,
+   "qs": [
+    "daofa-2021-29-2",
+    "daofa-2025-13",
+    "daofa-2026-8"
+   ]
+  },
+  "daofa.g7b.puberty": {
+   "name": "青春的邀约",
+   "module": "七下·青春时光",
+   "years": [
+    2019,
+    2020
+   ],
+   "count": 2,
+   "score": 1.6,
+   "qs": [
+    "daofa-2019-13",
+    "daofa-2020-10"
+   ]
+  },
+  "daofa.g7b.gender": {
+   "name": "青春的心弦",
+   "module": "七下·青春时光",
+   "years": [
+    2020
+   ],
+   "count": 1,
+   "score": 0.4,
+   "qs": [
+    "daofa-2020-10"
+   ]
+  },
+  "daofa.g7b.self_confidence": {
+   "name": "青春飞扬：自信自强",
+   "module": "七下·青春时光",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 5,
+   "score": 5.2,
+   "qs": [
+    "daofa-2019-8",
+    "daofa-2022-9",
+    "daofa-2023-10",
+    "daofa-2025-12",
+    "daofa-2026-10"
+   ]
+  },
+  "daofa.g7b.youth_rules": {
+   "name": "青春有格",
+   "module": "七下·青春时光",
+   "years": [
+    2021,
+    2023
+   ],
+   "count": 2,
+   "score": 3.2,
+   "qs": [
+    "daofa-2021-27-1",
+    "daofa-2023-29-2"
+   ]
+  },
+  "daofa.g7b.emotion": {
+   "name": "情绪及其管理",
+   "module": "七下·做情绪情感的主人",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 5,
+   "score": 6.8,
+   "qs": [
+    "daofa-2021-9",
+    "daofa-2022-28-2",
+    "daofa-2023-7",
+    "daofa-2024-7",
+    "daofa-2025-6"
+   ]
+  },
+  "daofa.g7b.feeling": {
+   "name": "情感的韵味",
+   "module": "七下·做情绪情感的主人",
+   "years": [
+    2020,
+    2021,
+    2026
+   ],
+   "count": 3,
+   "score": 4.0,
+   "qs": [
+    "daofa-2020-11",
+    "daofa-2021-11",
+    "daofa-2026-8"
+   ]
+  },
+  "daofa.g7b.collective": {
+   "name": "“我”和“我们”：集体生活",
+   "module": "七下·在集体中成长",
+   "years": [
+    2022,
+    2023,
+    2025
+   ],
+   "count": 3,
+   "score": 3.2,
+   "qs": [
+    "daofa-2022-10",
+    "daofa-2023-10",
+    "daofa-2025-14"
+   ]
+  },
+  "daofa.g7b.collective_build": {
+   "name": "共建美好集体",
+   "module": "七下·在集体中成长",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 12.4,
+   "qs": [
+    "daofa-2019-10",
+    "daofa-2020-12",
+    "daofa-2021-12",
+    "daofa-2023-9",
+    "daofa-2024-13",
+    "daofa-2025-14",
+    "daofa-2026-9"
+   ]
+  },
+  "daofa.g7b.law_feature": {
+   "name": "法律的特征与作用",
+   "module": "七下·走进法治天地",
+   "years": [
+    2022,
+    2024
+   ],
+   "count": 2,
+   "score": 2.0,
+   "qs": [
+    "daofa-2022-12",
+    "daofa-2024-11"
+   ]
+  },
+  "daofa.g7b.minor_protect": {
+   "name": "未成年人特殊保护",
+   "module": "七下·走进法治天地",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 13.8,
+   "qs": [
+    "daofa-2019-29-1",
+    "daofa-2020-13",
+    "daofa-2022-12",
+    "daofa-2023-8",
+    "daofa-2024-3",
+    "daofa-2025-3",
+    "daofa-2026-4",
+    "daofa-2026-28-1",
+    "daofa-2026-28-2"
+   ]
+  },
+  "daofa.g7b.law_growth": {
+   "name": "我们与法律同行",
+   "module": "七下·走进法治天地",
+   "years": [
+    2022,
+    2024
+   ],
+   "count": 2,
+   "score": 2.8,
+   "qs": [
+    "daofa-2022-13",
+    "daofa-2024-10"
+   ]
+  },
+  "daofa.g8a.society": {
+   "name": "我与社会",
+   "module": "八上·走进社会生活",
+   "years": [
+    2025
+   ],
+   "count": 1,
+   "score": 0.8,
+   "qs": [
+    "daofa-2025-8"
+   ]
+  },
+  "daofa.g8a.internet": {
+   "name": "网络生活新空间",
+   "module": "八上·走进社会生活",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 15.6,
+   "qs": [
+    "daofa-2019-19",
+    "daofa-2020-14",
+    "daofa-2021-27-2",
+    "daofa-2022-14",
+    "daofa-2022-16",
+    "daofa-2024-26-2",
+    "daofa-2025-7",
+    "daofa-2026-11",
+    "daofa-2026-16"
+   ]
+  },
+  "daofa.g8a.rules": {
+   "name": "社会生活离不开规则",
+   "module": "八上·遵守社会规则",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2026
+   ],
+   "count": 5,
+   "score": 9.8,
+   "qs": [
+    "daofa-2019-27-1",
+    "daofa-2019-29-2",
+    "daofa-2021-14",
+    "daofa-2022-28-1",
+    "daofa-2026-29-2"
+   ]
+  },
+  "daofa.g8a.respect": {
+   "name": "尊重他人",
+   "module": "八上·遵守社会规则",
+   "years": [
+    2019,
+    2022,
+    2023
+   ],
+   "count": 3,
+   "score": 4.0,
+   "qs": [
+    "daofa-2019-9",
+    "daofa-2022-28-1",
+    "daofa-2023-29-2"
+   ]
+  },
+  "daofa.g8a.civility": {
+   "name": "以礼待人",
+   "module": "八上·遵守社会规则",
+   "years": [
+    2019,
+    2020,
+    2025
+   ],
+   "count": 3,
+   "score": 4.8,
+   "qs": [
+    "daofa-2019-15",
+    "daofa-2020-15",
+    "daofa-2025-26-1"
+   ]
+  },
+  "daofa.g8a.integrity": {
+   "name": "诚实守信",
+   "module": "八上·遵守社会规则",
+   "years": [
+    2019,
+    2022,
+    2023,
+    2026
+   ],
+   "count": 4,
+   "score": 7.6,
+   "qs": [
+    "daofa-2019-27-2",
+    "daofa-2022-15",
+    "daofa-2023-11",
+    "daofa-2026-12"
+   ]
+  },
+  "daofa.g8a.law_violation": {
+   "name": "违法行为与犯罪",
+   "module": "八上·遵守社会规则",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 11.6,
+   "qs": [
+    "daofa-2019-20",
+    "daofa-2020-16",
+    "daofa-2022-17",
+    "daofa-2025-10",
+    "daofa-2025-11",
+    "daofa-2026-29-2"
+   ]
+  },
+  "daofa.g8a.crime_prevention": {
+   "name": "预防犯罪",
+   "module": "八上·遵守社会规则",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "daofa.g8a.use_law": {
+   "name": "善用法律",
+   "module": "八上·遵守社会规则",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2024
+   ],
+   "count": 5,
+   "score": 8.4,
+   "qs": [
+    "daofa-2020-27-2",
+    "daofa-2021-18",
+    "daofa-2023-12",
+    "daofa-2024-12",
+    "daofa-2024-16"
+   ]
+  },
+  "daofa.g8a.responsibility": {
+   "name": "责任与角色",
+   "module": "八上·勇担社会责任",
+   "years": [
+    2019,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 11.6,
+   "qs": [
+    "daofa-2019-30-2",
+    "daofa-2021-13",
+    "daofa-2023-28-1",
+    "daofa-2024-18",
+    "daofa-2025-28-2",
+    "daofa-2026-19",
+    "daofa-2026-28-3"
+   ]
+  },
+  "daofa.g8a.care_others": {
+   "name": "关爱他人",
+   "module": "八上·勇担社会责任",
+   "years": [
+    2020,
+    2026
+   ],
+   "count": 3,
+   "score": 4.8,
+   "qs": [
+    "daofa-2020-15",
+    "daofa-2020-29-2",
+    "daofa-2026-13"
+   ]
+  },
+  "daofa.g8a.serve_society": {
+   "name": "服务社会与奉献",
+   "module": "八上·勇担社会责任",
+   "years": [
+    2020,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 5.2,
+   "qs": [
+    "daofa-2020-30-1",
+    "daofa-2023-28-1",
+    "daofa-2025-25",
+    "daofa-2026-28-3"
+   ]
+  },
+  "daofa.g8a.national_interest": {
+   "name": "国家利益至上",
+   "module": "八上·维护国家利益",
+   "years": [
+    2021,
+    2025,
+    2026
+   ],
+   "count": 3,
+   "score": 5.6,
+   "qs": [
+    "daofa-2021-15",
+    "daofa-2025-28-2",
+    "daofa-2026-14"
+   ]
+  },
+  "daofa.g8a.national_security": {
+   "name": "总体国家安全观与维护国家安全",
+   "module": "八上·维护国家利益",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "count": 5,
+   "score": 6.4,
+   "qs": [
+    "daofa-2021-5",
+    "daofa-2022-29-1",
+    "daofa-2023-3",
+    "daofa-2023-24",
+    "daofa-2025-5"
+   ]
+  },
+  "daofa.g8a.defense": {
+   "name": "国防与军队",
+   "module": "八上·维护国家利益",
+   "years": [
+    2023,
+    2025
+   ],
+   "count": 2,
+   "score": 2.4,
+   "qs": [
+    "daofa-2023-3",
+    "daofa-2025-5"
+   ]
+  },
+  "daofa.g8a.build_country": {
+   "name": "关心国家发展、天下兴亡匹夫有责",
+   "module": "八上·维护国家利益",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "daofa.g8b.constitution_status": {
+   "name": "宪法的地位与作用",
+   "module": "八下·坚持宪法至上",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2026
+   ],
+   "count": 5,
+   "score": 7.2,
+   "qs": [
+    "daofa-2019-14",
+    "daofa-2021-17",
+    "daofa-2022-19",
+    "daofa-2023-13",
+    "daofa-2026-18"
+   ]
+  },
+  "daofa.g8b.constitution_principles": {
+   "name": "宪法的原则与内容",
+   "module": "八下·坚持宪法至上",
+   "years": [
+    2026
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "daofa-2026-17"
+   ]
+  },
+  "daofa.g8b.rule_by_constitution": {
+   "name": "依宪治国与宪法监督",
+   "module": "八下·坚持宪法至上",
+   "years": [
+    2020,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 4,
+   "score": 6.4,
+   "qs": [
+    "daofa-2020-18",
+    "daofa-2023-13",
+    "daofa-2024-15",
+    "daofa-2025-21"
+   ]
+  },
+  "daofa.g8b.rights": {
+   "name": "公民基本权利",
+   "module": "八下·理解权利义务",
+   "years": [
+    2019,
+    2022,
+    2025
+   ],
+   "count": 3,
+   "score": 2.2,
+   "qs": [
+    "daofa-2019-29-1",
+    "daofa-2022-18",
+    "daofa-2025-15"
+   ]
+  },
+  "daofa.g8b.exercise_rights": {
+   "name": "依法行使权利与维权",
+   "module": "八下·理解权利义务",
+   "years": [
+    2021,
+    2022,
+    2023
+   ],
+   "count": 3,
+   "score": 7.2,
+   "qs": [
+    "daofa-2021-18",
+    "daofa-2022-26-2",
+    "daofa-2023-29-1"
+   ]
+  },
+  "daofa.g8b.duties": {
+   "name": "公民基本义务与依法履行义务",
+   "module": "八下·理解权利义务",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 5,
+   "score": 8.0,
+   "qs": [
+    "daofa-2021-30-2",
+    "daofa-2022-26-1",
+    "daofa-2023-29-1",
+    "daofa-2024-10",
+    "daofa-2025-15"
+   ]
+  },
+  "daofa.g8b.civil_code": {
+   "name": "民法典与民事权利",
+   "module": "八下·理解权利义务",
+   "years": [
+    2026
+   ],
+   "count": 1,
+   "score": 0.8,
+   "qs": [
+    "daofa-2026-12"
+   ]
+  },
+  "daofa.g8b.economic_system": {
+   "name": "基本经济制度",
+   "module": "八下·人民当家作主",
+   "years": [
+    2019,
+    2021,
+    2026
+   ],
+   "count": 4,
+   "score": 4.4,
+   "qs": [
+    "daofa-2019-16",
+    "daofa-2019-31-2",
+    "daofa-2021-19",
+    "daofa-2026-20"
+   ]
+  },
+  "daofa.g8b.npc_system": {
+   "name": "人民代表大会制度",
+   "module": "八下·人民当家作主",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "count": 4,
+   "score": 5.2,
+   "qs": [
+    "daofa-2023-14",
+    "daofa-2024-21",
+    "daofa-2024-29-2",
+    "daofa-2025-22"
+   ]
+  },
+  "daofa.g8b.political_systems": {
+   "name": "基本政治制度",
+   "module": "八下·人民当家作主",
+   "years": [
+    2022
+   ],
+   "count": 1,
+   "score": 0.8,
+   "qs": [
+    "daofa-2022-21"
+   ]
+  },
+  "daofa.g8b.state_organs_power": {
+   "name": "国家权力机关（人大及其常委会）",
+   "module": "八下·人民当家作主",
+   "years": [
+    2020
+   ],
+   "count": 1,
+   "score": 1.2,
+   "qs": [
+    "daofa-2020-19"
+   ]
+  },
+  "daofa.g8b.state_organs_other": {
+   "name": "国家主席、行政、监察、司法机关",
+   "module": "八下·人民当家作主",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 6.0,
+   "qs": [
+    "daofa-2019-18",
+    "daofa-2020-21",
+    "daofa-2022-18",
+    "daofa-2023-15",
+    "daofa-2025-10",
+    "daofa-2025-19",
+    "daofa-2026-16"
+   ]
+  },
+  "daofa.g8b.freedom_equality": {
+   "name": "尊重自由平等",
+   "module": "八下·崇尚法治精神",
+   "years": [
+    2019,
+    2022,
+    2025
+   ],
+   "count": 3,
+   "score": 4.8,
+   "qs": [
+    "daofa-2019-23",
+    "daofa-2022-26-2",
+    "daofa-2025-17"
+   ]
+  },
+  "daofa.g8b.fairness_justice": {
+   "name": "维护公平正义",
+   "module": "八下·崇尚法治精神",
+   "years": [
+    2019,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 4,
+   "score": 3.6,
+   "qs": [
+    "daofa-2019-18",
+    "daofa-2023-15",
+    "daofa-2024-11",
+    "daofa-2025-19"
+   ]
+  },
+  "daofa.g9a.reform_opening": {
+   "name": "改革开放",
+   "module": "九上·富强与创新",
+   "years": [
+    2019,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 7,
+   "score": 8.4,
+   "qs": [
+    "daofa-2019-4",
+    "daofa-2019-31-1",
+    "daofa-2019-31-2",
+    "daofa-2023-19",
+    "daofa-2025-2",
+    "daofa-2026-21",
+    "daofa-2026-30-2"
+   ]
+  },
+  "daofa.g9a.people_centered": {
+   "name": "以人民为中心与民生福祉",
+   "module": "九上·富强与创新",
+   "years": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 11,
+   "score": 22.0,
+   "qs": [
+    "daofa-2019-28",
+    "daofa-2020-31-1",
+    "daofa-2022-4",
+    "daofa-2022-30-2",
+    "daofa-2023-22",
+    "daofa-2024-17",
+    "daofa-2024-18",
+    "daofa-2024-19",
+    "daofa-2025-27",
+    "daofa-2026-3",
+    "daofa-2026-23"
+   ]
+  },
+  "daofa.g9a.common_prosperity": {
+   "name": "共同富裕、乡村振兴与区域协调",
+   "module": "九上·富强与创新",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 9.2,
+   "qs": [
+    "daofa-2019-17",
+    "daofa-2019-21",
+    "daofa-2020-3",
+    "daofa-2021-2",
+    "daofa-2022-3",
+    "daofa-2024-4",
+    "daofa-2025-24",
+    "daofa-2026-3",
+    "daofa-2026-21"
+   ]
+  },
+  "daofa.g9a.new_dev_concept": {
+   "name": "新发展理念与高质量发展",
+   "module": "九上·富强与创新",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2023,
+    2024
+   ],
+   "count": 7,
+   "score": 12.4,
+   "qs": [
+    "daofa-2019-6",
+    "daofa-2019-31-3",
+    "daofa-2020-3",
+    "daofa-2021-20",
+    "daofa-2023-19",
+    "daofa-2024-17",
+    "daofa-2024-27"
+   ]
+  },
+  "daofa.g9a.innovation": {
+   "name": "创新改变生活与创新精神",
+   "module": "九上·富强与创新",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 9,
+   "score": 22.8,
+   "qs": [
+    "daofa-2019-24",
+    "daofa-2020-20",
+    "daofa-2020-30-2",
+    "daofa-2021-10",
+    "daofa-2023-30-3",
+    "daofa-2024-22",
+    "daofa-2024-28-2",
+    "daofa-2025-29-2",
+    "daofa-2026-2"
+   ]
+  },
+  "daofa.g9a.innovation_strategy": {
+   "name": "创新驱动发展与科教兴国",
+   "module": "九上·富强与创新",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 10,
+   "score": 21.2,
+   "qs": [
+    "daofa-2019-2",
+    "daofa-2019-3",
+    "daofa-2021-28",
+    "daofa-2022-20",
+    "daofa-2022-29-2",
+    "daofa-2023-30-1",
+    "daofa-2024-14",
+    "daofa-2025-29-1",
+    "daofa-2026-2",
+    "daofa-2026-30-2"
+   ]
+  },
+  "daofa.g9a.democracy": {
+   "name": "中国特色社会主义民主",
+   "module": "九上·民主与法治",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 5,
+   "score": 6.0,
+   "qs": [
+    "daofa-2022-21",
+    "daofa-2023-18",
+    "daofa-2023-20",
+    "daofa-2024-21",
+    "daofa-2025-22"
+   ]
+  },
+  "daofa.g9a.democratic_participation": {
+   "name": "参与民主生活",
+   "module": "九上·民主与法治",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2026
+   ],
+   "count": 4,
+   "score": 4.4,
+   "qs": [
+    "daofa-2020-21",
+    "daofa-2021-21",
+    "daofa-2023-20",
+    "daofa-2026-19"
+   ]
+  },
+  "daofa.g9a.rule_of_law": {
+   "name": "全面依法治国",
+   "module": "九上·民主与法治",
+   "years": [
+    2023,
+    2024,
+    2026
+   ],
+   "count": 4,
+   "score": 6.0,
+   "qs": [
+    "daofa-2023-18",
+    "daofa-2024-1",
+    "daofa-2024-29-1",
+    "daofa-2026-17"
+   ]
+  },
+  "daofa.g9a.law_consensus": {
+   "name": "凝聚法治共识与德法共治",
+   "module": "九上·民主与法治",
+   "years": [
+    2020,
+    2026
+   ],
+   "count": 2,
+   "score": 6.0,
+   "qs": [
+    "daofa-2020-29-1",
+    "daofa-2026-29-1"
+   ]
+  },
+  "daofa.g9a.culture_tradition": {
+   "name": "中华优秀传统文化与文化自信",
+   "module": "九上·文明与家园",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 14,
+   "score": 24.4,
+   "qs": [
+    "daofa-2019-25",
+    "daofa-2019-30-1",
+    "daofa-2019-30-3",
+    "daofa-2020-22",
+    "daofa-2021-16",
+    "daofa-2023-23",
+    "daofa-2023-27",
+    "daofa-2024-30-1",
+    "daofa-2024-30-2",
+    "daofa-2024-30-3",
+    "daofa-2025-23",
+    "daofa-2025-24",
+    "daofa-2025-28-1",
+    "daofa-2026-30-3"
+   ]
+  },
+  "daofa.g9a.culture_power": {
+   "name": "社会主义先进文化与文化强国",
+   "module": "九上·文明与家园",
+   "years": [
+    2021,
+    2024,
+    2025
+   ],
+   "count": 4,
+   "score": 8.4,
+   "qs": [
+    "daofa-2021-31-2",
+    "daofa-2024-30-2",
+    "daofa-2024-30-3",
+    "daofa-2025-20"
+   ]
+  },
+  "daofa.g9a.core_values": {
+   "name": "社会主义核心价值观与中国精神",
+   "module": "九上·文明与家园",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 13,
+   "score": 20.4,
+   "qs": [
+    "daofa-2019-25",
+    "daofa-2020-23",
+    "daofa-2020-31-2",
+    "daofa-2020-31-3",
+    "daofa-2021-29-1",
+    "daofa-2021-31-3",
+    "daofa-2022-22",
+    "daofa-2022-30-1",
+    "daofa-2024-28-1",
+    "daofa-2025-18",
+    "daofa-2025-20",
+    "daofa-2026-22",
+    "daofa-2026-29-1"
+   ]
+  },
+  "daofa.g9a.resources_env": {
+   "name": "人口资源环境国情与基本国策",
+   "module": "九上·文明与家园",
+   "years": [
+    2019,
+    2021,
+    2024
+   ],
+   "count": 3,
+   "score": 6.0,
+   "qs": [
+    "daofa-2019-22",
+    "daofa-2021-30-1",
+    "daofa-2024-5"
+   ]
+  },
+  "daofa.g9a.ecology": {
+   "name": "生态文明建设",
+   "module": "九上·文明与家园",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 12,
+   "score": 18.8,
+   "qs": [
+    "daofa-2019-21",
+    "daofa-2019-22",
+    "daofa-2020-17",
+    "daofa-2020-24",
+    "daofa-2021-4",
+    "daofa-2021-22",
+    "daofa-2023-2",
+    "daofa-2023-4",
+    "daofa-2023-21",
+    "daofa-2024-2",
+    "daofa-2025-16",
+    "daofa-2026-27"
+   ]
+  },
+  "daofa.g9a.ethnic_unity": {
+   "name": "民族团结与中华民族共同体意识",
+   "module": "九上·和谐与梦想",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 6,
+   "score": 10.4,
+   "qs": [
+    "daofa-2021-23",
+    "daofa-2022-23",
+    "daofa-2023-22",
+    "daofa-2024-23",
+    "daofa-2025-25",
+    "daofa-2026-15"
+   ]
+  },
+  "daofa.g9a.reunification": {
+   "name": "维护祖国统一",
+   "module": "九上·和谐与梦想",
+   "years": [
+    2020,
+    2021,
+    2026
+   ],
+   "count": 3,
+   "score": 2.8,
+   "qs": [
+    "daofa-2020-23",
+    "daofa-2021-24",
+    "daofa-2026-24"
+   ]
+  },
+  "daofa.g9a.china_dream": {
+   "name": "中国梦与中国式现代化",
+   "module": "九上·和谐与梦想",
+   "years": [
+    2019,
+    2022,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 3.6,
+   "qs": [
+    "daofa-2019-1",
+    "daofa-2022-30-3",
+    "daofa-2025-25",
+    "daofa-2026-5"
+   ]
+  },
+  "daofa.g9a.party_leadership": {
+   "name": "中国共产党的领导与党的建设",
+   "module": "九上·和谐与梦想",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "count": 12,
+   "score": 19.6,
+   "qs": [
+    "daofa-2019-17",
+    "daofa-2020-2",
+    "daofa-2020-4",
+    "daofa-2020-28",
+    "daofa-2021-1",
+    "daofa-2021-31-1",
+    "daofa-2022-1",
+    "daofa-2022-30-1",
+    "daofa-2023-1",
+    "daofa-2025-1",
+    "daofa-2026-1",
+    "daofa-2026-22"
+   ]
+  },
+  "daofa.g9b.global_village": {
+   "name": "开放互动的世界",
+   "module": "九下·我们共同的世界",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2026
+   ],
+   "count": 7,
+   "score": 11.6,
+   "qs": [
+    "daofa-2019-5",
+    "daofa-2020-25",
+    "daofa-2021-25",
+    "daofa-2022-24",
+    "daofa-2024-24",
+    "daofa-2026-30-1",
+    "daofa-2026-30-3"
+   ]
+  },
+  "daofa.g9b.world_relations": {
+   "name": "复杂多变的国际关系",
+   "module": "九下·我们共同的世界",
+   "years": [
+    2021
+   ],
+   "count": 1,
+   "score": 0.8,
+   "qs": [
+    "daofa-2021-25"
+   ]
+  },
+  "daofa.g9b.peace_development": {
+   "name": "推动和平与发展",
+   "module": "九下·我们共同的世界",
+   "years": [
+    2022,
+    2023,
+    2025
+   ],
+   "count": 3,
+   "score": 4.4,
+   "qs": [
+    "daofa-2022-25",
+    "daofa-2023-24",
+    "daofa-2025-30-1"
+   ]
+  },
+  "daofa.g9b.community_future": {
+   "name": "构建人类命运共同体",
+   "module": "九下·我们共同的世界",
+   "years": [
+    2019,
+    2020,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 7,
+   "score": 10.4,
+   "qs": [
+    "daofa-2019-26",
+    "daofa-2020-5",
+    "daofa-2023-25",
+    "daofa-2024-25",
+    "daofa-2025-4",
+    "daofa-2025-30-2",
+    "daofa-2025-30-3"
+   ]
+  },
+  "daofa.g9b.win_win": {
+   "name": "谋求互利共赢",
+   "module": "九下·我们共同的世界",
+   "years": [
+    2021,
+    2022,
+    2025,
+    2026
+   ],
+   "count": 4,
+   "score": 4.0,
+   "qs": [
+    "daofa-2021-3",
+    "daofa-2022-2",
+    "daofa-2025-30-2",
+    "daofa-2026-25"
+   ]
+  },
+  "daofa.g9b.china_role": {
+   "name": "中国担当与国际地位",
+   "module": "九下·世界舞台上的中国",
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2026
+   ],
+   "count": 7,
+   "score": 10.8,
+   "qs": [
+    "daofa-2019-7",
+    "daofa-2021-26",
+    "daofa-2022-5",
+    "daofa-2022-25",
+    "daofa-2022-27",
+    "daofa-2023-5",
+    "daofa-2026-25"
+   ]
+  },
+  "daofa.g9b.china_world": {
+   "name": "中国与世界共发展",
+   "module": "九下·世界舞台上的中国",
+   "years": [
+    2019,
+    2020,
+    2023
+   ],
+   "count": 3,
+   "score": 6.8,
+   "qs": [
+    "daofa-2019-26",
+    "daofa-2020-26",
+    "daofa-2023-30-2"
+   ]
+  },
+  "daofa.g9b.youth_responsibility": {
+   "name": "少年的担当",
+   "module": "九下·走向未来的少年",
+   "years": [
+    2019,
+    2022,
+    2025
+   ],
+   "count": 3,
+   "score": 6.0,
+   "qs": [
+    "daofa-2019-31-4",
+    "daofa-2022-30-3",
+    "daofa-2025-30-3"
+   ]
+  },
+  "daofa.g9b.lifelong_learning": {
+   "name": "学无止境",
+   "module": "九下·走向未来的少年",
+   "years": [],
+   "count": 0,
+   "score": 0.0,
+   "qs": []
+  },
+  "daofa.g9b.career_labor": {
+   "name": "多彩的职业与劳动",
+   "module": "九下·走向未来的少年",
+   "years": [
+    2020,
+    2021,
+    2023,
+    2024,
+    2025
+   ],
+   "count": 7,
+   "score": 10.8,
+   "qs": [
+    "daofa-2020-30-1",
+    "daofa-2020-30-2",
+    "daofa-2021-16",
+    "daofa-2023-16",
+    "daofa-2024-20",
+    "daofa-2025-13",
+    "daofa-2025-18"
+   ]
+  },
+  "daofa.news.2019": {
+   "name": "2019 年时政热点",
+   "module": "时政热点（按考试年份）",
+   "years": [
+    2019
+   ],
+   "count": 12,
+   "score": 8.4,
+   "qs": [
+    "daofa-2019-1",
+    "daofa-2019-2",
+    "daofa-2019-3",
+    "daofa-2019-4",
+    "daofa-2019-5",
+    "daofa-2019-6",
+    "daofa-2019-7",
+    "daofa-2019-16",
+    "daofa-2019-17",
+    "daofa-2019-26",
+    "daofa-2019-28",
+    "daofa-2019-31-3"
+   ]
+  },
+  "daofa.news.2020": {
+   "name": "2020 年时政热点",
+   "module": "时政热点（按考试年份）",
+   "years": [
+    2020
+   ],
+   "count": 22,
+   "score": 16.0,
+   "qs": [
+    "daofa-2020-1",
+    "daofa-2020-2",
+    "daofa-2020-3",
+    "daofa-2020-4",
+    "daofa-2020-5",
+    "daofa-2020-11",
+    "daofa-2020-13",
+    "daofa-2020-15",
+    "daofa-2020-17",
+    "daofa-2020-18",
+    "daofa-2020-19",
+    "daofa-2020-20",
+    "daofa-2020-21",
+    "daofa-2020-22",
+    "daofa-2020-23",
+    "daofa-2020-27-1",
+    "daofa-2020-28",
+    "daofa-2020-29-1",
+    "daofa-2020-29-2",
+    "daofa-2020-31-1",
+    "daofa-2020-31-2",
+    "daofa-2020-31-3"
+   ]
+  },
+  "daofa.news.2021": {
+   "name": "2021 年时政热点",
+   "module": "时政热点（按考试年份）",
+   "years": [
+    2021
+   ],
+   "count": 19,
+   "score": 15.2,
+   "qs": [
+    "daofa-2021-1",
+    "daofa-2021-2",
+    "daofa-2021-3",
+    "daofa-2021-4",
+    "daofa-2021-5",
+    "daofa-2021-15",
+    "daofa-2021-19",
+    "daofa-2021-20",
+    "daofa-2021-21",
+    "daofa-2021-24",
+    "daofa-2021-26",
+    "daofa-2021-28",
+    "daofa-2021-29-1",
+    "daofa-2021-29-2",
+    "daofa-2021-30-1",
+    "daofa-2021-30-2",
+    "daofa-2021-31-1",
+    "daofa-2021-31-2",
+    "daofa-2021-31-3"
+   ]
+  },
+  "daofa.news.2022": {
+   "name": "2022 年时政热点",
+   "module": "时政热点（按考试年份）",
+   "years": [
+    2022
+   ],
+   "count": 11,
+   "score": 8.4,
+   "qs": [
+    "daofa-2022-1",
+    "daofa-2022-2",
+    "daofa-2022-3",
+    "daofa-2022-4",
+    "daofa-2022-5",
+    "daofa-2022-9",
+    "daofa-2022-12",
+    "daofa-2022-27",
+    "daofa-2022-29-1",
+    "daofa-2022-29-2",
+    "daofa-2022-30-2"
+   ]
+  },
+  "daofa.news.2023": {
+   "name": "2023 年时政热点",
+   "module": "时政热点（按考试年份）",
+   "years": [
+    2023
+   ],
+   "count": 9,
+   "score": 7.2,
+   "qs": [
+    "daofa-2023-1",
+    "daofa-2023-2",
+    "daofa-2023-3",
+    "daofa-2023-4",
+    "daofa-2023-5",
+    "daofa-2023-6",
+    "daofa-2023-27",
+    "daofa-2023-30-1",
+    "daofa-2023-30-2"
+   ]
+  },
+  "daofa.news.2024": {
+   "name": "2024 年时政热点",
+   "module": "时政热点（按考试年份）",
+   "years": [
+    2024
+   ],
+   "count": 14,
+   "score": 10.0,
+   "qs": [
+    "daofa-2024-1",
+    "daofa-2024-2",
+    "daofa-2024-3",
+    "daofa-2024-4",
+    "daofa-2024-5",
+    "daofa-2024-14",
+    "daofa-2024-17",
+    "daofa-2024-20",
+    "daofa-2024-21",
+    "daofa-2024-24",
+    "daofa-2024-25",
+    "daofa-2024-27",
+    "daofa-2024-29-1",
+    "daofa-2024-29-2"
+   ]
+  },
+  "daofa.news.2025": {
+   "name": "2025 年时政热点",
+   "module": "时政热点（按考试年份）",
+   "years": [
+    2025
+   ],
+   "count": 9,
+   "score": 6.0,
+   "qs": [
+    "daofa-2025-1",
+    "daofa-2025-2",
+    "daofa-2025-3",
+    "daofa-2025-4",
+    "daofa-2025-5",
+    "daofa-2025-7",
+    "daofa-2025-24",
+    "daofa-2025-27",
+    "daofa-2025-29-1"
+   ]
+  },
+  "daofa.news.2026": {
+   "name": "2026 年时政热点",
+   "module": "时政热点（按考试年份）",
+   "years": [
+    2026
+   ],
+   "count": 11,
+   "score": 6.4,
+   "qs": [
+    "daofa-2026-1",
+    "daofa-2026-2",
+    "daofa-2026-3",
+    "daofa-2026-4",
+    "daofa-2026-5",
+    "daofa-2026-17",
+    "daofa-2026-20",
+    "daofa-2026-21",
+    "daofa-2026-24",
+    "daofa-2026-25",
+    "daofa-2026-27"
+   ]
+  },
+  "daofa.method.choice": {
+   "name": "选择题解题方法",
+   "module": "题型方法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 47,
+   "score": 24.8,
+   "qs": [
+    "daofa-2019-3",
+    "daofa-2019-5",
+    "daofa-2019-9",
+    "daofa-2019-12",
+    "daofa-2019-13",
+    "daofa-2019-16",
+    "daofa-2019-18",
+    "daofa-2019-22",
+    "daofa-2020-2",
+    "daofa-2020-5",
+    "daofa-2020-6",
+    "daofa-2020-10",
+    "daofa-2020-14",
+    "daofa-2021-1",
+    "daofa-2021-2",
+    "daofa-2021-5",
+    "daofa-2021-8",
+    "daofa-2021-14",
+    "daofa-2021-17",
+    "daofa-2021-20",
+    "daofa-2022-3",
+    "daofa-2022-4",
+    "daofa-2022-5",
+    "daofa-2022-14",
+    "daofa-2022-20",
+    "daofa-2022-24",
+    "daofa-2023-2",
+    "daofa-2023-5",
+    "daofa-2023-9",
+    "daofa-2023-10",
+    "daofa-2023-23",
+    "daofa-2024-3",
+    "daofa-2024-5",
+    "daofa-2024-16",
+    "daofa-2024-19",
+    "daofa-2025-1",
+    "daofa-2025-2",
+    "daofa-2025-4",
+    "daofa-2025-6",
+    "daofa-2025-9",
+    "daofa-2025-15",
+    "daofa-2025-22",
+    "daofa-2026-1",
+    "daofa-2026-5",
+    "daofa-2026-13",
+    "daofa-2026-16",
+    "daofa-2026-18"
+   ]
+  },
+  "daofa.method.judge": {
+   "name": "判断说理",
+   "module": "题型方法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 16,
+   "score": 22.4,
+   "qs": [
+    "daofa-2019-27-1",
+    "daofa-2019-27-2",
+    "daofa-2020-27-1",
+    "daofa-2020-27-2",
+    "daofa-2021-27-1",
+    "daofa-2021-27-2",
+    "daofa-2022-26-1",
+    "daofa-2022-26-2",
+    "daofa-2023-26-1",
+    "daofa-2023-26-2",
+    "daofa-2024-26-1",
+    "daofa-2024-26-2",
+    "daofa-2025-26-1",
+    "daofa-2025-26-2",
+    "daofa-2026-26-1",
+    "daofa-2026-26-2"
+   ]
+  },
+  "daofa.method.comment": {
+   "name": "时事点评",
+   "module": "题型方法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 8,
+   "score": 9.6,
+   "qs": [
+    "daofa-2019-28",
+    "daofa-2020-28",
+    "daofa-2021-28",
+    "daofa-2022-27",
+    "daofa-2023-27",
+    "daofa-2024-27",
+    "daofa-2025-27",
+    "daofa-2026-27"
+   ]
+  },
+  "daofa.method.analysis": {
+   "name": "材料分析（原因/意义/启示/措施）",
+   "module": "题型方法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 46,
+   "score": 54.6,
+   "qs": [
+    "daofa-2019-29-1",
+    "daofa-2019-29-2",
+    "daofa-2019-30-1",
+    "daofa-2019-30-2",
+    "daofa-2019-30-3",
+    "daofa-2019-31-1",
+    "daofa-2019-31-2",
+    "daofa-2019-31-3",
+    "daofa-2020-29-1",
+    "daofa-2020-29-2",
+    "daofa-2020-30-1",
+    "daofa-2020-30-2",
+    "daofa-2020-31-1",
+    "daofa-2020-31-2",
+    "daofa-2021-29-1",
+    "daofa-2021-29-2",
+    "daofa-2021-30-1",
+    "daofa-2021-30-2",
+    "daofa-2021-31-1",
+    "daofa-2021-31-2",
+    "daofa-2022-28-1",
+    "daofa-2022-28-2",
+    "daofa-2022-29-1",
+    "daofa-2022-30-1",
+    "daofa-2022-30-2",
+    "daofa-2023-28-1",
+    "daofa-2023-28-2",
+    "daofa-2023-29-1",
+    "daofa-2023-29-2",
+    "daofa-2023-30-1",
+    "daofa-2023-30-2",
+    "daofa-2024-28-1",
+    "daofa-2024-29-1",
+    "daofa-2024-29-2",
+    "daofa-2024-30-1",
+    "daofa-2024-30-2",
+    "daofa-2025-28-1",
+    "daofa-2025-28-2",
+    "daofa-2025-29-1",
+    "daofa-2025-30-1",
+    "daofa-2025-30-2",
+    "daofa-2026-28-1",
+    "daofa-2026-29-1",
+    "daofa-2026-30-1",
+    "daofa-2026-30-2",
+    "daofa-2026-30-3"
+   ]
+  },
+  "daofa.method.open": {
+   "name": "开放性表达（等级评分）",
+   "module": "题型方法",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "count": 13,
+   "score": 15.6,
+   "qs": [
+    "daofa-2019-31-4",
+    "daofa-2020-31-3",
+    "daofa-2021-31-3",
+    "daofa-2022-29-2",
+    "daofa-2022-30-3",
+    "daofa-2023-30-3",
+    "daofa-2024-28-2",
+    "daofa-2024-30-3",
+    "daofa-2025-29-2",
+    "daofa-2025-30-3",
+    "daofa-2026-28-2",
+    "daofa-2026-28-3",
+    "daofa-2026-29-2"
+   ]
+  }
+ }
+}

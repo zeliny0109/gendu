@@ -1,0 +1,719 @@
+{
+ "subject": "lishi",
+ "modules": [
+  {
+   "id": "M1",
+   "name": "七上 中国古代史（史前—南北朝）",
+   "kps": [
+    {
+     "id": "lishi.c7a.prehistoric",
+     "name": "史前时期：远古人类与原始农耕",
+     "grade": "七上",
+     "desc": "元谋人、北京人；河姆渡、半坡原始农业；新石器文物（彩陶、玉器）及区域文化交流"
+    },
+    {
+     "id": "lishi.c7a.xia_shang_zhou",
+     "name": "夏商西周：早期国家、甲骨文与青铜器",
+     "grade": "七上",
+     "desc": "夏朝建立、商朝甲骨文与青铜文明、西周建立"
+    },
+    {
+     "id": "lishi.c7a.fengjian",
+     "name": "分封制与春秋战国的礼崩乐坏",
+     "grade": "七上",
+     "desc": "西周分封制的内容与作用；春秋争霸、周王室衰微、分封制瓦解"
+    },
+    {
+     "id": "lishi.c7a.warring_reform",
+     "name": "战国社会变革：铁器牛耕、商鞅变法、兼并战争",
+     "grade": "七上",
+     "desc": "铁器牛耕推动生产发展；商鞅变法；战国兼并战争"
+    },
+    {
+     "id": "lishi.c7a.dujiangyan",
+     "name": "都江堰",
+     "grade": "七上",
+     "desc": "李冰修建都江堰及其作用"
+    },
+    {
+     "id": "lishi.c7a.hundred_schools",
+     "name": "百家争鸣：孔子、老子、墨子等",
+     "grade": "七上",
+     "desc": "孔子儒家思想与教育主张、诸子主张、百家争鸣的意义"
+    },
+    {
+     "id": "lishi.c7a.qin_unify",
+     "name": "秦统一与中央集权制度",
+     "grade": "七上",
+     "desc": "秦统一、皇帝制度、三公九卿、郡县制、统一文字货币度量衡、直道、选官"
+    },
+    {
+     "id": "lishi.c7a.han_wudi",
+     "name": "西汉建立与汉武帝巩固大一统",
+     "grade": "七上",
+     "desc": "文景之治；推恩令、盐铁专卖与统一铸币、罢黜百家尊崇儒术"
+    },
+    {
+     "id": "lishi.c7a.silk_road",
+     "name": "张骞通西域与丝绸之路",
+     "grade": "七上",
+     "desc": "张骞出使西域、西域都护、陆上/海上丝绸之路与中外交流"
+    },
+    {
+     "id": "lishi.c7a.qinhan_culture",
+     "name": "秦汉科技与文化",
+     "grade": "七上",
+     "desc": "造纸术、医学（张仲景华佗）、《史记》、秦陵兵马俑等"
+    },
+    {
+     "id": "lishi.c7a.division_era",
+     "name": "三国两晋南北朝的政权分立与江南开发",
+     "grade": "七上",
+     "desc": "三国鼎立、西晋短暂统一、东晋南朝、北方人南迁与江南开发、士族"
+    },
+    {
+     "id": "lishi.c7a.beiwei_reform",
+     "name": "北魏孝文帝改革与北方民族交融",
+     "grade": "七上",
+     "desc": "迁都洛阳、汉化改革、魏晋南北朝时期民族交融"
+    },
+    {
+     "id": "lishi.c7a.wjnb_culture",
+     "name": "魏晋南北朝科技与文化",
+     "grade": "七上",
+     "desc": "《齐民要术》、祖冲之、书法绘画、石窟艺术"
+    }
+   ]
+  },
+  {
+   "id": "M2",
+   "name": "七下 中国古代史（隋唐—明清）",
+   "kps": [
+    {
+     "id": "lishi.c7b.sui_canal",
+     "name": "隋朝统一与大运河",
+     "grade": "七下",
+     "desc": "隋统一的条件、大运河的开通与作用"
+    },
+    {
+     "id": "lishi.c7b.keju",
+     "name": "科举制的创立与发展",
+     "grade": "七下",
+     "desc": "隋创立、唐完善、宋发展科举制的作用；与选官制度演变"
+    },
+    {
+     "id": "lishi.c7b.tang_prosperity",
+     "name": "唐朝兴盛：贞观之治、开元盛世与唐代社会",
+     "grade": "七下",
+     "desc": "唐初政治、唐代经济手工业（唐三彩等）、社会生活"
+    },
+    {
+     "id": "lishi.c7b.tang_ethnic",
+     "name": "唐朝的民族关系",
+     "grade": "七下",
+     "desc": "唐太宗开明民族政策、文成公主入藏、民族交往"
+    },
+    {
+     "id": "lishi.c7b.tang_foreign",
+     "name": "唐朝的中外文化交流",
+     "grade": "七下",
+     "desc": "遣唐使、鉴真东渡、玄奘西行"
+    },
+    {
+     "id": "lishi.c7b.sui_tang_culture",
+     "name": "隋唐文化与科技",
+     "grade": "七下",
+     "desc": "唐诗、书法绘画、雕版印刷、敦煌艺术；五代十国"
+    },
+    {
+     "id": "lishi.c7b.song_regimes",
+     "name": "辽宋夏金的并立与民族交融",
+     "grade": "七下",
+     "desc": "北宋建立与重文轻武、辽夏金政权、澶渊之盟、宋金和战、各族交融"
+    },
+    {
+     "id": "lishi.c7b.song_economy",
+     "name": "宋代经济发展与经济重心南移",
+     "grade": "七下",
+     "desc": "人口南迁、南方经济发展、宋代商业与城市（夜市、交子）、社会生活"
+    },
+    {
+     "id": "lishi.c7b.yuan_unify",
+     "name": "元朝的统一与对边疆的管辖",
+     "grade": "七下",
+     "desc": "元统一、行省制度、宣政院管辖西藏、澎湖巡检司、市舶司"
+    },
+    {
+     "id": "lishi.c7b.song_yuan_culture",
+     "name": "宋元时期的科技与文化",
+     "grade": "七下",
+     "desc": "活字印刷、指南针、火药的应用与外传；宋代瓷业；宋词元曲（关汉卿）"
+    },
+    {
+     "id": "lishi.c7b.ming_rule",
+     "name": "明朝的统治与财政社会变化",
+     "grade": "七下",
+     "desc": "明朝君主专制加强（废丞相、内阁、厂卫）、明中后期政治腐败"
+    },
+    {
+     "id": "lishi.c7b.ming_foreign",
+     "name": "明朝对外关系：郑和下西洋与戚继光抗倭",
+     "grade": "七下",
+     "desc": "郑和下西洋、海禁、戚继光抗倭、明长城与北方边防"
+    },
+    {
+     "id": "lishi.c7b.mingqing_economy",
+     "name": "明清经济：市镇、美洲作物与资本主义萌芽",
+     "grade": "七下",
+     "desc": "工商业市镇、手工业、美洲高产作物传入、人口增长"
+    },
+    {
+     "id": "lishi.c7b.qing_unify",
+     "name": "清朝前期统一多民族国家的巩固",
+     "grade": "七下",
+     "desc": "郑成功收复台湾、设台湾府、雅克萨之战、驻藏大臣与金瓶掣签、平定准噶尔、《职贡图》"
+    },
+    {
+     "id": "lishi.c7b.qing_crisis",
+     "name": "清朝君主专制强化与闭关锁国",
+     "grade": "七下",
+     "desc": "军机处、文字狱、闭关锁国及其影响"
+    },
+    {
+     "id": "lishi.c7b.mingqing_culture",
+     "name": "明清的科技与文学艺术",
+     "grade": "七下",
+     "desc": "《本草纲目》等科技著作、明清小说（《红楼梦》）、京剧、书籍出版"
+    }
+   ]
+  },
+  {
+   "id": "M3",
+   "name": "八上 中国近代史",
+   "kps": [
+    {
+     "id": "lishi.c8a.opium_war",
+     "name": "鸦片战争与《南京条约》",
+     "grade": "八上",
+     "desc": "虎门销烟、林则徐；鸦片战争、《南京条约》内容与影响、半殖民地半封建社会开端"
+    },
+    {
+     "id": "lishi.c8a.second_opium_taiping",
+     "name": "第二次鸦片战争与太平天国运动",
+     "grade": "八上",
+     "desc": "火烧圆明园、沙俄侵占领土；太平天国运动"
+    },
+    {
+     "id": "lishi.c8a.self_strengthening",
+     "name": "洋务运动",
+     "grade": "八上",
+     "desc": "洋务派创办军事工业（江南制造总局、福州船政局）与民用工业、北洋水师、译书与新式学堂"
+    },
+    {
+     "id": "lishi.c8a.sino_japanese_war",
+     "name": "甲午中日战争与瓜分中国狂潮",
+     "grade": "八上",
+     "desc": "甲午战争、《马关条约》、列强瓜分狂潮"
+    },
+    {
+     "id": "lishi.c8a.reform_1898",
+     "name": "戊戌变法",
+     "grade": "八上",
+     "desc": "康有为梁启超、公车上书、百日维新、谭嗣同"
+    },
+    {
+     "id": "lishi.c8a.boxer_crisis",
+     "name": "八国联军侵华与《辛丑条约》；民族危机加深",
+     "grade": "八上",
+     "desc": "义和团、八国联军、《辛丑条约》；从三大条约看民族危机逐步加深"
+    },
+    {
+     "id": "lishi.c8a.xinhai",
+     "name": "辛亥革命与中华民国建立",
+     "grade": "八上",
+     "desc": "孙中山、同盟会、武昌起义、中华民国、《临时约法》、辛亥革命的意义与局限；民国纪年"
+    },
+    {
+     "id": "lishi.c8a.warlords",
+     "name": "袁世凯复辟与北洋军阀统治",
+     "grade": "八上",
+     "desc": "袁世凯窃国、复辟帝制与护国战争、北洋军阀割据"
+    },
+    {
+     "id": "lishi.c8a.new_culture",
+     "name": "新文化运动",
+     "grade": "八上",
+     "desc": "陈独秀、胡适、李大钊、鲁迅；民主与科学、白话文与文学革命、马克思主义传播"
+    },
+    {
+     "id": "lishi.c8a.may4th",
+     "name": "五四运动",
+     "grade": "八上",
+     "desc": "五四运动的经过、性质与意义，新民主主义革命开端"
+    },
+    {
+     "id": "lishi.c8a.ccp_founding",
+     "name": "中国共产党的诞生",
+     "grade": "八上",
+     "desc": "中共一大、中共成立的意义"
+    },
+    {
+     "id": "lishi.c8a.first_cooperation",
+     "name": "国共合作与北伐战争",
+     "grade": "八上",
+     "desc": "国民党一大、第一次国共合作、黄埔军校、北伐战争"
+    },
+    {
+     "id": "lishi.c8a.red_regime",
+     "name": "工农武装割据与红色政权",
+     "grade": "八上",
+     "desc": "南昌起义、秋收起义、井冈山根据地、古田会议、中华苏维埃、土地革命"
+    },
+    {
+     "id": "lishi.c8a.long_march",
+     "name": "红军长征与遵义会议",
+     "grade": "八上",
+     "desc": "遵义会议、四渡赤水、长征胜利及长征精神"
+    },
+    {
+     "id": "lishi.c8a.japan_aggression",
+     "name": "日本侵华与局部抗战、西安事变",
+     "grade": "八上",
+     "desc": "九一八事变、东北抗日联军、华北事变、一二·九运动、西安事变"
+    },
+    {
+     "id": "lishi.c8a.war_resistance",
+     "name": "全民族抗战与抗日战争胜利",
+     "grade": "八上",
+     "desc": "七七事变、南京大屠杀、正面战场与敌后战场（百团大战）、大生产运动、中共七大、抗战胜利的意义"
+    },
+    {
+     "id": "lishi.c8a.liberation_war",
+     "name": "人民解放战争",
+     "grade": "八上",
+     "desc": "重庆谈判、三大战役、渡江战役、解放区土地改革"
+    },
+    {
+     "id": "lishi.c8a.national_industry",
+     "name": "近代民族工业的发展",
+     "grade": "八上",
+     "desc": "张謇、荣氏兄弟、民族工业“短暂的春天”、发展特点与困境"
+    },
+    {
+     "id": "lishi.c8a.modern_society",
+     "name": "近代社会生活与教育文化事业",
+     "grade": "八上",
+     "desc": "交通通讯、服饰习俗、报刊、近代教育与出版、近代思想（严复）"
+    }
+   ]
+  },
+  {
+   "id": "M4",
+   "name": "八下 中国现代史",
+   "kps": [
+    {
+     "id": "lishi.c8b.prc_founding",
+     "name": "中华人民共和国成立",
+     "grade": "八下",
+     "desc": "第一届政协会议、开国大典、西藏和平解放"
+    },
+    {
+     "id": "lishi.c8b.korean_war",
+     "name": "抗美援朝",
+     "grade": "八下",
+     "desc": "抗美援朝的原因、上甘岭战役、志愿军英雄、意义"
+    },
+    {
+     "id": "lishi.c8b.land_reform_1950",
+     "name": "土地改革",
+     "grade": "八下",
+     "desc": "1950年《土地改革法》、土改的意义"
+    },
+    {
+     "id": "lishi.c8b.socialist_transformation",
+     "name": "“一五”计划与三大改造",
+     "grade": "八下",
+     "desc": "“一五”计划与重工业、三大改造、社会主义制度确立"
+    },
+    {
+     "id": "lishi.c8b.socialist_exploration",
+     "name": "社会主义建设的艰辛探索与建设成就",
+     "grade": "八下",
+     "desc": "八大、“大跃进”与人民公社、调整；雷锋、王进喜、焦裕禄等英模；文革"
+    },
+    {
+     "id": "lishi.c8b.reform_opening",
+     "name": "改革开放",
+     "grade": "八下",
+     "desc": "十一届三中全会、农村家庭联产承包责任制、经济特区、对外开放格局、南方谈话"
+    },
+    {
+     "id": "lishi.c8b.new_era",
+     "name": "中国特色社会主义道路与新时代成就",
+     "grade": "八下",
+     "desc": "中国特色社会主义理论、十八大以来成就、人民生活变化"
+    },
+    {
+     "id": "lishi.c8b.political_system",
+     "name": "人民代表大会制度与民主法制建设",
+     "grade": "八下",
+     "desc": "人民代表大会、政治协商、民主法制建设、三大政治制度"
+    },
+    {
+     "id": "lishi.c8b.ethnic_autonomy",
+     "name": "民族团结与民族区域自治",
+     "grade": "八下",
+     "desc": "民族区域自治制度、民族团结与共同繁荣"
+    },
+    {
+     "id": "lishi.c8b.one_country_two",
+     "name": "“一国两制”与港澳回归、海峡两岸关系",
+     "grade": "八下",
+     "desc": "香港、澳门回归，海峡两岸交往、九二共识"
+    },
+    {
+     "id": "lishi.c8b.defense",
+     "name": "国防建设",
+     "grade": "八下",
+     "desc": "人民军队建设、国防现代化、国防尖端科技"
+    },
+    {
+     "id": "lishi.c8b.diplomacy",
+     "name": "独立自主的和平外交与对外合作",
+     "grade": "八下",
+     "desc": "和平共处五项原则、万隆会议、恢复联合国席位、中美建交、一带一路、国际合作"
+    },
+    {
+     "id": "lishi.c8b.sci_tech",
+     "name": "现代科技成就",
+     "grade": "八下",
+     "desc": "两弹一星、航天、杂交水稻、高铁等科技成就与科学家"
+    },
+    {
+     "id": "lishi.c8b.social_life",
+     "name": "社会生活的变迁",
+     "grade": "八下",
+     "desc": "衣食住行与社会生活变化（三大件、着装、住宅、交通）"
+    }
+   ]
+  },
+  {
+   "id": "M5",
+   "name": "九上 世界古代史与近代史（前期）",
+   "kps": [
+    {
+     "id": "lishi.c9a.egypt",
+     "name": "古代埃及",
+     "grade": "九上",
+     "desc": "尼罗河、金字塔、法老专制"
+    },
+    {
+     "id": "lishi.c9a.mesopotamia",
+     "name": "古代两河流域",
+     "grade": "九上",
+     "desc": "古巴比伦、《汉谟拉比法典》、楔形文字"
+    },
+    {
+     "id": "lishi.c9a.india",
+     "name": "古代印度",
+     "grade": "九上",
+     "desc": "种姓制度、佛教"
+    },
+    {
+     "id": "lishi.c9a.greece",
+     "name": "希腊城邦与雅典民主",
+     "grade": "九上",
+     "desc": "希腊城邦、雅典民主政治、古代奥运、亚历山大帝国"
+    },
+    {
+     "id": "lishi.c9a.rome",
+     "name": "罗马城邦与罗马帝国",
+     "grade": "九上",
+     "desc": "罗马共和国、罗马帝国、罗马法、罗马建筑"
+    },
+    {
+     "id": "lishi.c9a.medieval_europe",
+     "name": "中世纪西欧：封建制度、城市与大学",
+     "grade": "九上",
+     "desc": "封君封臣制度、庄园、城市兴起、大学"
+    },
+    {
+     "id": "lishi.c9a.byzantine_arab",
+     "name": "拜占庭帝国与阿拉伯帝国",
+     "grade": "九上",
+     "desc": "《查士丁尼法典》、阿拉伯帝国与文化（阿拉伯数字）"
+    },
+    {
+     "id": "lishi.c9a.asia_feudal",
+     "name": "亚洲封建国家（日本大化改新等）",
+     "grade": "九上",
+     "desc": "日本大化改新、遣唐使、东亚文化圈"
+    },
+    {
+     "id": "lishi.c9a.ancient_exchange",
+     "name": "古代世界的文化交流",
+     "grade": "九上",
+     "desc": "亚历山大东征、丝路与东西方交流、马可·波罗、古代商贸"
+    },
+    {
+     "id": "lishi.c9a.renaissance",
+     "name": "文艺复兴",
+     "grade": "九上",
+     "desc": "文艺复兴的核心人文主义、代表人物（但丁、达·芬奇等）"
+    },
+    {
+     "id": "lishi.c9a.new_route",
+     "name": "新航路开辟",
+     "grade": "九上",
+     "desc": "哥伦布、麦哲伦；新航路开辟的影响（物种交流、世界市场）"
+    },
+    {
+     "id": "lishi.c9a.colonial_slave",
+     "name": "早期殖民扩张与黑奴贸易",
+     "grade": "九上",
+     "desc": "殖民掠夺、三角贸易、黑奴贸易的影响"
+    },
+    {
+     "id": "lishi.c9a.british_revolution",
+     "name": "英国资产阶级革命与君主立宪制",
+     "grade": "九上",
+     "desc": "英国内战、光荣革命、《权利法案》、君主立宪制"
+    },
+    {
+     "id": "lishi.c9a.american_independence",
+     "name": "美国独立战争与1787年宪法",
+     "grade": "九上",
+     "desc": "独立战争、《独立宣言》、1787年宪法"
+    },
+    {
+     "id": "lishi.c9a.french_revolution",
+     "name": "法国大革命与拿破仑帝国",
+     "grade": "九上",
+     "desc": "攻占巴士底狱、《人权宣言》、拿破仑法典"
+    },
+    {
+     "id": "lishi.c9a.industrial_revolution1",
+     "name": "第一次工业革命",
+     "grade": "九上",
+     "desc": "珍妮机、瓦特蒸汽机、工厂制度、城市化与环境问题"
+    },
+    {
+     "id": "lishi.c9a.marxism",
+     "name": "马克思主义诞生与国际共产主义运动",
+     "grade": "九上",
+     "desc": "《共产党宣言》、共产主义者同盟、巴黎公社"
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "name": "九下 世界近代史（后期）与现代史",
+   "kps": [
+    {
+     "id": "lishi.c9b.latin_india",
+     "name": "殖民地人民的反抗（拉美独立、印度民族起义）",
+     "grade": "九下",
+     "desc": "玻利瓦尔、拉美独立运动、印度民族大起义"
+    },
+    {
+     "id": "lishi.c9b.russia_reform",
+     "name": "俄国农奴制改革",
+     "grade": "九下",
+     "desc": "1861年亚历山大二世改革"
+    },
+    {
+     "id": "lishi.c9b.us_civil_war",
+     "name": "美国南北战争",
+     "grade": "九下",
+     "desc": "南北矛盾、林肯、《宅地法》《解放黑人奴隶宣言》、南北战争意义"
+    },
+    {
+     "id": "lishi.c9b.meiji",
+     "name": "日本明治维新",
+     "grade": "九下",
+     "desc": "明治维新的措施（文明开化等）与影响、不彻底性"
+    },
+    {
+     "id": "lishi.c9b.industrial_revolution2",
+     "name": "第二次工业革命",
+     "grade": "九下",
+     "desc": "电力、内燃机、化学工业；垄断组织"
+    },
+    {
+     "id": "lishi.c9b.modern_science_culture",
+     "name": "近代科学与文化",
+     "grade": "九下",
+     "desc": "牛顿、达尔文、爱迪生等科学成就；近代文学艺术"
+    },
+    {
+     "id": "lishi.c9b.wwi",
+     "name": "第一次世界大战",
+     "grade": "九下",
+     "desc": "一战爆发原因、萨拉热窝事件、凡尔登战役、一战影响"
+    },
+    {
+     "id": "lishi.c9b.versailles",
+     "name": "凡尔赛—华盛顿体系",
+     "grade": "九下",
+     "desc": "巴黎和会、凡尔赛体系的实质与影响"
+    },
+    {
+     "id": "lishi.c9b.soviet",
+     "name": "十月革命与苏联社会主义建设",
+     "grade": "九下",
+     "desc": "十月革命、战时共产主义政策、新经济政策、苏联工业化与斯大林模式"
+    },
+    {
+     "id": "lishi.c9b.asia_africa_movement",
+     "name": "亚非拉民族民主运动（一战后）",
+     "grade": "九下",
+     "desc": "甘地非暴力不合作、凯末尔革命"
+    },
+    {
+     "id": "lishi.c9b.new_deal",
+     "name": "经济大危机与罗斯福新政",
+     "grade": "九下",
+     "desc": "1929年大危机、罗斯福新政"
+    },
+    {
+     "id": "lishi.c9b.wwii",
+     "name": "法西斯与第二次世界大战",
+     "grade": "九下",
+     "desc": "德意日法西斯、二战爆发、斯大林格勒战役、诺曼底登陆、世界反法西斯同盟、二战胜利"
+    },
+    {
+     "id": "lishi.c9b.cold_war",
+     "name": "美苏冷战",
+     "grade": "九下",
+     "desc": "杜鲁门主义、马歇尔计划、北约华约、冷战影响"
+    },
+    {
+     "id": "lishi.c9b.postwar_capitalism",
+     "name": "战后资本主义新变化与欧洲一体化",
+     "grade": "九下",
+     "desc": "欧共体、欧盟；日本经济发展"
+    },
+    {
+     "id": "lishi.c9b.socialist_reform",
+     "name": "社会主义国家的改革与演变",
+     "grade": "九下",
+     "desc": "苏联解体、东欧剧变"
+    },
+    {
+     "id": "lishi.c9b.third_world",
+     "name": "亚非拉国家的新发展",
+     "grade": "九下",
+     "desc": "战后非洲独立、亚非拉国家发展、不结盟运动"
+    },
+    {
+     "id": "lishi.c9b.globalization",
+     "name": "经济全球化与世界多极化",
+     "grade": "九下",
+     "desc": "第三次科技革命、WTO、经济全球化、多极化、人类命运共同体"
+    }
+   ]
+  },
+  {
+   "id": "M7",
+   "name": "史料阅读与历史解释（能力）",
+   "kps": [
+    {
+     "id": "lishi.skill.source_type",
+     "name": "史料类型与价值",
+     "grade": "?",
+     "desc": "一手/二手史料、文献/实物/图像/口述史料的价值判断，最可信证据"
+    },
+    {
+     "id": "lishi.skill.fact_interpretation",
+     "name": "史实与历史解释（结论）的区分",
+     "grade": "?",
+     "desc": "区分史实陈述与观点解释、历史结论与史实"
+    },
+    {
+     "id": "lishi.skill.chronology",
+     "name": "时空观念：纪年、年代判断与地图",
+     "grade": "?",
+     "desc": "公元纪年、民国纪年、年号换算；依据材料判断年代、读历史地图"
+    },
+    {
+     "id": "lishi.skill.image_reading",
+     "name": "图像与图表史料解读",
+     "grade": "?",
+     "desc": "读文物图片、历史照片、漫画海报、统计图表，近景/中景/远景读图"
+    },
+    {
+     "id": "lishi.skill.evidence_reasoning",
+     "name": "史料实证：依据证据作判断并说服他人",
+     "grade": "?",
+     "desc": "从材料提取信息，与所学史实互证，得出判断"
+    },
+    {
+     "id": "lishi.skill.theme_essay",
+     "name": "提炼主题与史论结合的论述",
+     "grade": "?",
+     "desc": "自拟主题、选取史实、史论结合、逻辑清晰的小论文"
+    },
+    {
+     "id": "lishi.skill.historical_view",
+     "name": "历史认识与评价",
+     "grade": "?",
+     "desc": "评价历史人物事件、立场影响历史认识、辩证看待（含人工智能在历史学习中的使用）"
+    }
+   ]
+  },
+  {
+   "id": "M8",
+   "name": "跨时段主题与地方特色",
+   "kps": [
+    {
+     "id": "lishi.theme.ethnic_unity",
+     "name": "统一多民族国家的形成与民族交融（跨时段）",
+     "grade": "?",
+     "desc": "历代民族交往交流交融、边疆治理"
+    },
+    {
+     "id": "lishi.theme.taiwan",
+     "name": "台湾自古以来是中国领土",
+     "grade": "?",
+     "desc": "历代对台湾的开发与管辖、台湾问题"
+    },
+    {
+     "id": "lishi.theme.fujian",
+     "name": "福建乡土史与海上丝绸之路",
+     "grade": "?",
+     "desc": "泉州海丝、船政、古田会议、林则徐、严复、陈嘉庚等闽籍人物与事件"
+    },
+    {
+     "id": "lishi.theme.agri_calendar",
+     "name": "农耕文明：节气、农书与农业生产",
+     "grade": "?",
+     "desc": "二十四节气、农谚、农书、农业技术"
+    },
+    {
+     "id": "lishi.theme.tech_craft",
+     "name": "中国古代科技与手工业成就（跨时段）",
+     "grade": "?",
+     "desc": "冶铁、陶瓷、丝织、金属工艺等手工业与科学原理"
+    },
+    {
+     "id": "lishi.theme.customs_tradition",
+     "name": "传统文化、节日习俗与家国情怀",
+     "grade": "?",
+     "desc": "传统节日、民俗、孝道、家国情怀与精神传承"
+    },
+    {
+     "id": "lishi.theme.human_env",
+     "name": "人与自然：环境与发展",
+     "grade": "?",
+     "desc": "工业化带来的环境问题、可持续发展"
+    },
+    {
+     "id": "lishi.theme.china_world",
+     "name": "中外交流与中国与世界（跨时段）",
+     "grade": "?",
+     "desc": "中外文明交流互鉴、物种与技术的传播、中国对世界的贡献"
+    }
+   ]
+  }
+ ]
+}

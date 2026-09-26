@@ -1,0 +1,664 @@
+{
+ "subject": "huaxue",
+ "year": 2021,
+ "source": "福建省教育考试院《2021年福建省初中学业水平考试试题、参考答案》（福州市人民政府网转载）https://www.fuzhou.gov.cn/zgfzzt/jy/zdjy/202106/P020210627507332575864.pdf",
+ "total": 100,
+ "minutes": 60,
+ "note": "相对原子质量：H 1　B 11　C 12　O 16　Si 28　S 32　Cu 64。非选择题小问分值为按福建阅卷惯例估算，官方只给大题总分。",
+ "materials": [
+  {
+   "id": "m11",
+   "text": "“嫦娥五号”月球采样返回，“天问一号”成功抵达火星，标志着我国航天事业取得突破性进展。"
+  },
+  {
+   "id": "m12",
+   "text": "钢铁是应用广泛的金属材料。"
+  },
+  {
+   "id": "m13",
+   "text": "右图为我国古代“布灰种盐”生产海盐的部分场景，其过程为“烧草为灰，布在滩场，然后以海水渍之，俟晒结浮白，扫而复淋”。",
+   "figures": [
+    "figs/2021-m13-1.png"
+   ]
+  },
+  {
+   "id": "m14",
+   "text": "为解决能源与环境问题，有学者提出如右图所示的含碳物质转化的技术路线。",
+   "figures": [
+    "figs/2021-m14-1.png"
+   ]
+  },
+  {
+   "id": "m15",
+   "text": "为方便推测某些复杂物质的化学性质，可将其化学式改用常见物质的化学式表示。如碱式碳酸铜［$\\mathrm{Cu_2(OH)_2CO_3}$］可改写为 $\\mathrm{Cu(OH)_2·CuCO_3}$，推测其兼具 $\\mathrm{Cu(OH)_2}$ 和 $\\mathrm{CuCO_3}$ 的化学性质。"
+  },
+  {
+   "id": "m16",
+   "text": "下列装置常用于实验室制取气体。",
+   "figures": [
+    "figs/2021-m16-1.png"
+   ]
+  },
+  {
+   "id": "m17",
+   "text": "已知：$\\mathrm{H_2 + CuO \\xlongequal{\\triangle } Cu + H_2O}$。有文献报道：在氢气还原氧化铜的一些实验中，得到的固体产物是铜和氧化亚铜（$\\mathrm{Cu_2O}$）组成的混合物。氧化亚铜为红色固体，在空气中溶于氨水得到蓝色溶液。某兴趣小组对此开展如下探究。",
+   "figures": [
+    "figs/2021-m17-1.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "huaxue-2021-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "运动型功能饮料含有下列营养素，其中主要用于补充能量的是",
+   "options": [
+    "A. 葡萄糖",
+    "B. 维生素",
+    "C. 水",
+    "D. 无机盐"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.life.nutrients"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "全硼富勒烯团簇（$\\mathrm{B_{40}}$）的分子结构像中国红灯笼（如右图）。$\\mathrm{B_{40}}$ 属于",
+   "options": [
+    "A. 单质",
+    "B. 氧化物",
+    "C. 酸",
+    "D. 盐"
+   ],
+   "figures": [
+    "figs/2021-2-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.matter.classify"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "“庄稼一枝花，全靠肥当家。”下列属于复合肥料的是",
+   "options": [
+    "A. $\\mathrm{NH_4HCO_3}$",
+    "B. KCl",
+    "C. $\\mathrm{(NH_4)_2HPO_4}$",
+    "D. $\\mathrm{CO(NH_2)_2}$"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.salt.fertilizer"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "大蒜素（$\\mathrm{C_6H_{10}S_2O}$）能抑制和杀灭多种细菌。下列有关大蒜素的说法，**错误**的是",
+   "options": [
+    "A. 氢元素的质量分数最大",
+    "B. 由 4 种元素组成",
+    "C. 一个分子由 19 个原子构成",
+    "D. 属于有机化合物"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.formula.calc",
+    "huaxue.life.materials"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "稀释浓硫酸并进行硫酸性质实验的下列操作，正确的是",
+   "options": [
+    "A. 稀释浓硫酸",
+    "B. 测稀硫酸的 pH",
+    "C. 倾倒稀硫酸",
+    "D. 滴加稀硫酸"
+   ],
+   "figures": [
+    "figs/2021-5-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.intro.basic_ops",
+    "huaxue.acid.acids",
+    "huaxue.acid.ph"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "据文献报道：一种特殊的铜纳米颗粒具有与金、银极其相似的反应惰性，可替代黄金做精密电子元器件。下列对该铜纳米颗粒的判断，正确的是",
+   "options": [
+    "A. 能与盐酸反应产生氢气",
+    "B. 在空气中容易锈蚀",
+    "C. 能与硫酸亚铁发生置换反应",
+    "D. 具有良好的导电性"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.metal.materials",
+    "huaxue.metal.activity"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "抗击新冠肺炎疫情离不开化学知识和技术。下列说法**错误**的是",
+   "options": [
+    "A. 高温消毒餐具，使病毒在高温下失去活性",
+    "B. 使用医用酒精消毒要远离火源，因为酒精有可燃性",
+    "C. 将酒精加工成免洗消毒凝胶，使酒精分子停止运动而不挥发",
+    "D. 测定新冠病毒的组成和结构，有助于研发治疗新冠肺炎的药物"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.struct.particles",
+    "huaxue.fuel.safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列实验方案**不能**达到目的的是\n\n| | 实验目的 | 实验方案 |\n|---|---|---|\n| A | 除去水中的异味和色素 | 用活性炭吸附 |\n| B | 鉴别硬水和软水 | 取样，分别加入肥皂水，振荡 |\n| C | 除去 $\\mathrm{FeCl_2}$ 溶液中的 $\\mathrm{CuCl_2}$ 杂质 | 加入过量的铁屑充分反应，过滤 |\n| D | 检验久置的 NaOH 是否变质 | 取样，滴加酚酞溶液 |",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.inquiry.identify",
+    "huaxue.acid.bases",
+    "huaxue.water.hard_soft"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "某兴趣小组为探究影响化学反应速率的因素，使用等量的同种钙片和白醋开展四组实验，分别测得产生的二氧化碳浓度随时间的变化曲线如右图所示（①、③为研磨成粉末状钙片；②、④为片状钙片）。选取 $\\mathrm{CO_2}$ 的浓度从 0～8% 为研究对象，下列实验结果的分析，**错误**的是",
+   "options": [
+    "A. 对比①③，温度越高，反应速率越快",
+    "B. 对比②③，反应物接触面积越小，反应速率越慢",
+    "C. 对比③④，反应物接触面积越大，反应速率越快",
+    "D. 对比①②③④，④的反应速率最慢"
+   ],
+   "figures": [
+    "figs/2021-9-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.inquiry.control_variable",
+    "huaxue.inquiry.data_analysis"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "甲、乙、丙三种物质有如下转化关系：甲 —稀盐酸①→ 乙 —稀盐酸②→ 丙。在不断搅拌下，往装有甲溶液的容器中逐滴加入稀盐酸依次发生①、②反应，同时测定容器中液体的透光强度（液体越浑浊，透光强度越小），结果如右图。下列分析**错误**的是",
+   "options": [
+    "A. 乙难溶于水",
+    "B. 甲可能是 NaOH",
+    "C. QM 段对应反应②",
+    "D. E、F 对应的液体组成不同"
+   ],
+   "figures": [
+    "figs/2021-10-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.inquiry.data_analysis",
+    "huaxue.salt.metathesis",
+    "huaxue.acid.acids"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2021-11-1",
+   "no": "11(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m11",
+   "stem": "月壤含 $\\mathrm{CaAl_2Si_2O_8}$ 以及可作为核聚变燃料的氦-3 等物质。\n\n①$\\mathrm{CaAl_2Si_2O_8}$ 中，Si、O 两种元素的质量比为____。\n\n②右图为氦在元素周期表中的部分信息。氦-3 原子的质子数与中子数之和为 3，则其中子数为____、核外电子数为____。",
+   "figures": [
+    "figs/2021-11-1.png"
+   ],
+   "answer": "① 7∶16\n② 1　2",
+   "kp": [
+    "huaxue.formula.calc",
+    "huaxue.struct.atom",
+    "huaxue.struct.periodic_table"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-11-2",
+   "no": "11(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m11",
+   "stem": "着陆器上的仪器可探测水。若月球上存在大量的水，可利用光催化分解水技术得到氧气，对人类在月球上活动意义重大，该反应的化学方程式为____。",
+   "answer": "$\\mathrm{2H_2O \\xlongequal{催化剂、光照} 2H_2\\uparrow + O_2\\uparrow}$",
+   "kp": [
+    "huaxue.water.composition",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 2,
+   "note": "官方答案条件为等号上“催化剂”、等号下“光照”，此处合写。"
+  },
+  {
+   "id": "huaxue-2021-11-3",
+   "no": "11(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m11",
+   "stem": "火星拥有丰富的金属矿物和二氧化碳等资源。火星低层大气的主要成分如下表。\n\n| 气体成分 | $\\mathrm{CO_2}$ | $\\mathrm{N_2}$ | Ar | $\\mathrm{O_2}$ | 其他 |\n|---|---|---|---|---|---|\n| 体积分数/% | 95.32 | 2.7 | 1.6 | 0.13 | 0.25 |\n\n①为鉴别一瓶模拟“火星低层大气”组成的气体和一瓶空气，可采用的化学方法是____。\n\n②若为满足人类未来在火星上生活，下列研究设想不合理的是____（填标号）。\n\nA. 将 $\\mathrm{CO_2}$ 转化为 $\\mathrm{O_2}$，提高 $\\mathrm{O_2}$ 含量\nB. 将 $\\mathrm{CO_2}$ 分解转化为 $\\mathrm{N_2}$，提高 $\\mathrm{N_2}$ 含量\nC. 寻找水的存在和开发水循环技术\nD. 利用火星上的金属矿物冶炼金属",
+   "answer": "① 分别伸入燃着的木条，观察木条是否熄灭\n② B",
+   "kp": [
+    "huaxue.inquiry.identify",
+    "huaxue.eq.conservation",
+    "huaxue.air.composition"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-12-1",
+   "no": "12(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 5,
+   "material": "m12",
+   "stem": "英国学者 R·坦普尔论证了我国古代冶铁技术世界第一。早在公元前 4 世纪，中国已广泛利用铁矿石与木炭生产生铁，并加入“黑土”以降低生铁的熔化温度；公元前 2 世纪，中国人发明了“充氧”等炼钢法。\n\n①“黑土”含有磷酸铁（$\\mathrm{FePO_4}$），其中磷元素的化合价为____。\n\n②生铁生产过程中，一氧化碳与氧化铁在高温下反应的化学方程式为____。\n\n③炼钢中“充氧”的目的是降低生铁中的____，获得性能更好的钢。",
+   "answer": "① +5\n② $\\mathrm{Fe_2O_3 + 3CO \\xlongequal{高温} 2Fe + 3CO_2}$\n③ 含碳量",
+   "kp": [
+    "huaxue.metal.smelting",
+    "huaxue.formula.valence",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-12-2",
+   "no": "12(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m12",
+   "stem": "对钢铁制品进行“发蓝”处理，使其表面生成一层致密的氧化膜，能有效防止钢铁锈蚀。\n\n①“发蓝”过程发生了____（填“物理变化”或“化学变化”）。\n\n②致密氧化膜能防止钢铁锈蚀的原因是____。",
+   "answer": "① 化学变化\n② 隔绝水和氧气",
+   "kp": [
+    "huaxue.metal.corrosion",
+    "huaxue.intro.change"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-13-1",
+   "no": "13(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m13",
+   "stem": "“晒结浮白”是指海水浸渍的草灰经日晒后出现白色海盐颗粒的过程，化学上称之为____。",
+   "answer": "蒸发结晶",
+   "kp": [
+    "huaxue.sol.saturation",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-13-2",
+   "no": "13(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 8,
+   "material": "m13",
+   "stem": "经过多次“扫而复淋”，提高卤水浓度获得“上等卤水”（氯化钠的质量分数约为 15%），用于煎炼海盐。\n\n①1 000 g“上等卤水”蒸干后，可得到氯化钠的质量约为____g。\n\n②从燃料利用角度分析，用获得的“上等卤水”而不直接用海水煎炼海盐的原因是____。\n\n③将“上等卤水”在 100 ℃ 恒温蒸发至刚有晶体析出，所得溶液的组成为：150 g 溶液中含水 100 g、NaCl 39.8 g、$\\mathrm{MgCl_2}$ 7.65 g 及其他成分 2.55 g。将 150 g 此溶液降温至 20 ℃，有____g NaCl 析出（溶解度见下表）。此时，____（填“有”或“没有”）$\\mathrm{MgCl_2}$ 析出，原因是____。\n\n| 温度/℃ | 20 | 60 | 100 |\n|---|---|---|---|\n| NaCl 溶解度/g | 36.0 | 37.3 | 39.8 |\n| $\\mathrm{MgCl_2}$ 溶解度/g | 54.8 | 61.3 | 73.0 |",
+   "answer": "① 150\n② 生产等量的海盐，后者消耗燃料更多\n③ 3.8\n没有\n20 ℃ 时溶液中的氯化镁未达到饱和状态",
+   "kp": [
+    "huaxue.sol.solubility",
+    "huaxue.sol.concentration",
+    "huaxue.salt.crude_salt"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2021-14-1",
+   "no": "14(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m14",
+   "stem": "“可燃冰”中甲烷完全燃烧的化学方程式为____。",
+   "answer": "$\\mathrm{CH_4 + 2O_2 \\xlongequal{点燃} CO_2 + 2H_2O}$",
+   "kp": [
+    "huaxue.eq.writing",
+    "huaxue.fuel.fossil"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-14-2",
+   "no": "14(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m14",
+   "stem": "反应②属于____（填基本反应类型）。",
+   "answer": "分解反应",
+   "kp": [
+    "huaxue.eq.reaction_types"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-14-3",
+   "no": "14(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m14",
+   "stem": "反应④中，参加反应的 $\\mathrm{CO_2}$ 和生成的 $\\mathrm{CH_4}$ 的分子数目之比为____。",
+   "answer": "1∶1",
+   "kp": [
+    "huaxue.eq.conservation",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-14-4",
+   "no": "14(4)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m14",
+   "stem": "我国学者开发出促进反应③的一种新型催化剂，催化过程微观示意图如右。该过程的中间产物____（填化学式）、氧和氢进一步作用生成甲醇（$\\mathrm{CH_3OH}$）和水。",
+   "figures": [
+    "figs/2021-14-4.png"
+   ],
+   "answer": "CO",
+   "kp": [
+    "huaxue.eq.micro_diagram"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-14-5",
+   "no": "14(5)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m14",
+   "stem": "该技术路线有利于实现____（填标号）。\n\nA. 碳循环利用\nB. 减少碳排放\nC. 减少白色污染",
+   "answer": "AB",
+   "kp": [
+    "huaxue.carbon.cycle"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-15-1",
+   "no": "15(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 3,
+   "material": "m15",
+   "stem": "举重运动员常用碱式碳酸镁［$\\mathrm{Mg_2(OH)_2CO_3}$］粉末抹在手掌以增大摩擦力。\n\n①参照上述方法，碱式碳酸镁的化学式可改写为____。\n\n②该物质兼具____（填“酸”或“碱”）和碳酸盐的化学性质。\n\n③该物质分解的化学方程式为 $\\mathrm{Mg_2(OH)_2CO_3 \\xlongequal{\\triangle } 2X + H_2O + CO_2\\uparrow}$，X 的化学式为____。",
+   "answer": "① $\\mathrm{Mg(OH)_2·MgCO_3}$\n② 碱\n③ MgO",
+   "kp": [
+    "huaxue.formula.symbols",
+    "huaxue.eq.conservation",
+    "huaxue.matter.classify"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-15-2",
+   "no": "15(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 5,
+   "material": "m15",
+   "stem": "某种茶垢清洁剂的主要成分为过碳酸钠（可表示为 $\\mathrm{2Na_2CO_3·3H_2O_2}$）。将过碳酸钠溶解于热水中，有大量气泡产生，其原因是____；当不再产生气泡后，往溶液中加入足量澄清石灰水，反应的化学方程式为____。",
+   "answer": "$\\mathrm{H_2O_2}$ 分解产生气体\n$\\mathrm{Na_2CO_3 + Ca(OH)_2 \\xlongequal{} CaCO_3\\downarrow + 2NaOH}$",
+   "kp": [
+    "huaxue.salt.common",
+    "huaxue.o2.lab_prep",
+    "huaxue.salt.metathesis"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-16-1",
+   "no": "16(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m16",
+   "stem": "仪器①的名称是____。",
+   "answer": "长颈漏斗",
+   "kp": [
+    "huaxue.intro.basic_ops"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-16-2",
+   "no": "16(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m16",
+   "stem": "用装置甲制取氧气，采用该收集方法的依据是____。用收集的氧气做铁丝燃烧实验，应预先在集气瓶中加入少量的____。",
+   "answer": "氧气密度比空气大\n水（或细沙）",
+   "kp": [
+    "huaxue.lab.gas_apparatus",
+    "huaxue.o2.properties"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-16-3",
+   "no": "16(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m16",
+   "stem": "用装置乙制取气体，实验结束时，为防止水槽里的水倒流，应采取的操作是____。",
+   "answer": "先把导管移出水面，再熄灭酒精灯",
+   "kp": [
+    "huaxue.o2.lab_prep",
+    "huaxue.intro.basic_ops"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-16-4",
+   "no": "16(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m16",
+   "stem": "在加热条件下，用醋酸钠（$\\mathrm{CH_3COONa}$）固体与碱石灰固体中的氢氧化钠反应制取甲烷，同时生成碳酸钠，应选用的装置是____（填“甲”或“乙”），反应的化学方程式为____。",
+   "answer": "乙\n$\\mathrm{CH_3COONa + NaOH \\xlongequal{\\triangle } Na_2CO_3 + CH_4\\uparrow}$",
+   "kp": [
+    "huaxue.lab.gas_apparatus",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-17-1",
+   "no": "17(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m17",
+   "stem": "Ⅰ. 设计如右实验装置，开展氢气还原氧化铜实验并检验固体产物。\n\n（1）制取氢气的化学方程式为____。",
+   "answer": "$\\mathrm{Zn + H_2SO_4 \\xlongequal{} ZnSO_4 + H_2\\uparrow}$",
+   "kp": [
+    "huaxue.metal.chem",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-17-2",
+   "no": "17(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m17",
+   "stem": "氧化钙的作用是____。",
+   "answer": "干燥氢气（或吸收水蒸气）",
+   "kp": [
+    "huaxue.inquiry.design_eval",
+    "huaxue.lab.gas_apparatus"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-17-3",
+   "no": "17(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m17",
+   "stem": "取反应后的红色固体于烧杯中，加入氨水并搅拌，观察到____，证明固体产物有 $\\mathrm{Cu_2O}$。",
+   "answer": "无色溶液变为蓝色",
+   "kp": [
+    "huaxue.inquiry.identify"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-17-4",
+   "no": "17(4)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m17",
+   "stem": "Ⅱ. 探究反应生成 $\\mathrm{Cu_2O}$ 的变化情况。\n称取若干份质量均为 0.600 0 g 的 CuO，在相同条件下分别用氢气还原，不同时间（$t$）检测所得固体中 $\\mathrm{Cu_2O}$ 的质量（$m$），结果如右图。\n\n（4）由图可知，在氢气还原氧化铜反应过程中，$\\mathrm{Cu_2O}$ 质量的变化趋势是____。",
+   "figures": [
+    "figs/2021-17-4.png"
+   ],
+   "answer": "先增大后减小",
+   "kp": [
+    "huaxue.inquiry.data_analysis"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2021-17-5",
+   "no": "17(5)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "为确保氢气还原氧化铜所得固体产物不含 $\\mathrm{Cu_2O}$，应采取的措施是____。",
+   "answer": "确保加热条件下通氢气时间足够长",
+   "kp": [
+    "huaxue.inquiry.data_analysis",
+    "huaxue.inquiry.design_eval"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2021-17-6",
+   "no": "17(6)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "Ⅲ. 探究反应生成 $\\mathrm{Cu_2O}$ 的原因。\n为解释实验结果，兴趣小组对氢气还原氧化铜的反应过程提出如下假设：\n\n假设 1. 经历 $\\mathrm{2CuO + H_2 \\xlongequal{\\triangle } Cu_2O + H_2O}$、$\\mathrm{H_2 + Cu_2O \\xlongequal{\\triangle } 2Cu + H_2O}$ 两个反应，且在同一条件下两个反应同时进行。\n\n假设 2. 经历 $\\mathrm{CuO + H_2 \\xlongequal{\\triangle } Cu + H_2O}$、$\\mathrm{Cu + CuO \\xlongequal{\\triangle } Cu_2O}$、$\\mathrm{H_2 + Cu_2O \\xlongequal{\\triangle } 2Cu + H_2O}$ 三个反应。\n\n（6）结合探究Ⅱ结果计算分析，假设 1 中“在同一条件下两个反应能同时进行”合理的依据是____。",
+   "answer": "若分步进行，$\\mathrm{Cu_2O}$ 的最大质量应为 0.540 0 g，不是 0.321 8 g",
+   "kp": [
+    "huaxue.eq.calc",
+    "huaxue.inquiry.data_analysis",
+    "huaxue.inquiry.design_eval"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2021-17-7",
+   "no": "17(7)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "若要确认“假设 2”是否合理，在探究Ⅱ的基础上，还需进行的实验是____。",
+   "answer": "隔绝空气加热 Cu 和 CuO 混合物，将所得固体放入烧杯，再加氨水并搅拌，观察溶液是否变蓝",
+   "kp": [
+    "huaxue.inquiry.design_eval",
+    "huaxue.inquiry.identify"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2021-18",
+   "no": "18",
+   "section": "非选择题",
+   "type": "short",
+   "score": 6,
+   "stem": "“7150 灭火剂”（$\\mathrm{C_3H_9B_3O_6}$，相对分子质量为 174）以雾状形式喷射到燃着的金属时，立即发生燃烧反应：$\\mathrm{2C_3H_9B_3O_6 + 9O_2 \\xlongequal{点燃} 3B_2O_3 + 9H_2O + 6CO_2}$。反应能很快耗尽金属物品附近的氧气，生成的玻璃状 $\\mathrm{B_2O_3}$ 覆盖在金属物品表面而隔绝空气，从而有效灭火。若充分燃烧 348 g“7150 灭火剂”，会消耗常温下的氧气多少升？（常温下氧气密度约为 1.4 g·L$^{-1}$，结果保留一位小数）",
+   "answer": "解：设消耗氧气的质量为 $x$。\n\n$\\mathrm{2C_3H_9B_3O_6 + 9O_2 \\xlongequal{点燃} 3B_2O_3 + 9H_2O + 6CO_2}$\n\n348　　288\n\n348 g　 $x$\n\n$\\dfrac{348}{288}=\\dfrac{348\\ \\mathrm{g}}{x}$\n\n$x = 288$ g\n\n氧气的体积＝$\\dfrac{288\\ \\mathrm{g}}{1.4\\ \\mathrm{g\\cdot L^{-1}}}$＝205.7 L\n\n答：消耗常温下 205.7 L 的氧气。",
+   "kp": [
+    "huaxue.eq.calc",
+    "huaxue.fuel.combustion"
+   ],
+   "difficulty": 2
+  }
+ ]
+}

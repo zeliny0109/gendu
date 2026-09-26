@@ -1,0 +1,1005 @@
+{
+ "subject": "wuli",
+ "year": 2021,
+ "source": "福建省教育考试院《试题、参考答案》合订本（福州市人民政府网转载）https://www.fuzhou.gov.cn/zgfzzt/jy/zdjy/202106/t20210627_4128932.htm（附件 P020210627507332575864.pdf，物理在第 24–31 页）",
+ "total": 100,
+ "minutes": 90,
+ "materials": [
+  {
+   "id": "m26",
+   "text": "（6分）在“探究凸透镜成像规律”实验中：",
+   "figures": [
+    "figs/2021-m26-1.png"
+   ]
+  },
+  {
+   "id": "m27",
+   "text": "（4分）如图15甲是探究海波熔化时温度的变化规律的装置。",
+   "figures": [
+    "figs/2021-m27-1.png"
+   ]
+  },
+  {
+   "id": "m28",
+   "text": "（4分）如图16甲是“探究电流与电阻的关系”的实验电路图，实验器材有：电源（输出电压为$6\\ \\text{V}$）、电流表、电压表、滑动变阻器和开关各一个，定值电阻5个（$5\\ \\Omega$、$10\\ \\Omega$、$15\\ \\Omega$、$20\\ \\Omega$、$25\\ \\Omega$）和导线若干。",
+   "figures": [
+    "figs/2021-m28-1.png"
+   ]
+  },
+  {
+   "id": "m29",
+   "text": "（6分）用两节干电池、两个开关、一个电压表、一只阻值为$20\\ \\Omega$的定值电阻$R_0$、导线若干，测量未知电阻$R_x$的阻值，电路实物图如图17甲所示。",
+   "figures": [
+    "figs/2021-m29-1.png"
+   ]
+  },
+  {
+   "id": "m30",
+   "text": "（8分）科学选种是提高粮食产量的关键环节。小华想测量稻谷种子的密度，具体做法如下：",
+   "figures": [
+    "figs/2021-m30-1.png"
+   ]
+  },
+  {
+   "id": "m31",
+   "text": "（6分）一辆5G无人配送车，质量为$400\\ \\text{kg}$，轮胎与路面的总接触面积为$0.025\\ \\text{m}^2$，在水平路面上匀速行驶时受到的阻力是车重的$0.05$倍。如图19是配送车某次运动的路程与时间图象。求：",
+   "figures": [
+    "figs/2021-m31-1.png"
+   ]
+  },
+  {
+   "id": "m32",
+   "text": "（6分）如图20是某电蒸锅的内部简化电路图，$R_1$、$R_2$均为发热电阻，$R_1$的阻值为$484\\ \\Omega$，加热档功率为$1\\,200\\ \\text{W}$。用此电蒸锅对质量为$1.2\\ \\text{kg}$的水加热使其温度升高$75\\ ℃$，需要的时间为$375\\ \\text{s}$，已知$c_水=4.2\\times10^{3}\\ \\text{J/(kg}\\cdot℃)$。求：",
+   "figures": [
+    "figs/2021-m32-1.png"
+   ]
+  },
+  {
+   "id": "m33",
+   "text": "（8分）为节约用水，小华为农场的储水箱设计了一个自动抽水控制装置。如图21，水箱高为$1\\ \\text{m}$，容积为$0.8\\ \\text{m}^3$。在空水箱底部竖直放置一重$5\\ \\text{N}$的长方体，长方体高为$1\\ \\text{m}$、底面积为$0.02\\ \\text{m}^2$，上端通过绝缘轻杆与控制电路的压敏电阻$R$接触，此时压敏电阻受到的压力为零。压敏电阻$R$的阻值随压力$F$的增大而减小，部分数据如下表。控制电路电源电压$U=12\\ \\text{V}$，定值电阻$R_0$为保护电阻。当控制电路的电流$I\\geq0.5\\ \\text{A}$时，电磁铁将衔铁吸合，工作电路断开，水泵停止给储水箱抽水。\n\n| 压力$F$/N | 180 | 185 | 190 | 195 | 200 |\n|---|---|---|---|---|---|\n| 压敏电阻$R$/Ω | 18 | 17 | 16 | 14 | 12 |",
+   "figures": [
+    "figs/2021-m33-1.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "wuli-2021-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "历史上第一个成功研究热和功关系及电流的热效应，为能量守恒定律的建立奠定坚实实验基础的科学家是",
+   "options": [
+    "A. 焦耳",
+    "B. 安培",
+    "C. 伏特",
+    "D. 欧姆"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.method.history",
+    "wuli.power.joule"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "满怀深情的歌声“唱支山歌给党听”从教室内传出，江老师隔着墙便能判断出是小华在唱歌，其依据是声音的",
+   "options": [
+    "A. 响度",
+    "B. 音调",
+    "C. 音色",
+    "D. 音速"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.sound.features"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "小华在家学做菜，厨房里菜香四溢，这个现象说明",
+   "options": [
+    "A. 分子间存在空隙",
+    "B. 分子间存在引力",
+    "C. 分子间存在斥力",
+    "D. 分子不停地做无规则运动"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.thermal.molecule"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "图1画中题有李白《早发白帝城》诗句，诗中能估算出速度大小的一句是",
+   "options": [
+    "A. 朝辞白帝彩云间",
+    "B. 千里江陵一日还",
+    "C. 两岸猿声啼不住",
+    "D. 轻舟已过万重山"
+   ],
+   "figures": [
+    "figs/2021-4-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.motion.speed"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列发电站利用不可再生能源发电的是",
+   "options": [
+    "A. 核电站",
+    "B. 风力发电站",
+    "C. 水力发电站",
+    "D. 太阳能发电站"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.energy.sources"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "图2是运动员跳水的情景，下列关于运动员对跳板的压力的说法正确的是",
+   "options": [
+    "A. 可以使跳板发生形变",
+    "B. 其施力物体是地球",
+    "C. 一定等于运动员的重力",
+    "D. 可以改变运动员的运动状态"
+   ],
+   "figures": [
+    "figs/2021-6-1.png"
+   ],
+   "answer": "A",
+   "kp": [
+    "wuli.force.concept",
+    "wuli.force.elastic"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "下列关于水沸腾时的说法正确的是",
+   "options": [
+    "A. 继续加热，水温不断升高",
+    "B. 继续加热，沸点不断升高",
+    "C. 气泡上升过程中体积变大",
+    "D. 气泡上升过程中压强不变"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.heat.vaporization",
+    "wuli.pressure.liquid"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2021-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "让滑块从斜面滑下，逐渐减小水平面的粗糙程度，测量滑块在水平面上的运动距离，探究“运动物体如果不受其他物体的作用，会一直运动下去吗”。下列做法能获得结论的是",
+   "options": [
+    "A. 坚持不懈进行多次实验探究",
+    "B. 改进实验装置进行实验探究",
+    "C. 调整实验方案进行实验探究",
+    "D. 在实验基础上进行合理推理"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.mf.exp_newton1",
+    "wuli.method.inquiry"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图3，《天工开物》中描述了古代劳动人民在田间割稻、脱粒等情景，下列说法**错误**的是",
+   "options": [
+    "A. 把镰刀口磨锋利是为了增大压强",
+    "B. 木桶底面积较大是为了减小压力",
+    "C. 用力击稻是为了利用惯性脱粒",
+    "D. 撑开稻草晾晒是为了加快蒸发"
+   ],
+   "figures": [
+    "figs/2021-9-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.pressure.solid",
+    "wuli.mf.inertia",
+    "wuli.heat.vaporization"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2021-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "用纸巾摩擦过的塑料吸管可以吸引纸屑，此过程中",
+   "options": [
+    "A. 通过摩擦创造了电荷",
+    "B. 吸管和纸巾带同种电荷",
+    "C. 正电荷在吸管和纸巾间转移",
+    "D. 负电荷在吸管和纸巾间转移"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.circuit.charge"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-11",
+   "no": "11",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "跳绳也可以“发电”。用一根带有绝缘皮的长铜导线做跳绳，将它的两端与固定在地面上的灵敏电流计相连，摇动跳绳时，发现灵敏电流计的指针左右摆动。则",
+   "options": [
+    "A. 向任意方向摇绳均可产生电流",
+    "B. 电流方向与绳子运动方向无关",
+    "C. 此过程中机械能转化为电能",
+    "D. 跳绳发电属于电流的磁效应"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.magnet.induction"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2021-12",
+   "no": "12",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "小华在操场进行爬杆锻炼，在竖直杆上攀爬，匀速向上运动时受到的摩擦力大小为$f_1$，匀速向下运动时受到的摩擦力大小为$f_2$。若小华的自重为$G$，则",
+   "options": [
+    "A. $f_1=f_2>G$",
+    "B. $f_1=f_2<G$",
+    "C. $f_1=f_2=G$",
+    "D. $f_1>G>f_2$"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.mf.balance",
+    "wuli.force.friction"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2021-13",
+   "no": "13",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "缺电地方的人们发明了一种陶制的罐中罐“冰箱”，内外罐之间填有沙子，如图4。盛夏季节里，有利于给“冰箱”中食物降温的做法是",
+   "options": [
+    "A. 换用铁质材料制作内外罐",
+    "B. 经常给两罐间的沙子浇水",
+    "C. 把“冰箱”放在密闭房间内",
+    "D. 把“冰箱”放在湿热环境中"
+   ],
+   "figures": [
+    "figs/2021-13-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.heat.vaporization"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-14",
+   "no": "14",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "图5是红外线测温仪原理示意图，$R$是热敏电阻，其阻值随温度的升高而减小，定值电阻$R_0$为保护电阻。下列分析正确的是",
+   "options": [
+    "A. 显示仪是由电流表改装成的",
+    "B. 测较高温度时，$R_0$两端的电压较大",
+    "C. 增大$R_0$的阻值，可增大测温仪的最大测量值",
+    "D. 增大电源电压，可增大测温仪的最大测量值"
+   ],
+   "figures": [
+    "figs/2021-14-1.png"
+   ],
+   "answer": "B",
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.ohm.dynamic"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2021-15",
+   "no": "15",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图6，向右匀速行驶的动车桌面上有杯水，一束光斜射到水面上，保持入射光方向不变，动车减速时",
+   "options": [
+    "A. 入射角不变，折射角不变",
+    "B. 入射角变小，折射角变小",
+    "C. 入射角变大，折射角变大",
+    "D. 入射角变大，折射角变小"
+   ],
+   "figures": [
+    "figs/2021-15-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "wuli.light.refraction",
+    "wuli.mf.inertia"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2021-16",
+   "no": "16",
+   "section": "选择题",
+   "type": "choice",
+   "score": 2,
+   "stem": "如图7电路，电源电压保持不变，滑动变阻器$R$标有“$30\\ \\Omega\\ \\ 1\\ \\text{A}$”，定值电阻$R_0$的阻值为$10\\ \\Omega$，小灯泡L标有“$6\\ \\text{V}\\ \\ 3.6\\ \\text{W}$”（电阻不随温度而变化），电流表的量程为$0\\sim3\\ \\text{A}$。当S闭合，$\\text{S}_1$、$\\text{S}_2$断开，滑片P移到$R$的中点时，小灯泡恰好正常发光。在保证电路安全的前提下，电路消耗总功率的最小值与最大值之比是",
+   "options": [
+    "A. 1∶4",
+    "B. 1∶8",
+    "C. 2∶7",
+    "D. 3∶20"
+   ],
+   "figures": [
+    "figs/2021-16-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "wuli.power.power",
+    "wuli.ohm.law",
+    "wuli.ohm.dynamic"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2021-17",
+   "no": "17",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "2021年5月30日，天舟二号货运飞船与天和核心舱实现自主快速交会对接。对接过程运用北斗系统完成远距离自主快速测定轨，其间信息的传递是依靠____实现的。天舟二号与天和核心舱形成结合体后一起运行，以天和核心舱为参照物，天舟二号是____的。",
+   "answer": "电磁波；静止",
+   "kp": [
+    "wuli.energy.em_wave",
+    "wuli.motion.relative"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-18",
+   "no": "18",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "电熨斗熨衣服是通过____的方式改变内能，提高衣服和其中水的温度。穿上熨好的衣服照镜子时，平面镜中的像与人大小____。",
+   "answer": "热传递；相同",
+   "kp": [
+    "wuli.thermal.internal_energy",
+    "wuli.light.plane_mirror"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-19",
+   "no": "19",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "我国南极泰山站采用轻质材料装配而成，为了避免被强横风吹动移位，支架上悬空部分结构特点如图8，其上方空气的流速____下方的流速，上方的压强____下方的压强，使房屋更加牢固。",
+   "figures": [
+    "figs/2021-19-1.png"
+   ],
+   "answer": "小于；大于",
+   "kp": [
+    "wuli.pressure.fluid_speed"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2021-20",
+   "no": "20",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "某手机电池容量为$4\\,200\\ \\text{mAh}$，电池电压为$3.7\\ \\text{V}$。用一个标有“输出$5\\ \\text{V}\\ \\ 4\\ \\text{A}$”的快速充电器，将手机电池从零电量充满，充电效率为$84\\%$，需要____min。快充充电线比普通手机充电线要粗一些，这是因为正常工作时，通过快充充电线的____较大。",
+   "answer": "55.5；电流",
+   "kp": [
+    "wuli.power.energy",
+    "wuli.thermal.efficiency",
+    "wuli.power.joule"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2021-21",
+   "no": "21",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "如图9照明电路中电灯突然熄灭，用试电笔测a、b、c点，试电笔均发亮，测试d点不亮，故障是____；试电笔发亮时，火线、试电笔、人体与大地构成____联电路。",
+   "figures": [
+    "figs/2021-21-1.png"
+   ],
+   "answer": "cd段断路；串",
+   "kp": [
+    "wuli.home.circuit",
+    "wuli.ohm.fault"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2021-22",
+   "no": "22",
+   "section": "填空题",
+   "type": "blank",
+   "score": 2,
+   "stem": "如图10，将一边长为$10\\ \\text{cm}$的正方体木块放入装有某液体的圆柱形容器中。木块静止时露出液面的高度为$2\\ \\text{cm}$，液面比放入前升高$1\\ \\text{cm}$，容器底部受到液体的压强变化了$80\\ \\text{Pa}$，则木块底部受到液体压强为____Pa，木块受到的浮力为____N。",
+   "figures": [
+    "figs/2021-22-1.png"
+   ],
+   "answer": "640；6.4",
+   "kp": [
+    "wuli.pressure.liquid",
+    "wuli.buoyancy.archimedes"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "wuli-2021-23",
+   "no": "23",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "在图11中画出使用铡刀时动力$F$的力臂$l$。",
+   "figures": [
+    "figs/2021-23-1.png"
+   ],
+   "answer": "如下图（另一种画法见第二张答案图，官方以“或”并列）",
+   "answer_figures": [
+    "figs/2021-23-ans.png",
+    "figs/2021-23-ans2.png"
+   ],
+   "kp": [
+    "wuli.machine.lever"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "wuli-2021-24",
+   "no": "24",
+   "section": "作图题",
+   "type": "draw",
+   "score": 2,
+   "stem": "如图12，当闭合开关S后，用细线悬挂的条形磁体与通电螺线管相互吸引，请在图中虚线上标出磁感线的方向，并在括号内标出条形磁体左端的极性。",
+   "figures": [
+    "figs/2021-24-1.png"
+   ],
+   "answer": "如下图",
+   "answer_figures": [
+    "figs/2021-24-ans.png"
+   ],
+   "kp": [
+    "wuli.magnet.current_field",
+    "wuli.magnet.basics"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2021-25",
+   "no": "25",
+   "section": "简答题",
+   "type": "short",
+   "score": 4,
+   "stem": "2021年5月15日，搭载“祝融号”火星车的探测器天问一号经历“黑色九分钟”，从约2万千米/小时的速度降至0千米/小时，顺利着陆火星表面。天问一号在进入火星大气层以后首先借助火星大气，进行气动减速，这个过程要克服高温的影响。接着天问一号打开降落伞进行伞系减速，然后通过反推发动机向下喷气进行动力减速。在距离火星表面100米时，天问一号进入悬停阶段，然后缓速下降抵达火星表面。\n\n(1)任选一个减速过程，写出其中所包含的一个物理知识；\n\n(2)为什么天问一号可以在火星表面上方处于悬停状态？",
+   "figures": [
+    "figs/2021-25-1.png"
+   ],
+   "answer": "(1)气动减速：受到大气摩擦力的作用；力可以改变物体的运动状态；减速过程中机械能转化为内能；\n伞系减速：受到大气的阻力作用；力可以改变物体的运动状态；减速过程中机械能转化为内能；\n动力减速：向下喷气对天问一号产生向上的反推力；力可以改变物体的运动状态；力的作用是相互的；减速过程中机械能转化为内能。\n(2)天问一号受到喷气的反推力与天问一号受到火星的吸引力（“火星重力”）是一对平衡力，天问一号处于平衡状态。",
+   "kp": [
+    "wuli.mf.balance",
+    "wuli.mf.force_motion",
+    "wuli.force.concept"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "wuli-2021-26-1",
+   "no": "26(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "将蜡烛、凸透镜和光屏依次安装在光具座上，点燃蜡烛，调整它们的高度，使烛焰中心、透镜光心和光屏中心在____。",
+   "answer": "同一高度",
+   "kp": [
+    "wuli.lens.exp_convex"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-26-2",
+   "no": "26(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m26",
+   "stem": "如图14甲所示，光屏上成清晰的像。由光路可逆可以推断，保持蜡烛和光屏的位置不变，只移动透镜到____cm刻度处，光屏上可再次成清晰____、倒立的实像。",
+   "answer": "55；缩小",
+   "kp": [
+    "wuli.lens.exp_convex",
+    "wuli.lens.imaging"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-26-3",
+   "no": "26(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m26",
+   "stem": "实验一段时间后，原来在光屏中心的像“跑”到光屏上方，如图14乙所示位置。能让像重新回到光屏中心的操作是____。（填序号）\n\n①光屏下调　②蜡烛上调　③透镜上调",
+   "answer": "②",
+   "kp": [
+    "wuli.lens.exp_convex"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-26-4",
+   "no": "26(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m26",
+   "stem": "实验中，光屏上成模糊的像，如果蜡烛和透镜位置不变，将光屏往凸透镜方向靠近，光屏上能成清晰的像；如果蜡烛、凸透镜和光屏位置不变，在蜡烛与凸透镜之间放上一个合适的凹透镜，光屏上也能成清晰的像。上述现象说明凹透镜对光具有____作用。____视眼的矫正与上述成像过程类似。",
+   "answer": "发散；近",
+   "kp": [
+    "wuli.lens.exp_convex",
+    "wuli.lens.eye",
+    "wuli.lens.basics"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-27-1",
+   "no": "27(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "按自下而上的顺序安装装置，便于调整石棉网的高度，确保能用____进行加热，提高效率。",
+   "answer": "酒精灯外焰",
+   "kp": [
+    "wuli.heat.exp_melting"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-27-2",
+   "no": "27(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "取适量的海波装进试管中，将试管放在盛水的烧杯内加热并搅拌海波，其好处是使海波____。",
+   "answer": "受热均匀",
+   "kp": [
+    "wuli.heat.exp_melting"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-27-3",
+   "no": "27(3)",
+   "section": "实验题",
+   "type": "draw",
+   "score": 1,
+   "material": "m27",
+   "stem": "每隔1 min记录海波的温度，并将数据在坐标图中进行描点，如图15乙。请根据描点作出海波熔化时温度随时间变化的图象。",
+   "answer": "如右图",
+   "answer_figures": [
+    "figs/2021-27-ans.png"
+   ],
+   "kp": [
+    "wuli.heat.exp_melting",
+    "wuli.heat.melting"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-27-4",
+   "no": "27(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m27",
+   "stem": "分析图象可得海波熔化时的温度特点：____。",
+   "answer": "温度保持不变",
+   "kp": [
+    "wuli.heat.exp_melting",
+    "wuli.heat.melting"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-28-1",
+   "no": "28(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m28",
+   "stem": "连接电路，闭合开关，电流表指针偏到零刻度线左边，如图16乙，原因是____。",
+   "answer": "电流表正负接线柱接反",
+   "kp": [
+    "wuli.ohm.exp_iv",
+    "wuli.circuit.current"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-28-2",
+   "no": "28(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m28",
+   "stem": "正确连接电路，用上述5个定值电阻进行实验得到5组数据，作出电流与电阻的关系图象如图16丙。实验中定值电阻两端的电压保持____V，滑动变阻器的最大阻值应不小于____$\\Omega$。",
+   "answer": "2；50",
+   "kp": [
+    "wuli.ohm.exp_iv",
+    "wuli.ohm.law"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-28-3",
+   "no": "28(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m28",
+   "stem": "为了更直观地表示电压不变时电流与电阻的关系，可以改变横坐标，处理数据后画出电流$I$与____的关系图线。",
+   "answer": "电阻$R$的倒数$\\dfrac{1}{R}$",
+   "kp": [
+    "wuli.ohm.exp_iv"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-29-1",
+   "no": "29(1)",
+   "section": "实验题",
+   "type": "draw",
+   "score": 1.5,
+   "material": "m29",
+   "stem": "用笔画线代替导线将图17甲中的电压表接在$R_0$两端。",
+   "answer": "如右图",
+   "answer_figures": [
+    "figs/2021-29-ans.png"
+   ],
+   "kp": [
+    "wuli.ohm.exp_special_r",
+    "wuli.circuit.drawing"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-29-2",
+   "no": "29(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1.5,
+   "material": "m29",
+   "stem": "正确连接电路，闭合开关$\\text{S}_1$和S。电压表示数如图17乙，为____V。",
+   "answer": "2.8",
+   "kp": [
+    "wuli.ohm.exp_special_r",
+    "wuli.circuit.voltage"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-29-3",
+   "no": "29(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1.5,
+   "material": "m29",
+   "stem": "断开$\\text{S}_1$，闭合S，电压表示数为$1.4\\ \\text{V}$，则$R_x=$____$\\Omega$。",
+   "answer": "20",
+   "kp": [
+    "wuli.ohm.exp_special_r",
+    "wuli.ohm.law"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-29-4",
+   "no": "29(4)",
+   "section": "实验题",
+   "type": "draw",
+   "score": 1.5,
+   "material": "m29",
+   "stem": "若没有电压表，只有一个电流表，其余元件不变，设计并在方框内画出测量$R_x$阻值的电路图（要求电路连接后不能再拆接）。",
+   "answer": "如下图（示例）",
+   "answer_figures": [
+    "figs/2021-29-ans2.png"
+   ],
+   "kp": [
+    "wuli.ohm.exp_special_r",
+    "wuli.circuit.drawing"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-30-1",
+   "no": "30(1)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m30",
+   "stem": "用调好的天平测量适量稻谷种子的总质量$m_1$，天平平衡时右盘砝码质量和游码在标尺上的位置如图18甲所示，$m_1=$____g。",
+   "answer": "153",
+   "kp": [
+    "wuli.density.exp_solid",
+    "wuli.density.mass"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-30-2",
+   "no": "30(2)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 1,
+   "material": "m30",
+   "stem": "往量筒中加入适量的水，测得其体积$V_1$为$300\\ \\text{mL}$，将上述种子放入量筒中，种子全部沉入水中，如图18乙所示，此时水和种子的总体积$V_2=$____mL。",
+   "answer": "400",
+   "kp": [
+    "wuli.density.exp_solid"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-30-3",
+   "no": "30(3)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 4,
+   "material": "m30",
+   "stem": "种子的密度$\\rho=$____$\\text{g/cm}^3$，与真实值相比$\\rho$偏____，理由是____。",
+   "answer": "1.53；大；种子浸没水中，由于吸水，测得其体积偏小",
+   "kp": [
+    "wuli.density.exp_solid",
+    "wuli.density.concept"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定（官方只给整题8分，第(3)问3空含一条理由，推定4分）"
+  },
+  {
+   "id": "wuli-2021-30-4",
+   "no": "30(4)",
+   "section": "实验题",
+   "type": "blank",
+   "score": 2,
+   "material": "m30",
+   "stem": "小华经过反思后改进了实验方案：将量筒中种子倒出，用纸巾吸干种子表面的水后，再次测得种子总质量为$m_2$，则种子密度$\\rho'=$____。（用$\\rho_水$和测得的物理量符号表示）",
+   "answer": "$\\dfrac{m_1\\rho_水}{m_2-m_1+(V_2-V_1)\\rho_水}$",
+   "kp": [
+    "wuli.density.exp_solid",
+    "wuli.density.application"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-31-1",
+   "no": "31(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m31",
+   "stem": "10 min内配送车的平均速度。",
+   "answer": "配送车10 min的平均速度$v=\\dfrac{s}{t}=\\dfrac{1\\,200\\ \\text{m}}{600\\ \\text{s}}=2\\ \\text{m/s}$",
+   "kp": [
+    "wuli.motion.speed"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-31-2",
+   "no": "31(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m31",
+   "stem": "配送车匀速行驶时的牵引力。",
+   "answer": "$G=mg=400\\ \\text{kg}\\times10\\ \\text{N/kg}=4\\,000\\ \\text{N}$\n\n配送车匀速行驶时的牵引力$F_1=f=0.05G=0.05\\times4\\,000\\ \\text{N}=200\\ \\text{N}$",
+   "kp": [
+    "wuli.mf.balance",
+    "wuli.force.gravity"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-31-3",
+   "no": "31(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m31",
+   "stem": "配送车对水平地面的压强。",
+   "answer": "配送车对水平地面的压力$F=G=4\\,000\\ \\text{N}$\n\n配送车对水平地面的压强$p=\\dfrac{F}{S}=\\dfrac{4\\,000\\ \\text{N}}{0.025\\ \\text{m}^2}=1.6\\times10^{5}\\ \\text{Pa}$",
+   "kp": [
+    "wuli.pressure.solid"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-32-1",
+   "no": "32(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m32",
+   "stem": "保温档的功率。",
+   "answer": "只闭合$\\text{S}_1$时，只有$R_1$接入电路，电蒸锅处于保温档\n\n$P_保=\\dfrac{U^2}{R_1}=\\dfrac{(220\\ \\text{V})^2}{484\\ \\Omega}=100\\ \\text{W}$",
+   "kp": [
+    "wuli.power.gears",
+    "wuli.power.power"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-32-2",
+   "no": "32(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m32",
+   "stem": "电阻$R_2$的阻值。",
+   "answer": "当$\\text{S}_1$、$\\text{S}_2$均闭合时，$R_1$、$R_2$并联，电蒸锅处于加热档\n\n$P_2=P_热-P_保=1\\,200\\ \\text{W}-100\\ \\text{W}=1\\,100\\ \\text{W}$\n\n$R_2=\\dfrac{U^2}{P_2}=\\dfrac{(220\\ \\text{V})^2}{1\\,100\\ \\text{W}}=44\\ \\Omega$",
+   "kp": [
+    "wuli.power.gears",
+    "wuli.power.power"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-32-3",
+   "no": "32(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m32",
+   "stem": "电蒸锅的加热效率。",
+   "answer": "$Q=cm\\Delta t=4.2\\times10^{3}\\ \\text{J/(kg}\\cdot℃)\\times1.2\\ \\text{kg}\\times75\\ ℃=3.78\\times10^{5}\\ \\text{J}$\n\n$W=P_热t=1\\,200\\ \\text{W}\\times375\\ \\text{s}=4.5\\times10^{5}\\ \\text{J}$\n\n该电蒸锅的效率$\\eta=\\dfrac{Q}{W}\\times100\\%=\\dfrac{3.78\\times10^{5}\\ \\text{J}}{4.5\\times10^{5}\\ \\text{J}}\\times100\\%=84\\%$",
+   "kp": [
+    "wuli.thermal.efficiency",
+    "wuli.thermal.specific_heat",
+    "wuli.power.energy"
+   ],
+   "difficulty": 2,
+   "note": "小问分值按官方答案得分点推定"
+  },
+  {
+   "id": "wuli-2021-33-1",
+   "no": "33(1)",
+   "section": "计算题",
+   "type": "short",
+   "score": 2,
+   "material": "m33",
+   "stem": "若水泵的额定功率为$440\\ \\text{W}$，正常工作时通过的电流是多少？",
+   "answer": "由图可知，水泵正常工作时电压为$220\\ \\text{V}$\n\n由$P=UI$得$I_1=\\dfrac{P}{U_1}=\\dfrac{440\\ \\text{W}}{220\\ \\text{V}}=2\\ \\text{A}$",
+   "kp": [
+    "wuli.power.power"
+   ],
+   "difficulty": 1,
+   "note": "小问分值按官方答案得分点推定（官方只给整题8分，按各问计算步骤多少推定为2/3/3）"
+  },
+  {
+   "id": "wuli-2021-33-2",
+   "no": "33(2)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m33",
+   "stem": "要使储水箱装满水时水泵恰能自动停止工作，$R_0$应为多少？",
+   "answer": "$F_浮=\\rho_水V_排g=1.0\\times10^{3}\\ \\text{kg/m}^3\\times0.02\\times1\\ \\text{m}^3\\times10\\ \\text{N/kg}=200\\ \\text{N}$\n\n$F_压=F_浮-G=200\\ \\text{N}-5\\ \\text{N}=195\\ \\text{N}$\n\n由表中可知，$R_压=14\\ \\Omega$\n\n$R_总=\\dfrac{U}{I}=\\dfrac{12\\ \\text{V}}{0.5\\ \\text{A}}=24\\ \\Omega$\n\n$R_0=R_总-R_压=24\\ \\Omega-14\\ \\Omega=10\\ \\Omega$",
+   "kp": [
+    "wuli.ohm.sensor",
+    "wuli.buoyancy.archimedes",
+    "wuli.magnet.electromagnet"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定（官方只给整题8分，按各问计算步骤多少推定为2/3/3）"
+  },
+  {
+   "id": "wuli-2021-33-3",
+   "no": "33(3)",
+   "section": "计算题",
+   "type": "short",
+   "score": 3,
+   "material": "m33",
+   "stem": "从水箱顶部给空水箱注满水的过程中，水的重力所做的功是多少？",
+   "answer": "当空水箱注满水时\n\n$m_水=\\rho_水(V_箱-V_1)=1.0\\times10^{3}\\ \\text{kg/m}^3\\times(0.8\\ \\text{m}^3-0.02\\times1\\ \\text{m}^3)=780\\ \\text{kg}$\n\n$W=\\dfrac{1}{2}m_水gh=\\dfrac{1}{2}\\times780\\ \\text{kg}\\times10\\ \\text{N/kg}\\times1\\ \\text{m}=3\\,900\\ \\text{J}$",
+   "kp": [
+    "wuli.work.work",
+    "wuli.density.concept"
+   ],
+   "difficulty": 3,
+   "note": "小问分值按官方答案得分点推定（官方只给整题8分，按各问计算步骤多少推定为2/3/3）"
+  }
+ ]
+}

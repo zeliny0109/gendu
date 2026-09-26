@@ -1,0 +1,776 @@
+{
+ "subject": "huaxue",
+ "year": 2023,
+ "source": "福建省教育考试院《2023年福建省初中学业水平考试试题、参考答案》（福州市教育局转载）https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/tzgg_47642/202306/P020230626469034567775.pdf",
+ "total": 100,
+ "minutes": 60,
+ "note": "相对原子质量：H 1　N 14　O 16　Na 23　Mg 24　I 127。非选择题小问分值为按福建阅卷惯例估算，官方只给大题总分。",
+ "materials": [
+  {
+   "id": "m11",
+   "text": "福建盛产茶叶，茶文化源远流长。为了了解茶叶的组成和作用，学习小组查得某茶叶样品的成分及含量如下图所示：",
+   "figures": [
+    "figs/2023-m11-1.png"
+   ]
+  },
+  {
+   "id": "m12",
+   "text": "中国科学家首次从月壤样品中发现新矿物——嫦娥石。学习小组查得资料：嫦娥石是从月壤样品的 14 万个颗粒中，利用针尖和颗粒之间静电吸附作用，分离出的一个粒径约 $1.0\\times10^{-5}$ m 的单晶颗粒，其化学式为 $\\mathrm{Ca_9NaMg(PO_4)_7}$。请和小组同学一起研究。"
+  },
+  {
+   "id": "m13",
+   "text": "为研究化学药物发展史，学习小组查得资料：\n\n材料 1　早在宋代，轻粉（$\\mathrm{Hg_2Cl_2}$）已是我国的一种重要药物，其制作方法之一是使用古方药小还丹和食盐等物质在固体状态下共热，收集升华出的白色粉末，即为轻粉。其中有一个反应是在加热条件下硫酸亚汞（$\\mathrm{Hg_2SO_4}$）和氯化钠反应生成硫酸钠和轻粉。\n\n材料 2　轻粉微溶于水，可用作治疗疥疮的药物，在光照射下容易分解成汞和氯化汞。\n\n根据资料整理下列有关轻粉的知识卡片。"
+  },
+  {
+   "id": "m14",
+   "text": "为研究溶解度曲线的应用，学习小组查得资料：某钢铁厂处理高盐废水（含氯化钠、硫酸钠及微量的其他盐）的流程、相关物质的溶解度曲线如下图所示。请和小组同学一起研究。",
+   "figures": [
+    "figs/2023-m14-1.png"
+   ]
+  },
+  {
+   "id": "m15",
+   "text": "为探析化学反应的微观过程，学习小组查得资料：福建学者揭示了硼基催化剂催化甲烷与氧气反应生成 X、Y 和 Z 等的过程，局部过程的微观示意图如下（“…”表示省略相关过程）。请和小组同学一起研究。（图例：小灰球为 H，黑球为 C，白球为 O）",
+   "figures": [
+    "figs/2023-m15-1.png"
+   ]
+  },
+  {
+   "id": "m16",
+   "text": "为完成“自制酸碱指示剂”实践性作业，学习小组开展如下活动。\n\n【查阅资料】某品种菊花的色素提取液具有如下特性：\n\n| 色素提取液 | 滴入酸中 | 滴入水中 | 滴入碱中 |\n|---|---|---|---|\n| 紫色 | 红色 | 紫色 | 黄色 |\n\n（表头“滴入酸中/滴入水中/滴入碱中”为“变色情况”）\n\n【动手操作】\n取该品种菊花的新鲜花瓣放入研钵中捣烂，移入容器中，加入乙醇，搅拌后浸泡约 10 min，再加入等体积蒸馏水混合并过滤，得到的色素提取液即为自制酸碱指示剂。"
+  },
+  {
+   "id": "m17",
+   "text": "为完成“研究钢铁防护的方法”的实践性作业，学习小组查得资料：钢铁膜化处理是钢铁防护的重要方法，其目的是在钢铁表面形成致密、均匀的保护膜。检验膜的抗腐蚀性能要做“滴铜实验”，即往钢铁表面滴加含硫酸铜的腐蚀剂，60 s 后钢铁表面才出现红色物质，表明抗腐蚀性能达标，且越迟出现红色物质的越好。请和小组同学使用某种膜化剂开展如下研究。"
+  },
+  {
+   "id": "m18",
+   "text": "为求证“喝反复烧开的饮用水会造成亚硝酸盐中毒”的真伪，学习小组以煮沸 52 次的桶装水为水样，利用下述反应测定亚硝酸盐的含量（以 $\\mathrm{NaNO_2}$ 计）：\n\n$\\mathrm{2NaNO_2 + 2KI + 2H_2SO_4 \\xlongequal{} 2NO\\uparrow + I_2 + 2H_2O + K_2SO_4 + Na_2SO_4}$\n\n结果表明，1 L 水样反应时产生了 $5.08\\times10^{-3}$ mg 的 $\\mathrm{I_2}$。"
+  }
+ ],
+ "questions": [
+  {
+   "id": "huaxue-2023-1",
+   "no": "1",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "自来水厂将天然水净化为饮用水，**无需**进行的操作是",
+   "options": [
+    "A. 降温结晶",
+    "B. 絮凝沉降",
+    "C. 杀菌消毒",
+    "D. 细沙滤水"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.water.purification"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-2",
+   "no": "2",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列制造手机用到的材料中，属于有机合成材料的是",
+   "options": [
+    "A. 钛合金",
+    "B. 硅晶体",
+    "C. 玻璃",
+    "D. 塑料"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.life.materials"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-3",
+   "no": "3",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "气凝胶是一种密度特别小的新型固体材料。下列制备气凝胶的物质属于氧化物的是",
+   "options": [
+    "A. 碳化硅",
+    "B. 铜",
+    "C. 二氧化硅",
+    "D. 石墨"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.matter.classify"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-4",
+   "no": "4",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列过程中，利用了化学反应产生的能量的是",
+   "options": [
+    "A. 海水晒盐",
+    "B. 干冰制冷",
+    "C. 风力发电",
+    "D. 火箭发射"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.fuel.energy",
+    "huaxue.intro.change"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-5",
+   "no": "5",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "在“氧气的实验室制取与性质”实验中，下列装置或操作**不正确**的是",
+   "options": [
+    "A. 检查气密性",
+    "B. 制备氧气",
+    "C. 收集氧气",
+    "D. 蜡烛燃烧"
+   ],
+   "figures": [
+    "figs/2023-5-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.o2.lab_prep",
+    "huaxue.intro.basic_ops",
+    "huaxue.lab.gas_apparatus"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-6",
+   "no": "6",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "国家规定教室内空气中二氧化碳的最高允许浓度为 0.15%。下列是某学习小组对教室内二氧化碳浓度的检测和相应结果处理的措施，**不正确**的是",
+   "options": [
+    "A. 从教室不同位置多点采集空气样品",
+    "B. 将盛有澄清石灰水的烧杯置于教室一段时间进行测定",
+    "C. 测得二氧化碳浓度为 0.28%，说明二氧化碳浓度超标",
+    "D. 为避免二氧化碳浓度超标，教室应多通风换气"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.air.pollution",
+    "huaxue.inquiry.design_eval",
+    "huaxue.carbon.co2_properties"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-7",
+   "no": "7",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列是某同学整理实验室的做法，**不正确**的是",
+   "options": [
+    "A. 实验后的废液直接倒入下水道",
+    "B. 洗涤后的试管倒放在试管架上晾干",
+    "C. 实验剩余药品放入指定容器",
+    "D. 归类整理试剂瓶并使标签朝外"
+   ],
+   "answer": "A",
+   "kp": [
+    "huaxue.intro.lab_safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-8",
+   "no": "8",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "消防用自动感温喷淋头结构如右下图所示。当喷淋头附近温度升高到喷淋头的设定值时，丙三醇将热敏玻璃球胀破，喷淋头自动喷水灭火。下列说法**不正确**的是",
+   "options": [
+    "A. 热敏玻璃球能迅速将外界的热量传递给丙三醇",
+    "B. 玻璃球胀破的原因是丙三醇分子间的间隔变大",
+    "C. 喷水灭火的原理是水降低了可燃物的着火点",
+    "D. 日常生活中应避免热源靠近自动感温喷淋头"
+   ],
+   "figures": [
+    "figs/2023-8-1.png"
+   ],
+   "answer": "C",
+   "kp": [
+    "huaxue.fuel.combustion",
+    "huaxue.struct.particles",
+    "huaxue.fuel.safety"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-9",
+   "no": "9",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "下列根据实验证据进行的推理，正确的是",
+   "options": [
+    "A. 电解烧杯中的水，两电极均产生气泡，可推测水的化学式为 $\\mathrm{H_2O}$",
+    "B. 向氢氧化钠溶液样品中加入稀盐酸，产生气泡，可推测样品已变质",
+    "C. 在火焰上方罩干冷的烧杯，内壁出现水雾，可推测该可燃物含有氧元素",
+    "D. 铜丝浸入硝酸银溶液中，出现银白色固体，可推测铜的金属活动性比银的弱"
+   ],
+   "answer": "B",
+   "kp": [
+    "huaxue.inquiry.design_eval",
+    "huaxue.acid.bases",
+    "huaxue.eq.conservation"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-10",
+   "no": "10",
+   "section": "选择题",
+   "type": "choice",
+   "score": 3,
+   "stem": "分别加热等质量的两种样品，固体质量随温度变化的曲线如下图所示。样品 1 反应前后各物质的质量如下表。分离出样品 1 反应后的固体乙，与 24.0 g 甲混合并加热，固体质量变化曲线与样品 1 的相同。下列说法正确的是\n\n| 物质 | 甲 | 乙 | 丙 | 丁 |\n|---|---|---|---|---|\n| 反应前质量/g | 24.0 | 2.0 | 0 | 0 |\n| 反应后质量/g | 0 | 2.0 | $x$ | 1.9 |",
+   "options": [
+    "A. 该反应是复分解反应",
+    "B. $x$＝20.1",
+    "C. 该条件下丙和丁均为气体",
+    "D. 乙是催化剂"
+   ],
+   "figures": [
+    "figs/2023-10-1.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.eq.conservation",
+    "huaxue.o2.catalyst",
+    "huaxue.inquiry.data_analysis"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2023-11-1",
+   "no": "11(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m11",
+   "stem": "茶叶属于____（填“纯净物”或“混合物”），其中含量最高的基本营养素是____。",
+   "answer": "混合物　蛋白质",
+   "kp": [
+    "huaxue.matter.classify",
+    "huaxue.life.nutrients"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-11-2",
+   "no": "11(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m11",
+   "stem": "茶多酚具有强血管、降血脂的作用。某种茶多酚的化学式为 $\\mathrm{C_6H_6O_2}$，其氢、氧元素的质量比为____。",
+   "answer": "3∶16",
+   "kp": [
+    "huaxue.formula.calc"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-11-3",
+   "no": "11(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m11",
+   "stem": "茶叶含氟较高，对预防龋齿有一定效果。这里的“氟”指的是____（填“元素”或“单质”）。",
+   "answer": "元素",
+   "kp": [
+    "huaxue.struct.element",
+    "huaxue.life.elements_health"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-11-4",
+   "no": "11(4)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m11",
+   "stem": "茶叶中的硒有防癌作用。硒在元素周期表中的部分信息如右图所示，硒原子的核外电子数为____。",
+   "figures": [
+    "figs/2023-11-4.png"
+   ],
+   "answer": "34",
+   "kp": [
+    "huaxue.struct.periodic_table",
+    "huaxue.struct.atom"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-12-1",
+   "no": "12(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m12",
+   "stem": "嫦娥石的吸附分离过程属于____（填“物理变化”或“化学变化”）。",
+   "answer": "物理变化",
+   "kp": [
+    "huaxue.intro.change"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-12-2",
+   "no": "12(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m12",
+   "stem": "嫦娥石由____种元素组成。",
+   "answer": "5",
+   "kp": [
+    "huaxue.formula.calc",
+    "huaxue.struct.element"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-12-3",
+   "no": "12(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 5,
+   "material": "m12",
+   "stem": "围绕“人类在月球上生活”的话题，展开月球上嫦娥石应用的讨论：\n\n① 助力农业生产：嫦娥石可作为生产____（填“氮肥”“磷肥”或“钾肥”）的原料。\n\n② 提炼金属单质：若用 107.2 g 嫦娥石提炼金属镁，最多可得镁的质量为____g（嫦娥石的相对分子质量为 1 072）。\n\n③ 展望更多应用：根据嫦娥石的组成推测，其可能另有的用途是____（填一种）。",
+   "answer": "① 磷肥\n② 2.4\n③ 制取氧气（或其他合理答案）",
+   "kp": [
+    "huaxue.formula.calc",
+    "huaxue.salt.fertilizer",
+    "huaxue.society.frontier"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-13-1",
+   "no": "13(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m13",
+   "stem": "物理性质：____（填一条）。",
+   "answer": "微溶于水（或其他合理答案）",
+   "kp": [
+    "huaxue.intro.property_use"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-13-2",
+   "no": "13(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m13",
+   "stem": "化学性质：____。",
+   "answer": "光照下容易分解（或其他合理答案）",
+   "kp": [
+    "huaxue.intro.property_use"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-13-3",
+   "no": "13(3)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 4,
+   "material": "m13",
+   "stem": "制法：\n\n① 为保证小还丹与食盐等固体充分反应，可采取的措施是____（填一条）。\n\n② 加热条件下，硫酸亚汞与氯化钠反应的化学方程式为____。",
+   "answer": "① 将固体研磨成粉末（或其他合理答案）\n② $\\mathrm{Hg_2SO_4 + 2NaCl \\xlongequal{\\triangle } Na_2SO_4 + Hg_2Cl_2}$",
+   "kp": [
+    "huaxue.eq.writing",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-13-4",
+   "no": "13(4)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m13",
+   "stem": "保存方法：____。",
+   "answer": "避光保存（或其他合理答案）",
+   "kp": [
+    "huaxue.intro.property_use"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-13-5",
+   "no": "13(5)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m13",
+   "stem": "用途：____。",
+   "answer": "用作治疗疥疮的药物",
+   "kp": [
+    "huaxue.intro.property_use",
+    "huaxue.society.culture"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-14-1",
+   "no": "14(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m14",
+   "stem": "废水中的硫酸钠是氢氧化钠和硫酸反应的生成物，化学方程式为____。",
+   "answer": "$\\mathrm{2NaOH + H_2SO_4 \\xlongequal{} Na_2SO_4 + 2H_2O}$",
+   "kp": [
+    "huaxue.acid.neutralization",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-14-2",
+   "no": "14(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m14",
+   "stem": "当温度高于____℃时，硫酸钠的溶解度随温度升高而降低。",
+   "answer": "40",
+   "kp": [
+    "huaxue.sol.solubility"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-14-3",
+   "no": "14(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m14",
+   "stem": "40 ℃ 时，将 50 g 硫酸钠固体加入 100 g 水中，充分搅拌后所得溶液的溶质质量分数为____（列出计算式即可）。",
+   "answer": "$\\dfrac{48.4\\ \\mathrm{g}}{48.4\\ \\mathrm{g}+100\\ \\mathrm{g}}\\times 100\\%$",
+   "kp": [
+    "huaxue.sol.concentration",
+    "huaxue.sol.solubility"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-14-4",
+   "no": "14(4)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m14",
+   "stem": "降温至 0 ℃ 的“冷冻结晶”过程，析出的两种物质中较多的是____。",
+   "answer": "$\\mathrm{Na_2SO_4}$（或硫酸钠）",
+   "kp": [
+    "huaxue.sol.saturation",
+    "huaxue.sol.solubility",
+    "huaxue.inquiry.process"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-14-5",
+   "no": "14(5)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m14",
+   "stem": "结合溶解度曲线解释，“蒸发结晶 2”主要得到氯化钠的原因是____。",
+   "answer": "0 ℃ 时，硫酸钠溶解度明显小于氯化钠，经“冷冻结晶”后的母液 2 中，硫酸钠含量低，氯化钠含量高",
+   "kp": [
+    "huaxue.sol.solubility",
+    "huaxue.inquiry.process",
+    "huaxue.sol.saturation"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2023-15-1",
+   "no": "15(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m15",
+   "stem": "主要成分为甲烷的化石燃料是____（填一种）。",
+   "answer": "天然气（或其他合理答案）",
+   "kp": [
+    "huaxue.fuel.fossil"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-15-2",
+   "no": "15(2)",
+   "section": "非选择题",
+   "type": "draw",
+   "score": 2,
+   "material": "m15",
+   "stem": "X 为一氧化碳分子，参照上图，画出该分子的微观示意图：____。",
+   "answer": "![](figs/2023-15-2-ans.png)（一个黑球与一个白球相连）",
+   "kp": [
+    "huaxue.eq.micro_diagram",
+    "huaxue.formula.symbols"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-15-3",
+   "no": "15(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m15",
+   "stem": "$\\mathrm{B_2O_3}$ 中氧元素的化合价为 -2，则硼元素的化合价为____。",
+   "answer": "+3",
+   "kp": [
+    "huaxue.formula.valence"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-15-4",
+   "no": "15(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m15",
+   "stem": "甲烷与氧气在催化剂作用下生成 Z 和水，反应的化学方程式为____。",
+   "answer": "$\\mathrm{CH_4 + O_2 \\xlongequal{催化剂} CH_2O + H_2O}$",
+   "kp": [
+    "huaxue.eq.micro_diagram",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2023-15-5",
+   "no": "15(5)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m15",
+   "stem": "生成 Y 的过程如图中虚线框所示，且各微粒数比为 1∶1∶1∶1，则 Y 的化学式为____。",
+   "answer": "$\\mathrm{C_2H_6}$",
+   "kp": [
+    "huaxue.eq.micro_diagram",
+    "huaxue.eq.conservation"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2023-16-1",
+   "no": "16(1)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m16",
+   "stem": "“搅拌”的作用是____。",
+   "answer": "促进色素溶解",
+   "kp": [
+    "huaxue.sol.formation",
+    "huaxue.acid.indicator"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-16-2",
+   "no": "16(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m16",
+   "stem": "若在实验室开展过滤操作，下列玻璃仪器**无需**用到的是____（填标号）。",
+   "figures": [
+    "figs/2023-16-2.png"
+   ],
+   "answer": "D",
+   "kp": [
+    "huaxue.intro.basic_ops"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-16-3",
+   "no": "16(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m16",
+   "stem": "为验证自制酸碱指示剂在酸、碱性溶液中的颜色变化效果，可选择生活中常见的两种物质是____、____。",
+   "answer": "白醋（或其他合理答案）　肥皂水（或其他合理答案）",
+   "kp": [
+    "huaxue.acid.indicator",
+    "huaxue.acid.ph"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-16-4",
+   "no": "16(4)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 7,
+   "material": "m16",
+   "stem": "【实践应用】\n用自制酸碱指示剂检验二氧化碳溶于水所得溶液的酸碱性。\n\n① 用右图所示装置制备二氧化碳。\n\na. 反应的化学方程式为____。\n\nb. 应选择的试剂是____（填“浓盐酸”或“稀盐酸”）。\n\nc. 将块状石灰石放入试管的操作是____。\n\n② 将二氧化碳通入水中一段时间，向所得溶液滴入自制酸碱指示剂，溶液变____色。",
+   "figures": [
+    "figs/2023-16-4.png"
+   ],
+   "answer": "① a. $\\mathrm{CaCO_3 + 2HCl \\xlongequal{} CaCl_2 + H_2O + CO_2\\uparrow}$\nb. 稀盐酸\nc. 先把试管横放，用镊子夹取石灰石放在试管口后，再慢慢竖立试管\n② 红",
+   "kp": [
+    "huaxue.carbon.co2_prep",
+    "huaxue.carbon.co2_properties",
+    "huaxue.intro.basic_ops"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-17-1",
+   "no": "17(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m17",
+   "stem": "Ⅰ. 验证膜的抗腐蚀性能\n【实验 1】将有膜化和未膜化的薄钢片分别进行滴铜实验，有膜化的薄钢片出现红色物质的时间明显推迟。\n\n（1）出现红色物质的原因是____（用化学方程式表示）。",
+   "answer": "$\\mathrm{Fe + CuSO_4 \\xlongequal{} FeSO_4 + Cu}$",
+   "kp": [
+    "huaxue.metal.chem",
+    "huaxue.eq.writing"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-17-2",
+   "no": "17(2)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "有膜化的薄钢片出现红色物质的时间明显推迟，其原因是____。",
+   "answer": "腐蚀剂将致密保护膜破坏需要一定的时间（或其他合理答案）",
+   "kp": [
+    "huaxue.metal.corrosion",
+    "huaxue.inquiry.data_analysis"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-17-3",
+   "no": "17(3)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m17",
+   "stem": "Ⅱ. 探究膜化条件对膜层外观的影响\n【实验 2】其他条件相同时，将薄钢片放入 pH＝3、不同温度的膜化剂中浸泡 20 min，观察钢片表面形成的膜层外观。结果如下：\n\n| 温度/℃ | 50 | 60 | 70 | 80 |\n|---|---|---|---|---|\n| 膜层外观 | 粗糙 | 致密、均匀 | 致密、均匀 | 粗糙 |\n\n【实验 3】已知 pH≥3.5 时，膜化剂不稳定。其他条件相同时，将薄钢片放入 60 ℃、不同 pH 的膜化剂中浸泡 20 min，观察钢片表面形成的膜层外观。结果如下：\n\n| pH | 1.5 | 2.0 | 2.5 | 3.0 |\n|---|---|---|---|---|\n| 膜层外观 | 易脱落 | 粗糙 | 致密、均匀 | 致密、均匀 |\n\n（3）实验 3 的目的是____。",
+   "answer": "探究不同 pH 的膜化剂对膜层外观的影响",
+   "kp": [
+    "huaxue.inquiry.control_variable"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "huaxue-2023-17-4",
+   "no": "17(4)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 2,
+   "material": "m17",
+   "stem": "根据实验 2、实验 3 的结果，膜层外观符合要求的温度、pH 的范围依次为____、____。",
+   "answer": "60～70 ℃　2.5～3.0",
+   "kp": [
+    "huaxue.inquiry.data_analysis",
+    "huaxue.inquiry.control_variable"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-17-5",
+   "no": "17(5)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 3,
+   "material": "m17",
+   "stem": "Ⅲ. 确定抗腐蚀性能较好的膜化条件\n【实验 4】依次选取实验 2、实验 3 膜层外观符合要求的钢片进行对比实验，分别确定适宜的温度、pH。\n\n（5）实验 4 中，确定适宜温度的实验方案是____。",
+   "answer": "取 60 ℃、70 ℃ 膜化处理后的钢片，分别进行滴铜实验，观察并记录钢片表面从滴入腐蚀剂到开始出现红色物质的时间",
+   "kp": [
+    "huaxue.inquiry.control_variable",
+    "huaxue.inquiry.design_eval",
+    "huaxue.metal.corrosion"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "huaxue-2023-17-6",
+   "no": "17(6)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 2,
+   "material": "m17",
+   "stem": "Ⅳ. 实践反思\n反思上述实践活动，提出一个关于钢铁膜化处理可进一步探究的问题。\n答：____。",
+   "answer": "膜化剂浓度对钢铁膜化处理效果有何影响（或其他合理答案）",
+   "kp": [
+    "huaxue.inquiry.design_eval",
+    "huaxue.metal.corrosion"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-18-1",
+   "no": "18(1)",
+   "section": "非选择题",
+   "type": "short",
+   "score": 5,
+   "material": "m18",
+   "stem": "计算 1 L 水样中 $\\mathrm{NaNO_2}$ 的质量。",
+   "answer": "解：设 1 L 水样中 $\\mathrm{NaNO_2}$ 的质量为 $x$。\n\n$\\mathrm{2NaNO_2 + 2KI + 2H_2SO_4 \\xlongequal{} 2NO\\uparrow + I_2 + 2H_2O + K_2SO_4 + Na_2SO_4}$\n\n138　　　　　　　　　254\n\n$x$　　　　　　　　$5.08\\times10^{-3}$ mg\n\n$\\dfrac{138}{254}=\\dfrac{x}{5.08\\times10^{-3}\\ \\mathrm{mg}}$\n\n$x = 2.76\\times10^{-3}$ mg\n\n答：1 L 水样中 $\\mathrm{NaNO_2}$ 的质量是 $2.76\\times10^{-3}$ mg。",
+   "kp": [
+    "huaxue.eq.calc"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "huaxue-2023-18-2",
+   "no": "18(2)",
+   "section": "非选择题",
+   "type": "blank",
+   "score": 1,
+   "material": "m18",
+   "stem": "查阅《食品安全国家标准（GB 2762－2022）》，经换算，合格饮用水中 $\\mathrm{NaNO_2}$ 的含量应低于 $7.50\\times10^{-3}$ mg·L$^{-1}$。结合计算结果，得出的结论是：喝反复烧开的饮用水____（填“会”或“不会”）造成亚硝酸盐中毒。",
+   "answer": "不会",
+   "kp": [
+    "huaxue.eq.calc",
+    "huaxue.life.elements_health"
+   ],
+   "difficulty": 1
+  }
+ ]
+}
