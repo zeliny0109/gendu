@@ -58,6 +58,7 @@
    "questions": 221,
    "kps": 75,
    "lessons": true,
+   "types": true,
    "listening": []
   },
   {
@@ -118,6 +119,7 @@
    "questions": 267,
    "kps": 75,
    "lessons": true,
+   "types": true,
    "listening": []
   },
   {
@@ -178,6 +180,7 @@
    "questions": 728,
    "kps": 103,
    "lessons": true,
+   "types": true,
    "listening": [
     2025
    ]
@@ -234,6 +237,7 @@
    "questions": 357,
    "kps": 109,
    "lessons": true,
+   "types": true,
    "listening": []
   },
   {
@@ -288,6 +292,7 @@
    "questions": 274,
    "kps": 67,
    "lessons": true,
+   "types": true,
    "listening": []
   },
   {
@@ -348,6 +353,7 @@
    "questions": 286,
    "kps": 94,
    "lessons": true,
+   "types": true,
    "listening": []
   },
   {
@@ -402,6 +408,7 @@
    "questions": 259,
    "kps": 111,
    "lessons": true,
+   "types": true,
    "listening": []
   }
  ]

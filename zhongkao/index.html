@@ -66,6 +66,7 @@ button{font:inherit;color:inherit}
 .sub .m{font-size:.8rem;color:var(--muted);margin:6px 0 4px}
 .task{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line);cursor:pointer;text-decoration:none;color:var(--ink)}
 .task:first-of-type{border-top:none}
+.task.card{padding:12px 14px;border-top:1px solid var(--line)}
 .task .tt{flex:1;min-width:0}
 .task .tt b{font-weight:500}
 .task .tt span{display:block;font-size:.8rem;color:var(--muted)}
@@ -202,6 +203,11 @@ async function loadLessons(id) {
   if (S.lessons === null) S.lessons = S.meta.lessons ? await getJSON(`data/${id}/lessons.json`).catch(() => ({})) : {};
   return S.lessons;
 }
+async function loadTypes(id) {
+  const S = await loadSubject(id);
+  if (!S.types) S.types = S.meta.types ? await getJSON(`data/${id}/types.json`).catch(() => ({ types: [] })) : { types: [] };
+  return S.types;
+}
 const subjOfQ = qid => qid.split('-')[0];
 const subjOfKp = kpid => kpid.split('.')[0];
 
@@ -286,6 +292,7 @@ async function route() {
     if (!h[0]) return home();
     if (h[0] === 's') return subjectPage(h[1], h[2] || 'map');
     if (h[0] === 'k') return kpPage(h[1]);
+    if (h[0] === 't') return typePage(h[1]);
     if (h[0] === 'practice') return practice(h[1], h[2], h[3]);
     if (h[0] === 'wrong') return wrongPage();
     if (h[0] === 'set') return settings();
@@ -343,7 +350,7 @@ async function subjectPage(id, tab) {
   const S = await loadSubject(id);
   setTop(S.meta.name, true);
   const sm = subjSummary(S);
-  const tabs = `<div class="seg" id="tabs">${[['map', '考点地图'], ['papers', '历年真题']].map(([k, n]) => `<button data-t="${k}" class="${k === tab ? 'on' : ''}">${n}</button>`).join('')}</div>`;
+  const tabs = `<div class="seg" id="tabs">${[['map', '考点地图'], ...(S.meta.types ? [['types', '题型攻略']] : []), ['papers', '历年真题']].map(([k, n]) => `<button data-t="${k}" class="${k === tab ? 'on' : ''}">${n}</button>`).join('')}</div>`;
   let body = '';
   if (tab === 'map') {
     const sort = store.get('zk:sort', 'book');
@@ -365,12 +372,19 @@ async function subjectPage(id, tab) {
         return `<details class="mod" open><summary>${esc(m.name)}<span class="pill">约 ${sc.toFixed(0)} 分/年</span></summary>${ks.map(row).join('')}</details>`;
       }).join('');
     }
+  } else if (tab === 'types') {
+    const T = await loadTypes(id);
+    const acc = t => { const r = t.qs.map(lastRes).filter(x => x !== null); return r.length ? `做过 ${r.length}/${t.qs.length} · 得分率 ${pct(r.reduce((a, b) => a + b, 0) / r.length)}` : `${t.qs.length} 道历年真题`; };
+    body = `<p class="small muted" style="margin:0 2px 10px">按试卷顺序，一张卡讲一个固定题位怎么拿分，可以把历年同一位置的题连着练。</p>
+      ${T.strategy ? `<details class="card"><summary><b>整卷策略</b> <span class="small muted">时间分配 · 做题顺序 · 检查</span></summary><div class="md" id="strat" style="margin-top:8px">${md(T.strategy, `data/${id}/`)}</div></details>` : ''}
+      ${T.types.map(t => `<a class="task card" style="display:flex" href="#/t/${t.id}"><span class="tt"><b>${esc(t.name)}</b><span>${esc(t.pos || '')}${t.score && !/分/.test(t.pos || '') ? ' · ' + t.score + ' 分' : ''}${t.minutes ? ' · 建议 ' + t.minutes + ' 分钟' : ''}</span><span>${acc(t)}</span></span>›</a>`).join('')}`;
   } else {
     body = S.meta.years.slice().reverse().map(y => `<a class="task card" style="display:flex" href="#/practice/paper/${id}/${y.year}"><span class="tag">${String(y.year).slice(2)}</span>
       <span class="tt"><b>${y.year} 年福建中考${S.meta.name}</b><span>${y.n} 题${y.total ? ' · ' + y.total + ' 分' : ''}${y.minutes ? ' · ' + y.minutes + ' 分钟' : ''}</span></span>›</a>
       ${(S.meta.listening || []).includes(y.year) ? `<a class="btn sm" style="margin:-6px 0 14px" href="#/practice/listen/${id}/${y.year}">🎧 只做这一年的听力（20 题）</a>` : ''}`).join('');
   }
   view.innerHTML = tabs + body;
+  if ($('#strat')) typeset($('#strat'), id);
   $('#tabs').onclick = e => { const b = e.target.closest('button'); if (b) location.replace(`#/s/${id}/${b.dataset.t}`); };
   const so = $('#sort'); if (so) so.onclick = e => { const b = e.target.closest('button'); if (b) { store.set('zk:sort', b.dataset.s); subjectPage(id, tab); } };
 }
@@ -401,6 +415,21 @@ async function kpPage(kpid) {
   $('#lrn').onchange = e => { LEARN[kpid] = e.target.checked; store.set('zk:learn', LEARN); };
 }
 
+/* ================= 题型卡 ================= */
+async function typePage(tid) {
+  const id = subjOfKp(tid);
+  const T = await loadTypes(id), S = SUBJ[id];
+  const t = T.types.find(x => x.id === tid);
+  if (!t) { view.innerHTML = '<p class="empty">没有这个题型</p>'; return; }
+  setTop(t.name, true);
+  const done = t.qs.filter(q => lastRes(q) !== null);
+  view.innerHTML = `<div class="card small muted">${S.meta.name} · ${esc(t.pos || '')}${t.score ? ' · ' + t.score + ' 分' : ''}${t.minutes ? ' · 建议用时 ' + t.minutes + ' 分钟' : ''}<br>
+      历年同类题 ${t.qs.length} 道，做过 ${done.length} 道${done.length ? '，得分率 ' + pct(done.reduce((a, q) => a + lastRes(q), 0) / done.length) : ''}</div>
+    <div class="card md" id="tmd">${md(t.md, `data/${id}/`)}</div>
+    <div class="row"><a class="btn pri" href="#/practice/type/${tid}">按这个方法，把历年同类题连着练（${t.qs.length} 题）</a></div>`;
+  typeset($('#tmd'), id);
+}
+
 /* ================= 做题 ================= */
 let P = null;
 async function practice(mode, a, b) {
@@ -410,6 +439,9 @@ async function practice(mode, a, b) {
     qids = k.st.qs.slice().sort((x, y) => (lastRes(x) ?? -1) - (lastRes(y) ?? -1)); title = k.name;
   } else if (mode === 'paper') {
     const S = await loadPapers(a); qids = S.papers[b].questions.map(q => q.id); title = `${b} ${S.meta.name}`;
+  } else if (mode === 'type') {
+    const id = subjOfKp(a); const T = await loadTypes(id); await loadPapers(id);
+    const t = T.types.find(x => x.id === a); qids = t ? t.qs.slice() : []; title = t ? t.name : '题型';
   } else if (mode === 'listen') {
     const S = await loadPapers(a); qids = S.papers[b].questions.filter(q => q.type === 'listening').map(q => q.id); title = `${b} 英语听力`;
   } else if (mode === 'diag') {
